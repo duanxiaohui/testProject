@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<!-- |||||||||||||||||下面这个是页面标题，必须修改||||||||||||||||| -->
+<title>任务内容</title>
+<!-- |||||||||||||||||上面这个是页面标题，必须修改||||||||||||||||| -->
+
+<meta name="format-detection" content="telephone=no">
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<script>document.documentElement.style.webkitUserSelect='none';document.documentElement.style.webkitTouchCallout='none';</script>
+<link rel="stylesheet" href="http://www.365rili.com/pages/ui-lib/css/ui-lib.css">
+<link href="http://www.365rili.com/task/style/main.css" rel="stylesheet">
+</head>
+<body>
+	<div class="main">
+
+		<div class="contain">
+
+			<!-- 正文段落 -->
+
+			<p>如今不只老年人被失眠困扰，年轻人也因为种种压力夜不能寐，颠倒了黑夜白天。</p>
+
+			<p>偷偷告诉你：睡前一杯奶，失眠从此变路人，不信你试试！（内心os：试试就试试）</p>
+			
+
+			<!-- 图片 -->
+			<img src="images/henai.jpg" width="100%" alt="">
+			
+			<!-- 正文段落 -->
+			<!-- 正文段落 -->
+			<p>牛奶有助于人们更快的进入梦乡主要是由于牛奶中有一种氨基酸物质——色氨酸，是一种天然的安神镇静剂，能调节神经、稳定情绪，达到精神放松。在睡前20～30分钟饮用为宜，因为饮牛奶后需要一段时间才能起到安神助眠的作用。此外，喝完牛奶一定要刷牙，以防产生蛀牙。</p>
+			
+			<p>【小贴士】<br>失眠是一种疾病，所以要采取有效的缓解措施，如果失眠严重，需尽快到医院进行诊治。</p>
+
+		</div>
+
+		<!-- +++++++++++++++++下面的这个只能在下面这里粘贴，不能放到上面去+++++++++++++++++ -->
+		
+		<!-- 任务详情 -->
+		<div class="detail">
+			任务详情：添加任务后，365日历会为您添加日程，每天固定时间提醒您喝牛奶。您可以自己设置提醒时间。
+		</div>
+
+		<!-- 
+			以下形式的随便删，随便加：
+				1： <img src="images/demo1.jpg" width="100%" alt="">
+				2： <p>当你刚学会说话的时候，他们一整天都在教你说话，不厌其烦。</p>
+				3:  <div class="detail">
+						任务详情：添加任务后，365日历会为您添加日程，每周固定时间提醒您给爸妈打电话。您可以自己设置提醒时间。
+					</div>
+
+			其他的必须留着，而且不允许修改！！
+
+			图片地址编写方式：
+				images/图片名称.jpg
+
+			在页面所在文件夹里放一个images文件夹
+		 -->
+
+	</div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/app.js"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script src="http://www.365rili.com/task/js/task.js"></script>
+</body>
+</html>

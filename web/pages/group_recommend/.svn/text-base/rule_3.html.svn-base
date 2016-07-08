@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>通关秘籍</title>
+<link href="/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link rel="stylesheet" href="/pages/group_recommend/dist/css/rule.css">
+</head>
+<body>
+    <div class="rule_3">
+    	<h2>什么样的群组更容易获得入驻资格？</h2>
+    	<h4>能长期持续的更新和维护群组</h4>
+    	<p>要认可群组日历模式，且有长远运营计划，三天打鱼两天晒网的群组可不受用户待见哦。</p>
+    	<h4>内容有清晰的定位，且与时间有关系</h4>
+    	<p>可参考学习“日历群组”模块-“热门群组”里的电影首映会、国家看con团、足球迷俱乐部等优秀案例。</p>
+		<h4>日历名称、简介、头像和背景图搞的妥妥的</h4>
+    	<p>名称和简介要言简意赅，头像和背景图不说要特别高大上，但起码要清晰有意义。。</p>
+		<h4>已经正常运营了至少7天，且发布了不少于5天的日程</h4>
+    	<p>这样更有利于审核人员发现您的闪光点，加快审核效率。</p>
+		<h4>日程详情内容有排版意识，清爽且方便阅读</h4>
+    	<p>排版功能暂时较少，但做到清爽且方便阅读还是比较容易的，比如文字统一左对齐、段落间空一行，配图清晰，时间、地点等信息设置完整等。</p>
+    </div>
+</body>
+</html>

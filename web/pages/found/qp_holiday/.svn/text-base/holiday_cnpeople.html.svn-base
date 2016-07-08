@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>看遍祖国的人山人海</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/holiday_cnpeople/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>中国人口日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>端午假期刚过，正在看这篇文章的你，出去游玩了么？估计每个出去游玩的人，在人挤人的时候，心中的所想所见都是这幅对联：</p>
+            <p class="mt15"></p>
+            <strong>上联：世界那么大，我想去看看； 路上那么堵，想想都痛苦！</strong> <br/>
+            <strong>下联：钱包那么小，哪都去不了； 景点那么贵，问问都心碎！</strong>
+            
+            <p class="mt15"></p>
+            <p>如果你去北上广逛街消费，如果你去各个景区吃吃转转，那么人山人海肯定是必不可免的，估计你肯定想过“中国人口怎么这么多啊？！”这个想法！而今天也就是中国人口日了！</p>
+            <img src="images/holiday_cnpeople/holiday_1.jpg"/>
+            
+            <h3>【中国人口现在是什么情况？】</h3>
+
+            <p>鉴于我国现在这么庞大的人口，所以每年的6月11日就被定为中国人口日。如果你以为人口增长只是一条笔直的直线的话，那么你就错了，来看看数据：1981年中国人口达到10亿，1988年超过11亿，1995年突破12亿，1998年底为12.48亿，占世界人口的21%。2005年突破13亿。</p>
+           
+            <img src="images/holiday_cnpeople/holiday_2.jpg"/>
+
+            <p>尽管当前中国人口自然增长率已降到1%以下，达到了世界人口发展大会提出的目标，但由于人口基数大，人均资源相对不足，在未来相当长时间里仍须坚持“控制人口增长、提高人口素质”的基本国策。</p>
+
+            <h3>【如果不控制人口会发生什么？】</h3>
+
+            <p>我国不仅是人口大国，同时还是世界老年人口最多的国家。在不到20年的时间便进入发达国家近百年才出现的人口老龄化状态，成为老龄化速度最快、老年人口最多的国家。中国60岁以上人口已占全世界的1/5。据中国老龄协会提供的数据，中国的人口老龄高峰将于2030年左右到来，并持续20余年。到21世纪中叶，60岁及以上的老年人可能超过4亿，特别引人注意的还有高龄化问题，80岁及以上的老年人将可能超过1亿，是如今的10倍左右，想一下，是不是感觉如果不控制人口的话，那么压力将会是数倍于此。</p>
+            <img src="images/holiday_cnpeople/holiday_3.jpg"/>
+            <div class="tips">
+                <p>1、虽然现在开放的二胎政策，但是保证人口的放缓增长还是必不可少哦；</p>
+                <p>2、如果不想出去人挤人的话，那么就买好零食酒水，跟好朋友或者恋人在家里好好地宅吧！</p>
+            </div>
+        
+		<!-- 
+			<p class="mt15"></p>
+		 -->    
+    	</div>
+        <div class="editor">编辑/Vanna</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

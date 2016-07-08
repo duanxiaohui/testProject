@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 张明臣 (vest0804@gamil.com)
+ * @date    2015-01-26 15:10:35
+ * @version 1.0
+ */
+body { background: #f5f5f5; color: #444; font: 12px / 1.5em "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑,SimSun,arial; margin: 0; padding:0;}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+*{-webkit-tap-highlight-color: rgba(0,0,0,0); tap-highlight-color: rgba(0,0,0,0);}
+a{text-decoration: none; }
+.none{display:none;}
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+
+
+body,html{height:100%;}
+.bar{height:43px; line-height:43px; text-align:center; background:#000; font-size:20px; color:#fff;}
+.return_btn{display:block; position:absolute; width:15px; height:15px; border:1px solid #fff; border-right:0; border-bottom:0; transform:rotate(-45deg); -webkit-transform:rotate(-45deg); left:15px; top:14px;}
+.share_btn{width:20px; height:20px; position: absolute; top:11px; right:15px; background:url(../images/share_btn.png) no-repeat; background-size:100% 100%;} 
+.weixin .bar{display:none;}
+.default{height:100%; background:url(../images/one.png) no-repeat center 10px; background-size:238px 320px;}
+.default a{position:absolute; width:260px; height:50px; line-height:50px; text-align:center; color:#fff; font-size:18px; background:#ff6c00; -webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+	transform: skew(-20deg); padding-right:20px;}
+.default a:after{content:" "; position:absolute; width:0;
+    height:0;
+    border-width:7px;
+    border-style:solid dashed dashed dashed;
+    border-color:#fff transparent transparent transparent; 
+	right:10px; top:23px;
+	}
+.default a.show_btn{left:20px; bottom:90px;}
+.default a.dog_btn{bottom:34px; right:20px; background:#64bcd6;}
+.show,.dog,.show_results,.dog_results,.show_bg,.dog_bg{position:relative;}
+.show，.dog{height:100%; }
+.dog_txt{width:159px; height:56px; background:url(../images/two_txt_1.png) no-repeat; background-size:159px 56px; position:absolute; top:50px; left:20px;}
+.dog .select_year,.dog .select_month,.dog .select_day{background:#36b3d2;}
+.dog .submit_btn{background:#36b3d2;}
+
+/*show背景*/
+.show_bg{width:100%; height:356px; background:url(../images/two.png) no-repeat center 30px; background-size:281px 326px;}
+/*dog背景*/
+.dog_bg{width:100%; height:356px; background:url(../images/one_1.png) no-repeat center 30px;background-size:281px 326px;}
+
+/*show第二部分 文字*/
+.show_txt{width:175px; height:53px; background:url(../images/one_txt_1.png) no-repeat; background-size:175px 53px; position:absolute; right:45px; bottom:30px;}
+/*show第三部分 文字*/
+.show_results_txt{width:147px; height:53px; background:url(../images/one_txt_2.png) no-repeat; background-size:147px 53px; position:absolute; right:100px; bottom:30px;}
+.show_results_div{margin:0 40px; background:#ff6d00; padding:; border-radius:5px; -webkit-border-radius:5px; padding:10px 20px;}
+.dog_results_div h3,.show_results_div h3{font-size:18px; color:#fff;  line-height:35px; text-align:center;}
+/*365日历LOGO*/
+.div_logo{display:inline-block; width:35px; height:35px;background:url(../images/logo.png) no-repeat left top; background-size:35px 35px; vertical-align: middle; margin-right:10px;}
+.dog_results_div{margin:0 40px; background:#36b3d2; border-radius:5px; -webkit-border-radius:5px; padding:10px 20px;}
+.dog_results_div h3 span{display:inline-block; line-height:35px;vertical-align: middle;}
+/*选择日期*/
+.select_date{width:265px; height:35px; margin:0 auto;}
+.select_year{float:left; width:95px; height:35px; background:#ff6c00; border-radius: 5px; -webkit-border-radius: 5px;}
+.select_month{float:left; width:80px; height:35px;background:#ff6c00; border-radius: 5px; -webkit-border-radius: 5px; margin:0 5px;}
+.select_day{float:left; width:80px; height:35px;background:#ff6c00; border-radius: 5px; -webkit-border-radius: 5px;}
+.select_date span.num_txt{float:left; height:35px; line-height:35px; color:#fff; text-align:center; font-size:15px;}
+.select_date span.txt{float:left; width:30px; height:35px; line-height:35px; color:#fff; border-left:1px solid #fff; text-align:center;font-size:15px;}
+.select_year span.num_txt{width:64px;font-size:15px; position:relative;}
+.select_month span.num_txt,.select_day span.num_txt{width:49px;font-size:15px;position:relative;}
+.select_year select{position:absolute; width:64px; height:35px; opacity: 0;top:0; left:0;}
+.select_day select,.select_month select{position:absolute; width:49px;height:35px; opacity: 0;top:0; left:0;}
+
+
+.dog .submit_btn{margin:8px auto;}
+.submit_btn{display:block;width:260px; height:50px; line-height:50px; text-align:center; color:#fff; font-size:18px; background:#ff6c00; -webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+	transform: skew(-20deg);
+	margin:20px auto;
+	position:relative;
+}
+.submit_btn:after{content:" "; position:absolute; width:0;
+    height:0;
+    border-width:7px;
+    border-style:solid dashed dashed dashed;
+    border-color:#fff transparent transparent transparent; 
+	right:10px; top:23px;
+	}
+.show_results{height:100%;}
+.dog_results{height:100%;}
+.dog_results_txt{position:absolute; width:135px; height:59px; background:url(../images/two_txt_2.png) no-repeat; background-size:135px 59px;top:50px; left:40px;}
+.results_txt{ margin:5px 0; padding-left:15px;}
+.results_txt p{font-size:18px; color:#fff; line-height:150%; padding:5px 0;}
+.results_txt p span{ color:#fc4e36; font-weight:600; font-size:18px; padding:2px 5px; background:#fff; border-radius:5px; -webkit-border-radius:5px; margin-right:5px;}
+.results_tips{margin:8px 0 8px 10px;color:#fff; font-size:16px; line-height:150%; text-align:left;}
+.dog_results .results_txt p span{color:#36b3d2; font-weight:600;}
+.dog_results .results_tips{background:#36b3d2;}
+.share_weinxin_btn{display:block; height:30px; line-height:30px; width:100%; background:#fff; border-radius:5px; -webkit-border-radius:5px; text-align:center;}
+.weixin_icon{display:inline-block; width:24px; height:24px; background:url(../images/weixin_icon.png) no-repeat; background-size:24px 24px; vertical-align: middle; margin-top:-3px; margin-right:5px;}
+.share_weinxin_btn p{display:inline-block; vertical-align: middle; line-height:30px; margin-top:-1px; color:#ff6d00; font-size:14px;}
+/*点击有惊喜*/
+.show_bg .btn{width:93px; height:93px; background:#36b3d2 url(../images/btn.png) no-repeat center center; background-size:52px 64px; border-radius:50px; -webkit-border-radius:50px; position:absolute; bottom:70px; right:20px;}
+.dog_bg .btn{width:93px; height:93px; background:#36b3d2 url(../images/btn.png) no-repeat center center; background-size:52px 64px; border-radius:50px; -webkit-border-radius:50px; position:absolute; bottom:50px; left:30px;}
+/*我也要玩*/
+.show_bg .my_play{width:93px; height:93px; background:#36b3d2 url(../images/my_play.png) no-repeat center center; background-size:60px 45px; border-radius:50px; -webkit-border-radius:50px; position:absolute; bottom:70px; right:20px;}
+.dog_bg .my_play{width:93px; height:93px; background:#36b3d2 url(../images/my_play.png) no-repeat center center; background-size:60px 45px; border-radius:50px; -webkit-border-radius:50px; position:absolute; bottom:50px; left:30px;}
+
+.btn:active{background-color:#6bcce4;}
+.show_results .btn{background-color:#ff6c00;}
+.show_results .btn:active{background-color:#fc9346;}
+.footer{width:100%; height:15px; position:absolute; bottom:15px; background:url(../images/footer.png) no-repeat center; background-size:57px 15px;}
+.share_layer{position:absolute; width:100%; height:100%; background:rgba(0,0,0,.8) url(../images/share_layer.png) no-repeat center 45px; background-size:contain; top:0; left:0; display:none;}
+
+@media (max-width: 768px) and (min-height: 480px){
+	/*屏幕高度大于480的手机*/
+  .default{height:100%; background:url(../images/one.png) no-repeat center 20px; background-size:238px 320px;}
+
+	/*show 第三部分图片描述*/
+	.show_results_txt{right:55px;}
+	/*show背景*/
+	.show_bg{width:100%; height:274px; background:url(../images/two.png) no-repeat center 20px; background-size:232px 274px;}
+	/*dog背景*/
+	.dog_bg{width:100%; height:274px; background:url(../images/one_1.png) no-repeat center 20px;background-size:232px 274px;}
+	.dog_results_div h3,.show_results_div h3{font-size:16px;}
+	.show_results_div,.dog_results_div{margin:0 40px; padding:5px 20px;}
+	.results_txt{padding-left:10px;}
+	.results_txt p{font-size:16px;}
+	.results_tips{margin:2px 0 2px 10px;}
+}
+@media(max-height: 480px){
+	/*屏幕高度小于480的手机*/
+	.default{height:100%; background:url(../images/one.png) no-repeat center 10px; background-size:224px 260px;}
+	/*show背景*/
+	.show_bg{width:100%; height:270px; background:url(../images/two.png) no-repeat center 10px; background-size:224px 260px;}
+	/*dog背景*/
+	.dog_bg{width:100%; height:270px; background:url(../images/one_1.png) no-repeat center 10px;background-size:224px 260px;}
+	.show_txt{right:25px;}
+	.dog_results_div,.show_results_div{margin:0 20px; padding:5px 20px;}
+	/*show 第三部分图片描述*/
+	.show_results_txt{right:25px; bottom:20px;}
+	/*show 第三部分文字*/
+	.dog_results_div h3,.show_results_div h3{font-size:18px;}
+	.results_txt p{font-size:15px;}
+	.results_txt p span{font-weight:600;}
+	.show_bg .btn{bottom:90px; right:5px;}
+	.dog_bg .btn{bottom:30px;}
+	/*第三步dog背景 iPhone4*/
+	.dog_three_bg{height:208px; background:url(../images/one_1.png) no-repeat center 10px; background-size:180px 208px;}
+	.show_three_bg{height:208px; background:url(../images/two.png) no-repeat center 10px; background-size:180px 208px;}
+	.dog_results_txt{top:15px;left:30px;}
+	/*show第二步按钮*/
+	.submit_btn{margin:8px auto;}
+	/*show第三部文字描述*/
+	.results_tips{font-size:14px; margin:3px 0;}
+	/*365日历LOGO*/
+	.div_logo{width:25px; height:25px; background-size:25px 25px;}
+	.dog_results_div h3 span{line-height:25px;}
+}
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone5 */
+	/*show背景*/
+	  .show_bg{width:100%; height:274px; background:url(../images/two.png) no-repeat center 20px; background-size:232px 274px;}
+	  /*dog背景*/
+	  .dog_bg{width:100%; height:274px; background:url(../images/one_1.png) no-repeat center 20px;background-size:232px 274px;}
+	.dog_results_div h3,.show_results_div h3{font-size:16px;}
+	.show_results_div,.dog_results_div{margin:0 10px; padding:5px 10px;}
+	.results_txt{padding-left:10px;}
+	.results_txt p{font-size:16px;}
+	.results_tips{margin:2px 0 2px 10px;}
+    
+}
+@media (device-width:375px) and (-webkit-min-device-pixel-ratio:2){
+/* 兼容iphone6 */
+	.default{height:100%; background:url(../images/one.png) no-repeat center 20px; background-size:338px 392px;}
+	/*show背景*/
+	.show_sec_bg{width:100%; height:456px; background:url(../images/two.png) no-repeat center 10px; background-size:393px 456px;}
+	.show_three_bg{width:100%; height:364px; background:url(../images/two.png) no-repeat center 10px; background-size:314px 364px;}
+	.dog_three_bg{width:100%; height:364px; background:url(../images/one_1.png) no-repeat center 10px; background-size:314px 364px;}
+	/*dog背景*/
+	.dog_sec_bg{width:100%; height:456px; background:url(../images/one_1.png) no-repeat center 10px;background-size:393px 456px;}
+
+	.show_results_div, .dog_results_div{padding:10px 20px; margin:0 20px;}
+	.share_weinxin_btn{padding:4px 0;}
+}
+
+@media (device-width:414px) and (-webkit-min-device-pixel-ratio:3.0){
+	/* 兼容iphone6 plus */
+	.default{height:100%; background:url(../images/one.png) no-repeat center 20px; background-size:393px 446px;}
+	.default a{font-size:20px;}
+	.default a.show_btn{left:20px; bottom:130px;}
+	.default a.dog_btn{bottom:65px; right:20px; background:#64bcd6;}
+
+	/*show背景*/
+	.show_bg{width:100%; height:410px; background:url(../images/two.png) no-repeat center 10px; background-size:353px 410px;}
+	/*dog背景*/
+	.dog_bg{width:100%; height:410px; background:url(../images/one_1.png) no-repeat center 10px;background-size:353px 410px;}
+
+	/*show第二部分 文字*/
+	.show_txt{right:105px; bottom:50px;}
+	/*show 第三部分图片描述*/
+	.results_txt{padding-left:60px;}
+	.results_tips{margin:3px 0 3px 10px;}
+	.show_results_txt{right:125px; bottom:50px;}
+	.show_results_div,.dog_results_div{margin:0 20px;}
+	.share_weinxin_btn{padding:8px 0;}
+
+}

@@ -1,0 +1,704 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 张明臣 (vest0804@gamil.com)
+ * @date    2015-06-04 09:44:01
+ * @version 1.0
+ */
+body { background: url(/pages/bd/dragonboat/images/index_bg.jpg) no-repeat; color: #444; font: 12px / 1.5em arial,"Microsoft YaHei", 微软雅黑; margin: 0; padding: 0;}
+
+html, body {
+-webkit-user-select: none; /* 禁止选中文本（如无文本选中需求，此为必选项） */
+user-select: none;
+background-size: 100% 100%; height:100%;
+}
+*{-webkit-tap-highlight-color: rgba(0,0,0,0); tap-highlight-color: rgba(0,0,0,0);}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; outline: none;}
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+a{text-decoration: none; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+
+
+.bar {
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    color: #000;
+    background: #fff;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    top: 0;
+    z-index: 99;
+    display: none;
+    position: fixed;
+}
+
+.weixin .bar {
+    display: block;
+}
+.weixin .main{
+    margin-top: 48px;
+}
+
+.return_btn {
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    border-right: 0;
+    border-bottom: 0;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    left: 15px;
+    top: 14px;
+}
+
+.share_btn{width:20px; height:20px; position: absolute; top:14px; right:15px; background:url(/pages/bd/2015_easter/images/share_btn.png) no-repeat; background-size:100% 100%;} 
+
+.bar_txt{margin:0 40px; height:48px; line-height:48px; text-align:center; overflow:hidden;text-overflow:ellipsis; white-space: nowrap;}
+
+
+/*第一页*/
+.btn_s{width:85px; height:87px; margin:0 auto; position:absolute; bottom: 20px; left: 50%; margin-left: -42px;}
+.btn_an{width:85px; height:87px; position:absolute; top:0; left:0; z-index:2; background:url(/pages/bd/dragonboat/images/an.png) no-repeat; background-size:100% 100%;}
+.dw_first_btn{width:72px; height:68px; position:absolute; top:50%; left:50%; margin:-34px 0 0 -36px; background:url(/pages/bd/dragonboat/images/btn.png) no-repeat; background-size:100% 100%; z-index:3; }
+
+.second{
+    background-image: url(/pages/bd/dragonboat/images/btn2.png);
+}
+
+.third{
+    background-image: url(/pages/bd/dragonboat/images/btn3.png);
+}
+
+.fourth{
+    background-image: url(/pages/bd/dragonboat/images/btn4.png);
+}
+
+
+/*包粽子*/
+.dw_seclect_bamboo{}
+.dw_progress_bar{margin:0 10px; padding:10px 25px; height:28px; position:relative; z-index: 2; background:url(/pages/bd/dragonboat/images/mak/bar_bg.png) no-repeat center center; background-size:100% auto;}
+.bar_start{width:25px; height:28px; position:absolute; left:0; top:6px; background:url(/pages/bd/dragonboat/images/mak/start_icon.png) no-repeat; background-size:100% 100%; z-index:3;}
+.bar_end{width:25px; height:28px; position:absolute; right:0; top:6px; background:url(/pages/bd/dragonboat/images/mak/end_icon.png) no-repeat; background-size:100% 100%; z-index:3;}
+.bar_progress_div{width:10%; height:28px; position:absolute; left:0; top:10px; background:url(/pages/bd/dragonboat/images/mak/progress_bg.jpg) repeat-x left center; z-index:2;
+
+    transition: all 1s;
+    -moz-transition: all 1s;
+    /* Firefox 4 */
+    
+    -webkit-transition: all 1s;
+    /* Safari 和 Chrome */
+    
+    -o-transition: all 1s;
+}
+.bar_icon{width:48px; height:28px; position:absolute; background:url(/pages/bd/dragonboat/images/mak/bar_icon.png) no-repeat left top; background-size:48px 20px; right:-25px; top:1px;}
+.dw_seclect_bamboo_txt{text-align:center; font-size:16px; color:#20480c; line-height:160%;}
+.dw_seclect_bamboo_list,.dw_seclect_rice_list{padding:10px;}
+.bamboo_1,.bamboo_2,.bamboo_3{width:26%;}
+.bamboo_1{float:left; margin-top: 10px;}
+.bamboo_2{float:right;}
+.bamboo_3{margin:26px auto 0;}
+.rice_1,.rice_2,.rice_3{width:25%;}
+.rice_1{float:left; margin-top:40px;}
+.rice_2{float:right; margin-top:40px;}
+.rice_3{margin:5px auto 0;}
+
+.dw_seclect_bamboo_list p,.dw_seclect_rice_list p{padding-top:10px; font-size:12px; color:#20480c; line-height:150%;}
+
+.dw_select_filling_txt{font-size:14px; color:#20480c; line-height:150%; text-align:center;}
+.dw_select_filling_list{padding:20px 0 0 0; height:280px; position:relative;}
+.dw_select_filling_list li{width:60px; position:absolute;}
+.dw_select_filling_list li:nth-child(1){
+	top: 50%;
+  right: 50%;
+  margin: -126px -77px 0 0px;
+}
+.dw_select_filling_list li:nth-child(2){
+	top: 50%;
+  left: 50%;
+  margin: -122px 0 0 -67px;
+}
+.dw_select_filling_list li:nth-child(3){
+	top:50%; left:50%; margin: -110px 0 0 -135px;
+}
+.dw_select_filling_list li:nth-child(4){
+	top:50%; left:50px;  margin: -25px 0 0 -45px;
+}
+.dw_select_filling_list li:nth-child(5){
+	top: 50%;
+  left: 50%;
+  margin: 35px 0 0 -135px;
+}
+.dw_select_filling_list li:nth-child(6){
+    top:50%; right:50%; margin: 80px 0px 0 0px;
+}
+.dw_select_filling_list li:nth-child(7){
+    top:50%; right:50%; margin: 85px -80px 0 0px;
+}
+.dw_select_filling_list li:nth-child(8){
+    top:50%; right:50%; margin: 55px -140px 0 0px;
+}
+.dw_select_filling_list li:nth-child(9){
+    top:50%; right:50%; margin: -20px -150px 0 0px;
+}
+.dw_select_filling_list li:nth-child(10){
+    top:50%; right:50%; margin: -80px -140px 0 0px;
+}
+
+
+.dw_complete .bar_progress_div{width:100%;}
+.dw_complete .bar_icon{display:none;}
+.dw_complete{position: absolute; width:100%; z-index: 1; top:0;}
+.dw_complete_title{width:100%; height:39px; background:url(/pages/bd/dragonboat/images/mak/dw_complete_title.png) no-repeat center top; background-size: auto 100%; margin-bottom:30px; opacity: 0;}
+.dw_complete_content{background:url(/pages/bd/dragonboat/images/mak/dw_complete_img.png) no-repeat center top; background-size:180px 280px; height:300px; width:100%; opacity: 0;}
+.giv_btn{display:block; width:92px; height:32px; margin:0 auto; background:url(/pages/bd/dragonboat/images/mak/dw_complete_btn.png) no-repeat left top; background-size:100% 100%; opacity: 0;}
+
+.dw_sentiment{padding:15px 15px 0;}
+.dw_sentiment_title{width:100%; height:28px; background: url(/pages/bd/dragonboat/images/mak/dw_sentiment_title.png) no-repeat center top; background-size:auto 100%;}
+.dw_sentiment_content{padding:15px 0 15px 90px;   background: url(/pages/bd/dragonboat/images/mak/dw_sentiment_img.png) no-repeat 20px 15px;
+  background-size: 61px 67px; font-size:14px; color:#0c5633; line-height:160%;}
+.dw_sentiment_textarea{width:100%; height:90px; position:relative;}
+.dw_sentiment_textarea textarea{width:94%; padding:5px 3%; height:80px; resize:none; background:url(/pages/bd/dragonboat/images/mak/dw_sentiment_textarea.png) no-repeat; background-size:100% 100%; border:0; outline:none; font-size:14px; color:#3f2722; line-height:20px;}
+.dw_sentiment_textarea textarea::-webkit-input-placeholder{
+	font-size:14px; color:#3f2722; line-height:20px;
+}
+.roll_btn{
+  position: absolute;
+  height: 35px;
+  bottom: -42px;
+  line-height: 35px;
+  text-decoration: underline;
+  right: 10px;
+  color: #053b06;
+}
+.dw_sentiment_name{width:113px; height:30px;}
+.dw_sentiment_name input{width:96%; margin-top: 5px; height:26px; padding:2px 3%;background:url(/pages/bd/dragonboat/images/mak/dw_sentiment_name.png) no-repeat; background-size:100% 100%; border:0;}
+.dw_sentiment_name input::-webkit-input-placeholder{
+	font-size:14px; color:#3f2722; line-height:14px; outline:none;
+}
+.selected{
+    position: relative;
+}
+.selected:after{
+    content: ' ';
+    background: url(/pages/bd/dragonboat/images/mak/selected.png) no-repeat left top;
+    background-size: 46px 45px;
+    width: 46px;
+    height: 45px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+}
+.bamboo_1.selected:after{
+    margin-top: -55px;
+}
+.bamboo_2.selected:after{
+    margin-top: -75px;
+    margin-left: 5px;
+}
+.bamboo_3.selected:after{
+    margin-top: -35px;
+    margin-left: 5px;
+}
+.rice_1.selected:after{
+    margin-top: -65px;
+    margin-left: 5px;
+}
+.rice_2.selected:after{
+    margin-top: -70px;
+    margin-left: 5px;
+}
+.rice_3.selected:after{
+    margin-top: -70px;
+    margin-left: 5px;
+}
+.dw_select_filling{
+    overflow: hidden;
+}
+.dw_select_filling_list li:after{
+    background-image: url(/pages/bd/dragonboat/images/mak/selected1.png)
+}
+.dw_select_filling_list li:nth-child(1):after{
+    margin-top: -25px;
+    margin-left: -40px;
+
+}
+.dw_select_filling_list li:nth-child(2):after{
+    margin-top: -25px;
+    margin-left: -5px;
+}
+.dw_select_filling_list li:nth-child(3):after{
+    margin-top: -18px;
+    margin-left: -7px;
+}
+.dw_select_filling_list li:nth-child(4):after{
+    margin-top: -30px;
+    margin-left: -10px;
+}
+.dw_select_filling_list li:nth-child(5):after{
+    margin-top: -34px;
+    margin-left: -7px;
+}
+.dw_select_filling_list li:nth-child(6):after{
+    margin-top: -40px;
+    margin-left: -6px;
+}
+.dw_select_filling_list li:nth-child(7):after{
+    margin-top: -38px;
+    margin-left: -39px;
+}
+.dw_select_filling_list li:nth-child(8):after{
+    margin-top: -30px;
+    margin-left: -40px;
+}
+.dw_select_filling_list li:nth-child(9):after{
+    margin-top: -40px;
+    margin-left: -40px;
+}
+.dw_select_filling_list li:nth-child(10):after{
+    margin-top: -18px;
+    margin-left: -43px;
+}
+.filling_txt{
+    text-align: center;
+    width: 180px;
+    position: absolute;
+    left: 50%;
+    margin-left: -90px;
+    top: 114px;
+    color: #466135;
+}
+.filling_txt h5{
+      font-size: 19px;
+  margin-bottom: 4px;
+}
+.filling_txt p{
+      font-size: 13px;
+}
+
+.bamboo, .rice, .dw_select_filling_list li{opacity: 0;}
+
+
+/*拆粽子*/
+.gift_content{width:100%; height:270px; padding-top:85px; background:url(/pages/bd/dragonboat/images/split/gift.png) no-repeat center center; background-size:194px 259px; position:relative;}
+
+.gift_title{width:100%; height:70px; background:url(/pages/bd/dragonboat/images/split/gift_title.png) no-repeat center top; background-size:auto 100%; position:absolute; top:35px; z-index: 2;}
+.gift_btn_div{width:100%; height:76px; background:url(/pages/bd/dragonboat/images/split/gift_btn_bg.png) no-repeat center top; background-size:auto 100%; position:absolute;bottom: 15px;z-index: 2;}
+.gift_btn{width:160px; height:56px; position:absolute; left:50%; top:50%; margin:-27px 0 0 -70px; background:url(/pages/bd/dragonboat/images/split/gift_btn.png) no-repeat; background-size:100% 100%;
+}
+.gift_show_div{padding-top:30px;}
+.gift_box{width:194px; height:259px; margin:0 auto; position:relative; background:url(/pages/bd/dragonboat/images/split/gift.png) no-repeat left bottom; background-size:100% auto;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;}
+.gift_box:before{
+    opacity: 0;
+    content:" "; width:63px; height:63px; position:absolute; left:0; bottom:0; border:1px solid #c2c2b6; border-radius:34px; -webkit-border-radius:34px;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.round:before{opacity: 1;}
+.gift_bamboo{width:80px; left:-120px; top:-20px; position:absolute;}
+.gift_rice{width:100px; right:-120px; top:-20px;position:absolute;}
+.gift_filling{height:127px; 
+	width:430px;/*这个宽度需要js计算屏幕的宽度*/
+	bottom:-256px; 
+	left:-188px;
+	position:absolute;}
+.gift_bamboo, .gift_rice, .gift_filling{
+    opacity: 0;
+}
+.gift_filling_imgdiv{height:127px; text-align:center;position: relative; display:inline;}
+.gift_filling_imgdiv:before{
+    content: ' ';
+    background: url(/pages/bd/dragonboat/images/split/x.png) no-repeat left top;
+    background-size: 50px 48px;
+    width: 50px;
+    height: 48px;
+    position: absolute;
+    left: 20px;
+    top: -20px;
+}
+.gift_filling_div{height:127px; text-align: center;}
+.gift_filling_div p{color:#f00; font-size:15px; text-align:center; line-height:22px;  margin: 5px 20px 0;}
+
+.gift_bamboo .line{width:60px; right:-43px; top:45px; -webkit-transform:rotate(30deg);}
+.gift_rice .line{width:30px; right:97px; top:45px; -webkit-transform:rotate(-30deg);}
+.gift_filling .line{width:135px; right:50%; margin-right:-96px; top:-67px; -webkit-transform:rotate(67deg);}
+
+
+
+.line{width:80px; background:#c8d0b7; height:2px; line-height:2px; position:absolute;}
+.line:before{content:" ";width:12px; height:12px; border-radius:6px; -webkit-border-radius:6; background:#c8d0b7; position:absolute; left:-6px; top:-6px;}
+.line:after{content:" ";width:12px; height:12px; border-radius:6px; -webkit-border-radius:6px; background:#c8d0b7; position:absolute; right:-6px; top:-6px;}
+
+.gift_sentiment{margin:0 15px;}
+.gift_sentiment_title{width:100%; height:43px; background:url(/pages/bd/dragonboat/images/split/gift_sentiment_title.png) no-repeat center top; background-size:auto 100%; margin:10px 0;}
+.gift_sentiment p{color:#0d471c; font-size:13px; line-height:15px; font-style: italic; margin:0 15px;}
+.gift_sentiment p.tr{text-align:right; padding-top:5px;font-size:13px;font-weight: bold; color:#bf003a; margin-top: 10px; font-style: normal;}
+.replay_btn{display:block; width:93px; height:33px; background:url(/pages/bd/dragonboat/images/split/replay_btn.png) no-repeat; background-size:100% 100%; margin:15px auto;position: relative;}
+
+.footer{color:#9b7969; font-size:12px; text-align:center; width:100%; position:fixed; bottom:5px;}
+
+.mask{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+    height:100%;
+    background: url(/pages/bd/dragonboat/images/index_bg.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.plaza{
+    border: 1px solid #000;
+    overflow: hidden;
+}
+.plaza body{
+    overflow: hidden;
+}
+.plaza .dw_progress_bar{
+    margin-top: 49px;
+}
+.plaza .bar{
+    display: block;
+}
+.plaza .mask{
+    top: 49px;
+}
+
+/*additional*/
+.additional{padding:0 18px;}
+.additional_title{height:32px; margin:20px 0; background:url(/pages/bd/dragonboat/images/additional/additional_title.png) no-repeat center top; background-size:auto 100%;}
+.additional .txt{margin-bottom:8px; font-size:14px; line-height:150%; color:#5c390c; font-weight:600;}
+.secret li{padding:10px 0; position:relative;}
+.secret_img{height:33px; padding:2px 0; text-align:center;}
+.secret_txt{font-size:14px; color:#5c390c; line-height:150%; text-align:center;}
+.money{height:160px; text-align:center;}
+.cld_logo{margin:10px 0; height:24px; background:url(/pages/bd/dragonboat/images/additional/additional_footer_logo1.png) no-repeat center top; background-size:auto 24px;}
+.promote{text-align:center;}
+.promote h4{height:18px; line-height:18px; position:relative; text-align:center; width:200px; font-size:14px; font-weight:500; color:#999; margin:0 auto;}
+.promote h4:after{
+    content:" ";
+    width:65px;
+    height:1px;
+    line-height:1px;
+    background:#ccc;
+    position:absolute;
+    top:50%;
+    left:0;
+}
+.promote h4:before{
+    content:" ";
+    width:65px;
+    height:1px;
+    line-height:1px;
+    background:#ccc;
+    position:absolute;
+    top:50%;
+    right:0;
+}
+.txt_1{color:#5c390c; font-weight:600;}
+.txt_2{color:#ff003c; font-weight:600;}
+.promote li {display:inline-block; margin:10px 5px;}
+
+
+.footer_plug{width:100%; position:fixed; bottom:0;
+    background:#d9d9d9 url(/images/logo_72x72.png) no-repeat 10px 8px; background-size:36px 36px; z-index:10;
+}
+.footer_content{padding:8px 10px 8px 56px;}
+.footer_plug h3{font-size:13px; color:#000;}
+.footer_plug p{color:rgba(0,0,0,.5); font-size:12px;}
+.footer_down_btn{float:right; width:86px; height:30px; background:#ff7900; text-align:center; line-height:30px; color:#fff; font-size:14px; border-radius: 3px; margin-top:3px;}
+
+.promote li a{
+    color:#000;
+}
+
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+@-webkit-keyframes flash {
+    0%, 100%, 50% {
+        transform:scale(1,1);
+        -webkit-transform:scale(1,1);
+        opacity: 1
+    }
+    25%,
+    75% {
+        transform:scale(.8,.8);
+        -webkit-transform:scale(.8,.8);
+        opacity: 0
+    }
+}
+
+@keyframes flash {
+    0%, 100%, 50% {
+        transform:scale(1,1);
+        -webkit-transform:scale(1,1);
+        opacity: 1
+    }
+    25%,
+    75% {
+        transform:scale(.8,.8);
+        -webkit-transform:scale(.8,.8);
+        opacity: 0
+    }
+
+}
+
+.flash {
+    -webkit-animation-name: flash;
+    animation-name: flash
+}
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -30%, 0);
+        transform: translate3d(0, -30%, 0)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -30%, 0);
+        -ms-transform: translate3d(0, -30%, 0);
+        transform: translate3d(0, -30%, 0)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none
+    }
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown
+}
+
+
+@-webkit-keyframes bounceZoonIn {
+    0%, 100%, 20%, 40%, 60%, 80% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, .61, .355, 1);
+        transition-timing-function: cubic-bezier(0.215, .61, .355, 1)
+    }
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(10.3, 10.3, 10.3);
+        transform: scale3d(10.3, 10.3, 10.3);
+    }
+    20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1)
+    }
+    40% {
+        opacity: 1;
+        -webkit-transform: scale3d(.9, .9, .9);
+        transform: scale3d(.9, .9, .9)
+    }
+    60% {
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03)
+    }
+    80% {
+        -webkit-transform: scale3d(.97, .97, .97);
+        transform: scale3d(.97, .97, .97)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+}
+
+@keyframes bounceZoonIn {
+    0%, 100%, 20%, 40%, 60%, 80% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, .61, .355, 1);
+        transition-timing-function: cubic-bezier(0.215, .61, .355, 1)
+    }
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(10.3, 10.3, 10.3);
+        -ms-transform: scale3d(10.3, 10.3, 10.3);
+        transform: scale3d(10.3, 10.3, 10.3);
+    }
+    20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        -ms-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1)
+    }
+    40% {
+        opacity: 1;
+        -webkit-transform: scale3d(.9, .9, .9);
+        -ms-transform: scale3d(.9, .9, .9);
+        transform: scale3d(.9, .9, .9)
+    }
+    60% {
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        -ms-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03)
+    }
+    80% {
+        -webkit-transform: scale3d(.97, .97, .97);
+        -ms-transform: scale3d(.97, .97, .97);
+        transform: scale3d(.97, .97, .97)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        -ms-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+}
+
+.bounceZoonIn {
+    -webkit-animation-name: bounceZoonIn;
+    animation-name: bounceZoonIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s
+}
+
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        -ms-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp
+}
+.movedown {
+    -webkit-animation-name: movedown;
+    animation-name: movedown;
+}
+
+@-webkit-keyframes movedown {
+    0% {
+        -webkit-transform: translateY(-100%)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%)
+    }
+}
+
+@-moz-keyframes movedown {
+    0% {
+        -moz-transform: translateY(-100%)
+    }
+    100% {
+        opacity: 1;
+        -moz-transform: translateY(0%)
+    }
+}
+
+
+@-webkit-keyframes fadeOutUp {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0)
+    }
+}
+
+@keyframes fadeOutUp {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        -ms-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0)
+    }
+}
+
+.fadeOutUp {
+    -webkit-animation-name: fadeOutUp;
+    animation-name: fadeOutUp
+}
+
+
+@-webkit-keyframes fadeOutDown {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0)
+    }
+}
+
+@keyframes fadeOutDown {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        -ms-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0)
+    }
+}
+
+.fadeOutDown {
+    -webkit-animation-name: fadeOutDown;
+    animation-name: fadeOutDown
+}
+.none{display:none;}

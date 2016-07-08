@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历--下载应用抽大奖</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body onload="init();">
+<input type="hidden" id="VER" value="">
+<input type="hidden" id="MAC" value="">
+<script type="text/javascript">
+    function init(){
+        setTimeout(function(){
+        var mac = "";
+        if (/ipad|iphone|mac/i.test(navigator.userAgent)) {
+                mac = document.getElementById('MAC').value;
+        }
+        if(mac == "")
+                mac = "-1";
+        var softid = "-1";
+        if(location.href.indexOf("softid=")){
+            softid = getURLParameter("softid");
+        }
+        
+        var host = "/device/";
+        var urlAndParams = [ host, "softlog.do?", "mac=", mac, "&softid=", softid ];
+                sendAjaxRequest(urlAndParams.join(''), "GET", function(data) {});
+        
+        var redUrl = "";
+        if(location.href.indexOf("redurl=")){
+            redUrl = getURLParameter("redurl");
+            redUrl = unescape(redUrl);
+            location.href = redUrl;
+        }
+        },100);
+    }
+
+    function sendAjaxRequest(url, method, callback) {
+    		var xhr = new XMLHttpRequest();
+    		xhr.onreadystatechange = function() {
+    			if (xhr.readyState == 4 && xhr.status == 200) {
+    				callback(xhr.responseText);
+    			}
+    		};
+    		xhr.open(method, url, true);
+    		xhr.send();
+    }
+    function getURLParameter(name) {
+        return decodeURI(
+            (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]
+        );
+    }
+</script>
+</body>
+</html>

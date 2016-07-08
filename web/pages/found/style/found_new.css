@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors zhangmingchen (vest0804@gmail.com)
+ * @date    2015-12-01 14:35:19
+ * @version $Id$
+ */
+body{background:#f0f0f0;}
+.found_status{padding:20px 10px; background:#fff;}
+.weather,.yiji{width:50%; height:25px; float:left; position:relative;}
+.yiji:after{content:" "; position:absolute; width:2px; height:15px; top:5px; background:rgba(54,64,84, .2);}
+
+.found_weather_icon,.found_weather_c,.found_weather_city{display:inline-block;  vertical-align: middle}
+.found_weather_c{padding:0px 5px 0; line-height:25px; font-size:20px; color:#fff; font-family: arial;}
+.found_weather_c img{margin:0 1px;}
+.found_weather_city,.found_weather_type{line-height:25px; color:#364054; font-size:16px; font-weight:500;}
+.found_weather_city{overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.yi_content{padding-left:45px; line-height:25px; position:relative; color:#364054; font-size:16px;}
+.yi_content:after{content:""; position:absolute; width:20px; height:20px; background:url(/pages/found/images_news/hl_icon.png) no-repeat; background-size:20px 20px; line-height:18px; text-align:center; left:15px; top:2px; /*border:1px solid #fff;*/ color:#364054;}
+
+.found_focus{width:100%;}
+.found_focus img{width:100%;}
+
+.found_constellation{padding:10px; background:#fff url(/pages/found/images/constellation_bg.jpg) no-repeat right top; background-size:90px 78px; margin: 15px 0; overflow: hidden;}
+
+.found_constellation_content h3{font-size:18px; color:#364054; line-height:31px; font-weight:500;}
+.found_constellation_content h3 span{font-size:14px; color:#364054; line-height:31px; font-weight:500; margin-left:3px;}
+
+.found_constellation_content p{font-size:16px; color:#364054; line-height:160%;}
+.set_constellaction_btn{float:right; width:65px; height:25px; background:#2bacee url(/pages/found/images/constellation_icon.jpg) no-repeat 10px center; background-size:15px 11px; padding-left:25px; line-height:25px; text-align:center; color:#fff; margin-top:10px;}
+
+.found_holiday_history{width:100%; overflow:hidden; position:relative;}
+.found_history{/*width:42.666%;*/}
+.found_history img,.found_holiday img{width:100%;}
+.found_holiday{/*width:55.166%;*/ float:right; margin-left:10px;}
+
+.more{float:right; color:#888e92; font-size:12px;}
+.found_activity h3,.found_topic h3{padding:15px 10px; font-size:16px; color:#364054; font-weight:500;}
+
+.activity_div1,.activity_div2,.activity_div5{width:100%;}
+.activity_div1 img,.activity_div2 img,.activity_div3 img,.activity_div4 img{width:100%;}
+.activity_div5{position:relative; overflow: hidden;}
+.activity_div1,.activity_div2{padding:0 0 8px 0;}
+.activity_div3{width:42.666%;}
+.activity_div4{width:55.166%; position:absolute; right:0; top:0;}
+
+.found_topic_content li{margin-bottom:8px;}
+.found_topic_content li img{width:100%;}
+.found_topic_content li:last-child{margin:0;}
+
+/*FOUSCE*/
+.banner_div{position:relative; margin-bottom:8px;}
+.banner_div img{width:100%;}
+.public_image_span{height:2px; border-radius: 0; -webkit-border-radius:0;}
+.public_image_container{margin:0;}
+.public_image_index{position:absolute; margin-bottom:0; bottom:5px; right:10px;}
+.public_image_span.on{background:#fff;}
+
+
+.set_constellation_list{padding:20px; position:absolute; background:#fff; top:0; left:0;}
+.set_constellation_list li{width:33.333%; height:100px; float:left; position:relative;}
+.icon{width:100%; height:40px; padding:5px 0; text-align:center;}
+.name{line-height:22px; color:#364054; font-size:15px; text-align:center;}
+.con_data{color:#364054; font-size:12px; text-align:center;}
+
+
+.set_constellation_list li:nth-child(3n-2):after{
+	content:" "; position:absolute; width:1px; height:100%; background:#dedede; top:0; right:0;
+}
+.set_constellation_list li:nth-child(3n-2):before{
+	content:" "; position:absolute; width:100%; height:1px; background:#dedede; bottom:0; right:0;
+}
+.set_constellation_list li:nth-child(3n-1):before{
+	content:" "; position:absolute; width:100%; height:1px; background:#dedede; bottom:0; right:0;
+}
+.set_constellation_list li:nth-child(3n):after{
+	content:" "; position:absolute; width:1px; height:100%; background:#dedede; top:0; left:0;
+}
+.set_constellation_list li:nth-child(3n):before{
+	content:" "; position:absolute; width:100%; height:1px; background:#dedede; bottom:0; right:0;
+}
+.set_constellation_list li:nth-child(10):before{
+	height:0;
+}
+.set_constellation_list li:nth-child(11):before{
+	height:0;
+}
+.set_constellation_list li:nth-child(12):before{
+	height:0;
+}
+
+.set_constellation_list li.on{background:#eee;}
+
+.save_constellaction_btn{display:block; width:80%; height:40px; line-height:40px; text-align:center; background:#ccc; margin:20px auto; font-size:16px; color:#fff;}
+
+.add_weather{padding-left:25px; line-height:20px; color:#364054; font-size:16px; background:url(/pages/found/images_news/add_weather_icon.png) no-repeat left center; background-size:15px 15px;}
+
+
+.found_panel{
+	position: relative;
+}
+.found_cityPic .public_image_span.on{background-color: #f00;}
+.found_cityPic .public_image_container,.public_image_container li{height:auto;}
+.found_cityPic .public_image_container{margin-top:0;}
+.found_cityPic .public_image_index{margin-bottom:5px;}
+
+.found_cityPic{padding:15px 0 0;}
+.found_cityPic h3{padding:10px 10px 20px; font-size:16px; color:#fff; font-weight:500;}
+.found_cityPic .public_image_num{position:absolute; top: 35px; right:15px; line-height:21px; font-family: arial; color:#fff;}
+.prev_btn,.next_btn{position:absolute; width:30px; height:45px;  top:50%; margin-top:-22px;}
+.prev_btn{display: none;left:0; background:rgba(0,0,0,.5) url(/pages/found/images/prev_btn.png) no-repeat center center; background-size:9px 16px;}
+.next_btn{right:0; background:rgba(0,0,0,.5) url(/pages/found/images/next_btn.png) no-repeat center center; background-size:9px 16px;}
+.qpholidaylistbtn{display: block;margin: 0 16px;border: 1px solid #FA9131;border-radius: 5px 5px 5px 5px; color:#FA9131;text-align: center;line-height: 54px;font-size: 16px;}
+
+.public_image_container{height:auto;}
+
+.found_activity{background:#fff; margin-top:15px;}
+.found_activity_content li img{width:100%; height:100%;}
+.found_activity_content ul{margin-left:-10px;}
+.found_activity_content li{float:left; margin:0 0 10px 10px;}
+.found_activity_content li:nth-child(3),.found_activity_content li:nth-child(4){margin-bottom:0;}
+.found_activity a.more ,.activityList a.more{float:none; display:block; width:100%; height:50px; line-height:50px; text-align:center; font-size:16px; color:#364054; position:relative;}
+
+.found_activity a.more:after,.activityList a.more:after{content:" "; position:absolute; width:10px; height:10px; border-top:1px solid #f8913e; border-right:1px solid #f8913e; transform: rotate(45deg); -webkit-transform: rotate(45deg); top:20px; right:15px; }
+
+.activityList{background:#fff; margin-top:15px;}
+.activityList h3{padding:10px 0 0 10px; line-height:30px; font-size:16px; font-weight:500; color:#364054;}
+.activityList li{margin:8px 0px 0; position:relative; height:200px; overflow: hidden;}
+.txt_div{position:absolute; bottom:0; padding:10px 3%; width:94%; background:rgba(0,0,0,.5);}
+.txt_div h4,.txt_div p{color:#fff;}
+.txt_div h4{font-weight:600; font-size:16px; color:#fff;}
+.txt_div p{line-height:150%; padding-left:12px; background:url(/pages/found/images_news/found_activi_icon.png) no-repeat left 5px; background-size:7px 10px;}
+
+.found_topic{margin-top:15px; background:#fff;}
+
+.task_list{padding:10px 0;}
+.task_list a{float:left; padding:5px 0px; width:24%; font-size:15px; color:#364054; border-right:1px solid #d7d9dd; text-align:center;}
+.task_list a:last-child{border:0; position:relative;}
+.task_list a:last-child:after{content:" "; position:absolute; width:10px; height:10px; border-top:1px solid #f8913e; border-right:1px solid #f8913e; transform: rotate(45deg); -webkit-transform: rotate(45deg); top:8px; right:-3px; }
+
+/*liebao*/
+.money_div{background:#fff; height:250px;}
+.money_h3{height:50px; line-height:50px; padding:0 60px 0 10px; position:relative; color:#364054; font-size:16px;}
+.money_h3 span{position:absolute; width:48px; height:24px; text-align:center; line-height:24px; color:#a2a5a7; font-size:13px; border:1px solid #e5e5e5; top:12px; right:10px;}
+
+.money_img{position:relative; height:200px; overflow: hidden}
+.money_img p{position: absolute; bottom:10px; font-size:16px; color:#fff; line-height:150%; margin:0 10px; z-index:10;}
+

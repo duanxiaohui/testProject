@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>疯狂的麦克斯4：狂暴之路</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">疯狂的麦克斯4：狂暴之路</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/5ecf5eec-0a44-4f32-b796-ab400eb1c91c.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	<a href="http://v.ku6.com/show/ZejjkHOXPkRzbt3lZxeVBw...html" data-title="查看预告片" class="btn js-other">查看预告片</a>
+	    	<h3 class="time">上映时间：2015年5月15日（美国）</h3>
+			<p> </p>
+	    	<h3>导演：乔治·米勒</h3>
+			<p class="fc_000">主演：汤姆·哈迪 / 查理兹·塞隆 / 泰莉莎·帕尔墨</p>
+			<h3>剧情：</h3>
+			<p>时隔近三十年拍摄的这部《疯狂的麦克斯4》拥有全新的主创阵容，讲述的是一个全新的故事。故事中，弗瑞奥萨女王，一个用行动说话的强悍女人，她相信穿越沙漠回到儿时故乡是生存的唯一途径。当她带领一群人驾驶一辆大型的战争运输工具逃难，在穿越一片不毛之地时遇到了麦克斯，一个沉默寡言，用行动说话的男人，他在混乱中失去了家人，如今他追寻的只有平静。世界已崩坏，人性已殆尽，这是个血和火的世界，为了生存所有人都必须残酷的斗争。在无尽的荒芜沙漠中，两个逃亡的反抗份子有可能给这世界建立秩序。全新阵容在荒无人迹的末世沙漠中上演酷刑、飞车、枪战，“疯狂”依旧。</p>
+			<!--h3是小标题-->
+			<h3>看点：</h3>
+			<!--p是段落文字描述-->
+			<p>此片据说是以核战后的世界为背景的科幻片的鼻祖，是北斗神拳的启示之作，是一部斯皮尔伯格和凯文科斯特纳都想拍而没有拍出来的作品，世界观格局非常宏大甚至具有传奇色彩，有着深入到骨子里的西部片的情怀和浓浓的朋克末日情结。此次影片请来《魔戒》的制作班底，以更先进的科技手法重新包装，力求再续当年的“野蛮、原始、真实”的暴力动作风格。另外曝光的还有一些带有末世情结的道具，有尖刺的大型车辆、用螺母等金属制成的充满后现代朋克风的饰品、钢管和骷髅头合成的十字架，种种道具将影片的末日情节表现的相当立体，相信朋克迷会看得过瘾。深受老粉喜爱的原版麦克斯──澳洲硬汉梅尔·吉布森因为年龄大了，不适合继续扮演这个角色，换成了英国男星汤姆·哈迪，在《盗梦空间》、《星际迷航》和《蝙蝠侠》中都有令人印象深刻的演出。而女主角查理兹·塞隆，被誉为好莱坞新一代的美艳女王，身上具有老一代好莱坞性感女神的魅力。这两人的组合，相信可以在一定程度上弥补老粉们的遗憾。</p>
+    	<img src="http://cocoimg.365rili.com/schedule_pics/default/250dcc2e-81bc-44cf-9449-03b53d1b4a19.jpg"/>
+		<img src="http://cocoimg.365rili.com/schedule_pics/default/6adbe50f-da81-4a80-9fcf-f9f9e2e05b10.jpg"/>
+		<div class="remind_div none" data-uuid="4e0b87d7-73ef-47ed-9069-5060d1f79f57" data-cid="125821987"><div class="remind_icon"></div><span>添加提醒</span></div>
+		</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/9bad4c61-dbfe-4c46-af61-474fbbfd2132.jpg',
+                title: '电影：疯狂的麦克斯4：狂暴之路',
+                desc: '时隔近三十年拍摄的这部《疯狂的麦克斯4》拥有全新的主创阵容，讲述的是一个全新的故事。弗瑞奥萨女王带领一群人驾驶一辆大型的战争运输工具逃难，在穿越一片不毛之地时遇到了麦克斯，随后经历了一系列的公路大战。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '电影：疯狂的麦克斯4：狂暴之路',
+		        				content: '时隔近三十年拍摄的这部《疯狂的麦克斯4》拥有全新的主创阵容，讲述的是一个全新的故事。弗瑞奥萨女王带领一群人驾驶一辆大型的战争运输工具逃难，在穿越一片不毛之地时遇到了麦克斯，随后经历了一系列的公路大战。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/9bad4c61-dbfe-4c46-af61-474fbbfd2132.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

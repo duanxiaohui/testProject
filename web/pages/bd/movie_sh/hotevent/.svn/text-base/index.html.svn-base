@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>活动日程安排</title>
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/pages/bd/movie_sh/css/main.css" rel="stylesheet">
+</head>
+<body style="background-color: #000;">
+    <img src="/pages/bd/movie_sh/images/bg.jpg" width="100%" alt="">
+    <div class="contain">
+	    <div class="btns" style="margin-top:20px;">
+	    	<a href="http://www.365rili.com/pages/bd/movie_sh/hotevent/schedule.html" class="btn rcjs"></a>
+	    	<a href="http://www.365rili.com/pages/bd/movie_sh/hotevent/pwzr.html" class="btn pwzr"></a>
+	    	<a href="http://www.365rili.com/pages/bd/movie_sh/hotevent/zytj.html" class="btn zytj"></a>
+	    	<a href="javascript:;" class="btn gdyp"></a>
+	    </div>
+    </div>
+    <div class="footer">
+    	<img src="/pages/bd/movie_sh/images/bgb.jpg" width="100%" alt="">
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+	<script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+	<script src="http://www.365rili.com/pages/bd/movie_sh/js/movie.js"></script>
+    <script>
+    
+    window.onload = function () {
+        var wh = $(window).height();
+        var bh = $('body').height();
+        if(wh > bh){
+            $('.footer').css({
+                position:'absolute',
+                bottom:'0'
+            })
+        }
+    }
+    </script>
+    <div style="display:none;">
+    </div>
+</body>
+</html>

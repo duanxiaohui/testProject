@@ -1,0 +1,143 @@
+.cal_container{
+	margin:0px auto;
+	position:relative;
+	width:174px;
+}
+.cal_content{
+	/*background: url(../BD_images/body_content.png) repeat-y;*/
+	width:100%;
+	
+}
+
+/* For calendar body */
+.cal_table{
+	width:174px;
+	/*margin-left:3px;*/
+	height:100%;
+	border-collapse: collapse
+	
+}
+.cal_thead{
+	height:30px;
+	
+	line-height:32px;
+	color:#2c414a;
+	font-size:12px;
+}
+.cal_table th{
+	text-align:center;
+	
+}
+.cal_table td{
+	border:1px #e0e0e0 solid;
+	
+	cursor:pointer;
+}
+.cal_month_body{
+	height:100%;
+	width:100%;
+	font-size:10px;
+	position:relative;
+	background-color:#f9f9fa;
+}
+.cal_before .cal_month_body{
+	color:#ccc;
+	background-color:#fafafb;
+}
+.cal_before .cal_month_body{
+	
+	background-color:#fafafb;
+}
+.cal_before .cal_num_day{
+	color:#e0e0e0;
+}
+.cal_after .cal_month_body{
+	color:#ccc;
+	background-color:#fafafb;
+}
+.cal_after .cal_num_day{
+	color:#e0e0e0;
+}
+ .cal_week {
+	background-color:#f1f1f2;
+}
+.cal_after .cal_week {
+	background-color:#f1f1f2;
+}
+.cal_now .cal_month_body{
+	
+	position:relative;
+	
+	background-color:#9de0f6;
+}
+.cal_num_day{
+	position:absolute;
+	right:1px;
+	bottom:1px;
+	width:22px;
+	height:22px;
+	color:#a7b6b9;
+	text-align:center;
+	line-height:22px;
+	
+}
+.cal_now .cal_num_day{
+	color:#000;
+}
+.cal_after .cal_lunar_day{
+	color:#ccc;
+}
+.cal_before .cal_lunar_day{
+	color:#ccc;
+}
+ .cal_now  .cal_lunar_day{
+	color:#fff;
+ }
+
+
+.year_bg{
+	background-color:#ccc;
+}
+.grid_bg{
+	background-color:yellow;
+}
+#calBtn{
+	float:left;
+	width:20px;
+	height:23px;
+	background:url(/images/cal365/smallCal.gif) no-repeat;
+}
+.line_cal{
+	height:1px;
+	width:100%;
+	border-top:1px #dbdbdb solid;
+}
+#preYear,#preMonth{
+	background:url(/images/cal365/prev.gif) no-repeat 1px 2px;
+	width:9px;
+	height:15px;
+	float:left;
+	border:1px #dee0e3 solid;
+	margin-top:3px;
+	margin-left:8px;
+	cursor:pointer;
+}
+#yearSel,#monthSel{
+	margin-top:3px;
+	float:left;
+	height:15px;
+	margin-top:3px;
+	border-top:1px #dee0e3 solid;
+	border-bottom:1px #dee0e3 solid;
+	width:46px;
+}
+#nextYear,#nextMonth{
+	background:url(/images/cal365/next.gif) no-repeat 2px 2px;
+	width:9px;
+	height:15px;
+	float:left;
+	border:1px #dee0e3 solid;
+	margin-top:3px;
+	cursor:pointer;
+	
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>天呢！你不是那个牛了！</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/philippines_cow/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>菲律宾水牛节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>这个世界上有各种各样的人，也有各种各样的牛，勇猛冲撞如西班牙斗牛，勤勤恳恳如耕地的黄牛。虽然赛场上威风凛凛的斗牛在很多时候更能吸引人们的目光、引发人们的呐喊，它们在斗兽场里尽显风光。但是，那些踏实耕耘的牛也没有被人们忘记，它们的每一点付出都被人们看在眼里，记在心里。</p>
+            <h3>【农耕是伟大的文明】</h3>
+            <p>以渔樵耕读为代表的农耕文明是千百年来汉族生产生活的实践总结，是华夏儿女以不同形式延续下来的精华，并传承至今的一种文化形态。农耕文明决定了汉族文化的特征。中国的文化的形成过程中农业在其中起着决定作用。</p>
+            <img src="images/philippines_cow/holiday_1.jpg"/>
+            <p>最早的时候，人们是“手动”耕地，面朝黄土背朝天的艰辛每天都在体验。后来，进化出了一个伟大的物种——牛，它们勤勤恳恳、任劳任怨的在田里耕耘，才让人类有了休息的时间。</p>
+            <h3>【菲律宾水牛节】</h3>
+            <p>世界上许多国家都有着一段农耕的历史，在菲律宾水牛是农民使役的主要牧畜，因此农民对水牛有着深厚的感情。古老的水牛节源于对丰产神的崇拜，由于当地人后改信天主教，这个节日又同保护神圣伊西德罗融合在一起。</p>
+            <p class="mt15">水牛节前夕，牛主人要把水牛擦洗得干干净净，并在牛角和牛蹄上涂上“圣油”。节日开始时，主人在牛颈上套着花环或彩布条牵到教堂外面，先由牧师为水牛祈祷，然后带着水牛参加赛跑和选拔。赛跑是在田野进行的，到了终点，水牛随着主人的口令声表演前腿屈膝等动作。选拔水牛的标准分为力气、体态、牛角长度和使役技术等，中选的水牛主人可以获得物质奖励。</p>
+            <img src="images/philippines_cow/holiday_2.jpg"/>
+            <p>第二天，节日活动转向城镇。成群结队的牛车边缘挂着象征丰收的瓜果，车上坐着身穿民族服装的农家子弟。凡是牛队经过的街道都经过一番装饰，无论是栅栏和窗户上，都挂着彩条、水果及各式食品，如香蕉、菠萝、芒果、薄、烤鱼、烤猪等。当水牛队伍经过时，沿街人家即把竹架上的食物降低，以此表示赐福。最有趣的是，孩子们争相往一些高大的竹竿顶上爬，以获得竹竿顶上挂着的糖果和纸币。水牛经过教堂时，要按口令作前腿下跪的姿势，游行队伍前面抬着伊西德罗神像，后面是管弦乐队和载着妙龄女郎的彩车。最后，人们簇拥着圣像进入教堂，以祈祷的形式表示感恩。</p>
+            
+            <div class="tips">
+                <p>1、每年的5月15日是菲律宾的水牛节，这天会举办各种比赛、水牛车队游行活动；</p>
+                <p>2、耕牛是人类的好朋友，农业机械化解放了它们。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

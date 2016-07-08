@@ -1,0 +1,1 @@
+$(function(){	var sUserAgent = navigator.userAgent.toLowerCase();	var bIsIpad = sUserAgent.match(/ipad/i) == "ipad"; 	var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";	var bIsAndroid = sUserAgent.match(/android/i) == "android";	if(bIsIphoneOs || bIsIpad){		$(".btn").attr("href","iosdown.html")	}else{		$(".btn").attr("href","androiddown.html")	}});

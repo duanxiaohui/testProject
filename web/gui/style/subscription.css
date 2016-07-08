@@ -1,0 +1,11 @@
+.subscription{padding-left:40px;}
+.subscription h2{padding:10px 0; height:32px; line-height:32px;}
+.subscription ul li{width:280px; height:100px; float:left; padding-bottom:25px; margin-right:90px;}
+.subscription ul li .img{width:100px; height:100px; float:left;}
+.subscription ul li .text{width:165px; height:100px; padding-left:15px; float:left; position:relative;}
+.checkbox{width:20px; height:20px; position:absolute; bottom:0; }
+.checkbox span{width:20px; height:20px; display:block; background:url(../images/subscription/checkbox.jpg) no-repeat 0 -20px;}
+.checkbox span.on{background:url(../images/subscription/checkbox.jpg) no-repeat 0 0;}
+.subscription_btn{float:right; width:120px; height:30px; color:#fff; font-size:16px; margin-right:10px; font-weight:500; text-align:center; line-height:30px; border:1px solid #f87219; background:url(../images/subscription/btn.jpg) repeat-x;
+-moz-border-radius: 15px; -webkit-border-radius: 15px; -khtml-border-radius: 15px; border-radius: 15px;
+}

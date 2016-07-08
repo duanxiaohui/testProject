@@ -1,0 +1,601 @@
+@charset "UTF-8";
+/**
+ * 时空战舰
+ * @authors 张路 (zhanglu@365rili.com)
+ * @date    2015-08-18 11:13:03
+ */
+*{-webkit-tap-highlight-color: rgba(0,0,0,0); tap-highlight-color: rgba(0,0,0,0);}
+body { background: #000; color: #444; font-weight: bold; font: 12px / 1.5em "Microsoft YaHei", 微软雅黑,SimSun,arial; margin: 0; padding: 0; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+textarea { background: #fff; border: 1px solid #d2d9dc; font-size: 13px;}
+textarea:focus, input[type="text"]:focus {box-shadow: 0 0 5px #b7d4ea inset; }
+a { color: #208de9; cursor: pointer; text-decoration: none; }
+button, textarea:focus, div:focus, input[type="text"]:focus {outline:none; box-shadow: none; }
+
+/*------- 动画基础样式 ------*/
+.animated {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+}
+
+.animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+    -webkit-animation-duration: 2s;
+}
+
+.animated.stop{
+	-webkit-animation-play-state:paused;
+	-webkit-animation-name: none;
+}
+
+/*------- 转圈 -------*/
+@-webkit-keyframes rotate {
+    0% {
+        -webkit-transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, -360deg);
+    }
+    50% {
+        -webkit-transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, -180deg);
+    }
+    100% {
+        -webkit-transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    }
+}
+
+.rotate {
+	-webkit-transform-origin: center;
+    -webkit-animation-name: rotate;
+    -webkit-animation-timing-function: linear;
+}
+
+/*------- 闪动 -------*/
+@-webkit-keyframes flash {
+    0%, 100%, 50% {
+        opacity: 0
+    }
+    25%,
+    75% {
+        opacity: 1;
+    }
+}
+
+.flash {
+    -webkit-animation-name: flash;
+}
+
+/*------- 闪入 -------*/
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -10px, 0);
+    }
+    50%, 100% {
+        opacity: 1;
+        -webkit-transform: none;
+    }
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 10px, 0);
+    }
+    50%, 100% {
+        opacity: 1;
+        -webkit-transform: none;
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+}
+
+@-webkit-keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-30px, 5px, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+    }
+}
+
+.fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+}
+
+.music{
+	background: url(/pages/bd/spaceship/images/music.png) no-repeat center bottom;
+	background-size: 52px 104px;
+	width: 52px;
+	height: 52px;
+	position: fixed;
+	right: 15px;
+	top: 18px;
+	z-index: 999;
+	-webkit-animation-duration: 2s;
+}
+.music.stop{
+	background-position: center top;
+}
+
+.point{
+	width: 32px;
+	height: 41px;
+	background: url(/pages/bd/spaceship/images/point.png) no-repeat center;
+	background-size: 32px 41px;
+	-webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform-origin: center;
+    -webkit-animation-timing-function: linear;
+	-webkit-animation-name: point;
+}
+@-webkit-keyframes point {
+    0%, 50%, 100% {
+        -webkit-transform: translate3d(0, 5px, 0);
+    }
+    25%, 75% {
+        -webkit-transform: translate3d(0, -5px, 0);
+    }
+}
+
+.talkBox{
+	padding: 10px;
+	position: relative;
+}
+.talk{
+	padding: 20px 9px;
+	border: solid 1px #b1e8ff;
+	box-shadow: 0 0 20px 0 rgba(177, 232, 255, .3);
+	background: url(/pages/bd/spaceship/images/bg.png) repeat center;
+}
+.talk .txt{
+	line-height: 22px;
+	color: rgba(255,255,255,.8);
+}
+.talk .c1{
+	color: #ffa472;
+}
+.talkBox:before{
+	content: ' ';
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-left: solid 1px #b1e8ff;
+	border-top: solid 1px #b1e8ff;
+	width: 13px;
+	height: 13px;
+}
+.talkBox:after{
+	content: ' ';
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	border-right: solid 1px #b1e8ff;
+	border-bottom: solid 1px #b1e8ff;
+	width: 13px;
+	height: 13px;
+}
+
+.fullScreen, .fullScreen body, .full{
+	height: 100%;
+	overflow: hidden;
+}
+
+.screen{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+.full .bg{
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.bg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
+/*-------setup1------*/
+.ship{
+	position: absolute;
+	top: 50%;
+	right: 10%;
+	width: 89.583333%;
+	margin-top: -163px;
+	opacity: 0;
+}
+.ship img{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.shipLight{
+	-webkit-animation-duration: 4s;
+	opacity: 0;
+}
+
+#s_1 .tip{
+	opacity: 0;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -105px;
+	margin-top: -15px;
+	color: rgba(255,255,255,.7);
+	text-align: center;
+}
+#s_1 .tip .point{
+	margin: 0 auto;
+}
+
+.desc{
+	opacity: 0;
+	width: 75.41%;
+	margin: 0 0 0 20px;
+	position: absolute;
+	bottom: 20px;
+}
+.desc .txt{
+	width: 67.59%;
+	word-break:break-all;
+}
+.desc .face{
+	width: 58%;
+	position: absolute;
+	top: 30px;
+	right: 26px;
+	-webkit-transform: translate3d(50%, -50%, 0);
+}
+
+/*-------setup2------*/
+#s_2 .bg{
+	width: 100%;
+	top: 0;
+	bottom: auto;
+}
+
+#s_2 .tip{
+	opacity: 1;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-top: 69.4444%;
+	margin-top: 69.4444vw;
+	margin-left: -24px;
+	color: rgba(255,255,255,1);
+	text-align: center;
+	z-index: 5;
+}
+#s_2 .tip .point{
+	margin: 20px auto 0;
+}
+
+#s_2 .talkBox{
+	margin: 95% 10px 0;
+	margin: 95vw 10px 0;
+}
+.ball{
+	position: absolute;
+	width:96px;
+	height: 96px;
+	left: 50%;
+	top: 0;
+	margin: 54.07% 0 0 -48px;
+	margin: 54.07vw 0 0 -48px;
+	z-index: 6;
+}
+.crosshare_box{
+	position: absolute;
+	left: 46%;
+	top: 0;
+	margin-top: 18%;
+	margin-top: 18vw;
+}
+.crosshair{
+	background: url(/pages/bd/spaceship/images/crosshair.png) no-repeat center;
+	background-size: 56px 56px;
+	width: 56px;
+	height: 56px;
+	position: absolute;
+	-webkit-animation-duration: 5s;
+}
+.crosshair_info{
+	position: absolute;
+	left: -24px;
+	top: -7px;
+	width: 28px;
+	height: 58px;
+	background: url(/pages/bd/spaceship/images/crosshare_info.png) no-repeat center;
+	background-size: 28px 58px;
+}
+.crosshair:after{
+	content: " ";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 56px;
+	height: 56px;
+	background: url(/pages/bd/spaceship/images/crosshair_shadow.png) no-repeat center;
+	background-size: 56px 56px;
+	-webkit-animation-duration: 5s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform-origin: center;
+    -webkit-animation-timing-function: linear;
+	-webkit-animation-name: flash;
+}
+
+/*-------setup3------*/
+#s_3{
+	background: url(/pages/bd/spaceship/images/s_3_bg.jpg) no-repeat left top;
+	background-size: 100% auto;
+}
+
+.title{
+	text-align: center;
+	margin: 10px 0 30px;
+}
+.title img{
+	width: 205px;
+	margin: 0 auto;
+}
+#s_3 .talkBox{
+	margin: 0 20px;
+}
+.form{
+	margin: 20px 31px 0 29px;
+}
+.text{
+	margin-bottom: 14px;
+}
+.text div{
+	margin-left: 44px;
+	margin-right: 22px;
+}
+.form label{
+	line-height: 36px;
+	color:#fff;
+	float: left;
+}
+
+.text input{
+	border-radius: 0 0 0 0;
+	padding: 11px 10px;
+	height: 12px;
+	border: solid 1px #607c9d;
+	background: url(/pages/bd/spaceship/images/bg.png) repeat center;
+	width: 100%;
+	color: #fff;
+	box-shadow: 0 0 30px 0 rgba(37, 155, 255, .2);
+}
+.textarea{
+	margin-right: 22px;
+}
+.textarea textarea{
+	border-radius: 0 0 0 0;
+	padding: 11px 10px;
+	height: 100px;
+	border: solid 1px #607c9d;
+	background: url(/pages/bd/spaceship/images/bg.png) repeat center;
+	width: 100%;
+	color: #fff;
+	word-break:break-all;
+}
+
+.ship1{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	top: 0;
+}
+.ship1 img{
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 25%;
+	margin-top: 25vw;
+}
+.ship1 p{
+	color: #fff;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+/*-------setup4------*/
+#s_4 .bg{
+	width: 100%;
+}
+
+@-webkit-keyframes fly {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(50px, 20px, 0);
+    }
+    35%, 60% {
+        opacity: 1;
+        -webkit-transform: none;
+    }
+    100% {
+    	opacity: 0;
+    	-webkit-transform: translate3d(-180px, -100px, 0) scale3d(.5, .5, 1);
+    	-webkit-transform-origin: center;
+    }
+}
+
+.fly{
+	-webkit-animation-duration: 3s;
+	-webkit-animation-name: fly;
+}
+
+.ship1 img, .ship1 p{
+	opacity: 0;
+}
+
+/*-------setup5------*/
+#s_5 .bg{
+	width: 100%;
+}
+#s_5 .talkBox{
+	margin: 50% 20px 0;
+    margin: 50vw 20px 0;
+}
+
+.share{
+	margin: 0 32px 0 30px;
+}
+
+/*-------setup0------*/
+.render{
+	margin-top: 25%;
+	margin-top: 25vw;
+}
+.rendericon{
+	width: 86%;
+	position: absolute;
+	left: 3%;
+}
+.renderbtn{
+	width: 26%;
+	position: absolute;
+	left: 37%;
+	margin-top: 50%;
+	margin-top: 50vw;
+}
+
+
+.btn{
+	background-color: #3393ff;
+	border: 1px solid #b4e2ff;
+	width: 100%;
+	line-height: 38px;
+	text-align: center;
+	color: #fff;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	display: block;
+	box-shadow: 0 0 30px 0 rgba(37, 155, 255, .2);
+}
+
+.mask{
+	background-color: #000;
+	opacity: .8;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 199;
+}
+
+.message{
+	position: fixed;
+	width: 80%;
+	margin: auto;
+	left: 10%;
+	top: 0;
+	border: solid 1px #fff;
+	border-radius: 5px 5px 5px 5px;
+	color: #fff;
+	z-index: 200;
+	background: url(/pages/bd/spaceship/images/messagebg.jpg) no-repeat center;
+	background-size: cover;
+}
+.messagetxt{
+	line-height: 18px;
+	text-align: center;
+	margin: 30px;
+}
+.messagebtn{
+	color: #fff;
+	line-height: 34px;
+	background-color: #589fff;
+	border-radius: 5px 5px 5px 5px;
+	display: block;
+	text-align: center;
+	margin: 23px 50px;
+}
+.none{display:none;}
+
+@media (device-height:480px) and (-webkit-min-device-pixel-ratio:2){
+	.talk{
+		padding: 5px 9px;
+	}
+	#s_2 .talkBox {
+	    position: absolute;
+	    bottom: 1%;
+	}
+	body {
+		font-size: 12px;
+	}
+}
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){
+    .talk{
+		padding: 10px 8px;
+	}
+}
+@media (min-device-height:568px) {
+	body{
+		font-size: 14px;
+	}
+	.text input{
+		border-radius: 0 0 0 0;
+		padding: 11px 10px;
+		height: 14px;
+		border: solid 1px #607c9d;
+		background: url(/pages/bd/spaceship/images/bg.png) repeat center;
+		width: 100%;
+		color: #fff;
+		font-size: 14px;
+		box-shadow: 0 0 30px 0 rgba(37, 155, 255, .2);
+	}
+	textarea {font-size: 14px;}
+}
+
+.shareTip{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .8);
+}
+
+.shareTip img{
+	position: absolute;
+	right: 26px;
+	top: 5px;
+}
+
+.copyright{
+	color: #1a79c6;
+	text-align: center;
+	padding: 1em 0 2em;
+}

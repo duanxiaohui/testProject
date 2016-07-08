@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>365日历</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
+</head>
+<body>
+    <div class="main">
+    	<div class="top_bg">
+    			<div class="constellation_avtar e_clear">
+    				<div class="avtar"><img src="images/pisces.png" width="98" height="98"/></div>
+					<div class="constellation_exp">
+						<h3>双鱼座  Pisces</h3>
+						<p>19/02-20/03</p>
+						<p>2013年运势</p>
+					</div>
+    			</div>
+				<dl class="e_clear">
+					<dt class="overall">整体</dt>
+					<dd>
+						<p>双鱼君的年度主题：无所畏惧，自由自在自我探寻</p>
+						<p>迈向2013年，你终于挥别了土星八宫的生活，终于解脱了，找到了自己想做的事，从六月下旬后，木星使你走出整顿内部的沉重，开始迎向外界，这木星也引动了所有与“自我”有关的宫位，使你的自觉完全开启，再也不让你受委屈，也不用牺牲、不用隐藏、一切光明正大，你的成绩有目共睹、机会涌至，好好发挥吧，迷惘与脆弱，都能变成无穷魅力的年份，真是非把握不可，2013年下半年至2014上半年，可说是双鱼君黄金时代。</p>
+					</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="career">事业</dt>
+					<dd>
+						 <p>职场的双鱼君会得到更公平的评价与机会，不再动辄得咎。上半年有利升职跳槽的时段是一、二月，你的贵人是过去职场接触的人。四月份正财运佳，靠努力耕耘而有收获，或多兼差多所得。五月有利于说话、沟通、翻译、教学、交通等相关行业的双鱼，有不错的报酬。。下半年七八月份是工作上很有表现的时期，身价抬升，有被挖角、邀请的机会，也有利于争取加薪。九十月工作吃重，但也报酬丰富，与人协调、为他人做调整是把事做好的重点。九、十、十一月份可能会陷入“需与人尔虞我诈、好保护身价”的角力战中，工作也颇辛苦吃重，请小心身体健康。</p>
+						 <p>自己创业的双鱼君，得花一些时间宣扬自己的理念。即使你受肯定，还是会有人认为你不切实际，质疑你的方向是否正确。好像在挑战你的信念。双鱼座在2013下半年也会一反高傲姿态，变得较谦卑、谦虚、务实。</p>
+					</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="affection">感情</dt>
+					<dd>
+						<p>异性缘一向很好的单身双鱼君，2013年吉星进驻恋爱宫位，桃花好运令人艳羡。 上半年的恋爱比较是“为了疗愈自己”而接受，而下半年则魅力大爆发，状况截然不同，尤其七、八月是你最自信、开心的月份；九月会因你对人友善、提供帮助，而使别人对你心生仰慕；十、十一月又遇到“伴侣宫位有感应”的星象，你被疼惜使你内心净化，变得更光彩照人。且不论条件、心态上，都是好的对象，有选择两难的情况，出现时间是七、八月，那也是你能摸索出自己心意，更了解自己的时期。</p>
+						<p>伴侣关系则“暂告段落”，有人把婚姻建构完成，也有人已经“处理完”彼此的关系，剩下收拾善后，学习独立。双鱼君开始把重点放在自我实现上。对离婚者，因为把重心放回自己身上，事业又有不错的机运，因此再婚的意愿并不高。伴侣关系不再是汲汲追求的目标，变得平静。</p>
+					</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="money">金钱</dt>
+					<dd>
+						<p>财运的宫位有天王星进驻，双鱼君有着“想打破进财规则”的潜意识，所以对于职场双鱼君，由于自己状况不稳定使然，连带财务是有动荡的，或因旅行、学习而有大笔支出，或长官对你有所评价，成为被裁员名单之一。财务压力会让你去找别的出路，有一天你会明白，上天要你“在那里落脚”，就算离职也未必是坏事。三、四、九、十是财务危机的高峰。</p>
+ 						<p>对于自由职业者，天王星二宫却是你可以运用的一般能量，它让你就是想追求不稳定、追求突破，所以你享受突破的快感与成就感，基于它能带给你多少收入。</p>
+ 						<p>上半年也有很好的房地产运，买房、装潢都有贵人引导，就用很优惠的价格取得，也可投入房产市场，因为买卖而有不错的收益。你会想投资实体赚钱，有一个小班底，让你在金钱上敢于有所作为，群策群力比单打独斗令人放心。</p>
+					</dd>
+				</dl>
+    		</div>
+			<p class="txt">安装星座插件，查看每日星座指南！</p>
+			<a class="btn" id="btn" href="javascript:;">分享到微博</a>
+    </div>
+<script type="text/javascript">
+    function $(id){
+        return document.getElementById(id);
+    }
+	window.onload = function(){
+		var btn = $("btn");
+		btn.onclick = function(){
+			var txt = "@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com"
+			var json = '[{"img": "constellation.jpg","content": "@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com","via": "weibo","type": "type","follow": true},{"img":"test","content":"@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com","via":"qt","type":"type","follow":true}]';
+			if (/android/i.test(navigator.userAgent)) {
+				try {
+					AliansBridge.sharev2(json);
+				} 
+				catch (e) {
+					try {
+						AliansBridge.share(txt, img = "constellation.jpg", null, false);
+					} 
+					catch (e) {
+						alert("您的365日历版本暂不支持发微博，请升级到最新版");
+					}
+				}
+			}
+			else 
+				if (/ipad|iphone|mac/i.test(navigator.userAgent)) {
+					btn.href = 'rili365app:share|||||' + txt + '|||||constellation.jpg';
+				}
+		}
+	}
+</script>
+</body>
+</html>

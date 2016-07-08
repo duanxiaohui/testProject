@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<title>365日历</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=320, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <style>
+    	[ng-cloak] { display: none; }
+    	body{background:rgb(236,238,239);margin:0px;}
+    	ul li{list-style:none;}
+	    .mode_setup_switch {
+			position: absolute;
+			right: 10px;
+			display: inline-block;
+			width: 70px;
+			height: 45px;
+			float: right;
+			background: 0 0;
+			top:0px;
+		}
+		.mode_setup_list{
+			background:#fff;
+			margin-top:24px;
+			padding-left:20px;
+		}
+		.mode_setup_list li {
+			font-size: 16px;
+			font-weight: 700;
+			height: 41px;
+			line-height: 41px;
+			display: -webkit-box;
+			padding: 0 10px 0 0;
+			position:relative;
+			border-bottom: 2px solid rgb(234,234,234);
+		}
+		.mode_setup_list li.bottom{border:none;}
+		
+		.switch_off {
+			background-position: 0 -40px;
+		}
+		.switch_on {
+			background-position: 0 7px;
+		}
+		.switch_off .mode_setup_switch_icon {
+			border: 1px solid #dedfe0;
+			background: #fff;
+			webkit-transition: all .3s;
+			transition: all .3s;
+		}
+		.switch_on .mode_setup_switch_icon {
+			border: 1px solid rgb(115,215,102);
+			background: rgb(75,214,99);
+			webkit-transition: all .3s;
+			transition: all .3s;
+		}
+		.mode_setup_switch_icon {
+			position: relative;
+			display: block;
+			width: 50px;
+			height: 30px;
+			margin: 5px;
+			border-radius:25px;
+		}
+		.switch_icon {
+			position: absolute;
+			top: -1px;
+			display: block;
+			width: 30px;
+			height: 30px;
+			border-radius: 15px;
+			background: #fff;
+		}
+		.switch_off .switch_icon {
+			left: -1px;
+			border: 1px solid #b9bcbf;
+			webkit-transition: all .3s;
+			transition: all .3s;
+		}
+		.switch_on .switch_icon {
+			left: 21px;
+			border: 1px solid rgb(115,215,102);
+			webkit-transition: all .3s;
+			transition: all .3s;
+		}
+		.title{
+			width:220px;
+			display:block;
+			font-family:"Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+    </style>
+</head>
+<body>
+	<div class="main" ng-controller="NotifySettingCtrl" ng-app="365_calendar.mobile" ng-cloak>
+		<ul class="mode_setup_list">
+			<li ng-repeat="calendar in CalendarSetting.all" ng-class="{bottom:$last}">
+				<span class="title">{{calendar.calendar_title}}</span>
+				<a href="javascript:;" class="mode_setup_switch " ng-class="{'switch_off':calendar.is_notify_on==0,'switch_on':calendar.is_notify_on==1}" ng-click="CalendarSetting.setNotify(calendar)">
+					<span class="mode_setup_switch_icon">
+						<span class="switch_icon"></span>
+					</span>
+				</a>
+			</li>		
+		</ul>	
+	</div>
+<script type="text/javascript" src="/js/app/bower_components/angular/angular.min.js"></script>
+<script type="text/javascript" src="/js/app/bower_components/angular-touch/angular-touch.min.js"></script>
+<script src="/js/lib/zepto.min.js"></script>
+<script src="/js/lib/app.js"></script>
+<script>
+angular.module('365_calendar.mobile', []).controller('NotifySettingCtrl', ['$scope', 'CalendarSetting', function($scope, CalendarSetting){
+	window.$scope = $scope;
+	$scope.CalendarSetting = CalendarSetting;
+}])
+.service('CalendarSetting', function($http){
+	var token = getURLParameter("t");
+	var ua    = encodeURIComponent(getURLParameter("coco-ua"));
+	var self = {
+		all:[],
+		getAllCalendar: function(){
+			var url = ["/device/ios/coco/notifysettings.do", "?token=", token, "&coco-ua=", ua].join("");
+			getTokenByCoco(url, function (headers) {
+				$.ajax({
+					url: url,
+					headers: headers,
+					type:'get',
+					success: function(data){
+						if(data.state == "ok"){
+							$scope.$apply(function () {
+			                	self.all = data.settings
+			            	})
+						}
+					}
+				})
+			})
+		},
+		
+		setNotify: function(calendar){
+			var cid = calendar.calendar_id;
+			var notifyOn;
+			if(calendar.is_notify_on == 1){
+				notifyOn = 0;
+			}else{
+				notifyOn = 1;
+			}
+			var url = ["/device/ios/coco/setnotify.do", "?token=", token, "&calendarID=", cid, "&isNotifyOn=", notifyOn, "&coco-ua=", ua].join("");
+			getTokenByCoco(url, function (headers) {
+				$.ajax({
+					url: url,
+					headers: headers,
+					type:'get',
+					success: function(data){
+						if(data.state == "ok"){
+							$scope.$apply(function () {
+								calendar.is_notify_on = notifyOn;
+							})
+						}
+					}
+				})
+			})
+		},
+		
+	};
+	self.getAllCalendar();
+	return self;
+})
+function getURLParameter(name){
+	return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
+}
+function getTokenByCoco (url, callBack) {
+	var mar = setTimeout(function () {
+		var t = getURLParameter('t')
+		var tSource = (new Base64()).decode(t);  
+		if(tSource.indexOf('%') == -1){
+			callBack({
+				'Authorization': 'Basic ' + t
+			});
+		}
+		else{
+			callBack({
+				'x-365rili-key': t
+			});
+		}
+	}, 500);
+	try{
+		app.call({
+			action: 'getEncryptHeaders',
+			params: [
+				{
+					name: 'url',
+					value: url
+				}
+			],
+			callBack: function (headers) {
+				try{
+			clearTimeout(mar)
+		}
+		catch(e){};
+				headers = JSON.parse(headers);
+				callBack(headers);
+			}
+		});
+	}
+	catch(e){
+		try{
+			app.call({
+				action: 'getToken',
+				callBack: function (token) {
+					try{
+			clearTimeout(mar)
+		}
+		catch(e){};
+					var headers = {
+						'x-365rili-key': token
+					};
+					callBack(headers);
+				}
+			});
+		}
+		catch(e){}
+	}
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015金山岭长城马拉松</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015金山岭长城马拉松</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/69931f43-3dcc-48a0-bdad-92772bc8df03.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+			  <a class="btn js-subscribe" data-uuid="65aac309-1c83-465e-937e-29b118fe5b1a" data-cid="147514789">添加提醒</a>
+	    	
+	    	<p class="time"><b>报名截止时间：2015-04-06 18：00 </b></br>
+
+<b>比赛时间：2015-04-19 星期日 发枪时间：10:00
+</b></br>
+
+	    	<b>比赛地点:北京金山岭长城
+</b></br>
+
+
+
+			</p>
+			<h3>2015金山岭马拉松交通信息</h3></br>
+			<p>1.自驾车：北京出发，沿京承高速公路行驶132公里金山岭出口5公里即到。</br>
+2.公交车：北京六里桥、四惠东长途汽车站发承德方向的长途车，巴克什营花楼沟下，转乘小巴即可到达金山岭长城。</br>
+
+
+</p>
+			<!--h3是小标题-->
+			<h3>报名方法：</h3>
+			<!--p是段落文字描述-->
+			<p>
+咨询电话：010-67050772</br>
+网络报名：</br>
+多威马拉松俱乐部：www.51running.com</br>
+益跑网：www.erun360.com</br>
+ 跑吧：http://bbs.running8.com/</br>
+
+</br>具体详情以官网信息为准
+
+
+</p>
+
+<img src="http://cocoimg.365rili.com/schedule_pics/default/35ea9b92-a9f4-4b3c-964d-46b94ed7338e.jpg"/>
+<img src="http://cocoimg.365rili.com/schedule_pics/default/1c98bc60-bddf-4305-9b58-117a224eeded.jpg"/>
+			<a href="http://www.jslmarathon.com/index.php?c=index&a=guide" class="btn js-other">详见官网</a>
+			 <div class="remind_div" data-uuid="65aac309-1c83-465e-937e-29b118fe5b1a" data-cid="147514789"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/69931f43-3dcc-48a0-bdad-92772bc8df03.jpg',
+                title: '2015金山岭长城马拉松',
+                desc: '比赛时间：2015年4月19日星期日 发枪日期：10：00 比赛地点:北京金山岭长城'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015金山岭长城马拉松',
+		        				content: '比赛时间：2015年4月19日星期日 发枪日期：10：00 比赛地点:北京金山岭长城',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/69931f43-3dcc-48a0-bdad-92772bc8df03.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

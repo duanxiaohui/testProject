@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>我梦想有一天……</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/martin_luther_king/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>马丁．路德．金日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>分类、贴标签是不可避免的行为，“白领”、“工人”、“总监”、“个体户”、“省长”、“农民工”……各种各样的标签因其角色所代表的社会地位，总是蕴含着一定层次的谄媚或歧视。由单个个体的标签出发，延伸到不同国家、不同民族，就又衍生出了代表范围更大的标签，“中国人”、“捷克人”、“黄种人”……“黑种人”。</p>
+            <h3>【可悲的人，你哪来的优越感】</h3>
+            <p>种族歧视由来已久。15世纪哥伦布发现了新大陆，迎接他的是印第安人的食物、水和礼物，而可怜的印第安人，等待他们的是什么呢？不是他们预想中欧洲强盗的友谊，而是瘟疫、是屠杀是长达几百年的殖民奴役。</p>
+            <img src="images/martin_luther_king/holiday_1.jpg"/>
+            <p>他们被当作商品贩卖，他们的标签不再是“黑种人”，而是“黑人奴隶”。他们要接受自己是“下贱”的，要绝对服从主人，逃跑、叛乱的黑人会遭到鞭笞、火刑、砍断手足甚至是处死。1776年美国独立战争胜利，但宣布独立只是白人的而并不包括黑人，毫无来由的优越感支持着这帮强盗肆意的掳掠黑人的一切。</p>
+            <h3>【马丁．路德．金】</h3>
+            <p>听过他的那场演讲吗，他用连续许多个“我梦想有一天……”发出了千千万万黑种人灵魂深处对自由的呼喊，他就是马丁．路德．金。</p>
+            <img src="images/martin_luther_king/holiday_2.jpg"/>
+            <p>马丁．路德．金是将“非暴力”和“直接行动”作为社会变革方法的最为突出的倡导者之一。1955年12月5日，一位黑人妇女因不给白人让座被判蹲监狱2年，此事件之后马丁．路德．金领导了公共汽车抵制运动。为了寻求蒙哥马利胜利后的进一步发展，马丁．路德．金和其他的南部黑人领袖于 1957 年建立了南方基督教领袖会议。1959年，马丁．路德．金到印度游历并进一步发展了甘地的非暴力策略……</p>
+            <h3>【你生命的艰辛，我们都懂】</h3>
+            <p>他一生受到无数次的恐吓，曾十次被人以各种各样方式监禁，三次入狱，三次被行刺，第一次被精神病人捅了一刀，第二次在教堂被扔进了炸弹。第三次1968年4月4日，孟菲斯主大街约克枪械机械公司楼上的办公室里，詹姆斯.厄尔.雷架起一架自动步枪，在邻近的比邻洛林旅馆的西布鲁尔旅社租下一个房间用自动步枪将其击杀。2014年，美国联邦调查局写给民权领袖马丁．路德．金的信件的未删节版被公布，信中FBI用侮辱性语言威逼马丁．路德．金自杀 。“黑色肌肤给他的意义，是一生奉献肤色斗争中”，黄家驹唱给黑人总统曼德拉的这句歌词同样是马丁．路德．金的写照。为了黑色的皮肤，为了平等和自由他一生艰辛，最终付出了生命的代价。</p>
+            <p class="mt15">1986年里根总统宣布1月的第三个星期一为联邦法定假日，以纪念马丁．路德．金博士的生日。在节日之前的星期天，所有地区的牧师都会进行特殊布道，提醒每个人缅怀他追求和平的一生。节日当天会有追思仪式以及为追悼他而举行的隆重的纪念仪式。</p>		
+
+            <div class="tips">
+                <p>1、每年1月的第三个星期一为马丁．路德．金日，这个节日是为了纪念著名黑人运动领袖马丁．路德．金；</p>
+                <p>2、反对种族歧视、反对任何形式的暴力行径，让所有颜色的皮肤、所有国别的人民都能“迎接光辉岁月，风雨中抱紧自由。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

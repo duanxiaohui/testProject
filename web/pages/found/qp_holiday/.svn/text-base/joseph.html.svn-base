@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>慈父</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/joseph/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>圣若瑟瞻礼</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>圣若瑟瞻礼是在每年的3月19日，目的是要纪念以及表扬圣若瑟对天主教的贡献。</p>
+            <img src="images/joseph/holiday_1.jpg"/>
+          
+
+            <h3>【圣若瑟是谁？】</h3>
+
+            <p>圣若瑟是圣母玛利亚的净配，吾主耶稣的养父。他的生平事迹，在福音经上记载虽然简略但却令人印象深刻。圣若瑟是达味圣王的后裔，玛窦福音和路加福音对圣若瑟的家谱，叙述甚详，但是对圣若瑟的记载却略少。圣母玛利亚许配若瑟为妻，耶稣降临至圣母玛利亚胎中时，若瑟最初不明真相，颇感困扰不安。天神将玛丽亚受孕的异迹解释后，若瑟才安了心，他带领玛丽亚返故乡申报户口，到了白冷，耶稣诞生。40天后他同玛丽亚抱着耶稣往耶路撒冷大殿遵古教教规举行献礼，与西默盎相遇。黑落德图谋杀害耶稣，天神通知，圣若瑟带领玛丽亚及耶稣逃往埃及。耶稣12岁那年，若瑟和玛丽亚带耶稣往耶路撒冷，回家途中，发觉耶稣没有同行，若瑟和玛丽亚到处寻访，三日后，发现耶稣在圣殿与经师讲论圣道。这就是全部记载。</p>
+
+            <img src="images/joseph/holiday_2.jpg"/>
+
+             <h3>【瞻礼日也是校庆日】</h3>
+
+            <p>澳门圣若瑟教区中学、香港圣若瑟英文中学等也以这日作为该校校庆。</p>	
+            <img src="images/joseph/holiday_3.jpg"/>
+            <img src="images/joseph/holiday_4.jpg"/>		
+
+            <div class="tips">
+                <p>1、圣若瑟虽然不是一个富有的人，但是他体谅他人以及深爱家人的精神令人感动；</p>
+                <p>2、对值得学习的传统要保持敬畏，让信仰变成督促自己向善的力量。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/Vanna</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

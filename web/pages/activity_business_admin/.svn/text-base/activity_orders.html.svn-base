@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>商家后台</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,minimal-ui">
+<link rel="stylesheet" href="/pages/activity_business_admin/css/index.css">
+<script type="text/javascript" src="/js/jquery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">
+    var G = {
+        pageTotal: 1,
+        eventId: 1000006
+    };
+</script>
+</head>
+<body>
+	<div class="activity_header_box">
+	    <div class="activity_header">
+	    	<a href="/event/business/logout.do" class="exit_btn">退出</a>
+	    	<div class="username">admin</div>
+	    	<div class="activity_logo e_clear">
+	    		<a href="javascript:;"><img src="/pages/activity_business/images/logo.jpg"/></a>
+	    		<p>商家后台</p>
+	    	</div>
+	    </div>
+	</div>
+   <div class="activity_orders">
+   		<div class="crumbs"><a href="/event/business/index.do">全部活动</a><span>&gt;</span><a href="/event/business/detail.do?eventId=1000006">活动详情</a><span>&gt;</span>订单详情</div>
+   		<div class="activity_orders_content">
+   		<div class="orders_top e_clear">
+   			<div class="orders_statistical ">
+   				<dl class="fr">
+   					<dt>下单量</dt>
+   					<dd>289</dd>
+   				</dl>
+   				<dl>
+   					<dt>完成支付量</dt>
+   					<dd>289</dd>
+   				</dl>
+   			</div>
+   		</div>
+   			<div class="orders_top e_clear">
+   			<div class="orders_statistical orders_statistical_one">
+   				<dl>
+   					<dt>下单量</dt>
+   					<dd>289</dd>
+				</dl>
+   			</div>
+   		</div>
+   		<div class="orders_list">
+   			<div class="orders_print">
+   				已经完成支付的订单详情
+   			</div>
+   			<div class="orders_list_box">
+				<div class="orders_search_results">
+          <a href="javascript:;" class="down_table_btn">下载报表</a>
+					<table>
+            <tr>
+             <th width="5%">序号</th>
+             <th width="10%">365账号</th>
+             <th width="10%">授权码</th>
+             <th width="8%">授权码状态</th>
+             <th width="12%">订单创建时间</th>
+             <th width="12%">订单支付时间</th>
+             <th width="6%">真实姓名</th>
+             <th width="10%">手机号码</th>
+             <th width="10%">邮箱</th>
+             <th width="3%">性别</th>
+             <th width="14%">留言</th>
+           </tr>
+           <tr>
+             <td  width="5%">1</td>
+             <td  width="10%">wangluo</td>
+             <td  width="10%">11223344556677</td>
+             <td  width="8%"><span>已使用</span></td>
+             <td  width="12%">2015-01-03 15:22:22</td>
+             <td  width="12%">2015-01-03 15:22:22</td>
+             <td  width="6%">网络</td>
+             <td  width="10%">13800138000</td>
+             <td  width="10%">13800138000@163.com</td>
+             <td  width="3%">男</td>
+             <td  width="14%">四大四大家里谁打死了阿里看得见卡了就打算考虑的静安丽舍奥石奥石大叔控的骄傲是快乐就阿斯科利</td>
+           </tr>
+           <tr>
+             <td>2</td>
+             <td>wangluo</td>
+             <td>11223344556677</td>
+             <td><span class="use">已使用</span></td>
+             <td>2015-01-03 15:22:22</td>
+             <td>2015-01-03 15:22:22</td>
+             <td>网络</td>
+             <td>13800138000</td>
+             <td>13800138000@163.com</td>
+             <td>男</td>
+             <td>四大四大家里谁打死了阿里看得见卡了就打算考虑的静安丽舍奥石奥石大叔控的骄傲是快乐就阿斯科利</td>
+           </tr>  
+           <tr>
+             <td>2</td>
+             <td>wangluo</td>
+             <td>11223344556677</td>
+             <td><span>已使用</span></td>
+             <td>2015-01-03 15:22:22</td>
+             <td>2015-01-03 15:22:22</td>
+             <td>网络</td>
+             <td>13800138000</td>
+             <td>13800138000@163.com</td>
+             <td>男</td>
+             <td>四大四大家里谁打死了阿里看得见卡了就打算考虑的静安丽舍奥石奥石大叔控的骄傲是快乐就阿斯科利</td>
+           </tr> 
+           <tr>
+             <td>2</td>
+             <td>wangluo</td>
+             <td>11223344556677</td>
+             <td><span>已使用</span></td>
+             <td>2015-01-03 15:22:22</td>
+             <td>2015-01-03 15:22:22</td>
+             <td>网络</td>
+             <td>13800138000</td>
+             <td>13800138000@163.com</td>
+             <td>男</td>
+             <td>四大四大家里谁打死了阿里看得见卡了就打算考虑的静安丽舍奥石奥石大叔控的骄傲是快乐就阿斯科利</td>
+           </tr>      
+          </table>
+				</div>
+				
+				   <div class="page e_clear">
+				    	<div class="page_content">
+				    		<a href="javascript:;" class="pev">上一页</a>
+					    	<ul class="e_clear">
+					    		<li><a href="">1</a></li>
+					    		<li><a href="">2</a></li>
+					    		<li class="on"><a href="">3</a></li>
+					    		<li><a href="">4</a></li>
+					    		<li><a href="">5</a></li>
+					    		<li><a href="">6</a></li>	    	
+					    	</ul>
+					    	<a href="javascript:;" class="next">下一页</a>
+					    	<span class="all_page">共200页</span>
+				    	</div>
+				    </div>
+   			</div>
+   		</div>
+   </div>
+
+   <div class="tips_layer none">
+       <h3>提示</h3>
+       <p></p>
+       <div class="bottomBar">
+           <a href="javascript:;" class="layer_btn">确定</a>
+           <a href="javascript:;" class="cancel_btn">取消</a>
+       </div>
+   </div>
+   <script type="text/javascript" src="/pages/activity_business/js/activity_orders.js"></script>
+</body>
+</html>

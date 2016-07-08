@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历--期货考试</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+</head>
+<body>
+	<div class="main">
+		<div class="top"></div>
+		<div class="text">
+			<h3>2013年第五次期货从业人员资格考试</h3>
+			<p class="center">考试报名时间：9月16日-10月27日</p>
+			<p class="center">（特别提示：2013年最后一次考试）</p>
+			<h4>关于期货考试，你所不知道的一些事实：</h4>
+			<p>报考期货从业人员资格考试，报考没有专业的限制！只要你年满18岁，只要你具有高中以上文化程度，只要你对金融有梦想，都可以来这里报名&gt;&gt;<a href="http://cfa.ata.net.cn/sgzj04newreg/?from=365Q5" target="_blank">我要报名</a></p>
+			<p>中国期货业素有“金领职业”的称号。据统计，期货从业人员的平均年薪都在15万元以上，应届毕业生的起薪也会在4000元以上，高薪成为了期货行业的致命吸引力！</p>
+			<p>2013年众多种类的资格考试中，期货从业资格考试的报考人数还将呈现出较大幅度的上升趋势，资格证成为应届毕业生最大的求职秘籍！</p>
+			<h4>期货从业人员资格：全国性的执业资格考试，校招必备证书！</h4>
+			<p>网上报名：请登录中国期货业协会官方网站（www.cfachina.org）报名；</p>
+		    <p>快速报名可登录&gt;&gt;<a href="http://cfa.ata.net.cn/sgzj04newreg/?from=365Q5" target="_blank">我要报名</a></p>
+			<p>考试报名时间：2013年9月16日-10月27日；</p>
+			<p>考试时间：2013年11月16日。</p>
+			<h4>考试科目及考试形式：</h4>
+			<p>《期货基础知识》、《期货法律法规》。</p>
+			<p>考试采取闭卷、计算机考试方式。单科考试时间为100分钟。</p>
+			<p>所有试题均为客观选择题。每科试题量为155道，满分100，60分为及格。</p>
+			<h4>考试报名费：</h4>
+			<p>70元/科次</p>
+			<h4>成绩及证书：</h4>
+			<p>期货从业人员资格考试单科成绩有效期为当年及以后两个年度。两门考试成绩均合格后取得成绩合格证书，成绩合格证书长期有效，实行电子化管理，考生可上中国期货业协会网站查询或打印成绩合格证书。</p>
+			<p>取得成绩合格证后，考生如到从事期货业务的经营机构任职，可由所在机构向中国期货业协会申请资格。</p> 
+			<p>“期货投资分析”科目考试成绩合格的，取得“期货投资分析”考试合格证，考试成绩长期有效。符合协会规定的相关条件的，可以申请期货投资咨询资格。</p>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,339 @@
+
+html
+{
+	background: #CECECE;
+}
+
+#citySelect
+{
+	height: 40px;
+}
+
+#choose-city
+{
+	float: left;
+	font-size: 20px;
+	color: #888;
+	height: 30px;
+	margin-top: 7px;
+	margin-left: 7px;
+}
+
+#city-select
+{
+	margin-top: 10px;
+}
+
+#subList
+{
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#riliPage
+{
+	
+}
+
+#contentTB
+{
+	padding-bottom: -200px;
+	margin-bottom: 200px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#gridcontainer-cate
+{
+	
+}
+
+.expand-arrow
+{
+	width: 0px;
+	height: 0px;
+}
+.expand-button
+{
+	float: right;
+
+	margin-top: -5px;
+	cursor: pointer;
+}
+
+#content-title-name
+{
+	float: left;
+}
+
+.gridcontainer-title
+{
+	text-align: left;
+	text-align: -moz-left !important;
+	font: 20px Arial,Helvetica,sans-serif;
+	height: 30px;
+	font-style: italic;
+	padding-left: 20px;
+	padding-top: 5px;
+	margin-top: 10px;
+	color: white;
+	font-family: SimHei;
+}
+
+.gridcontainer-title-name
+{
+	float: left;
+}
+
+#contentTB
+{
+}
+
+#gridcontainer
+{
+}
+#cal_header .spaceLi{
+	width: 219px;
+	height: 10px;
+}
+
+#cal_header .fullDateNavInfo{
+	position:relative;
+	font-size:30px;
+	font-weight:bolder;
+	width:55%;
+	text-align:center;
+}
+
+#sub-left-top .ctlsub
+{
+	background:url(/images/cal365_default/viewBtns_06.gif) 65px 32px;
+	width:61px;
+	height:26px;
+	line-height:26px;
+	text-align:center;
+	cursor:pointer;
+	color:#256479;
+}
+
+#subtag-cloud
+{
+	width: 180px;
+	min-height: 160px;
+	background: #f9f9f9;
+	margin: 0px 10px 0px 10px;
+	padding: 5px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	color: #a0a7ab;
+}
+
+.subtag-item-selected
+{
+	font-weight: bold;
+	background: #D6D7F2;
+}
+
+#recommend-cloud
+{
+	width: 172px;
+	height: 100px;
+	background: #f9f9f9;
+	margin: 0px 10px 0px 10px;
+	padding: 5px;
+	overflow: hidden;
+	color: #888888;
+}
+
+.cloud-bar
+{
+	color: #444;
+	font: 16px Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	height: 14px;
+	margin-left: 10px;
+	margin-right: 8px;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+.subcloud-bar
+{
+}
+.more-bar
+{
+	background: #4464BA;
+}
+.recommend-bar
+{
+	background: #A0ABFF;
+}
+
+.subtag-cloud-item
+{
+	font: 14px Arial,Helvetica,sans-serif;
+	float: left;
+	cursor: pointer;
+	padding: 2px;
+	height: 16px;
+	max-width: 180px;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-right: 10px;
+	border-bottom: 1px solid #e0e0e0;
+	display:inline;
+}
+.subtag-cloud-item:hover
+{
+	color: #333333;
+}
+.cate-list-item
+{
+	text-align: center;
+	font: 15px Arial,Helvetica,sans-serif;
+	color: #333333;
+	text-shadow: 1px 1px 0 white;
+	background: #f9f9f9;
+	padding: 5px;
+	margin: 0px 10px 0 10px;
+	border-bottom: 1px solid #CCCCFF;
+	cursor: pointer;
+	height:20px;
+	color: #7b7a7a;
+}
+
+.cate-list-itemSelect
+{
+	background: #E8E9F9;
+	font-weight: bold;
+	color: #444;
+}
+
+.cate-list-item:hover
+{
+	background: #eff2f4;
+	font-weight: bold;
+	color: black;
+}
+
+.catename
+{
+	float: left;
+	margin-left: 10px;
+}
+
+.categt
+{
+	float: right;
+}
+
+#cate-list
+{
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#timeSelect
+{
+	height: 30px;
+	margin-top: 20px;
+	
+}
+.timeSelectArrow
+{
+	float: left;
+	cursor: pointer;
+	margin: 1px 10px 0 10px;
+}
+.timeSelectArrow:hover
+{
+	color: #4D5181;
+}
+#timeSelectStr
+{
+	font-size: 20px;
+	float: left;
+	font-family: arial;
+}
+.timeSelectTime
+{
+	font-size: 20px;
+	float: left;
+}
+.timeSelectDay
+{
+	font-size: 20px;
+	float: left;
+	cursor: pointer;
+	margin: 0 5px 0 5px;
+}
+.timeSelectDay:hover
+{
+	color: #4D5181;
+}
+.timeSelected
+{
+	color: #bbb;
+}
+.timeSelected
+{
+	color: #8D91B6;
+}
+
+.cate-list-hover
+{
+	position: absolute;
+	width: 700px;
+	background: #eff2f4;
+	border: 1px solid #dee4e8;
+	top: 50px;
+	left: 200px;
+	z-index: 10;
+	display: none;
+	padding: 10px;
+}
+
+.cate-list-hoverrow
+{
+	width: 100%;
+	border: 1px solid #dce5eb;
+}
+
+.cate-list-hover-rowname
+{
+	font-size: 12px;
+	color: #44a6d3;
+	font-family: arial;
+	height: 100%;
+	float: left;
+	width: 70px;
+	padding: 5px;
+}
+
+.cate-list-hover-itemlist
+{
+	width: 630px;
+}
+
+.cate-list-hover-item
+{
+	font-size: 12px;
+	font-family: arial;
+	height: 18px;
+	color: #63889e;
+	float: left;
+	margin: 5px;
+	border: 0px;
+	
+}
+
+.cate-list-hover-item-clickable:hover
+{
+	text-decoration: underline;
+}
+
+.cate-list-hover-item-clickable
+{
+	cursor: pointer;
+}

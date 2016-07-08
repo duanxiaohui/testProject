@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <bean id="exceptionHandlerResolver"  class="com.rili.web.interceptor.ExceptionLoggingHandlerResolver"></bean>
+
+    <bean id="authService" class="com.rili.web.interceptor.AuthService">
+        <property name="userDAO" ref="userDAO" />
+        <property name="tuanweiDAO" ref="tuanweiDAO" />
+        <property name="authToken" ref="authToken" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+    </bean>
+    
+    <!-- 认证拦截器 -->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**" />
+            <bean class="com.rili.web.interceptor.AddLoggerPrefixInterceptor" />
+        </mvc:interceptor>
+        
+        <!-- 检查请求是否有效，排第一位，过滤掉无效请求 
+        <mvc:interceptor>
+            <mvc:mapping path="/**" />
+            <bean class="com.rili.web.interceptor.RequestValidInterceptor" />
+        </mvc:interceptor>
+        -->
+
+        <!-- 在Httpbasic/coco/bbs认证之后，避免给手机接口设置cookie，但要在其他接口之前 -->
+        <mvc:interceptor>
+            <mvc:mapping path="/**/*.do" />
+            <bean class="com.rili.web.interceptor.CookieInterceptor">
+                <property name="sessionIdGenerator" ref="sessionIdGenerator" />
+            </bean>
+        </mvc:interceptor>
+        
+        <!-- 检查请求连接是否需要https请求 -->
+        <!-- 暂时注释HttpsInterceptor的拦截 -->
+        <!-- <mvc:interceptor>
+            <mvc:mapping path="/**/*.do"/>
+            <bean class="com.rili.web.interceptor.HttpsInterceptor" />
+        </mvc:interceptor> -->
+
+        <mvc:interceptor>
+            <mvc:mapping path="/**/*.do" />
+            <bean class="com.rili.web.interceptor.AuthInterceptor">
+                <property name="authService" ref="authService" />
+            </bean>
+        </mvc:interceptor>
+        
+        <mvc:interceptor>
+            <mvc:mapping path="/**/*.do" />
+            <bean class="com.rili.web.interceptor.LogInterceptor">
+            </bean>
+        </mvc:interceptor>
+
+        <!-- discuz登录 -->
+        <mvc:interceptor>
+            <mvc:mapping path="/main/calendar.do" />
+            <bean class="com.rili.web.interceptor.DiscuzLoginInterceptor">
+            </bean>
+        </mvc:interceptor>
+        
+    </mvc:interceptors>
+
+    <import resource="interceptor_event.xml" />
+</beans>

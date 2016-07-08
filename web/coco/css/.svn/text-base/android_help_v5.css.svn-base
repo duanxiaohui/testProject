@@ -1,0 +1,45 @@
+body{ font-family: "Microsoft YaHei"; background-color: #2b2f3b;}
+*{margin:0; padding:0;}
+ul{list-style: none;}
+li{list-style-type: none;}
+a { color:#0d23f4; cursor: pointer; text-decoration: none; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; width:100%; }
+td,th{border: 1px solid #BCBEC0; height:30px; text-align:center;}
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+
+.main{width:100%; background:#2b2f3b url(../images/help_v4/bg.png) no-repeat; background-size:100% auto; }
+.top{width:100%; height:150px; background:url(../images/help_v4/top_icon.png) no-repeat center center; background-size:60px 60px;}
+.top p{font-size:16px; color:#8996e0; text-align:center; padding-top:110px;}
+.back_btn{float:left; width:14px; height:20px; background:url(../images/help_v4/back_btn.png) no-repeat; background-size:14px 20px; margin:20px 0 0 20px;}
+.qa_list dt{width:98%; height:50px; font-size:14px; line-height:50px; padding:0 1%; background:#252831 url(../images/help_v4/dl_list.png) no-repeat 96% center; background-size:35px 35px; color:#fff; border-bottom:1px solid #2b2f3b;}
+.qa_list dd{display:none; padding:10px 20px; font-size:13px; color:#5e6374;}
+.qa_list dl.on dt{background-color:rgba(255, 255, 255, 0.2); background-image:  url(../images/help_v4/dl_lists.png);}
+
+.a1{width:226px; height:315px; background:url(../images/help_v5_android/a1.png) no-repeat; background-size:226px 315px; margin:5px auto;}
+.a2{width:226px; height:323px; background:url(../images/help_v5_android/a2.png) no-repeat; background-size:226px 323px; margin:5px auto;}
+
+.b1{width:226px; height:325px; background:url(../images/help_v5_android/b1.png) no-repeat; background-size:226px 325px; margin:5px auto;}
+.b2{width:226px; height:169px; background:url(../images/help_v5_android/b2.png) no-repeat; background-size:226px 169px; margin:5px auto;}
+
+.c1{width:226px; height:202px; background:url(../images/help_v5_android/c1.png) no-repeat; background-size:226px 202px; margin:5px auto;}
+.c2{width:226px; height:332px; background:url(../images/help_v5_android/c2.png) no-repeat; background-size:226px 332px; margin:5px auto;}
+
+.d1{width:226px; height:188px; background:url(../images/help_v5_android/d1.png) no-repeat; background-size:226px 188px; margin:5px auto;}
+.d2{width:226px; height:326px; background:url(../images/help_v5_android/d2.png) no-repeat; background-size:226px 326px; margin:5px auto;}
+.d3{width:226px; height:179px; background:url(../images/help_v5_android/d3.png) no-repeat; background-size:226px 179px; margin:5px auto;}
+
+.e1{width:226px; height:330px; background:url(../images/help_v5_android/e1.png) no-repeat; background-size:226px 330px; margin:5px auto;}
+.e2{width:226px; height:275px; background:url(../images/help_v5_android/e2.png) no-repeat; background-size:226px 275px; margin:5px auto;}
+
+.f1{width:226px; height:325px; background:url(../images/help_v5_android/f1.png) no-repeat; background-size:226px 325px; margin:5px auto;}
+.f2{width:226px; height:329px; background:url(../images/help_v5_android/f2.png) no-repeat; background-size:226px 329px; margin:5px auto;}
+.f3{width:226px; height:345px; background:url(../images/help_v5_android/f3.png) no-repeat; background-size:226px 345px; margin:5px auto;}
+
+
+.g1{width:226px; height:230px; background:url(../images/help_v5_android/g1.png) no-repeat; background-size:226px 230px; margin:5px auto;}
+.g2{width:226px; height:253px; background:url(../images/help_v5_android/g2.png) no-repeat; background-size:226px 253px; margin:5px auto;}
+.g3{width:226px; height:334px; background:url(../images/help_v5_android/g3.png) no-repeat; background-size:226px 334px; margin:5px auto;}
+.g4{width:226px; height:330px; background:url(../images/help_v5_android/g4.png) no-repeat; background-size:226px 330px; margin:5px auto;}
+.g5{width:226px; height:333px; background:url(../images/help_v5_android/g5.png) no-repeat; background-size:226px 333px; margin:5px auto;}

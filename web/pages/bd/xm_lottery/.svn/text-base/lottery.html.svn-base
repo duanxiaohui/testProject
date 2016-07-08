@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<title>365幸运大转盘</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+	<meta name="viewport" content="width=320, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ </head>
+<body>
+	<div class="main">
+		<div class="content">
+			<div class="lottery">
+                <div class="circle"></div>
+                <div class="start"></div>
+                <div class="pointer"></div>
+			</div>
+            <div class="lottery_txt"></div>
+		</div>
+	</div>
+    <div class="lottery_info none">
+        <div class="prize">
+            <div class="prize_pic">
+                <img src="images/prize.jpg"/>
+            </div>
+            <div class="prize_txt">
+                您的奖品是<br/>50元手机充值卡
+            </div>
+        </div>
+        <div class="lottery_info_txt">
+            <h3>获奖人信息</h3>
+            <!--<input type="text" class="username" placeholder="姓名"/>-->
+            <input type="text" class="mobile" placeholder="QQ"/>
+            <!--<input type="text" class="address" placeholder="邮寄地址"/>-->
+        </div>
+        <div class="lottery_note">
+            <p>注：请务必填写详细正确信息。<br/>以便工作人员与您取得联系，并送出奖品。</p>
+            <a href="javascript:;" class="submit_btn">提交信息</a>
+        </div>
+    </div>
+    <div class="infosub_layer none">
+        <p>请耐心等待我们联络您中奖事宜<br/>中奖名单将在<br/>@365日历 官方微博公布</p>
+    </div>
+    <div class="confirm_info_layer none">
+        <h3>确认获奖人信息</h3>
+        <div class="confirm_info_txt">
+            <!--<p>姓名 <span class="confirm_name"></span></p>-->
+            <p>QQ <span class="confirm_mobile"></span></p>
+            <!--<p>地址 <span class="confirm_address"></span></p>-->
+        </div>
+        <div class="confirm_info_btn">
+            <a href="javascript:;" class="edit_btn">重新编辑</a><a href="javascript:;" class="confirm_btn">确认</a>
+        </div>
+    </div>
+    <input id="UID" type="hidden" >
+    <input id="PWD" type="hidden" >
+    <input id="MAC" type="hidden" >
+    <input id="VER" type="hidden" >
+<script src="/js/jquery/jquery-1.8.3.min.js"></script>
+<script src="/js/jquery/jquery-ui-1.9.0.custom.min.js"></script>
+<script src="/js/jquery/jquery.cookie.js"></script>
+<script src="/js/jquery/jquery.rotate.js"></script>
+<script>
+    var lottery = {
+        config: {
+            w: $(window).width(),
+            h: $(window).height(),
+            key: '',
+            date: null,
+            dateStr: '',
+            UID: '0',
+            MAC: 'null'
+        },
+
+        init: function() {
+            $(".lottery_info, .infosub_layer, .confirm_info_layer").width(lottery.config.w).height(lottery.config.h);
+            $('.circle').css('transform', 'rotate(60deg)');
+        },
+
+        bindEvents: function() {
+            $('.start').on('click', function() {
+                if($.cookie('flag') == lottery.config.dateStr) {
+                    alert('每天只有一次抽奖机会，明天再来吧！');
+                    return;
+                }
+                lottery.getLottery();
+            });
+
+            $('.submit_btn').on('click', function() {
+                var mobile = $('.mobile').val();
+                if(mobile == '') {
+                    alert('请填写完整的信息以便领取奖品。');
+                    $('body').scrollTop(0);
+                    return;
+                }
+				if(!(/^[0-9]*$/.test(mobile))) {
+					alert('请输入正确格式的QQ号码！');
+                    $('body').scrollTop(0);
+                    return;
+				}
+                $('.lottery_info').addClass('none');
+                $('.confirm_info_layer').removeClass('none');
+                $('.confirm_mobile').text(mobile);
+            });
+
+            $('.edit_btn').on('click', function() {
+                $('.confirm_info_layer').addClass('none');
+                $('.lottery_info').removeClass('none');
+            });
+
+            $('.confirm_btn').click(function() {
+                lottery.lotteryUser();
+            });
+        },
+
+        getUserInfo: function() {
+            if(/android/i.test(navigator.userAgent)) {
+                lottery.config.UID = AliansBridge.getUserId();
+                lottery.config.MAC = AliansBridge.getMac();
+            } else {
+                setTimeout(function() {
+                    lottery.config.UID = document.getElementById('UID').value;
+                    lottery.config.MAC = document.getElementById('MAC').value;
+                }, 500);
+            }
+        },
+
+        getLottery: function() {
+            if(lottery.config.UID == '') {
+                lottery.config.UID = 0;
+            }
+            if(lottery.config.MAC == '') {
+                lottery.config.MAC = 0;
+            }
+            $.ajax({
+                url: '/coop/lottery.do',
+                type: 'post',
+                dataType: 'json',
+                data: {
+                    deviceID: lottery.config.MAC,
+                    userID: lottery.config.UID
+                },
+                success: function(data) {
+                    lottery.handleLottery(data);
+                }
+            });
+        },
+
+        handleLottery: function(data) {
+            if(data.prize == -1) {
+                alert('来晚啦~礼物都送完啦亲！下次早点来！');
+                return;
+            }
+            if(data.prize > 0) {
+                lottery.config.key = data.key;
+            }
+            var prize = data.prize,
+                rotate = 60 + 10 * 360;
+            if(prize == 0) {
+                rotate = 360 * 10 + 60;
+            } else if(prize == 1) {
+                rotate = 360 * 10 + 360;
+                $('.prize_txt').html('您的奖品是<br/>小米4手机');
+                $('.prize_pic img').attr('src', 'images/prize.jpg');
+            } else if(prize == 2) {
+                rotate = 360 * 10 + 240;
+                $('.prize_txt').html('您的奖品是<br/>小米3手机');
+                $('.prize_pic img').attr('src', 'images/prize2.jpg');
+            } else if(prize == 3) {
+                rotate = 360 * 10 + 120;
+                $('.prize_txt').html('您的奖品是<br/>50元充值卡');
+                $('.prize_pic img').attr('src', 'images/prize3.jpg');
+            }
+            $(".circle").rotate({
+                angle: 0,
+                animateTo: rotate,
+                duration: 10000,
+                callback: function() {
+                    if(data.prize == 0) {
+                        alert('真可惜，只差一点点...');
+                    } else {
+                        alert('恭喜你！中奖啦！');
+                        $('.main').addClass('none');
+                        $('.lottery_info').removeClass('none');
+                    }
+                }
+            });
+            $.cookie('flag', lottery.config.dateStr, {expires: 365});
+        },
+
+        lotteryUser: function() {
+            $.ajax({
+                url: '/coop/lottery_user.do',
+                type: 'post',
+                dataType: 'json',
+                data: {
+                    phone: $('.confirm_mobile').text(),
+                    key: lottery.config.key
+                },
+                success: function(data) {
+                    if(data.state == 'ok') {
+                        alert('提交成功!');
+                        $('.confirm_info_layer').addClass('none');
+                        $('.infosub_layer').removeClass('none');
+                    }
+                }
+            });
+        }
+    };
+
+    $(document).ready(function() {
+        var date = new Date(),
+            dateStr = date.getFullYear() + '-' + (date.getMonth()+1) + '-' + date.getDate();
+        lottery.config.date = date;
+        lottery.config.dateStr = dateStr;
+        lottery.init();
+        lottery.getUserInfo();
+        lottery.bindEvents();
+    });
+</script>
+</body>
+</html>

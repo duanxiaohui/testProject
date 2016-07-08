@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>是啊，那并不是我们的母亲</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/protect_yellow_river/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>保护母亲河日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>因为感念十月怀胎、养育成人的艰辛，我们疼爱自己的母亲，比如记得天冷时提醒她填衣、生病时叮嘱她吃药。有时候想要形容对一个人爱的深沉时，我们会说“我像爱母亲一样爱你”。但是，“母亲”也有另外的指称，祖国这个母亲或者母亲河——黄河。但说到底，或许那并不是我们的母亲……</p>
+            <h3>【在一定程度上，是她养育了我们】</h3>
+            <p>每个国家都有一条被称为“母亲”的河，印度有恒和，埃及有尼罗河，我们有黄河。在一定程度上，她的确是像母亲一样养育了我们。</p>
+            <img src="images/protect_yellow_river/holiday_1.jpg"/>
+            <p>黄河发源于青海省青藏高原的玛曲，九曲回肠流经了青海、四川、甘肃、宁夏、内蒙古、陕西、山西、河南及山东9个省（自治区），最后流入渤海。千百年间她带来了在灌溉、航运、水利等许多方面不可估量的价值。</p>
+            <h3>【黄河的人文价值】</h3>
+            <p>黄河曾多次被文人墨客当作创作素材，产生了大量脍炙人口的诗句：小白版本的有“白日依山尽，黄河入海流”，凄凉一点的有“黄河远上白云间，一片孤城万仞山”，憋屈版本的有“三春白雪归青冢，万里黄河绕黑山”，豪迈版本的有“九曲黄河万里沙，浪淘风簸自天涯”。</p>
+            <img src="images/protect_yellow_river/holiday_2.jpg"/>
+            <p>黄河是我国古代华夏文明的发祥地，母系社会全盛时期在黄河流域产生了著名的裴李岗文化、磁山文化和仰韶文化，黄河在塑造中华民族精神风貌等人文价值方面留下了浓墨重彩的一笔。</p>
+            <h3>【母亲河不能承受之痛】</h3>
+            <p>我们享受着黄河给我们生活带来的极大便利，传承着黄河几千年来延续的精神，高喊着“黄河是我们的母亲”，却做着与此背道而驰的事。为了用纸、一次性筷子，我们大肆砍伐树木，让黄土高原变得“千沟万壑、支离破碎”，让流经那里的黄河泥沙俱下，轻盈不再。</p>
+            <img src="images/protect_yellow_river/holiday_3.jpg"/>
+            <p>2001年1月18日全国保护母亲河行动领导小组在京召开电视电话会议，会上3月9日被确定为保护母亲河日。节日当天，全国各地都会进行各种保护母亲河的活动。</p>
+
+            <div class="tips">
+                <p>1、“如果地球上连一滴干净的水、一口干净的空气都没有，挣再多的钱也没有意义”；</p>
+                <p>2、不仅黄河需要保护，身边的每一条街道、每一棵树都需要爱护，环保是一条人人势在必行的路。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

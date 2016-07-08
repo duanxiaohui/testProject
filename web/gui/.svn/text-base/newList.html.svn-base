@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+<link type="text/css" href="style/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+</head>
+<body>
+<div class="new_list">
+	<div class="new_list_top">
+		<a href="javascript:;" class="news_close_btn"></a>
+		<dl class="e_clear">
+			<dt>31</dt>
+			<dd>
+				<p class="week_lunar"><span>周三</span><span>六月十五</span></p>
+				<p class="solar">2013.7</p>
+			</dd>
+		</dl>
+	</div>
+	<div class="new_list_content">
+		<dl class="e_clear">
+			<dt>今天</dt>
+			<dd>
+				<span class="time">08:00</span>按实际的拉萨 可达斯柯达撒了爱上快乐大脚阿克拉结卡了是方法离开
+			</dd>
+		</dl>
+		<dl class="e_clear">
+			<dt>今天</dt>
+			<dd>
+				<span class="time">08:00</span>按实际的拉萨 可达斯柯达撒了爱上快乐大脚阿克拉结卡了是方法离开
+			</dd>
+		</dl>
+		<dl class="e_clear">
+			<dt>08/7</dt>
+			<dd>
+				<span class="time">08:00</span>按实际的拉萨 可达斯柯达撒了爱上快乐大脚阿克拉结卡了是方法离开
+			</dd>
+		</dl>
+		<dl class="e_clear">
+			<dt>08/8</dt>
+			<dd>
+				<span class="time">08:00</span>按实际的拉萨 可达斯柯达撒了爱上快乐大脚阿克拉结卡了是方法离开
+			</dd>
+		</dl>
+		<dl class="e_clear">
+			<dt>08/9</dt>
+			<dd>
+				<span class="time">08:00</span>按实际的拉萨 可达斯柯达撒了爱上快乐大脚阿克拉结卡了是方法离开
+			</dd>
+		</dl>
+		<dl class="e_clear">
+			<dt>08/10</dt>
+			<dd>
+				<span class="time">08:00</span>按实际的拉萨 可达斯柯达撒了爱上快乐大脚阿克拉结卡了是方法离开
+			</dd>
+		</dl>
+		<dl class="e_clear">
+			<dt>08/11</dt>
+			<dd>
+				<span class="time">08:00</span>按实际的拉萨 可达斯柯达撒了爱上快乐大脚阿克拉结卡了是方法离开
+			</dd>
+		</dl>
+		<dl class="e_clear">
+			<dt>08/12</dt>
+			<dd>
+				<span class="time">08:00</span>按实际的拉萨 可达斯柯达撒了爱上快乐大脚阿克拉结卡了是方法离开
+			</dd>
+		</dl>
+	</div>
+	<a href="javascript:;" class="add_schedule_btn">添加日程</a>
+</div>
+</body>
+</html>

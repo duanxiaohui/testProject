@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>一个尺度hin大的节日——芦苇节</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/reed_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>一个尺度hin大的节日——芦苇节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>在遥远的非洲大陆上，有个世界上少数几个奉行绝对君权制的国家之一的斯威士兰。每年的8月，斯威士兰的“大巫师”会选定“黄道吉日”，而后报请国王并向外界宣布“芦苇节”开始的日期。</p>
+            <h3>【少女节 选妃日】</h3>
+            <p>作为该国最盛大的节日，“芦苇节”一般在每年8月底或9月初举行，共持续八天。这一节日不仅是庆祝少女成人的盛会，更是国王一年一度的选妃盛典，参加节日的少女们下身着五彩短裙，上身赤裸，手持一束芦苇入场。</p>
+            <p>什、什么？上身赤裸的少女？？？</p>
+            <p>擦擦口水，前方高能预警请小心</p>
+            <img src="/pages/found/qp_holiday/images/reed_img1.jpg"/>
+            <img src="/pages/found/qp_holiday/images/reed_img2.jpg"/>
+            <h3>【这节怎么过……】</h3>
+            <p>芦苇节上，数万名未婚处女会赶到王太后居住的村落载歌载舞、尽情狂欢。在她们眼里，芦苇舞展示的不仅是自己的青春魅力，更是斯威士兰独特的民族文化。芦苇节的第七天是整个舞会的最高潮：国王会亲临舞会现场与民同乐，并在舞会上物色自己的下一任妃子。是不是像童话故事里的情节一样？而舞会的最后一天，国王会命人宰杀25头牛。女孩们在满意地吃完牛肉后各自回家，一年一度的芦苇节就此落幕。</p>
+            <img src="/pages/found/qp_holiday/images/reed_img3.jpg"/>
+            <h3>【外界的质疑】</h3>
+            <p>除了上身赤裸之外，选妃过程中还有一个环节是少女们排成长队。在一处没有遮拦的检查台前，当众裸露生殖器，证实自己是处女。</p>
+            <p>作为一个尺度如此之宽的节日，当然会受到很多质疑和非议。有人担心，数万名青春少女袒胸露乳狂欢，极易引发暴力强奸案件。</p>
+            <p>不过既然是斯威士兰的传统节日，想必当地人已经具备处理各种情况的能力了，还是尊重传统习俗，让少女们尽情享受节日的快乐去吧！</p>
+            <div class="tips">
+                <p>1、8月底或9月初是斯威士兰的芦苇节</p>
+                <p>2、在这个节日上少女们会拿着芦苇赤裸上身跳舞狂欢，吸引国王的注意</p>
+                <p>3、我国男性们表示虽然听起来蛮吸引人的，但看过现场照片之后好像想去当地体验的愿望消失了呢</p
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/欢欢</div>
+    </div>
+     <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+    
+ </body>
+</html>
+

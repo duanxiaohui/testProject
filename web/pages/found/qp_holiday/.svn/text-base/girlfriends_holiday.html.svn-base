@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>防火防盗防闺蜜？！</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/girlfriends/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>闺蜜日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>闺蜜是生活中不可或缺的一部分，闺蜜间可以分享幸福时刻也可以吐槽生活工作的压力，有不是亲人胜似亲人的感觉。就算全世界的人都抛弃你，你还有闺蜜可以爱！</p>
+            <img src="images/girlfriends/holiday_1.jpg"/>
+            <h3>【我看你五行缺个闺蜜】</h3>
+            <p>习惯上，男性好友之间习惯性用死党，女性好友之间喜欢用闺蜜，意在指比较亲近的同性关系。闺蜜日也称闺蜜节，是网络节日之一，日期为每年的3月22日，是女性闺中密友相互庆祝的节日，在闺蜜们看来，这个节日比情人节更有意义。</p>
+            <p class="mt15">之所以将闺蜜节定在22日，是因为闺蜜是是可以一起"犯二"的人，希望闺蜜们能够在这一天释放自己内心的真性情，不用去管别人的想法，尽情玩乐。</p>
+            <img src="images/girlfriends/holiday_2.jpg"/>
+            <h3>【世界上的另一个你】</h3>
+            <p>在美国，闺蜜一般称为BFF，Best friend forever也就是终生好友。闺蜜一定是是陪你笑陪你疯陪你哭的一位知己，是了解你所有也接受你的所有的人。也一定是在你犯傻之后第一个嘲笑你但你却能跟她一起笑的那个人，是那个在你遇到困难第一个给予你安慰和帮助的人。因为，她就是世界上的另一个你。</p>
+            <img src="images/girlfriends/holiday_3.jpg"/>
+            <p>人生世事无常，这一辈子能有几个能够交心，能伴随你走过人生不同阶段的朋友是多么的不易。所以，那句什么“防火防盗防闺蜜”就让他见鬼去吧，闺蜜绝对是用来狠狠爱狠狠珍惜的啊混蛋！</p>
+            <img src="images/girlfriends/holiday_4.jpg"/>
+
+            <div class="tips">
+                <p>1、记得在这天跟你的男闺蜜女闺蜜们说声节日快乐；</p>
+                <p>2、相逢总是最珍贵的，如果可以，约上你的闺蜜们，一起去疯吧！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/季春生</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

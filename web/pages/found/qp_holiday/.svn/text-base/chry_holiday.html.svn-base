@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>花中隐士的节日——北京菊花节</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/chry_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>花中隐士的节日——北京菊花节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>菊花节可不是北京的专利，就国内叫得出名头的已经有东流菊花节、开封菊花节和桐乡菊花节争奇斗妍了。之所以着重介绍北京菊花节，不仅因为这是国内规模和影响力最大的菊花节，更是因为菊花在北京有着上千年的栽培历史，曾在1986年和月季一同被选定为北京市市花。</p>    
+            <img src="/pages/found/qp_holiday/images/chry_img1.jpg"/>
+            <p>北京菊花文化节室外展将花海、花田、花带等大色块景观之美，用大地艺术的表现手法展现的淋漓尽致，呈现出一番壮美中显精致，优雅中见气势的独特效果。</p>
+            <p class="mt15">而室内展以展示菊花的文化内涵为主，寓中国传统文化于现代园林景观展示之中，将时间与空间两条主线完美融合，赏菊之旅如同读一首诗，只有将散落的词汇串联成句子，才能真正品味到菊花的文化内涵。</p>
+            <img src="/pages/found/qp_holiday/images/chry_img2.jpg"/>
+            <h3>【小菊花课堂开课啦】</h3>
+            <p>你知道吗？菊花是中国十大名花之一，花中四君子（梅兰竹菊）之一，也是世界四大切花（菊花、月季、康乃馨、唐菖蒲）之一，产量居首。根据经典的记载，中国栽培菊花历史已有3000多年。公元八世纪前后，作为观赏的菊花由中国传至日本，后又引入欧洲、法国、北美，中国菊花遍及全球。</p>
+            <img src="/pages/found/qp_holiday/images/chry_img3.jpg"/>
+            <p>你知道吗？菊花不仅有美丽的外表，还有清寒傲雪的顽强生命力，被人们赋予了很多含义：在古神话传说中菊花代表吉祥、长寿；晋朝陶渊明为菊花获得了“花中隐士”的封号；在日本，菊花是皇室的象征。</p>
+            <img src="/pages/found/qp_holiday/images/chry_img4.jpg"/>
+            <p>你知道吗？菊花不但能入药治病下火保健，还可以做成精美的佳肴。“菊花肉”、菊花鱼球、油炸菊叶、菊花鱼片粥、菊花羹、菊酒、菊茶等等，这些菊餐不但色香味俱佳，而且营养丰富。北京有名的“菊花锅子”（即在涮羊肉火锅里放些菊花煮汤），清淡味美，更是别有风味。</p>
+            <img src="/pages/found/qp_holiday/images/chry_img5.jpg"/>
+            <p>你知道吗？以下这些竟然都是菊花品种的名字！</p>
+            <p>孩儿面、金丝猴（可能是厂商冠名）</p>
+            <p>岸的赤星、苍龙爪（中二气息扑面）</p>
+            <p>嫦娥奔月、沉香贯珠、水漫金山（引经据典）</p>
+            <p>粉面桃花、懒来梳妆、柔肌玉质（擦擦口水）</p>
+            <p>白衣学士、骏河的硕士（没点学历不敢赏菊）</p>
+            <p>暮狱逃峰、希望之光（想起美帝的迈克尔）</p>
+            <p>金龙献血、笑容满面、意大利口红（……）</p>
+
+            <div class="tips">
+                <p>1、9月24日是北京菊花节，到时可以观赏室内室外两种景色；</p>
+                <p>2、菊花不仅是北京市花，还是太原、 德州、 芜湖、 中山、 湘潭、 开封、 南通、潍坊、 彰化市市花，真是好花人人爱呢；</p>
+                <p>3、菊花的一层新兴含义就不多加介绍了，祝大家身体健康！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/欢欢</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

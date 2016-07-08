@@ -1,0 +1,12 @@
+CACHE MANIFEST
+# v1 2014-07-09
+# updated  
+
+CACHE:
+/pages/mobile/notify_setting.html
+/js/app/bower_components/angular/angular.min.js
+/js/app/bower_components/angular-touch/angular-touch.min.js
+
+NETWORK:
+/device/ios/coco/notifysettings.do
+/device/ios/coco/setnotify.do

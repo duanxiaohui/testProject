@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+<style type="text/css">
+*{margin:0; padding:0;}
+body{font-size:18px;}
+#wx_box{width:100%; height:340px; display:none; background:url(http://www.365rili.com/newwap/images/weixin_title.jpg) center top no-repeat; background-size:320px 340px;}
+p{padding-top:60px; text-align:center;}
+</style>
+</head>
+<body onload="init();">
+<div id="wx_box"></div>
+<p>正在下载365日历客户端</p>
+</body>
+<script src="//www.365rili.com/js/lib/app.js"></script>
+<script type="text/javascript">
+//二维码跳转
+function init(){
+	var android = "http://d2.365rili.com/coco.apk";
+	var ios		= "https://itunes.apple.com/cn/app/365ri-li-xin-ban/id642101382?ls=1&mt=8";
+	var sUserAgent = navigator.userAgent.toLowerCase();
+	var bIsIpad = sUserAgent.match(/ipad/i) == "ipad"; 
+	var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+	var bIsAndroid = sUserAgent.match(/android/i) == "android";
+	var bIsWeixin = sUserAgent.match(/micromessenger/i) == "micromessenger";
+	var wxbox=document.getElementById("wx_box");
+	var boxp=document.getElementsByTagName("p")[0];
+	
+	if(bIsWeixin){
+		wxbox.style.display="block";
+		boxp.style.display="none";
+	}
+	if(bIsIphoneOs || bIsIpad){
+				location.href = ios;				
+	}else if(bIsAndroid){
+				location.href = android;				
+	}else{
+		location.href = "http://www.365rili.com"
+	}
+}
+</script>
+</html>

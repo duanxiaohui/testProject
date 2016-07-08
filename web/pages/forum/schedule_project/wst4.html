@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>头脑大作战</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">头脑大作战</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/88e6f38a-f561-4c8c-b976-fe99fb6c2fee.jpg"/>
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	<a href="http://m.mtime.cn/#!/movie/164798/" class="btn js-other">查看预告片</a>
+	    	<p class="time"><h3>上映时间：2015年6月19日（美国）</h3></p>
+	    	<h3>导演：彼特•道格特</h3>
+			<h3>编剧：彼特•道格特</h3>
+			<h3>主演：艾米•波勒 / 敏迪•卡灵 / 比尔•哈德尔 / 菲利丝•史密斯 / 刘易斯•布莱克</h3>
+			<h3>类型：动画</h3>
+			<p class="fc_000">制片国家/地区: 美国</p>
+			
+			<h3>看点：</h3>
+			<p>该片以人类的五种情绪为主角，这些情绪被具象为五个性格迥异的小小人，生活在人们的头脑中。故事讲述了小女孩莱利·安德森（Riley Anderson）在举家搬到旧金山之后因为对生活环境不适应开始闹情绪。动画片中你会看到几个小人在她的头脑里是如何生活的，他们之间的关系并不融洽。除了会展现莱利的大脑之外，镜头还会时不时地穿越到莱利父母的头脑中，看看成年人的情绪是怎么运作的。</p>
+			<!--h3是小标题-->
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/4bf70098-2a64-4d2d-8c51-0b8a49b9e077.jpg"/>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/a1934d3e-cc4e-48cc-b4db-072b51612e26.jpg"/>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/d7cf3b15-55e7-4f31-8e21-a5fece801c19.jpg"/>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/88e6f38a-f561-4c8c-b976-fe99fb6c2fee.jpg',
+                title: '头脑大作战',
+                desc: '《头脑大作战》再度展示了皮克斯团队卓越的想象力，他们在电影中将探索人类头脑中记忆是如何形成的，五大情绪又是如何掌控了一个人的个性与命运。故事的主角就是这五个小小人。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '头脑大作战',
+		        				content: '《脑中小小人》再度展示了皮克斯团队卓越的想象力，他们在电影中将探索人类头脑中记忆是如何形成的，五大情绪又是如何掌控了一个人的个性与命运。故事的主角就是这五个小小人。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/88e6f38a-f561-4c8c-b976-fe99fb6c2fee.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

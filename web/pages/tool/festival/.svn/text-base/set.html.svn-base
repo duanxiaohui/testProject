@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<title>星座</title>
+<link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+  <div class="festival_content">
+    <div class="festival_today_date">
+        2014年7月16日 是
+    </div>
+    <div class="festival_box">
+      <dl>
+        <dt class="festival_name">扒衣见君节</dt>
+        <dd>这里是对节日的描述这里是对节日的描述这里是对节日的描述</dd>
+      </dl>
+      <dl>
+        <dt class="festival_name">扒衣见君节</dt>
+        <dd>这里是对节日的描述这里是对节日的描述这里是对节日的描述</dd>
+      </dl>
+      <dl>
+        <dt class="festival_name">扒衣见君节</dt>
+        <dd>这里是对节日的描述这里是对节日的描述这里是对节日的描述</dd>
+      </dl>
+    </div>
+
+    <div class="festival_num_list">
+      <h3>今天是2014年7月16日</h3>
+      <ul>
+        <li><div class="countdown">还有<span class="on">12</span>天</div>距 扒衣见君节</li>
+        <li><div class="countdown">还有<span>32</span>天</div>距 扒衣见君节</li>
+        <li><div class="countdown">还有<span>45</span>天</div>距 扒衣见君节</li>
+        <li><div class="countdown">还有<span>65</span>天</div>距 扒衣见君节</li>
+        <li><div class="countdown">还有<span>129</span>天</div>距 扒衣见君节</li>
+      </ul>
+    </div>
+    <div class="set_display colse">
+      <div class="display_btn"></div>
+      是否在通知栏显示
+    </div>
+  </div>
+</body>
+</html>

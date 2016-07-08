@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors 张明臣 (vest0804@gamil.com)
+ * @date    2014-08-11 17:26:15
+ * @version 1.0
+ */
+*{-webkit-tap-highlight-color: rgba(0,0,0,0); tap-highlight-color: rgba(0,0,0,0);}
+body { background: #fff; color: #444; font: 12px / 1.5em "Microsoft YaHei", 微软雅黑,SimSun,arial; height: 100%; margin: 0; padding: 0; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+textarea { background: #fff; border: 1px solid #d2d9dc; border-radius: 2px; box-shadow: 0 0 0 #d2d9dc; -moz-transition: .3s ease-in-out; transition-property: border box-shadow; -webkit-transition: .3s ease-in-out; }
+textarea:focus, input[type="text"]:focus { /*border: 1px solid #b7d4ea;*/ box-shadow: 0 0 5px #b7d4ea inset; }
+a { color: #208de9; cursor: pointer; text-decoration: none; }
+
+.v_align { vertical-align: middle; }
+/*jq-ui*/
+.ui-corner-all-16, .ui-corner-top-16, .ui-corner-left-16, .ui-corner-tl-16 { -moz-border-radius-topleft: 16px; -webkit-border-top-left-radius: 16px; -khtml-border-top-left-radius: 16px; border-top-left-radius: 16px; }
+.ui-corner-all-16, .ui-corner-top-16, .ui-corner-right-16, .ui-corner-tr-16 { -moz-border-radius-topright: 16px; -webkit-border-top-right-radius: 16px; -khtml-border-top-right-radius: 16px; border-top-right-radius: 16px; }
+.ui-corner-all-16, .ui-corner-bottom-16, .ui-corner-left-16, .ui-corner-bl-16 { -moz-border-radius-bottomleft: 16px; -webkit-border-bottom-left-radius: 16px; -khtml-border-bottom-left-radius: 16px; border-bottom-left-radius: 16px; }
+.ui-corner-all-16, .ui-corner-bottom-16, .ui-corner-right-16, .ui-corner-br-16 { -moz-border-radius-bottomright: 16px; -webkit-border-bottom-right-radius: 16px; -khtml-border-bottom-right-radius: 16px; border-bottom-right-radius: 16px; }
+
+.fl{float:left;}
+.fr{float: right;}
+.none{display:none;}
+body{background-color: #f7f8f9}
+.calendar_top{position: relative; width: 100%; height: 50px; background-color: #364054;font-size: 25px;color: #fff;}
+
+.select_date div{width: 32px; height: 32px;float: left;padding-top: 9px}
+.today_btn{position: absolute;right: 23px; top: 15px;font-size: 20px;color: #fff}
+.select_date{ position: relative; margin: 0 auto; width: 220px;}
+.select_date img{width: 9px; height: 16px;float: left;margin: 8px 0 0 8px }
+.select_date h4{
+	float: left;
+	display: inline-block;
+	line-height:20px;
+	padding: 15px 32px 0 32px;
+}
+.select_date input{
+	opacity: 0;
+	font-size: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 22px;
+	width:100%;
+	border: none;
+}
+.calendar_panel,.calendar_panel_week{
+	overflow: hidden;
+}
+.calendar_grid{background:#fff;position: relative;overflow: hidden;}
+.calendar_grid_list,.calendar_grid_list_week{
+/*	position: absolute;
+	top: 35px;*/
+}
+
+.calendar_grid_list li,.calendar_grid_list_week li{float:left; width:14.2%; width:-webkit-calc(100% / 7); height:55px;}
+
+.calendar_week_list{height:24px; margin-bottom:10px; margin-top: 10px;}
+.calendar_week_list li{width: 14.2%;width:-webkit-calc(100%/7); float:left; height:24px; line-height:24px; text-align:center;}
+
+.grid{width:51px; height:51px; border:1px solid #fff; margin:0 auto; border-radius:100%; position:relative;}
+.solar_data{height:15px; font-size:20px; text-align:center; padding-top: 10px;}
+.lunar_data{color:#898e91; text-align:center;}
+
+/*今天*/
+.calendar_grid_list li.today .grid,.calendar_grid_list_week li.today .grid{background:#f8913e; border-color:#f8913e;}
+.calendar_grid_list li.today .lunar_data,.calendar_grid_list li.today .solar_data,.calendar_grid_list_week li.today .lunar_data,.calendar_grid_list_week li.today .solar_data{color:#fff;}
+
+/*点击*/
+.calendar_grid_list li.on .grid,.calendar_grid_list_week li.on .grid{background:#dcf3f6; border-color:#f8913e;}
+
+.vacation_icon{width:12px; height:12px; border-radius:100%; position: absolute; top:-2px; left:-2px; display:none;}
+/*班*/
+.work .vacation_icon{display:block;}
+.work .vacation_icon:after{content:"班";position:absolute; width:16px; height:16px; top:-2px; left:-2px; text-align:center; line-height:16px; color:#35adec; -webkit-transform: scale(.75);}
+/*休*/
+
+.rest .vacation_icon{display:block;}
+.rest .vacation_icon:after{content:"休";position:absolute; width:16px; height:16px; top:-2px; left:-2px; text-align:center; line-height:16px; color:#f8913e;font-size:12px; -webkit-transform: scale(.75);}
+/*circle*/
+.work .grid .circle,.rest .grid .circle,.ondate .grid .circle,.today .grid .circle{position: absolute; width: 5px; height: 5px; border-radius: 100%; background-color: #fff;left: 50%;bottom: 5px;margin-left: -2.5px;}
+.ondate .grid .circle{background-color: #f8913e;}
+.today .grid .circle{background-color: #fff;}
+/*前后月*/
+.calendar_grid_list li.befor .lunar_data,.calendar_grid_list_week li.befor .lunar_data{color:#ccc;}
+.calendar_grid_list li.befor .solar_data,.calendar_grid_list_week li.befor .solar_data{color:#999;}
+
+
+.almanac{position: relative; background:#f7f8f9; border-top:1px solid #d6dce1;font-size: 15px;}
+.lunar_data_txt{color:#151616; font-weight:600;}
+.almanac_data_txt{color:#898e91; margin-top: 6px;}
+.yi,.ji{padding-left:56px; position:relative; line-height:24px; color: #898e91; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+.yi{margin-top: 12px;}
+.yi:after{content:"宜:"; position:absolute; width:20px; height:24px; left:35px; top:0; text-align:center; line-height:24px;}
+.ji:after{content:"忌:"; position:absolute; width:20px; height:24px; left:35px; top:0; text-align:center; line-height:24px;}
+.almanac .almanac_data{margin-left: 40px; margin-top: 26px;}
+.almanac .almanac_yiji{margin: 10px 0 10px 40px; width: 85.33%; height: 75px; border: 1px solid #d6dce1; border-radius: 4px;background: url(../images/triangle.png) top right no-repeat;background-size:17.5px 18px;}
+.almanac .line{position: absolute; width: 2px; height: 100%; background-color: #d6dce1; left: 20px; top: 0; z-index: 1;}
+.almanac .icon_eye{position: absolute; width: 35px; height: 35px; top: 17px; left: 3px; background: url(../images/eye.png) center center #f7f8f9 no-repeat; background-size:17.5px 17.5px; z-index: 2;}
+.throttle_content{width:300px; height:; display: none;}
+
+/* 假期弹层 */
+.vac_layer{position:absolute; width:100%; height:290px; background:#fff; border:1px solid #d93448; left:0; z-index:999; top:40px;}
+.vac_layer h3,.solar_layer h3{line-height:50px; color:#d93448; font-size:20px; text-align:center;}
+.vac_layer li{display:inline-block; width:49%; height:59px; border-top:1px solid #d4d4d4; color:#000000; border-right:1px solid #d4d4d4;}
+
+/* 节气弹层 */
+.solar_layer{position:absolute; width:100%; background:#fff; border:1px solid #d93448; left:0; z-index:999; top:40px;}
+.solar_layer li{  width: 24.5%;  width: -webkit-calc(25% - 1px);  height: 42px;
+  border-top: 1px solid #d4d4d4;  border-left: 1px solid #d4d4d4;  color: #fbe9bf;
+  cursor: pointer;  display: inline-block;}
+.solar_layer li p{text-align:center; line-height:42px; color:#535353;}
+
+/*箭头*/
+.arror_top{width:10px; height:10px; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -o-transform: rotate(45deg);  border-top:2px solid #d93448;border-left:2px solid #d93448; position:absolute; margin:-8px 0 0 0; right:63px; background:#fff;}
+.solar_layer .arror_top{right:85px;}
+.vac_layer .arror_top{right:30px;}
+
+/*月视图上下月*/
+.other-month ,.other-month .lunar_data{
+	color:#ccc;
+}
+/*选中日期*/
+.calendar_grid_list li.ondate .grid,.calendar_grid_list_week li.ondate .grid{border-color:#f8913e;}
+
+/*iphone 4,5*/
+@media only screen and (device-width : 320px){
+	.grid{width:43px; height:43px; border:1px solid #fff; margin:0 auto; border-radius:100%; position:relative;}
+	.work .grid .circle,.rest .grid .circle,.ondate .grid .circle,.today .grid .circle{position: absolute; width: 5px; height: 5px; border-radius: 100%; background-color: #fff;left: 50%;bottom: 2px;margin-left: -2.5px;}
+	.solar_data {height: 15px;font-size: 20px;text-align: center;padding-top: 6px;}
+}

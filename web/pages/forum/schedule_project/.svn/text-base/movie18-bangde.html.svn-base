@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>邦德24</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">邦德24</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/f878981b-d4c9-4921-a6f6-2f1ba1851bdf.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	<a href="http://v.17173.com/v_102_610/MTg2OTYzNDQ.html" data-title="查看预告片" class="btn js-other">查看预告片</a>
+	    	<h3 class="time">上映时间：2015年10月23日（英国）</h3>
+			<p> </p>
+	    	<h3>导演：萨姆·门德斯</h3>
+			<p class="fc_000">主演：丹尼尔·克雷格 / 拉尔夫·费因斯 / 娜奥米·哈里斯 / 本·威士肖 / 切瓦特·埃加福特 / 罗里·金尼尔</p>
+			<h3>剧情：</h3>
+			<p>因为一条来自过去的加密信息，邦德逐步揭开了一个邪恶组织的神秘面纱。为了保全安全机构，M与政治势力展开一番惊险争斗，同时，随着邦德一层层拨开谎言迷雾，隐藏在“魔鬼党”（SPECTRE）背后的骇人真相也终于浮出水面。关于新片名“SPECTRE”，导演萨姆·门德斯没有做出过多评论，只是说：“那些熟悉007系列的人们应该会知道它指的是什么。”这一片名其实与曾出现在《007之霹雳弹》中的党派重名，多译为“魔鬼党”，其首脑贝洛福则是主角詹姆斯·邦德的最终敌人。</p>
+			<!--h3是小标题-->
+			<h3>看点：</h3>
+			<!--p是段落文字描述-->
+			<p>每一部新的007影片，首先要提三个问题：谁演邦德？谁演邦女郎？邦德开啥车？在这一部里，邦德还是熟悉的面孔，万众瞩目的“邦女郎”一由在《黑客帝国》里艳惊世界的莫妮卡·贝鲁奇担任，另一位“邦女郎”则由法国女星蕾雅·赛杜饰演，慵懒性感的她曾因出演《碟中谍4》声名大噪，去年主演的《阿黛尔的生活》一举摘取戛纳金棕榈奖。邦德这回开的阿斯顿·马丁(Aston Martin) DB10是阿斯顿·马丁为这部电影量身打造，特别为邦德设计的专属座驾。此外配角包括凭借《无耻混蛋》和《被解救的姜戈》两次夺得奥斯卡最佳男配角的克里斯托弗·瓦尔兹、《银河护卫队》中的“毁灭者”戴夫·巴蒂斯塔，甚至还有《神探夏洛克》中的“莫娘”安德鲁·斯科特，演员阵容如此凶残，看来第24部007有望延续上一部在70个国家和地区取得首周票房冠军，英国影史票房冠军的辉煌，甚至超越上一部成为全球票房最高的007电影。</p>
+    	<img src="http://cocoimg.365rili.com/schedule_pics/default/f2001205-2b44-4309-bc69-bd703307c8dd.jpg"/>
+		<img src="http://cocoimg.365rili.com/schedule_pics/default/3846013e-b8fc-4388-92d5-bb2cddc9ea1a.jpg"/>
+		<div class="remind_div none" data-uuid="4e0b87d7-73ef-47ed-9069-5060d1f79f57" data-cid="125821987"><div class="remind_icon"></div><span>添加提醒</span></div>
+		</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/b98e08c7-72de-4660-8b14-f8e4b6b86174.jpg',
+                title: '电影：邦德24',
+                desc: '第24部007系列电影《邦德24》导演山姆·曼德斯与制作人芭芭拉 布洛柯里等为全球观众现场揭幕新一集007电影的片名及演员阵容。影片正式定名《SPECTRE》。丹尼尔·克雷格确定回归，第四次饰演詹姆斯·邦德。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '电影：邦德24',
+		        				content: '第24部007系列电影《邦德24》导演山姆·曼德斯与制作人芭芭拉 布洛柯里等为全球观众现场揭幕新一集007电影的片名及演员阵容。影片正式定名《SPECTRE》。丹尼尔·克雷格确定回归，第四次饰演詹姆斯·邦德。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/b98e08c7-72de-4660-8b14-f8e4b6b86174.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		},
+		        		{
+		        			name: 'channel',
+		        			value: 'wx'
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

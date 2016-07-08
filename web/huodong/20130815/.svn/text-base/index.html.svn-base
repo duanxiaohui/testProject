@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历--GO桌面</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+</head>
+<body>
+	<div class="main">
+		<div class="top"></div>
+		<div class="text">
+			<p>爱奇艺视频客户端是爱奇艺(iqiyi.com)旗下一款高清视频客户端，可提供电影、动漫、音乐、新闻、娱乐、片花高清海量影视视频在线观看和下载海量正版高清影视资源，可供用户飞速离线观看。热播大剧、最新剧集，八卦娱乐，爱奇艺在手，应有尽有！快来下载试用吧！温馨提醒：是爱奇艺，而非“爱奇异”哦！  </p>
+		</div>
+		<a href="http://app.qiyi.com/common/qiyi375.apk" class="btn">下载爱奇艺</a>
+	</div>
+</body>
+</html>

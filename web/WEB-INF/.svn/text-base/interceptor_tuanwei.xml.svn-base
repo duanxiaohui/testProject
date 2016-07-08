@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <bean id="authService" class="com.rili.web.interceptor.AuthService">
+		<property name="userDAO" ref="userDAO" />
+		<property name="tuanweiDAO" ref="tuanweiDAO" />
+	</bean>
+	
+	<!-- 认证拦截器 -->
+	<mvc:interceptors>
+		<!-- 在Httpbasic/coco/bbs认证之后，避免给手机接口设置cookie，但要在其他接口之前 -->
+		<mvc:interceptor>
+			<mvc:mapping path="/**/*.do" />
+			<bean class="com.rili.web.interceptor.CookieInterceptor">
+				<property name="sessionIdGenerator" ref="sessionIdGenerator" />
+			</bean>
+		</mvc:interceptor>
+
+		<mvc:interceptor>
+			<mvc:mapping path="/**/*.do" />
+			<mvc:exclude-mapping path="/event/**/*.do"/>
+			<mvc:exclude-mapping path="/tuanwei/login.do"/>
+			<mvc:exclude-mapping path="/tuanwei/tw_loginAction.do"/>
+					    	
+			<bean class="com.rili.web.interceptor.TuanweiAuthInterceptor">
+			    <property name="loginURL" value="/tuanwei/login.do" />
+				<property name="authService" ref="authService" />
+			</bean>
+		</mvc:interceptor>
+		
+	</mvc:interceptors>
+
+</beans>

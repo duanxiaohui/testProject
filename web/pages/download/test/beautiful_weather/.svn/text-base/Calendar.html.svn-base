@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<title>日历</title>
+<link href="style/calendar.css?v=20150211" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="mb_365calander">
+	<div class="main smallcd" id="bd">
+		<div class="operate_btn">
+			<div class="select_year">
+				<a href="javascript:;" title="前一个月" delta="-1" class="prev" id="lnk_prev"><div class="prev_arrow"></div></a>
+				<span id="sp_year">2012</span>年<span id="sp_month">12</span>月
+				<a href="javascript:;" title="后一个月" delta="1" class="next" id="lnk_next"><div class="next_arrow"></div></a>
+			</div>
+			<div id="div_buttons" class="ss">
+				<a class="operate_vacation" data-md='{"p":"放假安排"}'>假期</a>
+				<a class="solar_terms"  data-md='{"p":"节气"}'>节气</a>
+			</div>
+			<a href="javascript:;" class="operate_today">今天</a>
+			<a href="http://www.365rili.com/bd/transfer/redirect_baiduwap.html" target="_blank"  data-md='{"p":"手机版入口"}' class="down_iphon">手机版</a>
+		</div>
+		<div class="calendar_box e_clear">
+			<div class="calendar_bg">
+			<div class="calendar">
+				<ul class="calendar_top">
+					<li>一</li>
+					<li>二</li>
+					<li>三</li>
+					<li>四</li>
+					<li>五</li>
+					<li class="weekend">六</li>
+					<li class="weekend">日</li>
+				</ul>
+				<ul class="calendar_table js-cld-panel e_clear"></ul>
+			</div>
+			<div class="calendar_right" id="div_day_detail"></div>
+			<div class="constellation">
+				<div class="constellation_content">
+					<h3>每日星座播报</h3>
+					<ul class="constellation_list"></ul>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="footer_icon"></div>
+		<div class="vacation_exp"></div>
+	</div>
+</div>
+<div class="hl_layer none">
+	<a href="javascript:;" class="colse_layer"></a>
+	<h3 class="hl_date"></h3>
+	<p class="hl_lunarDate"></p>
+	<p><span class="hl_animal"></span><span class="hl_md"></span></p>
+	<div class="hl_layer_yj">
+		<div class="smallcd">
+			<div class="yj_box e_clear">
+				<div class="yi" title="冠笄 立券 交易 修造 动土 入殓 安葬 破土 安机械">
+				</div>
+				<div class="ji" title="嫁娶 祈福 出火 入宅">
+				</div>
+			</div>
+		</div>
+		<div class="hl_other">
+			<span class="hl_chong"></span>
+			<span class="hl_sha"></span>
+			<span class="hl_cheng"></span>
+			<span class="hl_zc"></span>
+			<span class="hl_ts"></span>
+		</div>
+	</div>
+</div>
+<div class="mask">
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui-1.8.23.custom.min.js"></script>
+<script src="js/calendar.js?v=20150211"></script>
+<script src="js/lunar.js"></script>
+<script src="http://s7.qhimg.com/!c4a8417b/_360mso_ob_ifr_conn__wapapp.js"></script>
+<script src="//www.365rili.com/js/lib/app.js"></script>
+<script>ob360.app.start();</script>
+</body>
+</html>

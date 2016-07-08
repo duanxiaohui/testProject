@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015铁树斜街迎新庙会：庙会虽小满富情怀</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015铁树斜街迎新庙会：庙会虽小满富情怀</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/cec54600-a7eb-44a4-abc0-b00a714aae66.jpg"/>
+			 <a class="btn js-subscribe" data-uuid="51a858b3-c18a-4086-8e95-e3f8c6df4d54" data-cid="147462861">添加提醒</a>
+	    
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	
+	    	<p class="time"><b>时间：2015.2.3 - 2.11（9：00-17：00）
+
+
+
+
+
+
+</b></br>
+	    	<b>场地：北京市西城区铁树斜街93号院博物馆</b></br>
+			<b>费用：门票免费</b></p>
+			<h3>亮点：</h3>
+			<p>1、	古代桌游“升官图”重现京城</br>
+			2、	亲自动手剪福字为家人迎新纳福</br>
+			
+</p>
+			<!--h3是小标题-->
+			<h3>活动看点：</h3>
+			<!--p是段落文字描述-->
+			<p>除了好玩的，肯定也少不了好吃的。93号院博物馆在整个庙会期间特地准备糖瓜儿、奶酪、糖葫芦等老北京传统小吃功供游客品尝。在冬日的暖阳照耀下，在保存着浓厚的老北京生活气息的胡同里，伴随着唇齿留香的老北京味道，93号院博物馆迎新胡同庙会一定会给您一个最好的新年礼物，让您拥有难忘的老北京文化体验之旅。</p>
+<p>活动日程安排、现场指导老师介绍</br>
+日期 时间 活动项目 指导老师</br>
+2月3日 10:40-11：00 抖空竹 赵学君</br>
+2月3日 13：00-15：00 草编 李希祥</br>
+2月4日 10：00-15：00 剪纸 萱草苑社员</br>
+2月5日 10：00-15：00 堆绣 靳明</br>
+2月6日 10：00-15：00 老北京风车 李石</br>
+2月7日 10：00-12：00 蛋雕 杨晓康</br>
+2月7日 13：00-15：00 北京毛猴 姜守煜</br>
+2月8日 10：00-12：00 烙葫芦 王兆庚</br>
+2月8日 13：00-15：00 脸谱 赵永歧</br>
+2月9日 13：00-15：00 剪纸 萱草苑社员</br>
+2月10日 13：00-15：00 木版年画 张阔</br>
+2月11日 10：00-15：00 老北京游艺项目体验</br>
+</br>
+具体详情以官方信息为准
+
+		</p>
+			
+<img src="http://cocoimg.365rili.com/schedule_pics/default/f72ffb80-b252-4d3a-8f14-79203559cfe4.jpg"/>
+
+ <div class="remind_div" data-uuid="51a858b3-c18a-4086-8e95-e3f8c6df4d54" data-cid="147462861"><div class="remind_icon"></div><span>添加提醒</span></div>
+
+
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/cec54600-a7eb-44a4-abc0-b00a714aae66.jpg',
+                title: '2015铁树斜街迎新庙会：庙会虽小满富情怀',
+                desc: '93号院博物馆在整个庙会期间特地准备糖瓜儿、奶酪、糖葫芦等老北京传统小吃功供游客品尝。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015铁树斜街迎新庙会：庙会虽小满富情怀',
+		        				content: '93号院博物馆在整个庙会期间特地准备糖瓜儿、奶酪、糖葫芦等老北京传统小吃功供游客品尝。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/cec54600-a7eb-44a4-abc0-b00a714aae66.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

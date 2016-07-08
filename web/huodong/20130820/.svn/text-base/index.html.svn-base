@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历--柚子玩</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+</head>
+<body>
+	<div class="main">
+		<div class="top"></div>
+		<div class="text">
+			<p>柚子玩手机游戏大厅汇聚了众多精品HTML5游戏和客户端游戏，点击即玩，赶紧来体验下吧！ </p>
+		</div>
+		<a href="http://g.uzwan.cn/c?channel=365" class="btn">来柚子玩吧</a>
+	</div>
+</body>
+</html>

@@ -1,0 +1,831 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 张明臣 (vest0804@gamil.com)
+ * @date    2015-06-08 11:15:59
+ * @version 1.0
+ */
+body { background: #fff; color: #444; font: 12px / 1.5em "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑,SimSun,arial; margin: 0; padding: 0;}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+*{-webkit-tap-highlight-color: rgba(0,0,0,0); tap-highlight-color: rgba(0,0,0,0);}
+a{text-decoration: none; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+.none{display:none;}
+
+.cld-ui-corner-all-5, .cld-ui-corner-top-5, .cld-ui-corner-left-5, .cld-ui-corner-tl-5 { 
+	-moz-border-radius-topleft: 5px; 
+	-webkit-border-top-left-radius: 5px; 
+	-khtml-border-top-left-radius: 5px; 
+	border-top-left-radius: 5px; 
+}
+.cld-ui-corner-all-5, .cld-ui-corner-top-5, .cld-ui-corner-right-5, .cld-ui-corner-tr-5 { 
+	-moz-border-radius-topright: 5px; 
+	-webkit-border-top-right-radius: 5px; 
+	-khtml-border-top-right-radius: 5px; 
+	border-top-right-radius: 5px; 
+}
+.cld-ui-corner-all-5, .cld-ui-corner-bottom-5, .cld-ui-corner-left-5, .cld-ui-corner-bl-5 { 
+	-moz-border-radius-bottomleft: 5px; 
+	-webkit-border-bottom-left-radius: 5px; 
+	-khtml-border-bottom-left-radius: 5px; 
+	border-bottom-left-radius: 5px; 
+}
+.cld-ui-corner-all-5, .cld-ui-corner-bottom-5, .cld-ui-corner-right-5, .cld-ui-corner-br-5 {
+	 -moz-border-radius-bottomright: 5px; 
+	 -webkit-border-bottom-right-radius: 5px; 
+	 -khtml-border-bottom-right-radius: 5px; 
+	 border-bottom-right-radius: 5px; 
+}
+.cld-ui-shadow { box-shadow: 0px 0px 20px rgba(0,0,0,0.2); -moz-box-shadow: 3px 3px 3px #d7d8d9; -webkit-box-shadow: 0px 0px 20px rgba(0,0,0,0.2); }
+
+/*超出显示省略号*/
+.cld-ui-nowrap {
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+/*上边框*/
+.cld-ui-border-t{border-top:1px solid #e0e0e0;}
+/*下边框*/
+.cld-ui-border-t{border-bottom:1px solid #e0e0e0;}
+/*上下边框*/
+.cld-ui-border-t{
+	border-top:1px solid #e0e0e0;
+	border-bottom:1px solid #e0e0e0;
+}
+/*列表*/
+.cld-ui-list{
+	position:relative;
+	background:#fff;
+	display:-webkit-box;
+	display:box;
+	border-bottom:1px solid #e0e0e0;
+}
+.cld-ui-list-avatar{
+	width:50px;
+	height:50px;
+	margin:10px 0 10px 10px;
+}
+.cld-ui-list-avatar div{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	background-size:100% 100%;
+	border-radius:200px;
+	-webkit-border-radius:200px;
+}
+.cld-ui-list-info{
+	margin-left:10px;
+	padding:10px 0;
+	-webkit-box-flex:1;
+	box-flex:1;
+	display:-webkit-box;
+	display:box;
+	-webkit-box-orient: vertical;/*规定框的子元素应该被水平或垂直排列*/
+  	-webkit-box-pack: center;/*规定当框大于子元素的尺寸，在何处放置子元素*/
+}
+/*无头像class*/
+.cld-ui-list-noAvatar dt{display:none;}
+
+/*右侧有按钮class*/
+.cld-ui-list-function .cld-ui-list-info{padding-right:70px;}
+.cld-ui-list-btn{
+	position:absolute;
+	top:50%;
+	right:10px;
+	margin-top:-15px;
+	height:30px;
+	line-height:30px;
+	padding:0 13px;
+}
+
+.cld-ui-btn-box{margin:10px;}
+
+.cld-ui-btn-ab{
+	display:block;
+	width:100%;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	font-size:15px;
+	border:1px solid #fff; 
+}
+.cld-ui-btn-green{
+	background-color: #4cba36;
+    border-color: #51aa48;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0.5,#5dce46),to(#4cba36));
+    color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+.cld-ui-btn-blue{
+	background-color: #18b4ed;
+	border-color: #0baae4;
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0.5,#1fbaf3),to(#18b4ed));
+	color: #fff;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+}
+.cld-ui-btn-del{
+	background-color: #fdfdfd;
+	border-color:#c3c3c3;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0.5,#fff),to(#fafafa));
+    color:#ff4a4a;
+}
+.cld-ui-btn-normal{
+	background-color: #fdfdfd;
+	border-color:#c3c3c3;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0.5,#fff),to(#fafafa));
+    color:#037AFF;
+}
+.cld-ui-btn-it{text-align:center;}
+.cld-ui-btn-icon{
+	display:inline-block;
+	vertical-align: middle;
+	width:17px;
+	height:50px;
+	background:url(http://www.365rili.com/share/images/ling.png) no-repeat left 14px;
+	background-size: 100% auto;
+}
+.cld-ui-btn-text{
+	display:inline-block;
+	padding:0 0 0 5px;
+	line-height:50px;
+	font-size:15px;
+	color:#fff;
+}
+
+.cld-ui-btn-side,.cld-ui-btn-sidet{
+	display: -webkit-box;
+	display: box;
+}
+.cld-ui-btn-side a,.cld-ui-btn-sidet a{
+	-webkit-box-flex:1;
+	box-flex:1;
+}
+.cld-ui-btn-side .cld-ui-btn-ab:first-child{
+	margin-right:5px;
+}
+.cld-ui-btn-fixed{
+	position:fixed;
+	width:100%;
+	bottom:0;
+	left:0;
+	z-index:10;
+	background:#fff;
+}
+
+/*cld-ui-loading*/
+.cld-ui-loading{width:85px; height:85px; position:relative;}
+.blue,.red,.black,.green{width:34px; height:34px; border-radius:17px; position:absolute;} 
+.blue{background:#0e70b8; top:0; right:0;
+	-moz-animation: brotating 4s infinite linear;
+    -webkit-animation: brotating 4s infinite linear;
+}
+.red{background:#f79427; top:0; left:0;
+	-moz-animation: rrotating 4s infinite linear;
+    -webkit-animation: rrotating 4s infinite linear;
+}
+.black{background:#ffd722; bottom:0; left:0;
+	-moz-animation: krotating 4s infinite linear;
+    -webkit-animation: krotating 4s infinite linear;
+}
+.green{background:#4e9fd7; bottom:0; right:0;
+	-moz-animation: grotating 4s infinite linear;
+    -webkit-animation: grotating 4s infinite linear;
+}
+@-webkit-keyframes brotating {
+	%0{
+		top:0; left:51px;
+	}
+	12.5%{
+		top:25px; left:51px;
+	}
+	25%{
+		top:51px; left:51px;
+	}
+	37.5%{
+		top:51px; left:25px;
+	}
+	50%{
+		top:51px; left:0;
+	}
+	62.5%{
+		top:25px; left:0;
+	}
+	75%{
+		top:0; left:0;
+	}
+	87.5%{
+		top:0; left:25px;
+	}
+	100%{
+		top:0; left:51px;
+	}
+}
+@-o-keyframes brotating {
+	%0{
+		top:0; left:51px;
+	}
+	12.5%{
+		top:25px; left:51px;
+	}
+	25%{
+		top:51px; left:51px;
+	}
+	37.5%{
+		top:51px; left:25px;
+	}
+	50%{
+		top:51px; left:0;
+	}
+	62.5%{
+		top:25px; left:0;
+	}
+	75%{
+		top:0; left:0;
+	}
+	87.5%{
+		top:0; left:25px;
+	}
+	100%{
+		top:0; left:51px;
+	}
+}
+@-moz-keyframes brotating {
+	%0{
+		top:0; left:51px;
+	}
+	12.5%{
+		top:25px; left:51px;
+	}
+	25%{
+		top:51px; left:51px;
+	}
+	37.5%{
+		top:51px; left:25px;
+	}
+	50%{
+		top:51px; left:0;
+	}
+	62.5%{
+		top:25px; left:0;
+	}
+	75%{
+		top:0; left:0;
+	}
+	87.5%{
+		top:0; left:25px;
+	}
+	100%{
+		top:0; left:51px;
+	}
+}
+@keyframes brotating {
+	%0{
+		top:0; left:51px;
+	}
+	12.5%{
+		top:25px; left:51px;
+	}
+	25%{
+		top:51px; left:51px;
+	}
+	37.5%{
+		top:51px; left:25px;
+	}
+	50%{
+		top:51px; left:0;
+	}
+	62.5%{
+		top:25px; left:0;
+	}
+	75%{
+		top:0; left:0;
+	}
+	87.5%{
+		top:0; left:25px;
+	}
+	100%{
+		top:0; left:51px;
+	}
+}
+
+@-webkit-keyframes rrotating {
+	%0{
+		top:0; left:0;
+	}
+	12.5%{
+		top:0; left:25px;
+	}
+	25%{
+		top:0; left:51px;
+	}
+	37.5%{
+		top:25px; left:51px;
+	}
+	50%{
+		top:51px; left:51px;
+	}
+	62.5%{
+		top:51px; left:25px;
+	}
+	75%{
+		top:51px; left:0;
+	}
+	87.5%{
+		top:25px; left:0;
+	}
+	100%{
+		top:0; left:0;
+	}
+}
+@-o-keyframes rrotating {
+	%0{
+		top:0; left:0;
+	}
+	12.5%{
+		top:0; left:25px;
+	}
+	25%{
+		top:0; left:51px;
+	}
+	37.5%{
+		top:25px; left:51px;
+	}
+	50%{
+		top:51px; left:51px;
+	}
+	62.5%{
+		top:51px; left:25px;
+	}
+	75%{
+		top:51px; left:0;
+	}
+	87.5%{
+		top:25px; left:0;
+	}
+	100%{
+		top:0; left:0;
+	}
+}
+@-moz-keyframes rrotating {
+	%0{
+		top:0; left:0;
+	}
+	12.5%{
+		top:0; left:25px;
+	}
+	25%{
+		top:0; left:51px;
+	}
+	37.5%{
+		top:25px; left:51px;
+	}
+	50%{
+		top:51px; left:51px;
+	}
+	62.5%{
+		top:51px; left:25px;
+	}
+	75%{
+		top:51px; left:0;
+	}
+	87.5%{
+		top:25px; left:0;
+	}
+	100%{
+		top:0; left:0;
+	}
+}
+@keyframes rrotating {
+	%0{
+		top:0; left:0;
+	}
+	12.5%{
+		top:0; left:25px;
+	}
+	25%{
+		top:0; left:51px;
+	}
+	37.5%{
+		top:25px; left:51px;
+	}
+	50%{
+		top:51px; left:51px;
+	}
+	62.5%{
+		top:51px; left:25px;
+	}
+	75%{
+		top:51px; left:0;
+	}
+	87.5%{
+		top:25px; left:0;
+	}
+	100%{
+		top:0; left:0;
+	}
+}
+
+@-webkit-keyframes krotating {
+	%0{
+		bottom:0; left:0;
+	}
+	12.5%{
+		bottom:25px; left:0;
+	}
+	25%{
+		bottom:51px; left:0;
+	}
+	37.5%{
+		bottom:51px; left:25px;
+	}
+	50%{
+		bottom:51px; left:51px;
+	}
+	62.5%{
+		bottom:25px; left:51px;
+	}
+	75%{
+		bottom:0px; left:51px;
+	}
+	87.5%{
+		bottom:0px; left:25px;
+	}
+	100%{
+		bottom:0; left:0;
+	}
+}
+
+@-o-keyframes krotating {
+	%0{
+		bottom:0; left:0;
+	}
+	12.5%{
+		bottom:25px; left:0;
+	}
+	25%{
+		bottom:51px; left:0;
+	}
+	37.5%{
+		bottom:51px; left:25px;
+	}
+	50%{
+		bottom:51px; left:51px;
+	}
+	62.5%{
+		bottom:25px; left:51px;
+	}
+	75%{
+		bottom:0px; left:51px;
+	}
+	87.5%{
+		bottom:0px; left:25px;
+	}
+	100%{
+		bottom:0; left:0;
+	}
+}
+@-moz-keyframes krotating {
+	%0{
+		bottom:0; left:0;
+	}
+	12.5%{
+		bottom:25px; left:0;
+	}
+	25%{
+		bottom:51px; left:0;
+	}
+	37.5%{
+		bottom:51px; left:25px;
+	}
+	50%{
+		bottom:51px; left:51px;
+	}
+	62.5%{
+		bottom:25px; left:51px;
+	}
+	75%{
+		bottom:0px; left:51px;
+	}
+	87.5%{
+		bottom:0px; left:25px;
+	}
+	100%{
+		bottom:0; left:0;
+	}
+}
+@keyframes krotating {
+	%0{
+		bottom:0; left:0;
+	}
+	12.5%{
+		bottom:25px; left:0;
+	}
+	25%{
+		bottom:51px; left:0;
+	}
+	37.5%{
+		bottom:51px; left:25px;
+	}
+	50%{
+		bottom:51px; left:51px;
+	}
+	62.5%{
+		bottom:25px; left:51px;
+	}
+	75%{
+		bottom:0px; left:51px;
+	}
+	87.5%{
+		bottom:0px; left:25px;
+	}
+	100%{
+		bottom:0; left:0;
+	}
+}
+
+@-webkit-keyframes grotating {
+	%0{
+		bottom:0; right:0;
+	}
+	12.5%{
+		bottom:0px; right:25px;
+	}
+	25%{
+		bottom:0px; right:51px;
+	}
+	37.5%{
+		bottom:25px; right:51px;
+	}
+	50%{
+		bottom:51px; right:51px;
+	}
+	62.5%{
+		bottom:51px; right:25px;
+	}
+	75%{
+		bottom:51px; right:0px;
+	}
+	87.5%{
+		bottom:25px; right:0px;
+	}
+	100%{
+		bottom:0; right:0;
+	}
+}
+
+@-o-keyframes grotating {
+	%0{
+		bottom:0; right:0;
+	}
+	12.5%{
+		bottom:0px; right:25px;
+	}
+	25%{
+		bottom:0px; right:51px;
+	}
+	37.5%{
+		bottom:25px; right:51px;
+	}
+	50%{
+		bottom:51px; right:51px;
+	}
+	62.5%{
+		bottom:51px; right:25px;
+	}
+	75%{
+		bottom:51px; right:0px;
+	}
+	87.5%{
+		bottom:25px; right:0px;
+	}
+	100%{
+		bottom:0; right:0;
+	}
+}
+
+@-moz-keyframes grotating {
+	%0{
+		bottom:0; right:0;
+	}
+	12.5%{
+		bottom:0px; right:25px;
+	}
+	25%{
+		bottom:0px; right:51px;
+	}
+	37.5%{
+		bottom:25px; right:51px;
+	}
+	50%{
+		bottom:51px; right:51px;
+	}
+	62.5%{
+		bottom:51px; right:25px;
+	}
+	75%{
+		bottom:51px; right:0px;
+	}
+	87.5%{
+		bottom:25px; right:0px;
+	}
+	100%{
+		bottom:0; right:0;
+	}
+}
+
+@keyframes grotating {
+	%0{
+		bottom:0; right:0;
+	}
+	12.5%{
+		bottom:0px; right:25px;
+	}
+	25%{
+		bottom:0px; right:51px;
+	}
+	37.5%{
+		bottom:25px; right:51px;
+	}
+	50%{
+		bottom:51px; right:51px;
+	}
+	62.5%{
+		bottom:51px; right:25px;
+	}
+	75%{
+		bottom:51px; right:0px;
+	}
+	87.5%{
+		bottom:25px; right:0px;
+	}
+	100%{
+		bottom:0; right:0;
+	}
+}
+
+.cld-ui-loading-dot{
+	/*opacity: 0;*/
+	position: relative;
+	z-index: 10;
+	left: 0;
+	top: 0;
+	/*background: url(/pages/bd/2015_easter/images/loading.gif) no-repeat center;
+	-webkit-background-size: 100px 100px;
+	background-size: 100px 100px;*/
+	width: 100%;
+	height: 50px;
+}
+.cld-ui-loading-dot-txt{
+	position: absolute;
+	top:40%;
+	left: 50%;
+	margin-top: 80px;
+	margin-left: -45px;
+	width: 90px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	color:#bfa47c;
+}
+
+.spinner {
+  /*margin: 100px auto;*/
+  position: absolute;
+  top:40%;
+  left:50%;
+  margin-left: -45px;
+  margin-top: -45px;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+   
+  -webkit-animation: rotate 2.0s infinite linear;
+  animation: rotate 2.0s infinite linear;
+}
+ 
+.dot1, .dot2 {
+  width: 60%;
+  height: 60%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  background-color: #b19264;
+  border-radius: 100%;
+   
+  -webkit-animation: bounce 2.0s infinite ease-in-out;
+  animation: bounce 2.0s infinite ease-in-out;
+}
+ 
+.dot2 {
+  top: auto;
+  bottom: 0px;
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+ 
+@-webkit-keyframes rotate { 100% { -webkit-transform: rotate(360deg) }}
+@keyframes rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+ 
+@-webkit-keyframes bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+ 
+@keyframes bounce {
+  0%, 100% {
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+/*tips 提示*/
+.cld-ui-tips-div{position:relative; height:80px;}
+.cld-ui-tips{
+	/*position:absolute;*/
+	width:100%;
+	height:24px;
+	text-align:center;
+	z-index:10;
+}
+.cld-ui-tips i{
+	display:inline-block;
+	width:16px;
+	height:16px;
+	background-size:100% 100%;
+	vertical-align: middle;
+}
+.cld-ui-tips p{
+	line-height:24px; 
+	display:inline-block; 
+	font-size:14px; 
+	color:#515252;
+	vertical-align: middle
+}
+.cld-ui-tips-info i{
+	background-image:url(../images/info.png);
+}
+.cld-ui-tips-warning i{
+	background-image:url(../images/warning.png);
+}
+.cld-ui-tips-successful i{
+	background-image:url(../images/successful.png);
+}
+
+/*cld-ui-dialog*/
+.cld-ui-dialog{
+	position:fixed;
+	width:270px;
+	left:50%;
+	top:50%;
+	margin:0 0 0 -135px;
+	background:#fff;
+	z-index:999;
+}
+.cld-ui-dialog-content{
+	padding:15px;
+	min-height:70px;
+	display:box;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+  	-webkit-box-pack: center;
+  	text-align:center;
+}
+.cld-ui-dialog-content h4{
+	font-size:18px;
+	margin-bottom:10px;
+}
+.cld-ui-content{
+	font-size:17px;
+	line-height:160%;
+	color:#000;
+	overflow: auto;
+	-webkit-overflow-scrolling:touch;
+}
+.cld-ui-dialog-ft{border-top:1px solid #eee;}
+.cld-ui-dialog-ft a{
+	height:40px;
+	line-height:40px;
+	border:0;
+	font-size:15px;
+}
+.cld-ui-dialog-ft a:last-child{
+	border-left:1px solid #eee;
+}
+.cld-ui-dialog-ft a:first-child{
+	border-left:0px solid #eee;
+}

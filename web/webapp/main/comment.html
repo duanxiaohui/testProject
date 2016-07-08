@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<title>365日历讨论组-日程评论</title>
+<link rel="stylesheet" type="text/css" href="../static/bbs/style/style.css?v=20131219">
+</head>
+<body>
+	<div class="content">
+		<div class="comment_list_view">
+			<ul id="comment_list_ul"></ul>
+			<div>
+				<a id="comment_loadmore_btn" href="javascript:;" class="more_btn">更多</a>
+			</div>
+			<div class="comment_edit_area">
+				<div class="comment_input_div">
+					<textarea id="comment_input" placeholder="我也说一句"></textarea>
+				</div>
+				<a id="send_comment" href="javascript:;" class="comment_send_btn">评论</a>
+			</div>
+		</div>
+	</div>
+	<script src="/js/lib/zepto.min.js"></script>
+	<script src="/js/lib/app.js"></script>
+	<!-- /js/dist/bbs.js?v=20141217_1 -->
+	<script src="/js/dist/bbs.js?v=20150526"></script>
+	<!-- <script src="/js/bbs/commentListView.js"></script>
+	<script src="/js/bbs/dataUtil.js"></script>
+	<script src="/js/bbs/main.js"></script>
+	<script src="/js/bbs/messageListView.js"></script>
+	<script src="/js/bbs/subjectCreateView.js"></script>
+	<script src="/js/bbs/subjectListView.js"></script>
+	<script src="/js/bbs/util.js"></script> -->
+	<script>
+		$(function(){
+			main("comment_list");	
+		})
+	</script>
+</body>
+</html>

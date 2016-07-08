@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+	<script>document.documentElement.style.webkitUserSelect='none';</script>
+	<meta name="format-detection" content="telephone=no"/>
+	<title>365日历</title>
+	<link rel="stylesheet" href="/pages/ui-lib/css/ui-lib.css?ver=8">
+	<link href="/third_cooperation/base_calendar/css/calendar.css?ver=8" rel="stylesheet"/>
+	<link href="/third_cooperation/qqgroup/style.css?ver=8" rel="stylesheet"/>
+	<link rel="stylesheet" type="text/css" href="/third_cooperation/base_calendar/css/month-animation.css?ver=8">
+	<link rel="stylesheet" href="/js/lib/DatePicker_1/DateTimePicker.css">
+</head>
+<body>
+
+<div class="calendar_main e_clear">
+	<div class="calendar_top e_clear">
+		<a href="javascript:;" class="nearMonth prev"></a>
+		<div class="select_date e_clear">
+			<h4></h4>
+			<input type="text" id="select_month" data-field="date" readonly>
+		</div>
+		<a href="javascript:;" class="nearMonth next"></a>
+		<a href="javascript:;" class="today_btn"></a>
+		<a href="javascript:;" class="tools_btn"></a>
+		<div class="tools e_clear none">
+			<a data-href="/third_cooperation/qqgroup/manage_power.html" class="power_btn">权限管理</a>
+			<a href="javascript:;" class="week_btn" id="viewType" data-type="month">周视图</a>
+			<a data-href="/third_cooperation/qqgroup/schedule_list.html" class="list_btn">全部日程</a>
+			<a data-href="/third_cooperation/qqgroup/alarmSet.html" class="alarm_btn">通知开关</a>
+		</div>
+	</div>
+
+	<div class="calendar_grid">
+		<a data-href="/third_cooperation/qqgroup/create_schedule.html" class="create_btn none"></a>
+		<ul class="calendar_week_list e_clear">
+			<li>日</li>
+			<li>一</li>
+			<li>二</li>
+			<li>三</li>
+			<li>四</li>
+			<li>五</li>
+			<li>六</li>
+		</ul>
+		<div class="calendar_panel" id="calendar_panel">
+			<ul class="calendar_grid_list js-cld-panel_prev e_clear">
+			</ul>
+			<ul class="calendar_grid_list js-cld-panel e_clear">
+				<script type="text/month-temp" id="month-temp">
+                    <li data-date="{$date}" class="{$monthClass}">
+                        <div class="grid">
+                            <div class="solar_data">{$solar}</div>
+                            <div class="lunar_data">{$lunar}</div>
+                            <div class="vacation_icon"></div>
+                        </div>
+                    </li>
+	            </script>
+			</ul>
+			<ul class="calendar_grid_list js-cld-panel_next e_clear">
+			</ul>
+		</div>
+		<div class="calendar_panel_week none" id="calendar_panel_week">
+			<ul class="calendar_grid_list_week e_clear" id="js-week-panel_prev">
+			</ul>
+			<ul class="calendar_grid_list_week e_clear" id="js-week-panel">
+				<script type="text/week-temp" id="week-temp">
+                    <li data-date="{$date}" class="{$WeekClass}">
+                        <div class="grid">
+                            <div class="solar_data">{$solar}</div>
+                            <div class="lunar_data">{$lunar}</div>
+                            <div class="vacation_icon"></div>
+                        </div>
+                    </li>
+	            </script>
+			</ul>
+			<ul class="calendar_grid_list_week e_clear" id="js-week-panel_next">
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="schedule_list index"></div>
+<div class="logo"></div>
+<script>
+    var require = {
+         urlArgs: 'ver=30'
+    };
+</script>
+<script src="/js/lib/require.js" data-main="/third_cooperation/qqgroup/main.js"></script>
+<script src="/pages/ui-lib/js/plug.js"></script>
+<script src="/js/lib/app.js"></script>
+</body>
+</html>

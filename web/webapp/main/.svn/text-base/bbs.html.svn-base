@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<title>365日历讨论组</title>
+<link rel="stylesheet" type="text/css" href="../static/bbs/style/style.css?v=2014041102">
+</head>
+<body>
+	<div class="content">
+		<div class="subject_list_view slider">	
+			<ul id="subject_list_ul">
+				<li class="preload_item">
+					<div class="loadbar"></div>
+					<div class="loadbar"></div>
+					<div class="loadbar"></div>
+				</li>
+			</ul>			
+			<div class="more_btn_wrapper" style="display:none;">
+				<a id="subject_loadmore_btn" href="javascript:;" class="more_btn">更多</a>
+			</div>			
+			<div id="create_subject_btn" class="create_btn_wrapper" style="display:none;">
+				<div  class="create_btn">
+				<span class="create_btn_plus"></span>
+				</div>	
+			</div>
+		</div>
+		<div class="comment_list_view slider" style="display:none;">
+			<ul id="comment_list_ul"></ul>
+			<div class="comment_loadmore">
+				<a id="comment_loadmore_btn" href="javascript:;" class="more_btn">更多</a>
+			</div>
+			<div class="comment_edit_area">
+				<div class="comment_input_div">
+					<textarea id="comment_input" placeholder="我也说一句"></textarea>
+				</div>
+				<a id="send_comment" href="javascript:;" class="comment_send_btn">评论</a>
+			</div>
+			<div class="comment_btn_wrapper">
+				<div class="comment_back_btn" >
+					
+				</div>
+			</div>
+		</div>
+		<div class="subject_creator_layer slider" style="display:none;">
+			<div class="subject_creator_wrapper">
+			<div>
+				<input id="subject_title" type="text" value="" placeholder="标题(必填)" maxlength="30" size="30" class="editor_input"/>
+			</div>
+			<textarea id="subject_body" placeholder="请输入内容(必填)" class="editor_input"></textarea>
+			<div>
+				<a id="send_subject" href="javascript:;">发表主题</a>
+			</div>
+			</div>
+		</div>
+		<div id='loading_wrapper' class='loading_wrapper' style='display:none;'><div class='loading_image'><img src='../static/bbs/images/loading.gif' style='display:none;'/></div></div>
+	</div>
+	<script src="/js/lib/zepto.min.js"></script>
+	<script src="/js/lib/app.js"></script>
+	<!-- /js/dist/bbs.js?v=20141217_1 -->
+	<script src="/js/dist/bbs.js?v=20150526"></script>
+	<!-- <script src="/js/bbs/commentListView.js"></script>
+	<script src="/js/bbs/dataUtil.js"></script>
+	<script src="/js/bbs/main.js"></script>
+	<script src="/js/bbs/messageListView.js"></script>
+	<script src="/js/bbs/subjectCreateView.js"></script>
+	<script src="/js/bbs/subjectListView.js"></script>
+	<script src="/js/bbs/util.js"></script> -->
+	<script>
+		$(function(){
+			main("subject_list");	
+		})
+	</script>
+</body>
+</html>

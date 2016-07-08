@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 张明臣 (vest0804@gamil.com)
+ * @date    2014-08-11 17:26:15
+ * @version 1.0
+ */
+
+body { background: #fff; color: #444; font: 12px / 1.5em "Microsoft YaHei", 微软雅黑,SimSun,arial; height: 100%; margin: 0; padding: 0; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+textarea { background: #fff; border: 1px solid #d2d9dc; border-radius: 2px; box-shadow: 0 0 0 #d2d9dc; -moz-transition: .3s ease-in-out; transition-property: border box-shadow; -webkit-transition: .3s ease-in-out; }
+textarea:focus, input[type="text"]:focus { /*border: 1px solid #b7d4ea;*/ box-shadow: 0 0 5px #b7d4ea inset; }
+a { color: #208de9; cursor: pointer; text-decoration: none; }
+a:hover { color: #ff5b86; }
+
+.v_align { vertical-align: middle; }
+/*jq-ui*/
+.ui-corner-all-16, .ui-corner-top-16, .ui-corner-left-16, .ui-corner-tl-16 { -moz-border-radius-topleft: 16px; -webkit-border-top-left-radius: 16px; -khtml-border-top-left-radius: 16px; border-top-left-radius: 16px; }
+.ui-corner-all-16, .ui-corner-top-16, .ui-corner-right-16, .ui-corner-tr-16 { -moz-border-radius-topright: 16px; -webkit-border-top-right-radius: 16px; -khtml-border-top-right-radius: 16px; border-top-right-radius: 16px; }
+.ui-corner-all-16, .ui-corner-bottom-16, .ui-corner-left-16, .ui-corner-bl-16 { -moz-border-radius-bottomleft: 16px; -webkit-border-bottom-left-radius: 16px; -khtml-border-bottom-left-radius: 16px; border-bottom-left-radius: 16px; }
+.ui-corner-all-16, .ui-corner-bottom-16, .ui-corner-right-16, .ui-corner-br-16 { -moz-border-radius-bottomright: 16px; -webkit-border-bottom-right-radius: 16px; -khtml-border-bottom-right-radius: 16px; border-bottom-right-radius: 16px; }
+
+.fl{float:left;}
+.fr{float: right;}
+.none{display:none;}
+
+.calendar_top{padding:5px 8px;}
+.vacation_btn,.throttle_btn,.today_btn{float:right; width:50px; height:20px; line-height:20px; text-align:center; color:#141413; border:1px solid #eee; margin-left:5px;}
+.today_btn{float:left;}
+.select_date{float:left;}
+.select_year{width:60px; height:20px; float:left; border:1px solid #eee; position: relative;}
+.select_year h4{width:45px; height:20px; line-height:20px; text-align:center;}
+.select_year select,.select_moth select{position:absolute; top:0; left:0; opacity:0;}
+
+.select_moth{width:60px; height:20px; float:left; border:1px solid #eee; position: relative; margin-left:5px;}
+.select_moth{width:45px; height:20px; line-height:20px; text-align:center;}
+
+.calendar_conetnt{background:#fff; margin:0 8px;}
+.calendar_week{border-radius:12px; height:24px; background:#fafafa; border:1px solid #eee; margin-bottom:10px;}
+.calendar_week li{width:-webkit-calc(100%/7); float:left; height:24px; line-height:24px; text-align:center;}
+.calendar_list li{width:-webkit-calc(100%/7); float:left; height:36px; padding:2px 0; border-bottom:1px solid #f6f0eb;}
+.calendar_list li:nth-last-child(1),.calendar_list li:nth-last-child(2),.calendar_list li:nth-last-child(3),.calendar_list li:nth-last-child(4),.calendar_list li:nth-last-child(5),.calendar_list li:nth-last-child(6),.calendar_list li:nth-last-child(7){border:0;}
+.grid{width:34px; height:34px; border:1px solid #fff; margin:0 auto; border-radius:100%; position:relative;}
+.solar_data{height:15px; font-size:13px; text-align:center;}
+.lunar_data{color:#898e91; text-align:center;}
+
+/*今天*/
+.calendar_list li.today .grid{background:#51c4d4; border-color:#51c4d4;}
+.calendar_list li.today .lunar_data,.calendar_list li.today .solar_data{color:#fff;}
+
+/*点击*/
+.calendar_list li.on .grid{background:#dcf3f6; border-color:#51c4d4;}
+
+.vacation_icon{width:12px; height:12px; border-radius:100%; position: absolute; top:-2px; left:-2px; display:none;}
+/*班*/
+.work .grid{background:#ffe3e4; border-color:#ffe3e4;}
+.work .vacation_icon{display:block; background:#ff747a;}
+.work .vacation_icon:after{content:"班";position:absolute; width:16px; height:16px; top:-2px; left:-2px; text-align:center; line-height:16px; color:#fff; -webkit-transform: scale(.75);}
+/*休*/
+.rest .grid{background:#e9f4d2; border-color:#e9f4d2;}
+.rest .vacation_icon{display:block; background:#93c820;}
+.rest .vacation_icon:after{content:"休";position:absolute; width:16px; height:16px; top:-2px; left:-2px; text-align:center; line-height:16px; color:#fff;font-size:12px; -webkit-transform: scale(.75);}
+
+/*前后月*/
+.calendar_list li.befor .lunar_data{color:#ccc;}
+.calendar_list li.befor .solar_data{color:#999;}
+
+.almanac{margin-top:10px; background:#fafafa; border-top:1px solid #eeeeee;padding:0 8px 10px;}
+.lunar_data_txt{font-size:14px; color:#040403; font-weight:600; padding-left:-webkit-calc((100%/7 - 34px)/2);}
+.almanac_data_txt{color:#898e91;padding-left:-webkit-calc((100%/7 - 34px)/2);}
+.almanac_data{padding:10px 0; border-bottom:1px solid #eee;}
+.yi,.ji{padding-left:40px; margin:5px 0; position:relative; font-size:14px; line-height:30px; font-size:14px;}
+.yi:after{content:"宜"; position:absolute; width:30px; height:30px; border-radius:100%; left:0; top:0; background:#5a842e; color:#fff; text-align:center; line-height:30px; font-size:18px;}
+.ji:after{content:"忌"; position:absolute; width:30px; height:30px; border-radius:100%; left:0; top:0; background:#bc5016; color:#fff; text-align:center; line-height:30px;font-size:18px;}
+.yi{color:#5a842e;}
+.ji{color:#bc5016;}

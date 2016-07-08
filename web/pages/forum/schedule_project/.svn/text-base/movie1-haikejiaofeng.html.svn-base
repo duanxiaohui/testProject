@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>骇客交锋</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">骇客交锋</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/9fc6321e-9d18-4c7e-94a8-d091439e9d17.jpg"/>
+	    	<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	<a href="http://www.iqiyi.com/v_19rrn3yta8.html" data-title="查看预告片" class="btn js-other">查看预告片</a>
+	    	<h3 class="time">上映时间：2015年1月16日（美国）</h3>
+			<p> </p>
+	    	<h3>导演：迈克尔•曼</h3>
+			<p class="fc_000">主演：克里斯•海姆斯沃斯（雷神）/ 汤唯 / 王力宏</p>
+			<h3>剧情：</h3>
+			<p>黑帽黑客尼克•哈撒韦(克里斯•海姆斯沃斯饰)被短期保释出狱，加入了一项艰巨任务，去对抗一个破坏性十足的天才黑客。当他一步步接近真相，他的人身安全也面临着更大威胁。王力宏和汤唯饰演一对兄妹，帮助雷神抓捕敌人。</p>
+			<!--h3是小标题-->
+			<h3>看点：</h3>
+			<!--p是段落文字描述-->
+			<p>该片导演是拍摄过《公众之敌》的著名导演迈克尔·曼。目前已在美国拍完外景，拉大队来港继续拍摄。力宏哥进军好莱坞，从色戒中默默守护汤唯的爱国青年终于变成了女神的哥哥，可以微笑看着女神和雷神谈恋爱了！除了感情线，王力宏和汤唯在片中的大量英文对白也十分值得期待，前者口语自不用说，汤唯在韩国釜山电影节的一口地道英语庄重又性感，折服了无数思密达。而电影里面反派的诉求近乎疯狂：“跟金钱无关、跟政治无关。我可以袭击任何人，任何事情。”不禁让人好奇这是怎样神奇的三观。</p>
+    	<img src="http://cocoimg.365rili.com/schedule_pics/default/e0239b28-8dff-49d3-80b0-d4c5281d739d.jpg"/>
+		<img src="http://cocoimg.365rili.com/schedule_pics/default/5224cfa5-3eed-4676-b377-00f3c5b8082d.jpg"/>
+		 <div class="remind_div none" data-uuid="4e0b87d7-73ef-47ed-9069-5060d1f79f57" data-cid="125821987"><div class="remind_icon"></div><span>添加提醒</span></div>
+		 </div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/ff0f9b89-ae8e-4afa-b58d-56fc85880ea1.jpg',
+                title: '电影：骇客交锋',
+                desc: '《骇客交锋》（又名：Blackhat、黑帽）由克里斯·海姆斯沃斯、汤唯、王力宏、维奥拉·戴维斯、安志杰等主演，讲述中美警方联手缉捕一伙电脑天才黑客的故事。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '电影：骇客交锋',
+		        				content: '《骇客交锋》（又名：Blackhat、黑帽）由克里斯·海姆斯沃斯、汤唯、王力宏、维奥拉·戴维斯、安志杰等主演，讲述中美警方联手缉捕一伙电脑天才黑客的故事。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/ff0f9b89-ae8e-4afa-b58d-56fc85880ea1.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

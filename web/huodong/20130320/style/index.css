@@ -1,0 +1,24 @@
+body{ font-family: "Microsoft YaHei";}
+*{margin:0; padding:0;}
+ul{list-style: none;}
+li{list-style-type: none;}
+a { color:#2e5401; cursor: pointer; text-decoration: none; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+
+.top{background:#a00503; position:relative; height:105px;}
+.top_left{width:117px; height:65px; position:absolute; left:80px; top:0; background:url(../images/top_left.gif) no-repeat left top; -webkit-background-size:117px 65px; z-index:1;}
+.top_right{width:75px; height:95px; position:absolute; right:20px; top:5px;  background:url(../images/top_right.gif) no-repeat; -webkit-background-size:75px 95px; z-index:2; }
+.top_text{width:170px; height:72px; position:absolute; z-index:3; top:24px; left:20px;}
+.top_text h3{font-size:20px; color:#ffd42a; line-height:22px;}
+.top_text p{text-align:right; color:#ffd54a; font-size:14px;}
+.main{margin:0 auto; background:#ba0300 url(../images/bg.gif) repeat-y 27px top; -webkit-background-size:6px 18px; overflow:auto;}
+.main dl{padding:5px 0 5px 20px;}
+.main dl dt{width:21px; height:20px; margin-top:5px; background:url(../images/dt.gif) no-repeat; -webkit-background-size:21px 20px; float:left;}
+.main dl dd{margin:0 15px 0 26px; padding:5px; background:#cd3230; border:1px solid #a30501; position:relative; color:#fff;}
+.arrow{width:8px; height:8px; -webkit-transform: rotate(135deg); -moz-transform: rotate(135deg); -o-transform: rotate(135deg); background:#cd3230; border-bottom:1px solid #a30501;border-right:1px solid #a30501; position:absolute; margin:5px 0 0 -10px;}
+.btn{display:block;width:210px; height:44px; margin:15px auto 5px; background:url(../images/btn.gif) no-repeat; -webkit-background-size:210px 44px;}
+.btn:active{background:url(../images/btnhover.gif) no-repeat; -webkit-background-size:210px 44px;}
+.main .bottom_btn{margin-top:5px;}
+.footer{padding:5px 0; text-align:center; font-size:14px; color:#fff; font-weight:600;}

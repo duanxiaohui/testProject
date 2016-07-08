@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>尽情欣赏美丽世界——世界视觉日</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/visual_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>尽情欣赏美丽世界——世界视觉日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>你看过春的万紫千红，看过夏的蔽日浓荫，看过秋的天高云淡，看过冬的银装素裹，但你却不知道有一种悲剧叫做“这个世界很美，我却看不到”。在1亿3500万视力障碍者中，80％的视力障碍者可以通过治疗恢复视力，但由于各种原因人们“放弃了治疗”，被剥夺了欣赏美丽的权利……</p>
+            <h3>【护眼刻不容缓】</h3>
+            <p>小编先用一些数据让你知道一下问题的严重性：根据世界卫生组织公布的数据，全世界目前约有3700万盲人，1.24亿人视力低下；每5秒就有1个人失明，每分钟就有1个儿童失明。如果不采取行动，到2020年全球盲人总数将增至7500人。</p>
+            <img src="/pages/found/qp_holiday/images/visual_img1.jpg"/>
+            <p>其实，在所有视力障碍者中，四分之三的病例是可以治疗或预防的。为呼唤全球正视失明问题，并强调眼睛护理是天赋人权，世界卫生组织和国际防盲组织自2000年起，联同世界超过百多个国际志愿团体、非政府机构及民间医疗组织，把每年的10月第2个星期四定为“世界视觉日”。</p>
+            <h3>【损害眼睛的几大习惯】</h3>
+            <p>保护视力那么重要，我们平时应该怎么注意呢？小编对伤害眼睛的几个习惯进行了深入的总结，现在就一一安利给你们，注意规避不良习惯保护眼睛！</p>
+
+            <p class="mt15">伤害眼睛第一名：用电脑</p>
+            <p>冠军隆重登场，此处没什么掌声。我们的学习、工作、生活、娱乐，几乎都离不开电脑，电脑带给了眼睛最大的疲劳。怎么破？不可能不用电脑，难道要眼睁睁看自己变成瞎子吗……</p>
+
+            <img src="/pages/found/qp_holiday/images/visual_img2.jpg"/>
+            <p>伤害眼睛第二名：看书写字</p>
+            <p>看书写字都是近距离的精细视觉完成的，主要依赖视觉椎体细胞。视觉细胞的过度疲劳会带来整个视觉系统的疲劳，进而导致眼肌、眼球都发生病理性生理变化。</p>
+            <p>伤害眼睛第三名：看电视</p>
+            <p>一天三集电视剧，不仅能让你丧失斗志，还会毁了你的眼睛。电视本身是有一定闪烁的发光体，加上距离比较短、观看时间长，很容易产生疲劳，少年儿童尤其要加强注意！</p>
+            <p>伤害眼睛第四名：环境因素</p>
+            <p>很多环绕着我们的环境不知不觉就会伤害我们的眼睛，比如教室黑板反射不均匀、墙壁太亮或太暗、桌椅不合适等。</p>
+            <p>伤害眼睛第五名：用眼卫生</p>
+            <p>不良的用眼卫生习惯对于眼睛的杀伤力是非常深远的，包括过度疲劳、脏手擦眼、卧床看书等，一个坏的习惯足够毁掉一双健康的眼睛。</p>
+            <p class="mt15">除此之外，饮食习惯、心理因素等也会在一定程度上伤害你的眼睛，要保护好自己的眼睛，让美丽的世界时时刻刻在眼睛里！</p>
+
+            <div class="tips">
+                <p>1、人们对保护眼睛的忽视导致了盲患率的增加，为呼唤全球正视失明问题，世界卫生组织和国际防盲组织把每年的10月第2个星期四定为“世界视觉日”；</p>
+                <p>2、美好不仅要留在心中，还要留在眼里，保护眼睛势在必行！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

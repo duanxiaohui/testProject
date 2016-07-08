@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+</head>
+<body>
+    <a id="post-user" href="weixin://contacts/profile/rili365">关注365日历公众号</a>
+    <script>
+    	
+        var u = (function() {
+		    "use strict";
+		    var e = {
+		        ready: function(e) {
+		            "undefined" != typeof WeixinJSBridge && WeixinJSBridge.invoke ? e() : document.addEventListener ? document.addEventListener("WeixinJSBridgeReady", e, !1) : document.attachEvent && (document.attachEvent("WeixinJSBridgeReady", e),
+		                document.attachEvent("onWeixinJSBridgeReady", e));
+		        },
+		        invoke: function(e, i, n) {
+		            this.ready(function() {
+		                return "object" != typeof WeixinJSBridge ? (alert("请在微信中打开此链接！"), !1) : void WeixinJSBridge.invoke(e, i, n);
+		            });
+		        },
+		        call: function(e) {
+		            this.ready(function() {
+		                return "object" != typeof WeixinJSBridge ? !1 : void WeixinJSBridge.call(e);
+		            });
+		        },
+		        on: function(e, i) {
+		            this.ready(function() {
+		                return "object" == typeof WeixinJSBridge && WeixinJSBridge.on ? void WeixinJSBridge.on(e, i) : !1;
+		            });
+		        }
+		    };
+		    return e;
+		})();
+		(function() {
+        	var e = document.getElementById("post-user");
+	        e.onclick = function () {
+	           	u.invoke("profile", {
+	                username: 'rili365',
+	                scene:"57"
+	            });
+	        };
+        	// /Windows\sPhone/i.test(navigator.userAgent) && e.setAttribute("href", "weixin://profile/rili365")
+        })();
+    </script>
+</body>
+</html>

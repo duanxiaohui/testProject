@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>520限时活动：定制专属日历</title>
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/>
+<link href="/pages/bd/520yj/style/index.css" rel="stylesheet">
+<link href="/pages/bd/520yj/style/cropper.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="bar">
+	    <a href="javascript:;" class="share_btn"></a>
+        <a href="javascript:;" class="return_btn"></a>
+        <div class="bar_txt">520限时活动：定制专属日历</div>
+    </div>
+    <div class="main">
+    	<h1>定制日历</h1>
+    	<div class="btns center">
+    		<a href="javascript:;" class="y on"></a><a href="javascript:;" class="j"></a>
+    	</div>
+    	<div class="yjform center">
+    		<form onsubmit="return false">
+		    	<input id="yj" maxlength="6" placeholder="最多输入6字" />
+	    	</form>
+    	</div>
+    	<div class="tip">必填+二选一</div>
+    	<div class="tip2"><span>以下项目看心情填</span></div>
+
+    	<div class="container" id="crop-avatar">
+		    <div class="cropper-example-1">
+		        <img id="cropimg" src="/pages/bd/520yj/images/normal.png" width="200" height="200" alt="Picture">
+		    </div>
+	    </div>
+	    <p class="center pictip">上传照片（可用默认照片）</p>
+	    <div class="center picBtn"><a href="javascript:;"><input class="fileSelect" type="file" accept="image/*"></a></div>
+
+    	<div class="signform center">
+    		<form onsubmit="return false">
+    			<label for="words">想说的话</label>
+		    	<textarea id="words" placeholder="最多输入60字" maxlength="60"></textarea>
+	    	</form>
+    	</div>
+
+    	<div class="nameform center">
+    		<form onsubmit="return false">
+    			<label for="name">签个大名</label>
+		    	<input id="name" maxlength="15" />
+	    	</form>
+    	</div>
+
+    	<div class="center tjBtn"><a href="javascript:;"></a></div>
+    	<img src="/pages/bd/520yj/images/logo.png" width="173" height="14" style="margin-left: 10px; margin-top:5px;margin-bottom: 10px;" alt="">
+    </div>
+
+<script type="text/javascript" src="/js/jquery/jquery-1.8.3.min.js"></script>
+<script src="/pages/bd/520yj/js/cropper.min.js"></script>
+<script type="text/javascript" src="/js/lib/app.js?20150518"></script>
+<script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+<script src="/share/js/weixin_1.0.js"></script>
+<script src="/pages/bd/520yj/js/520yj.js"></script>
+</body>
+</html>

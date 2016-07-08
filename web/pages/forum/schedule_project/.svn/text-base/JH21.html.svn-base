@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>多肉组合盆栽DIY活动</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">多肉组合盆栽DIY活动</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/5cce5620-d566-41b4-865a-c336674aa2f4.jpg"/>
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	
+			<a href="http://www.vasee.com/event/view.jsp?id=ff80808149112fb70149279762e82955" data-title="点击购票" class="btn js-other">点击购票</a>
+	    	<h3 class="time">时间：2015.02.21-2015.05.17</br>
+			                 每天：10:00-21:00 </h3>
+	    	<h3>场地：上海 静安区 Doroq Garden 多洛库花园</h3>
+			<h3>费用：68元~228元(套餐A、B、C)  </h3>
+			<h3>（付款成功后，请致电021-60489901预约活动时间。）</h3>
+			<p class="fc_000"></p>
+			
+			<h3>多洛库花园介绍：</h3>
+			<p>隱匿在老式洋房裡的多洛库花园，致力于推广简单而有趣味的园艺生活，为植物和园艺爱好者提供一个线下交流的私密花园，让生活增添更多绿色创意空间。我们倡导以最简单的方式与绿色植物接触，在动手的同时感受绿色生活的美好。 </p>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/f10b668e-70c8-4800-ba1f-c62e73962fde.jpg"/>
+			<p>多洛库花园为大家准备了色彩丰富的多肉植物，和我们一起做一盆多肉组合盆栽吧！除了和我们一起学习如何种植多肉拼盘组合之外，还会和大家分享多肉植物养护知识，共赏多肉之美。  </p>
+			<h3>活动套餐内容（可在相册中查看参考图片）：   </h3>
+			<h3>A.多肉盆栽DIY体验+多肉植物3株（仅售68元，价值184元）  </h3>
+			<p>包含内容： </br>
+			   —指定多肉植物3株（54元）</br>
+			   —指定多肉植物容器（18元）</br>
+			   —多肉植物种植土1份（10元）</br>
+			   —蘑菇玩偶1个（2元）</br>
+			   —全程园艺老师指导讲解（100元） </br>
+			   —时间：60分钟</p>
+			   
+			   
+			<!--h3是小标题-->
+	        <h3>B.多肉盆栽DIY体验+多肉植物6株（仅售128元，价值248元）  </h3>
+			<p>包含内容：</br>
+			   —指定多肉植物6株（108元）</br>
+			   —指定多肉植物容器（28元）</br>
+			   —多肉植物种植土1份（20元）</br>
+			   —蘑菇玩偶1个（2元） </br>
+			   —全程园艺老师指导讲解（100元）</br>
+			   —时间：60分钟</p>
+			<!--p是段落文字描述-->
+			
+			<h3>C.多肉盆栽DIY体验+多肉植物12株（仅售228元，价值406元）  </h3>
+			<p>包含内容：</br>
+			   —指定多肉植物12株（216元）  </br>
+			   —指定多肉植物容器（48元）</br>
+			   —多肉植物种植土1份（40元）</br>
+			   —蘑菇玩偶1个（2元）</br>
+			   —全程园艺老师指导讲解（100元）</br>
+			   —时间：60分钟</p>
+			
+			<h3>报名须知：</h3>
+			<p>1.预约信息：周一至周五请提前1天预约，周六周日请提前2天预约.  </br>
+			   2.活动 预约电话：021-60489901   </br>
+			   3.适用人数： 每份报名名额最多1人使用</br>
+			   4.规则提醒：不再与店内其他优惠同享</br>
+			   5.活动地址：上海市静安区长乐路672弄（近富民路，邮电医院旁），地铁1号线常熟路站、7号线静安寺站均可步行10分钟内到达。 </p>
+			
+			<h3>免责说明：</h3>
+			<p>所有活动信息及图片仅供参考。365日历致力于提供真实、准确的活动信息，但不保证活动信息的真实性和准确性，且不对因信息的不真实或者不准确导致的任何损失或损害承担责任。凡以任何方式登录365日历或者直接、间接参加相关活动者，视为自愿接受本网站声明的约束。</p>
+			
+			<!-- 默认底部有个添加提醒的按钮，不显示的话remind_div的位置加上 none -->
+            <div class="remind_div none" data-uuid="4e0b87d7-73ef-47ed-9069-5060d1f79f57" data-cid="125821987"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/7f9276e4-2ef5-43f4-809f-09030e165dac.jpg',
+                title: '多肉组合盆栽DIY活动',
+                desc: '隱匿在老式洋房裡的多洛库花园，致力于推广简单而有趣味的园艺生活，为植物和园艺爱好者提供一个线下交流的私密花园，让生活增添更多绿色创意空间。我们倡导以最简单的方式与绿色植物接触，在动手的同时感受绿色生活的美好。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '多肉组合盆栽DIY活动',
+		        				content: '隱匿在老式洋房裡的多洛库花园，致力于推广简单而有趣味的园艺生活，为植物和园艺爱好者提供一个线下交流的私密花园，让生活增添更多绿色创意空间。我们倡导以最简单的方式与绿色植物接触，在动手的同时感受绿色生活的美好。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/7f9276e4-2ef5-43f4-809f-09030e165dac.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

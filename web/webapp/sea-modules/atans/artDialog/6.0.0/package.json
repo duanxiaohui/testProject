@@ -1,0 +1,26 @@
+{
+    "family": "atans",
+    "name": "artDialog",
+    "version": "6.0.0",
+    "author": "TangBin",
+    "homepage": "https://github.com/aui/artDialog",
+    "description": "经典的网页对话框组件，内外皆用心雕琢",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aui/artDialog"
+    },
+    "spm": {
+        "alias": {
+            "jquery": "jquery"
+        },
+        "source": "src",
+        "output": [
+            "dialog.js",
+            "dialog-drag.js",
+            "dialog-iframe.js",
+            "drag.js",
+            "popup.js",
+            "ui-dialog.css"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0">
+<title>日历广场</title>
+<link href="style/main.css" rel="stylesheet">
+<script src="/js/lib/zepto.min.js"></script>
+</head>
+<body>
+    <p class="no_schedule">暂无日程详情</p>
+</body>
+</html>

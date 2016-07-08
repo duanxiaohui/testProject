@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>星球大战：原力觉醒</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">星球大战：原力觉醒</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/d82559ec-8927-4d45-900d-e1c4c2e601fc.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	<a href="http://www.iqiyi.com/v_19rrn8fduk.html/" data-title="查看预告片" class="btn js-other">查看预告片</a>
+	    	<h3 class="time">上映时间：2015年12月18日（美国）</h3>
+			<p> </p>
+	    	<h3>导演：J·J·艾布拉姆斯</h3>
+			<p class="fc_000">主演：哈里森·福特 / 马克·哈米尔 / 凯丽·费雪 / 安东尼·丹尼尔斯 / 安迪·瑟金斯 / 肯尼·贝克</p>
+			<h3>剧情：</h3>
+			<p>本片是科幻电影《星球大战》系列的第七部，故事发生在《星球大战6：绝地大反击》之后的30年。这部作品中将会有一些当年“星战3”的熟悉面孔出现，充满了怀旧情怀。从此前泄露出来的故事情节看，《星战7》的故事走向和1977年最初版的《星球大战》非常相似。也就是说，故事的时间线索向后推进了30年，但是故事结构和情节推动的方式，甚至是影射《圣经》的部分，都非常类似。</p>
+			<!--h3是小标题-->
+			<h3>看点：</h3>
+			<!--p是段落文字描述-->
+			<p>想想第一部星战，时光回到1977，那是一个什么样的年代，当我们还沉醉在闪闪的红星里潘冬子的个人魅力无法自拔的时候，美国观众却享受着巨大的歼星舰飞跃银幕的感觉……星战的意义远不只是一部电影那么简单，一柄光剑承载多少人的回忆，这是一个传奇的开端，一个不灭的神话，一个走进新时代的标签。回到影片本身来说，C-3PO声音和风格超像Sheldon，R2-D2就是WALL-E，这样的人物设定也非常有爱。就目前公布的官方资料来看，老星战三部曲的那三个主角会全部回归，剧情上无缝对接《星球大战6：绝地归来》。2014年11月29日，《星球大战：原力觉醒》于感恩节如期发布首款先行版预告片，而在视频发布之后不到三天，这支时长1分28秒的预告片在youtube网站的综合播放量已经突破400万次，秒杀一周前重磅回归的另一部经典电影系列续篇《侏罗纪公园》。所以说，星战7是一部不能错过的片子，不仅仅是为了情怀。</p>
+    	<img src="http://cocoimg.365rili.com/schedule_pics/default/6842bb78-69fb-4371-a56d-342f417a6937.jpg"/>
+		<img src="http://cocoimg.365rili.com/schedule_pics/default/c2bdbb76-6253-4741-80f2-cc16eb8c2dd4.jpg"/>
+		 <div class="remind_div none" data-uuid="4e0b87d7-73ef-47ed-9069-5060d1f79f57" data-cid="125821987"><div class="remind_icon"></div><span>添加提醒</span></div>
+		</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/84b61568-93ea-43ab-9874-3f1c849237ed.jpg',
+                title: '电影：星球大战：原力觉醒',
+                desc: '《星球大战：原力觉醒》（Star Wars: The Force Awakens），是科幻电影《星球大战》系列的第七部，影片由J·J·艾布拉姆斯执导，哈里森·福特、马克·哈米尔、凯丽·费雪、安东尼·丹尼尔斯等人主演。本片故事发生在《星球大战6：绝地大反击》之后的30年。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '电影：星球大战：原力觉醒',
+		        				content: '《星球大战：原力觉醒》（Star Wars: The Force Awakens），是科幻电影《星球大战》系列的第七部，影片由J·J·艾布拉姆斯执导，哈里森·福特、马克·哈米尔、凯丽·费雪、安东尼·丹尼尔斯等人主演。本片故事发生在《星球大战6：绝地大反击》之后的30年。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/84b61568-93ea-43ab-9874-3f1c849237ed.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

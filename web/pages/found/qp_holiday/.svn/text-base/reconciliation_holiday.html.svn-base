@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>牵起手，我们和平相处吧</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/reconciliation_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>牵起手，我们和平相处吧</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>1838年的12月16日，在南非向北迁徙的南非布尔人（荷兰人后裔）打败祖鲁王丁冈、夺取了南非内陆大片土地。为了纪念这一天，新南非政府成立后，将这个节日叫做“和解日”，寓意是希望南非黑白两大种族面向未来，和平共处。</p>
+            <img src="/pages/found/qp_holiday/images/reconciliation_img1.jpg"/>
+            <h3>【历史的仇怨】</h3>
+            <p>162年前，南非祖鲁族黑人与荷兰后裔阿非利卡白人在恩科姆河决战，祖鲁士兵因不敌阿非利卡人的牛车阵与枪炮，3000名勇士的鲜血染红了河水，该河因之被称为"血河"。</p>
+
+            <p class="mt15">此后，"血河之役"被黑白两大种族以各自不同的意义纪念：黑人将该日用祖鲁首领丁干的名字命名为"丁干日"，以此纪念为保卫土地而血战逝去的勇士；白人则将其命名为"起誓日"，因为战前他们曾向上帝发誓许愿，如能战胜黑人，将在此立碑永志纪念。种族隔离制度时期，白人种族主义政权把该日做为"最神圣的日子"，并规定为全国公共假日。</p>
+            <img src="/pages/found/qp_holiday/images/reconciliation_img2.jpg"/>
+            <h3>【不是没有做过努力】</h3>
+            <p>过去的和解日，也有南非白人在南非行政首都比勒陀利亚附近的先民纪念馆缅怀历史，表示与黑人兄弟和平共处的愿望。他们还发起了"为所有人创造同一家园"活动，发表了"南非白人的承诺"宣言，承认白人种族主义政权给广大黑人同胞造成的巨大身心创伤；成立"发展与和解基金"帮助贫穷黑人，以缩小黑白两大种族之间的鸿沟与贫富悬殊。</p>
+
+            <p class="mt15">在立法首都开普敦，他们发表了"南非白人的承诺"宣言，公开承认白人在种族隔离制度时期给广大黑人犯下的"集体罪行"，认为白人是种族隔离制度的受益者而广大黑人则是受害者，并因此向黑人同胞表示"真诚道歉"；立誓利用全体白人的技能、资源和精力，通过个人和集体的相互努力，其中包括成立发展与和解基金等，为建设一个扶贫济穷、消除种族歧视和促进种族平等的南非社会而共同奋斗。</p>
+            <img src="/pages/found/qp_holiday/images/reconciliation_img3.jpg"/>
+            <h3>【形势仍然严峻】</h3>
+            <p>问题在于，占全国总人口12.7％的白人仍然不想要和解。</p>
+
+            <p class="mt15">在当年"血河之役"的古战场，在当年白人矗立的纪念碑前，极少数右翼极端分子发表"种族隔离制度圣经"，以此纪念"起誓日"，企图为已被废除的反动的种族隔离制度招魂摇幡。主持这一纪念仪式的正是在11年前枪杀了7名黑人同胞而被处以极刑，后又被真相与和解委员会特赫的"白狼"——斯特赖多姆。</p>
+
+            <p class="mt15">在"种族和解日"，以宣言为标志暴露出的白人意见分歧和观点相佐是南非社会中枢神经——种族问题的一种正常反应与折射，它有力地说明南非社会的种族问题根深蒂固，种族矛盾错综复杂，种族裂痕难以弥合。可是，暴露矛盾总比掩盖问题好，有利于矛盾得到解决。绝大多数白人反对种族歧视的鲜明态度和对消除种族歧视现象的有益建议，黑人认为白人"道歉"这一"友好姿态"是对自己伸出的宽恕与和解之"手"的"真诚回应"。这些积极因素表明，建立无种族歧视的南非社会虽任重道远然前途光明。</p>
+            <div class="tips">
+                <p>1、每年12月26日，是南非的和解日，意在希望南非黑白两大种族面向未来，和平共处；</p>
+                <p>2、不仅是南非，世界范围内的种族问题仍然存在，种族平等任重而道远。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/欢欢</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

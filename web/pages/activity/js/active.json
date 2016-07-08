@@ -1,0 +1,13 @@
+data = {
+	"id": 1001436,
+	"birthday": "",
+	"sex": "",
+	"email": "",
+	"status": 0,
+	"cellphone": "18911090560",
+	"leaveWord": "",
+	"name": "哈哈",
+	"state": "ok",
+	"code": "98954943",
+	"needPay": false
+}

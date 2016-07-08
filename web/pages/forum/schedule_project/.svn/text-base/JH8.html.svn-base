@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>冰城灯都迎冬奥</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">北京工人体育场冰灯游园会</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/eaceb450-af5d-47c2-b6a9-a57f470ae398.jpg"/>
+			<!--a的href是链接地址，无bar,按钮为灰色字体-->
+            <a href="http://www.piao88.com/ticket/4029.html" data-title="点击购票" class="btn">点击购票</a>
+            <!-- 添加提醒的按钮 -->
+			
+ 
+			
+	    	<h3 class="time">时间：2015.1.1-2.13 17:00-22:00</h3>
+            <h3>地点：工人体育场</h3>
+	    	<h3>票价：240元（100*3）</h3>
+			<p class="fc_000"></p>
+			<h3>购票须知：</h3>
+			<p>1.此次活动不支持快递配送，需在线支付成功后上门自取。</br>
+			2.取票地址：东直门南大街9号华普花园D座202 （地铁2号钱，东四十条下车，A口出往北大概 100米左右、楼颜色黄楼绿玻璃）</br>
+			3.取票时间：9：00-18：00，敬请谅解。</br>
+			4.根据《中华人民共和国大型活动安保条令条例规定》为保证此次活动的安全保障， 每日限量售卖5000张，先到先得。所有儿童需持票入场</br>
+			5.活动时间：每天17:00-22:00 </p>
+			<p></p>
+			<h3>内容简介：</h3>
+			
+			<p>2015 工人体育场 新年冰灯游园会,不用驱车千里 在家门口看正宗哈尔滨冰灯!</p>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/1a36fd58-26f4-4734-9e9d-ce4edd43275e.jpg"/>
+			<p>对北方人来说，冬天看雪看冰不叫冷，那是南方人不能理解的“热乎”，是岁末迎新特有的一种习俗。数九寒天，有没有羡慕过哈尔滨人走出家门，全家老少牵手看冰灯？大过年的，有没有全家挣扎纠结过要不要去京郊看冰灯？经过北京市总工会、哈尔滨市人民政府、北京晚报以及各相关单位的多方努力，“冬天家门口的幸福”终于要在北京实现啦！从2014年12月30日亮灯仪式起，直到2015年2月13日，工人体育场将举办“冰城灯都迎冬奥”冬季冰灯会，这个冬天，看冰灯彩灯再也不用驱车千里，承载着太多人文体记忆的工体，将迎来久违的盛事。</p>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/e7fe3f5b-2d97-4bbe-9546-1ab3c9aa9c38.jpg"/>
+			<h3>跑道上建冰灯 看台上搭花灯 草坪变身桃花灯海</h3>
+			
+			<h3>工人体育场打破传统为北京市民献上年味儿十足的冰灯游园会!</h3>
+			<p> </p>
+			<p>进入工体场北门，4000平米大棚沿跑道延展开来，像一条巨龙静横空出世，工人们正在日夜兼程地将源自内蒙古的成吨冰块运抵大棚，等待匠人们的巧夺天工。很快，这里将出现即使是在冰城哈尔滨都难得一见的冰雪世界。紧临大棚的是草坪中心地带专门为工体量身定制的6000平米桃花灯海，入夜，璀璨的灯光亮起，仿若仙境，如霞似锦。看台上，一个个构思巧妙、形态各异、奇幻莫测的花灯正在由工人们加班加点地赶制着，来自“灯都”四川自贡最顶尖的花灯制作团队此次北上，不仅要打造出浓浓的老北京风情，还要在北京申办2022年冬季奥运会的关键时刻，在工体这个承载无数北京人奋斗与梦想的体育圣地上，将中国人的体育情节和热腾腾的好客之心以花灯的艺术形式完美地呈现出来。</p>
+			<!--h3是小标题-->
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/340028d2-2f34-43fb-8e65-1f7f34babe6d.jpg"/>
+			<h3>零下5摄氏度、天然冰、恒温 造冰灯拼的是技术</h3>
+			<p> </p>
+			<!--p是段落文字描述-->
+			<p>冰雪、花海、彩灯，将在冬日的工体，构建一场视觉盛宴，让北国冰雕与西南花灯第一次在首都联姻，然而这场联姻的始作俑者之一、北京工体中心主任原浩心里很清楚：恋爱很美好，过程不轻松。“北京不具备露天做冰灯的条件。”这确是实情，北京的暖冬气候决定了北京人不可能像哈尔滨人一样在-30℃的露天公园里赏冰灯。为解决这一关键性技术难题，技术组特邀加拿大设计师为工体场量体裁衣，定制了４０００平米堪称“室内冰灯会世界之最”的超大库棚，以保证足够强的密闭性、遮光性、恒温性。哈尔滨冰灯临界点在-3℃，这个温度以上冰会无形融化。因此，除了考虑北京的暖冬气候外，游人进入后散发热量也是不可忽视的因素。为此，技术组调集北京仅有的３０台４０千瓦可移动制冷机，确保灯会开放时昼夜恒温在-5℃。德国使馆、墨西哥使馆工作人员前来取经，看到此场景不由得伸出大拇指，啧啧称赞道：“太震撼了”。哈尔滨冰灯制作团队也惊诧不已，让他们没想到的是运到工体的冰是他们五十多年来见到过的最好的天然冰。“如果没有技术把关，没有冰源做保证，我们不敢向哈尔滨政府发出邀请，不可能完美地呈现冰雕、雪雕、冰灯艺术。”原浩主任以此为傲。眼下，库棚里正在日夜赶工，祈年殿、天坛、十二生肖、奥运火矩、奥运会徽……这些由雪雕、冰雕、冰建组成的神奇之作12月31日将市民相见。</p>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/9f2ba9a8-ca09-4a8a-90e2-c2d2319ff2e2.jpg"/>
+			<h3>“月色灯山满帝都”古今相映赏花灯</h3>
+			<p> </p>
+            <p>只做冰灯并不是“炫彩中国，工体看灯”的全部，将四川自贡的花灯同时引入工体，是全体主创人员脑洞大开的一次大胆设想。“做冰灯的永远不会想到做花灯，做花灯的也永远不会想到可以融入冰灯元素。彩灯历史作为非物质文化遗产源于自贡，工体又在中国体育发展史上占有无人能及的地位，工体本身是一个固守传统的地方，但这不代表没有突破与创新。有了一座桥，才有了冰城、灯都两大资源的汇合，汇合点就在工体。10000平米、11组花灯，自贡专业花灯制作团队50人45天制作周期，将呈现一个人文的、北京的、奥运的等多种元素集于一身的彩灯盛宴。届时你可以看到代表北京风土人情的各式“京味”彩灯，其中，一组北京炸酱面厨师一手端着五米宽的青瓷大碗，一手举着三米长的筷子喜迎游客的逗趣造型最为抢眼。你还可以看到代表自贡花灯最高成就的“海豚舞曲”的彩灯，这是专门为小朋友量身度做的。而以奥运健儿为主题设计的花灯，对北京这座曾成功举办过2008年北京奥运会，且正在申办2022年冬季奥运会的城市来说，更具有非同一般的意义。</p>
+		    <h3>免责说明：</h3>
+			<p>所有活动信息及图片仅供参考。365日历致力于提供真实、准确的活动信息，但不保证活动信息的真实性和准确性，且不对因信息的不真实或者不准确导致的任何损失或损害承担责任。凡以任何方式登录365日历或者直接、间接参加相关活动者，视为自愿接受本网站声明的约束。</p>
+			
+			
+    
+            <!-- 默认底部有个添加提醒的按钮，不显示的话remind_div的位置加上 none -->
+            <div class="remind_div none" data-uuid="4e0b87d7-73ef-47ed-9069-5060d1f79f57" data-cid="125821987"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/f8f02ebb-1cd7-4991-a935-18b16331cbdf.jpg',
+                title: '冰城灯都迎冬奥—北京工人体育场冰灯游园会',
+                desc: '对北方人来说，冬天看雪看冰不叫冷，那是南方人不能理解的“热乎”，是岁末迎新特有的一种习俗。数九寒天，有没有羡慕过哈尔滨人走出家门，全家老少牵手看冰灯？大过年的，有没有全家挣扎纠结过要不要去京郊看冰灯？经过北京市总工会、哈尔滨市人民政府、北京晚报以及各相关单位的多方努力，“冬天家门口的幸福”终于要在北京实现啦！'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '冰城灯都迎冬奥—北京工人体育场冰灯游园会',
+		        				content: '对北方人来说，冬天看雪看冰不叫冷，那是南方人不能理解的“热乎”，是岁末迎新特有的一种习俗。数九寒天，有没有羡慕过哈尔滨人走出家门，全家老少牵手看冰灯？大过年的，有没有全家挣扎纠结过要不要去京郊看冰灯？经过北京市总工会、哈尔滨市人民政府、北京晚报以及各相关单位的多方努力，“冬天家门口的幸福”终于要在北京实现啦！',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/f8f02ebb-1cd7-4991-a935-18b16331cbdf.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

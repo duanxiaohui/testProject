@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>微信登陆测试</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container" style="text-align:center;padding-top:100px;">
+		<div style="margin-bottom:100px;">当前状态:<span id="loginStatus"></span></div>
+		<button type="button" class="btn btn-primary" id="login">微信登陆</button>
+	</div>
+	<script type="text/javascript" src="/js/lib/zepto.min.js"></script>
+	<script type="text/javascript">
+		$("#login").on("tap", function(){
+			location.href = ["/wx/login.do?redURL=", "http://", location.host, "/pages/wxlogin.html"].join('');
+		});
+
+		$.ajax({
+			url:"/calendar/getCalendarListByUser.do",
+			dataType:"json",
+			success: function(data){
+				if(data.state == "wrongpass"){
+					$("#loginStatus").html("未登录");
+				}else{
+					$("#loginStatus").html("已登录");
+				}	
+			}
+		});
+	</script>
+</body>
+</html>

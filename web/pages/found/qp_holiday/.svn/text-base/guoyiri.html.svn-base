@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>请勿忘却中医</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/guoyiri/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>中国国医日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>作为中华文化瑰宝之一的“中医”，想必大家肯定都不会陌生，今天就是专门为庆祝中医而设立的中国国医日。说起中医，除了平常的医疗领域外，在其他领域也有着不同的影响。大家还记得一部电视剧《神医喜来乐》么？就是许多年前在央视播出的那部关于中医的电视剧，好像不经意间暴露了年龄……还有大家也都知道周杰伦小公举在《依然范特西》专辑里的《本草纲目》吧，也是一首关于中医的歌曲哦。所以，中医文化的影响力可是很大的。</p>
+            <img src="images/guoyiri/holiday_1.jpg"/>
+            <img src="images/guoyiri/holiday_2.jpg"/>
+          
+
+            <h3>【中西医文化的冲突】</h3>
+
+            <p>中医经历的岁月可真不短！从神农尝百草起，中医文化已经有着数千年悠久的历史和辉煌的成就。鸦片战争前，中国医界一直是中医一枝独秀，之后西医学在中国落地生根，两种异质医学体系并存，冲突在所难免。在日益激化的中西医论争中，医界有相当一部分人对中医持轻视甚至反对态度，主张用西医取代中医，认为中医已落后于时代，是封建迷信的骗人把戏。为了挽救中华民族这份宝贵的医药文化遗产，中医界进行了长期的顽强抗争，古老的中医经历了历史上最艰难的岁月。</p>
+
+            <img src="images/guoyiri/holiday_3.jpg"/>
+
+             <h3>【中国国医节的由来】</h3>
+
+            <p>1929年2月国民党政府卫生机构的主管俞云岫，在一次工作会议上提出：取消旧医药(那时中医中药被称为旧医药)。如果取消旧医药被确定的话，治病用药，只能是西医西药，我国几千年的传统中医中药就会被遗弃。当时在医学界引起非常大的振动，大量的中医药人士纷纷抗议游说，同年3月17日，全国17个省市、二百多个团体，三百名代表云集上海，上南京请愿，通过各种方式表达了民心民声，国民党政府不得不撤除取消旧医药的决定。为了纪念这次抗争的胜利，医学界人士将3月17日定为"中国国医节"。</p>	
+            <img src="images/guoyiri/holiday_4.jpg"/>		
+
+            <div class="tips">
+                <p>1、要站在辩证的角度上来看待各个事物，不要因为新事物的来到就将传统文化全盘否定；</p>
+                <p>2、中医作为沉淀了几千年的中国文化之一，是非常珍贵的。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/Vanna</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

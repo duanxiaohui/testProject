@@ -1,0 +1,559 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family:Arial;
+	width: 100%;
+}
+#mainCal table, #mainCal td
+{
+	border-collapse:collapse;
+	border-spacing:0;
+	border:1px solid #f6f0eb;  
+	padding: 0px;
+}
+
+.clear{
+	clear: both;
+}
+#middle {
+	width: 100%;
+}
+.layout_table {
+	width: 100%;
+	border: 0px;
+	border-spacing: 0px;
+}
+.layout_right, .layout_left {
+	width: 3px;
+	border: 0px;
+}
+.layout_middle {
+	border: 0px;
+}
+#mainCal
+{
+	border-radius: 5px;
+	width: 100%;
+	padding: 10px 0px 10px 0px;
+	background-color: white;
+}
+#caltable
+{
+	width: 100%;
+}
+#festival_rest {
+	color: #493413;
+	font-size: 14px;
+	margin-left: 5px;
+}
+.block
+{
+	width: 50px;
+	text-align: left;
+	vertical-align: top;
+	border: 1px solid #f6f0eb;
+	overflow: hidden;
+	background-repeat: no-repeat on-repeat;
+	cursor: pointer;
+	background-color: white;
+	font-famlily:Microsoft YaHei;
+}
+.tablehead
+{
+	font-size: 14px;
+	/*color: #58421d;*/
+	font-family:Microsoft YaHei;
+	height: 30px;
+	text-align: center;
+	border-right: 0px;
+	background: #fdfbf9;
+}
+.thead6 {
+	height: 30px;
+	line-height: 30px;
+}
+.today
+{
+	width: 50px;
+	text-align: left;
+	vertical-align: top;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	background-color: #BFBFE5;
+}
+.block_content
+{
+	overflow: hidden;
+	height: 46px;
+}
+.workrest
+{
+	position: absolute;
+	height: 15px;
+	width: 16px;
+}	
+.number
+{
+	font-size: 18px;
+	font-family:Arial;
+	text-align: center;
+	overflow: hidden;
+	height: 20px;
+	color:#444444;
+}
+.before, .after
+{
+	color: #ccc;
+}
+.weekendNum
+{
+	font-size: 18px;
+	text-align: center;
+	overflow: hidden;
+	height: 20px;
+	color: #bc5016;
+}
+.number6
+{
+	margin-top: 6px;
+}
+.chinaday
+{
+	-webkit-text-size-adjust:none;
+	font-size: 10px;
+	text-align: center;
+	overflow: hidden;
+	color: #CCCCCC;
+	font-family:simsun;
+}
+.work, .rest {
+	-webkit-text-size-adjust:none;
+	font-size: 9px;
+	width: 11px;
+	height: 11px;
+	line-height: 11px;
+	text-align: center;
+}
+.work
+{
+	border: 1px solid #e1e1e1;
+	-webkit-border-radius: 1px;
+}
+.rest
+{
+	border: 1px solid #ffdb9d;
+	-webkit-border-radius: 1px;
+}
+.workBlock
+{
+	background-color: #f6f6f6;
+	border: 1px solid #e1e1e1;
+	color: #595959;
+}
+.restBlock
+{
+	background-color: #fff6eb;
+	border: 1px solid #ffdb9d;
+	color: #bc5016;
+}
+
+/*baidu_wnl.css*/
+::-webkit-scrollbar {
+	height: 1px;
+	width: 5px;
+	background: white;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #777777;
+	-webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.8);
+}
+::-webkit-scrollbar-thumb {
+	background: #888888;
+	-webkit-border-radius: 5px;
+	width: 8px;
+	height: 30px;
+	margin: 5px;
+}
+::-webkit-scrollbar-corner {
+	background: #000;
+}
+
+a, img
+{
+	text-decoration: none;
+	border: none;
+}
+.cal_container
+{
+	width: 100%;
+	background-image: url(../BD_images/wood1.jpg);
+	border-radius: 4px;
+	padding-bottom: 10px;
+}
+
+#cal_body
+{
+	width: 100%;
+}
+
+#cal_topbar_top
+{
+	height: 30px;
+	padding: 11px 0px 0px 10px;
+	padding: 11px 0px 0px 10px !important;;
+	background-repeat: repeat-x;
+}
+#cal_365riliLogo
+{
+	float: left;
+	background-image: url(../BD_images/365logo.png);
+	cursor: pointer;
+	height: 23px;
+	width: 24px;
+}
+
+#logo-text
+{
+	height: 25px;
+	float: left;
+	color: #ffffff;
+	margin-left: 8px;
+	font-size: 22px;
+	line-height: 25px;
+}
+
+.top_bar_text
+{
+	font-size: 13px;
+	margin-right: 10px;
+}
+
+#cal_down
+{
+	
+}
+.cal_downleft
+{
+	padding:0 5px 0 5px;
+}
+
+#beijingtime
+{
+	float: left;
+	margin-right: 6px;
+	font-size: 12px;
+}
+
+#cal_365riliTime
+{
+	margin-right: 7px;
+	float: right;
+	color: white;
+	font-size: 12px;
+}
+#top_bar_time
+{
+	float: left;
+	font-size: 12px;
+}
+#365riliUserName
+{
+	float: left;
+	margin-right:10px;
+	color: #493413;
+	text-shadow: 0px 1px 1px #d5b67c;
+	display:none; 
+}
+
+#365riliLogout
+{
+	float: left;
+}
+
+.funcbar
+{
+	width: 100%;
+	color: white;
+	font-size: 15px;
+	padding-top: 5px;
+	height: 35px;
+}
+.funcbar_content
+{
+	width: 100%;
+	height: 35px;
+}
+#prev_button
+{
+	width: 26px;
+	margin-left: 5px;
+}
+#next_button
+{
+	width: 26px;
+	margin-left: 5px;
+}
+#year_time
+{
+	text-align: center;
+	height: 30px;
+	width: 97px;
+	margin-left: 1px;
+	line-height: 30px;
+	font-size: 17px;
+	color: #444;
+	text-align: center;
+	text-shadow: 0px 1px 1px #D5B67C;
+}
+#prev_button, #next_button, #festival, .today_button, .back_button
+{
+	height: 30px;
+	line-height: 30px;
+	border-radius: 4px;
+	background-image: url(../BD_images/btn.png);
+	border:1px solid #865d18;
+	font-size: 14px;
+	color: #493413;
+	text-align: center;
+	text-shadow: 0px 1px 1px #D5B67C;
+}
+#year_time, #prev_button, #next_button, .back_button
+{
+	float: left;
+}
+#festival, .today_button
+{
+	float: right;
+}
+#festival
+{
+	width: 66px;
+}
+.today_button
+{
+	width: 40px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.back_button
+{
+	width: 60px;
+	margin-left: 5px;
+}
+#single_container, #jieqi_container, #festival_container {
+	display: none;
+}
+#mainSingle {
+	border-radius: 5px;
+	background-color: white;
+}
+#singletable
+{
+	width: 100%;
+	text-align: center;
+	border: 0px;
+}
+#singletable tr {
+	border: 0px;
+}
+#singleDateStr {
+	height: 30px;
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 4px;
+}
+#singleArrowLeftTd, #singleArrowRightTd {
+	width: 50px;
+	height: 120px;
+	border: 0px;
+}
+#singleArrowLeft {
+	width: 55px;
+	height: 100px;
+	background-image: url(../BD_images/mist.png);
+	background-position: -195px -5px;
+	margin-left: 15px;
+}
+#singleArrowRight {
+	width: 55px;
+	height: 100px;
+	background-image: url(../BD_images/mist.png);
+	background-position: -248px -5px;
+	margin-right: 15px;
+}
+#singleNumTd {
+	font-size: 110px;
+	border: 0px;
+	color: black;
+	line-height: 110px;
+}
+#YImgDiv, #JImgDiv {
+	background-image: url(../BD_images/mist.png);
+	width: 48px;
+	height: 48px;
+	margin-left: 8px;
+}
+#festivalStr {
+	color: #009ee8;
+	font-size: 20px;
+	margin-top: 0px;
+}
+#jieqiImg {
+	background-image: url(../BD_images/mist.png);
+	background-position: -95px -62px;
+	height: 40px;
+	width: 50px;
+	float: left;
+}
+#jieqiStr {
+	float: left;
+}
+#jieqiArrow {
+	background-image: url(../BD_images/mist.png);
+	background-position: -152px -64px;
+	height: 40px;
+	width: 40px;
+	float: right;
+}
+#jieqiDiv {
+	color: #930200;
+	font-size: 25px;
+	line-height: 40px;
+	border: 1px solid #ceb268;
+	background-color: #fcf9f2;
+	margin: 10px;
+	margin-top: 20px;
+	text-align: left;
+	height: 40px;
+}
+#nongliStr1, #nongliStr2 {
+	color: #699558;
+	font-size: 16px;
+}
+#nongliStr1 {
+	margin-top: 10px;
+}
+#nongliStr2 {
+	margin-bottom: 0px;
+}
+#YJtable {
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+#JImgTd, #YImgTd {
+	width: 64px;
+}
+#YImgDiv {
+	background-position: -95px -10px;
+}
+#JImgDiv {
+	background-position: -144px -10px;
+}
+#YStr, #JStr {
+	text-align: left;
+	font-size: 15px;
+}
+#YStr {
+	color: #679557;
+}
+#JStr {
+	color: #d78e25;
+}
+.tab_button {
+	height: 30px;
+	width: 90px;
+	margin-top: 4px;
+	border-radius: 4px 4px 0px 0px;
+	-webkit-box-shadow: 0px 2px 2px #ffffff inset;
+	float: right;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#e9d2b2), to(#f2dec3));
+	border: 1px solid #bdaa80;
+	color: #603703;
+	line-height: 30px;
+	font-size: 15px;
+	text-align: center;
+	border-bottom: 0px;
+}
+.active_tab_button {
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f1e8), to(#ffffff));
+}
+#jieri_button {
+	margin-right: 10px;
+}
+#nongli_button {
+	margin-right: 0px;
+	border-right: 0px;
+}
+#mainNongli, #mainJieri {
+	color: #816526;
+	border-radius: 5px;
+	background-color: white;
+	padding-bottom: 20px;
+}
+#mainJieri {
+	display: none;
+}
+#nongliTitle, #jieriTitle {
+	font-size: 20px; 
+	height: 40px;
+	line-height: 40px; 
+	margin-left: 10px; 
+}
+#jieqiTitle {
+	font-size: 20px; 
+	height: 30px;
+	margin-left: 10px;
+	line-height: 30px;
+}
+#nongliTable {
+	border-collapse:collapse;
+	width: 100%;
+	text-align: center;
+}
+#nongliTable td {
+	height: 40px;
+	font-size: 20px;
+	border: 1px solid #efe6d5;
+}
+#jieriTable {
+	border-collapse:collapse;
+	width: 100%;
+	text-align: center;
+}
+.jieriTd {
+	width: 50%;
+	height: 60px;
+	border: 1px solid #efe6d5;
+}
+.jieriName {
+	font-size: 16px;
+	text-align: center;
+}
+.jieriDate {
+	font-size: 10px;
+	text-align: center;
+}
+#mainJieqi {
+	border-radius: 10px;
+	background-color: white;
+	padding-bottom: 20px;
+}
+#jieqiName {
+	font-size: 20px;
+	color: #595959;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 10px;
+}
+#jieqiTime {
+	font-size: 15px;
+	color: #3e9f00;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#jieqiDescribe {
+	color: #595959;
+	font-size: 14px;
+	padding: 10px;
+}

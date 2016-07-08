@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="hahnzhu" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<title>Demo</title>
+	<link rel="stylesheet" href="../dist/css/parallax.css">
+	<link rel="stylesheet" href="../dist/css/parallax-animation.css">
+	<style>
+	/* custom */
+	section[data-id="1"] {
+		background:url(images/bg1.jpg) no-repeat;
+		background-size:100% 100%;
+	}
+	section[data-id="2"] {
+		background:url(images/bg2.jpg) no-repeat;
+		background-size:100% 100%;
+	}
+	section[data-id="3"] {
+		background-color: #000;
+	}
+	section[data-id="4"] {
+		background: #fff url(images/bg4.jpg) no-repeat;
+		background-size:100% 100%;
+	}
+	.box1 {
+		width: 100%;
+		height: 200px;
+		background-color: #ecf0f1;
+		position: absolute;
+		left:0px; top: 0px;
+	}
+	.box2 {
+		width: 80%;
+		height: 30px;
+		background-color: #8e44ad;
+		position: absolute;
+		left: 10%; top: 226px;
+	}
+	.box3 {
+		width: 80%;
+		height: 200px;
+		background-color: #34495e;
+		position: absolute;
+		left: 10%; top: 266px;
+	}
+	.box4 {
+		width: 125%;
+		height: 200px;
+		border-radius: 100%;
+		background-color: #e74c3c;
+		position: absolute;
+		margin-left:-62%;
+		line-height:80px; text-align:center;
+		left: 50%; bottom:-100px;
+	}
+	.txt1{position:absolute; width:128px; height:92px; position:absolute; left:64px; top:37px; background:url(images/first_txt1.png) no-repeat; background-size:100% 100%;}
+	.txt2{position:absolute; width:129px; height:74px; position:absolute; left:112px; top:65px; background:url(images/first_txt2.png) no-repeat; background-size:100% 100%;}
+	.txt3{position:absolute; width:172px; height:94px; position:absolute; left:105px; top:115px; background:url(images/first_txt3.png) no-repeat; background-size:100% 100%;}
+	.txt4{position:absolute; left:22px; top:22px; width:122px; height:75px; background:url(images/txt4.png) no-repeat; background-size:100% 100%;}
+	.txt5{position:absolute; left:76px; top:64px; width:115px; height:93px; background:url(images/txt5.png) no-repeat; background-size:100% 100%;}
+	.txt6{position:absolute; left:193px; top:54px; width:80px; height:83px; background:url(images/txt6.png) no-repeat; background-size:100% 100%;}
+	.txt7{position:absolute; width:60px; height:53px; background:url(images/txt7.png) no-repeat; background-size:100% 100%; 
+		left:76px; top:164px;
+		}
+	.txt8{position:absolute; width:88px; height:120px; background:url(images/txt8.png) no-repeat; background-size:100% 100%; 
+		left:135px; top:136px;
+		}
+	.img{position:absolute; width:130px; height:267px; background:url(images/img.jpg) no-repeat; background-size:100% 100%; left:20px; bottom:0;}
+	.txt_txt{position:absolute; width:210px; height:346px; bottom:0; left:20px;}
+	.img2{width:320px; height:233px; position:absolute; top:0; left:50%; margin-left:-160px; background:url(images/img2.png) no-repeat; background-size:100% 100%;}
+	.img3{width:260px; height:150px; position:absolute; top:218px; left:50%; margin-left:-130px; background:url(images/rotate.png) no-repeat; background-size:100% 100%;}
+	.txt_txt1{width:320px; height:88px; position:absolute; left:30px; bottom:100px; font-size:14px; color:#fff;}
+	.img4{width:150px; height:128px; position:absolute; top:10px; left:50%; margin-left:-75px; background:url(images/txt9.png) no-repeat; background-size:100% 100%;}
+	.img5{width:293px; height:83px; position:absolute; left:50%; margin-left:-146px; bottom:25px; background:url(images/txt10.png); background-size:100% 100%;}
+	</style>
+</head>
+<body>
+<div class="wrapper">
+	<div class="pages">
+
+		<!-- 第一屏 -->
+		<section class="page">
+			<div class="txt1" data-animation="fadeInLeft" data-timing-function="ease-in"></div>
+			<div class="txt2" data-animation="fadeInRight" data-delay="300" data-timing-function="ease-out"></div>
+			<div class="txt3" data-animation="fadeInUp" data-delay="400" data-timing-function="linear"></div>
+		</section>
+
+        <!-- 第二屏 -->
+		<section class="page">
+			<h2></h2>
+			<div class="txt4" data-animation="zoomIn" data-duration="1000"></div>
+			<div class="txt5" data-animation="fadeInLeft" data-delay="200" data-duration="1000"></div>
+			<div class="txt6" data-animation="fadeInRight" data-delay="200" data-duration="1000"></div>
+			<div class="txt7" data-animation="fadeInLeft" data-delay="600" data-duration="1000"></div>
+			<div class="txt8" data-animation="fadeInRight" data-delay="600" data-duration="1000"></div>
+			<div class="img" data-animation="bounceOut" data-delay="800" data-duration="1000"></div>
+			<div class="txt_txt" data-animation="zoomIn" data-delay="900" data-duration="1000">
+				<p>饿（è），基本字义：1. 肚子饥饿，想吃东西，与“饱”相对：我不～，你吃吧！饥～。～殍（饿死的人）。2. 使受饿：注意别～坏了。[1] </p>
+
+				<p>《戌集下》《食字部》　·饿<br/>
+				《唐韵》《正韵》五箇切《集韵》《韵会》牛箇切，我去声。
+				《玉篇》饥也。<br/>
+				《广韵》不饱也。<br/>
+				《礼·檀弓》昔者衞国凶饥，夫子为粥，与国之饿者。
+				◎按韩子饰邪篇：家有常业，虽饥不饿。淮南子说山训：宁一月饥，毋一旬饿。以此推之，饿甚于饥也。故孟子朝不食，夕不食，兼饥饿言。[1] </p>
+			</div>
+		</section>
+
+        <!-- 第三屏 -->
+		<section class="page">
+			<div class="img2" data-animation="fadeInUp"></div>
+			<div class="img3" data-animation="rotateZom" data-delay="200"></div>
+			 <div class="txt_txt1" data-animation="zoomInUp" data-delay="400">
+				<p>头晕英文是dizziness, 是一种常见的脑部功能性障碍，也是临床常见的症状之一。</p>
+				<p>抑郁症早期也常有头晕。头晕可单独出现，但常与头痛并发。头晕伴有平衡觉障碍或空间觉定向障碍时，患者感到外周环境或自身在旋转、移动或摇晃，称为头晕。</p>	
+			</div>
+		</section>
+
+		<!-- 第四屏 -->
+		<section class="page">
+			<div class="img4" data-animation="rubberBand"></div>
+			<div class="img5" data-animation="bounceInLeft" data-delay="600"></div>
+		</section>
+
+	</div>
+</div>
+<script src="../dist/js/zepto.min.js"></script>
+<script src="../dist/js/parallax.js"></script>
+<script>
+	
+	$('.pages').parallax({
+		direction: 'vertical', 	// horizontal (水平翻页)
+		swipeAnim: 'cover', 	// cover (切换效果)
+		drag:      true,		// 是否允许拖拽 (若 false 则只有在 touchend 之后才会翻页)
+		loading:   false,		// 有无加载页
+		indicator: false,		// 有无指示点
+		arrow:     false,		// 有无指示箭头
+		/*
+		 * 翻页后立即执行
+		 * {int} 		index: 第几页
+		 * {DOMElement} element: 当前页节点
+		 * {String}		directation: forward(前翻)、backward(后翻)、stay(保持原页)
+		 */
+		onchange: function(index, element, direction) {
+			// code here...
+			// console.log(index, element, direction);
+		},
+		/*
+		 * 横竖屏检测
+		 * {String}		orientation: landscape、protrait
+		 */
+		orientationchange: function(orientation) {
+			// console.log(orientation);
+		}
+	});
+
+
+</script>
+</body>
+</html>

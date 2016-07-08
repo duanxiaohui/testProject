@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+	<title>365日历</title>
+	<link rel="stylesheet" type="text/css" href="/third_cooperation/base_calendar/css/month-animation.css"/>
+	<link href="/pages/wx_schedule/base_calendar/css/calendar.css" rel="stylesheet"/>
+
+</head>
+<body>
+<div class="calendar_main">
+	<div class="calendar_top e_clear">
+		<div class="select_date e_clear">
+			<div class="calendar_top_leftArrow">
+				<img src="/pages/wx_schedule/base_calendar/images/rili_left.png" />
+			</div>
+			<h4></h4>
+			<input type="hidden" id="select_month">
+			<div class="calendar_top_rightArrow">
+				<img src="/pages/wx_schedule/base_calendar/images/rili_right.png" />
+			</div>
+			<!-- <input type="month" id="select_month"> -->
+		</div>
+		<a href="javascript:;" class="today_btn top_btn">今</a>
+
+	</div>
+
+	<div class="calendar_grid">
+		<ul class="calendar_week_list e_clear">
+			<li>日</li>
+			<li>一</li>
+			<li>二</li>
+			<li>三</li>
+			<li>四</li>
+			<li>五</li>
+			<li>六</li>
+		</ul>
+		<div class="calendar_panel" id="calendar_panel">
+			<ul class="calendar_grid_list js-cld-panel_prev e_clear">
+			</ul>
+			<ul class="calendar_grid_list js-cld-panel e_clear">
+				<script type="text/month-temp" id="month-temp">
+          <li data-date="{$date}" class="{$monthClass}">
+              <div class="grid">
+                  <div class="solar_data">{$solar}</div>
+                  <div class="lunar_data">{$lunar}</div>
+                  <div class="vacation_icon"></div>
+              </div>
+          </li>
+        </script>
+			</ul>
+			<ul class="calendar_grid_list js-cld-panel_next e_clear">
+			</ul>
+		</div>
+	</div>
+	<div class="almanac">
+		<div class="almanac_data">
+			<p class="lunar_data_txt"></p>
+			<p class="almanac_data_txt"></p>
+		</div>
+		<div class="almanac_yiji">
+			<div class="yi"></div>
+			<div class="ji"></div>
+		</div>
+		<div class="icon_eye"></div>
+		<div class="line"></div>
+	</div>
+</div>
+<div class="vac_solar_layer solar_layer none">
+	<div class="arror_top"></div><h3>中国农历·二十四节气</h3>
+	<ul class="e_clear" id="solar-terms">
+		<script type="text/solar-terms">
+		<li data-name="{$name}" data-date="{$date}"><p>{$name}</p></li>
+		</script>
+	</ul>
+</div>
+<div class="vac_solar_layer vac_layer none">
+	<div class="arror_top"></div><h3>2015年公休放假安排</h3>
+	<ul class="e_clear" id="solar-holidays">
+		<script type="text/solar-holiday">
+		<li data-from="{$from}" data-to="{$to}"><p class="name">{$name}</p><p class="time">{$time}</p></li>
+		</script>
+	</ul>
+</div>
+<script src="/js/lib/require.js" data-main="main"></script>
+</body>
+</html>

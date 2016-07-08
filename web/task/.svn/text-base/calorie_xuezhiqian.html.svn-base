@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<!-- |||||||||||||||||下面这个是页面标题，必须修改||||||||||||||||| -->
+<title>薛之谦燃卡秘籍：在哈哈哈中减肥</title>
+<!-- |||||||||||||||||上面这个是页面标题，必须修改||||||||||||||||| -->
+
+<meta name="format-detection" content="telephone=no">
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<script>document.documentElement.style.webkitUserSelect='none';document.documentElement.style.webkitTouchCallout='none';</script>
+<link rel="stylesheet" href="http://www.365rili.com/pages/ui-lib/css/ui-lib.css">
+<link href="http://www.365rili.com/task/style/main.css" rel="stylesheet">
+</head>
+<body>
+	<div class="main">
+
+		<div class="contain">
+
+			
+			<!-- 正文段落 -->
+
+			<p>俗话说，笑一笑十年少, 佳曲不断的薛之谦最近也是对于段子层出不穷，自带逗乐气质。不过薛之谦对于减肥健身也有着自己独到的见解。</p>
+			<p class="mt15"></p>
+
+			<!-- 图片 -->
+			
+			
+			<!-- 正文段落 -->
+			
+
+			<!-- 正文段落 -->
+			
+			
+			<p>如何把快乐的事情和健身串在一起？你的明星教练薛之谦可是这方面的拿手行家：</p>
+			<p class="mt15"></p>
+			<p>1、<Strong>每天至少15个俯卧撑。</strong>行李箱也是一个练俯卧撑的好帮手，女生可以减掉拜拜肉，男生可以练出有力上臂，难怪大家都表示“好神奇的行李箱”。薛之谦也利用行李箱模仿高难度的叉腿动作来做演示。</p>
+			<img src="images/calorie_xuezhiqian_1.jpg" width="100%" alt="">
+			<p>2、<Strong>每天对着镜子大笑30秒。</strong>笑一笑十年少，虽然不能跟跑步、骑脚踏车或举重相比，不过每天大笑15分钟就能燃烧掉10至40卡路里的热量，跟一小块巧克力的热量差不多。燃烧热量的多少跟人的体重有关。如果每天都这样做，就相  当于每年减掉两公斤。</p>
+			<img src="images/calorie_xuezhiqian_2.jpg" width="100%" alt="">
+			<p>3、<Strong>每周至少喝一次健康奶昔，女生可以喝山药蓝莓+低脂牛奶，男生可以喝秋葵香蕉+低脂牛奶。</strong>秋葵的含钙量高，易被人体吸收，香蕉含钾量高，可降低疲劳。这两种食物非常适合男生食用。如果可以用奶昔代餐，健康营养，更是会有意想不到的瘦身效果。</p>
+			<img src="images/calorie_xuezhiqian_3.jpg" width="100%" alt="">
+			<p class="mt15"></p>
+			<p>你看，薛之谦教给大家的燃卡秘籍很简单吧？赶快动一动手指，把燃卡任务添加到“我的任务“里吧，365日历会一直陪伴着你完成任务哦！</p>
+
+
+		</div>
+
+		<!-- +++++++++++++++++下面的这个只能在下面这里粘贴，不能放到上面去+++++++++++++++++ -->
+		
+		<!-- 任务详情 -->
+		<div class="detail">
+			任务详情：每周二21:35，锁定东方卫视《燃烧吧！卡路里》，这个夏天与脂肪say goodbye！
+		</div>
+
+		<!-- 
+			以下形式的随便删，随便加：
+				1： <img src="images/demo1.jpg" width="100%" alt="">
+				2： <p>当你刚学会说话的时候，他们一整天都在教你说话，不厌其烦。</p>
+				3:  <div class="detail">
+						任务详情：添加任务后，365日历会为您添加日程，每周固定时间提醒您给爸妈打电话。您可以自己设置提醒时间。
+					</div>
+
+			其他的必须留着，而且不允许修改！！
+
+			图片地址编写方式：
+				images/图片名称.jpg
+
+			在页面所在文件夹里放一个images文件夹
+		 -->
+
+	</div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/app.js"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script src="http://www.365rili.com/task/js/task.js"></script>
+</body>
+</html>

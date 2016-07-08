@@ -1,0 +1,139 @@
+body {
+    background:;
+    color: #444;
+    font: 12px / 1.5em arial;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+	overflow:hidden;
+}
+
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p {
+    margin: 0;
+    padding: 0
+}
+
+ul {
+    list-style: none
+}
+
+li {
+    list-style-type: none
+}
+
+img {
+    border: 0;
+    vertical-align: top
+}
+
+select, input {
+    font-size: 12px
+}
+
+address, cite, code, em, th {
+    font-style: normal;
+    font-weight: normal
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+	table-layout:fixed;
+}
+.e_clear:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden
+}
+
+.e_clear {
+    display: inline-block
+}
+
+.e_clear {
+    display: block
+}
+a { color: #208de9; cursor: pointer; text-decoration: none; }
+a:hover { color: #72bf44; }
+
+.main{border:5px solid #c4d4de; width:490px; height:160px; float:left; }
+.calendar_data{width:160px; height:160px; position:relative; background:#fafafc; float:left; cursor: default; }
+.calendar_set_btn{width:16px; height:16px; position:absolute; top:5px; left:5px; background:url(../images/calendar_set_btn.jpg) no-repeat;}
+.login{width:28px; height:16px; position:absolute; display:block; top:25px; right:0px;}
+.schedule_icon{width:8px; height:8px; position:absolute; top:38px; left:10px; background:url(../images/schedule_icon.jpg) no-repeat;}
+.calendar_data_week{height:37px; line-height:37px; text-align:center; font-size:18px; color:#72bf44;font-family:"Microsoft YaHei",微软雅黑;}
+.calendar_data_text{font-size:80px; font-weight:600; color:#414042; /*height:77px; line-height:77px;*/height:60px; line-height:60px; text-align:center; position:relative;}
+.line{width:160px; height:1px; line-height:1px; overflow:hidden; background:#fff; border-top:1px solid #e8e9ea; position:absolute; left:0; top:50%;}
+.calendar_data_lunar{/*height:45px; line-height:45px;*/height:37px; line-height:37px; text-align:center; color:#0076a3; font-size:16px;font-family:"Microsoft YaHei",微软雅黑;}
+/*黄历css*/
+.almanac{height:25px; line-height:25px; padding-left:15px; border-top:1px solid #e2e1e1; color:#568800; font-size:14px; background:#f7f5f5; box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);-moz-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);overflow:hidden;cursor:pointer;white-space:nowrap;text-overflow:ellipsis;}
+
+.calendar_box,.calendar_schedule{width:160px; height:160px; background:#fff; float:left;border-left:5px solid #c4d4de; text-align:center;background:#fafafc;}
+.calendar_years p,.calendar_years a{float:left;}
+.calendar_years a{width:30px; height:30px;}
+.calendar_years p{width:68px; height:30px; line-height:30px; color:#39b54a; text-align:center;}
+.prv{background:url(../images/prv.jpg) no-repeat center center;}
+.next{background:url(../images/next.jpg) no-repeat center center;}
+.calendar_years a.return_today_btn{float:left; width:28px; height:16px; margin:5px 0 0 0; line-height:16px; color:#fff; font-weight:600; background:url(../images/return_today_btn.jpg) repeat-x left top; border:1px solid #4e95e5; -moz-border-radius:10px; -webkit-border-radius:10px; -khtml-border-radius:10px; border-radius:10px;}
+
+.calendar_week li{float:left; width:20px; height:22px; line-height:22px; margin:0 0 0 2px;}
+.calendar_data_list li{float:left; width:20px; height:17px; line-height:15px; margin:0 0 0 2px; cursor:pointer;}
+.calendar_data_list li div{width:18px; height:15px;}
+/*日程*/
+.calendar_data_list li.schedule div{background:#fabcd0; border:1px solid #cf6d8d;}
+.calendar_data_list li. div{background:#fdb091; border:1px solid #d55926;}
+/*今天*/
+.calendar_data_list li.today div{background:#2f99e8 !important; border:1px solid #2f99e8 !important;}
+/*前后月*/
+.calendar_data_list li.beforafter{color:#d1d3d4;}
+
+.calendar_schedule{padding:0 5px; width:150px;}
+.calendar_schedule li{ width:144px; margin-top:8px; white-space:nowrap; overflow:hidden; text-overflow: ellipsis; -o-text-overflow: ellipsis; }
+.task { height: 14px; padding: 2px; border: 1px solid #0073b9; /*display:inline-block;*/ *display:inline; *zoom: 1; margin-bottom: 1px; cursor: pointer; color: #58595b; }
+.spheric { width: 12px; height: 12px; float: left; border: 1px solid; }
+.task_text { margin: 0 0px 0 15px; height: 14px; line-height: 14px; white-space: nowrap; text-overflow: ellipsis; -o-text-overflow: ellipsis; overflow: hidden; text-align:left; }
+.noschedules p{padding:5px; text-align:left;}
+.ui-corner-all-16, .ui-corner-top-16, .ui-corner-left-16, .ui-corner-tl-16 { -moz-border-radius-topleft: 16px; -webkit-border-top-left-radius: 16px; -khtml-border-top-left-radius: 16px; border-top-left-radius: 16px; }
+.ui-corner-all-16, .ui-corner-top-16, .ui-corner-right-16, .ui-corner-tr-16 { -moz-border-radius-topright: 16px; -webkit-border-top-right-radius: 16px; -khtml-border-top-right-radius: 16px; border-top-right-radius: 16px; }
+.ui-corner-all-16, .ui-corner-bottom-16, .ui-corner-left-16, .ui-corner-bl-16 { -moz-border-radius-bottomleft: 16px; -webkit-border-bottom-left-radius: 16px; -khtml-border-bottom-left-radius: 16px; border-bottom-left-radius: 16px; }
+.ui-corner-all-16, .ui-corner-bottom-16, .ui-corner-right-16, .ui-corner-br-16 { -moz-border-radius-bottomright: 16px; -webkit-border-bottom-right-radius: 16px; -khtml-border-bottom-right-radius: 16px; border-bottom-right-radius: 16px; }
+
+.none{display:none;}
+
+.wiegt_time{padding-right:3px;}
+
+.first_tip {width:170px;height:170px;position:absolute; top:0px;left:0px; z-index:11; background:transparent; color:#fff; font-weight:bold;}
+.first_tip_p1 {margin-top:55px; padding:0 10px; }
+.first_tip_p2 {padding:0 10px; margin-top:5px;}
+.first_tip_close {display:inline-block; position:absolute; top:8px; right:8px; width:22px; height:22px;}
+.first_tip_bg { background:url(../images/tip_bg.png) no-repeat top left transparent; width:170px;height:170px;position:absolute; top:0px;left:0px; z-index:10; opacity:0.6;}
+
+
+/*new_list*/
+.new_list{width:360px; margin:0 auto; -webkit-box-shadow: 3px 3px 3px #d7d8d9; -webkit-border-radius: 8px;}
+.new_list_top{width:360px;  height:60px; background:url(../images/new_list_top.png) no-repeat; position:relative;}
+.news_close_btn{display:block; width:13px; height:13px; background:url(../images/pop_close_btn.png) no-repeat 0 0; position:absolute; right:10px; top:10px;}
+.news_close_btn:hover{background:url(../images/pop_close_btn.png) no-repeat 0 -13px;}
+.new_list_top dl dt{width:85px; height:60px; line-height:60px; color:#fff; font-family:Arial, Helvetica, sans-serif; font-size:60px; text-align:center; float:left;}
+.new_list_top dl dd{width:200px; padding:6px 0; height:48px; float:left; line-height:24px; color:#fff; font-size:18px; }
+.new_list_top dl dd span{margin-right:10px;}
+
+.new_list_content dl{border-bottom:1px solid #e0e1e2; padding:2px 0;}
+.new_list_content dl dt{width:60px; line-height:30px; text-align:center; color:#414042; font-size:14px;font-family:"Microsoft YaHei",微软雅黑; float:left;}
+.new_list_content dl dd{margin:0 5px 0 60px; line-height:22px;color:#414042; font-size:12px;font-family:"Microsoft YaHei",微软雅黑; padding-top:4px;}
+.new_list_content dl dd span.time{margin-right:5px;}
+
+.add_schedule_btn{display:block; width:360px; height:32px; line-height:32px; text-align:center; background:url(../images/new_list_btn.gif) repeat-x 0 0px; color:#fff; font-family:"Microsoft YaHei",微软雅黑; font-size:14px; -webkit-border-bottom-left-radius: 8px; -webkit-border-bottom-right-radius: 8px;}
+.add_schedule_btn:hover{background:url(../images/new_list_btn.gif) repeat-x 0 -48px; color:#fff;}
+
+/*set*/
+.set_widget{width:16px; height:16px; position:relative; float:right; z-index:9; margin:5px 5px 0 0; }
+.set_widget_btn{cursor:pointer;width:16px; height:16px; position:absolute; z-index:9; top:0px;right:0px; background:url(../images/set_widget.gif) no-repeat;}
+
+.set_widget_box{width:90px; padding:5px 0; position:absolute; top:16px; right:0; background:#fff;display:none; box-shadow: 3px 3px 3px #d7d8d9; -moz-box-shadow: 3px 3px 3px #d7d8d9; -webkit-box-shadow: 3px 3px 3px #d7d8d9;}
+.set_widget_box a{display:block; width:90px; height:24px; line-height:24px; text-align:center; color:#414042;}
+.set_widget_box a:hover,.set_widget_box a.on{background:#e6e7e8; color:#414042;}
+
+.set_new_widget{width:14px; height:8px; background:url(../images/new_set_widget.gif) no-repeat;}

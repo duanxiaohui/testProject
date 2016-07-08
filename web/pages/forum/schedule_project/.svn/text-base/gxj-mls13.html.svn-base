@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015杨凌农科城马拉松</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015杨凌农科城马拉松</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/6c19cec3-b475-4a24-9171-a5f2067c2386.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+			  <a class="btn js-subscribe" data-uuid="2df06632-094a-4944-806b-029978a78b1c" data-cid="147514789">添加提醒</a>
+	    	
+	    	<p class="time"><b>报名时间：2015年1月26日 - 3月10日额满为止</b></br>
+
+<b>比赛时间：2015年4月26日上午8:00
+</b></br>
+
+	    	<b>比赛地点:杨凌示范区城区及现代农业园区
+</b></br>
+
+			</p>
+			<h3>比赛路线：</h3>
+			<p>(一)起点：杨凌会展中心广场</br>
+(二)路线：杨凌会展中心广场→神果路→东新路→五胡路→东环路→河堤路→水运西路→滨河路→新桥南路→城南路→邰城路南段路→西北农林科技大学南校东门→牡丹园→操场路→西北农林科技大学南校西门→博学路→博士路→杨凌大道→杨扶路向东→农科路→孟杨路→杨扶路→渭惠路→邰城路北段→神农路→常青路→杨凌会展中心广场</br>
+(三)马拉松终点：杨凌会展中心广场</br>
+(四)半程马拉松终点：操场路</br>
+(五)迷你马拉松终点：东环路</br>
+注：比赛路线最终以中国田径协会赛道认证后发布为准。</br>
+
+</p>
+			<!--h3是小标题-->
+			<h3>报名费
+</h3>
+			<!--p是段落文字描述-->
+			<p>马拉松每人100元人民币；半程马拉松每人50元人民币；迷你马拉松每人30元人民币；中国田协注册运动员免收报名费。</br>
+组委会有权根据报名情况决定是否接受报名。报名确认后报名费将不予返还。</br>
+杨凌马拉松赛组委会</br>
+1、联系电话：029-87036066，029-87035553</br>
+2、E-mail：agri@yangling-marathon.com</br>
+
+
+</br>具体详情以官网信息为准
+
+
+</p>
+<img src="http://cocoimg.365rili.com/schedule_pics/default/1b6b181f-8bc7-4456-84c4-494c021807af.jpg"/>
+<img src="http://cocoimg.365rili.com/schedule_pics/default/adbc9429-e71d-4323-826d-9de91d995749.jpg"/>
+<a href="http://www.yangling-marathon.com" class="btn js-other">详见官网</a>
+			 <div class="remind_div" data-uuid="2df06632-094a-4944-806b-029978a78b1c" data-cid="147514789"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/6c19cec3-b475-4a24-9171-a5f2067c2386.jpg',
+                title: '2015杨凌农科城马拉松',
+                desc: '拉松每人100元人民币；半程马拉松每人50元人民币；迷你马拉松每人30元人民币；中国田协注册运动员免收报名费'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015杨凌农科城马拉松',
+		        				content: '拉松每人100元人民币；半程马拉松每人50元人民币；迷你马拉松每人30元人民币；中国田协注册运动员免收报名费',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/6c19cec3-b475-4a24-9171-a5f2067c2386.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

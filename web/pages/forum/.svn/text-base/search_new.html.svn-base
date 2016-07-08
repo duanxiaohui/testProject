@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0">
+<title>日历广场</title>
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<link href="/css/forum_new.css" rel="stylesheet">
+<script src="/js/lib/zepto.min.js"></script>
+<script src="/js/lib/zTouch.js"></script>
+<script src="/js/lib/app.js"></script>
+<script src="js/underscore-1.6.0.js"></script>
+<script src="js/func.js"></script>
+</head>
+<body>
+   <form id="searchForm">
+       <div class="square_bar">
+            <div class="square_bar_inner">搜索</div>
+       </div>
+       <div class="search_content">
+           <div class="search_input">
+                <div class="input_box">
+                    <input id="queryContent" type="text" placeholder="请输入你感兴趣的内容">
+                </div>
+           </div>
+           <div class="search_results pdt93">
+                <div class="search_calendar_results none">
+                    <h2 class="on"><div id="calendarArrow" class="arrow"></div>日历</h2>
+                    <div id="searchCalendar" class="sq_calendar_list">
+                        <a href="javascript:;" id="calendarMore" class="more_btn">点击加载更多</a>
+                    </div>
+                </div>
+                <div class="search_activity_results none">
+                    <h2 class="on"><div id="eventArrow" class="arrow"></div>活动</h2>
+                    <div id="searchEvent" class="search_acticity_list">
+                        <a href="javascript:;" id="eventMore" class="more_btn">点击加载更多</a>
+                    </div>
+                </div>
+                <div class="search_schedule_results none">
+                    <h2 class="on"><div id="scheduleArrow" class="arrow"></div>日程</h2>
+                    <div id="searchSchedule" class="search_acticity_list">
+                        <a href="javascript:;" id="scheduleMore" class="more_btn">点击加载更多</a>
+                    </div>
+                </div>
+                <div class="no_result none">未搜到相应内容</div>
+           </div>
+       </div>
+    </form>
+    <script src="js/search.js"></script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

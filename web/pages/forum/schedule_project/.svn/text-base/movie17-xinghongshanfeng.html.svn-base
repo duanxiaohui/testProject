@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>猩红山峰</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">猩红山峰</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/a89d4c5a-c7a8-402c-967f-2141c74c8b9e.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	
+	    	<h3 class="time">上映时间：2015年10月16日（美国）</h3>
+			<p> </p>
+	    	<h3>导演：吉尔莫·德尔·托罗</h3>
+			<p class="fc_000">主演：汤姆·希德勒斯顿（抖森） / 查理·汉纳姆 / 杰西卡·查斯坦 / 米娅·华希科沃斯卡</p>
+			<h3>剧情：</h3>
+			<p>故事讲述了一个离奇恐怖的故事，米娅饰演一位出身名门的女作家伊迪丝·库欣，生活在19世纪英格兰北部的她发现自己的丈夫也许并不是他展现出来的样子。“抖森”汤姆·希德勒斯顿饰演她的丈夫托马斯·夏普，杰西卡·查斯坦饰演托马斯·夏普的姐姐露西尔·夏普，查理·汉纳姆饰演艾伦·麦克迈克尔，一个安静、害羞的医生，和伊迪丝是青梅竹马。</p>
+			<!--h3是小标题-->
+			<h3>看点：</h3>
+			<!--p是段落文字描述-->
+			<p>《环太平洋》导演吉尔莫·德尔·托罗拍恐怖片啦！导演说《猩红山峰》是一个令人震惊的古怪性质的哥特式故事，完全角色驱动的，而这部电影的基调是可怕的。导演说他本人擅长的“语境重构（recontextualization）”也会在这部电影中得到体现，即让哥特式的浪漫，发生在英格兰北部的鬼屋里。导演还说猩红山峰有一些片段是非常肮脏暴力的。你本来沉浸在那种安静的浪漫中，然后突然出现一个残酷的时刻，你的反应是‘哇!’ 最后导演说这是R 级的电影，非常成人化。据说本来定下的主演──“卷福”本尼迪克特·康伯巴奇不知什么原因辞演了，换成了“抖森”，而抖森本人看完剧本后给吓哭了……不论从哪个角度来说，《猩红山峰》都是一部绝对值得期待的电影。</p>
+    	<img src="http://cocoimg.365rili.com/schedule_pics/default/4fb05787-270b-4ce5-bc91-ee36c0b92d03.jpg"/>
+		<img src="http://cocoimg.365rili.com/schedule_pics/default/120f3dbe-55d5-40a3-8201-3d97bee28285.jpg"/>
+		<div class="remind_div none" data-uuid="4e0b87d7-73ef-47ed-9069-5060d1f79f57" data-cid="125821987"><div class="remind_icon"></div><span>添加提醒</span></div>
+		</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/693bd74d-b440-4ad1-b5fe-cb8d2867de29.jpg',
+                title: '电影：猩红山峰',
+                desc: '《猩红山峰》是由吉尔莫·德尔·托罗执导的恐怖电影，汤姆·希德勒斯顿、查理·汉纳姆、杰西卡·查斯坦以及米娅·华希科沃斯卡主演。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '电影：猩红山峰',
+		        				content: '《猩红山峰》是由吉尔莫·德尔·托罗执导的恐怖电影，汤姆·希德勒斯顿、查理·汉纳姆、杰西卡·查斯坦以及米娅·华希科沃斯卡主演。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/693bd74d-b440-4ad1-b5fe-cb8d2867de29.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<meta name="format-detection" content="telephone=no">
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<script>document.documentElement.style.webkitUserSelect='none';document.documentElement.style.webkitTouchCallout='none';</script>
+<link rel="stylesheet" href="/pages/ui-lib/css/ui-lib.css">
+<link href="/task/style/list.css" rel="stylesheet">
+</head>
+<body>
+	<div class="main">
+		<div class="title">
+			<img src="/task/images/list_title.png" width="268" alt="">
+		</div>
+
+		<div class="tasks">
+		</div>
+	</div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/app.js"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script src="/task/js/tasklist.js"></script>
+    <script>
+        wxProtocol.init({
+            imgUrl: 'http://www.365rili.com/task/images/listShareInWx.jpg',
+            title: '坚持每日任务，我已走上了优秀的不归路，你还不来吗？',
+            desc: '我即将成为全优青年，无敌路上希望有你做伴！'
+        });
+    </script>
+    <style>
+    .___footer{
+        background-color: rgba(255,255,255,.9);
+    }
+    .___footer h3{
+        color: #a2a2a2;
+    }
+    </style>
+</body>
+</html>

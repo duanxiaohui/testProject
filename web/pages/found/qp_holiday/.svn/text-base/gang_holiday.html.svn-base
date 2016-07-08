@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>是他是他就是他——钢丝节</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/gang_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>是他是他就是他——钢丝节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>先说明郭德纲的“纲”不是这个“钢”哦~虽然郭老师经常自称为非著名相声演员，然而他的名字还是响彻云霄，妇孺皆知。2010年8月1号，德云社因记者事件停演休整，于2010年9月12日复演。于是郭德纲把每年的9.12定为钢丝节以感谢钢丝对德云社的支持。每年的这一天，德云社都会举办大型演出回报观众对德云社相声的喜爱。</p>
+            <img src="/pages/found/qp_holiday/images/gang_img1.jpg" width="100%"/>
+            <p>郭德纲不仅是广受人民群众喜爱的相声曲艺演员，在主持、戏剧、时尚方面也都有很高的成就。下面我们就来详细了解一下全能艺人郭德纲：</p>
+            <h3>【相声曲艺篇】</h3>
+            <p>郭老师7岁学习评书，9岁正式学习相声，25岁创建德云社，27岁遇到抽烟喝酒烫头的好cp于谦，31岁拜相声大师侯耀文为师，39岁获得华鼎奖-中国最佳曲艺男演员奖。</p>
+            <p>再来看看媒体和业内前辈的评价：</p>
+            <p>在传统相声被商业文化挤兑几将沦陷之际，郭德纲的用功和坚持，确实也为传统相声的发展带来了新的可能——人民日报</p>
+            <p>我觉得他三十几岁的人在继承传统和基本功上是下了工夫的，今天观众喜欢他是对他的回报——马季</p>
+            <img src="/pages/found/qp_holiday/images/gang_img2.jpg"/>
+            <h3>【主持篇】</h3>
+            <p>郭德纲相声功底深厚，思维敏捷，做起主持人来游刃有余，妙语连珠。主持过《今夜有戏》、《非常了得》、《笑傲江湖》、《郭的秀》等十几档电视节目，统统都是收视高，影响广，还去主持了一把《优酷牛人盛典》。</p>
+            <p>郭老师，你让专业主持人还怎么混？</p>
+            <img src="/pages/found/qp_holiday/images/gang_img3.jpg"/>
+            <h3>【戏剧篇】</h3>
+            <p>郭老师十分热爱表演，从客串到主演到自导自演，没有什么能阻挡他进入影视圈的热情。他参与过的片子有《清官巧断家务事》、《郭县令轶事》、《战国》这样听起来比较正常的，也有《歌舞青春》、《越光宝盒》、《大话天仙》这样听起来跟他没什么关系的……</p>
+            <p>感觉郭老师好像很不挑戏啊……</p>
+            <img src="/pages/found/qp_holiday/images/gang_img4.jpg"/>
+            <h3>【时尚篇】</h3>
+            <p>不多说，看图</p>
+            <img src="/pages/found/qp_holiday/images/gang_img5.jpg"/>
+            <p>怎么样，没看出来郭老师时尚品味惊人吧？</p>
+            <p>钢丝们，你们没有爱错人！</p>
+
+            <div class="tips">
+                <p>1、9月12日是郭德纲钦定的他个人的粉丝节</p>
+                <p>2、这一天德云社会举办大型演出回馈钢丝的支持和喜爱</p>
+                <p>3、郭德纲真是多才多艺的多栖巨星啊</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/欢欢</div>
+    </div>
+      <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+    
+ </body>
+</html>
+

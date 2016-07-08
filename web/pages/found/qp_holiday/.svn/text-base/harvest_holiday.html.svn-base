@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>没那么简单——石岗秋收节</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/harvest_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>没那么简单——石岗秋收节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>如果问大家秋天是什么颜色的，那得到的肯定是一个毫无新意的回答——黄色！秋天收获的东西有那么多：黑色的芝麻、红色的高粱、橙色的桔子……但为什么秋天偏偏就是黄色的呢？但其实，这不是今天的重点，重点是很多国家在秋收的时候会举办各类祭祀活动，以求来年风调雨顺、五谷丰登。比如，日本石岗的秋收节。</p>
+            <h3>【节日活动】</h3>
+            <p>石岗秋收节也被称为常陆国总社宫大祭祀节，这样听起来比秋收节厉害多了。这个节日从9月17号持续到19号，内容极其丰富（文盲、学渣请自动忽略下文中不认识的字）。第一天，下午2点以放烟火作为供奉神灵山车出发的信号，供奉队伍向年番町的御仮殿前进；第二天，上午会场举办茨城县高中相扑选手大会，下午在神乐殿跳浦安舞、奏染谷十二座神乐供奉；第三天：下午2点供奉神灵的山车从年番町的御仮殿出发，和第一天一样供奉队伍返回本殿。</p>
+            <img src="/pages/found/qp_holiday/images/harvest_img1.jpg" width="100%"/>
+            <p>每年在石岗的秋收节举办时，远离石岗的过新年或夏收节不回来的人都会从各地赶回来。祭祀活动有日本独特的神轿表演、豪华的彩车，还有50多台威武雄壮的狮子舞表演在室内巡回。他们用这些活动来祈望天下太平、国家安稳、万民齐乐等等。</p>
+            <h3>【各种秋收节】</h3>
+            <p>秋收节不只日本才有，世界各国都有关于秋收的庆祝活动。比如11月11号（我们的单身狗花样受虐的日子）瑞士的秋收节，人们在宴会上跳舞游行、奏乐庆祝以感谢上帝的赐予，还会在市场上庆祝丰收并做好冬季的储备。</p>
+            <img src="/pages/found/qp_holiday/images/harvest_img2.jpg"/>
+            <p>塞尔维亚也会在每年9月第三个周末举办葡萄秋收节，在庆典上展出各种品牌的葡萄酒和果子酒，供游人们品尝选购。此外，庆典上还会举行丰富多彩的文娱节目，其中包括秋收节小姐选美比赛、儿童化装舞会、盛装嘉年华以及别开生面的“飞机抽奖”活动——滑翔机从低空飞过，抛撒下一个个装有一串葡萄的迷你降落伞包，抢到降落伞的游人可以凭藏在包裹里的奖券兑换礼品。这要是中了奖，果断要去买彩票啊！</p>
+            <p class="mt15">小编猜到你可能还在等什么……可是韩国好像真的没有秋收节！</p>
+
+            <div class="tips">
+                <p>1、每年9月17号到19号是日本的秋收节，是可与春节相媲美的隆重节日；</p>
+                <p>2、吃货在每个国家都很多，他们对食物的崇拜是那么的狂热，所以许多国家都会庆祝秋收节；</p>
+                <p>3、石岗秋收节远远不是庆祝秋收那么简单，各项祭祀活动、特有的神轿表演等都能体现日本文化的特色，到日本旅行不容错过哦！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+      <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+    
+ </body>
+</html>
+

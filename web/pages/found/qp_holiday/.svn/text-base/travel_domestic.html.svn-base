@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>越冷越向北，越冷越热情</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/travel_domestic/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>最适合冬季游玩的境内目的地</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>人们总是喜欢温暖，像向日葵趋向阳光一样。“不管怎么样，寒冷总是让人绝望”，这是小编在语文书上看到过的最文艺的一句话了，说的极有道理。雪是美的，但伴之而生的低气温却是让人痛苦的，想穿上美美的裙子到雪地里约会玩耍，又讨厌冻的发紫的嘴唇，这样的时候的确是有点绝望。</p>
+            <p class="mt15">洁白灵动的雪花、晶莹剔透的冰凌、白茫茫童话一般的世界，就那样自顾自的美着，不会因为你没来而减少一丝一毫光彩。而你，一如既往的挤着地铁、习惯性10点吃早饭、改着麻木的方案，甚至根本不知道在离你很远的地方，有一个如此静谧、美好的世界。这个冬天，向安逸的温室say goodbye吧，走出去，越冷越向北，燃起生命的热情之火。不知道去哪的，果断往下看！</p>
+            <h3>【林海雪原】</h3>
+            <p>冬季的大兴安岭是纯白的世界。连绵不绝的群山掩映着纵横交错的河流、湖泊，远处还有望也望不到尽头的原始森林，这一切的一切都被洁白的雪花覆盖，美的寂静、美的不动声色、美的耐人寻味。</p>
+            <img src="images/travel_domestic/holiday_1.jpg"/>
+            <p>湛蓝的天映着洁白的雪，一切都染上了淡淡的蓝色，这是开着汽车走不了路，是穿着高跟鞋爬不上的山，是在写字楼里永远看不到的美景。</p>
+            <h3>【吉林雾凇岛】</h3>
+            <p>雾凇岛是松花江上的一座小岛，松花江两岸树茂枝繁，冬日里不冻的江水腾起来的水雾遇到寒冷的空气后，在树上凝结为霜花。这种霜花在气象学上被称作“雾淞”，当地群众通俗的称之为“树挂”。</p>
+            <img src="images/travel_domestic/holiday_2.jpg"/>
+            <p>这是大自然回馈给人们的极致的美，因此许多摄影爱好者不远万里来到这里，忍受着零下30度的低温，和“屯里的人”一起迎接日出，在雾气弥漫的松花江边看簌簌下落的雪花。或许这样的冬天，才是把“冬天”真正的含义真实的表达了出来。</p>
+
+            <p class="mt15"></p>			
+
+            <div class="tips">
+                <p>1、无寒冷，不冬天，走出去，看看冬天最原本的样子吧；</p>
+                <p>2、冬天的哈尔滨也是极美，查看历史数据就能找到那个童话一样的冰雕世界我会乱讲？</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

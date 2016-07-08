@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<title>标题</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="http://www.365rili.com/css/forum_new.css" rel="stylesheet">
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+</head>
+<body>
+    <div class="calendar_project_top">
+        <div class="calendar_project_top_header">
+            <a href="javascript:;" class="return_btn"></a>
+            <a href="javascript:;" class="share_btn none"></a>
+            <span>标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题</span>
+        </div>
+        <div class="calendar_project_top_img">
+            <img src="http://cocoimg.365rili.com/pic/default/zhuanti_in_2.jpg"/> <!-- 图片地址 -->
+        </div>
+    </div>
+    <div class="calendar_project_info">
+        <p>正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文</p>
+    </div>
+    <div class="add_schedule_list">
+        
+
+
+
+        <!-- 一条日程 -->
+        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/文件名.html">
+                <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/eef31872-5b37-479a-b70f-bab7e2b646f6.jpg!logo)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>日程标题日程标题日程标题日程标题日程标题日程标题日程标题日程标题日程标题日程标题日程标题</h3>
+                        <p class="time">2014-08-17 13:00</p>
+                        <p class="address">北京市东城区东小巷香儿胡同七大姑八大姨街9889号</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+
+
+
+
+
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20141126"></script>
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+            $('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: $('.calendar_project_top_img img')[0].src,
+                title: $('.calendar_project_top_header span').html(),
+                desc: $('.calendar_project_info p').html()
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+            //分享
+            $('.share_btn').on('click', function() {
+                app.call({
+                    action: 'share',
+                    params: [
+                        {
+                            name: 'shareString',
+                            value: JSON.stringify({
+                                title: $('.calendar_project_top_header span').html(),
+                                content: $('.calendar_project_info p').html(),
+                                link: window.location.href,
+                                image: $('.calendar_project_top_img img')[0].src,
+                                isEvent: 'true'
+                            })
+                        }
+                    ],
+                    callback: function(data) {}
+                });
+            });
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

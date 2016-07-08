@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>帮助</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="/coco/new_help/css/new_help.css?20150901" media="screen" />
+</head>
+<body>
+	<div class="help_main">
+		<div class="hot_pro">
+			<h3>热点问题</h3>
+			<ul>
+				<li data-url="https://shimo.im/doc/SSQOPwWyancXjE0y">日程、待办搜索增加分类和筛选（V6.4）</li>
+				<li data-url="https://shimo.im/doc/2IoWw9qocE8I5azg">修改绑定手机号（V6.4）</li>
+				<li data-url="https://shimo.im/doc/wI0uOAPhMAIinGLf">IOS日历插件优化（V6.4）</li>
+				<li data-url="https://shimo.im/doc/lq8PMXvoFI01aHWe">日程、待办导出功能（V6.4）</li>
+				<li data-url="https://shimo.im/doc/qOg5TDfiRQoj5CDN">共享日历日程增加微信分享（V6.4）</li>
+				<li data-url="https://shimo.im/doc/AMG2JmPzDZUmwfzn">收不到日程提醒？快来关注365日历微信服务号</li>
+				<li data-url="https://shimo.im/doc/kz3aLSbIkHYlBJKb">待办新增提醒功能（V6.3版本）</li>
+				<li data-url="https://shimo.im/doc/GFaHRG9oYrk7qSAM">快捷修改日程时间（IOS V6.3版本）</li>
+				<li data-url="https://shimo.im/doc/AxD2AvwJENQ2hnAv">快捷修改日程时间（安卓 V6.3版本 ）</li>
+				<li data-url="https://shimo.im/doc/KpkA1BygPaYKnYNk">重复日程支持单独标记已完成(手机端支持)</li>
+				<li data-url="https://shimo.im/doc/6ngrLJ1Xxcws0Y1v">重复日程支持单独删除(手机端支持)</li>
+				<li data-url="https://shimo.im/doc/k0D2CPpnuEkzslsY">主界面新增限行</li>
+
+				<li data-url="https://shimo.im/doc/DqjztWEb1aIHlQyk">IOS支持系统spotlight搜索（V6.2版本）</li>
+				<li data-url="https://shimo.im/doc/xgVnPJrM3b0HkyKX">发现界面新增【任务】（V6.2版本）</li>
+				<li data-url="https://shimo.im/doc/vqpdZlmvGNwqnAJw">桌面插件新增蓝色主题（安卓V6.2版本）</li>
+				<li data-url="https://shimo.im/doc/cx2nzjBK47h1zYr1">去哪里？怎么去？</li>
+				<li data-url="https://shimo.im/doc/DzWCf0hTBVjdTUFO">可以用365日历做什么？</li>
+				<li data-url="https://shimo.im/doc/vyCrFcv7sEeobvsF">如何创建个人日程并设置提醒？</li>
+				<li data-url="https://shimo.im/doc/E9g1Wp4erUJrU1iq">共享日历可以用来做什么？</li>
+				<li data-url="https://shimo.im/doc/o1vhH4BC0lJ3sO6P">我的日程数据是永久保存的么？</li>
+				<li data-url="https://shimo.im/doc/ZRBpAs4vHwELTWFj">设置了提醒的日程，为什么到时间没提醒？</li>
+				<li data-url="https://shimo.im/doc/5KplZOOyxjQErOCr">微信邀请日程如何使用？</li>
+				<li data-url="https://shimo.im/doc/gt7BtJgoNMG0RJNE">需要周期性提醒的日程，该如何设置？</li>
+				<li data-url="https://shimo.im/doc/Ll9q1T7WVAk8QDS0">生日本和生理期在哪里找？</li>
+				<li data-url="https://shimo.im/doc/2PW8z2IQU7lCfFRF">安卓桌面插件时钟为什么不实时更新？</li>
+				<li data-url="https://shimo.im/doc/DJIIkmV3eTyfs6cr">安卓手机桌面插件有哪些？
+				</li>
+			</ul>
+		</div>
+		<div class="common_list">
+			<h3>常见问题分类</h3>
+			<ul>
+				<li data-url="http://365rili.com/coco/new_help/new_help_login.html">
+					<div class="icon">
+						<img src="/coco/new_help/images/icon_lock@2x.png" alt="">
+					</div>
+					<p>登录问题</p>
+				</li>
+				<li data-url="http://365rili.com/coco/new_help/new_help_group.html">
+					<div class="icon">
+						<img src="/coco/new_help/images/icon_group@2x.png" alt="">
+					</div>
+					<p>共享日历</p>
+				</li>
+				<li data-url="http://365rili.com/coco/new_help/new_help_personal.html">
+					<div class="icon">
+						<img src="/coco/new_help/images/icon_personal@2x.png" alt="">
+					</div>
+					<p>个人日程</p>
+				</li>
+				<li data-url="http://365rili.com/coco/new_help/new_help_massage.html">
+					<div class="icon">
+						<img src="/coco/new_help/images/icon_massage@2x.png" alt="">
+					</div>
+					<p>消息提醒</p>
+				</li>
+			</ul>
+		</div>
+		<a href="javascript:;" data-url="http://365rili.com/coco/new_help/new_help_novice.html" class="first_user">
+			<span>第一次使用365日历？来看看新手指南</span><span></span>
+		</a>
+	</div>
+	<script src="/js/lib/zepto.min.js"></script>
+	<script src="/js/lib/app.js"></script>
+	<script src="/coco/new_help/js/new_help.js"></script>
+</body>
+</html>

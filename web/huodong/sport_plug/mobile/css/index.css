@@ -1,0 +1,13 @@
+body{background:#e7ebed;}
+*{margin:0; padding:0;}
+ul{list-style: none;}
+li{list-style-type: none;}
+a { color:#2e5401; cursor: pointer; text-decoration: none; }
+
+.top{width:320px; height:160px; margin:0 auto; background:url(../images/top.jpg) no-repeat; -webkit-background-size:320px 160px;}
+.txt{width:320px; margin:0 auto;}
+.txt p{margin:0 5px; font-size:14px; color:#58595b; line-height:24px;}
+.txt p.mt10{margin-top:10px;}
+.btn{display:block; width:240px; height:45px; line-height:45px; text-align:center; margin:10px auto; background:#a1d55d; -webkit-background-size:240px 45px; border:1px solid #689b2b; color:#2e5401;
+-moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; border-radius:5px;
+}

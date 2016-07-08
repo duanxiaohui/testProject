@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>宝宝，你应该去读书的</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/holiday_worldnocw/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>世界无童工日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>现在，像旧中国时期、小孩子刚穿上长褂就要去劳动干活的现象越来越少，但是在孟加拉国达卡，铝厂里的童工，年幼的他们不得已在不适当的年龄担负起成年人的重担，工厂的条件状况也较差，这些稚嫩的面孔被汗水和泥灰覆盖，他们的童年中只有这些。</p>
+            <img src="images/holiday_worldnocw/holiday_1.jpg"/>
+
+            <h3>【童工？为什么还有童工？！】</h3>
+
+            <p>以刚才的孟加拉国童工为例，因为铝厂在孟加拉国很常见，主要生产各种不同的铝制容器，这种工业也给当地创造了很多就业机会。在工人中，很多是15岁以下的儿童，对于成人和儿童数量并没有一个确切的数字，但儿童在所有工人所占比例大概能达到30%-50% 。造成童工泛滥的重要原因是廉价的劳动力。根据孟加拉国儿童劳动法，禁止在没有暗示的恶劣工作条件下工作。孟加拉国目前的经济状况并不能解决童工问题，无法完全禁止童工现象。这些儿童的家庭也需要他们工作补贴家用，没有其他选择。如果政府禁止童工，那么，整个国家的情况会更糟，他们的生活水平会继续下降。因此，在禁止童工之前，应该先发展经济改善他们家庭的状况。</p>
+           
+            <img src="images/holiday_worldnocw/holiday_2.jpg"/>
+
+            <h3>【那能有什么相关行动呢？】</h3>
+
+            <p>以乌拉圭为例，2000年乌拉圭有5万名5岁至17岁的少年儿童就业，已减少到4.5万，这些童工年龄多在14岁至17岁之间。令乌拉圭社会学家感到忧虑的是，2000～2007年间，该国5岁至11岁的童工数量在童工总数中的比例从1%提高到2%。尽管乌拉圭法律规定，未满15岁者不得进入劳动力市场。</p>
+            <p class="mt15"></p>
+            <p>乌拉圭社会发展部长玛丽娜·阿里斯门迪指出，仅有不到33%的乌拉圭青少年完成了中等教育。她指出，一些父母认为“自己的孩子不适合念书”、“孩子只要在劳作中学习就行了”的观念应予纠正。她还呼吁通过加强全日制学校的师资和管理减少童工现象。而是事实上，孩子也确实应该在读书的环境下成长！</p>
+            <img src="images/holiday_worldnocw/holiday_3.jpg"/>
+
+            <div class="tips">
+                <p>1、在我们生活在光明中的时候，还有很多人生活在黑暗之中；</p>
+                <p>2、那些本应该过着快乐读书生活的孩子，却不得不成为廉价的劳动力，这些现象也值得引人深思。</p>
+            </div>
+        
+		<!-- 
+			<p class="mt15"></p>
+		 -->    
+    	</div>
+        <div class="editor">编辑/Vanna</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

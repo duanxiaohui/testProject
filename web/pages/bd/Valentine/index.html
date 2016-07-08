@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<title>看看你能打败多少人</title>
+<link href="style/index.css" rel="stylesheet" type="text/css" />
+<script src="/js/lib/zepto.min.js"></script>
+<script src="/js/lib/app.js"></script>
+</head>
+<body class="weixin">
+    <div class="bar">
+        <a href="javascript:;" class="share_btn"></a>
+        <a href="javascript:;" class="return_btn"></a>
+        <div class="bar_txt">看看你能打败多少人</div>
+    </div>
+    <div class="default">
+    	<a href="javascript:;" class="show_btn">我要秀恩爱</a>
+    	<a href="javascript:;" class="dog_btn">我要秀单身</a>
+    </div>
+    <div class="show none">
+        <div class="show_bg show_sec_bg">
+            <div class="show_txt"></div>
+        </div>
+    	<div class="select_date">
+    		<div class="select_year">
+                <span class="num_txt"><span class="s_y_txt"></span>
+                    <select name="s_year" id="s_year">
+                    </select> 
+                </span>
+                <span class="txt">年</span>
+            </div>
+    		<div class="select_month">
+                <span class="num_txt"><span class="s_m_txt"></span>
+                    <select name="s_month" id="s_month">
+                    </select> 
+                </span>
+                <span class="txt">月</span>
+            </div>
+    		<div class="select_day">
+                <span class="num_txt"><span class="s_d_txt"></span>
+                    <select name="s_day" id="s_day">
+                    </select> 
+                </span>
+                <span class="txt">日</span>
+            </div>
+    	</div>
+    	<a href="javascript:;" class="submit_btn">确定</a>
+    </div>
+    <div class="show_results none">
+        <div class="show_bg show_three_bg">
+            <div class="show_results_txt"></div>
+            <a class="btn" href="javascript:;"></a>
+        </div>
+        <div class="show_results_div">
+            <h3><div class="div_logo"></div><span>365日历偷瞄你很久了</span></h3>
+            <div class="results_txt">
+                <p>你们在一起：<span class="s_together_day"></span>天</p>
+                <p>击败了全国：<span class="s_rate"></span>的人</p>
+            </div>
+            <div class="results_tips"></div>
+            <a href="javascript:;" class="share_weinxin_btn"><div class="weixin_icon"></div><p>分享给朋友们</p></a>
+        </div>
+    </div>
+    <div class="dog none">
+        <div class="dog_bg dog_sec_bg">
+             <div class="dog_txt"></div>
+        </div>
+        <div class="select_date">
+            <div class="select_year">
+                <span class="num_txt"><span class="d_y_txt"></span>
+                    <select name="d_year" id="d_year">
+                    </select> 
+                </span>
+                <span class="txt">年</span>
+            </div>
+            <div class="select_month">
+                <span class="num_txt"><span class="d_m_txt"></span>
+                    <select name="d_month" id="d_month">
+                    </select> 
+                </span>
+                <span class="txt">月</span>
+            </div>
+            <div class="select_day">
+                <span class="num_txt"><span class="d_d_txt"></span>
+                    <select name="d_day" id="d_day">
+                    </select> 
+                </span>
+                <span class="txt">日</span>
+            </div>
+        </div>
+        <a href="javascript:;" class="submit_btn">确定</a>
+    </div>
+    <div class="dog_results none">
+        <div class="dog_bg dog_three_bg">
+              <div class="dog_results_txt"></div>
+              <a class="btn" href="javascript:;"></a>
+        </div>
+        <div class="dog_results_div">
+            <h3><div class="div_logo"></div><span>365日历偷瞄你很久了</span></h3>
+            <div class="results_txt">
+                <p>你已单身了：<span class="d_together_day"></span>天</p>
+                <p>击败了全国：<span class="d_rate"></span>的人</p>
+            </div>
+            <div class="results_tips"></div>
+            <a href="javascript:;" class="share_weinxin_btn"><div class="weixin_icon"></div><p>分享给朋友们</p></a>
+        </div>
+    </div>
+</div>
+<div class="share_layer"></div>
+
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="/share/js/weixin_1.0.js?123"></script>
+    <script src="js/valentine.js"></script>
+    <script>
+        (function() {
+            if(app.getUa.weixin) {
+                wxProtocol.init(function(wx, link) {
+                    wx.onMenuShareAppMessage({
+                        title: '【单不单身，出来秀秀】',
+                        desc: '全国单身汪和有情人等你来挑战！',
+                        link: link,
+                        imgUrl: 'http://www.365rili.com/pages/Valentine/images/single.jpg'
+                    });
+                    wx.onMenuShareTimeline({
+                        title: '【单不单身，出来秀秀】全国单身汪和有情人等你来挑战！',
+                        link: link,
+                        imgUrl: 'http://www.365rili.com/pages/Valentine/images/single.jpg'
+                    }); 
+                });
+            }
+        })();
+    </script>
+</body>
+</html>

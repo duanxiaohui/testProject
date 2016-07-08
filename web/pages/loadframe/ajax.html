@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<script type="text/javascript" src="http://www.365rili.com/js/jquery/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+    <script>
+    $.ajax({
+    	url:'http://www.365rili.com/v4/product.html',
+    	success:function (data) {
+    		document.write('可以ajax');
+    	},
+    	error:function () {
+    		document.write('不能ajax')
+    	}
+    })
+    </script>
+</body>
+</html>

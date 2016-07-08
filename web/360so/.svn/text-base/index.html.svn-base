@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>   
+<title>365日历</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<link rel="stylesheet" type="text/css" href="style/calendar.css" media="screen" />
+</head>
+<body>
+<div class="calendar" id="calendar_container">
+		<div class="calendar_content e_clear">
+			<div class="calendar_grid">
+					<div class="calendar_operating e_clear">
+						<a href="javascript:;" class="today_btn ie_png">今天</a>
+						<div class="calendar_ym_select e_clear">
+							<a href="javascript:;" class="prve ie_png"></a>
+							<div class="y_select">
+								<div class="dropselectbox">
+									<h4 class="ie_png">2013年</h4>
+										<ul class="none">
+										</ul>
+								</div>
+							</div>
+							<div class="m_select">
+								<div class="dropselectbox">
+									<h4 class="ie_png">10月</h4>
+									<ul class="none">
+										<li>1月</li>
+										<li>2月</li>
+										<li>3月</li>
+										<li>4月</li>
+										<li>5月</li>
+										<li>6月</li>
+										<li>7月</li>
+										<li>8月</li>
+										<li>9月</li>
+										<li>10月</li>
+										<li>11月</li>
+										<li>12月</li>
+									</ul>
+								</div>
+							</div>
+							<a href="javascript:;" class="next ie_png"></a>
+						</div>
+						<div class="vacation_btn">
+							<div class="dropselectbox" id="festival_select">
+								<h4 class="ie_png">假期</h4>
+								<ul class="none ie_png">
+									<li>元旦</li>
+									<li>春节</li>
+									<li>清明节</li>
+									<li>劳动节</li>
+									<li>母亲节</li>
+									<li>端午节</li>
+									<li>中秋节</li>
+									<li>国庆节</li>
+									<li>情人节</li>
+									<li>平安夜</li>
+									<li>圣诞节</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				<div class="calendar_grid_div">
+					<ul class="calendar_week e_clear">
+						<li class="week">日</li>
+						<li>一</li>
+						<li>二</li>
+						<li>三</li>
+						<li>四</li>
+						<li>五</li>
+						<li class="week">六</li>
+					</ul>
+					<ul class="calendar_list e_clear" id="calendar_list"></ul>
+				</div>
+				<div class="vacation_txt"></div>
+			</div>
+			<div class="calendar_almanac" id="calendar_almanac"></div>
+		</div>
+</div>
+<!--[if IE 6]>
+<script type="text/javascript" src="js/dd_belatedpng.js"></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('.ie_png, img');
+</script>
+<![endif]-->
+<script type="text/javascript" src="/js/jquery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/js/jquery/jquery-ui-1.8.13.custom.min.js"></script>
+<script type="text/javascript" src="js/lunar.js"></script>
+<script src="http://www.365rili.com/third_cooperation/base_calendar/js/app/model/data.js"></script>
+<script src="http://www.365rili.com/third_cooperation/base_calendar/js/parseDataForCalendar.js"></script>
+<script type="text/javascript" src="js/calendar.min.js?20151214"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+</body>
+</html>

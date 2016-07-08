@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015北京马拉松</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015北京马拉松</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/84307f63-ef18-4c99-a35a-9f7b46993b5c.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+			  <a class="btn js-subscribe" data-uuid="a16e1c7b-b626-453e-9f9a-b3d8585145a7" data-cid="147514789">添加提醒</a>
+	    	
+	    	<p class="time">
+
+
+<b>比赛时间：2015年09月20日　
+</b></br>
+
+	    	<b>比赛地点：北京</b></br><b>类型：全马
+
+</b></br>
+
+
+			</p>
+			<h3>活动介绍：</h3>
+			<p>北京国际马拉松赛由中国田径协会主办的北京国际马拉松赛，是经国家体育总局和北京市政府批准，并在国际田联和国际马拉松及公路跑协会备案的中国最高水平的马拉松赛。该赛事于1981年首办，每年一届，已发展成为影响较大的传统性国际赛事，并跻身于世界十大马拉松赛之列。由于该比赛路线宽阔平坦，气候适宜（气温、湿度），组织水平及比赛水平高，加之北京市民的热情友好，因此该比赛规模正逐年扩大，吸引越来越多的来自世界各地的优秀选手和马拉松爱好者参赛。
+</p>
+			<!--h3是小标题-->
+			<h3>
+</h3>
+			<!--p是段落文字描述-->
+			<p>
+具体详情以官网信息为准
+</p>
+
+<img src="http://cocoimg.365rili.com/schedule_pics/default/1f1282a5-c91c-4ee7-a45c-92d0edb05486.jpg"/>
+<a href="http://www.beijing-marathon.com/" class="btn js-other">详见官网</a>
+		
+			 <div class="remind_div" data-uuid="a16e1c7b-b626-453e-9f9a-b3d8585145a7" data-cid="147514789"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/84307f63-ef18-4c99-a35a-9f7b46993b5c.jpg',
+                title: '2015北京马拉松',
+                desc: '北京国际马拉松赛由中国田径协会主办的北京国际马拉松赛'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'shareTo',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015北京马拉松',
+		        				content: '北京国际马拉松赛由中国田径协会主办的北京国际马拉松赛',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/84307f63-ef18-4c99-a35a-9f7b46993b5c.jpg',
+		        				isEvent: false
+		        			})
+		        		},
+		        		{
+		        			name: 'channel',
+		        			value: 'wx'
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>泰迪熊珍藏111周年展</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">泰迪熊珍藏111周年展</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/82acce97-6a1d-44b2-ac6d-7aa520cf9cac.jpg"/>
+			
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	
+	    	<h3 class="time">时间：2015.2.1-3.22 10:00-19:00</h3>
+	    	<h3>场地：北京 朝阳区 北京富力广场购物中心</h3>
+			<h3>费用：免费</h3>
+			<p class="fc_000"></p>
+			
+			<h3>活动详情：</h3>
+			<p>可爱的泰迪熊来到北京！可能是你过年回家前最值得看的展览！去和可爱的泰迪求熊抱吧！</br>
+			
+			   泰迪熊已经111岁了，它承载着许多人的童年回忆。2015年2月1日，备受瞩目的泰迪熊111周年一生一世艺术纪念展将在富力广场购物中心拉开帷幕，开始为期五十天的巡展。希望在新年伊始给京城百姓奉献一场回忆与爱恋交融的暖冬盛宴。</p>
+			
+			<!--h3是小标题-->
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/b63606ba-d84b-485d-b966-13db07173e77.jpg"/>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/1d56562a-b4f8-4373-af16-4d2a195313d9.jpg"/>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/dd5ffa5d-3175-4ebb-8ffd-85fcc44a1700.jpg"/>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/eae1e5f9-1715-4e0f-acaa-aba7cb449e57.jpg"/>
+			
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/df476c32-2a51-42dc-958c-16cee07eac36.jpg"/>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/c14af97e-1c35-4319-8b00-befcb6648ea7.jpg"/>
+			
+			
+			<h3>免责说明：</h3>
+			<p>所有活动信息及图片仅供参考。365日历致力于提供真实、准确的活动信息，但不保证活动信息的真实性和准确性，且不对因信息的不真实或者不准确导致的任何损失或损害承担责任。凡以任何方式登录365日历或者直接、间接参加相关活动者，视为自愿接受本网站声明的约束。</p>
+			
+			<!-- 默认底部有个添加提醒的按钮，不显示的话remind_div的位置加上 none -->
+            <div class="remind_div none" data-uuid="4e0b87d7-73ef-47ed-9069-5060d1f79f57" data-cid="125821987"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/8c4b6982-7b4a-4dfc-8797-a24e8744cccf.jpg',
+                title: '泰迪熊珍藏111周年展',
+                desc: '可爱的泰迪熊来到北京！可能是你过年回家前最值得看的展览！去和可爱的泰迪求熊抱吧！'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '泰迪熊珍藏111周年展',
+		        				content: '可爱的泰迪熊来到北京！可能是你过年回家前最值得看的展览！去和可爱的泰迪求熊抱吧！',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/8c4b6982-7b4a-4dfc-8797-a24e8744cccf.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

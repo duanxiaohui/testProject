@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>西班牙番茄节</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/tomato_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>番茄大战计划——西班牙番茄节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>每年8月的最后一个星期三是西班牙的番茄节</p>
+            <h3>它的出现是个美丽的意外</h3>
+            <p>有一天……</p>
+            <p>该城里一个小乐队从市中心吹着喇叭招摇过市</p>
+            <p>姿态极其做作</p>
+            <p>领头的人甚至将喇叭翘到了天上</p>
+            <p>这时候，一群机智的少年出现了</p>
+            <p>他们随手抓起西红柿向那喇叭筒里扔</p>
+            <p>并且用比赛的方式激发彼此的斗志</p>
+            <p>结果，番茄大战就这样出现啦！</p>
+            <p>它的场面极其血腥</p>
+            <p>成年人请在未成年人陪同下观看：</p>
+            <img src="/pages/found/qp_holiday/images/tomato_img1.jpg" width="100%"/>
+            <p>告诉我不止我一个人觉得像大姨妈！</p>
+            <h3>盛况空前的番茄大战</h3>
+            <p>每年番茄节到来的时候</p>
+            <p>成千上万的游客</p>
+            <p>纷纷与当地人一起聚集到</p>
+            <p>瓦伦西亚地区的布尼奥尔小镇（地点记清楚哦）</p>
+            <p>12点的一声号令发出后</p>
+            <p>大家立刻撒丫子奔向满载西红柿的卡车</p>
+            <p>“我打~”</p>
+            <p>“哎哟，别打我脸行吗？”</p>
+            <p>“我neng死你哦！“</p>
+            <p>……</p>
+            <img src="/pages/found/qp_holiday/images/tomato_img2.jpg"/>
+            <p>这是都是小编YY的啦</p>
+            <p>事实是</p>
+            <p>所有的西红柿必须捏烂了才能出手</p>
+            <p>大家打的还是很愉悦的</p>
+            <p>“弹尽粮绝”后</p>
+            <p>志愿者就要出动啦</p>
+            <p>他们把所有能够利用的自来水龙头全部打开</p>
+            <p>一阵疯狂的洗刷刷后</p>
+            <p>整个城市都恢复了宁静</p>
+            <p>但是在小编心里</p>
+            <p>几吨西红柿就这样没了</p>
+            <img src="/pages/found/qp_holiday/images/tomato_img3.jpg"/>
+            <p>好歹给我留两个让我炒鸡蛋……</p>
+            <div class="tips">
+                <p>1、每年8月的最后一个星期三番茄节在西班牙隆重举行</p>
+                <p>2、节日当天人们可以用已经准备好的“子弹”——番茄，捏烂后扔向熟悉或陌生的人，尽情享受追赶打闹的乐趣</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/二当</div>
+    </div>
+      <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+    
+ </body>
+</html>
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>飘洋过海来看你</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/the_sea/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>世界海洋日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>海洋似乎是一个有很多故事发生的地方，在飘洋过海去看你的路上，望着或平静或起伏的海面，总能引出无限遐想。出海的丈夫一去几年，无法联系，约定的归期将近，日日到岸边等待，终于有一天远远望见熟悉的船由远及近，一家人终于团圆。中国第一批留学生，满含激情的踏上知识的巨轮，在甲板上讨论着，憧憬着。一艘叫做泰坦尼克的豪华轮船，那对恋人上演着经典的一幕……</p>
+            <h3>【一切都是有前提的】</h3>
+            <p>所有故事都是有前提的，那就是海洋必须是干净的！想想如果海面上漂浮着各种饮料瓶、轮船残骸、泄漏的汽油……真不知道还怎么浪漫的起来！</p>
+            <img src="images/the_sea/holiday_1.jpg"/>
+            <p>你向往很多美丽的海滩，或许也去过它们其中的一些，那里天很蓝，水清澈，沙滩柔软。但其实，很多海洋遭受了几乎可以称为毁灭性的污染。</p>
+            <p class="mt15">海洋面积辽阔，储水量巨大，因此长期以来是地球上最稳定的生态系统。由陆地流入海洋的各种物质被海洋接纳，而海洋本身却没有发生显著的变化。然而近几十年，随着世界工业的发展，海洋的污染也日趋加重，使局部海域环境发生了很大改变，并有继续扩展的趋势。</p>
+            <h3>【世界海洋日】</h3>
+            <p>2008年12月5日第63届联合国大会通过第111号决议，决定自2009年起，每年的6月8日为世界海洋日。早在1992年，加拿大就已经在当年的里约热内卢联合国环境与发展会议上发出这一提议，每一年都有一些国家在这一天举办与保护海洋环境有关的非官方纪念活动。但直至2009年联合国才正式确立其为官方纪念日。</p>
+            <img src="images/the_sea/holiday_2.jpg"/>
+            <p>联合国希望世界各国都能借此机会关注人类赖以生存的海洋，体味海洋自身所蕴含的丰富价值，同时也审视全球性污染和鱼类资源过度消耗等问题给海洋环境和海洋生物带来的不利影响。</p>
+
+            <p class="mt15"></p>			
+
+            <div class="tips">
+                <p>1、每年的6月8日是世界海洋日，节日设立是为了保护海洋资源；</p>
+                <p>2、世界上很多海洋国家和地区都有自己的海洋日，如欧盟的海洋日为5月20日，日本则将7月份的第三个星期一确定为海之日。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

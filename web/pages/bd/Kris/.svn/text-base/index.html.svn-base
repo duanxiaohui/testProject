@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>365日历独家吴亦凡生日安排</title>
+<meta name="format-detection" content="telephone=no">
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<script>document.documentElement.style.webkitUserSelect='none';document.documentElement.style.webkitTouchCallout='none';</script>
+<link href="/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link href="/pages/bd/Kris/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+		<div class="music none">
+			<img src="/pages/bd/Kris/images/musicLight.png" alt="">
+			<img src="/pages/bd/Kris/images/music.png" alt="">
+		</div>
+
+		<div class="loading">
+			<div class="loadingIcon">
+				<div class="light">
+					<img src="/pages/bd/Kris/images/lightLight.png" class="animated infinite hinge flash" alt="">
+					<img src="/pages/bd/Kris/images/light.png" alt="">
+				</div>
+				<img class="loadingIcon" src="/pages/bd/Kris/images/loadingIcon.png" width="100%" alt="">
+				<p class="loadingTxt"><span>0</span>%</p>
+			</div>
+	
+			<div class="start">
+				<img src="/pages/bd/Kris/images/startLight.png" class="animated infinite flashQ" alt="">
+				<img src="/pages/bd/Kris/images/start.png" alt="">
+			</div>
+
+		</div>
+
+    </div>
+
+    <div class="footer center"><img src="/pages/bd/Kris/images/logo.png" width="80" alt=""></div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/pages/ui-lib/js/plug.js"></script>
+    <script src="/js/lib/app.js"></script>
+    <script src="/js/lib/iscroll-probe.js"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/bd/Kris/js/main.js"></script>
+    <script>
+		wxProtocol.init(function (wx, link) {
+			wx.onMenuShareAppMessage({
+		        title: '365日历独家爆料吴亦凡生日安排',
+		        desc: '凡凡生日进行时！365日历带你全程感受fantastic见面会行程！',
+				imgUrl: 'http://www.365rili.com/pages/bd/Kris/images/wx.jpg'
+		    });
+		    wx.onMenuShareTimeline({
+		        title: '365日历独家爆料吴亦凡生日安排',
+				imgUrl: 'http://www.365rili.com/pages/bd/Kris/images/wx.jpg'
+		    });
+		});
+    </script>
+</body>
+</html>

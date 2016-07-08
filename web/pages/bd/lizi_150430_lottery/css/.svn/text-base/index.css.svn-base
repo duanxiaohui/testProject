@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 张明臣 (vest0804@gamil.com)
+ * @date    2015-04-14 16:30:15
+ * @version 1.0
+ */
+body { background: #f5f4f0; color: #444; font: 12px / 1.5em "Microsoft YaHei", 微软雅黑,SimSun,arial; height: 100%; margin: 0; padding: 0; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+textarea { background: #fff; border: 1px solid #d2d9dc; border-radius: 2px; box-shadow: 0 0 0 #d2d9dc; -moz-transition: .3s ease-in-out; transition-property: border box-shadow; -webkit-transition: .3s ease-in-out; }
+textarea:focus, input[type="text"]:focus { /*border: 1px solid #b7d4ea;*/ box-shadow: 0 0 5px #b7d4ea; }
+a { color: #208de9; cursor: pointer; text-decoration: none; }
+html{height:100%;}
+
+body{background:url(../images/bg.jpg) repeat; background-size:50px 50px;}
+
+.none{display:none;}
+.main{padding-top:330px; width:100%; background:url(../images/top_bg.jpg) no-repeat; background-size:100% auto; position:absolute;}
+.bg_left{width:100%;position:absolute; background:url(../images/left_bg.png) no-repeat left top; background-size:119px 137px; z-index:1;}
+.bg_right{width:100%; position:absolute; background:url(../images/right_bg.png) no-repeat right 25%; background-size:82px 160px; z-index:1;}
+.jihe{margin:40px auto 0; position:relative; top:50%; z-index:999;}
+.prize{width:222px; height:170px;margin: 0 auto; background:url(../images/canvas_bg.jpg) no-repeat; background-size:100% 100%; position:relative; z-index:999;}
+
+.active_info_btn{position:absolute; width:145px; height:40px; background:#fd4f68; line-height:40px; text-align:center; color:#fd4f68; bottom:65px; left:50%; margin-left:-72px; color:#fff; font-size:14px; -webkit-border-radius:5px; border-radius:5px; box-shadow:2px 2px 0px #d52941; z-index:999;}
+
+.lizi_logo{position:absolute; width:53px; height:53px; bottom:5px; background:url(../images/lizi_logo.png) no-repeat; background-size:100% 100%; left:50%; margin-left:-26px;}
+
+.canvas{width:212px; height:125px; top:5px; left:5px; background:#e0e0e0; position:relative;}
+/*输入手机号*/
+.input_tel{ width:222px; margin:0 auto; position:relative; top:50%;  z-index:999;}
+.input_tel h3{width:100%; height:79px; background:url(../images/tel_h3.jpg) no-repeat; background-size:100% 100%; text-align:center; color:#393636;}
+.input_div{ padding:10px 5px; background:#e53855;}
+.input_div input{float:left;width:95%; border:1px solid #eb253e; padding:8px 2%; height:22px; outline:none}
+.submit_btn{display:block; width:100%; height:42px;background:url(../images/submit_bg.jpg) no-repeat; background-size:100% 100%;}
+
+/*提交成功*/
+.submit_suc{width:310px; margin:0 auto; position:relative; top:50%;  z-index:999; background:#e53855; padding:0 0 5px 0;}
+.submit_suc h3{width:100%; height:64px; line-height:64px; background:url(../images/submit_suc_h3.jpg) no-repeat; background-size:100% 100%; text-align:center; color:#eb253e;}
+.submit_suc_div{background:#fff; text-align:center; padding:15px 0; font-size:14px; color:#171819; margin:0 5px 0px;}
+
+/*活动详情*/
+.active_info{width:280px; margin:0 auto; position:relative; top:50%;  z-index:999; padding:5px; background:#e53855;}
+.active_info h3{width:100%; height:30px; line-height:30px; background:#fff; text-align:center; color:#393636; text-indent:-15px; font-size:16px; padding-top:20px; position:relative;}
+.back_btn{position:absolute; font-size:12px; color:#414242;text-indent:0; left:15px;}
+.active_info_div{padding:20px 15px; background:#fff;line-height:180%;}
+.active_info_div p{padding-left:1em; text-indent:-1em;}
+
+.canvas_layer{position:absolute; width:212px; height:125px; top:0px; left:0px; background:url(../images/canvas_mask.jpg) no-repeat; background-size:100% 100%; z-index:999;}
+
+@media (device-height:736px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone6 Plus */
+	.prize{width:333px; height:255px;}
+	.canvas{width:313px; height:188px; top:8px; left:8px;}
+	.canvas_layer{width:313px; height:188px;}
+	.input_tel{width:333px;}
+	.input_tel h3{height:120px;}
+	.submit_btn{height:60px;}
+	.active_info h3{font-size:18px;}
+	.back_btn{font-size:16px;}
+	.active_info{width:380px; font-size:18px;}
+}

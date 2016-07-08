@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>大家一起洗刷刷——清洁地球日</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/cleanEarth_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>大家一起洗刷刷——清洁地球日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>这是一个由个人推动建立的全球性节日：</p>
+            <p>1987年，澳大利亚人伊恩基南驾单人帆船环绕地球时，看到漂浮在海上的垃圾，深深觉得要做一些事来改善环境。回到悉尼后，他和朋友发起了“清洁悉尼港日”。这个活动召集了4000名志愿者清理废旧汽车，白色垃圾，玻璃瓶，烟头等。</p>
+
+            <p class="mt15">后来，伊恩和他的委员会认为既然一个城市可以行动起来，整个国家也行，于是发动全国人民一起动手，在1990年有30万志愿者参与了清洁澳大利亚日。</p>
+
+            <p class="mt15">下一步，伊恩又把眼光放到全世界。在得到联合国环境规划署（UNEP）支持后，世界清洁日在1993年第一次举办。自此，世界清洁日成为全球性社区活动，每年有超过130个国家，3500万人参与。</p>
+            <img src="/pages/found/qp_holiday/images/cleanEarth_img1.jpg" width="100%"/>
+            <h3>【全球大扫除】</h3>
+            <p>世界清洁地球日又名世界清洁日，现为全球最重要的环境保护活动之一，每年全世界有超过125个国家、4000万人参加这个活动。时间一般是9月的第三个周末，不过也有参与组织和个人把每年的9月14日作为活动时间。2006年的世界清洁日活动时间为9月15日至17日3天。</p>
+            <p>活动内容可以概括为三步走战略：</p>
+            <p>1.清洁活动——传统的活动通常是一到两天的志愿者社区清扫；</p>
+            <p>2.延伸计划——对上一活动的补充，包括植树，循环利用计划，生活垃圾处理设施的建立等；</p>
+            <p>3.教育宣传——指导人们如何用积极正确的行为保护改善环境。</p>
+            <img src="/pages/found/qp_holiday/images/cleanEarth_img2.jpg"/>
+            <h3>【垃圾们的寿命】</h3>
+            <p>你知道我们生活中常见的垃圾如果不加处理能“存活”多久吗？小编来告诉你：烟头：1-5年，羊毛织物：1-5年，橘子皮：2年，皮革：50年，易拉罐：80-100年，塑料：100-200年，玻璃：1000年。直观一点来看，如果你出生的时候有人丢了一个可乐罐没有人处理的话，到你离开人世的那一天它还好好的躺着呢~至于塑料和玻璃，可能只有乌龟能见证他们的消亡了……</p>
+            <img src="/pages/found/qp_holiday/images/cleanEarth_img3.jpg"/>
+            <h3>【你能做到的】</h3>
+            <p>我们也许没有伊恩基南那种一个人持续不断去推进环保事业的能力或是精力，但起码可以做到的是通过自己的行为去影响周围的人。环保说起来大，做起来小，请在这一天，不乱扔垃圾，不浪费水电，做一个绿色的人，建设一个绿色的的地球。</p>
+            <img src="/pages/found/qp_holiday/images/cleanEarth_img4.jpg"/>
+            <h3>【游泳池一般的地下通道】</h3>
+            <p>最后，送上一张本月9日台风过境后，被倒灌积水淹没的日本静岡浜松市的地下通道的照片。要是我们生活在这样干净的地球上，一定会很幸福的吧~</p>
+
+            <div class="tips">
+                <p>1、9月第三个周末是世界清洁地球日，是全球最重要的环境保护活动之一；</p>
+                <p>2、从今天开始，我们每个人都为更清洁的环境做出一点努力吧~</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/欢欢</div>
+    </div>
+      <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+    
+ </body>
+</html>
+

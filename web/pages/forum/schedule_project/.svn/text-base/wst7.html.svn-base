@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>家园</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">家园</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/d8ae2748-774f-4c88-9f9b-b434f3647641.jpg"/>
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	<a href="http://m.mtime.cn/#!/movie/172592/" class="btn js-other">查看预告片</a>
+	    	<p class="time"><h3>上映时间：2015年3月27日（美国）</h3></p>
+	    	<h3>导演：蒂姆•约翰逊</h3>
+			<h3>编剧：汤姆•J•阿瑟尔 / 马特•恩贝尔</h3>
+			<h3>主演：吉姆•帕森斯 / 蕾哈娜 / 詹妮弗•洛佩兹 / 马特•琼斯 / 史蒂夫•马丁</h3>
+			<h3>类型：动画 / 奇幻 / 冒险</h3>
+			<p class="fc_000">制片国家/地区: 美国</p>
+			
+			<h3>看点：</h3>
+			<p>该片改编自亚当·雷克斯的童书《斯麦克节的真正意义》，由《疯狂原始人》和《驯龙高手》团队打造，讲述蕾哈娜配音的女孩小零，母亲不幸遭到入侵地球的外星人绑架，她在逃难途中，遇到了与自己命运相似的“波波星人”小欧，两人结伴同行，启程寻找小零的母亲，拯救地球，一路闹出笑料不断。</p>
+			<p>吉姆·帕森斯配音的外星人小欧，形状像只软软的章鱼玩具，平时是紫色，情绪变化时还会变成其他颜色。性格则是说不出的又怪又萌，闯了祸还“理不直气也壮”，让人哭笑不得，活脱脱就是一只卡通版的“谢耳朵”。</p>
+			<!--h3是小标题-->
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/5b137e82-ce36-4932-b027-015b6c615873.jpg"/>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/f0f431f7-e8dd-4175-a5af-076d41f0f84e.jpg"/>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/fddee076-08ba-4b4c-8301-c12d35734259.jpg"/>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/d8ae2748-774f-4c88-9f9b-b434f3647641.jpg',
+                title: '家园',
+                desc: '根据亚当·雷克斯（Adam Rex）备受好评的儿童小说《斯麦克节的真正意义》（The True Meaning of Smekday）改编，将在2014年圣诞节前上映。故事讲述11岁地球女孩小零的妈妈被入侵地球的波波星人绑架了，她被迫开车前往弗罗里达逃难。路上她遇到了一个自称小欧的波波星人，两人很快成为朋友，一路上共同经历很多有趣的冒险。小欧不小心引来了波波人的可怕敌人——Gorg人，后者已经占领波波人的星球，还想吃掉地球让人类做他们的奴隶。小零和小欧必须联手起来尽早找到小零的妈妈并拯救世界。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '家园',
+		        				content: '根据亚当·雷克斯（Adam Rex）备受好评的儿童小说《斯麦克节的真正意义》（The True Meaning of Smekday）改编，将在2014年圣诞节前上映。故事讲述11岁地球女孩小零的妈妈被入侵地球的波波星人绑架了，她被迫开车前往弗罗里达逃难。路上她遇到了一个自称小欧的波波星人，两人很快成为朋友，一路上共同经历很多有趣的冒险。小欧不小心引来了波波人的可怕敌人——Gorg人，后者已经占领波波人的星球，还想吃掉地球让人类做他们的奴隶。小零和小欧必须联手起来尽早找到小零的妈妈并拯救世界。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/d8ae2748-774f-4c88-9f9b-b434f3647641.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

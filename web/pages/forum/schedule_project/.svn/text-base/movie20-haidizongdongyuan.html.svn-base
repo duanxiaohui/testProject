@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>海底总动员2</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">海底总动员2</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/96254055-ceee-4ba3-b086-9a733edfdc0f.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	
+	    	<h3 class="time">上映时间：2015年11月25日（美国）</h3>
+			<p> </p>
+	    	<h3>导演：安德鲁·斯坦顿</h3>
+			<p class="fc_000">主演：黛安娜·基顿 / 艾伦·德詹尼丝 / 阿尔伯特·布鲁克斯 / 泰·布利尔 / 慧琪·李维士 / 尤金·列维（配音）</p>
+			<h3>剧情：</h3>
+			<p>故事发生在Nemo与父亲团聚的十年之后，主角换成了爱唠叨的Dory。记忆力短暂的她原本已经在一个新家庭里生活得很愉快，但一次事故让她重新记起了之前的家人和朋友，于是决定重新启程寻找原来的自己。Marlin和Nemo两父子一路陪伴她，一行人又展开了新一轮的海底冒险之旅。第一部中的两位主角小丑鱼父子“马林”和“尼莫”也都将回归，也将迎来一批全新的角色，其中包括多莉生命中的重要人物。部分故事的发生地点也仍将设定在加利福尼亚海岸线。</p>
+			<!--h3是小标题-->
+			<h3>看点：</h3>
+			<!--p是段落文字描述-->
+			<p>皮克斯动画的魅力在于，所有的动画大片都能塑造出可爱的形象和庞大的布景，可是想吸引到成年人仅凭这些是完全不够的，充分注入了性格的皮克斯人物们比之一般的动画片主角更鲜活灵性，更讨人喜爱；而不同于一般的好莱坞商业大片看到开头就猜到结尾的尿性，皮克斯总能把一个平凡的故事讲得生动有趣，引人入胜。虽然中文名取得很没创意（都是啥啥总动员），但每一部都能留给影迷一个印象深刻的人物。2003年上映的《海底总动员》，给全世界的小丑鱼冠以一个共同的名字：尼莫。而健忘的蓝唐王鱼“多莉”(Dory)也赢得了万千观众的喜爱，在第二部里将以她为中心展开了一场全新的海底冒险，尼莫和他的爸爸也会帮助多莉。相同的故事架构下，皮克斯会带给我们怎样的惊喜呢？</p>
+    	<img src="http://cocoimg.365rili.com/schedule_pics/default/d0586e19-3a1f-4b10-bd78-05cfb3f2b238.jpg"/>
+		<img src="http://cocoimg.365rili.com/schedule_pics/default/22fff0bc-fdc5-4c6f-a4b6-e4a139c9c07b.jpg"/>
+		 <div class="remind_div none" data-uuid="4e0b87d7-73ef-47ed-9069-5060d1f79f57" data-cid="125821987"><div class="remind_icon"></div><span>添加提醒</span></div>
+		</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/549f22bd-15ca-442c-9c28-28d45a32facb.jpg',
+                title: '电影：海底总动员2',
+                desc: '《海底总动员》（Finding Nemo）的导演安德鲁·斯坦顿表示，他已确定会执导皮克斯公司的《海底总动员》第二部，根据Deadline的消息，皮克斯和迪斯尼公司均对安德鲁·斯坦顿的续集计划非常满意。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '电影：海底总动员2',
+		        				content: '《海底总动员》（Finding Nemo）的导演安德鲁·斯坦顿表示，他已确定会执导皮克斯公司的《海底总动员》第二部，根据Deadline的消息，皮克斯和迪斯尼公司均对安德鲁·斯坦顿的续集计划非常满意。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/549f22bd-15ca-442c-9c28-28d45a32facb.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

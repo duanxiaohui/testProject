@@ -1,0 +1,114 @@
+html {
+    height:100%;
+    background:url(/images/cal365_default/bg_right_bottom.jpg) no-repeat right bottom;
+}
+body {
+    height:100%;
+    background:url(/images/cal365_default/bg_left_top.jpg) no-repeat left top;
+}
+#reg_page {
+    width: 972px;
+    background-color:transparent;
+    margin:20px auto;
+}
+#header {
+    height:32px;
+    background:url(/images/cal365_default/header_bg.png) repeat-x;
+}
+.infoBox {
+    height:546px;
+    width: 384px;
+    top: 30px;
+    left: 37px;
+    background-color:#ffffff;
+    border: 1px solid #e3e3e3;
+    position:absolute;
+}
+.regContent {
+    height:600px;
+    background-color:#f9f9f9;
+    position:relative;
+}
+h1 {
+    font:bold 22px 黑体,serif;
+    padding:0 20px;
+}
+h2 {
+    font:bold 18px 黑体,serif;
+    padding:0 20px;
+}
+.infoBox_labels {
+    width:57px;
+    text-align:right;
+    padding:0 10px 0 20px;
+    float:left;
+}
+.inputItem {
+    height:29px;
+    line-height:29px;
+}
+.textBox {
+    height:17px;
+    line-height:17px;
+    width: 233px;
+    border: 1px solid #cacaca;
+    font-size:15px;
+    padding:5px 3px;
+}
+.link {
+    cursor:pointer;
+    text-decoration:underline;
+}
+
+.link a,
+.link a:visited{
+	color: #000000;
+}
+
+.intro {
+    position: absolute;
+    left: 457px;
+    top: 30px;
+}
+.tips {
+    position:relative;
+    width:240px;
+    left:90px;
+    height:30px;
+    line-height:30px;
+}
+#errorInfo p.error{
+    padding-left:16px;
+    color:red;
+    background:url(/images/cal365_default/invalid.gif) no-repeat 0 50%;
+    background-color:#F3E99E;
+    border:1px solid red;
+    display:none;
+    line-height:20px;
+}
+#errorInfo p.pass {
+    background:url(/images/cal365_default/valid.gif) no-repeat 0 50%;
+    background-color:#D1EAC0;
+    border:1px solid #6CC422;
+    color:#6CC422;
+}
+.fieldError {
+    padding-left:16px;
+    background:url(/images/cal365_default/invalid.gif) no-repeat 0 50%;
+    color:red;
+}
+.inputOK {
+    background:url(/images/cal365_default/valid.gif) no-repeat 0 50%;
+    height:30px;
+    margin-left:5px;
+    padding-left:14px;
+    display:none;
+}
+#intro_above *, #intro_below * {
+    padding:0 60px 0 40px;
+}
+#intro_below p {
+    line-height:20px;
+    padding-left:70px;
+    background:url(/images/cal365_default/reg_ul_li.gif) 55px 5px no-repeat;
+}

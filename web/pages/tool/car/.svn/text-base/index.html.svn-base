@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+<title>365工具-尾号限行</title>
+<link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+  <div class="set none">
+    <div class="select_head e_clear">
+    	<a class="botton" href="javascript:;">确定</a>
+    	<p>选择你的城市</p>
+    </div>  
+    <div class="constellation_list">
+    	<ul class="e_clear">
+    		<li>北京</li>
+    		<li>上海</li>
+    		<li>兰州</li>
+    		<li>天津</li>
+    		<li>成都</li>
+    		<li>南昌</li>
+    		<li>长春</li>
+    	</ul>
+    </div>
+    <div class="add_num">
+      <p><span>输入您的车牌尾号（必填）</span><input type="number"/></p>
+    </div>
+  </div>
+  <div class="limit_content none">
+    <div class="limit_head">
+      <div></div>
+      <a href="javascript:;" class="set_btn"></a>
+    </div>
+    <div class="limit_num">
+      <p class="date">2014年7月16日 星期二</p>
+      <div class="today_num">
+        <ul class="e_clear">
+            <li>5</li>
+            <li>9</li>
+        </ul>
+      </div>
+      <div class="tips"></div>
+    </div>
+    <div class="limit_num_list">
+      <ul></ul>
+    </div>
+    <div class="set_display colse">
+      <div class="display_btn"></div>
+      是否在通知栏显示
+    </div>
+  </div>
+  <script type="text/javascript" src="/js/lib/zepto.min.js"></script>
+  <script type="text/javascript" src="js/car.js"></script>
+</body>
+</html>

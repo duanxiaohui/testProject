@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015北京白云观庙会</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015北京白云观庙会</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/6f7baa1b-2eab-4a55-ba55-c0a4b8b39c83.jpg"/>
+	     <a class="btn js-subscribe" data-uuid="34e9a8c3-22c7-4432-9d33-d0f99bffabd9" data-cid="147462861">添加提醒</a>
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	
+	    	<p class="time"><b>时间：2015.2.19 - .3.9 （8:30-17:00）
+
+
+
+</b></br>
+	    	<b>场地：西城区白云观（白云路白云观街9号）</b></br>
+			<b>费用：门票10元</b></p>
+			<h3>亮点：</h3>
+			<p>1、摸神特：在白云观西院中有一匹酷似骏马的铜兽，传说它有一种奇特的灵性，能佑人健康，身上哪个部位感到不舒适，便先摸摸此“神特”的同一部位，然后速摸自身这一部位，灵性便会产生奇妙功能，身上的不适感会逐渐好转。</br>
+			2、摸石猴：山门券山汉白玉浮雕的花纹中有个十余厘米长的小猴，摸摸它，便可祛病延年。</br>
+			3、骑小毛驴：逛白云观还有一个很惬意的活动，就是骑小毛驴。1987年起，在白云观“春节民俗庙会”上又恢复了骑小毛驴的活动。</br>
+
+</p>
+			<!--h3是小标题-->
+			<h3>活动简介：</h3>
+			<!--p是段落文字描述-->
+			<p>白云观是北京最大的道观，位于北京西便门外，每年正月初一都会举行庙会，白云观庙会也是北京传统的庙会之一，庙会期间各处民间花会狮子、旱船、高跷等都会来进香表演，白云观里外锣鼓不断； 京剧、花会、曲艺三台好戏连番上演让戏迷们一个看个够；猜灯谜、赏古玩字画、吃地道京味美食•••每年的白云观庙会都热闹异常，吸引众多游人前来。
+		</p>
+			<p>
+<b>公交路线：公交线路：乘坐26路、45路、80路、319路、717路、特5路、特6路，白云观站下车，步行180米即到。 乘坐9路、26路、40路、47路、54路、80路、213路、661路、662路、673路、717路、741路、特5路、运通102路，天宁寺桥西站下车，步行200米即到。</br>
+自驾线路：沿莲花池东路行驶，从手帕口北街/白云路出口离开，行驶80米，直行进入莲花池东路。 沿莲花池东路行驶200米，在白云桥右转进入白云路。 沿白云路行驶300米，到达终点。</br>
+2015白云观庙会停车场信息：白云观附近几乎没有停车场地，庙会期间交管部门将在白云桥西护城河南、北岸及白云桥西护城河北岸等地点开辟陵市车辆停放区域。</br>
+
+
+
+</b></br></br>
+具体详情以官方信息为准</p>
+<img src="http://cocoimg.365rili.com/schedule_pics/default/d4771a68-8270-438d-bbaf-ee2a26aebd3e.jpg"/>
+<img src="http://cocoimg.365rili.com/schedule_pics/default/12423def-6ee5-4b27-82f2-5036892a0b00.jpg"/>
+<img src="http://cocoimg.365rili.com/schedule_pics/default/df27ad2f-4d89-4a4f-aeed-0c4e94aab495.jpg"/>
+
+ <div class="remind_div" data-uuid="34e9a8c3-22c7-4432-9d33-d0f99bffabd9" data-cid="147462861"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/6f7baa1b-2eab-4a55-ba55-c0a4b8b39c83.jpg',
+                title: '2015北京白云观庙会',
+                desc: '白云观庙会也是北京传统的庙会之一，庙会期间各处民间花会狮子、旱船、高跷等都会来进香表演，白云观里外锣鼓不断'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015北京白云观庙会',
+		        				content: '白云观庙会也是北京传统的庙会之一，庙会期间各处民间花会狮子、旱船、高跷等都会来进香表演，白云观里外锣鼓不断',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/6f7baa1b-2eab-4a55-ba55-c0a4b8b39c83.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

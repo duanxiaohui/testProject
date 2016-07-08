@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>烟花三月下哪都行</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/spring_travel/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>春日旅游推荐</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>曾有一段“脍炙人口”的文案，以独有的情怀为作为筹码，煽动了一批又一批人说走就走的去旅行，它是这样说的：“你写PPT时，阿拉斯加的鳕鱼正跃出水面，你看报表时，梅里雪山的金丝猴刚好爬上树尖。你挤进地铁时，西藏的山鹰一直盘旋云端，你在会议中吵架时，尼泊尔的背包客一起端起酒杯坐在火堆旁。有一些穿高跟鞋走不到的路，有一些喷着香水闻不到的空气，有一些在写字楼里永远遇不见的人”。</p>
+            <p class="mt15">眼下又到了烟花三月的初春，被寒冬禁锢了许久的灵魂也要出来晒晒春日的太阳了！古人说“烟花三月下扬州”，但是小编觉得只要在路上，哪哪都是扬州。那么到底去哪呢？该推荐的我都推荐了，只能帮你到这了……</p>
+            <h3>【荷兰阿姆斯特丹】</h3>
+            <p>这个季节，著名的荷兰郁金香开得正艳，全球最大的库肯霍夫郁金香公园也将在3月开放，园内几万株娇艳的花束争相绽放。</p>
+            <img src="images/spring_travel/holiday_1.jpg"/>
+            <p>偌大的郁金香公园处处洋溢着浓郁花香，目之所及是绵延成海的的郁金香，红的热烈、黄的明媚、蓝的安静，斑斓的色彩散发着让人难以抗拒的炽烈气息。在这样的七彩郁金香世界里，伸开双臂就可以拥抱最美的春天。</p>
+            <h3>【西藏林芝】</h3>
+            <p>三月的林芝，寒意未消却已是花开灿烂。远方的雪峰还是白雪皑皑，近处的桃花也已相映成趣。雪山冰川映衬着野性的桃花，使林芝的春天又有了一种纯粹的浪漫，别有一番西藏江南的味道。</p>
+            <img src="images/spring_travel/holiday_2.jpg"/>
+            <p>桃花是让林芝的春天分外灿烂，为了迎接这个美好的季节，林芝每年都会举办桃花节。桃花节的举办地点在有“桃花村”之称的林芝“嘎啦村”，嘎啦村其两边有大山围绕，又有潺潺的高山雪水流经此地，所以又被当地人称为“桃花谷”或“桃花沟”。当春风吹过雪域高原上的桃花沟，500多亩桃花连片盛放，这片神圣的旷野便骤然蒙上一份柔情的浪漫。</p>
+            <h3>【浙江绍兴】</h3>
+            <p>初春时的绍兴，正展现出江南水乡细雨霏霏、烟雨朦胧的绝美意境，此时正是游览江南水乡的最佳时机。</p>
+            <img src="images/spring_travel/holiday_3.jpg"/>
+            <p>漫步在窄窄的青石板路上，微雨，青苔，黑瓦，小桥，流水，油纸伞、乌篷船，感受这样一副描绘水墨江南画的绝美画卷，整个人都好多了！</p>			
+
+            <div class="tips">
+                <p>1、熬过了一场寒冬，此时最应该用一次温暖的出行犒劳自己；</p>
+                <p>2、去哪或许不是最重要，重要的是在路上的感觉，概括起来说就是：条条大路通扬州！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

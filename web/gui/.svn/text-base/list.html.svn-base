@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="style/list.css" media="screen" />
+<link type="text/css" href="style/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+<link href="/css/jquery-ui-1.9.2.custom.min.css" rel="stylesheet"/>
+<style type="text/css">
+body { color: #444; font: 12px / 1.5em "Microsoft YaHei", 微软雅黑,SimSun,arial; height: 100%; margin: 0; padding: 0; background:#fff;}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+html { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; +padding-top:0; overflow: hidden;}
+html, body { height: 100%; background-color: transparent; }
+html.pc{-moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius: 5px; border-radius: 5px; }
+.pc .fram{ width:100%; height:100%;  background:url(images/pc_bg.png) repeat-x top;}
+.pc .fram_operate{height:30px; background:url(images/pc_title.png) repeat-x; display:block;}
+.pc .fram_user{float:left; padding-left:30px; height:24px; background:url(images/rl365.png) no-repeat; margin:3px 0 0 0px;}
+.pc .user_set{float:left; width:14px; height:14px; background:url(images/fram_btn.png) no-repeat left top; margin:5px 0 0 10px;}
+.pc .user_set:hover{background:url(images/fram_btn.png) no-repeat left -19px;}
+.pc .return_calendar_btn{float:left; width:14px; height:14px; background:url(images/fram_btn.png) no-repeat -18px -1px; margin:5px 0 0 10px;}
+.pc .return_calendar_btn:hover{background:url(images/fram_btn.png) no-repeat -18px -19px;}
+.pc .user_quit_btn{float:left; width:14px; height:14px; background:url(images/fram_btn.png) no-repeat left -38px; margin:5px 0 0 15px;}
+.pc .user_quit_btn:hover{background:url(images/fram_btn.png) no-repeat -18px -38px;}
+.pc .fram_btn{float: right; margin:0px 0px 0 0;}
+.pc .fram_username{float:left; height:24px; line-height:24px;}
+.pc .fram_btn a{float: right; width:28px; height:20px;}
+.pc .fram_close_btn{width:30px;background:url(images/fram/pc_btn.png) no-repeat right top;}
+.pc .fram_close_btn:hover{background:url(images/fram/pc_btn.png) no-repeat right -20px;}
+.pc .fram_max_btn{background:url(images/fram/pc_btn.png) no-repeat -28px top;}
+.pc .fram_max_btn:hover{background:url(images/fram/pc_btn.png) no-repeat -28px -20px;}
+.pc .fram_min_btn{background:url(images/fram/pc_btn.png) no-repeat left top;}
+.pc .fram_min_btn:hover{background:url(images/fram/pc_btn.png) no-repeat left -20px;}
+.pc .fram_window_btn{background:url(images/fram/pc_btn.png) no-repeat -56px top;}
+.pc .fram_window_btn:hover{background:url(images/fram/pc_btn.png) no-repeat -56px -20px;}
+
+.pc_left_top{width:10px; height:32px; background:url(images/fram/top_left.png) no-repeat;}
+.pc_top{height:32px; background:url(images/fram/top_bg.png) repeat-x;}
+.pc_right_top{width:10px; height:32px; background:url(images/fram/top_right.png) no-repeat;}
+.pc_left{width:10px;background:url(images/fram/left_bg.png) repeat-y;}
+.pc_right{width:10px;background:url(images/fram/right_bg.png) repeat-y;}
+.pc_left_bottom{height:10px; width:10px; background:url(images/fram/bottom_left.png) no-repeat;}
+.pc_bottom{height:10px;background:url(images/fram/bottom_bg.png) repeat-x;}
+.pc_right_bottom{height:10px; width:10px; background:url(images/fram/bottom_right.png) no-repeat;}
+#div_border{box-shadow:5px 5px 10px #CCCCCC;}
+.pc_left_bottom_shadow,.pc_right_bottom_shadow,.pc_right_shadow,.pc_right_top_shadow{width:10px;}
+.pc_right_top_shadow{height:32px; background:url(images/fram/pc_right_top_shadow.png) no-repeat;}
+.pc_right_shadow{background:url(images/fram/pc_right_shadow.png) repeat-y;}
+.pc_left_bottom_shadow,.pc_bottom_shadow,.pc_right_bottom_shadow{height:10px;}
+.pc_left_bottom_shadow{background:url(images/fram/pc_left_bottom_shadow.png) no-repeat;}
+.pc_bottom_shadow{background:url(images/fram/pc_bottom_shadow.png) repeat-x;}
+.pc_right_bottom_shadow{background:url(images/fram/pc_right_bottom_shadow.png) no-repeat;}
+</style>
+</head>
+<body>
+
+<table id="div_border" width="100%" height="100%" cellpadding='0' cellspacing='0'>
+	<tr>
+		<td>
+			<div class="new_list">
+				<div class="new_list_top">
+					<a href="javascript:;" class="close_btn"></a>
+					<div class="set_new_widget">
+						<div class="set_widget_btn"></div>
+						<div class="set_widget_box">
+							<a href="javascript:;" class="set_widget_style" val="1">置顶</a>
+							<a href="javascript:;" class="set_widget_style" val="2">贴桌面</a>
+							<a href="javascript:;" class="set_widget_style" val="0">普通</a>
+						</div>
+					</div>
+					<dl class="e_clear">
+						<dt class="solar_date">31</dt>
+						<dd>
+							<p class="week_lunar"><span class="week_day">周三</span><span class="lunar_date">六月十五</span></p>
+							<p class="solar_year_month">2013.7</p>
+						</dd>
+					</dl>
+				</div>
+				<div class="st_list_tab e_clear">
+					<ul>
+						<li class="on" tag="schedule"><div class="tab_arrow"></div><span>日程</span></li>
+						<li tag="todo"><div class="tab_arrow"></div><span>待办</span></li>
+					</ul>
+				</div>
+				<div class="schedule_box">
+					<div class="new_list_content">
+						<div id="schedule_list"></div>
+					</div>
+					<div class="todo_list_content" >
+						<div id="todo_list">
+							<dl>
+								<dt><a hidefocus="true" href="javascript:;" class="star staron"></a></dt>
+								<dd>
+									<div class="todo_txt">挨打死啦盛大爱上的撒了发生萨芬撒发生‘是是打发士大夫是的</div>
+									<div class="start_time"><input type="text" readonly="readonly" value="截止日期  不限"/></div>
+									<div class="todo_operating_btn">
+										<a hidefocus="true" href="javascript:;" class="todo_complete" title="标识为已完成"></a>
+										<a hidefocus="true" href="javascript:;" class="todo_del" title="删除"></a>
+										<a hidefocus="true" href="javascript:;" class="todo_edit" title="编辑"></a>
+									</div>
+								</dd>
+							</dl>
+							<dl class="com">
+								<dt><a hidefocus="true" href="javascript:;" class="star staron"></a></dt>
+								<dd>
+									<div class="todo_txt">挨打死啦盛大爱上的撒了发生萨芬撒发生‘是是打发士大夫是的</div>
+									<div class="start_time"><input type="text" readonly="readonly" value="截止日期  不限"/></div>
+									<div class="todo_operating_btn">
+										<a hidefocus="true" href="javascript:;" class="todo_complete" title="标识为已完成"></a>
+										<a hidefocus="true" href="javascript:;" class="todo_del" title="删除"></a>
+										<a hidefocus="true" href="javascript:;" class="todo_edit" title="编辑"></a>
+									</div>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<a href="javascript:;" class="add_schedule_btn">添加日程</a>
+					<a href="javascript:;" class="add_todo_btn">添加待办</a>
+				</div>
+			</div>
+		</td>
+	</tr>
+</table>
+
+
+
+</body>
+<script src="/js/jquery/jquery-1.8.3.min.js"></script>
+<script src="/js/jquery/jquery-ui-1.9.2.custom.min.js"></script>
+<script src="js/jquery.mousewheel.js"></script>
+<script src="js/jquery.jscrollpane.js"></script>
+<script type="text/javascript" src="js/protocol.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/lunar.js"></script>
+<script type="text/javascript" src="js/list.js?v=20160607"></script>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>移动端日期插件demo</title>
+<meta name="viewport" content="width=320, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<style>
+	body { background: #fff; color: #444; font: 12px / 1.5em "Microsoft YaHei", 微软雅黑,SimSun,arial; height: 100%; margin: 0; padding: 0; }
+	div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+	ul { list-style: none; }
+	li { list-style-type: none; }
+	img { border: 0; vertical-align: top; }
+	select, input { font-size: 12px; }
+	address, cite, code, em, th { font-style: normal; font-weight: normal; }
+	table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+	.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+	.e_clear { display: inline-block; }
+	.e_clear { display: block; }
+	textarea { background: #fff; border: 1px solid #d2d9dc; border-radius: 2px; box-shadow: 0 0 0 #d2d9dc; -moz-transition: .3s ease-in-out; transition-property: border box-shadow; -webkit-transition: .3s ease-in-out; }
+	textarea:focus, input[type="text"]:focus { /*border: 1px solid #b7d4ea;*/ box-shadow: 0 0 5px #b7d4ea; }
+	a { color: #208de9; cursor: pointer; text-decoration: none; }
+
+	body{background:url(http://image.tianjimedia.com/uploadImages/2013/057/PZYA31LEY4V8.jpg) no-repeat; background-size:100% auto;}
+	
+	.dd_mask_layer{background:rgba(0,0,0,.5); position:absolute; z-index:1; top:0; left:0; width:100%; height:100%;}
+	.mobile_data_picker{width:100%; position:fixed; background:#fff; bottom:0; z-index:999;}
+	.mobile_title{height:44px; border:1px solid #ddd; position:relative; width:100%;}
+	.cancel_btn{position:absolute; width:10%; text-align:left; color:#00afc7; padding-left:5%; line-height:44px; font-size:14px; left:0; top:0;}
+	.retrun_btn{position:absolute; width:10%; text-align:right; color:#00afc7; padding-right:5%; line-height:44px; font-size:14px; right:0; top:0;}
+	.mobile_title h2{margin:0 15%; line-height:44px; text-align:center;}
+	.mobile_containter{height:150px; width:100%; position:relative;}
+	.mobile_containter:before{content:" "; width:100%; height:30px; position:absolute; top:50%; margin-top:-16px; border-top:1px solid #ddd; border-bottom:1px solid #ddd;}
+	.dd_select_year,.dd_select_month,.dd_select_day{width:50%; height:100%; overflow:hidden; position:relative; float:left; z-index:2;}
+	.dd_containte_mask{position: absolute;  z-index: 3;  top: 0;  right: 0;  bottom: 0;  left: 0;  content: "\0020";  pointer-events: none;
+		background: -webkit-linear-gradient(top, rgb(255, 255, 255), rgba(255, 255, 255, 0.2) 40%, transparent 40%, transparent 60%, rgba(255, 255, 255, 0.298039) 60%, rgb(255, 255, 255));
+						}
+	.dd_select_year_list li,.dd_select_month_list li,.dd_select_day_list li{height:30px; line-height:30px; width:100%; text-align:center;}
+	.dd_yaer_txt,.dd_month_txt{position:absolute; width:10%; height:30px; line-height:30px; top:50%; margin-top:-15px; right:10px;}
+</style>
+</head>
+<body>
+	<div class="dd_mask_layer"></div>
+<script src="/js/lib/zepto.min.js"></script>
+<script src="/js/lib/zTouch.js"></script>
+<script src="/js/lib/mob-calendar.js"></script>
+<script>
+    (function () {
+        var s = mobClendar.init({
+            startTime:1790,
+            endTime:2160,
+            setMonth:true,
+            setDay:true
+        });
+        console.log(s);
+        s.bindevent('datechange', function (d) {
+            console.log(d);
+        })
+        s.bindevent('btnClick', function (d) {
+            alert(d);
+            console.log(d);
+        })
+    })()
+</script>
+</body>
+</html>
+
+
+

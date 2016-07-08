@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors zhangmingchen (vest0804@gmail.com)
+ * @date    2015-12-15 17:14:05
+ * @version $Id$
+ */
+body{background:#fff;}
+.found_active_list{padding:0 0 15px; border-bottom:1px solid #dcdbda; margin:0 12px 15px;}
+.found_active_list h3{font-size:21px; padding:20px 0; color:#000; font-weight:bold; line-height:130%;}
+.found_active_list p{padding-left:20px; margin-bottom:10px; color:#000; font-size:15px;}
+
+.found_active_detail_address{background:url(/pages/found/images_news/active_address.jpg) no-repeat left 1px; background-size:13px 16px;}
+.found_active_detail_time{background:url(/pages/found/images_news/active_time.jpg) no-repeat left 1px; background-size:15px 15px;}
+.found_active_detail_fee{background:url(/pages/found/images_news/active_fee.jpg) no-repeat left 1px; background-size:15px 15px;}
+.found_active_url{background:url(/pages/found/images_news/active_url.jpg) no-repeat left 1px; background-size:15px 15px;}
+
+.found_active_tips{padding:20px; margin:20 20px 15px; border:1px solid #dcdbda; position:relative;}
+.found_active_tips h3{background:#fff; padding:0 10px; height:22px; line-height:22px; position:absolute; top:-11px; left:50%; margin-left:-38px; color:#f39b40;}
+
+.found_active_tips li{padding-left:15px; color:#000; margin:5px 0; position:relative; font-size:15px;}
+.found_active_tips li:after{content:" "; position:absolute; width:6px; height:6px; background:#000; -webkit-border-radius:3px; top:7px; left:0px;}
+
+
+.found_active_formatHtml {
+    padding: 0 10px 10px;
+    text-align: justify;
+    word-break: break-all;
+    line-height: 180%;
+    font-size: 16px;
+    color: #1b1d1f;
+    font-weight: 500;
+    word-wrap: break-word; 
+	word-break: normal; 
+}
+
+.found_active_formatHtml p,
+.found_active_formatHtml div {
+    margin-bottom: 10px;
+}
+
+.found_active_formatHtml img {
+    position: relative;
+    margin: 0 0px 6px -10px;
+}
+
+.found_active_btn {
+    position: fixed;
+    width: 100%;
+    height: 56px;
+    text-align: center;
+    line-height: 56px;
+    color: #fff;
+    font-size: 18px;
+    background: #f39128;
+    bottom: 0;
+    z-index:999;
+}
+
+.found_active_formatHtml * {
+    margin: 5px 0;
+    line-height: 180%;
+    font-size: 16px;
+    color: #1b1d1f;
+    font-weight: 500;
+    /*text-align: justify;*/
+    /*word-break: break-all;*/
+}
+
+.found_active_formatHtml h1,
+.found_active_formatHtml h2,
+.found_active_formatHtml h3,
+.found_active_formatHtml h4,
+.found_active_formatHtml h5,
+.found_active_formatHtml h6 {
+    font-weight: 600;
+    line-height: 160%;
+    margin: 15px 0 10px;
+}
+
+.found_active_formatHtml center, .found_active_formatHtml center * {
+    text-align: center;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>365日历</title>
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0">
+<link href="/pages/download/css/main.css" rel="stylesheet">
+</head>
+<body>
+<div class="cld_wap">
+    <div class="logo">
+        <img src="/pages/download/images/logo.png" alt="" width="100%" height="100%">
+    </div>
+    <div class="txt_1">
+        <img src="/pages/download/images/img1.png" alt="" width="100%">
+    </div>
+    <div class="txt_2">
+        <div class="txt">
+            <h3>个人时间管理</h3>
+            <p>清晰规划及记录日程、待办等</p>
+        </div>
+    </div>
+    <div class="txt_3">
+        <div class="txt">
+            <h3>多人日程规划</h3>
+            <p>创建、加入群组日历很简单</p>
+        </div>
+    </div>
+    <div class="txt_4">
+        <div class="txt">
+            <h3>多人日程共享</h3>
+            <p>不错过任何集体通知及活动</p>
+        </div>
+    </div>
+    <div class="txt_5">
+        <div class="txt">
+            <h3>空闲时间安排</h3>
+            <p>精彩内容、有趣活动不间断</p>
+        </div>
+    </div>
+    <a class="cld_btn">立即下载</a>
+</div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/app.js?20141205_2"></script>
+    <script>
+        $(".cld_btn").on("click", function(evt){
+            app.open('coco://365rili.com', app.getUa.ios);
+        });
+    </script>
+</body>
+</html>

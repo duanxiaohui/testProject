@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>给我人生中的第一个男人</title>
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/>
+<link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+<div class="bar">
+    <a href="javascript:;" class="bar_share_btn"></a>
+    <a href="javascript:;" class="return_btn"></a>
+    <div class="bar_txt">给我人生中的第一个男人</div>
+</div>
+<div class="main">
+    <a href="javascript:;" class="share-t-r client_share_btn"></a>
+    <div class="header">
+        <img src="../images/logo.png" alt="">
+    </div>
+    <div class="share">
+        <div class="textbox">
+            <div class="tbin e_clear">
+                <h3>爸爸我想对您说：</h3>
+                <textarea class="t-content" id="t-content" readonly="readonly" id="" rows="4"></textarea>
+                <div class="sign">
+                    <span>署名：</span>
+                    <span class="t-name" id="t-name">女儿</span>
+                </div>
+            </div>
+            <img class="letter-paper" src="../images/letter_paper.png">
+            <img class="postmark e_clear" src="../images/postmark.png">
+        </div>
+        <a class="original none" href="http://mp.weixin.qq.com/s?__biz=MTI4MjQ1NDA4MQ==&mid=208626068&idx=1&sn=19d508bf145e68669ac03d67b5239d86#rd">阅读原文</a>
+        <a href="javascript:;" class="custom-btn none" id="custom-btn">定制我的专属“爱父卡”</a>
+    </div>
+    <div class="make none">
+        <h1 class="title">定制我的专属“爱父卡”</h1>
+        <h2>给我人生中的第一个男人</h2>
+        <div class="textbox">
+            <div class="tbin e_clear">
+                <h3>爸爸我想对您说：</h3>
+                <img class="pen" src="../images/pen.png">
+                <textarea class="t-content" name="text-default" id="m-content" rows="4" placeholder="输入你想说的话（限60字）"></textarea>
+                <div class="sign">
+                    <span>署名：</span>
+                    <input class="t-name" id="m-name" type="text" autocomplete="off" maxlength="10" placeholder="必填">
+                </div>
+            </div>
+        </div>
+        <a href="javascript:;" class="make-submit" id="make-submit">提交</a>
+    </div>
+    <div class="final none">
+         <div class="textbox">
+            <div class="tbin e_clear">
+                <h3>爸爸我想对您说：</h3>
+                <textarea class="t-content" id="f-content" readonly="readonly" rows="4"></textarea>
+                <div class="sign">
+                    <span>署名：</span>
+                    <span class="f-name" id="f-name"></span>
+                </div>
+            </div>
+            <img class="letter-paper" src="../images/letter_paper.png">
+            <img class="postmark e_clear" src="../images/postmark.png">
+        </div>
+        <p class="msg none">点击右上角，分享让爱延续</p>
+        <button href="javascript:;" class="share-btn none" id="share-btn">分享</button>
+    </div>
+</div>
+
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+<script src="../js/index.js"></script>
+</body>
+</html>

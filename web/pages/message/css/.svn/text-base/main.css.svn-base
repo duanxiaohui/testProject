@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 张明臣 (vest0804@gamil.com)
+ * @date    2015-01-01 15:14:48
+ * @version 1.0
+ */
+body { background: #f5f5f5; color: #444; font: 12px / 1.5em "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑,SimSun,arial; margin: 0; padding: 0;}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+*{-webkit-tap-highlight-color: rgba(0,0,0,0); tap-highlight-color: rgba(0,0,0,0);}
+
+a{text-decoration: none; }
+.none{display:none;}
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+
+.bar{height:43px; line-height:43px; text-align:center; background:#1f232d; font-size:20px; color:#fff;}
+.today_date{height:44px; padding:20px 35px; border-bottom:1px solid #cecece; background:#ededed; font-size:20px; color:#959595;}
+.today_date p{font-size:16px; color:#c2c2c2; line-height:26px;}
+.today_holiday,.other_holiday{padding:0 20px;}
+.today_holiday li{padding:15px 0; height:55px; border-bottom:1px dashed #cecece; font-size:20px; color:#000000; line-height:55px;}
+.today_holiday li img{float:right; width:80px; height:55px;}
+.today_holiday li p{margin:0 90px 0 42px;}
+.today_holiday li:last-child{border:0;}
+.point{width:6px; height:6px; float:left; border-radius:3px; -webkit-border-radius:3px; background:#c6c6c6; margin:24px 18px 0;}
+.line{height:23px; border:1px solid #cecece; border-left:0; border-right:0; background:#ededed;}
+.other_holiday dt{height:30px; line-height:30px; font-size:16px; color:#000; padding:10px 0; border-bottom:1px solid #cecece;}
+.other_holiday dl:last-child dt{border:0;}
+
+.legal_icon,.hot_icon,.solar_icon,.other_icon{float:left; width:28px; height:28px; margin:0 10px 0 5px; border-radius:14px; -webkit-border-radius:14px;}
+.legal_icon{background:#a05fe2 url(../images/legal_icon.png) no-repeat center center; background-size:14px 14px;}
+.hot_icon{background:#40a4f7 url(../images/hot_icon.png) no-repeat center center; background-size:13px 18px;}
+.solar_icon{background:#3cc3b8 url(../images/solar_icon.png) no-repeat center center; background-size:10px 20px;}
+.other_icon{background:#4ec456 url(../images/other_icon.png) no-repeat center center; background-size:18px 16px;}
+
+.arrow{float:right; width:10px; height:10px; border-top:2px solid #c7c7cc; border-right:2px solid #c7c7cc; transform:rotate(135deg); -webkit-transform:rotate(135deg); margin:8px 5px 0 0;}
+
+.other_holiday dd{display:none;} 
+.other_holiday dd li{padding:15px 0; border-bottom:1px dashed #cecece; font-size:16px;}
+.day_num{float:right;}
+.other_holiday dd li p{margin:0 52px 0 42px;}
+.other_holiday .point{margin:5px 18px 0;}
+.holiday_txt{ color:#56abed; margin:0 4px; white-space:nowrap;}
+.holiday_date{display:inline-block;}
+
+
+.other_holiday dl.on dd{display:block;}
+.other_holiday dl.on .arrow{ transform:rotate(-45deg); -webkit-transform:rotate(-45deg); margin-top:12px;}
+.footer{height:45px; background:#ededed; border-top:1px solid #cecece;}
+
+.holiday_info_txt{padding:0 20px;}
+.holiday_info_txt h3{padding:20px 0; font-size:20px; color:#000;}
+.holiday_info_txt p{font-size:16px; line-height:180%; text-indent:2em;text-align:Justify}
+.holiday_info_btn{padding:20px; text-align:center;}
+.holiday_info_btn a{display:inline-block; width:45%; height:48px; text-align:center; line-height:50px; font-size:17px; border-radius:5px;-webkit-border-radius:5px;}
+.holiday_info_btn a.share_btn{background:#5ece32; color:#fff; width:100%;}

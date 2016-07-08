@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>一大波僵尸正在靠近</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/zombies/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>布里斯班僵尸节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>欧美电影中时常出现英俊高大、彬彬有礼的吸血鬼，除颜值外他们还拥有超能力，这更是使他们完全变成了一个大众偶像的角色。吸血鬼的说法最早来源于《圣经》，“吸血鬼”本是亚当和夏娃的大儿子该隐，他嫉妒弟弟亚伯而将其杀死，后来受到上帝的惩罚和诅咒，不得不吮吸鲜血苟延残喘的存活。吸血鬼还有属性类似的其他物种——丧尸、僵尸，这其中僵尸是比较国际化的。</p>
+            <h3>【中国的僵尸】</h3>
+            <p>清朝时期，纪晓岚同志在《阅微草堂笔记》中对僵尸就有详细的容貌描写“白毛遍体，目赤如丹砂，指如曲勾，齿露唇外如利刃接吻嘘气，血腥贯鼻”。</p>
+            <img src="images/zombies/holiday_1.jpg"/>
+            <p>同时，袁枚同志在《子不语》中把僵尸如生物学那般系统化的进行了分类，依次为“白僵、黑僵（或说为红僵）、跳僵、飞僵、魃、魔”六级，这种级别的划分是根据尸变情况而定的，同时通过生长出来的毛发颜色断定它的凶狠。</p>
+            <h3>【僵尸节】</h3>
+            <p>除了中国，世界上还有很多国家对僵尸有着深厚的感情，受这种文化的感染，西方许多国家都有僵尸的节日，每年的5月25日布里斯班就会举办僵尸节。先隆重介绍一下布里斯班这个城市：这是澳大利亚第三大城市，1788年英国最先把澳大利亚作为流放犯人的地方，以后十八十九世纪一直属于英国殖民下的国家，布里斯班是当时在澳大利亚新南威尔士殖民区总督官的名字，后来就在此附近发现一条河流也以布鲁斯班的名字命名。</p>
+            <img src="images/zombies/holiday_2.jpg"/>
+            <p>布里斯班僵尸节是每年一度的僵尸爱好者的盛会，每年节日当天青年男女，身穿血衣，打扮成僵尸的样子在大街上游行集会。“僵尸们”会先在Roma park集合，等到僵尸聚集到足够多的数量时候，他们会一起进入city的各大街道游行。伴随着路人的尖叫声和警察叔叔提心吊胆的维护秩序，僵尸们得到了心理的满足。</p>			
+
+            <div class="tips">
+                <p>1、僵尸节其实也是一个装扮自己劲情放松、欢乐的节日；</p>
+                <p>2、除布里斯班之外，在西班牙、澳洲、哥本哈根等地也有各种形式的僵尸节。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0">
+<title>双十一专题</title>
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/pages/found/calendar_project/css/main.css" rel="stylesheet">
+</head>
+<body>
+   <div class="pro_main">
+   		<div class="pro_top">
+   			<img src="/pages/found/calendar_project/images/double_eleven/double_eleven_top.jpg" alt="">
+   		</div>
+   		<div class="pro_dec">
+   			<p>千呼万唤“剁手节”在经历了车轮战似的预热碾压后，终于来了！怎样买最划算，哪儿的红包最大？哪儿的优惠最多？除了买买买还有哪些精彩活动？让你用最销魂的方式度过双十一！</p>
+   		</div>
+   		<div class="pro_list_conetnt">
+   			<div class="pro_list" data-cid="301799195" data-uuid="3783433a-4eee-4a30-9267-aed788dc9090" data-url="">
+   				<div class="pro_list_img">
+   					<img src="/pages/found/calendar_project/images/double_eleven/double_eleven_pic1.jpg" alt=""/>
+   				</div>
+   				<div class="pro_list_h3">天猫2015年双十一晚会</div>
+   				<div class="pro_list_p">天猫2015水立方狂欢夜--玩出彩，买尽兴！</div>
+   				<a href="javascript:;" class="pro_more">查看详情</a>
+   			</div>
+
+   			<div class="pro_list" data-cid="125821547" data-uuid="c836ac90-a6ef-4d1f-9244-23bce9e5c516" data-url="">
+   				<div class="pro_list_img">
+   					<img src="/pages/found/calendar_project/images/double_eleven/double_eleven_pic2.jpg" alt="">
+   				</div>
+   				<div class="pro_list_h3">十一月最想淋的超大红包雨</div>
+   				<div class="pro_list_p">初冬最强势红包雨分时段袭来，红包发放时段全统计！</div>
+   				<a href="javascript:;" class="pro_more">查看详情</a>
+   			</div>
+
+            <div class="pro_list" data-cid="125821547" data-uuid="4dc435c5-5d53-4f18-a601-f5ff82620937" data-url="">
+               <div class="pro_list_img">
+                  <img src="/pages/found/calendar_project/images/double_eleven/double_eleven_pic3.jpg" alt="">
+               </div>
+               <div class="pro_list_h3">疯狂剁手，无数品类齐登场！</div>
+               <div class="pro_list_p">红包优惠满天飞，爽购巅峰乐不停！</div>
+               <a href="javascript:;" class="pro_more">查看详情</a>
+            </div>
+   </div>
+<script src="/js/lib/zepto.min.js"></script>
+<script src="/js/lib/app.js"></script>
+<script src="/pages/found/calendar_project/js/calendar_project.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/active_info.css" media="screen" />
+<script src="/js/lib/zepto.min.js"></script>
+<script src="/js/lib/app.js"></script>
+<title>资料填写</title>
+</head>
+<body>
+<div class="main">
+    <div class="pay_tips">365日历将在支付成功后将活动验证码发送到您的手机中。</div>
+    <div class="pay_number">
+        <p>活动报名费</p>
+        <p class="number_txt">￥100</p>
+    </div>
+    <dl class="name e_clear">
+        <dt>姓名</dt>
+        <dd><input id="ac_name" type="text" placeholder="请输入姓名(20个字符)" data-optional="required"></dd>
+    </dl>
+    <dl class="sex e_clear">
+        <dt>性别</dt>
+        <dd>
+            <label><input id="ac_male" type="radio" name="sexGroup" value="male" checked/><span>男</span></label>
+            <label><input id="ac_female" type="radio" name="sexGroup" value="female"/><span>女</span></label>
+        </dd>
+    </dl>
+    <dl class="birthday e_clear">
+        <dt>生日</dt>
+        <dd>
+            <div class="select_year">
+                <select name="ac_year" id="ac_year">
+                </select><span id="ac_year_txt">2015</span>
+            </div><span>年</span>
+            <div class="select_month">
+                <select name="ac_month" id="ac_month">
+                </select><span id="ac_month_txt">1</span>
+            </div><span>月</span>
+            <div class="select_day">
+                <select name="ac_day" id="ac_day">
+                </select><span id="ac_day_txt">11</span>
+            </div><span>日</span>
+        </dd>
+    </dl>
+    <dl class="email e_clear">
+        <dt>邮箱</dt>
+        <dd><input id="ac_mail" type="text" placeholder="请输入邮箱(50个字符)" data-optional="required"></dd>
+    </dl>
+    <dl class="message e_clear">
+        <dt>留言</dt>
+        <dd><textarea name="ac_msg" id="ac_msg" placeholder="内容不超过1024个字符"></textarea></dd>
+    </dl>
+    <dl class="phone e_clear">
+        <dt>手机号</dt>
+        <dd><input id="ac_mobile" type="tel" placeholder="请输入手机号" data-optional="required"></dd>
+    </dl>
+    <div class="input_code">
+        <div class="input_code_box e_clear">
+            <a href="javascript:;" class="get_code waiting_cd">获取验证码</a>
+            <input id="ac_code" type="text" placeholder="请输入验证码">
+        </div>
+    </div>
+    <div class="statement">
+            <input id="ac_note" type="checkbox" checked="true"><span>我已阅读并同意<a href="javascript:;">《活动须知》</a>所有内容</span>
+    </div>
+    <div class="active_remind_tips">
+        <h2>在我得日历中显示</h2>
+        <p>时间：2015年06月24日 12：00-13：00</p>
+        <p>提醒：正点、一小时前、三天前</p>
+    </div>
+    <div class="btn">
+        <a href="javascript:;" class="save_btn">提交信息</a>
+    </div>
+</div>
+    <script src="js/active_info.js"></script>
+</body>
+</html>

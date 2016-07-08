@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>每个抖腿的人心里都住着一台缝纫机</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/parkinson/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>世界帕金森病日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>你身边有热爱抖腿的少年吗？对他们来说，坐着并不只是坐着那么简单，他们抖左腿、抖右腿，快的时候如疾风骤雨抖到你心乱如麻，慢的时候像难预料的鼓点抖的你寝食难安。他们就这样自顾自的抖着，蚊子都没法靠近了……</p>
+            <p class="mt15">很多人认为抖腿是“做个安静美男子”的杀手，这个观点小编表示非常认同……但是它也是有些好处的。有节奏的抖腿会抑制人想要四处走走的冲动，从而让人更专心的处理事情，效率也就自然而然的提高了。人有抖腿的自由，也有不抖腿的自由，有些人抖腿是自愿的，有些人抖腿是不受控制的，甚至全身都会抖……</p>
+            <h3>【又是病】</h3>
+            <p>控制不了自己的抖动在医学上叫静止性震颤，是帕金森病的一种表现形式。抖动在静止时出现或明显，随意运动时减轻或停止，精神紧张时加剧，入睡后消失。</p>
+            <img src="images/parkinson/holiday_1.jpg"/>
+            <p>除静止性震颤之外，帕金森还有其他在运动方面的症状：肌强直、运动迟缓、姿势步态障碍。具体表现大概就是肢体发僵发硬；运动迟缓指动作变慢，始动困难，主动运动丧失；不易维持身体的平衡，稍不平整的路面即有可能跌倒……帕金森病患者除了震颤和行动迟缓等运动症状外，还可出现情绪低落、焦虑、睡眠障碍、认知障碍等非运动症状。</p>
+            <h3>【年纪轻轻也会帕金森】</h3>
+            <p>全球有大约有450万帕金森病患者，近一半都在中国，中国目前已有220万的帕金森患者。我国60岁以上的老年人超过1%患有帕金森病，65岁以上的老年人口中大约有1.7%的人患有帕金森病，70岁以上患病率达3%-5%，是继肿瘤、心脑血管病之后中老年的第三杀手，而且每年新发病例近十万人。</p>
+            <img src="images/parkinson/holiday_2.jpg"/>
+            <p>世界卫生组织专家预测，中国2030年的帕金森病患者将达到500万。目前，帕金森患者正趋于年轻化，青少年型帕金森病患者占总人数的10%，太恐怖了有木有！年轻人可以祖国的未来啊！</p>
+            <h3>【世界帕金森病日】</h3>
+            <p>欧洲帕金森病联合会从1997年开始，将每年的4月11日被确定为世界帕金森病日，这一天是帕金森病的发现者——英国内科医生詹姆斯·帕金森博士的生日。设立这个节日是为了促使帕金森病患者、他们的家人、专业医疗人员共同努力，不仅让帕金森病家喻户晓，而且要提高公众的关注程度。</p>		
+
+            <div class="tips">
+                <p>1、帕金森病近年来趋于年轻化，青少年型帕金森病患者占患者总人数的10%；</p>
+                <p>2、为了提高公众对帕金森病的关注度，欧洲帕金森病联合会将每年的4月11日确定为世界帕金森病日。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

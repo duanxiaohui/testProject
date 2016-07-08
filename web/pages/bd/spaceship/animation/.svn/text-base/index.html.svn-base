@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title></title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0">
+<link href="animate.css" rel="stylesheet">
+</head>
+<body>
+
+<style>
+html, body{
+	overflow-x: hidden;
+}
+.point{
+	width: 37px;
+	height: 37px;
+	background: url(point.png) 0 0 no-repeat;
+	background-size: 37px 37px;
+	margin-left: 50%;
+	margin-bottom: 100px;
+	margin-top: ;
+}
+</style>
+
+<div>bounce<div class="point animated infinite bounce"></div></div>
+<div>flash<div class="point animated infinite flash"></div></div>
+<div>pulse<div class="point animated infinite pulse"></div></div>
+<div>rubberBand<div class="point animated infinite rubberBand"></div></div>
+<div>shake<div class="point animated infinite shake"></div></div>
+<div>swing<div class="point animated infinite swing"></div></div>
+<div>tada<div class="point animated infinite tada"></div></div>
+<div>wobble<div class="point animated infinite wobble"></div></div>
+<div>fadeIn<div class="point animated infinite fadeIn"></div></div>
+<div>fadeInDown<div class="point animated infinite fadeInDown"></div></div>
+<div>fadeInLeft<div class="point animated infinite fadeInLeft"></div></div>
+<div>fadeInRight<div class="point animated infinite fadeInRight"></div></div>
+<div>fadeInUp<div class="point animated infinite fadeInUp"></div></div>
+<div>fadeOut<div class="point animated infinite fadeOut"></div></div>
+<div>fadeOutDown<div class="point animated infinite fadeOutDown"></div></div>
+<div>fadeOutLeft<div class="point animated infinite fadeOutLeft"></div></div>
+<div>fadeOutRight<div class="point animated infinite fadeOutRight"></div></div>
+<div>fadeOutUp<div class="point animated infinite fadeOutUp"></div></div>
+<div>flip<div class="point animated infinite flip"></div></div>
+<div>flipInX<div class="point animated infinite flipInX"></div></div>
+<div>flipInY<div class="point animated infinite flipInY"></div></div>
+<div>flipOutX<div class="point animated infinite flipOutX"></div></div>
+<div>flipOutY<div class="point animated infinite flipOutY"></div></div>
+<div>lightSpeedIn<div class="point animated infinite lightSpeedIn"></div></div>
+<div>lightSpeedOut<div class="point animated infinite lightSpeedOut"></div></div>
+<div>rotateIn<div class="point animated infinite rotateIn"></div></div>
+<div>rotateInDownLeft<div class="point animated infinite rotateInDownLeft"></div></div>
+<div>rotateInDownRight<div class="point animated infinite rotateInDownRight"></div></div>
+<div>rotateInUpLeft<div class="point animated infinite rotateInUpLeft"></div></div>
+<div>rotateInUpRight<div class="point animated infinite rotateInUpRight"></div></div>
+<div>rotateOut<div class="point animated infinite rotateOut"></div></div>
+<div>rotateOutDownLeft<div class="point animated infinite rotateOutDownLeft"></div></div>
+<div>rotateOutDownRight<div class="point animated infinite rotateOutDownRight"></div></div>
+<div>rotateOutUpLeft<div class="point animated infinite rotateOutUpLeft"></div></div>
+<div>rotateOutUpRight<div class="point animated infinite rotateOutUpRight"></div></div>
+<div>hinge<div class="point animated infinite hinge"></div></div>
+<div>rollIn<div class="point animated infinite rollIn"></div></div>
+<div>rollOut<div class="point animated infinite rollOut"></div></div>
+<div>zoomIn<div class="point animated infinite zoomIn"></div></div>
+<div>zoomInDown<div class="point animated infinite zoomInDown"></div></div>
+<div>zoomInLeft<div class="point animated infinite zoomInLeft"></div></div>
+<div>zoomInRight<div class="point animated infinite zoomInRight"></div></div>
+<div>zoomInUp<div class="point animated infinite zoomInUp"></div></div>
+<div>zoomOut<div class="point animated infinite zoomOut"></div></div>
+<div>zoomOutDown<div class="point animated infinite zoomOutDown"></div></div>
+<div>zoomOutLeft<div class="point animated infinite zoomOutLeft"></div></div>
+<div>zoomOutRight<div class="point animated infinite zoomOutRight"></div></div>
+<div>zoomOutUp<div class="point animated infinite zoomOutUp"></div></div>
+<div>qqswing<div class="point animated infinite qqswing"></div></div>
+<div>qqpulse<div class="point animated infinite qqpulse"></div></div>
+<div>qqflash<div class="point animated infinite qqflash"></div></div>
+<div>link_a<div class="point animated infinite link_a"></div></div>
+<div>qqshake<div class="point animated infinite qqshake"></div></div>
+<div>qqbounce<div class="point animated infinite qqbounce"></div></div>
+<div>cbounce<div class="point animated infinite cbounce"></div></div>
+<div>cloudy<div class="point animated infinite cloudy"></div></div>
+<div>movedown<div class="point animated infinite movedown"></div></div>
+<div>bounceZoonIn<div class="point animated infinite bounceZoonIn"></div></div>
+<div>rotateInWhole<div class="point animated infinite rotateInWhole"></div></div>
+<div>XYCenterZoomIn<div class="point animated infinite XYCenterZoomIn"></div></div>
+</body>
+</html>

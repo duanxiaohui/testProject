@@ -1,0 +1,238 @@
+@charset "UTF-8";
+/**
+ * 中秋节
+ * @authors 张路 (zhanglu@365rili.com)
+ * @date    2015-09-11 14:10:04
+ */
+*{-webkit-tap-highlight-color: rgba(0,0,0,0); tap-highlight-color: rgba(0,0,0,0);}
+body { background: #fff; color: #444; font-weight: bold; font: 12px / 1.5em Helvetica,Arial,sans-serif; margin: 0; padding: 0; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+textarea { background: #fff; border: 1px solid #d2d9dc; font-size: 13px;}
+textarea:focus, input:focus {box-shadow: 0 0 5px #b7d4ea inset; }
+a { color: #208de9; cursor: pointer; text-decoration: none; }
+button, textarea:focus, div:focus, input:focus {outline:none; box-shadow: none; }
+html, body{
+	height: 100%;
+}
+.none{display:none;}
+
+.bg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+.build{
+	position: relative;
+}
+.center{
+	text-align: center;
+}
+.main{
+	position: relative;
+	background: url(/pages/bd/MidAutumn-2015/images/previewBg.png) no-repeat left bottom;
+	background-size: 100% 100%;
+	font-size: 15px;
+	color: #625228;
+	line-height: 25px;
+	padding: 50px 30px 5px;
+	text-align: center;
+	margin: 25px;
+}
+.main:before{
+	content: ' ';
+	position: absolute;
+	width: 94px;
+	height: 75px;
+	top: 5px;
+	right: -24px;
+	background: url(/pages/bd/MidAutumn-2015/images/previewLogo.png) no-repeat left bottom;
+	background-size: 112px 75px;
+}
+.main p{
+	margin-bottom: 25px;
+}
+.main span{
+	color: #d7260e;
+}
+.main strong{
+	font-size: 24px;
+	color: #b12310;
+}
+.from{
+	text-align: right;
+}
+.flower{
+	position: absolute;
+	left: 0;
+	top: -67px;
+}
+.tip{
+	padding: 25px 20px 20px;
+	color: #a79164;
+	line-height: 18px;
+	font-size: 13px;
+}
+.mask{
+	display: none;	
+	position: fixed;
+	background-color: rgba(0,0,0,.8);
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+.mailBox{
+	-webkit-transform: scale(.7316);
+	width: 292.5px;
+	height: 418.5px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-top: -209px;
+	margin-left: -146px;
+}
+.mail{
+	width: 292.5px;
+	height: 418.5px;
+	display: none;
+	background: url(/pages/bd/MidAutumn-2015/images/mail.png) no-repeat left bottom;
+	background-size: 292.5px 418.5px;
+}
+.mailMask{
+	width: 104px;
+	height: 32px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -114px;
+	margin-left: -47.5px;
+	background: url(/pages/bd/MidAutumn-2015/images/mailMask.jpg) no-repeat left bottom;
+	background-size: 104px 32px;
+}
+.lettle{
+	/*90 77*/
+	/*160 38*/
+	/*opacity: 0;*/
+	width: 106px;
+	height: 91px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -300px;
+	margin-left: 60px;
+	background: url(/pages/bd/MidAutumn-2015/images/lettle.png) no-repeat left bottom;
+	background-size: 106px 91px;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+}
+@-webkit-keyframes lettleFly {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(-98px, 128px, 0);
+        background-size: 90px 77px;
+    }
+}
+.lettleFly{
+	-webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    -webkit-transform-origin: center;
+    -webkit-animation-name: lettleFly;
+}
+
+.wxShare{
+	position: absolute;
+	top: 10px;
+	right: 20px;
+}
+.t_num i {
+    width: 17px;
+    height: 22px;
+    display: inline-block;
+    background: url(/pages/bd/MidAutumn-2015/images/number.png) no-repeat;
+    background-position: 0 0;
+    background-size: 18px 418px;
+    text-indent: -999em;
+    -webkit-transition: all 1.5s;
+}
+
+
+.tool{
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 11;
+}
+.music, .share{
+	text-align: center;
+	float: right;
+	clear: both;
+	width: 59px;
+	height: 59px;
+}
+
+.music img, .share img{
+	margin-top: 10px;
+	height: 39px;
+	box-shadow: 0 0 10px 0 rgba(255,255,255, .6);
+	border-radius: 100%;
+}
+
+.music img{
+	-webkit-animation-duration: 2s;
+}
+
+.line{
+	position: relative;
+	height: 15px;
+	margin: 0 14px 14px;
+}
+.line:after{
+	content: ' ';
+	border-bottom: dashed 1px #000;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 6px;
+	z-index: 1;
+}
+.line img{
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+}
+.open365{
+	padding-bottom: 20px;
+}
+
+.logo365{
+	float: right;
+	overflow: visible;
+    z-index: 10;
+    height: 13px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+.maskTip{
+	position: fixed;
+	bottom: 10px;
+	opacity: 0;
+	z-index: 10;
+	width: 100%;
+}

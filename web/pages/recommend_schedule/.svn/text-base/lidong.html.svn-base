@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>小贴士</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<link href="/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link href="style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="recommend_main">
+    	<div class="recommend_schedule_top">
+    		<h2>吃补冬食物开启冬日温暖之旅</h2>
+            <h4 class="none">立冬开始天气日渐寒冷，食用性温的食物是御风寒、补身体的良方</h4>
+    	</div>
+    	<div class="recommend_schedule_middle">
+    		<div class="recommend_schedule_img">
+    			<img src="images/lidong.jpg" alt="">
+    		</div>
+    		<p><span>推荐理由：</span>立，建始也，冬季自立冬始。万物收藏，大地封冻，草木凋零，蛰虫冬眠，万物活动趋向休止。</p>
+            <p>人类无冬眠之说，但汉族民间却有立冬补冬的习俗。他们一般会选择羊肉、牛肉、鲫鱼等性温的食物或补冬药膳来增强体质以抵御寒冬。</p>
+            <p>新一年的冬天到来了，要度过漫长而寒冷的冬天仅仅加衣服可是不够的！还需要把立冬添加到备忘，在11月8日立冬这天，选择一份自己喜欢的补冬食物，开启这个冬天的温暖之旅。</p>         
+    	</div>
+    	<div class="recommend_schedule_bottom">
+    			<p>添加到我的日程</p>
+    			<a href="javascript:;" class="add_mySchedule"></a>
+    	</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script type="text/javascript" src="/pages/ui-lib/js/plug.js"></script>
+    <script type="text/javascript" src="/pages/recommend_schedule/js/recommend.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var startTime = new Date("2015/11/8 0:0:0").getTime();
+            tips.init(startTime);
+        })
+    </script>
+</body>
+</html>

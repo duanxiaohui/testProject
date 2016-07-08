@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>女娲补天——国际臭氧层保护日</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/ozone_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>女娲补天——国际臭氧层保护日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>1974年，美国加利福尼亚大学的教授罗兰和穆连发现，在距离地球表面15-25公里的高空臭氧层出现了严重的空洞。2000年，南极上空的臭氧空洞面积达创记录的2800万平方公里，相当于4个澳大利亚。</p>
+            <p class="mt15">1995 年1月23日联合国大会决定，每年的9月16日为国际保护臭氧层日，要求所有缔约国按照《关于消耗臭氧层物质的蒙特利尔议定书》及其修正案的目标，采取具体行动纪念这个日子。</p>
+            <img src="/pages/found/qp_holiday/images/ozone_img1.jpg" width="100%"/>
+            <h3>【什么是臭氧层】</h3>
+            <p>臭氧层是大气平流层中臭氧浓度最大处，它能吸收99%以上对人类有害的太阳紫外线，从而避免紫外线过多对地球生物带来的伤害。所以，臭氧层被誉为地球上生物生存繁衍的保护伞。</p>
+            <h3 class="mt15">【臭氧层为什么会出现“空洞”】</h3>
+            <p>臭氧洞的成因，推测有四种：人类活动产生的含氯化合物进入大气层；与太阳活动周期有关的自然现象；区域性天气动力学过程和火山活动。然而对于最大成因，粮农组织有独树一帜的见解——牛屁是最大元凶，堪比生化武器！</p>
+            <p class="mt15">粮农组织研究了羊、鸡等牲畜造成的环境污染程度，指出全球10.5亿头牛排放的排泄物会产出100多种污染气体，其中氨的排放量就占全球总量的2/3；牛群在消化或反刍过程中产生占全球总量1/3的甲烷，这种气体暖化地球的速度比二氧化碳快20倍；这些牛排放的二氧化碳占全球温室气体总排放量的18%，这甚至超越了人类交通工具的二氧化碳排放量。该组织还指责牛群消耗了大量的水，因为牛每分泌1公升牛奶要先消耗990公升的水……</p>
+            <img src="/pages/found/qp_holiday/images/ozone_img2.jpg"/>
+            <p>牛内心os：这日子没法过了</p>
+            <h3 class="mt15">【为什么要保护臭氧层】</h3>
+            <p>大气中的臭氧每减少1%。照射到地面的紫外线就增加2%，人的皮肤癌就增加3%，还受到白内障、免疫系统缺陷和发育停滞等疾病的袭击。如今居住在距极洲较近的智利南端海伦娜岬角的居民已尝到苦头，只要走出家门，就要在衣服遮不住的肤面，涂上防晒油，戴上太阳眼镜，否则半小时后，皮肤就晒成鲜艳的粉红色并伴有痒痛；羊群则多患白内障，几乎全盲。据说那里的兔子眼睛全瞎，猎人可以轻易地拎起兔子耳朵带回家去，河里捕到的鲜鱼也都是盲鱼。</p>
+            <p class="mt15">推而广之，若臭氧层全部遭到破坏，太阳紫外线就会杀死所有陆地生命，人类也遭到“灭顶之灾”，地球将会成为无任何生命的不毛之地。因此，保护臭氧层，保护我们地球的“太阳伞”，是一件刻不容缓的事情。</p>
+
+            <div class="tips">
+                <p>1、每年9月16日为国际臭氧层保护日；</p>
+                <p>2、我们应按照联合国的要求遵守《关于消耗臭氧层物质的蒙特利尔议定书》及其修正案，为保护臭氧层献出一份力量；</p>
+                <p>3、做好防晒工作是对皮肤健康保护的重要一步。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/欢欢</div>
+    </div>
+      <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+    
+ </body>
+</html>
+

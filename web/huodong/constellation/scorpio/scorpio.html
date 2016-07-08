@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>365日历</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
+</head>
+<body>
+    <div class="main">
+    	<div class="top_bg">
+    			<div class="constellation_avtar e_clear">
+    				<div class="avtar"><img src="images/scorpio.png" width="98" height="98"/></div>
+					<div class="constellation_exp">
+						<h3>天蝎座  Scorpio</h3>
+						<p>10/24-11/21</p>
+						<p>2013年运势</p>
+					</div>
+    			</div>
+				<dl class="e_clear">
+					<dt class="overall">整体</dt>
+					<dd>天蝎君的年度主题：挑战自我弱点，获得天启智慧的救赎。２013年就像一个过度，带着逐渐转变的天蝎，找到更深沉的自我价值，对于没有目标的天蝎来说，最重要的就是找到值得奋力往上爬的目标；对有目标的人来说，则是展开人生的自主性，与酝酿代表作，无论如何，你该转型了，转型才是现阶段最重要的事。虽然上半年的你还会依依不舍、很挣扎，不确知转型时机对否而犹豫不决，但到了下半年，目标就很明确了，且以前过不去点都可以放下了，状况截然不同。</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="career">事业</dt>
+					<dd>
+						<p>职场的天蝎君，一、二月就会有不错的升职或跳槽机会，三月注意职场灾难意外，或与同事爆发冲突。四、五月则是有对手让你受到牵制，或你的锋芒被压抑。六月职场天蝎君受到肯定，有恢复锋芒的迹象，下半年氛围与上半年不同，会多了许多外派、出差、出国、旅行、出版、再进修等，能大开眼界、大展身手、扩展领域的机会，七月，八月有突如其来的国外工作机会，可尽力争取。</p>
+						<p>自己创业的天蝎君，可能会面临员工来来去去的状况，尤其一、三、四、五、九、十月，让你难控制、难沟通。这的确是个恼人的问题，与员工间最好有值得信任的第三者帮助斡旋，或天蝎必须有整批换掉的心理准备。上半年能赚就赚，六月进账颇丰，下半年则开始有发展机会，贵人多了起来。</p>
+					</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="affection">感情</dt>
+					<dd>
+						<p>单身的天蝎君，五、六、七月可以睁大眼睛，寻找能与自己身、心契合的对象，也很可能旧情复燃，或有懂自己价值的人出现，年中时感情运才真的开始活了起来。</p>
+						<p>有伴侣的天蝎君易出现烂桃花，为了守护秘密恋情而变得低调。年初起隐约觉得不对劲，五月看清荒谬现状，七月时有了更清楚的认知，有解套的机会。也有谨守本份、用心经营感情、与恋人成为知己的天蝎，这类型的天蝎对爱情的理解也不再是追求迷乱与快感，而是提升到知音、互相了解更重要的层次，稳稳地把舵握在手里。</p>
+					</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="money">金钱</dt>
+					<dd>土星进入天蝎，加上上半年木星在处理大钱的宫位，上半年天蝎的投资运不错，但前提必须是你擅长的领域，木星带来了投资、合作、机运来临、有机会赚更多钱，若估算正确，甚至可趁势狠捞一笔，这是天蝎上半年敢投资赚大钱的富贵险中求。 一、二月，你有努力工作所得到的正财，突如其来的大量工作，自己赚足年终。五、六、七月可能有大笔金钱支出，投资于自己看好的投机性投资上但要小心有隐忧尚未被理清，小心为宜，若可以尽量拖到7月，到时会有更多资讯、真相浮现，对天蝎开始有利。八、九月是声势气场个人魅力带动金钱进账。</dd>
+				</dl>
+    		</div>
+			<p class="txt">安装星座插件，查看每日星座指南！</p>
+			<a class="btn" id="btn" href="javascript:;">分享到微博</a>
+    </div>
+<script type="text/javascript">
+    function $(id){
+        return document.getElementById(id);
+    }
+	window.onload = function(){
+		var btn = $("btn");
+		btn.onclick = function(){
+			var txt = "@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com"
+			var json = '[{"img": "constellation.jpg","content": "@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com","via": "weibo","type": "type","follow": true},{"img":"test","content":"@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com","via":"qt","type":"type","follow":true}]';
+			if (/android/i.test(navigator.userAgent)) {
+				try {
+					AliansBridge.sharev2(json);
+				} 
+				catch (e) {
+					try {
+						AliansBridge.share(txt, img = "constellation.jpg", null, false);
+					} 
+					catch (e) {
+						alert("您的365日历版本暂不支持发微博，请升级到最新版");
+					}
+				}
+			}
+			else 
+				if (/ipad|iphone|mac/i.test(navigator.userAgent)) {
+					btn.href = 'rili365app:share|||||' + txt + '|||||constellation.jpg';
+				}
+		}
+	}
+</script>
+</body>
+</html>

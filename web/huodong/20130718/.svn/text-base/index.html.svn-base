@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历--证券从业人员资格考试</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+</head>
+<body>
+	<div class="main">
+		<div class="top"></div>
+		<div class="text">
+			<p>ACT考试（全称“American College Testing”，中文名称为“美国大学入学考试”），由ACT公司主办，每年ACT考试在美国所有50个州和国际上126个国家举行。美国所有的四年制大学（包括入学竞争十分激烈的常春藤联盟高校）都承认并接受ACT的考试成绩，并以其作为衡量学生能否接受大学教学的可靠指标。ACT考试不仅可用于招生，许多机构还利用它来作为颁发奖学金和决定课程安排的依据。</p>
+			<p>ACT考试不是单纯的语言考试，而是对学生综合能力的测试，全面考察英语、数学、阅读和科学四个方面的学业成就。ACT考试更强调考生对课程知识的掌握，同时也考虑到了对考生独立思考和判断能力的评估。</p>
+			<h3>考试内容：</h3>
+			<p>ACT考试科目分为四个部分：英语考试（English Test）、阅读考试（Reading Test）、数学考试（Mathematics Test）和科学考试（Science Test）。</p>
+			<p>全部为选择题，共215道题目，综合分数的总分36分（四项考试的平均分），考试时间共175分钟。</p>
+			<p>另外，英语与写作考试（English and Writing Test）为选考。美国有很多大学不要求提供写作考试成绩，可以访问www.actstudent.org，查看哪些大学要求必须提供写作考试成绩。</p>
+			<ul>
+				<li>ACT英语考试时长45分钟，满分为36分，内容有用法/结构、修辞技巧等。</li>
+				<li>ACT数学考试时长60分钟，满分为36分，内容包括预备代数/初级代数、中级代数/几何坐标、平面几何/三角形。</li>
+				<li>ACT阅读考试时长35分钟，满分36分，内容包括文学艺术、社会科学与自然科学。</li>
+				<li>ACT科学考试时长35分钟，满分36分，主要考察解释分析、评估、推理、问题解决技巧，内容包括生物、地球/空间科学、化学、物理。</li>
+				<li>ACT写作考试（可选）时长30分钟，满分36分，内容包括1道写作题目。</li>
+			</ul>
+			<p>除了检测考生的智力因素而外，ACT考试还十分关注考生的非智力因素。ACT考试附有中学所学课程和等级问卷、学生个人信息资料和学生兴趣问答等三份资料，从而可以比较全面地了解考生的教育需要、兴趣与能力。</p>
+			<p>ACT考试结束后4-7周时间内，美国大学测验社结合考生具体的答卷情况及成绩和上述三份资料向考生反馈相关信息，提出适合考生的学习专业和工作职业以供其选择和参考。</p>
+			<table width="320" border="1" cellspacing="0" cellpadding="0">
+			  <tr>
+			    <th>考试日期</th>
+			    <th>报名截止日期</th>
+			    <th>说明</th>
+			  </tr>
+			  <tr>
+			    <td>2012年10月27日</td>
+			    <td>2012年9月21日</td>
+			    <td>&nbsp;</td>
+			  </tr>
+			  <tr>
+			    <td>2012年12月8日</td>
+			    <td>2012年11月2日</td>
+			    <td>&nbsp;</td>
+			  </tr>
+			  <tr>
+			    <td>2013年2月9日*</td>
+			    <td>2013年1月11日</td>
+			    <td>2月的ACT大学入学考试不包含写作部分。</td>
+			  </tr>
+			  <tr>
+			    <td>2013年4月13日</td>
+			    <td>2013年3月8日</td>
+			    <td>&nbsp;</td>
+			  </tr>
+			  <tr>
+			    <td>2013年6月2日**</td>
+			    <td>2013年5月3日</td>
+			    <td>2013年6月2日（周日）的ACT香港考点加试在SAT考试（6月1日 - 周六）的后一天。</td>
+			  </tr>
+			  <tr>
+			    <td>2013年6月8日</td>
+			    <td>2013年5月3日</td>
+			    <td>&nbsp;</td>
+			  </tr>
+			  <tr>
+			    <td>2013年9月21日</td>
+			    <td>2013年8月23日</td>
+			    <td>&nbsp;</td>
+			  </tr>
+			  <tr>
+			    <td>2013年10月26日</td>
+			    <td>2013年9月27日</td>
+			    <td>&nbsp;</td>
+			  </tr>
+			  <tr>
+			    <td>2013年12月14日</td>
+			    <td>2013年11月8日</td>
+			    <td>&nbsp;</td>
+			  </tr>
+			  <tr>
+			    <td>2014年4月12日</td>
+			    <td>2014年3月7日</td>
+			    <td>&nbsp;</td>
+			  </tr>
+			  <tr>
+			    <td>2014年6月14日</td>
+			    <td>2014年5月9日</td>
+			    <td>&nbsp;</td>
+			  </tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

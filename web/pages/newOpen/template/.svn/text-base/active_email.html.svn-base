@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+<title>365公众日历</title>
+<link rel="stylesheet" href="../css/newOpen.css">
+</head>
+<body class="create_bg">
+    <div class="header">
+    	<div class="h-info">
+    		<img src="../image/logo.jpg" alt="" class="h-info-face">
+    		<a href="" class="h-info-name">薛鹏</a>
+			<i class="h-info-line"></i>
+    		<a href="javascript:;" class="h-info-quit">退出</a>
+    	</div>
+    	<a href="/" class="h-logo"><img src="../image/logo.jpg" alt=""></a>
+    </div>
+
+		<div class="main">
+			<div class="active_email">
+				<h2>激活公众日历账号</h2>
+				<p>感谢注册！确认邮件已发送至您的注册邮箱：mengmeizi@365rili.com</p>
+				<p>请进入邮箱查看邮件，并激活公众日历账号</p>
+			</div>
+			<div class="resend_box">
+				<div class="resend">
+					<p>没有收到邮件？</p>
+					<p>1、检查您的邮件垃圾箱</p>
+					<p>2、若仍未收到，请尝试<a href="">重新发送</a></p>
+				</div>
+			</div>
+			
+		</div>
+</body>
+</html>

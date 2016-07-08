@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>小贴士</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link href="/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link href="style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="recommend_main">
+    	<div class="recommend_schedule_top">
+    		<h2>祭灶节吃灶糖</h2>
+            <h4 class="none">今天是灶神升天的日子</h4>
+    	</div>
+    	<div class="recommend_schedule_middle">
+    		<div class="recommend_schedule_img">
+    			<img src="images/jizaojie.jpg" alt="">
+    		</div>
+            <p><span>推荐理由：</span>俗话说，“二十三糖瓜儿粘，二十四扫房子，二十五磨豆腐，二十六炖大肉，二十七宰公鸡，二十八把面发，二十九蒸馒头，三十晚上熬一宿，大年初一扭一扭！”</p>
+            <p>今天是腊月二十三，离春节仅剩7天时间了，因此也被视为小年。小时候就听妈妈讲：“小年吃灶糖，也是为了让灶王爷嘴甜能在玉帝面前多说好话。</p>
+            <p>2月1日是祭灶节，记得吃灶糖哦~</p>
+    	</div>
+    	<div class="recommend_schedule_bottom">
+    			<p>添加到我的日程</p>
+    			<a href="javascript:;" class="add_mySchedule"></a>
+    	</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script type="text/javascript" src="/pages/ui-lib/js/plug.js"></script>
+   <script type="text/javascript" src="/pages/recommend_schedule/js/recommend.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var startTime = new Date("2016/2/1 0:0:0").getTime();
+            tips.init(startTime);
+        })
+    </script></body>
+</html>

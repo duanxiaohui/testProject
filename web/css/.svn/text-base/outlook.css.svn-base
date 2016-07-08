@@ -1,0 +1,26 @@
+
+.infoBox_labels_outlook {
+    width:80px;
+    text-align:right;
+    padding:0 10px 0 20px;
+    float:left;
+}
+
+.tips_outlook {
+    position:relative;
+    width:240px;
+    left:90px;
+    /*height:60px;*/
+    line-height:30px;
+}
+
+.errorInfo {
+	padding-left: 16px;
+	color: red;
+	font-size: 12px;
+	background: url(/images/cal365_default/invalid.gif) no-repeat 0 50%;
+}
+
+.hidden {
+	display: none;
+}

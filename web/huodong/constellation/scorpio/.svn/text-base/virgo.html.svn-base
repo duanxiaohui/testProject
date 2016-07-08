@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>365日历</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
+</head>
+<body>
+    <div class="main">
+    	<div class="top_bg">
+    			<div class="constellation_avtar e_clear">
+    				<div class="avtar"><img src="images/virgo.png" width="98" height="98"/></div>
+					<div class="constellation_exp">
+						<h3>处女座  virgo</h3>
+						<p>23/08-23/09</p>
+						<p>2013年运势</p>
+					</div>
+    			</div>
+				<dl class="e_clear">
+					<dt class="overall">整体</dt>
+					<dd>处女君的年度主题：谨言慎行，厘清关系。扑朔迷离的婚姻、伴侣、合作关系，令处女君焦虑。下半年木星进入水象时，那些感觉、感受将被具体化，你将认识更多的人，也有更多挑选合作伙伴、重组伴侣的机会。同时也是更能赚大钱、掌大权的年份，但也考验你有多敢冒险，如果机会依赖于对方，不受你控制，你是否愿意冒险。天王星入主八宫带来性的诱惑、赚大钱的诱惑，名望及权贵的诱惑，处女君可能很愿意去赌。至于输赢，关键就在“自觉”，是否拿捏好分寸是决定关键。时间点就在今年的四、五月，与九、十月，请小心吧。</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="career">事业</dt>
+					<dd>
+						<p>职场的处女君有职场贵人，重量级人物倚重，你也能把握机会，被提拔的运势更强了。这是处女君职场生涯很值得纪念的一年，有机会掌权，主掌经费，能影响公司营运等，可以达成“树立名声”的愿望。你的身价也跟着看涨。但必须更兢兢业业，否则贵气转瞬即逝。</p>
+						<p>自己创业的处女君有财务危机，使事业面临生死关头。上半年还可以靠名声支撑，下半年开始，便可能连信用都没有。长期来看，危机将绵延至随后两年，短期来看，光撑过今年就很辛苦，还要小心对你不利的传言满天飞，非常考验你本身的能耐与底限。这样的考验第一波在四、五月，能否承受比如合作伙伴釜底抽薪的紧急变化，第二波在九、十月，对商场上的处女君来说，一定要从根本上调整，否则很难度过这场寒冬。</p>
+					</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="affection">感情</dt>
+					<dd>
+						<p>单身的处女君，烦恼是碰到的人选太多，七、八月是桃花运超强，成功机率很高。有恋爱对像的处女君，感情稳定者考虑结婚、生子，改变。但处女君的感情不单纯是爱，互相的救赎必要的因素。缺失救赎感的处女君无法抗拒进步，而被更有内在力量的人吸引，使原本恋情受到冲击。逃避不能解决问题。如果你选择苦恋之路，一至三月、九、十月适合“对人断念”。若想“解套”，今年四、五、九、十月都是机会，有事发生使你可循其管道寻求解决。上半年是你主动，下半年则是对方把问题掀开，都是处理的契机。选择自我成长的处女，则可以把握这些时期，你会因感情互动得到进步。但对已有对象者而言，则陷入两头奔忙状态，这些时间是必须做出选择的关键时刻。婚姻无状况的已婚者，课题则集中在财务、子女上，时间则集中于上半年。要谨慎面对，否则可能成为婚姻有变数的导火线。</p>
+					</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="money">金钱</dt>
+					<dd>
+						<p>处女君正财运则是整年都很旺，尤其是上半年，有加薪的机会。下半年的财运，与人脉有关，所以多参与聚会，开发新的生意领域，可以增加进账。</p>
+						<p>在金钱投资方面的运势，视合作对象状况而定，那是所有变数、风险的来源，需要更保守的评估。除了合作伙伴牵制，处女君有诸多赚钱机会，有机会赚到短期、兼差性质的外快、偏财，进帐颇丰。因“合伙、对手”而来的金钱危机体现在今年四、五、九、十月。</p>
+					</dd>
+				</dl>
+    		</div>
+			<p class="txt">安装星座插件，查看每日星座指南！</p>
+			<a class="btn" id="btn" href="javascript:;">分享到微博</a>
+    </div>
+<script type="text/javascript">
+    function $(id){
+        return document.getElementById(id);
+    }
+	window.onload = function(){
+		var btn = $("btn");
+		btn.onclick = function(){
+			var txt = "@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com"
+			var json = '[{"img": "constellation.jpg","content": "@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com","via": "weibo","type": "type","follow": true},{"img":"test","content":"@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com","via":"qt","type":"type","follow":true}]';
+			if (/android/i.test(navigator.userAgent)) {
+				try {
+					AliansBridge.sharev2(json);
+				} 
+				catch (e) {
+					try {
+						AliansBridge.share(txt, img = "constellation.jpg", null, false);
+					} 
+					catch (e) {
+						alert("您的365日历版本暂不支持发微博，请升级到最新版");
+					}
+				}
+			}
+			else 
+				if (/ipad|iphone|mac/i.test(navigator.userAgent)) {
+					btn.href = 'rili365app:share|||||' + txt + '|||||constellation.jpg';
+				}
+		}
+	}
+</script>
+</body>
+</html>

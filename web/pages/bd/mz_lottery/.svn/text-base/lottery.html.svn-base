@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<title>365日历</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+	<meta name="viewport" content="width=320, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ </head>
+<body>
+	<div class="main">
+		<div class="content">
+			<div class="lottery">
+                <div class="circle"></div>
+                <div class="start"></div>
+                <div class="pointer"></div>
+			</div>
+            <div class="lottery_txt">
+                <h3>我得互动规则：</h3>
+                <p>本次活动适用本活动规则、活动网站使用条款、活动网站和迪士尼中国授权隐私权政策的规定,而且活动规则受中国法律管辖。请仔细阅读本活动规则、活动网站使用条款、活动...</p>
+            </div>
+		</div>
+	</div>
+    <div class="lottery_info">
+        <div class="prize">
+            <div class="prize_pic">
+                <img src="images/prize.jpg"/>
+            </div>
+            <div class="prize_txt">
+                您的奖品是<br/>价值<span>2499元</span>的<br/>小米第八代无芯片拥有独立人格的智能人工手机
+            </div>
+        </div>
+        <div class="lottery_info_txt">
+            <h3>获奖人信息</h3>
+            <input type="text" class="username" placeholder="姓名"/>
+            <input type="text" class="mobile" placeholder="联系电话"/>
+            <input type="text" class="address" placeholder="邮寄地址"/>
+        </div>
+        <div class="lottery_note">
+            <p>注：请务必填写详细正确信息。<br/>以便工作人员与您取得联系，并送出奖品。</p>
+            <a href="javascript:;" class="submit_btn">提交信息</a>
+        </div>
+    </div>
+    <div class="infosub_layer none">
+        <p>请耐心等待我们联络您中奖事宜<br/>中奖名单将在<br/>@365日历 官方微博公布</p>
+    </div>
+    <div class="confirm_info_layer none">
+        <h3>确认获奖人信息</h3>
+        <div class="confirm_info_txt">
+            <p>姓名 <span class="confirm_name"></span></p>
+            <p>电话 <span class="confirm_mobile"></span></p>
+            <p>地址 <span class="confirm_address"></span></p>
+        </div>
+        <div class="confirm_info_btn">
+            <a href="javascript:;" class="edit_btn">重新编辑</a><a href="javascript:;" class="confirm_btn">确认</a>
+        </div>
+    </div>
+    <input id="UID" type="hidden" >
+    <input id="PWD" type="hidden" >
+    <input id="MAC" type="hidden" >
+    <input id="VER" type="hidden" >
+<script src="/js/jquery/jquery-1.8.3.min.js"></script>
+<script src="/js/jquery/jquery-ui-1.9.0.custom.min.js"></script>
+<script src="/js/jquery/jquery.cookie.js"></script>
+<script src="/js/jquery/jquery.rotate.js"></script>
+<script>
+    $(document).ready(function() {
+        $w=$(window).width(), $h=$(document.body).height();
+        $(".lottery_info,.infosub_layer,.confirm_info_layer").width($w).height($h);
+        var key = '';
+        //var flag = $.cookie('flag');
+        var date = new Date();
+        var dateStr = date.getFullYear() + '-' + (date.getMonth()+1) + '-' + date.getDate();
+        var UID = '0';
+        var MAC = 'null';
+
+        function getUserInfo() {
+            if (/android/i.test(navigator.userAgent)) {
+                UID = AliansBridge && AliansBridge.getUserId();
+                MAC = AliansBridge && AliansBridge.getMac();
+            }else {
+                setTimeout(function() {
+                    UID = document.getElementById('UID').value;
+                    MAC = document.getElementById('MAC').value;
+                }, 500);
+            }
+        }
+
+        getUserInfo();
+
+        $('.start').click(function() {
+            if($.cookie('flag') != dateStr) {
+                $.ajax({
+                    url: '/coop/lottery.do',
+                    type: 'post',
+                    dataType: 'json',
+                    data: {
+                        deviceID: 'null',
+                        userID: 2
+                    },
+                    success: function(data) {
+                        if(data.prize > 0) {
+                            key = data.key;
+                        }
+                        var prize = data.prize;
+                        var rotate = 60 + 10 * 360;
+                        if(prize == 0) {
+                            rotate = 360 * 10 + 60;
+                        } else if(prize == 1) {
+                            rotate = 360 * 10 + 360;
+                        } else if(prize == 2) {
+                            rotate = 360 * 10 + 120;
+                        } else if(prize == 3) {
+                            rotate = 360 * 10 + 240;
+                        }
+                        $(".circle").rotate({
+                            angle: 0,
+                            animateTo: rotate,
+                            duration: 10000,
+                            callback: function() {
+                                if(data.prize == 0) {
+                                    alert('真可惜，只差一点点...');
+                                } else {
+                                    alert('恭喜你！中奖啦！');
+                                    $('.main').addClass('none');
+                                    $('.lottery_info').removeClass('none');
+                                }
+                            }
+                        });
+                        $.cookie('flag', dateStr, {expires: 365});
+                    }
+                });
+            } else {
+                alert('每天只有一次抽奖机会，明天再来吧！');
+            }
+        });
+
+        $('.submit_btn').click(function() {
+            var username = $('.username').val();
+            var mobile = $('.mobile').val();
+            var address = $('.address').val();
+            if(username == '' || mobile == '' || address == '') {
+                alert('请填写完整的信息以便领取奖品。');
+            }
+            $('.lottery_info').addClass('none');
+            $('.confirm_info_layer').removeClass('none');
+            $('.confirm_name').text(username);
+            $('.confirm_mobile').text(mobile);
+            $('.confirm_address').text(address);
+        });
+
+        $('.edit_btn').click(function() {
+            $('.confirm_info_layer').addClass('none');
+            $('.lottery_info').removeClass('none');
+        });
+
+        $('.confirm_btn').click(function() {
+            $.ajax({
+                url: '/coop/lottery_user.do',
+                type: 'post',
+                dataType: 'json',
+                data: {
+                    name: $('.confirm_name').text(),
+                    phone: $('.confirm_mobile').text(),
+                    address: $('.confirm_address').text(),
+                    key: key
+                },
+                success: function(data) {
+                    console.log(data);
+                    if(data.state == 'ok') {
+                        alert('提交成功!');
+                        $('.confirm_info_layer').addClass('none');
+                        $('.infosub_layer').removeClass('none');
+                    }
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 张明臣 (vest0804@gamil.com)
+ * @date    2014-11-19 16:37:49
+ * @version 1.0
+ */
+body {color: #444; font: 12px / 1.5em "Microsoft YaHei", 微软雅黑,SimSun,arial;  margin: 0; padding: 0; color:#a2a2a2;}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+textarea { background: #fff; border: 1px solid #d2d9dc; border-radius: 2px; box-shadow: 0 0 0 #d2d9dc; -moz-transition: .3s ease-in-out; transition-property: border box-shadow; -webkit-transition: .3s ease-in-out; }
+textarea:focus, input[type="text"]:focus { /*border: 1px solid #b7d4ea;*/ box-shadow: 0 0 5px #b7d4ea; }
+a{text-decoration: none;}
+
+body{
+	padding-bottom: 56px;
+}
+
+.___footer{width:100%; position:fixed; left:0; bottom:0;
+	background:rgba(128,128,128,1) url(/images/logo_72x72.png) no-repeat 10px 8px; background-size:36px 36px; z-index:10;
+}
+.___footer .footer_content{padding:10px 10px 10px 56px;}
+.___footer h3{font-size:13px; color:#c8c8c8;}
+.___footer .footer p{font-size:12px; color:#c8c8c8;}
+.___footer .footer_down_btn{float:right; width:86px; height:30px; background:#ff9e4b; text-align:center; line-height:30px; color:#fff; font-size:14px; border-radius: 3px;}
+.___footer .del_footer{position:relative; float:right; width:20px; height:20px; transform: rotate(45deg); -webkit-transform: rotate(45deg); top:5px; margin-left:5px;}
+.___footer .del_footer:after{
+	content:" "; 
+	position:absolute; 
+	border-bottom: solid 1px #8e8e8e;
+	content: ' ';
+	display: block;
+	left: 0;
+	width: 20px;
+	top:9px;
+	/*-webkit-transform: scaleY(.5);
+	-webkit-transform-origin:0 0;*/
+}
+.___footer .del_footer:before{
+	content:" "; 
+	position:absolute; 
+	border-left: solid 1px #8e8e8e;
+	content: ' ';
+	display: block;
+	left: 9px;
+	height: 20px;
+	width:1px;
+	top:0px;
+	/*-webkit-transform: scaleX(.5);
+	-webkit-transform-origin:0 0;*/
+}

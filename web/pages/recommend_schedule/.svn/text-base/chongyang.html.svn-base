@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>小贴士</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<link href="/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link href="style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="recommend_main">
+    	<div class="recommend_schedule_top">
+    		<h2>送一份礼物给长辈</h2>
+            <h4 class="none">九九重阳，给家中老人送份礼物，祝他们久久长寿</h4>
+    	</div>
+    	<div class="recommend_schedule_middle">
+    		<div class="recommend_schedule_img">
+    			<img src="images/chongyangjie.jpg" alt="">
+    		</div>
+    		<p><span>推荐理由：</span>他们也曾年轻，也曾用自己的肩膀担起我们的家。后来，时间变成了调皮的画家，让暗淡附上他们的皮肤，让银白笼罩他们的头发，时不时想炫耀工笔重彩的技艺又让皱纹爬上了他们的脸颊。</p> 
+            <p>养育、教导的恩情记在心间，每当迷茫、困顿时那份温暖总让我们更有力量，在这个重阳节送一份礼物表达你对他们的感谢，也给他们带去一些温暖吧！</p>
+            <p>把10月21日重阳节添加备忘，忙碌不忘感恩，幸福常在心间。</p>
+
+    	</div>
+    	<div class="recommend_schedule_bottom">
+    			<p>添加到我的日程</p>
+    			<a href="javascript:;" class="add_mySchedule"></a>
+    	</div>
+    </div>
+    <div style="display:none">
+        
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script type="text/javascript" src="/pages/ui-lib/js/plug.js"></script>
+    <script type="text/javascript" src="/pages/recommend_schedule/js/recommend.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var startTime = new Date("2015/10/20 0:0:0").getTime();
+            tips.init(startTime);
+        })
+    </script>
+</body>
+</html>

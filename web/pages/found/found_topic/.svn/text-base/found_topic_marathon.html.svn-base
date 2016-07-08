@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>奔跑吧马拉松</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<link href="http://www.365rili.com/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link href="style/found_topic.css" rel="stylesheet">
+<body>
+	<div class="found_topic">
+		<div class="found_topic_top">
+			<img src="images/marathon/marathon.jpg" width="100%" alt="">
+		</div>
+		<div class="found_topic_txt">
+			<h2>奔跑吧马拉松<br/>2016，现在就带你开跑</h2>
+			<p>2016年新年伊始马跑正式鸣枪开跑啦，1月份马拉松赛事知多少，听365日历的！</p>
+		</div>
+		<div class="found_topic_list">
+			<ul>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=12">
+					<div class="topic_list_img">
+						<img src="images/marathon/hainan.jpg" width="100%" alt="">
+					</div>
+					<h3>海口马拉松赛</h3>
+					<p>椰风树影、水清沙白、气候宜人，全国颜值最高也最舒适的马拉松赛即将开启。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=13">
+					<div class="topic_list_img">
+						<img src="images/marathon/beijing.jpg" width="100%" alt="">
+					</div>
+					<h3>北京野鸭湖冰雪马拉松赛</h3>
+					<p>北京第一个“冰雪马拉松”，在湿地驰骋、有飞鸟作伴，绝对值得期待！</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=14">
+					<div class="topic_list_img">
+						<img src="images/marathon/xianggang.jpg" width="100%" alt="">
+					</div>
+					<h3>渣打香港马拉松赛</h3>
+					<p>渣打马拉松带你跑遍香港，感受东方之珠、购物天堂的奇特魅力。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+    <div id="VER" style="display: none;"></div>
+    <div id="UID" style="display: none;"></div>
+    <div id="MAC" style="display: none;"></div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js?20151016"></script>
+    <script src="http://www.365rili.com/js/lib/app.js?20151119"></script>
+    <script src="http://www.365rili.com/pages/found/js/function.js?20151119"></script>
+    <script src="http://www.365rili.com/pages/found/found_topic/js/found_topic.js?20151119"></script>
+</body>
+</html>

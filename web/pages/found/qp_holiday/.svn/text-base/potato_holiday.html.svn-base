@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>爱情和土豆一样宝贵——土豆节</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/potato_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>爱情和土豆一样宝贵——土豆节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>土豆，学名马铃薯，又称地蛋、洋山芋等，是全球第三大重要的粮食作物，仅次于小麦和玉米。中国是世界马铃薯总产最多的国家，2015年，中国启动了马铃薯主粮化战略，推进把马铃薯加工成馒头、面条、薯粉等主食。</p>
+
+            <p class="mt15">你以为中国人民已经足够热爱土豆了吗，不，世界上还有一些国家才是真正对土豆爱得深沉。在他们的眼里，土豆是生存、是爱情、是民族精神；是电、是光、是唯一的神话。</p>
+            <img src="/pages/found/qp_holiday/images/potato_img1.jpg"/>
+            <h3>【奥地利设土豆节】</h3>
+            <p>奥地利首都维也纳西北的格拉斯小镇，每年10月第一个周末的“土豆节”都能涌入至少1.3万游客，然而这个以农耕为主的小地方，人口只有约1400人。土豆节期间，以土豆为主要原料的当地各种美食和特色小吃自然是吸引游人的重头戏，不过自酿的果酒、蜂蜜、奶酪、各种肉食，以及民间传统手工艺品也使游客大饱口福、爱不释手。</p>
+
+            <p class="mt15">即使为土豆设立了节日，也不代表奥地利是最爱土豆的国家，冠军其实是——德国。在德国人心目中，土豆是十全十美的食物，每次遇到危机，土豆总能帮助德国人解决各种困难。</p>
+            <img src="/pages/found/qp_holiday/images/potato_img2.jpg"/>
+            <h3>【德国的土豆之父】</h3>
+            <p>德国有三家土豆博物馆，里面不仅收藏着来自世界各地的，五颜六色奇形怪状的土豆，还有油画、雕刻等艺术品向人们讲述土豆初到欧洲时的历史故事。18世纪中叶，瘟疫和自然灾害侵袭德国，导致农业颗料无收。危难中，弗里德里希大帝想起好种易活的土豆。他先给土豆以王室的声望，让王室女成员都戴上土豆花。接着，他又让士兵种植一大片土豆，土豆长出来后就派最精锐的部队去看守，晚上再把军队撤回。结果好奇的农民纷纷夜里到地里去偷土豆，就这样土豆的种植得到了普及。直到现在，在德国波茨坦无忧宫里的弗里德里希大帝墓前，总是摆放着土豆。</p> 
+  
+            <img src="/pages/found/qp_holiday/images/potato_img3.jpg"/>
+            <h3>【3个土豆战胜危机】</h3>
+            <p>在200多年的历史中，德国有10多次通过举国种植土豆，吃土豆，闯过自然灾害、战后衰退、经济危机等灾难。德国天气阴冷，农作物不好生长，历史上闹了好多次饥荒，但土豆的发现，让德国人找到了破解方法。1929年，德国遭遇经济危机，至少有半数人口失业，很多家庭只能买得起土豆，人们称它为第二面包。靠着一日3个土豆，德国人一次次取得了最后胜利。</h3>
+            <img src="/pages/found/qp_holiday/images/potato_img4.jpg"/>
+            <h3>【爱情和土豆一样宝贵】</h3>
+            <p>除了土豆博物馆，德国还有土豆旅馆和土豆图书馆等有趣的地方。德国人喜爱土豆，除了营养价值外，还因为土豆包含着勤俭节约、朴实无华的精神，正像德意志民族一样。在下萨克森州，青年男女热恋时，会送给对方一个土豆，因为当地有这样一句话：爱情和土豆一样宝贵。对当地人来说，生命中不能缺少爱情，就像不能缺少土豆，难怪，欧洲邻国干脆管德国叫土豆国了~</p>
+
+            <div class="tips">
+                <p>1、10月第一个周末，是奥地利土豆节，在奥地利首都维也纳西北的格拉斯小镇举办；</p>
+                <p>2、世界上最热爱土豆的国家是德国；</p>
+                <p>3、要是在我国跟姑娘表白用一个土豆就可以解决，男人们可是要开心死了。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/欢欢</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

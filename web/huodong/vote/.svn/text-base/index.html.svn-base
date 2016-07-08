@@ -1,0 +1,16 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>“最佳应用工具奖”投票</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+</head>
+<body>
+		<div  class="top1"></div>
+		<div  class="top2"></div>
+		<div  class="text">365日历作为国内最专业的日历软件，参加了首届中国移动互联网“最佳应用工具奖”评选，请为365日历投上宝贵的一票吧！</div>
+		<a href="http://url.cn/73BjVx" title="为365日历投票"  target="_blank" class="btn">为365日历投票</a>
+</body>
+</html>

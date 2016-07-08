@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>365日历 UI库</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<style>
+	.none{display:none;}
+	.title{
+		height:40px; 
+		font-size:14px; 
+		line-height:40px; 
+		text-align:center; 
+		border-bottom:1px solid #ccc; 
+		background:#4a87ee;
+		color:#fff;
+	}
+	.content li{
+		height:30px; 
+		line-height:30px;
+		border-bottom:1px solid #ccc;
+		text-indent:2em;
+		position:relative;
+	}
+	.content li:after{
+		position:absolute;
+		content:" ";
+		width:8px;
+		height:8px;
+		border-top:1px solid #ccc;
+		border-right:1px solid #ccc;
+		-webkit-transform:rotate(45deg);
+		right:10px;
+		top:50%;
+		margin-top:-4px;
+	}
+	.cld-ui-dialog-div{background:#ccc;}
+	.t3d200{
+		position:absolute;
+		width:100%;
+		-webkit-transform:translate3d(-200%,0,0);
+	}
+	.back_btn{float:right; margin-right:10px; font-size:12px; font-weight:500; color:#fff;}
+</style>
+<link href="css/ui-lib.css" rel="stylesheet">
+</head>
+<body>
+    <h2 class="title"><a href="javascript:;" class="back_btn">返回</a>365日历UI</h2>
+    <div class="content">
+    	<ul>
+    		<li datalink="cld-ui-list-div">列表</li>
+    		<li datalink="cld-ui-btn-div">按钮</li>
+    		<li datalink="cld-ui-loading-div">loading</li>
+    		<li datalink="cld-ui-tips-div">提示</li>
+    		<li datalink="cld-ui-dialog-div">Alert Confirm</li>
+    	</ul>
+    </div>
+    <div class="cld-ui-list-div t3d200">
+    	<dl class="cld-ui-list e_clear">
+	    	<dt class="cld-ui-list-avatar">
+	    		<div style="background-image: url(http://cocoimg.365rili.com/pic/default/recommend.png);"></div>
+	    	</dt>
+	    	<dd class="cld-ui-list-info">
+	    		<h4>这里是标题 很长很长很长</h4>
+	    		<p class="">这里是内容，内容一定要多要多，结构看着才饱满！这里是内容，内容一定要多要多，结构看着才饱满！</p>
+	    	</dd>
+	    </dl>
+	    <dl class="cld-ui-list e_clear cld-ui-list-noAvatar">
+	    	<dt class="cld-ui-list-avatar">
+	    		<div style="background-image: url(http://cocoimg.365rili.com/pic/default/recommend.png);"></div>
+	    	</dt>
+	    	<dd class="cld-ui-list-info">
+	    		<h4 class="">这里是标题 很长很长很长 DL加cld-ui-list-noAvatar 可以去掉头像</h4>
+	    		<p class="cld-ui-nowrap">这里是内容， 加cld-ui-nowrap可以超出显示省略号省略号省略号省略号省略号省略号</p>
+	    	</dd>
+	    </dl>
+	    <dl class="cld-ui-list e_clear cld-ui-list-function">
+	    	<dt class="cld-ui-list-avatar">
+	    		<div style="background-image: url(http://cocoimg.365rili.com/pic/default/recommend.png);"></div>
+	    	</dt>
+	    	<dd class="cld-ui-list-info">
+	    		<h4 class="">这里是标题 很长很长很长 DL加cld-ui-list-noAvatar 可以去掉头像</h4>
+	    		<p class="cld-ui-nowrap">这里是内容， 加cld-ui-nowrap可以超出显示省略号省略号省略号省略号省略号省略号</p>
+	    	</dd>
+	    	<dd class="cld-ui-list-btn">点我</dd>
+	    </dl>
+    </div>
+    <div class="cld-ui-btn-div t3d200">
+    	<div class="cld-ui-btn-box">
+    		<a href="javascript:;" class="cld-ui-btn-ab cld-ui-corner-all-5 cld-ui-btn-green">确定</a>
+    	</div>
+    	<div class="cld-ui-btn-box">
+    		<a href="javascript:;" class="cld-ui-btn-ab cld-ui-corner-all-5 cld-ui-btn-blue">确定</a>
+    	</div>
+    	<div class="cld-ui-btn-box">
+    		<a href="javascript:;" class="cld-ui-btn-ab cld-ui-corner-all-5 cld-ui-btn-del">删除</a>
+    	</div>
+    	<div class="cld-ui-btn-box">
+    		<a href="javascript:;" class="cld-ui-btn-ab cld-ui-corner-all-5 cld-ui-btn-normal">正常</a>
+    	</div>
+    	<div class="cld-ui-btn-box">
+    		<a href="javascript:;" class="cld-ui-btn-ab cld-ui-corner-all-5 cld-ui-btn-blue cld-ui-btn-it">
+    			<span class="cld-ui-btn-icon"></span>
+    			<p class="cld-ui-btn-text">添加提醒</p>
+    		</a>
+    	</div>
+    	<div class="cld-ui-btn-box cld-ui-btn-side">
+    		<a href="javascript:;" class="cld-ui-btn-ab cld-ui-corner-all-5 cld-ui-btn-blue">确定</a>
+    		<a href="javascript:;" class="cld-ui-btn-ab cld-ui-corner-all-5 cld-ui-btn-del">删除</a> 	
+    	</div>
+    	<div class="cld-ui-btn-sidet cld-ui-btn-fixed">
+    		<a href="javascript:;" class="cld-ui-btn-ab cld-ui-btn-blue">确定</a>
+    		<a href="javascript:;" class="cld-ui-btn-ab cld-ui-btn-del">删除</a>
+    	</div>
+    </div>
+    <div class="cld-ui-loading-div t3d200">
+    	<div class="cld-ui-loading">
+    		<div class="blue"></div>
+    		<div class="red"></div>
+    		<div class="black"></div>
+    		<div class="green"></div>
+    	</div>
+    	<div class="cld-ui-loading-dot">
+	    	<div class="spinner">
+				<div class="dot1"></div>
+				<div class="dot2"></div>
+			</div>
+			<p class="cld-ui-loading-dot-txt"></p>
+	    </div>
+    </div>
+    <div class="cld-ui-tips-div t3d200">
+    	<div class="cld-ui-tips cld-ui-tips-info">
+    		<i></i>
+    		<p>提供相关的信息</p>
+    	</div>
+    	<div class="cld-ui-tips cld-ui-tips-warning">
+    		<i></i>
+    		<p>警告已经发生或可能在未来发生的问题</p>
+    	</div>
+    	<div class="cld-ui-tips cld-ui-tips-successful">
+    		<i></i>
+    		<p>提示操作成功或流程成功</p>
+    	</div>
+    </div>
+    <div class="cld-ui-dialog-div t3d200">
+    	<!-- <div class="cld-ui-dialog cld-ui-corner-all-5 cld-ui-shadow">
+    		<div class="cld-ui-dialog-content .cld-ui-corner-tl-5 cld-ui-corner-tr-5">	
+    			<h4>标题字体加粗</h4>
+    			<p>比如这是内容，与标题居中对齐，比标题小4号的细体。</p>
+    		</div>
+    		<div class="cld-ui-dialog-ft cld-ui-btn-sidet ">
+    			<a href="javascript:;" class="cld-ui-btn-ab cld-ui-btn-normal cld-ui-corner-bl-5">正常</a>
+    			<a href="javascript:;" class="cld-ui-btn-ab cld-ui-btn-normal cld-ui-corner-br-5">取消</a>
+    		</div>
+    	</div> -->
+    	<a href="javascript:;" class="open">打开弹层</a>
+    	<a href="javascript:;" class="open1">打开confirm</a>
+    </div>
+<script src="/js/lib/zepto.min.js"></script>
+<script src="js/plug.js"></script>
+<script>
+	var comp = {
+		config:{
+			w: $(window).width(),
+            h: $(window).height()
+		},
+		init:function(){
+			$(".content li").on('tap',function(){
+				var has3d = 'WebKitCSSMatrix' in window && 'm11' in new WebKitCSSMatrix();
+				var datalink = $(this).attr("datalink");
+				$(".content").css({
+					'-webkit-transform': has3d ? "translate3d(-200%,0,0)" : "translate(0%,0)",
+                    '-webkit-transition': '200ms linear'
+				});;
+				$("."+datalink).css({
+					'-webkit-transform': has3d ? "translate3d(0%,0,0)" : "translate(0%,0)",
+                    '-webkit-transition': '200ms linear',
+                    'top':40+"px",
+                    'height':comp.config.h - 40
+				});
+			});
+			$(".back_btn").on('tap',function () {
+				var has3d = 'WebKitCSSMatrix' in window && 'm11' in new WebKitCSSMatrix();
+				$(".content").css({
+					'-webkit-transform': has3d ? "translate3d(0%,0,0)" : "translate(0%,0)",
+                    '-webkit-transition': '200ms linear'
+				});;
+				 $(".content li").each(function(o){
+					var val = $(this).attr("datalink");
+					$("."+val).css({
+						'-webkit-transform': has3d ? "translate3d(-200%,0,0)" : "translate(0%,0)",
+	                    '-webkit-transition': '200ms linear',
+	                    'top':40+"px",
+	                    'height':comp.config.h - 40
+					});				
+				})
+			});
+			$(".open").on('tap',function(){
+				plug.alert('这里是标题','这里是内容，内容一定要多要多，结构看着才饱满！这里是内容，内容一定要多要多，结构看着才饱满！')
+			});
+			$(".open1").on('tap',function(){
+				plug.confirm('这里是标题','这里是内容，内容一定要多要多，结构看着才饱满！这里是内容，内容一定要多要多，结构看着才饱满','',
+					function (){
+						alert("确定");
+					}
+					);
+			});
+		}
+	}
+	$(function(){
+		comp.init();
+	});
+</script>
+</body>
+</html>

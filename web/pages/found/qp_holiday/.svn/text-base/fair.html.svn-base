@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>社会公正才有肉吃</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/fair/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>世界社会公正日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>公，平分也，上面是“八”,表示相背,下面是“厶”，合起来表示“与私相背”,即“公正”的意思。无数人高举旗帜倡导着它，无数人望眼欲穿的渴望它，但公正的实现却是无比的艰难。</p>
+            <p class="mt15">2015年高考第一天，社会各界一如既往的给参加高考的学子送祝福时，被一则南都记者卧底高考替考组织的新闻在朋友圈里刷屏。每年高考满满正能量的新闻里，总会有这种不和谐的声音，告诉我们高考这个战场中的不公正。或许这只是诸多不公平事件的一个缩影而已……</p>  
+            <h3>【世界社会公正日】</h3>
+            <p>不公平现象持续时间过长，受委屈的人们往往会“揭竿而起”，社会和谐就会受到影响，因此，联合国又开会啦！2007年11月26日联合国大会指出：国际社会需要进一步努力，以消除贫穷、让所有人都充分就业、享有社会福利和社会公正。翻译成我天朝语言就是：提升公民的幸福指数，让他们睡觉都能乐开花！</p>
+            <img src="images/fair/holiday_1.jpg"/>
+            <p>会议还呼吁世界各国根据1995年召开的联合国社会发展问题世界首脑会议和联大相关会议所设立的目标，在国家层面开展促进社会公正的活动。自2009年起，每年2月20日被设立为世界社会公正日。</p>
+            <h3>【设立背景】</h3>
+            <p>土豪或知识青年越来越多并不能代表社会就绝对的发达，社会发展有着严苛的衡量标准——消除贫困、全面就业和社会融合，发展的主要目的是实现社会公正、稳定、和谐以及平等。然而，由于世界主要社会体系主导经济体系几十年来一直偏心于富有阶层，所以贫富差距一直在加大，弱势群体都要急眼了！</p>
+            <img src="images/fair/holiday_2.jpg"/>
+            <p>社会公正是国家内部和国家之间赖以和平、繁荣共处的基本原则。其范畴非常广泛：促进两性平等，促进土著人民和移民的权利，就是在伸张社会公正原则；努力消除人们因性别、年龄、种族、族裔、宗教、文化或残疾状况而面临的各种障碍，也是在推进社会公正。</p>
+            <h3>【真的非常有内涵】</h3>
+            <p>世界社会公正日有着远远超出其字面含义的内涵，如果你以为公平就够了那你真的是错了！联合国设立这个节日有着进一步推动国际社会消除贫困、实现男女平等和促进社会公正等多个方面的目的！</p>
+
+            <div class="tips">
+                <p>1、每年的2月20日是世界社会公正日，各国都会开展促进社会公正的活动；</p>
+                <p>2、社会公正日在实现男女平等、消除贫困等方面也有涉及，全面公正还有很长一段路要走。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

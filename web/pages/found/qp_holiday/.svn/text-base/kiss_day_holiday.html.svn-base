@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>憋说话，吻我</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/kiss_day/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>日本kiss节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>很多人羞于言爱，对父母、对朋友、对孩子、对朝夕相对的另一半……在他们的眼里，爱是被封闭、被禁忌、被搁置的，做出来是很难为情的。对他们来说，生活就是一个按部就班的过程：按时睡觉、按时起床、按时工作学习、按时买菜做饭，惟独没有时间表达爱。对于表达爱，亲吻是会起到很神奇的效果的！</p>
+            <h3>【童话里不是骗人的】</h3>
+            <p>很多童话采用“亲吻”作为故事的突破口，比如睡美人：王后生下孩子邀请了很多人来参加宴会却没有邀请女巫，愤怒的女巫不请自来还送上了“公主会被纺织机的纺缍刺破手指而丧命”的诅咒作为礼物。紫丁香仙子缓解毒咒使她不致死去，但却会一直沉睡，直到爱慕者亲吻才会醒来。公主被纺锤刺伤后沉睡，年轻的王子吻醒了公主，他们幸福的生活在了一起。</p>
+            <img src="images/kiss_day/holiday_1.jpg"/>
+            <p>还有青蛙王子：喜欢在水边玩小金球的公主一天不慎把金球掉到了水里，惊慌失措的公主哭了起来，水里的青蛙闻声赶来说可以帮她但需要公主亲吻他一下。但公主拿到球后却不想履行诺言，这是青蛙便赶紧向公主“坦白”了身世，公主亲吻他就可以解除诅咒，让他变成王子。后来，他们又幸福的生活在了一起</p>
+            <img src="images/kiss_day/holiday_2.jpg"/>
+            <h3>【既然亲吻有奇迹】</h3>
+            <p>亲吻居然是一件这么有魔力的事情，但并不是因为这个日本才有的kiss节，他们设立节日的理由比你想象的要“随意”。节日的实际原因是1946年的5月23日，日本出现了第一部有接吻镜头的电影，于是就诞生了这个奇怪的节日。节日的庆祝方式没什么特别的，就是你想的那样。</p>
+            <img src="images/kiss_day/holiday_3.jpg"/>
+            <p>亲吻是很能体现爱意的举动，生活里除了亲吻另一半，也要惦念父母、朋友。重要的或许不是亲吻这个举动，而是常怀在心里的爱、关心和善意。</p>
+            
+            <div class="tips">
+                <p>1、5月23日是日本的kiss节，设立这个节日竟然是因为历史上的这天日本出现了第一部有接吻镜头的电影；</p>
+                <p>2、在生活中，心里要常怀爱意，对一切抱以善念。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

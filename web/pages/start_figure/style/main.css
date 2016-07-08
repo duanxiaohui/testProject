@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 张明臣 (vest0804@gamil.com)
+ * @date    2014-12-10 10:31:22
+ * @version 1.0
+ */
+body { background: #e5e5e5; color: #444; font: 12px / 1.5em "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑,SimSun,arial; margin: 0; padding: 0;}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+a{text-decoration: none; }
+.none{display:none;}
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+.main{padding:50px 0 20px 0; position:relative;}
+.close_btn{width:30px; height:30px; position:absolute; border:1px solid #b7b7b7; border-radius:15px; -webkit-border-radius:16px; top:10px; right:10px;}
+.close_btn:after{content:" "; position:absolute; width:2px; height:16px; background:#b7b7b7; transform:rotate(45deg); -webkit-transform:rotate(45deg); left:50%; top:7px; margin-left:-1px;}
+.close_btn:before{content:" "; position:absolute; width:2px; height:16px; background:#b7b7b7; transform:rotate(-45deg); -webkit-transform:rotate(-45deg); left:50%; top:7px;margin-left:-1px;}
+
+.start_img{width:312px; height:428px; margin:0 auto; background:url(../images/img.png) no-repeat; background-size:100% 100%;}
+.footer_logo{width:114px; height:29px; margin:112px auto 0; background:url(../images/footer_logo.png) no-repeat; background-size:100% 100%;}

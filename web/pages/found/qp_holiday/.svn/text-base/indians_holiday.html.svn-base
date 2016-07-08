@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>看！美洲土著！</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/indians/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>印第安人日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>前几天有在电影院看小李子的呕心沥血之作《荒野猎人》么？虽然整个影片都是在描述如何极致地虐待莱昂纳多，但是电影对当时历史背景的还原做的也相当到位。虽然小李子是主角，但是印第安人也是整个影片中贯通全线的线索之一。而今天，就是专属于这些神秘的印第安人的日子。</p>
+            <img src="images/indians/holiday_1.jpg"/>
+                    
+
+            <h3>【复杂的印第安人】</h3>
+
+            <p>印第安人（Indians），亦作Amerindian或Amerind，是对除因纽特人外的所有美洲原住民的总称。美洲土著居民中的绝大多数为印第安人，分布在南北美洲各国，传统将其划归蒙古人种美洲支系。印第安人所说的语言一般总称为印第安语，或者称为美洲原住民语言。印第安人的族群及其语言的系属情况均十分复杂，至今没有公认的分类。大家还记不记得“2012”世界末日论？做出这个预测的玛雅人，也是印第安人中的一支哦。</p>
+
+            <img src="images/indians/holiday_2.jpg"/>
+
+             <h3>【印第安人日的由来】</h3>
+
+            <p>起初在英法等西方国家未到达美洲大陆之前，美洲大陆居住8000万印第安人，美国区域居住1000万以上的印第安人。而发生在18-19世纪的美洲大陆的美国实行了一系列对印第安人的文化和种族灭绝政策，由于其导致的美洲印第安人的大灭绝，这些行为和政策被统称为印第安人大屠杀。而如今生活在整个美洲的印第安人不超过400万，在美国的印第安人仅剩20万（不包括混血者）。</p>	
+            <img src="images/indians/holiday_3.jpg"/>
+           	
+           	<p>自1943年起，巴西将每年4月19日确定为印第安人日。每年这一天，巴西全国举行各种活动展示印第安传统文化，让人们关注这个极易受人忽视的群体和他们的文化。</p>	
+
+            <div class="tips">
+                <p>1、“印第安人”这一称呼本是欧洲人对美洲土著的统称，后来通行于世界；</p>
+                <p>2、每一个种族都值得被尊敬。虽然不好的事情已经发生，我们还是要用一颗敬畏的心来对待每一份流传下来的文化。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/Vanna</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

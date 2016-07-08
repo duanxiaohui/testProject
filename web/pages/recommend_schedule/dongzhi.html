@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>小贴士</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link href="/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link href="style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="recommend_main">
+    	<div class="recommend_schedule_top">
+    		<h2>吃家乡美食过冬至</h2>
+            <h4 class="none">按照习俗吃一份家乡美食，才算过了冬至</h4>
+    	</div>
+    	<div class="recommend_schedule_middle">
+    		<div class="recommend_schedule_img">
+    			<img src="images/dongzhi.jpg" alt="">
+    		</div>
+            <p><span>推荐理由：</span>冬至是北半球白昼最短的一天，不填饱肚子如何度过一年中最长的黑夜！</p>
+            <p>你的家乡过冬至会吃什么呢？北方小伙伴在这天不吃饺子可能会被奶奶揪着耳朵骂：小心冻掉耳朵！而在南方，外婆会端上一碗热气腾腾的汤圆，微笑的看着你一个个吃下。长大后离开家乡，再没人把家乡的味道放到面前。</p>
+            <p>把12月22日冬至添加到备忘吧，提醒自己不管是速冻的、食堂的、饭店的还是自己做的，都要吃上一份家乡的味道，这样才算过冬至！</p>
+    	</div>
+    	<div class="recommend_schedule_bottom">
+    			<p>添加到我的日程</p>
+    			<a href="javascript:;" class="add_mySchedule"></a>
+    	</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script type="text/javascript" src="/pages/ui-lib/js/plug.js"></script>
+   <script type="text/javascript" src="/pages/recommend_schedule/js/recommend.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var startTime = new Date("2015/12/22 0:0:0").getTime();
+            tips.init(startTime);
+        })
+    </script></body>
+</html>

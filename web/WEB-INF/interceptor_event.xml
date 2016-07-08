@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+	<!-- 认证拦截器 -->
+	<mvc:interceptors>
+		<!-- 活动商家后台身份验证 -->
+		<mvc:interceptor>
+			<mvc:mapping path="/event/business/index.do" />
+			<mvc:mapping path="/event/business/detail.do" />
+			<mvc:mapping path="/event/business/orders.do" />
+			<mvc:mapping path="/event/business/getOrders.do" />
+			<mvc:mapping path="/event/business/searchCode.do" />
+			<mvc:mapping path="/event/business/acceptCode.do" />
+			<mvc:mapping path="/event/business/recoverCode.do" />
+			<mvc:mapping path="/event/business/orderExcel.do" />
+			<bean class="com.rili.web.interceptor.EventBusinessInterceptor">
+				<property name="eventAdminDAO" ref="eventAdminDAO" />
+				<property name="loginUrl" value="/event/business/login.do" />
+			</bean>
+		</mvc:interceptor>
+		
+		<!-- 活动及评论管理后台身份验证 -->
+		<mvc:interceptor>
+			<mvc:mapping path="/event/admin/index.do" />
+			<mvc:mapping path="/event/admin/hide.do" />
+			<mvc:mapping path="/event/admin/show.do" />
+			<mvc:mapping path="/event/admin/delete.do" />
+			<mvc:mapping path="/event/admin/setEnrollCount.do" />
+			<mvc:mapping path="/event/admin/create.do" />
+			<mvc:mapping path="/event/admin/edit.do" />
+			<mvc:mapping path="/event/admin/updateCommonOffline.do" />
+			<mvc:mapping path="/event/admin/updateCustomLink.do" />
+			<mvc:mapping path="/event/admin/updateCommonLottery.do" />
+			<mvc:mapping path="/event/admin/comments.do" />
+			<mvc:mapping path="/event/admin/deleteComment.do" />
+			<mvc:mapping path="/event/admin/detail.do" />
+			<mvc:mapping path="/event/admin/orders.do" />
+			<mvc:mapping path="/event/admin/backedOrders.do" />
+			<mvc:mapping path="/event/admin/orderExcel.do" />
+			<mvc:mapping path="/event/admin/backedOrderExcel.do" />
+			<bean class="com.rili.web.interceptor.EventEditorInterceptor">
+				<property name="eventAdminDAO" ref="eventAdminDAO" />
+				<property name="loginUrl" value="/event/admin/login.do" />
+			</bean>
+		</mvc:interceptor>
+	</mvc:interceptors>
+
+</beans>

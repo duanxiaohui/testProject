@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>热门剧目</title>
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/pages/bd/tv_sc/css/main.css" rel="stylesheet">
+</head>
+<body>
+    <img src="/pages/bd/tv_sc/images/bg.jpg" width="100%" alt="">
+    <div class="contain">
+        <h4 class="title"><span>电视剧</span></h4><div class="photos">
+    	<img src="/pages/bd/tv_sc/images/movie/_img_tv_1.jpg" class="photo" width="46%">
+        <img src="/pages/bd/tv_sc/images/movie/_img_tv_11.jpg" class="photo" width="46%">
+        <img src="/pages/bd/tv_sc/images/movie/_img_tv_2.jpg" class="photo" width="46%">
+        <img src="/pages/bd/tv_sc/images/movie/_img_tv_12.jpg" class="photo" width="46%"></div>
+        <h4 class="title"><span>动画</span></h4><div class="photos">
+        <img src="/pages/bd/tv_sc/images/movie/_img_tv_3.jpg" class="photo" width="46%">
+        <img src="/pages/bd/tv_sc/images/movie/_img_tv_13.jpg" class="photo" width="46%">
+        <img src="/pages/bd/tv_sc/images/movie/_img_tv_4.jpg" class="photo" width="46%">
+        <img src="/pages/bd/tv_sc/images/movie/_img_tv_14.jpg" class="photo" width="46%"></div>
+        <h4 class="title"><span>纪录片</span></h4><div class="photos">
+        <img src="/pages/bd/tv_sc/images/movie/_img_tv_5.jpg" class="photo" width="46%">
+        <img src="/pages/bd/tv_sc/images/movie/_img_tv_15.jpg" class="photo" width="46%">
+        <img src="/pages/bd/tv_sc/images/movie/_img_tv_6.jpg" class="photo" width="46%">
+        <img src="/pages/bd/tv_sc/images/movie/_img_tv_16.jpg" class="photo" width="46%"></div>
+        <h4 class="title"><span>大学生</span></h4><div class="photos">
+        <img src="/pages/bd/tv_sc/images/movie/_img_tv_7.jpg" class="photo" width="46%">
+        <img src="/pages/bd/tv_sc/images/movie/_img_tv_17.jpg" class="photo" width="46%">
+        <img src="/pages/bd/tv_sc/images/movie/_img_tv_8.jpg" class="photo" width="46%">
+        <img src="/pages/bd/tv_sc/images/movie/_img_tv_18.jpg" class="photo" width="46%"></div>
+        <h4 class="title"><span>新媒体</span></h4><div class="photos">
+        <img src="/pages/bd/tv_sc/images/movie/_img_tv_9.jpg" class="photo" width="46%">
+        <img src="/pages/bd/tv_sc/images/movie/_img_tv_19.jpg" class="photo" width="46%">
+        <img src="/pages/bd/tv_sc/images/movie/_img_tv_10.jpg" class="photo" width="46%">
+        <img src="/pages/bd/tv_sc/images/movie/_img_tv_20.jpg" class="photo" width="46%"></div>
+
+	    <h4 class="title"><span>其他信息</span></h4>
+        <div class="btns" style="margin-top:20px;">
+            <a href="http://www.365rili.com/pages/bd/tv_sc/index.html" class="btn hdsy"></a>
+            <a href="http://www.365rili.com/pages/bd/tv_sc/pwzr.html" class="btn pwzr"></a>
+            <a href="http://www.365rili.com/pages/bd/tv_sc/dsjlt.html" class="btn lt1"></a>
+            <a href="http://www.365rili.com/pages/bd/tv_sc/xmtlt.html" class="btn lt2"></a>
+            <a href="http://www.365rili.com/pages/bd/tv_sc/schedule.html" class="btn rcjs"></a>
+        </div>
+    </div>
+    <div class="footer">
+    	<img src="/pages/bd/tv_sc/images/bgb.jpg" width="100%" alt="">
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+	<script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+	<script src="http://www.365rili.com/pages/bd/tv_sc/js/movie.js"></script>
+</body>
+</html>

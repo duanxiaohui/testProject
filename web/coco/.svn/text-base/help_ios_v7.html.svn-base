@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html manifest="/pages/appcache/help_ios_v7.appcache">
+ <head>
+<title>365日历--帮助</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320,width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/ios_help_v7.css?v=20150115" media="screen" />
+</head>
+<body>
+<div class="main">
+    <div class="top">
+        <p>365日历使用小技巧</p>
+    </div>
+    <div class="qa_list">
+        <dl>
+            <dt>如何查看365日历提供的丰富信息？</dt>
+            <dd>
+                <p>整体向上滑动</p>
+                <div class="a1"></div>
+                <p>即可显示这一天的日程、天气、黄历等生活信息</p>
+                <div class="a2"></div>
+            </dd>
+        </dl>
+<!--         <dl>
+            <dt>如何将其他的日程显示在我的日历？</dt>
+            <dd>
+                <p>在右侧菜单，打开右侧的开关，该日历的日程即可显示在我的日程列表中</p>
+                <div class="b1"></div>
+                <div class="b2"></div>
+            </dd>
+        </dl> -->
+        <dl>
+            <dt>如何查看一个单独的公众日历或者群组日历？</dt>
+            <dd>
+                <p>在左侧菜单，点击我的关注或我的群组即可进入该日历页面，点击日历名称可以查看该日历详情。</p>
+                <div class="b1"></div>
+                <div class="b2"></div>
+                <div class="b3"></div>
+            </dd>
+        </dl>
+        <dl>
+            <dt>如何关注更多有趣的日历？</dt>
+            <dd>
+                <p>在主视图列表底部，点击“更多精彩活动”进入发现广场，在广场中找到你感兴趣的日历，选中想要关注的日历，点击日历标题即可关注。</p>
+                <div class="c1"></div>
+                <div class="c2"></div>
+                <div class="c3"></div>
+            </dd>
+        </dl>
+<!--         <dl>
+            <dt>如何使用群组日历？</dt>
+            <dd>
+                <p>群组日历是你和小伙伴们共同使用的日历，其他人创建的日程，大家都能看到。你可以搜索群组加入，也可以自己创建，邀请小伙伴们加入</p>
+                <div class="e1"></div>
+                <div class="e2"></div>
+            </dd>
+        </dl>
+ -->        <dl>
+            <dt>如何更换背景图?</dt>
+            <dd>
+                <p>下拉查看壁纸</p>
+                <div class="d1"></div>
+                <p>点击右下角图标按钮，出现背景图片。</p>
+                <div class="d2"></div>
+                <p>选一张自己喜欢的图片，点击保存即可。</p>
+                <div class="d3"></div>                
+            </dd>
+        </dl>
+
+    </div>
+</div>
+<script src="/js/jquery/jquery-1.8.3.min.js"></script>
+<script type="text/jscript">
+$(function(){
+    $(".qa_list dl").click(function(){
+        var $dd=$(this).find("dd");
+        if($dd.is(':visible')){
+            $dd.hide();
+            $(this).removeClass("on");
+        }else{
+            $dd.show();
+            $(this).addClass("on");
+        }
+    });
+    $(".qa_list dl:first").click();
+    
+    window.applicationCache.onupdateready = function(e) {
+        if(window.applicationCache.status === window.applicationCache.UPDATEREADY){
+            location.reload();
+        }
+    }
+})
+</script>
+</body>
+</html>

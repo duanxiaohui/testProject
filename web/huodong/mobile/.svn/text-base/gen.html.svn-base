@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+	.input_area{
+		height:100px;
+		padding:5px;
+	}
+	.input_area span{
+		display:inline-block;
+		width:150px;
+	}
+	.input_area input{
+		width:300px;
+	}
+</style>
+</head>
+<body>
+	<div class="input_area">
+		<div><span>android下载链接:</span><input id="android_input" type="text" /></div>
+		<div><span>ios下载链接:</span><input id="ios_input" type="text" /></div>
+		<button onclick="gen();">生成链接</button>
+	</div>
+	<div class="result_area">
+		<span id="result_span"></span>
+	</div>
+</body>
+<script>
+	function gen(){
+		var ios = document.getElementById("ios_input").value;
+		var android = document.getElementById("android_input").value;
+		ios = encode(ios);
+		android = encode(android);
+		var urlAry = ["http://www.365rili.com/huodong/mobile/mt.html","?ios=",
+						ios,"&android=",android];
+		document.getElementById("result_span").innerHTML = urlAry.join("");
+	}
+	function encode(s){
+		return encodeURIComponent(s).replace(/'/g,"%27").replace(/"/g,"%22");
+	}
+</script>
+</html>

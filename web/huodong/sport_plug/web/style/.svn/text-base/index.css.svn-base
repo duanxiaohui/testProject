@@ -1,0 +1,48 @@
+body { margin: 0; padding: 0;  font-family: "Microsoft YaHei", 微软雅黑;}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+textarea { background: #fff; border: 1px solid #d2d9dc; border-radius: 2px; box-shadow: 0 0 0 #d2d9dc; -moz-transition: .3s ease-in-out; transition-property: border box-shadow; -webkit-transition: .3s ease-in-out; }
+textarea:focus, input[type="text"]:focus { /*border: 1px solid #b7d4ea;*/ box-shadow: 0 0 5px #b7d4ea; }
+a { color: #2e3192; cursor: pointer; text-decoration: none; }
+a:hover { color: #ff5b86; }
+.v_align { vertical-align: middle; }
+
+.top{width:100%; height:474px; background:#12221c url(../images/top.jpg) no-repeat center top;}
+.main{background:#f1f3f4 url(../images/bg.jpg) repeat-x left top;}
+.installation,.sports_plug{width:863px; margin:0 auto; padding:35px 0 0 17px;}
+.installation h2,.sports_plug h2{height:74px; line-height:74px; margin:0 0 15px 0; background:url(../images/h_bg.jpg) no-repeat; font-size:36px; font-family: "Microsoft YaHei", 微软雅黑; text-indent:28px; color:#676666; font-weight:500;}
+.installation_content{padding-top:30px; height:284px;}
+.installation_content p{font-size:24px; color:#787878; font-family: "Microsoft YaHei", 微软雅黑; font-size:24px; margin-bottom:30px;}
+.iphone,.andrioid{width:341px; height:142px; background:url(../images/iphone.jpg) no-repeat left top; float:left;}
+.andrioid{margin-left:170px; display:inline;}
+.phone_box{height:92px;}
+.phone_exp{height:50px; line-height:50px; text-align:center; color:#fff;}
+.icon,.txt,.two_code{float:left;}
+.icon{width:100px; padding-top:20px; text-align:center;}
+.txt{width:141px; padding-top:28px; font-size:18px; color:#5b5b5b;}
+.two_code{width:100px; padding-top:6px; text-align:center;}
+.sports_plug h3,.sports_plug p{padding-left:17px;}
+.sports_plug h3{font-size:24px; color:#666; line-height:32px; font-weight:500; margin-bottom:20px;}
+.sports_plug p{font-size:18px; color:#666;}
+.sports_plug img{margin:20px 0 0px 0;}
+.box{padding:10px 0 30px 17px;}
+.box .andrioid{margin-left:150px;}
+.box img{margin:0;}
+
+.footer{height:199px; background:url(../images/footer.jpg) repeat-x left; width:100%;}
+.footer_content{width:960px; margin:0 auto;color:#787878; padding:55px 0 15px 0; font-size:14px; background:url(../images/footerbar.png) no-repeat left bottom;}
+.footer_content a{color:#787878;}
+.about{width:590px; float:left;}
+.Comm{width:210px; float:left;}
+.copy{width:960px; margin:0 auto; padding-top:15px;}
+.copyright{float:left;height:26px; padding-left:35px; background:url(../images/bottom_logo.png) no-repeat left top; font-size:12px; color:#787878; line-height:26px;}
+.weibo{float:right;}
+.weibo a{margin-left:5px;}

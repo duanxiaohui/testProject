@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015铁木真草原马拉松</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015铁木真草原马拉松</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/18cb7420-80f7-47bd-acf8-369cf4e5ec74.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+			  <a class="btn js-subscribe" data-uuid="acfb544e-5c36-4de2-adeb-af219a8f876e" data-cid="147514789">添加提醒</a>
+	    	
+	    	<p class="time">
+
+
+<b>比赛时间：2015年7月4日
+</b></br>
+
+	    	<b>比赛地点：内蒙古西乌旗</b></br>
+
+
+			</p>
+			<h3>活动介绍：</h3>
+			<p>铁木真国际草原马拉松极限挑战赛是中国唯一一个草原马拉松赛事。2015年7月4日早晨，比赛将从西乌旗文化广场出发，然后进入西乌旗草原，随后从西乌旗城市周边道路回到广场。该比赛对所有选手开放，国际知名跑者、业余跑步爱好者、青少年，甚至60岁的老人都可以参与。2015年的草原马拉松赛也沿袭往年规制，分别设置11公里、半程、全程三组。奔驰在茫茫大草原上吧！
+</p>
+			<!--h3是小标题-->
+			<h3>饮食方面
+</h3>
+			<!--p是段落文字描述-->
+			<p>内蒙古的主要特色食品是羊肉和奶制品。西乌旗宾馆也会提供一些西餐，有牛奶、酸奶、蔬菜、水果、速溶咖啡等，也会有中国大米和面条供应。若您感觉不适应当地饮食，建议您携带一些自己喜欢的零食以备不时之需。
+重要提示: 在2015年6月30日后报名的选手需要自行负责参赛的保险。</br></br>
+具体详情以官网信息为准
+</p>
+
+<img src="http://cocoimg.365rili.com/schedule_pics/default/25bb6af6-6820-4665-b9ed-87ea60e505c0.jpg"/>
+<img src="http://cocoimg.365rili.com/schedule_pics/default/bb60636a-df4f-4b76-a86b-9a2f451948ad.jpg"/>
+
+<a href="http://www.grasslandextrememarathon.com/index.php" class="btn js-other">详见官网</a>
+		
+			 <div class="remind_div" data-uuid="acfb544e-5c36-4de2-adeb-af219a8f876e" data-cid="147514789"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/18cb7420-80f7-47bd-acf8-369cf4e5ec74.jpg',
+                title: '2015铁木真草原马拉松',
+                desc: '铁木真国际草原马拉松极限挑战赛是中国唯一一个草原马拉松赛事'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'shareTo',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015铁木真草原马拉松',
+		        				content: '铁木真国际草原马拉松极限挑战赛是中国唯一一个草原马拉松赛事',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/18cb7420-80f7-47bd-acf8-369cf4e5ec74.jpg',
+		        				isEvent: false
+		        			})
+		        		},
+		        		{
+		        			name: 'channel',
+		        			value: 'wx'
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

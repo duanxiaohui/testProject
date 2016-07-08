@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>365日历</title>
+</head>
+<body>
+<script type="text/javascript">
+function s_onload(){
+    setTimeout(function(){
+        var sUserAgent = navigator.userAgent.toLowerCase();
+        var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+        var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+        var bIsAndroid = sUserAgent.match(/android/i) == "android";
+        if (bIsIphoneOs || bIsIpad) {
+            location = "https://itunes.apple.com/cn/app/365ri-li-xin-ban/id642101382?mt=8";
+        }
+        else 
+            if (bIsAndroid) {
+                location = "http://d2.365rili.com/dl/android/exchange/coco_qqliulanqi.apk";
+            }
+            else {
+                location = "http://d2.365rili.com/dl/pc/update/365rili.exe";
+            }
+    }, 500)
+}
+</script>
+<script src="//www.365rili.com/js/lib/app.js" onload="s_onload()"></script>
+</body>
+</html>
+

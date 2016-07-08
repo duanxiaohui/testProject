@@ -1,0 +1,35 @@
+@CHARSET "utf-8";
+
+body {
+    margin: 0;
+    font-family: Helvetica;
+     overflow: hidden;
+    -webkit-text-size-adjust: none;
+}
+
+#Down {
+	position: relative;
+	background:url('/huodong/2012ay/images/down.png') no-repeat;
+	margin-top: -120px;
+	margin-left: auto;;
+	margin-right: auto;
+	width:279px;
+	height:53px;
+	z-index:9999999999;
+	border:0px;
+	display:block;
+	text-decoration: none;
+}
+
+#Down:active {
+	background:url('/huodong/2012ay/images/down_click.png') no-repeat;
+}
+
+.panel {
+    box-sizing: border-box;
+    width:auto;
+}
+
+.panel_poster img{
+	max-width:100%;
+}

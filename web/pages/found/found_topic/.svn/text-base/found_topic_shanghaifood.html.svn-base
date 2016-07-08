@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>沪上风情，异国味道</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<link href="http://www.365rili.com/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/found_topic/style/found_topic.css" rel="stylesheet">
+<body>
+	<div class="found_topic">
+		<div class="found_topic_top">
+			<img src="http://www.365rili.com/pages/found/found_topic/images/shanghai_food/found_topic_top.jpg" width="100%" alt="">
+		</div>
+		<div class="found_topic_txt">
+			<h2>沪上风情，异国味道<br/>让万国美食唤醒沉睡味蕾</h2>
+			<p>鳞次栉比的摩天楼宇与外滩老式西洋建筑遥相辉映，传统和现代的交融并存开辟了新上海滩的崭新画卷。西式美食的魅力更不可抵挡，在春节期间享受一次不同以往的美食体验吧！</p>
+		</div>
+		<div class="found_topic_list">
+			<ul>
+				
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=4031">
+					<div class="topic_list_img">
+						<img src="http://www.365rili.com/pages/found/found_topic/images/shanghai_food/found_topic_list2.jpg" width="100%" alt="">
+					</div>
+					<h3>品尝摩洛哥传统美食的最佳圣地</h3>
+					<p>摩洛哥国脚最爱的午餐胜地，温馨环境里尽享中东美味。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=4433">
+					<div class="topic_list_img">
+						<img src="http://www.365rili.com/pages/found/found_topic/images/shanghai_food/found_topic_list3.jpg" width="100%" alt="">
+					</div>
+					<h3>魔幻墨西哥，文化和美味并存</h3>
+					<p>当三文鱼撞味龙舌兰，小玛雅带你品尝别样的墨西哥风情。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=3817">
+					<div class="topic_list_img">
+						<img src="http://www.365rili.com/pages/found/found_topic/images/shanghai_food/found_topic_list4.jpg" width="100%" alt="">
+					</div>
+					<h3>墨西哥高端料理 玛雅神秘风味初探</h3>
+					<p>上海最著名餐厅MAYA巨献，五星酒店厨师的倾力杰作，领略传统墨西哥菜与中式创新碰撞出的美味。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=4241">
+					<div class="topic_list_img">
+						<img src="http://www.365rili.com/pages/found/found_topic/images/shanghai_food/found_topic_list5.jpg" width="100%" alt="">
+					</div>
+					<h3>沉醉于意式浪漫中的晚餐盛宴</h3>
+					<p>意大利空运烤炉，亚洲第一家果木炭烤披萨餐厅，给你最正宗的那不勒斯味道。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=3239">
+					<div class="topic_list_img">
+						<img src="http://www.365rili.com/pages/found/found_topic/images/shanghai_food/found_topic_list6.jpg" width="100%" alt="">
+					</div>
+					<h3>Notting House汉堡给你最低调华丽</h3>
+					<p>仿佛置身于文艺复兴时期的意大利，低调美味彰显后现代意食风情。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=2411">
+					<div class="topic_list_img">
+						<img src="http://www.365rili.com/pages/found/found_topic/images/shanghai_food/found_topic_list7.jpg" width="100%" alt="">
+					</div>
+					<h3>舞动舌尖的西班牙墨鱼海鲜饭</h3>
+					<p>在衡山路梧桐掩映下的醉心西班牙餐厅，墨鱼海鲜饭让你体会到来自地中海的地道美味。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=3871">
+					<div class="topic_list_img">
+						<img src="http://www.365rili.com/pages/found/found_topic/images/shanghai_food/found_topic_list8.jpg" width="100%" alt="">
+					</div>
+					<h3>宋氏洋房内的浪漫烛光晚餐</h3>
+					<p>沪上最著名西餐厅萨莎花园内享受浪漫花园烛光晚餐，德式香肠和香烤鸡肉让你唇齿留香。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=2031">
+					<div class="topic_list_img">
+						<img src="http://www.365rili.com/pages/found/found_topic/images/shanghai_food/found_topic_list9.jpg" width="100%" alt="">
+					</div>
+					<h3>老外最爱英伦餐厅 沪上超级海陆大餐</h3>
+					<p>为英国菜正名，不仅只有鱼和土豆！西冷牛排和各式鱼类料理让你品尝最正宗的英伦味道！</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=3453">
+					<div class="topic_list_img">
+						<img src="http://www.365rili.com/pages/found/found_topic/images/shanghai_food/found_topic_list10.jpg" width="100%" alt="">
+					</div>
+					<h3>“龙虾+牛排”超级海陆拍档</h3>
+					<p>英国超一流主厨操刀为你倾力打造最尽兴的海陆盛宴！</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+    <div id="VER" style="display: none;"></div>
+    <div id="UID" style="display: none;"></div>
+    <div id="MAC" style="display: none;"></div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js?20151016"></script>
+    <script src="http://www.365rili.com/js/lib/app.js?20151119"></script>
+    <script src="http://www.365rili.com/pages/found/js/function.js?20151119"></script>
+    <script src="http://www.365rili.com/pages/found/found_topic/js/found_topic.js?20151119"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>光棍节来了，我们一起过夫妻节吧</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/husband_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>光棍节来了，我们一起过夫妻节吧</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>这个世界上有许多种狗，有高贵优雅的萨摩耶、勇猛刚毅的藏獒、小巧可爱的吉娃娃……但也有那么一两类“变异品种”，比如单身狗。这个群体的出现，在很大程度上要感谢互联网这样一个神奇的环境——在成千上万热血网友的努力下创作出了无法量化的优秀内容，其中就包括单身狗这个名称。</p>
+            <p class="mt15">据说单身狗是继老弱病残孕之后的第六大需要保护的群体，情侣们该躲远点的就躲远点吧。尤其是11月11日的光棍节，震撼的数字提醒着他们单身的事实，对他们来说堪称渡劫。因此，他们大多会选择在这天去狂欢，用酒精麻痹自己受伤的心。</p>
+            <img src="/pages/found/qp_holiday/images/husband_img1.jpg"/>
+            <p>但是小编发现了一个残忍的事实，就连这一天他们也不能安安静静的做一个单身狗了，因为这一天竟然是香港的夫妻节！</p>
+            <h3>【节日起源】</h3>
+            <p>夫妻节有一个你怎么都想不到的起源。1999年，大卫城卫华中心总监吴振智牧师受感在千禧年、即耶稣出生2000年的大日子，要将基督最希望得到的礼物——贞洁献给基督，贞洁运动就这样开始了。在这期间，吴振智牧师夫妇为贞洁运动祷告时，一同领受发起了夫妻节，这个节日成为了贞洁运动的支柱之一。</p>
+            <img src="/pages/found/qp_holiday/images/husband_img2.jpg"/>
+            <p>2000年1月2日，大卫城文化中心发动了“千禧贞洁献礼”及“贞洁巡游”，有超过一千人参加，这成为了夫妻节的基础。节日当天公布的一份调查报告显示，75%的中学生表示可能同居而不结婚、70%的中学生不介意结婚初夜配偶不是处男或处女。这引起了传媒的高度注意，进而对相关话题进行了广泛的报道，首次将夫妻节的概念正式向普罗大众提倡。</p>
+            <h3>【一夫一妻，一生一世】</h3>
+            <p>2002年夫妻节活动前夕，“香港夫妻爱情专一调查”问卷结果显示，受访市民中10%有婚外情，也就是说全香港大约有33万人发生过婚外情行为，调查结果颇为震撼。自2002年开始，每年的11月11日（取一夫一妻、一生一世之意）都会举行庆典活动，向社会大众宣传“一生一世的婚姻是人生最重要的成就，有无比价值”这样一个观念。除香港外，全球还有很多个城市都开展了夫妻节的庆祝活动，中山为10月6日(首次)，悉尼为11月3日（首次），纽约为11月11日，温哥华为11月12日，维多利亚市为11月17日。</p>
+
+            <div class="tips">
+                <p>1、11月11日是众所周知的光棍节，但是一个事实让“单身狗”无法再淡定——这天还是香港的夫妻节；</p>
+                <p>2、在婚外情泛滥的时代，夫妻节旨在向社会大众传递“一夫一妻，一生一世”的婚姻观念，满满的都是正能量！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

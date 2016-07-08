@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>一声母亲，一生母亲</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/mother's_day/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>母亲节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>“在生命的交替中，父母与孩子是相依为命、相互给予的。而等待成长，是一个有些漫长却蕴含着美好的过程，就像我们在时光中停下目光，看着花朵在微风中开放，阳光把稻谷晒得金黄一样。”看到了很美的一段话，想象着自己从初生的婴儿，到学习说话和走路，开始和她交流，然后我们长大飞向自己的世界。自始至终我们的生命满浸这她的汗水，但是很多时候我们却把她忘记在了那个最初的世界里。</p>
+            <h3>【世界上最勇敢的女人】</h3>
+            <p>这个世界上，从来都是“士为知己者死，女为悦己者容”，演变到现在，也许前半句的故事已然成为上世纪的神话，然而后半句的金句效应还在生活里屡试不爽。女人会为所爱的人变得温婉动人，但……有些女人，会为了自己想要守护的东西，甘愿收起软弱、眼泪，甚至是引以为荣的青春和美貌，转而变得内心坚韧，更有担当。</p>
+            <img src="images/mother's_day/holiday_1.jpg"/>
+            <p>很多时候，面对生活的重创和打压，因为有爱，为人母，她们会勇敢地扛起一个家，像大多数的男人一样。</p>   
+            <h3>【不要只在母亲节过母亲节】</h3>
+            <p>我们已经过了很多个母亲节，有时候我们打个电话、发条信息，买束康乃馨或者任何她喜欢或者不喜欢的礼物。一切都是那么自然，这是一个节日，我们像过任何一个节日一样去过它。</p>
+            <img src="images/mother's_day/holiday_2.jpg"/>
+            <p>而在其他的时候，我们一样。一样不喜欢唠叨，一样不知道在天气变冷的时候提醒她加件衣服。因为只有5月的第三个星期日是母亲节，其他日期都是普通的，虽然在普通的每一天她都在用尽全力的爱我们。</p>
+
+            <p class="mt15">不要只在母亲节过母亲节了，也许她们并没有那么迫切的想要一份礼物，她们更喜欢每天都能聊聊天，她们想知道你的爱，就像她爱你一样。</p>
+
+            <div class="tips">
+                <p>1、每年5月的第三个星期日是母亲节，过了那么多年的节日小编真不知道再介绍什么；</p>
+                <p>2、不要只在母亲节过母亲节，这是第三遍说这句话了。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

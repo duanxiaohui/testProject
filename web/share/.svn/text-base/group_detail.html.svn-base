@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+    <meta content="telephone=no" name="format-detection">
+    <title>365日历</title>
+    <link href="/share/style/share.css" rel="stylesheet" media="screen">
+    <link href="/share/style/share_clendar.css" rel="stylesheet" media="screen">
+    <link href="/pages/client_calendar_h5/css/silde_s.css?v=20141112" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/footer.css" />
+
+
+
+    <script type="text/javascript">
+		function getURLParameter(name) {
+			return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
+		}
+        var G = {
+        	bgu: getURLParameter('bgu'),
+        	sid: getURLParameter('sid'),
+            cid: getURLParameter('cid'),
+            uuid:getURLParameter('uuid')
+        };
+    </script>
+</head>
+<body>
+    <div class="share_footer">
+        <a href="javascript:;" class="down_btn">立即使用</a>
+        <div class="logo"><a href="javascript:;"></a></div>
+        <p>群组日历-发现更多有趣日程</p>
+    </div>
+
+
+    <div class="ss_main none">
+
+    </div>
+
+    <div class="mask none"></div>
+    <div class="tips_layer none">
+        <h3></h3>
+        <p></p>
+        <a href="javascript:;" class="layer_btn">立即使用</a>
+    </div>
+    <script type="text/javascript" src="/js/lib/zepto.min.js"></script>
+    <script type="text/javascript" src="/js/lib/zepto.cookie.js"></script>
+    <script type="text/javascript" src="/js/lib/zTouch.js"></script>
+    <script type="text/javascript" src="/js/lib/slide_s.js?20141114"></script>
+    <script type="text/javascript" src="/share/js/scheduleShare.js?20141224"></script>
+    <script src="js/group_detail.js"></script>
+    <script type="text/javascript" src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?type=quick&ak=7641c2bcde6b6d1d3c07de7a090029f8&v=1.0"></script>
+    <script>
+	group_detail.render();
+    </script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?type=quick&ak=7641c2bcde6b6d1d3c07de7a090029f8&v=1.0"></script>
+</body>
+</html>

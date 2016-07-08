@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历订票</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+</head>
+<body>
+<div class="main">
+	<div class="img"></div>
+	<div class="txt">365日历提示您：今年春运，互联网及电话订票预售期为二十天。1月7日正式开售春运火车票，当日可购买1月26日车票。</div>
+	<a href="javascript:;" class="btn" id="btn">分享给好友</a>
+</div>
+<script type="text/javascript">
+    function $(id){
+        return document.getElementById(id);
+    }
+	window.onload = function(){
+		var btn = $("btn");
+		btn.onclick = function(){
+			var txt = "@365日历 2013年春运火车票购票日历。下载地址：http://www.365rili.com"
+			var json = '[{"img": "ticket.jpg","content": "@365日历 2013年春运火车票购票日历。下载地址：http://www.365rili.com","via": "weibo","type": "type","follow": true},{"img":"ticket.jpg","content":"@a365rili 2013年春运火车票购票日历。下载地址：http://www.365rili.com","via":"qt","type":"type","follow":true},{"via":"weixin", "url":"http://mapiv2.365rili.com/m/getWeixinPicURL.do?img=ticket.jpg"}]';
+			if (/android/i.test(navigator.userAgent)) {
+				try {
+					AliansBridge.sharev2(json);
+				} 
+				catch (e) {
+					try {
+						AliansBridge.share(txt, img = "ticket.jpg", null, false);
+					} 
+					catch (e) {
+						alert("您的365日历版本暂不支持发微博，请升级到最新版");
+					}
+				}
+			}
+			else 
+				if (/ipad|iphone|mac/i.test(navigator.userAgent)) {
+					btn.href = 'rili365app:share|||||' + txt + '|||||ticket.jpg';
+				}
+		}
+	}
+</script>
+</body>
+</html>

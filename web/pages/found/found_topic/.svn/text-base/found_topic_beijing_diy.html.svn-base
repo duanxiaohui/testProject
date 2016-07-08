@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>手作时光，珍藏幸福</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<link href="http://www.365rili.com/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/found_topic/style/found_topic.css" rel="stylesheet">
+<body>
+	<div class="found_topic">
+		<div class="found_topic_top">
+			<img src="http://www.365rili.com/pages/found/found_topic/images/beijing_diy/found_topic_top.jpg" width="100%" alt="">
+		</div>
+		<div class="found_topic_txt">
+			<h2>手作时光，珍藏幸福<br/>体验北京最具特色DIY手作课程</h2>
+			<p>已经厌倦了千篇一律毫无创新的礼物？不如来亲手制作一款独一无二的专属礼物来纪念那些特别的日子，将那些美好的瞬间珍藏下来让珍惜的人铭记。在这个春天，一起体验手作带来的快乐与成就感吧！</p>
+		</div>
+		<div class="found_topic_list">
+			<ul>
+				
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=6655">
+					<div class="topic_list_img">
+						<img src="http://www.365rili.com/pages/found/found_topic/images/beijing_diy/found_topic_list1.jpg" width="100%" alt="">
+					</div>
+					<h3>刻出一番新天地，复古名章体验课</h3>
+					<p>人人都是设计师，动手设计出属于自己专属复古橡皮章。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=5275">
+					<div class="topic_list_img">
+						<img src="http://www.365rili.com/pages/found/found_topic/images/beijing_diy/found_topic_list2.jpg" width="100%" alt="">
+					</div>
+					<h3>秘密花园，多肉植物花园DIY</h3>
+					<p> 全程专业设计师指导，几十种植物，上百种盆器，打造属于你自己的肉肉秘密花园。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=4731">
+					<div class="topic_list_img">
+						<img src="http://www.365rili.com/pages/found/found_topic/images/beijing_diy/found_topic_list3.jpg" width="100%" alt="">
+					</div>
+					<h3>让你的愿望成真，可爱手捧许愿瓶DIY</h3>
+					<p>许个愿吧！守护真爱，让梦想照进现实，体验亲自动手的乐趣。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a> 
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=4729">
+					<div class="topic_list_img">
+						<img src="http://www.365rili.com/pages/found/found_topic/images/beijing_diy/found_topic_list4.jpg" width="100%" alt="">
+					</div>
+					<h3>甜心私房烘焙体验，cupcake木糠杯</h3>
+					<p>即使是烘焙零基础也能够制作出最甜蜜的纸杯蛋糕，让幸福的味道长久围绕着你。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=6695">
+					<div class="topic_list_img">
+						<img src="http://www.365rili.com/pages/found/found_topic/images/beijing_diy/found_topic_list5.jpg" width="100%" alt="">
+					</div>
+					<h3>DIY专属华丽甜品，变身烘焙达人</h3>
+					<p>不甘平庸，只做最出色的party host！亲手学习并制作一份美味的高逼格华丽甜点，让你的聚会充满惊喜。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=6875">
+					<div class="topic_list_img">
+						<img src="http://www.365rili.com/pages/found/found_topic/images/beijing_diy/found_topic_list6.jpg" width="100%" alt="">
+					</div>
+					<h3>DIY梦幻永生花，留住稍纵即逝的美丽</h3>
+					<p>一起亲手设计属于你独一无二的永生花，致永不凋零的爱情。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=6576">
+					<div class="topic_list_img">
+						<img src="http://www.365rili.com/pages/found/found_topic/images/beijing_diy/found_topic_list7.jpg" width="100%" alt="">
+					</div>
+					<h3>养一盆花、爱一个人、植物微景观DIY体验</h3>
+					<p>在DIY微景观中回归轻松简单的生活，享受绿色植物带给你的生机勃勃的精气神。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+    <div id="VER" style="display: none;"></div>
+    <div id="UID" style="display: none;"></div>
+    <div id="MAC" style="display: none;"></div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js?20151016"></script>
+    <script src="http://www.365rili.com/js/lib/app.js?20151119"></script>
+    <script src="http://www.365rili.com/pages/found/js/function.js?20151119"></script>
+    <script src="http://www.365rili.com/pages/found/found_topic/js/found_topic.js?20151119"></script>
+</body>
+</html>

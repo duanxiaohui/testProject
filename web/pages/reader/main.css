@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2014-07-16 14:37:29
+ * @version $Id$
+ */
+
+html, body{
+	height: 100%;
+	margin: 0;
+}
+ul, li {
+	list-style-type: none;
+	padding-left: 0px;
+	margin: 0px;
+}
+.main_area{
+	height: 100%;
+}
+
+.sidebar{
+	height: 100%;
+	background-color: rgb(79,79,79);
+	color:#fff;
+	float: left;
+	width: 220px;
+	font-family: Microsoft YaHei;
+	overflow: auto;
+}
+.sidebar .logo{
+	height: 70px;
+	padding-top: 30px;
+	text-align: center;
+}
+.all_item{
+	margin-bottom: 20px;
+}
+.all_item, .calendar_item{
+	padding-left:12px;
+	font-size:14px;
+	height: 32px;
+	line-height: 32px;
+}
+.active{
+	background-color: rgb(100,100,100);
+}
+.middle{
+	width: 314px;
+	height: 100%;
+	float: left;
+	border-right: 1px solid #eee;
+	overflow: auto;
+}
+.date_item{
+	font-size: 12px;
+	color: #888;
+	height: 24px;
+	line-height: 24px;
+	border-bottom: 1px solid #ddd;
+	padding-left: 18px;
+	background-color: rgb(245,244,240);
+}
+.schedule_item{
+	color: #222;
+	padding: 6px 16px;
+	font-size: 14px;
+	line-height: 18px;
+	border-bottom: 1px solid #d4d4d4;
+}
+.schedule_text{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	
+}
+.schedule_time{
+	color: #008caf;
+font-size: 13px;
+margin-top: 6px;
+margin-bottom: 8px;
+}
+.schedule_active{
+	background-color: rgb(239,238,234);
+}
+.content{
+	margin-left:540px;
+	height: 100%;
+	overflow: auto;
+}
+.image_item{
+	margin:0 auto;
+	padding: 14px;
+	display: block;
+}
+.content_text{
+	font-size:15px;
+	padding: 20px;
+}
+.paragraph{
+line-height: 1.75em;
+margin-bottom: 10px;
+}

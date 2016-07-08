@@ -1,0 +1,284 @@
+.block4:hover
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/hover_block4.png');
+}
+.block5:hover
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/hover_block4.png');
+}
+.block6:hover
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/hover_block6.png');
+}
+.today4
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/today_block4.png');
+}
+.today5
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/today_block5.png');
+}
+.today6
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/today_block6.png');
+}
+.today4:hover
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/today_block4.png');
+}
+.today5:hover
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/today_block5.png');
+}
+.today6:hover
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/today_block6.png');
+}
+.work
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/work.png');
+}
+.rest
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/rest.png');
+}
+.clickBlock4
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/select_block4.png');
+}
+.clickBlock5
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/select_block5.png');
+}
+.clickBlock6
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/select_block6.png');
+}
+.clickBlock4:hover
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/select_block4.png');
+}
+.clickBlock5:hover
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/select_block5.png');
+}
+.clickBlock6:hover
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/select_block6.png');
+}
+
+#cal_365riliLogo
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/other/365logo.png');
+}
+#prev_button
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/left.png');
+}
+#prev_button:hover
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/left_hover.png');
+}
+#prev_button:active
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/left_click.png');
+}
+
+#next_button
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/right.png');
+}
+#next_button:hover
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/right_hover.png');
+}
+#next_button:active
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/right_click.png');
+}
+#year_func
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/year.png');
+}
+#year_func:hover
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/year_hover.png');
+}
+#year_func:active
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/year_click.png');
+}
+#month_func
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/month.png');
+}
+#month_func:hover
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/month_hover.png');
+}
+#month_func:active
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/month_click.png');
+}
+#festival
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/festival.png');
+}
+#festival:hover
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/festival_hover.png');
+}
+#festival:active
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/month_click.png');
+}
+#today_button
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/today.png');
+}
+#today_button:hover
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/today_hover.png');
+}
+#today_button:active
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/today_click.png');
+}
+
+#cal_plusbutton
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/add.png');
+}
+#cal_plusbutton:hover
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/add_hover.png');
+}
+#cal_plusbutton:active
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/add_click.png');
+}
+#qh_login
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/login.png');
+}
+#bd_login:hover
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/login_hover.png');
+}
+#bd_login:active
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/login_click.png');
+}
+.func_button
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/other/funcButton.png');
+}
+	
+.selecter_block
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/other/funcButtonUp.png');
+}
+#cal_downmidshadow
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/other/downmidshadow.png');
+}
+#cal_cornershadow
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/other/cornershadow.png');
+}
+#cal_rightupshadow
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/other/rightdownbuttonright.png');
+}
+#cal_rssbutton
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/other/rightdownbuttonright.png');
+}
+#plusDiv
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/addtask.png');
+}
+.work_item_dot
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/other/dot2.png');
+}
+.hasWorkDot
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/other/dot1.png');
+}
+#huangliDiv
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/other/pophuang.png');
+}
+.popDownArrow
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/downarrow.png');
+}
+#taskHover
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/task.png');
+}
+
+.tastWorkDot
+{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/wannianlibaidu/BD_images/dot1.png');
+}
+#logo-text
+{
+	margin-left: 12px;
+}

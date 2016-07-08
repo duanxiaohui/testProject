@@ -1,0 +1,37 @@
+body { background: #fff; color: #444; font: 12px / 1.5em "Microsoft YaHei", 微软雅黑,SimSun,arial; margin: 0; padding: 0; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+textarea { background: #fff; border: 1px solid #d2d9dc; border-radius: 2px; box-shadow: 0 0 0 #d2d9dc; -moz-transition: .3s ease-in-out; transition-property: border box-shadow; -webkit-transition: .3s ease-in-out; }
+textarea:focus, input[type="text"]:focus { /*border: 1px solid #b7d4ea;*/ box-shadow: 0 0 5px #b7d4ea; }
+a { color: #208de9; cursor: pointer; text-decoration: none; }
+
+.main{width:320px; margin:0 auto; background:url(../images/bg.png) repeat -10px -15px;-webkit-background-size:30px 29px; overflow:auto;}
+.logo{width:271px; height:75px; margin:15px 0 0 15px; background:url(../images/logo.png) no-repeat;-webkit-background-size:271px 75px;}
+.txt{padding:10px 0 0 15px;}
+.txt dl{padding-top:5px;}
+.txt dt{width:20px; height:20px; margin-top:3px; font-weight:600; float:left; text-align:center; line-height:20px; color:#fff; font-size:12px; -moz-border-radius:10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px; border-radius: 10px;}
+.one{background:#f48315;}
+.two{background:#ffd528;}
+.three{background:#4ea9f2;}
+.four{background:#0e6ab8;}
+.txt dd{margin-left:20px; font-size:14px; line-height:22px;}
+.btn{display:block; width:202px; height:96px; margin:10px auto; background:url(../images/down_btn.png) no-repeat;-webkit-background-size:202px 96px;}
+
+.main_web{width:960px; margin:0 auto; padding-top:100px;}
+.main_web .logo{width:290px; height:92px; background:none; float:left;}
+.main_web .txt{float:left; padding-left:75px;}
+.web_btn{width:960px; margin:0 auto; padding-top:50px;}
+.web_btn a{float:left;}
+.web_btn_down{width:240px; padding-left:40px; height:78px; line-height:78px; font-size:26px; color:#fff;}
+.appstore,.googleplay{width:150px; height:78px;}
+.web_ios .web_btn_down{background:#7ac8e8 url(../images/ios_code.png) no-repeat 205px center;}
+.web_android{float:right;}
+.web_android .web_btn_down{background:#62a93f url(../images/android_code.png) no-repeat 205px center;}

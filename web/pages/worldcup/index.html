@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-cn">
+    <head>
+        <meta charset="utf-8">
+        <title>365日历——世界杯专题</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" href="/favicon.ico">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css styles/vendor.css -->
+        <!-- bower:css -->
+        <link rel="stylesheet" href="/js/app/bower_components/bootstrap/dist/css/bootstrap.css">
+        <!-- endbower -->
+        <!-- endbuild -->
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="main.css">
+        <!-- endbuild -->
+        
+    </head>
+    <body>
+        <div class="container" ng-app="365_calendar.worldcup" ng-controller="WorldcupCtrl">
+            <div class="header">
+                <div class="banner">
+                    <img src="http://cocoimg.365rili.com/pic/default/5d269134-50f5-43b3-a7bc-bd1a4fee2ef4.jpg!small480" />
+                </div>
+                <h3 class="title">365日历——巴西世界杯</h3>
+                <div style="float:right;">今天是2014年6月6日，星期五</div>
+                
+            </div>
+            <div class="content">
+                <!--
+                <h4>最近赛程</h4>
+                <div class="list_view" style="height:200px;">
+                    <ul class="schedule_list">
+                        <li class="item" ng-repeat="schedule in WorldCupData.shortListRows">
+                            <div class="head">
+                                <p class="time"><i class="icons"></i>{{schedule.time}}</p>
+                            </div>
+                            <div class="bd">
+                                <div class="team fl"><p class="score">-</p><p class="name">{{schedule.team1}}</p></div>
+                                <div class="team fr"><p class="score">-</p><p class="name">{{schedule.team2}}</p></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                -->
+                <h4>赛程日历</h4>                
+                <div class="month_view">
+                    <table class="month_view_table">                
+                        <tbody>
+                            <tr class="yh f14 l30">
+                                <td>周一</td>
+                                <td>周二</td>
+                                <td>周三</td>
+                                <td>周四</td>
+                                <td>周五</td>
+                                <td>周六</td>
+                                <td>周日</td>
+                            </tr>
+                            <tr class="row_content" ng-repeat="row in WorldCupData.monthRows">
+                                <td ng-repeat="cell in row.cells" ng-class="{row1:$index==0,
+                                                                             row2:$index==1,
+                                                                             row3:$index==2,
+                                                                             row4:$index==3,
+                                                                             row5:$index==4,
+                                                                             row6:$index==5,
+                                                                             row7:$index==6,}">
+                                    <div class="cell">
+                                        <div class="day_div">{{cell.monthDateStr}}</div>
+                                        <ul class="match_list">
+                                            <li class="item" ng-repeat="schedule in cell.schedules">
+                                                <div>{{schedule.time}}</div>
+                                                <div>{{schedule.text}}</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="footer">
+                Powered By 365 Calendar
+            </div>
+        </div>
+        <script src="/js/app/bower_components/jquery/dist/jquery.js"></script>
+        <script src="/js/app/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="/js/app/bower_components/angular/angular.min.js"></script>
+        <script src="/js/angular/controller/worldcup.js"></script>
+    </body>
+</html>

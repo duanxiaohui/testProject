@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
+</head>
+<body class="web">
+	<div class="main_web e_clear">
+		<div class="logo"><a href="http://www.365rili.com" target="_blank"><img src="images/logo_web.png"/></a></div>
+		<div class="txt">
+			<dl class="e_clear">
+				<dt class="one">1</dt>
+				<dd>
+					<p>【云同步】</p>
+					<p>云端服务器实时同步更新电脑和手机的日程，已为4000万用户保存超过上亿条日程</p> 
+				</dd>
+			</dl>
+			<dl class="e_clear">
+				<dt class="two">2</dt>
+				<dd>
+					<p>【多日历】   </p>
+					<p>几十款定制日历，从体育赛事到最新电影，从每日养生到品牌折扣，知你所需，予你所要。 </p>
+				</dd>
+			</dl>
+			<dl class="e_clear">
+				<dt class="three">3</dt>
+				<dd>
+					<p>【精美皮肤】</p> 
+					<p>多款质感皮肤，支持自定义背景和颜色，用细节打动你，品质生活，品质日历。 </p> 
+				</dd>
+			</dl>
+			<dl class="e_clear">
+				<dt class="four">4</dt>
+				<dd>
+					<p>【顶级设计】</p> 
+					<p>由顶级设计公司精心打造用户界面，给你完美视觉享受。</p> 
+				</dd>
+			</dl>
+		</div>
+	</div>
+	<div class="web_btn">
+		<div class="web_android e_clear">
+			<a href="http://d2.365rili.com/coco.apk" class="web_btn_down">立即下载</a><a href="https://play.google.com/store/apps/details?id=com.when.coco&feature=more_from_developer" class="googleplay"><img src="images/googleplay.jpg"/></a>
+		</div>
+		<div class="web_ios e_clear">
+			<a href="https://itunes.apple.com/cn/app/365ri-li-xin-ban/id642101382?mt=8" class="web_btn_down">立即下载</a><a href="https://itunes.apple.com/cn/app/365ri-li-xin-ban/id642101382?mt=8" class="appstore"><img src="images/appstore.jpg"/></a>
+		</div>
+	</div>
+<!--[if lte IE 6]>
+<script type="text/javascript" src="js/dd_belatedpng.js"></script>
+<script>
+          DD_belatedPNG.fix('img,.iepng');
+</script>
+<![endif]-->
+</body>
+</html>

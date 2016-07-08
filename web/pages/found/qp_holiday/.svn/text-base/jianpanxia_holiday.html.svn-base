@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>6亿人的节日——中国网民文化节</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/jianpanxia_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>6亿人的节日——中国网民文化节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>1987年的9月14日，一封题为《跨越长城、走向世界》的电子邮件，通过互联网问候了世界，这是中国发出的第一封电子邮件。</p>
+            <p class="mt15">22年后，经过对近50万网民的调查，43.97%的网民支持将每年9月14日设立为中国网民文化节，在中国互联网协会宣布确定之后意味着，网民节如同记者节等节日一样，获得了官方和大众的认可。</p>
+             <img src="/pages/found/qp_holiday/images/jianpanxia_img1.jpg" width="100%"/>
+            <h3>【我国互联网事业的发展】</h3>
+            <p>中国互联网经过二十多年的发展，在网络基础设施建设、网络应用方面取得了卓著的成绩。基于互联网而衍生的商业模式不断创新；互联网不断深入到我国政治、经济、文化、医疗及教育等领域，并产生深远影响。</p>
+            <p class="mt15">网民人数从无到有，截止到去年网民节举办的时候，已经发展成6.32亿人的庞大规模，使中国成为世界上网民数量最多的网络大国。</p>
+            <p class="mt15">将近一半的人口都是网民是什么概念？在城镇里几乎人人都离不开网络：不管是戴着老花镜和外地打拼的儿女视频通话的老人、在家学习网络课程的孩童、还是没有wifi就无法存活的年轻人，人人都是一个节点，我们与认识的不认识的、相似的不相似的、组织的个人的各种其他节点建立各种关系，织成了这张世界上最大的网——互联网。</p>
+            <img src="/pages/found/qp_holiday/images/jianpanxia_img2.jpg"/>
+            <h3>【网民节活动】</h3>
+            <p>过去的网民节举办过许多精彩活动：</p>
+            <p>网络大扫除——网民节组委会特联合金山、奇虎360等国内知名信息安全企业为网民提供多款免费“扫除工具”，网民只需注册成为会员，即可免费下载和使用知名企业联合提供电脑、手机杀毒，垃圾信息拦截等软件，轻松、快捷实现网络垃圾“大扫除”；</p>
+            <p class="mt15">网民音乐大赛——活动将通过线上报名，上传作品，线上投票初选，线上线下同时投票方式决出优胜，优胜者将有机会与各界知名人士一起出席网民节盛典，并有机会现场展示超群的音乐才华；</p>
+            <p class="mt15">网民节狂欢——邀请网民节前期各项互动活动的参与者以及热情关注参与狂欢，网民装备展、COSPLAY展示、游戏竞技大赛、网民体验展、打字大赛等一系列特色活动也同时启动。</p>
+            <p class="mt15">网络中的一个节点虽然很微小，但汇聚起来就有改变世界的力量，互联网正是这股力量的强大推手。这个属于6亿网民的节日怎么过，由每个网民自己说了算！</p>
+
+            <div class="tips">
+                <p>1、9月14日是中国网民文化节；</p>
+                <p>2、这个节日通常是由官方来组织庆祝活动；</p>
+                <p>3、网络世界虽然美好，也不要太过沉迷其中哦！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/欢欢</div>
+    </div>
+      <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+    
+ </body>
+</html>
+

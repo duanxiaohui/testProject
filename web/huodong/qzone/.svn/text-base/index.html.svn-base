@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历--城市日历</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+</head>
+<body>
+	<div id="bg"></div>
+	<div class="code_layer" id="code_layer">
+		<img src="images/code_layer_img.jpg"/>
+		<p>苹果手机或安卓手机直接扫描二维码即可下载365日历</p>
+	</div>
+	<div class="top">
+		<div class="down_btn" id="down_btn">点击获取二维码下载365日历</div>
+		<div class="logo e_clear">
+			<div class="logo_img"><a href="http://www.365rili.com" target="_blank"><img src="images/logo.jpg" alt="365日历logo"/></a></div>
+			<div class="logo_txt">
+				<h2>365日历</h2>
+				<p>你的日历与众不同</p>
+			</div>
+		</div>
+	</div>
+	<div class="banner">
+		<div class="banner_box">
+			<a heef="javascript:;" id="btn">点击获取二维码下载365日历</a>
+		</div>
+	</div>
+	<div class="main">
+		<h3>城市日历</h3>
+		<ul class="e_clear">
+			<li><div class=""><img src="images/beijing.jpg"/></div><p>北京</p></li>
+			<li><div class=""><img src="images/shenzhen.jpg"/></div><p>深圳</p></li>
+			<li><div class=""><img src="images/shanghai.jpg"/></div><p>上海</p></li>
+			<li><div class=""><img src="images/guangzhou.jpg"/></div><p>广州</p></li>
+			<li><div class=""><img src="images/nanjing.jpg"/></div><p>南京</p></li>
+			<li><div class=""><img src="images/xianggang.jpg"/></div><p>香港</p></li>
+			<li><div class=""><img src="images/wuhan.jpg"/></div><p>武汉</p></li>
+			<li><div class=""><img src="images/shenyang.jpg"/></div><p>沈阳</p></li>
+			<li><div class=""><img src="images/hangzhou.jpg"/></div><p>杭州</p></li>
+			<li><div class=""><img src="images/xian.jpg"/></div><p>西安</p></li>
+			<li><div class=""><img src="images/changsha.jpg"/></div><p>长沙</p></li>
+			<li><div class=""><img src="images/shengdu.jpg"/></div><p>成都</p></li>
+			<li><div class=""><img src="images/zhengzhou.jpg"/></div><p>郑州</p></li>
+			<li><div class=""><img src="images/chongqing.jpg"/></div><p>重庆</p></li>
+			<li><div class=""><img src="images/haerbin.jpg"/></div><p>哈尔滨</p></li>
+			<li><div class=""><img src="images/tianjin.jpg"/></div><p>天津</p></li>
+			<li><div class=""><img src="images/xiamen.jpg"/></div><p>厦门</p></li>
+			<li><div class=""><img src="images/dalian.jpg"/></div><p>大连</p></li>
+			<li><div class=""><img src="images/kunming.jpg"/></div><p>昆明</p></li>
+			<li><div class=""><img src="images/jinan.jpg"/></div><p>济南</p></li>
+			<li><div class=""><img src="images/hefei.jpg"/></div><p>合肥</p></li>
+			<li><div class=""><img src="images/qingdao.jpg"/></div><p>青岛</p></li>
+			<li><div class=""><img src="images/nanchang.jpg"/></div><p>南昌</p></li>
+			<li><div class=""><img src="images/shijiazhuang.jpg"/></div><p>石家庄</p></li>
+			<li><div class=""><img src="images/suzhou.jpg"/></div><p>苏州</p></li>
+			<li><div class=""><img src="images/ningbo.jpg"/></div><p>宁波</p></li>
+			<li><div class=""><img src="images/changchun.jpg"/></div><p>长春</p></li>
+			<li><div class=""><img src="images/dongguan.jpg"/></div><p>东莞</p></li>
+			<li><div class=""><img src="images/wenzhou.jpg"/></div><p>温州</p></li>
+			<li><div class=""><img src="images/fuzhou.jpg"/></div><p>福州</p></li>
+		</ul>
+	</div>
+	<div class="code_img e_clear">
+		<div class="code_images">
+			<img src="images/code_images.jpg"/>
+		</div>
+		<div class="code_txt">
+			<p>苹果手机或安卓手机直接扫描二维码即可下载365日历</p>
+		</div>
+	</div>
+	<div class="footer">
+		<p>Copyright &copy; 2007-2013 365rili.com</p>  
+		<p>京ICP备08005906号</p> 
+</div>
+<script type="text/javascript">
+	var btn= document.getElementById("btn"),down_btn=document.getElementById("down_btn"), bg=document.getElementById("bg"),bodyH=document.body.clientHeight,code_layer=document.getElementById("code_layer");
+	btn.onclick=function(){
+		bg.style.display="block";
+		code_layer.style.display="block"
+		bg.style.height=bodyH+"px";
+	}
+	down_btn.onclick=function(){
+		bg.style.display="block";
+		code_layer.style.display="block"
+		bg.style.height=bodyH+"px";
+	}
+	bg.onclick=function(){
+		bg.style.display="none";
+		code_layer.style.display="none"
+	}
+</script>
+<div style="display:none">
+<script src="//www.365rili.com/js/lib/app.js"></script>
+</div>
+</body>
+</html>

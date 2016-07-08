@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>在枪口上打个结——国际非暴力日</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/non_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>在枪口上打个结——国际非暴力日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>联合国在2007年第61届联合国大会通过决议，决定将每年的10月2日，即印度圣雄甘地的诞辰，定为“国际非暴力日”。订立非暴力日的目的是希望各国反对任何的暴力行为。</p>    
+            <img src="/pages/found/qp_holiday/images/non_img1.jpg"/>
+            <h3>【“非暴力”是什么】</h3>
+            <p>非暴力常常被视为和平主义的同义词，但其实二者有本质的区别。非暴力指参与社会政治变革时拒绝使用暴力的理念，作为介于被动接受与武装斗争的一种形式，包括非暴力反抗、公民抗命或其他强大影响力的不合作对抗形式。</p>
+
+            <p class="mt15">“非暴力”是政治运动的一项伟大发明，暗含了佛教、印度教等中的东方哲学的精髓。其试图打动人心的力量，源于对暴力施加者心灵的伟大怜悯。当有一天，非暴力战胜了暴力，就是人类获得新生的开始。</p>
+            <img src="/pages/found/qp_holiday/images/non_img2.jpg"/>
+
+            <p>这座青铜雕塑就叫做《非暴力》，是一把0.45英寸口径左轮手枪的放大复制品，枪口被打成一个结，由瑞典艺术家卡尔·弗雷德里克·雷乌特斯韦德创作，国际奥委会总部附近和纽约联合国总部大厦门前，都有同样的雕塑。雕塑表达了世界所有善良的人们反对战争和暴力的共同愿望。然而令人痛心的是，战争与暴力，以及各种杀戮引发的悲剧，每天都在这个地球不同的地方上演着……</p>
+  
+            <img src="/pages/found/qp_holiday/images/non_img3.jpg"/>
+            <h3>【著名的“非暴力”运动】</h3>
+            <p>作为政治理念，常常描述非暴力为“平民政治”，从全世界范围和历史眼光来看，非暴力理念常涉及广泛的群众基础，如美国人权运动领袖马丁·路德·金领导的争取非裔美国人公民权利的斗争和1986年菲律宾爆发的人民革命等。但最著名的还是为争取印度独立，圣雄甘地领导的“非暴力不合作运动”。</p>
+
+            <p class="mt15">甘地是印度民族独立运动领袖、非暴力思想和策略的创始人。他于二十世纪四十年代领导的“非暴力不合作运动”，使印度摆脱了英国殖民统治而获得独立。甘地曾经说过一句话：非暴力是人类可以使用的最强大力量，非暴力的力量比人类发明的最厉害的毁灭性武器更强大。 </p>
+            <img src="/pages/found/qp_holiday/images/non_img4.jpg"/>
+            <p>当今世界各个社区中的不宽容现象越来越多，不同文化间的关系越来越紧张。极端主义教条和暴力意识形态在不断增强，温和力量在步步退缩。预防暴力冲突，不仅仅意味着隔离交战各方和减缓紧张局势，更需要弘扬非暴力与和平文化，从根本上解决冲突和不容忍的根源问题。</p>
+
+            <p class="mt15">也许，拿起武器比放弃积怨更容易；寻找过错比谋求宽恕更简单。但是，只要我们从一点一滴的努力中汲取力量，就一定能建造一个更美好的地球。</p> 
+
+            <div class="tips">
+                <p>1、10月2日是国际非暴力日，也是印度圣雄甘地的诞辰；</p>
+                <p>2、非暴力不是和平主义，而是用内心的力量凝聚起来的平民政治；</p>
+                <p>3、从心底散播的温和而不可抗拒的力量，可以抵抗暴力的侵袭。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/欢欢</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

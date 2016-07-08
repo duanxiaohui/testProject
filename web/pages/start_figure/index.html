@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html manifest="/pages/appcache/start_figure.appcache">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>365日历</title>
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="stylesheet" type="text/css" href="style/main.css" />
+
+</head>
+<body>
+    <div class="main">
+    	<a class="close_btn" id="close_btn" href="javascript:;"></a>
+    	<div class="start_img" id="start_img"></div>
+    	<div class="footer_logo"></div>
+    </div>
+<script>
+	var close_btn=document.getElementById("close_btn");
+	var start_img=document.getElementById("start_img");
+	start_img.onclick=function(){
+		location.href="coco://365rili.com/subscribe?calendarID=274402969&action=join";
+	}
+	close_btn.onclick=function(){
+		AliansBridge.back();
+	}
+
+</script>
+</body>
+</html>

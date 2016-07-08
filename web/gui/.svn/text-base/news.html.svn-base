@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html class="pc">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="baidu_union_verify" content="b9bea6069f88d9d2840d4acba0acc2be">
+
+<title>日历</title>
+<link href="/css/jquery-ui-1.9.2.custom.min.css" rel="stylesheet"/>
+<style type="text/css">
+body { color: #444; font: 12px / 1.5em "Microsoft YaHei", 微软雅黑,SimSun,arial; height: 100%; margin: 0; padding: 0; background:#fff;}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+html { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; +padding-top:0; overflow: hidden;}
+html, body {background-color: transparent; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+.ui-shadow { box-shadow: 3px 3px 3px #d7d8d9; -moz-box-shadow: 3px 3px 3px #d7d8d9; -webkit-box-shadow: 3px 3px 3px #d7d8d9; }
+.pc_windows_news{margin:auto;width:550px; height:420px;-moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius: 5px; border-radius: 5px; background:#f7f9fc url(../images/pc/pc_windows_news_bg.jpg) repeat-x left top;}
+a.close_btn,a.min_btn{float:right; width:25px; height:16px; background:url(../images/pc/pc_news_btn.jpg) no-repeat;}
+a.close_btn{background-position:left top;}
+a.close_btn:hover{background-position:-25px top;}
+a.min_btn{background-position:left -16px;}
+a.min_btn:hover{background-position:-25px -16px;}
+
+.pc_windows_left{width:387px; float:left; padding:20px 20px 0 0;}
+.pc_windows_time,.almanac,.pc_windows_news_list ul{padding-left:20px;}
+.pc_windows_news_list ul{padding-top:5px;}
+.pc_windows_todaydate{width:80px; height:50px; line-height:50px; float:left; font-size:60px; font-family:Arial; color:#414042; font-weight:600;}
+.pc_windows_date{float:left;}
+.pc_windows_date p{line-height:25px; font-size:12px; color:#414042;}
+.pc_windows_right{width:133px; float:left; padding-top:18px;text-align:center;}
+.almanac dl{padding:10px 0;}
+.almanac dt{width:28px; height:28px; line-height:28px; float:left; font-size:18px; text-align:center; -moz-border-radius: 16px; -webkit-border-radius: 16px; -khtml-border-radius: 16px; border-radius: 16px;}
+.almanac dl.yi dt{border:1px solid #40a31e; color:#40a31e; }
+.almanac dl.yi dd{color:#40a31e;}
+.almanac dd{margin-left:35px;}
+.almanac dd span{margin-right:3px; line-height:22px;}
+.almanac dl.ji dt{border:1px solid #d55b5b; color:#d55b5b; }
+.almanac dl.ji dd{color:#d55b5b;}
+.pc_windows_news_list h3{height:20px; line-height:20px; font-weight:500; background:url(../images/pc/pc_windows_news_list_h3.jpg) no-repeat left top; padding-left:20px; font-size:14px; color:#414042;}
+.pc_windows_news_list ul li{padding:6px 15px; background:url(../images/pc/pc_windows_news_list.jpg) no-repeat left center;}
+.pc_windows_news_list ul li a{color:#414042; text-decoration: none;}
+.pc_windows_news_list ul li a:hover{text-decoration:underline;}
+</style>
+<script type="text/javascript" src="http://cbjs.baidu.com/js/m.js"></script>
+</head>
+<body>
+<div class="pc_windows_news ui-shadow e_clear">
+	<a href="javascript:void(0)" class="close_btn"></a>
+	<!--  <a href="" class="min_btn"></a>-->
+	<div class="pc_windows_left">
+		<div class="pc_windows_time e_clear">
+			<div class="pc_windows_todaydate">16</div>
+			<div class="pc_windows_date">
+				<p id="lunarDayStr">癸巳年【蛇年】丁巳月甲午日申时(10:30)</p>
+				<p id="gregorianDayStr">星期四 2013年3月  清明节 </p>
+			</div>
+		</div>
+		<div class="almanac">
+			<dl class="yi e_clear">
+				<dt>宜</dt>
+				<dd class="yi_container">
+				</dd>
+			</dl>
+			<dl class="ji e_clear">
+				<dt>忌</dt>
+				<dd class="ji_container">
+				</dd>
+			</dl>
+		</div>
+		<div class="pc_windows_news_list">
+			<h3>每日精彩活动</h3>
+			<ul id="public_schedule">
+			</ul>
+		</div>
+	</div>
+	<div class="pc_windows_right">
+		<script type="text/javascript">BAIDU_CLB_fillSlot("708024");</script>
+		
+	</div>
+</div>
+</body>
+<script type="text/javascript" src="/js/jquery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/protocol.js"></script>
+<script type="text/javascript" src="js/wnl.js"></script>
+<script type="text/javascript" src="js/almanac.js"></script>
+<script>
+	$(function(){
+		clientProtocol.init(4, 600, 420);
+		disableSelectAndRightClick();
+		var fromDate = new Date();
+		var toDate = new Date(fromDate.getTime() + 86400000);
+		$.ajax({
+			url:"/coco/single/getPublicSchedulesByRange.do",
+			data:{
+				calendarID:125821547,
+				fromDate:formatDate(fromDate),
+				toDate:formatDate(toDate),
+				timeZone:-fromDate.getTimezoneOffset() / 60
+			},
+			type:"post",
+			dataType:"json",
+			success:function(data){
+				var d 
+				if(data.length > 0)
+					d = data;
+				else
+					d = [{"id":104793501,"calendarId":125821547,"ownerId":107204083,"syncState":"N","created":1371784122769,"modified":1371784122769,"startTime":1372298400000,"timezone":"Antarctica/Casey","duration":0,"allDayEvent":false,"accessType":0,"statusBusy":false,"calendarType":"S","title":"卡姿兰Carslan彩妆专场-唯品会\n06月27日上午10点开售","location":null,"description":null,"url":"http://m.vipshop.com/index.php?v=touch&m=brand&act=index&brand_id=84529","checkCompleted":false,"repeatType":0,"repeatFinished":false,"repeatStopTime":null,"repeatCount":0,"repeatFrequency":0,"repeatMonth":null,"repeatMonthDay":null,"repeatDay":null,"repeatWeekNumber":null,"repeatYearDay":null,"uuid":"185bff87-5f5d-4d63-b877-2c7674a126d5","calendar":null,"except":null,"exceptDate":[]},{"id":104795567,"calendarId":125821547,"ownerId":107204083,"syncState":"N","created":1371784584391,"modified":1371784584391,"startTime":1372298400000,"timezone":"Antarctica/Casey","duration":0,"allDayEvent":false,"accessType":0,"statusBusy":false,"calendarType":"S","title":"菲姿FEIZI女装专场-唯品会\n06月27日上午10点开售","location":null,"description":null,"url":"http://m.vipshop.com/index.php?v=touch&m=brand&act=index&brand_id=81987","checkCompleted":false,"repeatType":0,"repeatFinished":false,"repeatStopTime":null,"repeatCount":0,"repeatFrequency":0,"repeatMonth":null,"repeatMonthDay":null,"repeatDay":null,"repeatWeekNumber":null,"repeatYearDay":null,"uuid":"8d739043-6af5-482e-bb2b-63b9e94a6efd","calendar":null,"except":null,"exceptDate":[]},{"id":104795879,"calendarId":125821547,"ownerId":107204083,"syncState":"U","created":1371784652952,"modified":1371784663148,"startTime":1372298400000,"timezone":"Antarctica/Casey","duration":0,"allDayEvent":false,"accessType":0,"statusBusy":false,"calendarType":"S","title":"多芘DOBBY DANA女包专场-唯品会\n06月27日上午10点开售","location":null,"description":null,"url":"http://m.vipshop.com/index.php?v=touch&m=brand&act=index&brand_id=82964","checkCompleted":false,"repeatType":0,"repeatFinished":false,"repeatStopTime":null,"repeatCount":0,"repeatFrequency":0,"repeatMonth":null,"repeatMonthDay":null,"repeatDay":null,"repeatWeekNumber":null,"repeatYearDay":null,"uuid":"100a4736-8c4c-49c3-814c-b7effd1b0b71","calendar":null,"except":null,"exceptDate":[]}];
+				$("#public_schedule").html("");
+				for(var i = 0; i < d.length && i < 7; i++){
+					$("#public_schedule").append('<li><a href="'+d[i].url+'" target="_blank">'+d[i].title+'</a></li>');
+				}
+			}
+		});
+		function formatDate(d){
+			var year  = d.getFullYear();
+			var month = d.getMonth() + 1;
+			var date  = d.getDate();
+			month = month < 10 ? "0" + month : month;
+			date  = date  < 10 ? "0" + date  : date;
+			return  year + "-" + month + "-" + date;
+		}
+	});	
+</script>
+</html>

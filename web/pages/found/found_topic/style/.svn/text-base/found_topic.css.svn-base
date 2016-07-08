@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors zhangmingchen (vest0804@gmail.com)
+ * @date    2015-12-16 16:00:57
+ * @version $Id$
+ */
+.found_topic_top,.found_topic_top img{width:100%;}
+.found_topic_txt{padding:20px 25px;}
+.found_topic_txt h2{font-size:21px; color:#222; line-height:160%; padding-bottom:10px; border-bottom:2px solid #6c6c6c; text-align:center;}
+.found_topic_txt p{font-size:16px; color:#222; line-height:150%; margin-top:15px;}
+.found_topic_list{padding:10px;}
+.found_topic_list li{padding:10px; background:#f0f0f0; margin-bottom:15px; border-bottom:2px solid #e3e3e3;}
+.found_topic_list h3{font-size:18px; color:#222; line-height:150%; padding-top:10px;}
+.found_topic_list p{font-size:14px; color:#8E9AA1; line-height:160%;}
+.more{float:right; margin-top:5px; color:#797979;}

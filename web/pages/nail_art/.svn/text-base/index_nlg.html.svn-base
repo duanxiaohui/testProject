@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>365日历-河狸家·领红包</title>
+<meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link href="css/index.css" rel="stylesheet" type="text/css">
+<script src="/js/lib/zepto.min.js"></script>
+</head>
+<body>
+    <div class="talk">
+    	<div class="talk_bg"></div>
+    	<div class="talk_icon"></div>
+    	<div class="talk_box">
+    		365日历送你一张美甲代金卷，美美哒！~~
+    	</div>
+    </div>
+    <div class="envelope_box">
+    	<div class="envelope_box_cloud"></div>
+    	<div class="envelope_box_cloud2"></div>
+    	<div class="envelope">
+    		<div class="ticket">
+    		</div>
+    		<div class="btn">
+    			<a href="http://www.365rili.com/temp/tj.html?url=http%3A%2F%2Fhelijia.com%2Factive%2Fgift%2Findex.html%3Ftype%3D026" class="receive_btn">领红包</a>
+    			<a href="javascript:;" class="instructions">使用说明</a>
+    		</div>
+    	</div>
+    </div>
+    <div class="instructions_layer">
+    	<div class="instructions_layer_div">
+    		<h3>使用说明</h3>
+	    	<p>1、输入手机号领取红包;</p>
+	    	<p>2、领取成功后点击“马上约一个”;</p>
+	    	<p>3、挑选你喜欢的任意作品选择 “优惠券”进行兑换使用;</p>
+	    	<p>4、此券不得兑换现金、不找零;</p>
+	    	<p>5、同一订单仅限使用一张优惠券;</p>
+	    	<p>6、优惠券使用有效期：1个月;</p>
+	    	<a href="javascipt:;" class="colse_btn">知道了</a>
+    	</div>
+    </div>
+<div style="display:none">
+    <script src="//www.365rili.com/js/lib/app.js"></script>
+</div>
+<script src="js/mj.js"></script>
+</body>
+</html>

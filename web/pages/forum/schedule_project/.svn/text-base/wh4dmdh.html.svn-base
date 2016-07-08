@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015深圳动漫灯会</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <div class="bar_txt">2015深圳动漫灯会</div>
+    </div>
+    <div class="main">
+    	<div class="main_content">
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/554fb559-ca59-447e-bfdf-0406e88e7154.jpg"/>
+            <a class="btn js-subscribe" data-uuid="5b4cabf5-96e8-4711-96a9-ac16c6f30fb9" data-cid="148162975">添加到我的日历</a>
+	    	<h3 class="time">活动时间：2014年12月18日—3月10日</h3>
+            <p></p>
+            <h3 class="address">游玩地点：深圳市南山区欢乐海岸椰林沙滩</h3>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/05308d5a-19f1-4d69-9c40-a07282afa760.jpg"/> 
+			<h3>活动简介：</h3>
+			<p>从圣诞到元宵，横跨五节——圣诞、元旦、春节、元宵、情人节。80天热力不断！</p>
+            <p>2015深圳动漫灯会梦幻来袭！你绝对不能错过的狂欢盛宴！</p>
+			<h3>活动现场亮点享不停：</h3>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/571f52c8-60a2-4927-a09d-d3b8bd77a25d.jpg"/> 
+			<p>高达18米的巨型灯组，高科技融合的完美体现，让你叹为观止！</p>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/ed4a4ae2-04cf-44c8-a55c-b994f18eae1a.jpg"/>
+            <p>冰雪世界、海底乐园、荧光海滩、星际迷航、童年故事、糖果世界等六大主题彩灯，四季风情、上天入海，给你最新奇的体验。</p> 
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/bf55838a-b70c-45c2-b98f-ab545c8ad36a.jpg"/>
+            <p>EVA、倒霉熊、熊出没、馒头家族、开心宝贝、宝狄等十余个经典卡通形象灯组，带你穿越二次元的唯美世界。</p>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/7273ea37-e4b6-4475-9b1f-d607f4eae37f.jpg"/>
+            <p>更有互动游艺、品牌餐饮、特色美食……玩到嗨!吃到饱。</p>
+            <h3>活动内容：</h3> 
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/c3e391e0-cb19-4a72-978c-0bee99842540.jpg"/>
+            <h3>【春节联欢大团圆，晒幸福许心愿】</h3>
+            <p>幸福笑脸征集活动，以家庭、情侣、同事、儿童、老人为组别，面向深圳所有市民征集带有幸福笑脸的照片及新年心愿，以大众网络评选的形式选出各组别的深圳最幸福笑脸代表，协助达成他们的心愿。</p>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/beca323b-f780-4cf5-b995-50ac8f377211.jpg"/>
+            <h3>【情人节假面舞会，自绘彩灯秀甜蜜】</h3>
+            <p>情人节甜蜜蜜，情侣们可以组合变装，带上假面，参加在主舞台前举办的盛大舞会，主办方还将提供基础彩灯及颜料，情侣可携手在彩灯上绘画或寄语，点亮后悬挂在爱情墙上。</p>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/09df7bf2-bf9e-4e34-b62f-7a886bb2966e.jpg"/>
+            <h3>【元宵猜谜斗才智，大奖拿到你手软】</h3>
+            <p>元宵提灯游园会，赏灯赏月猜灯谜，实力大奖等你来拿哦!</p>
+            <a href="http://item.damai.cn/74693.html?recom_id=search_a" data-title="大麦网购票链接" class="btn js-other">大麦网购票链接</a>
+            <div class="remind_div none" data-uuid="5b4cabf5-96e8-4711-96a9-ac16c6f30fb9" data-cid="148162975"><div class="remind_icon"></div><span>添加提醒</span></div>           
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/554fb559-ca59-447e-bfdf-0406e88e7154.jpg',
+                title: '2015深圳动漫灯会',
+                desc: '2015深圳动漫灯会梦幻来袭！你绝对不能错过的狂欢盛宴！'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015深圳动漫灯会',
+		        				content: '2015深圳动漫灯会梦幻来袭！你绝对不能错过的狂欢盛宴！',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/554fb559-ca59-447e-bfdf-0406e88e7154.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

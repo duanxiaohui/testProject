@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>奇葩节日</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+	<div class="qp_holiday_list"></div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js"></script>
+    <script src="/pages/found/js/qp_holiday_list.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>泰迪熊2</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">泰迪熊2</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/e6b2da58-4015-413d-9c42-93272669c465.jpg"/>
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	<a href="http://www.tudou.com/programs/view/e_mnN78F2sM" data-title="查看预告片" class="btn js-other">查看预告片</a>
+	    	<h3 class="time">上映时间：2015年6月26日（美国）</h3>
+			<p> </p>
+	    	<h3>导演：塞思·麦克法兰</h3>
+			<p class="fc_000">主演：马克·沃尔伯格 / 塞思·麦克法兰</p>
+			<h3>剧情：</h3>
+			<p>曾在2012年暑期档大卖特卖的R级喜剧《泰迪熊》，最近开始筹备续集，《泰迪熊2》依旧由第一部的导演塞思·麦克法兰自编自导自演。塞思·麦克法兰日前公布《泰迪熊2》的上映时间，确定影片将会在2015年4月3日上映。该片有望在明年的春季档再一次掀动观影热潮。</p>
+			<!--h3是小标题-->
+			<h3>看点：</h3>
+			<!--p是段落文字描述-->
+			<p>上文的剧情算不得剧情，因为目前找不到剧情，但是这部片子谁看剧情！看点不就是那只外表呆萌内心黄暴的熊吗！说起来这部片子拍第二部就很让人惊讶了=_=大片泛滥的年代，在北美广受欢迎的R级喜剧片能否杀出一条血路，就要看这只熊能否冲破节操的下限了。 还记得贱兮兮的雷雷歌吗？Thunder friends forever！另外麦克法兰透露，连姆·尼森的角色可能只是匆匆出场，因为他的档期很紧，在剧组的时间有限，而摩根·弗里曼会饰演一名民事诉讼律师，泰迪将成为他的客户。一脸包青天式正气的，塑造无数憨厚老实荧幕形象的摩根律师，遭遇到满嘴跑火车的泰迪熊客户，将会碰撞出怎样的火花？（话说会说话的毛绒玩具在美国法律中能算合法有效的民事主体么）</p>
+    	<img src="http://cocoimg.365rili.com/schedule_pics/default/50d0da6e-9d51-40fc-a2e8-c2bbd4c7ab1c.jpg"/>
+		<img src="http://cocoimg.365rili.com/schedule_pics/default/94d0c4b8-0413-4475-959e-2689d32d027b.jpg"/>
+		<div class="remind_div none" data-uuid="4e0b87d7-73ef-47ed-9069-5060d1f79f57" data-cid="125821987"><div class="remind_icon"></div><span>添加提醒</span></div>
+		</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/3b83e207-514c-46dd-9589-af96fd209131.jpg',
+                title: '电影：泰迪熊2',
+                desc: '《泰迪熊2》依旧由第一部的导演塞思·麦克法兰自编自导自演。塞思·麦克法兰日前公布《泰迪熊2》的上映时间，确定影片将会在2015年6月16日上映。该片有望在明年的春季档再一次掀动观影热潮。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '电影：泰迪熊2',
+		        				content: '《泰迪熊2》依旧由第一部的导演塞思·麦克法兰自编自导自演。塞思·麦克法兰日前公布《泰迪熊2》的上映时间，确定影片将会在2015年6月16日上映。该片有望在明年的春季档再一次掀动观影热潮。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/3b83e207-514c-46dd-9589-af96fd209131.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		},
+		        		{
+		        			name: 'channel',
+		        			value: 'wx'
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta content="telephone=no" name="format-detection">
+		<meta content="email=no" name="format-detection"> 
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="http://static.365rili.com/wannianlibaidu/wap/css/wnlV6.css" />
+	</head>
+	<body onselectstart="return false">
+		<div id="middle">
+			<div class="cal_container" id="cal_container" >
+				<div id='cal_body' class='cal_body'>
+					<div id='cal_funcbar' class='funcbar'>
+						<div id='funcbar_content' class='funcbar_content'>
+							<div id='prev_button' class='BD_WA_LOG_BTN'>&lt;</div>
+							<div id='year_time'></div>
+							<div id='next_button' class='BD_WA_LOG_BTN'>&gt;</div>
+							<div id='today_button' class='today_button BD_WA_LOG_BTN'>今天</div>
+							<div id='festival'>节日节气</div>
+							<!--  <a href="javascript:;" id="downphone_btn"></a>-->
+							<div class='clear'></div>
+						</div>
+					</div>
+					<div id='cal_down'>
+						<div class='cal_downleft'>
+							<div id='mainCal' class='BD_WA_LOG_BTN'></div>
+							<div id='festival_rest'></div>
+						</div>
+					</div>
+					
+					<div class='clear'></div>
+				</div>
+				
+			</div>
+			<div id='single_container' class='cal_container'>
+				<div id='single_body' class='cal_body'>
+					<div class='funcbar'>
+						<div class='funcbar_content'>
+							<div id='single_back_button' class='back_button BD_WA_LOG_BTN'>&lt;&nbsp;返回</div>
+							<div id='single_today_button' class='today_button BD_WA_LOG_BTN'>今天</div>
+							<div class='clear'></div>
+						</div>
+					</div>
+					<div id='cal_down'>
+						<div class='cal_downleft'>
+							<div id='mainSingle'>
+								<table id='singletable' border="0" CELLPADDING="0" CELLSPACING="0">
+									<tr>
+										<td colspan=3>
+											<div id='singleDateStr'></div>
+										</td>
+									</tr>
+									<tr>
+										<td id='singleArrowLeftTd' class='BD_WA_LOG_BTN'>
+											<div id='singleArrowLeft'></div>
+										</td>
+										<td id='singleNumTd'></td>
+										<td id='singleArrowRightTd' class='BD_WA_LOG_BTN'>
+											<div id='singleArrowRight'></div>
+										</td>
+									</tr>
+									<tr>
+										<td colspan=3>
+											<div id='festivalStr'></div>
+											<div id='jieqiDiv' class='BD_WA_LOG_BTN'>
+												<div id='jieqiImg'></div>
+												<div id='jieqiStr'></div>
+												<div id='jieqiArrow'></div>
+												<div class='clear'></div>
+											</div>
+											<div>
+												<span id='nongliStr1'></span>
+												<span id='nongliStr2'></span>
+											</div>														
+											<div id='YJdiv'>
+												<table id='YJtable'>
+													<tr>
+														<td id='YImgTd' valign="top">
+															<div id='YImgDiv'></div>
+														</td>
+														<td>
+															<div id='YStr'></div>
+														</td>
+													</tr>
+													<tr>
+														<td id='JImgTd' valign="top">
+															<div id='JImgDiv'></div>
+														</td>
+														<td>
+															<div id='JStr'></div>
+														</td>
+													</tr>
+												</table>
+											</div>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class='clear'></div>
+				</div>
+			</div>
+			<div id='jieqi_container' class='cal_container'>
+				<div id='jiqei_body' class='cal_body'>
+					<div class='funcbar'>
+						<div class='funcbar_content'>
+							<div id='jieqi_back_button' class='back_button BD_WA_LOG_BTN' from="single_container">&lt;&nbsp;返回</div>
+						</div>
+					</div>
+					<div id='cal_down'>
+						<div class='cal_downleft'>
+							<div id='mainJieqi'>
+								<div id='jieqiName'></div>
+								<div id='jieqiTime'></div>
+								<div id='jieqiDescribe'></div>
+							</div>
+						</div>
+					</div>
+					<div class='clear'></div>
+				</div>
+			</div>
+			<div id='festival_container' class='cal_container'>
+				<div id='festival_body' class='cal_body'>
+					<div class='funcbar'>
+						<div class='funcbar_content'>
+							<div id='festival_back_button' class='back_button BD_WA_LOG_BTN'>&lt;&nbsp;返回</div>
+							<div id='jieri_button' class='tab_button BD_WA_LOG_TAB'>节日放假</div>
+							<div id='nongli_button' class='tab_button active_tab_button BD_WA_LOG_TAB'>农历节气</div>
+							<div class='clear'></div>
+						</div>
+					</div>
+					<div id='cal_down'>
+						<div class='cal_downleft'>
+							<div id='mainJieri'>
+								<div id='jieriTitle'>全年公休放假安排</div>
+								<table id='jieriTable' CELLPADDING="0" CELLSPACING="1" >
+									<tr>
+										<td class='jieriTd BD_WA_LOG_BTN' jieri='yuandan'>
+											<div class='jieriName'>元旦</div>
+											<div class='jieriDate'>1月1日</div>
+										</td>
+										<td class='jieriTd BD_WA_LOG_BTN' jieri='chunjie'>
+											<div class='jieriName'>春节</div>
+											<div class='jieriDate'>1月31日—2月6日</div>
+										</td>
+									</tr>
+									<tr>
+										<td class='jieriTd BD_WA_LOG_BTN' jieri='qingming'>
+											<div class='jieriName'>清明节</div>
+											<div class='jieriDate'>4月5日—7日</div>
+										</td>
+										<td class='jieriTd BD_WA_LOG_BTN' jieri='laodong'>
+											<div class='jieriName'>劳动节</div>
+											<div class='jieriDate'>5月1日—3日</div>
+										</td>
+									</tr>
+									<tr>
+										<td class='jieriTd BD_WA_LOG_BTN' jieri='duanwu'>
+											<div class='jieriName'>端午节</div>
+											<div class='jieriDate'>5月31日—6月2日</div>
+										</td>
+										<td class='jieriTd BD_WA_LOG_BTN' jieri='zhongqiu'>
+											<div class='jieriName'>中秋节</div>
+											<div class='jieriDate'>9月6日—8日</div>
+										</td>
+									</tr>
+									<tr>
+										<td class='jieriTd BD_WA_LOG_BTN' jieri='guoqing'>
+											<div class='jieriName'>国庆节</div>
+											<div class='jieriDate'>10月1日—7日</div>
+										</td>
+										<td class='jieriTd'>
+											<div class='jieriName'></div>
+											<div class='jieriDate'></div>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<div id='mainNongli'>
+								<div id='nongliTitle'>中国农历&nbsp;-&nbsp;二十四节气</div>
+								<table id='nongliTable' CELLPADDING="0" CELLSPACING="1" >
+									<tr>
+										<td class='smallJieqiTd BD_WA_LOG_BTN' id='0' name='lichun'>立春</td>
+										<td class='smallJieqiTd BD_WA_LOG_BTN' id='1' name='yushui'>雨水</td>
+										<td class='smallJieqiTd BD_WA_LOG_BTN' id='2' name='jingzhe'>惊蛰</td>
+										<td class='smallJieqiTd BD_WA_LOG_BTN' id='3' name='chunfen'>春分</td>
+									</tr>   
+									<tr>    
+										<td class='smallJieqiTd BD_WA_LOG_BTN' id='4' name='qingming'>清明</td>
+										<td class='smallJieqiTd BD_WA_LOG_BTN' id='5' name='guyu'>谷雨</td>
+										<td class='smallJieqiTd BD_WA_LOG_BTN' id='6' name='lixia'>立夏</td>
+										<td class='smallJieqiTd BD_WA_LOG_BTN' id='7' name='xiaoman'>小满</td>
+									</tr>   
+									<tr>    
+										<td class='smallJieqiTd BD_WA_LOG_BTN' id='8' name='mangzhong'>芒种</td>
+										<td class='smallJieqiTd BD_WA_LOG_BTN' id='9' name='xiazhi'>夏至</td>
+										<td class='smallJieqiTd BD_WA_LOG_BTN' id='10' name='xiaoshu'>小暑</td>
+										<td class='smallJieqiTd BD_WA_LOG_BTN' id='11' name='dashu'>大暑</td>
+									</tr>   
+									<tr>    
+										<td class='smallJieqiTd BD_WA_LOG_BTN' id='12' name='liqiu'>立秋</td>
+										<td class='smallJieqiTd BD_WA_LOG_BTN' id='13' name='chushu'>处暑</td>
+										<td class='smallJieqiTd BD_WA_LOG_BTN' id='14' name='bailu'>白露</td>
+										<td class='smallJieqiTd BD_WA_LOG_BTN' id='15' name='qiufen'>秋分</td>
+									</tr>                                      
+									<tr>                                       
+										<td class='smallJieqiTd BD_WA_LOG_BTN' id='16' name='hanlu'>寒露</td>
+										<td class='smallJieqiTd BD_WA_LOG_BTN' id='17' name='shuangjiang'>霜降</td>
+										<td class='smallJieqiTd BD_WA_LOG_BTN' id='18' name='lidong'>立冬</td>
+										<td class='smallJieqiTd BD_WA_LOG_BTN' id='19' name='xiaoxue'>小雪</td>
+									</tr>                                      
+									<tr>                                       
+										<td class='smallJieqiTd BD_WA_LOG_BTN' id='20' name='daxue'>大雪</td>
+										<td class='smallJieqiTd BD_WA_LOG_BTN' id='21' name='dongzhi'>冬至</td>
+										<td class='smallJieqiTd BD_WA_LOG_BTN' id='22' name='xiaohan'>小寒</td>
+										<td class='smallJieqiTd BD_WA_LOG_BTN' id='23' name='dahan'>大寒</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<div class='clear'></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="http://m.baidu.com/static/ala/webapp/api.js"></script>
+		<script type="text/javascript" src="http://www.365rili.com/js/jquery/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="http://static.365rili.com/wannianlibaidu/wap/js/all29.js?v=20140228"></script>
+			<script type='text/javascript'>
+			$(function(){
+				var mainWidth = window.screen.width;
+				//$("#middle").width(mainWidth);
+			});
+			$("#downphone_btn").click(function(){
+				var sUserAgent = navigator.userAgent.toLowerCase();
+				var bIsIpad = sUserAgent.match(/ipad/i) == "ipad"; 
+ 				var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+				var bIsAndroid = sUserAgent.match(/android/i) == "android";
+				if(bIsIphoneOs){
+					$(this).attr("href","http://www.365rili.com/iosexchange/wapapp");
+					if(confirm("确认要下载365日历手机苹果客户端")){
+						return;
+					}else{
+						return false; 
+					}
+				}
+				if(bIsAndroid){
+					$(this).attr("href","http://d2.365rili.com/dl/android/exchange/365rili_wapapp.apk");
+					if(confirm("确认要下载365日历手机安卓客户端")){
+						return;
+					}else{
+						return false; 
+					}
+				}
+				
+			});
+		</script>
+	</body>
+</html>

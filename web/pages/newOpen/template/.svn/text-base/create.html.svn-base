@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+<title>365公众日历</title>
+<link rel="stylesheet" href="../css/newOpen.css">
+</head>
+<body class="create_bg">
+    <div class="header e_clear">
+    	<div class="h-info">
+    		<img src="../image/logo.jpg" alt="" class="h-info-face">
+    		<a href="" class="h-info-name">薛鹏</a>
+			<i class="h-info-line"></i>
+    		<a href="javascript:;" class="h-info-quit">退出</a>
+    	</div>
+    	<a href="/" class="h-logo"><img src="../image/logo.jpg" alt=""></a>
+    </div>
+
+	<div class="create_content">
+		<!--first start-->
+		<div id="js-setup_1" class="setup tabs none">
+			<h2>创建公众日历</h2>
+			<div class="tab_list">
+				<ul>
+					<li data-type="company" class="tabLi on"><a href="javascript:;">公司</a></li>
+					<li data-type="personal" class="tabLi"><a href="javascript:;">个人</a></li>
+				</ul>
+			</div>
+			<div class="create_div">
+				<div class="company_div tabsBox on">
+					<dl class="e_clear">
+						<dt><label for="companyName">公司名称</label></dt>
+						<dd><input type="text" id="companyName" /></dd>
+					</dl>
+					<dl class="e_clear">
+						<dt><label for="contact">联系人</label></dt>
+						<dd><input type="text" id="contact" /></dd>
+					</dl>
+					<dl class="e_clear">
+						<dt><label for="idCard">身份证</label></dt>
+						<dd><input type="text" id="idCard" /></dd>
+					</dl>
+					<dl class="e_clear">
+						<dt><label for="tel">联系电话</label></dt>
+						<dd><input type="text" id="tel" /></dd>
+					</dl>			
+				</div>
+				<div class="personal_div tabsBox">
+					<dl class="e_clear">
+						<dt><label for="contact_p">联系人</label></dt>
+						<dd><input type="text" id="contact_p" /></dd>
+					</dl>
+					<dl class="e_clear">
+						<dt><label for="idCard_p">身份证</label></dt>
+						<dd><input type="text" id="idCard_p" /></dd>
+					</dl>
+					<dl class="e_clear">
+						<dt><label for="tel_p">联系电话</label></dt>
+						<dd><input type="text" id="tel_p" /></dd>
+					</dl>
+				</div>
+				<div class="next_btn_box">
+					<a href="javascript:;" class="next_btn js-next">下一步</a>
+				</div>
+			</div>
+			
+		</div>
+		<!--first end-->
+		<!--second start-->
+		<div id="js-setup_2" class="setup none">
+			<h2>编辑公众日历</h2>
+			<div class="edit_div">
+				<div class="open_calendar_name">
+					<div class="name_txt">
+						<input type="text" placeholder="填写日历名称" id="calendarName"/>
+					</div>
+					<div class="default_tips error_tips">日历名称做多可输入10个中文，20个英文</div>
+				</div>
+				<div class="open_calendar_info">
+					<textarea placeholder="日历介绍" id="calendarDescript"></textarea>
+					<div class="default_tips">日历介绍</div>
+				</div>
+				<a href="javascript:;" class="next_btn js-next">下一步</a>
+			</div>
+		</div>
+		<!--second end-->
+		<!--three start-->
+		<div id="js-setup_3" class="setup none">
+			<h2>编辑头像</h2>
+			<div class="avatar e_clear">
+				<div class="clip_avatar">
+					<div class="avatar_img"><img id="js-face-img" class="fiximg" src="../image/normalFace.gif" alt=""></div>
+					<div class="clip_btn_div">
+						<div class="clip_bar">
+							<a href="javascript:;" class="add_btn"></a>
+							<a href="javascript:;" class="scroll_btn"></a>
+							<a href="javascript:;" class="lessen_btn"></a>
+						</div>
+					</div>
+				</div>
+				<a href="javascript:;" class="next_btn reselect img_next_btn js-reselect none">重新上传</a>
+				<a href="javascript:;" class="next_btn saveimg img_next_btn js-upload none">确定</a>
+				<a href="javascript:;" class="next_btn img_next_btn js-selectFile">上传图片</a>
+				<a href="javascript:;" class="next_btn img_next_btn js-next none">下一步</a>
+			</div>
+			<input type="file" id="js-face-file" accept="image/*" style="visibility: hidden; position: absolute; top: 0px; left: 0px; height: 0px; width: 0px;">
+		</div>
+		<!--three end-->
+		<!--four start-->
+		<div id="js-setup_4" class="setup none">
+			<h2>编辑背景图</h2>
+			<div class="avatar">
+				<div class="clip_avatar">
+					<div class="clip_div_l"></div>
+					<div class="clip_div_r"></div>
+					<div class="avatar_img high_img"><img id="js-bg-img" class="fiximg" src="../image/normalFace1.gif" alt=""></div>
+					<div class="clip_btn_div">
+						<div class="clip_bar">
+							<a href="javascript:;" class="add_btn"></a>
+							<a href="javascript:;" class="scroll_btn"></a>
+							<a href="javascript:;" class="lessen_btn"></a>
+						</div>
+					</div>
+				</div>
+				<a href="javascript:;" class="next_btn reselect img_next_btn js-reselect none">重新上传</a>
+				<a href="javascript:;" class="next_btn saveimg img_next_btn js-upload none">确定</a>
+				<a href="javascript:;" class="next_btn img_next_btn js-selectFile">上传图片</a>
+				<a href="javascript:;" class="next_btn img_next_btn js-next none">下一步</a>
+			</div>
+			<input type="file" id="js-bg-file" accept="image/*" style="visibility: hidden; position: absolute; top: 0px; left: 0px; height: 0px; width: 0px;">
+		</div>
+		<!--four end-->
+
+		<div id="js-setup-index" class="progress_bar setup_1">
+			<ul class="e_clear">
+				<li class="first_bar"><h3>NO.1</h3><p>填写开发者信息</p></li>
+				<li><h3>NO.2</h3><p>编辑名称/简介</p></li>
+				<li><h3>NO.3</h3><p>编辑头像</p></li>
+				<li class="last_bar"><h3>NO.4</h3><p>编辑背景</p></li>
+			</ul>
+		</div>
+	</div>
+	<script src="/js/jquery/jquery-1.8.3.min.js"></script>
+	<script src="/js/newOpen/Function.js"></script>
+	<script src="/js/newOpen/create.js"></script>
+</body>
+</html>

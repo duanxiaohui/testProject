@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>testWXPrivateAPI</title>
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<body>
+	<div id="result">
+		123123
+	</div>
+	<script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/app.js"></script>
+    <script>
+    	app.open('coco://365rili.com',app.getUa.ios,function () {
+    		alert('回掉方法')
+    	})
+		// app.getUa.weixin && (function () {
+		// 	var ua = navigator.userAgent.toLowerCase();
+		// 	var re = /\(iphone; cpu iphone os ([\d\_]*) like mac os x\)/;
+		// 	var rs = ua.match(re);
+		// 	if(rs){
+		// 		var version = +rs[1].split('_')[0];
+		// 		if(version > 8){
+		// 			return false;
+		// 		}
+		// 	}
+		// 	return true;
+		// })();
+  //   	app.getInstallStateInWeixin(
+		// 	function () {
+		// 		$('#result').html('已安装')
+		// 	},
+		// 	function () {
+		// 		$('#result').html('未安装')	
+		// 	}	
+		// );
+    </script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>给你一颗不老的童心</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<link href="http://www.365rili.com/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link href="style/found_topic.css" rel="stylesheet">
+<body>
+	<div class="found_topic">
+		<div class="found_topic_top">
+			<img src="images/cartoon/found_cartoon_top.jpg" width="100%" alt="">
+		</div>
+		<div class="found_topic_txt">
+			<h2>给你一颗不老的童心<br/>2016最值得期待动画电影TOP8</h2>
+			<p>动画片陪伴我们走过了最美好的童年，那时候风轻柔、草俏皮、路过的鸟儿会说话。2016年最值得期待的动画电影带你追忆童年，我们都有一颗不老的童心！</p>
+		</div>
+		<div class="found_topic_list">
+			<ul>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=541">
+					<div class="topic_list_img">
+						<img src="http://static.365rili.com/pages/found/found_topic/images/cartoon/found_nianshou.jpg" width="100%" alt="">
+					</div>
+					<h3>《年兽大作战》上映</h3>
+					<p>超级大坏蛋和叛逆小萝莉的奇幻之旅</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=542">
+					<div class="topic_list_img">
+						<img src="http://static.365rili.com/pages/found/found_topic/images/cartoon/found_gongfuxiongmao.jpg" width="100%" alt="">
+					</div>
+					<h3>《功夫熊猫3》上映</h3>
+					<p>食武止境，传奇归来</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=543">
+					<div class="topic_list_img">
+						<img src="http://static.365rili.com/pages/found/found_topic/images/cartoon/found_mt.jpg" width="100%" alt="">
+					</div>
+					<h3>《我叫MT之勇士战恶龙》上映</h3>
+					<p>国产动画新光芒爆笑贺岁</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=544">
+					<div class="topic_list_img">
+						<img src="http://static.365rili.com/pages/found/found_topic/images/cartoon/found_dory.jpg" width="100%" alt="">
+					</div>
+					<h3>《海底总动员2：寻找多莉》上映</h3>
+					<p>海底冒险之旅开启奇幻新年</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=545">
+					<div class="topic_list_img">
+						<img src="http://static.365rili.com/pages/found/found_topic/images/cartoon/found_bingchuan.jpg" width="100%" alt="">
+					</div>
+					<h3>《冰川时代5：星际碰撞》上映</h3>
+					<p>参与小松鼠的宇宙冒险，迎接崭新的2016</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=546">
+					<div class="topic_list_img">
+						<img src="http://static.365rili.com/pages/found/found_topic/images/cartoon/find_dingding.jpg" width="100%" alt="">
+					</div>
+					<h3>《丁丁历险记2：太阳的囚徒》上映</h3>
+					<p>开启发现的眼睛，探寻美好生活</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=547">
+					<div class="topic_list_img">
+						<img src="http://static.365rili.com/pages/found/found_topic/images/cartoon/find_dongwu.jpg" width="100%" alt="">
+					</div>
+					<h3>《疯狂动物城》上映</h3>
+					<p>跟着动物一起疯狂</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=548">
+					<div class="topic_list_img">
+						<img src="http://static.365rili.com/pages/found/found_topic/images/cartoon/find_angry.jpg" width="100%" alt="">
+					</div>
+					<h3>《愤怒的小鸟》上映</h3>
+					<p>经典游戏一秒钟带入，小鸟战小猪一触即发</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+    <div id="VER" style="display: none;"></div>
+    <div id="UID" style="display: none;"></div>
+    <div id="MAC" style="display: none;"></div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js?20151016"></script>
+    <script src="http://www.365rili.com/js/lib/app.js?20151119"></script>
+    <script src="http://www.365rili.com/pages/found/js/function.js?20151119"></script>
+    <script src="http://www.365rili.com/pages/found/found_topic/js/found_topic.js?20151119"></script>
+</body>
+</html>

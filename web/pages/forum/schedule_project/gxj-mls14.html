@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015大连国际马拉松</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015大连国际马拉松</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/45195317-8d2e-49a1-a3af-9caf6b0e1f1d.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+			  <a class="btn js-subscribe" data-uuid="439d7be6-bfb1-4dff-8adc-ab6fbf594be2" data-cid="147514789">添加提醒</a>
+	    	
+	    	<p class="time">
+
+
+
+<b>比赛时间：2014年5月9日8:30
+</b></br>
+<b>网上报名：3月20日-4月10日</b></br>
+	    	<b>比赛起、终点：大连开发区金石滩黄金海岸南湖街
+</b></br>
+
+			</p>
+			<h3>比赛路线：</h3>
+			<p>(一)马拉松、马拉松接力和轮椅马拉松</br>
+
+起点：大连金石滩黄金海岸南湖街→金石路→辽河西路，在东北四街的日本电产(大连)有限公司楼前东，南保税区家居市场的 21.0975公里处转 折回返至辽河西路→金石路→黄金海岸南湖街终点，全程42.195公里。</br>
+
+(二)半程马拉松、轮椅半程马拉松</br>
+
+起点：大连金石滩黄金海岸南湖街→金石路→辽河西路，在东北四街的日本电产(大连)有限公司楼前东，南保税区家居市场的 21.0975公里处， 全程21.0975公里。</br>
+
+(三)10公里健身跑</br>
+
+起点：大连金石滩黄金海岸南湖街→金石路→保亿丽景山小区路南015116灯柱处转折回返至金石路→中华武馆前南向发现王国主题公园→东至海 滨中路音乐广场终点，全程10公里。</br>
+
+(四)迷你马拉松</br>
+
+起点：大连金石滩黄金海岸南湖街→金石路→中华武馆前南向发现王国主题公园→东至海滨中路音乐广场终点，全程4.2公里。</br>
+</p>
+			<!--h3是小标题-->
+			<h3>联系方式：</h3>
+		<p>大连国际马拉松赛组委会办公室联系方式</br>
+地址：中国•辽宁省大连市西岗区北京街49号</br>
+
+邮编：116011 电话： 0411一83602122</br>
+
+传真： 0411—83682893</br>
+
+网址：www.dlmls.org电子邮箱：mls@dl.cn	</br></p><!--p是段落文字描述-->
+			
+
+</br>具体详情以官网信息为准
+
+
+</p>
+<img src="http://cocoimg.365rili.com/schedule_pics/default/beae6975-a961-4314-bd82-2c0d27da4c71.jpg"/>
+
+
+<a href="http://www.dlmls.org/" class="btn js-other">详见官网</a>
+		
+			 <div class="remind_div" data-uuid="439d7be6-bfb1-4dff-8adc-ab6fbf594be2" data-cid="147514789"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/45195317-8d2e-49a1-a3af-9caf6b0e1f1d.jpg',
+                title: '2015大连国际马拉松',
+                desc: '大连国际马拉松赛是被国际路跑协会、中国田径协会路跑委员会列入国际标准的马拉松赛事之一 。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'shareTo',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015大连国际马拉松',
+		        				content: '大连国际马拉松赛是被国际路跑协会、中国田径协会路跑委员会列入国际标准的马拉松赛事之一 。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/45195317-8d2e-49a1-a3af-9caf6b0e1f1d.jpg',
+		        				isEvent: false
+		        			})
+		        		},
+		        		{
+		        			name: 'channel',
+		        			value: 'wx'
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

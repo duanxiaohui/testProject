@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>通达五湖四海——世界邮政日</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/postoffice_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>通达五湖四海——世界邮政日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>提到“邮政”大家最先想到的肯定是吐槽EMS的各种段子：“十分感谢EMS当年把我寄到家里的成绩单弄丢了”、“从前的时光很慢，一辈子只够爱一个人，现在的更慢，一辈子只够等一件EMS”、“朋友家孩子满月，我用EMS给孩子快递了一份礼物，收到快递后，孩子高兴地打电话对我说：谢谢您的礼物，我非常喜欢”。</p>
+            <h3>【世界邮政日】</h3>
+            <p>邮政业务涉及千家万户，通达五湖四海，对促进人类社会的政治、经济、科技、文化、教育等事业的发展具有重要作用，在世界各国都受到足够的重视。1874年10月9日，22个国家代表签署了第一个国际性的邮政条约《伯尔尼条约》，邮政总联盟自此诞生。自此开始邮政总联盟“一发不可收拾”，加盟国家数量猛增并更名为万国邮政联盟，1948年成为了联合国的一个专门机构。</p>
+            <img src="/pages/found/qp_holiday/images/postoffice_img1.jpg"/>
+            <p>为了纪念联盟的创立，同时向各会员国主管部门和广大公众宣传邮政在各国文化、经济和社会发展中的重要作用，促进邮政业务在全世界的发展，万国邮政联盟1969年在日本召开的第16届大会上通过决议，将每年的10月9日确定为世界邮政日。</p>
+            <h3 class="mt15">【那写信的年代】</h3>
+            <p>早前，很多人和邮政的接触更多是收发信件，而现在写信对于我们来说似乎很遥远了。屏幕替代了散发着感情味道的信纸，键盘的噼啪声取代了笔划在信纸上美妙的沙沙声，我们在接受信息技术带来的便利的同时，也不可避免的丢失了很多的美好。</p>
+
+            <img src="/pages/found/qp_holiday/images/postoffice_img2.jpg"/>
+            <h3>【中国“邮政”史】</h3>
+            <p>中国古代官府的通信组织是驿站，但它只传递官府文书。老百姓传递信息只能托人捎带，辗转传递、缓不济急，很容易延误遗失。从“鸿雁传书”等故事就能知道古代人民通信是多么的艰难！到了唐朝，由于社会经济特别是经商贸易的需要，长安和洛阳之间有了为民间商人服务的“驿驴”，平民百姓终于有了自己的通信组织！但“驿驴”的主要服务对象仍然是商人，到了明朝才出现了专门为民间传递信息的民信局。业务范围涵盖派人上门收取信件、汇款等，已基本具备了“现代邮局”的特性。</p>
+
+            <div class="tips">
+                <p>邮政业务涉及千家万户，通达五湖四海，对促进人类社会的政治、经济、科技、文化、教育等事业的发展具有重要作用，在世界各国都受到足够的重视；</p>
+                <p>2、为了纪念联盟的创立，宣传邮政在各国文化、经济和社会发展中的重要作用，促进邮政业务在全世界的发展，万国邮政联盟将每年的10月9日确定为世界邮政日；</p>
+                <p>3、中国虽不是邮政总联盟的首批成员，但关于“邮政”的历史还是十分深厚的！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历--GO桌面</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+</head>
+<body>
+	<div class="main">
+		<div class="top"></div>
+		<div class="text">
+			<p><a href="http://www.actworld-wide.cn/?from=356rili" target="_blank">美国大学入学考试ACT考试 </a>(the ACT® university admissions test)于近期公布了2013-2014学年考试时间，并首次增加了9月21日国际考日，中国考生可赴香港应考。这场加试不仅方便考生通过参加9月份的考试尽快拿到成绩，提早申请EA（Early Admission），为收获offer增加成功砝码，也为考生利用暑期进行复习提供了便利。报名截止日期8月23日临近，有美国留学意向的考生和家长可以留意。</p>
+			<h3>2013-2014年度ACT考试时间：</h3>
+			<table>
+				<tr>
+					<th>考试日期</th>
+					<th>报名截止日期</th>
+				</tr>
+				<tr>
+					<td>2013年9月21日<span class="red">(新)</span></td>
+					<td>2013年8月23日</td>
+				</tr>
+				<tr>
+					<td>2013年10月26日</span></td>
+					<td>2013年9月27日</td>
+				</tr>
+				<tr>
+					<td>2013年12月14日</td>
+					<td>2013年11月8日</td>
+				</tr>
+				<tr>
+					<td>2014年4月12日</td>
+					<td>2014年3月7日</td>
+				</tr>
+				<tr>
+					<td>2014年6月14日</td>
+					<td>2014年5月9日</td>
+				</tr>
+			</table>
+			<p><a href="http://www.actworld-wide.cn/?from=356rili" target="_blank">ACT考试</a>与SAT考试同为“美国高考”，考试成绩被包括哈佛大学、耶鲁大学、斯坦福、普林斯顿等名校在内的美国全部3600多所四年制大学认可，是美国大学和学院作为招生、录取及发放奖学金的重要标准之一。值得一提的是，<a href="http://www.actworld-wide.cn/?from=356rili" target="_blank">ACT考试</a>自2011年起在美国本土的考生数量已经超过SAT。</p>
+			<p><a href="http://www.actworld-wide.cn/?from=356rili" target="_blank">ACT考试</a>分为四个部分：文章改错(English)，数学(Math)，阅读(Reading)，和科学推理(Science Reasoning)。另外附加可选考的写作(Writing)。中国高中生的数理化水平远超美国同龄人，使得数学和科学成为天然的优势科目。相较SAT而言，<a href="http://www.actworld-wide.cn/?from=356rili" target="_blank">ACT考试</a>适合中国考生在短时间内获得高分，对申请理想学校及申请奖学金会有更大帮助。</p>
+			<p>有关ACT考试的更多信息，请访问“<a href="http://www.actworld-wide.cn/?from=356rili" target="_blank">ACT考试中国官网</a>” </p>
+		</div>
+	</div>
+</body>
+</html>

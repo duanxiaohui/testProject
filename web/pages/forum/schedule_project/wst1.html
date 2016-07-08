@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>小黄人</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">小黄人</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/3c90cf19-d920-4b82-8109-ffc8f26070fb.jpg"/>
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	<a href="http://m.mtime.cn/#!/movie/193881/" class="btn js-other">查看预告片</a>
+	    	<h3 class="time">上映时间：2015年7月10日（美国）</h3>
+			<p> </p>
+	    	<h3>导演：凯尔•巴尔达 / 皮埃尔•科芬</h3>
+			<h3>编剧：布莱恩•林奇</h3>
+			<h3>主演：迈克尔•基顿 / 桑德拉•布洛克 / 凯蒂•米克松 / 乔恩•哈姆 / 真田广之</h3>
+			<h3>类型：喜剧 / 动画 / 家庭</h3>
+			<p class="fc_000">制片国家/地区: 美国</p>
+			
+			<h3>看点：</h3>
+			<p>因为那几个萌死人不偿命的小黄人，这套动画已经注定成为今年的最热门动画。甚至由于小黄人太可爱，你可以忽视它的剧情、设定等各方面的东西，光看几个小黄人哇啦哇啦，就已经爽够了。不过小编更期待小黄人说话的时候会不会配字幕？哒哒~~</p>
+			<p>电影《小黄人》是环球人气卖座动画《神偷奶爸》的衍生长片，聚焦小黄人们在遇到格鲁之前的漫长历史，背景会涉及到伦敦、纽约等几个大城市。在和平年代里，小黄人渐渐找不到了自己的主人，慢慢地陷入了忧伤之中。不过，就在这个时候，有三名小黄人，也是本片的主角，凯文、斯图尔特以及鲍勃开始了自己的新计划——他们要找到最强大的新主人，并且辅佐他的作恶事业。而他们从南极洲一路冒险而来，最终到达了1968年的纽约。</p>
+			<!--h3是小标题-->
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/a0009c17-9ac3-4f07-a937-49802b32b6f8.jpg"/>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/30556129-f637-4caf-8c50-249994ed46b0.jpg"/>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/3c90cf19-d920-4b82-8109-ffc8f26070fb.jpg',
+                title: '小黄人（2015）',
+                desc: '小黄人从哪里来？在为格鲁服务之前他们是怎么生活的？他们原本就是群居吗？这些问题都会在小黄人的独立电影中得到解答。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '小黄人（2015）',
+		        				content: '小黄人从哪里来？在为格鲁服务之前他们是怎么生活的？他们原本就是群居吗？这些问题都会在小黄人的独立电影中得到解答。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/3c90cf19-d920-4b82-8109-ffc8f26070fb.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

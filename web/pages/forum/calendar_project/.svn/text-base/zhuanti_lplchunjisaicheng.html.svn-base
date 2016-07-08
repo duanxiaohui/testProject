@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<title>2015年英雄联盟职业联赛春季赛</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="http://www.365rili.com/css/forum_new.css" rel="stylesheet">
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+</head>
+<body>
+    <div class="calendar_project_top">
+        <div class="calendar_project_top_header">
+            <a href="javascript:;" class="return_btn"></a>
+            <a href="javascript:;" class="share_btn none"></a>
+            <span>2015年英雄联盟职业联赛春季赛</span>
+        </div>
+        <div class="calendar_project_top_img">
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/dd3f1529-24d1-4dca-ac01-96176b133b37.jpg"/> <!-- 图片地址 -->
+        </div>
+    </div>
+    <div class="calendar_project_info">
+        <p>英雄联盟职业联赛2015年再度扬帆起航，与以往不同的是本届英雄联盟职业联赛的参赛队伍由八支扩展至十二支，更多的队伍将踏上中国最顶尖英雄联盟联赛的舞台，更多的精彩也将在这片充满激情与荣耀的舞台绽放！</p>
+    </div>
+    <div class="add_schedule_list">
+        
+
+
+
+        <!-- 一条日程 -->
+        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/020601.html">
+               <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/9f7c46eb-3950-4144-ab63-ca0606688001.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第四周第一日 EDG VS M3</h3>
+                        <p class="time">2015-02-06 13:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/020602.html">
+               <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/491d002d-2ae6-4386-a5bc-c3b733ccc965.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第四周第一日 WE VS EP</h3>
+                        <p class="time">2015-02-06 15:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/020603.html">
+             <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/7e7c0594-23ab-4a33-bfc1-b82d8dfec3a4.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第四周第一日 LGD VS IG</h3>
+                        <p class="time">2015-02-06 17:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/020604.html">
+               <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/bd86a3cb-58d1-476d-b0d9-ab8414dbbf52.jpg)"><!-- 日程图片地址 --></dt>  
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第四周第一日 SHR VS VG</h3>
+                        <p class="time">2015-02-06 19:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/020701.html">
+               <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/754f85cc-d178-48ef-90b4-2a8e9de3dae7.jpg)"><!-- 日程图片地址 --></dt>     
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第四周第二日 Snake VS EP</h3>
+                        <p class="time">2015-02-07 13:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/020702.html">
+               <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/9f7c46eb-3950-4144-ab63-ca0606688001.jpg)"><!-- 日程图片地址 --></dt> 
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第四周第二日 EDG VS GT</h3>
+                        <p class="time">2015-02-07 15:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/020703.html">
+               <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/a763159c-d021-4550-8a8a-1c83590f0f1e.jpg)"><!-- 日程图片地址 --></dt>         
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第四周第二日 OMG VS IG</h3>
+                        <p class="time">2015-02-07 17:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/020704.html">
+               <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/bd86a3cb-58d1-476d-b0d9-ab8414dbbf52.jpg)"><!-- 日程图片地址 --></dt>              
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第四周第二日 SHR VS WE</h3>
+                        <p class="time">2015-02-07 19:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/020801.html">
+               <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/6378325f-95b0-42d6-9400-eecf8b88f4f5.jpg)"><!-- 日程图片地址 --></dt>                
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第四周第三日 King VS LGD</h3>
+                        <p class="time">2015-02-08 13:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/020802.html">
+               <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/465072f5-133e-43ac-9b4e-9a996629ec3b.jpg)"><!-- 日程图片地址 --></dt>                
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第四周第三日 VG VS Snake</h3>
+                        <p class="time">2015-02-08 15:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/020803.html">
+               <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/a763159c-d021-4550-8a8a-1c83590f0f1e.jpg)"><!-- 日程图片地址 --></dt>                
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第四周第三日 OMG VS GT</h3>
+                        <p class="time">2015-02-08 17:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		
+				        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/020804.html">
+               <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/9f7c46eb-3950-4144-ab63-ca0606688001.jpg)"><!-- 日程图片地址 --></dt>                
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第四周第三日 EDG VS WE</h3>
+                        <p class="time">2015-02-08 19:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/021301.html">
+                <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/9f7c46eb-3950-4144-ab63-ca0606688001.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第五周第一日 EDG VS EP</h3>
+                        <p class="time">2015-02-13 13:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/021302.html">
+                <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/c2c132b1-3821-4c39-83b9-022296d9941e.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第五周第一日 M3 VS IG</h3>
+                        <p class="time">2015-02-13 15:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/021303.html">
+                <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/465072f5-133e-43ac-9b4e-9a996629ec3b.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第五周第一日 VG VS LGD</h3>
+                        <p class="time">2015-02-13 17:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/021304.html">
+                <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/a763159c-d021-4550-8a8a-1c83590f0f1e.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第五周第一日 OMG VS King</h3>
+                        <p class="time">2015-02-13 19:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/021401.html">
+                <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/6378325f-95b0-42d6-9400-eecf8b88f4f5.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第五周第二日 King VS GT</h3>
+                        <p class="time">2015-02-14 13:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/021402.html">
+                <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/bd86a3cb-58d1-476d-b0d9-ab8414dbbf52.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第五周第二日 SHR VS IG</h3>
+                        <p class="time">2015-02-14 15:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/021403.html">
+                <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/a763159c-d021-4550-8a8a-1c83590f0f1e.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第五周第二日 OMG VS LGD</h3>
+                        <p class="time">2015-02-14 17:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/021404.html">
+                <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/465072f5-133e-43ac-9b4e-9a996629ec3b.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第五周第二日 VG VS M3</h3>
+                        <p class="time">2015-02-14 19:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/021501.html">
+                <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/bd86a3cb-58d1-476d-b0d9-ab8414dbbf52.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第五周第三日 SHR VS Snake</h3>
+                        <p class="time">2015-02-15 13:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/021502.html">
+                <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/c2c132b1-3821-4c39-83b9-022296d9941e.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第五周第三日 M3 VS EP</h3>
+                        <p class="time">2015-02-15 15:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/021503.html">
+                <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/491d002d-2ae6-4386-a5bc-c3b733ccc965.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第五周第三日 WE VS GT</h3>
+                        <p class="time">2015-02-15 17:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/021504.html">
+                <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/f213caa8-1394-4622-b07c-eefd2527a1fa.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第五周第三日 IG VS King</h3>
+                        <p class="time">2015-02-15 19:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/022701.html">
+                <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/465072f5-133e-43ac-9b4e-9a996629ec3b.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第六周第一日 VG VS EP</h3>
+                        <p class="time">2015-02-27 13:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/022702.html">
+                <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/7e7c0594-23ab-4a33-bfc1-b82d8dfec3a4.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第六周第一日 LGD VS GT</h3>
+                        <p class="time">2015-02-27 15:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/022703.html">
+                <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/491d002d-2ae6-4386-a5bc-c3b733ccc965.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第六周第一日 WE VS King</h3>
+                        <p class="time">2015-02-27 17:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/022704.html">
+                <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/9f7c46eb-3950-4144-ab63-ca0606688001.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第六周第一日 EDG VS OMG</h3>
+                        <p class="time">2015-02-27 19:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/022801.html">
+                <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/bd86a3cb-58d1-476d-b0d9-ab8414dbbf52.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第六周第二日 SHR VS EP</h3>
+                        <p class="time">2015-02-28 13:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/022802.html">
+                <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/c2c132b1-3821-4c39-83b9-022296d9941e.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第六周第二日 M3 VS Snake</h3>
+                        <p class="time">2015-02-28 15:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/022803.html">
+                <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/491d002d-2ae6-4386-a5bc-c3b733ccc965.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第六周第二日 WE VS IG</h3>
+                        <p class="time">2015-02-28 17:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/022804.html">
+                <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/465072f5-133e-43ac-9b4e-9a996629ec3b.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第六周第二日 VG VS King</h3>
+                        <p class="time">2015-02-28 19:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/030101.html">
+                <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/491d002d-2ae6-4386-a5bc-c3b733ccc965.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第六周第三日 WE VS VG</h3>
+                        <p class="time">2015-03-01 13:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/030102.html">
+                <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/9b35e80e-c162-4e22-b08c-772d7593faad.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第六周第三日 EP VS LGD</h3>
+                        <p class="time">2015-03-01 15:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/030103.html">
+                <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/9f7c46eb-3950-4144-ab63-ca0606688001.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第六周第三日 EDG VS King</h3>
+                        <p class="time">2015-03-01 17:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		
+		        <dl class="e_clear">
+            <a href="http://www.365rili.com/pages/forum/schedule_project/030104.html">
+                <dt style="background-image:url(http://cocoimg.365rili.com/schedule_pics/default/bd86a3cb-58d1-476d-b0d9-ab8414dbbf52.jpg)"><!-- 日程图片地址 --></dt>
+                <dd>
+                    <div class="add_schedule_list_txt">
+                        <h3>LPL春季赛第六周第三日 SHR VS M3</h3>
+                        <p class="time">2015-03-01 19:00</p>
+                    </div>
+                </dd>
+            </a>
+        </dl>
+		
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20141126"></script>
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+            $('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: $('.calendar_project_top_img img')[0].src,
+                title: $('.calendar_project_top_header span').html(),
+                desc: $('.calendar_project_info p').html()
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+            //分享
+            $('.share_btn').on('click', function() {
+                app.call({
+                    action: 'share',
+                    params: [
+                        {
+                            name: 'shareString',
+                            value: JSON.stringify({
+                                title: $('.calendar_project_top_header span').html(),
+                                content: $('.calendar_project_info p').html(),
+                                link: window.location.href,
+                                image: $('.calendar_project_top_img img')[0].src,
+                                isEvent: 'true'
+                            })
+                        }
+                    ],
+                    callback: function(data) {}
+                });
+            });
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

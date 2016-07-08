@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<title>乱斗西游IET全国高校预选赛火爆开战！</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">乱斗西游IET全国高校预选赛火爆开战！</div>
+    </div>
+	
+	<div class="main">
+    	<div class="main_content">
+    			
+          <img src="http://cocoimg.365rili.com/schedule_pics/default/78f793a3-265e-4616-b9d8-3e146116f5a4.jpg"/>
+			
+			<!--src里放图片地址！ 图片地址由创建日历里得到-->
+			<p>《乱斗西游》IET高校预选赛北京赛区将于4月11日震撼开战！体验活动即有奖，U盘、随身WIFI等你来拿！十二强高手更有雷蛇鼠标、移动电源等好礼相送，还将有机会参加IET电子竞技大赛，成为《乱斗西游》电竞精英俱乐部会员，领取丰厚礼品！</p>
+			<!-- 段落 -->
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/d75b9973-44be-44ed-a67b-cf542b2db0a4.jpg"/>
+			<!--src里放图片地址！ 图片地址由创建日历里得到-->
+			<p>万人大乱斗，谁才是真正的乱斗之王？！速度加入比赛，争夺《乱斗西游》的第一王者！</p>
+			<h2>北京赛区预选赛日程：<h2>
+			<!-- 大标题 -->
+            <p></p>
+            <h3><b>北京航空航天大学赛区：</b></h3>
+			<!-- 小标题 -->
+               <p>时间：2015年04月11日13:00~17:00</br>
+			   <!-- 段落 -->
+              地点：北京航空航天大学沙河校区1号与4号公寓楼之间</P>			   
+			      <a class="btn js-subscribe" data-uuid="603c5a30-4d68-481f-909c-ea0bf02cd364" data-cid="168600543">我要参加 </a>
+			<!-- 添加提醒的按钮 -->
+			<p class="remind_div"> </P>	
+		   
+		    <h3><b>北京理工大学赛区</b></h3>
+               <p>时间：2015年04月11日13:00~17:00 </br>
+              地点：北京理工大学良乡校区北食堂外场</P>
+			     <a class="btn js-subscribe" data-uuid="022e18cb-1d43-4cfd-881d-33ee6a0cb8d2" data-cid="168606609">我要参加</a>
+			<!-- 添加提醒的按钮 -->
+			<p class="remind_div"> </P>		
+
+		
+
+			<h3><b>城市决赛</b></h3>
+              <p>时间：2015年04月12日12:30~17:00</br>
+               地点：海淀区五道口购物广场</P>
+			<p class="remind_div"> </P>
+            <!-- 分割线-->			
+
+			<h3>剑欲出鞘，王者争斗一触即发！点击“我要参加”加入王者之战！</h3>
+
+        <p>  </p>
+			
+	
+	
+    	</div>
+    </div>
+	
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/c60851d7-c2f6-4cdc-9e2e-9c78d04e5c6a.jpg',
+			    <!-- 微信分享图片 -->
+                title: '乱斗西游IET全国高校预选赛火爆开战！',
+				<!-- 微信分享标题 -->
+                desc: '《乱斗西游》IET高校预选赛北京赛区将于4月11日震撼开启！体验活动即有奖，U盘、随身WIFI等你来拿！十二强高手更有雷蛇鼠标、移动电源等好礼相送，还将有机会参加IET电子竞技大赛，成为《乱斗西游》电竞精英俱乐部会员，领取丰厚礼品！'
+            });
+			<!-- 微信分享介绍 -->
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '乱斗西游IET全国高校预选赛火爆开战！',
+								<!-- 微信分享标题 -->
+		        				content: '《乱斗西游》IET高校预选赛北京赛区将于4月11日震撼开启！体验活动即有奖，U盘、随身WIFI等你来拿！十二强高手更有雷蛇鼠标、移动电源等好礼相送，还将有机会参加IET电子竞技大赛，成为《乱斗西游》电竞精英俱乐部会员，领取丰厚礼品！',
+		        				<!-- 微信分享介绍 -->
+								link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/c60851d7-c2f6-4cdc-9e2e-9c78d04e5c6a.jpg',
+								  <!-- 微信分享图片 -->
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

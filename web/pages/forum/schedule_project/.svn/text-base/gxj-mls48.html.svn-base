@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>泰山国际马拉松</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">泰山国际马拉松</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/6bd712b2-3143-48f3-9a55-bccb53e4778e.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+			  <a class="btn js-subscribe" data-uuid="bbfe8684-4e2d-4a49-b600-774a4aee7b14" data-cid="147514789">添加提醒</a>
+	    	
+	    	<p class="time">
+
+
+<b>比赛时间：2015年10月18日8:30 
+</b></br>
+
+	    	<b>比赛地点：山东省泰安市</b></br>
+
+
+
+			</p>
+			<h3>比赛路线：</h3>
+<p> (一)全程马拉松</br>
+泰山国际会展中心(起点)→东岳大街→市政府东门→望岳东路环山路口左转→蓄能电站→大玉石右转向北→桃花峪检票口折返→大玉石左转向东→蓄能电站南下→大河铁路桥右转向西 → 穿过104大河大桥→水利局信号灯右转向南→岱岳区府前街右转→岱岳区府西街左转→泰山大街右转向西约至刘老根大舞台折返→泰山国际会展中心（终点）。 
+</br>(二)半程马拉松</br>
+泰山国际会展中心（起点）→东岳大街→市政府东门→望岳东路环山路口→至蓄能电站路口向西1.4公里折返→蓄能电站路口南下→大河铁路桥向东→岱岳区府前街左转→  岱岳区府西路左转→泰山大街右转向西至刘老根大舞台折返→泰山国际会展中心（终点）。
+</br>(三)迷你5公里</br>       
+泰山国际会展中心(起点)→东岳大街→市政府东门→望岳东路环山路口左转→樱桃园公交站点（终点）。 </br>
+</p> 
+			<!--h3是小标题-->
+			<h3>报名时间:
+</h3>
+			<!--p是段落文字描述-->
+<p>1、网站报名： 本竞赛规程发布日起至2015年9月18日18时，各项目报满为止。</br>
+2、现场报名： 本竞赛规程发布日起至2015年9月18日18时，规定时间内，周一至周五，上午8:30-11:30；下午2:00—5:00；各项目报满为止。</br></br>
+具体详情以官方信息为准
+</p>
+
+
+<a href="http://www.ts-marathon.com/" class="btn js-other">详见官网</a>
+		
+			 <div class="remind_div" data-uuid="bbfe8684-4e2d-4a49-b600-774a4aee7b14" data-cid="147514789"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/6bd712b2-3143-48f3-9a55-bccb53e4778e.jpg',
+                title: '泰山国际马拉松',
+                desc: '泰山国际马拉松比赛全程马拉松是以泰山国际会展中心为起点，沿着环山路向西至桃花峪折返，经过岱岳区政府、泰山大街最后再回到泰山国际会展中心，全程42.195千米，参加全程马拉松比赛的运动员跑完全程也是对自己耐力的一个挑战。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'shareTo',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '泰山国际马拉松',
+		        				content: '泰山国际马拉松比赛全程马拉松是以泰山国际会展中心为起点，沿着环山路向西至桃花峪折返，经过岱岳区政府、泰山大街最后再回到泰山国际会展中心，全程42.195千米，参加全程马拉松比赛的运动员跑完全程也是对自己耐力的一个挑战。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/6bd712b2-3143-48f3-9a55-bccb53e4778e.jpg',
+		        				isEvent: false
+		        			})
+		        		},
+		        		{
+		        			name: 'channel',
+		        			value: 'wx'
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

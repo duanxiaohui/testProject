@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detection" content="telephone=no"/>
+<link rel="stylesheet" href="/third_cooperation/qqgroup/huangli.css">
+<title>365日历 - 黄历</title>
+</head>
+<body>
+	<a href="javascript:;" id="today">回今天</a>
+	<a href="javascript:;" id="next"></a>
+	<a href="javascript:;" id="prev"></a>
+	<script type="tmpl" id="js-tmpl">
+	    <div class="dateInfo">
+	    	<span>{$gongli}</span>
+	    	<h1>{$date}</h1>
+	    	<p>{$nongli}<br>{$ganzhi}</p>
+	    </div>
+	    <div class="border">
+	    	<img src="/third_cooperation/qqgroup/images/huangli/top.png" width="100%" alt="">
+	    	<div class="borderInner">
+    			<table class="yi">
+    				<tr>
+    					<td>{$yi}</td>
+    				</tr>
+    			</table>
+	    		<table class="ji">
+	    			<tr>
+	    				<td>{$ji}</td>
+	    			</tr>
+	    		</table>
+				<em class="titleLit godPosT">诸神方位</em>
+				<table class="godPos">
+					<tr>
+						<td valign="top">喜神-{$xishen}<br>阳贵神-{$yangguishen}</td>
+						<td valign="top">福神-{$fushen}<br>阴贵神-{$yinguishen}</td>
+						<td valign="top">财神-{$caishen}</td>
+					</tr>
+				</table>
+	    	</div>
+	    	<img src="/third_cooperation/qqgroup/images/huangli/bottom.png" width="100%" alt="">
+	    </div>
+	    <div class="border">
+	    	<img src="/third_cooperation/qqgroup/images/huangli/top.png" width="100%" alt="">
+	    	<div class="borderInner fiveGodO">
+				<table class="fiveGod">
+					<tr>
+						<td width="30%">
+							<em class="titleLit">胎神</em>
+							{$taishen}
+							<div class="line"></div>
+						</td>
+						<td rowspan="2" class="border" width="110">
+							<em class="titleLit">彭祖百忌</em>
+							{$pengzubaiji}
+						</td>
+						<td width="30%">
+							<em class="titleLit">冲煞</em>
+							{$chongsha}
+							<div class="line"></div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<em class="titleLit">星宿</em>
+							{$xingxiu}
+						</td>
+						<td>
+							<em class="titleLit">五行</em>
+							{$riwuxing}-{$shiershen}
+						</td>
+					</tr>
+				</table>
+	    	</div>
+	    	<img src="/third_cooperation/qqgroup/images/huangli/bottom.png" width="100%" alt="">
+	    </div>
+
+	    <div class="border">
+	    	<img src="/third_cooperation/qqgroup/images/huangli/top.png" width="100%" alt="">
+	    	<div class="borderInner timeO">
+				{$shichen}
+	    	</div>
+	    	<img src="/third_cooperation/qqgroup/images/huangli/bottom.png" width="100%" alt="">
+	    </div>
+    </script>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/rebuild/base/solarAndLunar.js"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/third_cooperation/qqgroup/js/huangli.js?ver=30"></script>
+    <script src="/js/lib/app.js"></script>
+</body>
+</html>

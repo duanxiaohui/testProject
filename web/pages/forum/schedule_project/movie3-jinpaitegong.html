@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>金牌特工</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">金牌特工</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/cbd41f9c-b0fc-45c2-a800-cee42b1d97d8.jpg"/>
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	<a href="http://vod.kankan.com/v/84/84663/459638.shtml?id=731032" data-title="查看预告片" class="btn js-other">查看预告片</a>
+	    	<h3 class="time">上映时间：2015年2月13日（美国）</h3>
+			<p> </p>
+	    	<h3>导演：马修·沃恩</h3>
+			<p class="fc_000">主演：科林·费斯 / 塔伦·埃哲顿</p>
+			<h3>剧情：</h3>
+			<p>《金牌特工》由知名漫画改编而来。故事讲述由科林·费斯扮演的王牌特工从街头找回了自己的侄子，把他带到特工学校，在对其实施了一系列培训之后，将其从一个毫无修养的混子，教导变成了一个像绅士一样的大英帝国王牌特工的故事。</p>
+			<!--h3是小标题-->
+			<h3>看点：</h3>
+			<!--p是段落文字描述-->
+			<p>此片堪称众星云集：奥斯卡影帝科林·费斯领衔主演，剧中不但有追车，跑酷的戏份，更是科技感十足的化身007让一众菜鸟看得目瞪口呆；《星战》中的“绝地大师”塞缪尔·杰克逊剧中嘻哈的装扮与其以往扮演的风格大相径庭；迈克尔·凯恩、马克·斯特朗这些说出来不熟悉但一看脸绝对认识的老戏骨们也在本片中助阵出演；几位女杀手角色也是身手狠辣，其中更有著名舞者索菲亚·波多拉的身影。由《海扁王》《X战警：第一战》导演马修·沃恩执导的这部片中不乏喜剧元素，与节奏感十足的动作戏交叉进行，配合上“让子弹飞”范儿的剪辑，又是一部非常“马修·沃恩”的影片诞生了。　</p>
+    	<img src="http://cocoimg.365rili.com/schedule_pics/default/65a21b79-da35-46db-8a64-0257434fc768.jpg"/>
+		<img src="http://cocoimg.365rili.com/schedule_pics/default/5063b08b-8d19-43c8-86d5-8786b1700e4e.jpg"/>
+		 <div class="remind_div none" data-uuid="4e0b87d7-73ef-47ed-9069-5060d1f79f57" data-cid="125821987"><div class="remind_icon"></div><span>添加提醒</span></div>
+		</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/42290458-731f-479c-845b-140802f7c106.jpg',
+                title: '电影：金牌特工',
+                desc: '《金牌特工》讲述了一个资深间谍从街头找回了自己的侄子，此男是一个毫无修养的混子，但在男主角实施了一系列培训之后，侄子变成了一个像绅士一样的超级间谍的故事。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '电影：金牌特工',
+		        				content: '《金牌特工》讲述了一个资深间谍从街头找回了自己的侄子，此男是一个毫无修养的混子，但在男主角实施了一系列培训之后，侄子变成了一个像绅士一样的超级间谍的故事。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/42290458-731f-479c-845b-140802f7c106.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+        http://www.springframework.org/schema/beans/spring-beans.xsd  
+        http://code.alibabatech.com/schema/dubbo  
+        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">  
+        
+	<dubbo:application name="when-web"/>
+	
+	<dubbo:registry address="zookeeper://zookeeper1:2181"/>
+	<dubbo:monitor protocol="registry" />
+
+    <dubbo:reference id="googleSync" interface="com.rili.sync.google.GoogleSyncInterface" connections="1">
+        <dubbo:method name="sync" async="false"/>
+        <dubbo:method name="syncAsync" async="true"/>
+        <dubbo:method name="saveRefreshToken" async="false"/>
+        <dubbo:method name="saveGoogleAccountName" async="false"/>
+    </dubbo:reference>
+
+	<dubbo:reference id="mailService" interface="com.rili.mail.MailService" connections="1" >
+		<dubbo:method name="sendHtmlMail" async="true" return="false" />
+		<dubbo:method name="sendMailByVMContent" async="true" return="false" />
+		<dubbo:method name="sendMailByVMLocation" async="true" return="false" />
+	</dubbo:reference>
+	
+	<dubbo:reference id="qqOpenApiService" interface="com.rili.common.service.QQOpenAPIService" connections="1" />
+	
+	<!-- <dubbo:reference id="scheduleActionService" interface="com.rili.common.service.ScheduleActionService" connections="1" async="true" /> -->
+	
+	<dubbo:reference id="realLogService" interface="com.rili.common.service.LogService" 
+		connections="1"/>
+		
+	<dubbo:reference id="smsService" interface="com.rili.common.service.SmsSenderService" 
+		connections="1"/>
+	
+	<dubbo:reference id="realCalendarStatsService" interface="com.rili.common.service.CalendarStatsService" 
+		connections="1"/>
+		
+	<bean id="calendarStatsService" class="com.rili.common.service.CalendarStatsServiceStub">
+		<constructor-arg>
+			<ref bean="realCalendarStatsService" />
+		</constructor-arg>
+	</bean>
+		
+	<bean id="logService" class="com.rili.common.service.LogServiceStub" >
+		<constructor-arg>
+			<ref bean="realLogService" />
+		</constructor-arg>
+	</bean>
+	
+</beans> 

@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>365日历</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
+</head>
+<body>
+    <div class="main">
+    	<div class="top_bg">
+    			<div class="constellation_avtar e_clear">
+    				<div class="avtar"><img src="images/capricorn.png" width="98" height="98"/></div>
+					<div class="constellation_exp">
+						<h3>摩羯座  Capricorn</h3>
+						<p>22/12-20/01</p>
+						<p>2013年运势</p>
+					</div>
+    			</div>
+				<dl class="e_clear">
+					<dt class="overall">整体</dt>
+					<dd>
+						<p>摩羯君的年度主题：在逆境中绝地反攻。　　你最大的敌人不是别人，而是你的性格。上半年的木星，使你在面对工作时，信心满满。特别注意数个时间段，去年十月至今年二月，与下半年九月，十月，都是你靠实力积固市场的关键期。三，四月份，内心脆弱容易爆发。七，八月对立，矛盾的状态冲上高点，对于想离婚，解除合作的人而言，双方态度都已明确，进入尖锐的谈判中。五，六月你可因愿意多一点让步，通过牺牲而得到想要的结果。。</p>
+						<p>下半年木星进入婚姻，合作，夫妻宫位，正向效应是能缔结到强而有力的伙伴，如果你不是个愿意低头，配合的人，这样的机运反而会让你不适或感到痛苦。建议魔羯不妨趁机深思，内心的欠缺若不满足，可能一辈子都不会健康</p>
+					</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="career">事业</dt>
+					<dd>
+						<p>职场的魔羯君，2013年工作上很有进度，二月开始忙碌，有加薪机运，成就感十足，做越多领越多。三月可能因为对工作的坚持，或耽误进度，或与人有矛盾，要注意过劳。五月有赶工的需要，工作量很大，需要大量体力。六月你能成为职场明星，升职运超强。十月与上司互动增多，令上司青睐有加。</p>
+　　						<p>自己创业的摩羯君，关注这几个时间段：一至三月，或有人看好你愿意投资，虽然被动，但资源充沛，可望顺利达成。四，五月则是挣脱束缚。九，十月，则综合以上两种情势，主，被动条件都兼具，且已发现所谓合作者对你并无太大助益，脱离，独立的机率极高。</p>
+					</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="affection">感情</dt>
+					<dd>
+						<p>单身的摩羯君上半年容易在无助脆弱时启动爱情开关，时间在一月，二月。三月，五月可能会有压力，魔羯可以判断对方的反应，摸索自己的心意。下半年，感情态度变得理智，看似现实的条件，反而能找到“交往起来最舒适”的对象，七，八月，与人有来电感。九月有一起出游，共同完成某件事的机会，让感情增温。十一月你渐渐恢复理性。十二月也有不错的相亲对象出现，值得把握。</p>
+						<p>已婚的摩羯君必须直面婚姻关系，你深刻的感受到婚姻带来的好与坏，和它巨大的影响，你变得强势许多。你也非常在乎孩子的成长，生活以孩子，家人，大家庭为主。</p>
+					</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="money">金钱</dt>
+					<dd>有财可理的魔羯君，今年有绝佳的赚钱机会，但必须快速调整自己，你有能力止住债务漏洞，但要放下身段，心甘情愿与三教九流接触，口碑相传，赚取他人金钱，就是你最好的理财。一月小心冲动，无法控制的花大钱，或财务左手进右手出，赚得多，花得也多，占有欲太强看到什么都想买，失去理性。三，四月可能会花钱装修，买卖房屋，或父母身上。五月注意投机性的投资，赌博，会因冲动而损失，但可做长期投资，直觉很灵敏。六月正财运极佳，靠努力与精湛的技艺，使人慑服。下半年八月有接触到大钱，金主，合作的机会，让你轻松赚钱。十月可以信任专家给你的建议，尤其是大方向上的指引。十一月因人脉，人气而来的财气极旺。</dd>
+				</dl>
+    		</div>
+			<p class="txt">安装星座插件，查看每日星座指南！</p>
+			<a class="btn" id="btn" href="javascript:;">分享到微博</a>
+    </div>
+<script type="text/javascript">
+    function $(id){
+        return document.getElementById(id);
+    }
+	window.onload = function(){
+		var btn = $("btn");
+		btn.onclick = function(){
+			var txt = "@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com"
+			var json = '[{"img": "constellation.jpg","content": "@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com","via": "weibo","type": "type","follow": true},{"img":"test","content":"@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com","via":"qt","type":"type","follow":true}]';
+			if (/android/i.test(navigator.userAgent)) {
+				try {
+					AliansBridge.sharev2(json);
+				} 
+				catch (e) {
+					try {
+						AliansBridge.share(txt, img = "constellation.jpg", null, false);
+					} 
+					catch (e) {
+						alert("您的365日历版本暂不支持发微博，请升级到最新版");
+					}
+				}
+			}
+			else 
+				if (/ipad|iphone|mac/i.test(navigator.userAgent)) {
+					btn.href = 'rili365app:share|||||' + txt + '|||||constellation.jpg';
+				}
+		}
+	}
+</script>
+</body>
+</html>

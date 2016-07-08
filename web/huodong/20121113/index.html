@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>你不知道的365日历</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
+</head>
+<body>
+    <div class="main">
+    	<ul>
+    		<li class="one"></li>
+			<li class="two"></li>
+			<li class="three"></li>
+			<li class="four"></li>
+    	</ul>
+    </div>
+	<a class="fixed" id="fixed" href="javascript:;"></a>
+	<script type="text/javascript">
+    function $(id){
+        return document.getElementById(id);
+    }
+    window.onload = function(){
+        var fixed = $("fixed");
+        fixed.onclick = function(){
+            var txt = "@365日历 四年来一直专注日历产品，有style~~";
+            if (/android/i.test(navigator.userAgent)) {
+                try {
+                    AliansBridge.share(txt, img = "365info.jpg", null, false);
+                } 
+                catch (e) {
+                    alert("您的365日历版本暂不支持发微博，请升级到最新版");
+                }
+            }
+            else 
+                if (/ipad|iphone|mac/i.test(navigator.userAgent)) {
+                    fixed.href = 'rili365app:share:' + txt + ':365info.jpg';
+                }
+        }
+    }
+	</script>
+</body>
+</html>

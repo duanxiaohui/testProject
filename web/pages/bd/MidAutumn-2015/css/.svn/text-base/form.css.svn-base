@@ -1,0 +1,189 @@
+@charset "UTF-8";
+/**
+ * 中秋节
+ * @authors 张路 (zhanglu@365rili.com)
+ * @date    2015-09-11 14:10:04
+ */
+*{-webkit-tap-highlight-color: rgba(0,0,0,0); tap-highlight-color: rgba(0,0,0,0);}
+body { background: #fff; color: #444; font-weight: bold; font: 12px / 1.5em Helvetica,Arial,sans-serif; margin: 0; padding: 0; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+textarea { background: #fff; border: 1px solid #d2d9dc; font-size: 13px;}
+textarea:focus, input:focus {box-shadow: 0 0 5px #b7d4ea inset; }
+a { color: #208de9; cursor: pointer; text-decoration: none; }
+button, textarea:focus, div:focus, input:focus {outline:none; box-shadow: none; }
+
+.none{display:none;}
+
+html, body{
+	height: 100%;
+}
+
+/*------- 动画基础样式 ------*/
+.animated {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+}
+
+.animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+}
+
+.animated.stop{
+	-webkit-animation-play-state:paused;
+	-webkit-animation-name: none;
+}
+/*------- 转圈 -------*/
+@-webkit-keyframes rotate {
+    0% {
+        -webkit-transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, -360deg);
+    }
+    50% {
+        -webkit-transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, -180deg);
+    }
+    100% {
+        -webkit-transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    }
+}
+
+.rotate {
+	-webkit-transform-origin: center;
+    -webkit-animation-name: rotate;
+    -webkit-animation-timing-function: linear;
+}
+body, .ui-body-c, .ui-mobile-viewport{
+	background: url(/pages/bd/MidAutumn-2015/images/formBg.jpg) no-repeat left bottom;
+	background-size: 100% 100%;
+}
+.ui-body-c, .ui-overlay-c{
+	text-shadow: none;
+}
+
+.center{
+	text-align: center;
+}
+.formTitle, .formBtn{
+	margin-top: 24px;
+	margin-bottom: 25px;
+}
+.input{
+	display: inline-block;
+	vertical-align: bottom;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	margin: 0 10px;
+	color: #000;
+}
+.input span{
+	display: block;
+	height: 41px;
+	padding:0 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #b39e6a;
+}
+.input span.c{
+	color: #000;
+}
+.input span.none{
+	display: none;
+}
+.ml{
+	margin-left: 0;
+}
+.l1{
+	width: 140px;
+	background-image: url(/pages/bd/MidAutumn-2015/images/l1.png);
+}
+.l2{
+	width: 140px;
+	background-image: url(/pages/bd/MidAutumn-2015/images/l2.png);
+}
+.l3{
+	width: 190px;
+	background-image: url(/pages/bd/MidAutumn-2015/images/l3.png);
+}
+.l4{
+	text-align: center;
+	width: 130px;
+	background-image: url(/pages/bd/MidAutumn-2015/images/l4.png);
+}
+.l5{
+	text-align: center;
+	width: 130px;
+	background-image: url(/pages/bd/MidAutumn-2015/images/l5.png);
+}
+.l6{
+	width: 81px;
+	background-image: url(/pages/bd/MidAutumn-2015/images/l6.png);
+}
+.lettle{
+	line-height: 41px;
+	font-size: 14px;
+	margin: 0 19px;
+	color: #625228;
+}
+.person{
+	text-align: right;
+	margin-top: 20px;
+}
+
+.input input{
+	width: 80%;
+	border: none;
+	padding-left: 10px;
+	background: none;
+	font-size: 14px;
+}
+
+.tool{
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 11;
+}
+.music, .share{
+	text-align: center;
+	float: right;
+	clear: both;
+	width: 59px;
+	height: 59px;
+}
+
+.music img, .share img{
+	margin-top: 10px;
+	height: 39px;
+	box-shadow: 0 0 10px 0 rgba(255,255,255, .6);
+	border-radius: 100%;
+}
+
+.music img{
+	-webkit-animation-duration: 2s;
+}
+.ui-popup-screen{
+	bottom: 0;
+	position: fixed;
+}
+.ui-popup-container{
+	position: fixed;
+}
+
+.logo365{
+	position: absolute;
+    right: 10px;
+    bottom: 10px;
+    z-index: 10;
+}

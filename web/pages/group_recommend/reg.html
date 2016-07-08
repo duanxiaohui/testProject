@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>在线报名</title>
+<link href="/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link rel="stylesheet" href="/pages/group_recommend/dist/css/reg.css">
+</head>
+<body>
+    <div class="reg">
+    	<form>
+	    	<div class="reg_first">
+		    	<h3>您好,请您认真填写以便快速通过审核</h3>
+		    	<div class="acc">
+		    		<div class="acc_div e_clear">
+		    			<span>您的账号</span>
+		    			<input type="text" name="acc" placeholder="您在365日历的登录帐号">
+		    		</div>
+		    		<div class="acc_notes">
+		    			您登录后,可以在“更多”里的第一栏”个人资料”里找到
+		    		</div>
+		    	</div>
+
+		    	<div class="group_name e_clear">
+		    		<span>群组名称</span>
+		    		<input type="text" name="group_name" placeholder="请填写申请助力计划的群组日历名称">
+		    	</div>
+
+		    	<div class="group_info">
+		    		<p>群组简介</p>
+		    		<textarea name="group_info" placeholder="请填写此群组日历的简介[限定50字以内]"></textarea>
+		    	</div>
+
+		    	<div class="group_type">
+		    		<p>群组运营性质</p>
+		    		<label>
+		    			<input type="radio" name="group_type" value="per" checked="checked"><span>个人运营</span>
+		    		</label>
+		    		<label>
+		    			<input type="radio" name="group_type" value="team"><span>团体运营</span>
+		    		</label>
+		    		<label>
+		    			<input type="radio" name="group_type" value="company"><span>公司运营</span>
+		    		</label>
+		    		
+		    	</div>
+	    	</div>
+	    	<div class="reg_second">
+	    		<div class="user_name">
+	    			<span>真实姓名</span>
+	    			<input type="text" name="user_name" placeholder="请输入真实姓名">
+	    		</div>
+	    		<div class="user_tel">
+	    			<span>联系电话</span>
+	    			<input type="text" name="user_tel" placeholder="请输入手机号">
+	    		</div>
+	    		<div class="user_mail">
+	    			<span>联系邮箱</span>
+	    			<input type="text" name="user_mail" placeholder="请输入邮箱以便我们通知您审核结果">
+	    		</div>
+	    	</div>
+
+	    	<div class="user_info">
+	    		<p>自荐介绍</p>
+	    		<textarea name="reason" placeholder="告诉我们为什么要“宠幸”这个群组？[限定300字以内]"></textarea>
+	    	</div>
+		</form>
+    	<a href="javascript:;" class="sub_btn">提交</a>
+    </div>
+<div class="success">
+	<div class="success_icon"></div>
+	<h3>报名提交成功</h3>
+	<p>请保持您的邮箱是可用的</p>
+	<p>我们会在一周内给您反馈审核结果</p>
+	<!-- <a href="javascript:;" class="return_btn">返回</a> -->
+</div>
+<script type="text/javascript" src="/js/jquery/jquery-1.8.3.min.js"></script>
+<script src="/js/lib/zepto.min.js"></script>
+<script type="text/javascript" src="/pages/ui-lib/js/plug.js"></script>
+<script type="text/javascript" src="/pages/group_recommend/dist/js/reg.js?20151010"></script>
+</body>
+</html>

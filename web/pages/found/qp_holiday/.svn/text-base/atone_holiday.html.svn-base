@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>说话一定要算话——赎罪日</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/atone_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>说话一定要算话——赎罪日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>赎罪日是犹太教每年最重要最神圣的节日。犹太新年过后的第十天，从前一天的日落到当天的日落，信犹太教或遵循犹太教传统的犹太人要在上帝面前禁食祷告，在这一天完全不吃、不喝、不工作，并到犹太会堂祈祷，以期赎回他们在过去一年中所犯的或可能犯下的罪过。</p>
+            <img src="/pages/found/qp_holiday/images/atone_img1.jpg"/>
+            <h3>【365小课堂】</h3>
+            <p>出于“在这日要为你们赎罪，使你们洁净”的诫命，犹太人在赎罪日当天会举行一种古老的赎罪仪式：挑选两头阉过的公山羊，由大祭司当着会众的面在祭坛上将其中一头宰杀，作为全体以色列人对上帝的献祭；然后，大祭司用双手按在另一头活着的山羊头上，承认以色列人可能犯下的种种罪孽，把这些罪统统归到羊身上，然后派人把这头羊送到旷野去，让它承担以色列人的一切罪孽——这就是传说中“替罪羊”的来历。</p>
+            <img src="/pages/found/qp_holiday/images/atone_img2.jpg"/>
+            <h3>【说话一定要算话】</h3>
+            <p>犹太会堂在赎罪日全天都举行宗教仪式，拉比和赞礼员在主持仪式时要穿上特别的白袍，以象征纯洁、悔悟、死亡。赎罪日要告诉人们的第一件事是承认自己犯有罪过，并对此表示忏悔。第二是要求人们通过忏悔、赎罪活动，不再重犯以前的错误和用实际行动改正自己犯下的罪过。</p>
+
+            <p class="mt15">这本来是没有什么可诟病之处，问题出现在下面：《柯尔·尼德拉》是犹太人在赎罪日祈祷开始时吟唱的一段祷文，它是一种起誓祷文，不包括任何对上帝的赞美之词。犹太人试图通过对这一祷文的吟唱说明在今后一年内凡是他们在违心、不知情和仓促情况下许下的愿、发出的誓和作出的允诺都该当被视为无效和不算数的，并希望由此得到赦免。</p>
+
+            <img src="/pages/found/qp_holiday/images/atone_img3.jpg"/>
+            <p>什么？还可以这样玩？连誓言和承诺不遵守都可以被赦免，人与人之间还有什么信任可言？</p>
+            <p class="mt15">不出所料，《柯尔·尼德拉》最初受到犹太拉比的反对，因为它使人联想到誓言既然可以在赎罪日视为无效，也就不必加以认真对待。而在历史上，排犹势力经常以此为据，怀疑犹太人在基督教国家法庭上所作誓词的可靠性，并攻击犹太人的誓言全是骗人的谎言。</p>
+            <p class="mt15">犹太人被迫一再作出解释性说明。1860年，祈祷书在说明中解释，该祷文不包括法庭上的誓言。不久，德国犹太教改革派为了避免误解，从祈祷书中摒除了这段祷文。但一年之后，又在祈祷书中重新刊出……小编不禁要说：no zuo no die why you try啊！</p>
+            <div class="tips">
+                <p>1、犹太新年过后的第十天的赎罪日是犹太教每年最重要最神圣的节日，祭祀环节也是“替罪羊”一词的由来；</p>
+                <p>2、这一天犹太人要在上帝面前禁食祷告，并到犹太会堂祈祷，以期赎回他们在过去一年中所犯的或可能犯下的罪过；</p>
+                <p>3、只要是神志清醒的情况下，做出的承诺就要遵守，不然一定会给自己带来麻烦的，不信你看上文。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/欢欢</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

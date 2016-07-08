@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>超级无敌羊咩咩（小羊肖恩）</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">超级无敌羊咩咩（小羊肖恩）</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/6d8f52b5-b4c1-4fca-95a8-d97545bd1232.jpg"/>
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	<a href="http://m.mtime.cn/#!/movie/203224/" class="btn js-other">查看预告片</a>
+	    	<p class="time"><h3>上映时间：2015年2月6日（英国）</h3></p>
+	    	<h3>导演：Mark Burton / Richard Starzack</h3>
+			<h3>编剧：Mark Burton / Richard Starzack</h3>
+			<h3>类型：动画 / 家庭 / 冒险</h3>
+			<p class="fc_000">语言：英语</p>
+			<h3>看点：</h3>
+			<p>超级无敌羊咩咩（又名小羊肖恩）这一形象其官方的第一次登场是出现于《超级无敌掌门狗》，后来阿德曼工作室和英国BBC联合创作了以它为主角的动画剧集，讲述小绵羊肖恩和牧羊犬比泽尔等伙伴们在牧场的生活故事。剧集搞笑可爱，曾获得国际艾美奖，肖恩也成为了家喻户晓的动画形象。2010年8月，《小羊肖恩》动画剧集还曾在央视少儿频道进行播出，深受中国观众喜爱。</p>
+			<!--h3是小标题-->
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/2afe3bb0-6ac6-4cf4-a40f-db2f33afade2.jpg"/>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/6357cc17-2e5e-4ef7-b57d-2e0c4565c293.jpg"/>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/dd6c72fd-3915-4f5e-8412-e6374ffaa07a.jpg"/>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/6d8f52b5-b4c1-4fca-95a8-d97545bd1232.jpg',
+                title: '超级无敌羊咩咩电影版',
+                desc: '还记得那个贱贱的小羊肖恩吗？它要上大银幕了！'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '超级无敌羊咩咩电影版',
+		        				content: '还记得那个贱贱的小羊肖恩吗？它要上大银幕了！',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/6d8f52b5-b4c1-4fca-95a8-d97545bd1232.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+body{background:url(../images/bg.jpg) repeat; font-family: "Microsoft YaHei";}
+*{margin:0; padding:0;}
+ul{list-style: none;}
+li{list-style-type: none;}
+a { color:#2e5401; cursor: pointer; text-decoration: none; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+
+.main{margin:0 auto;}
+.img{width:320px; height:200px; margin:0 auto; background:url(../images/top.jpg) repeat-x left top; -webkit-background-size:320px 200px;}
+.txt{ color:#000; font-size:14px; padding:10px 5px;}
+.btn{display:block; width:150px; height:40px; line-height:40px; text-align:center; margin:10px auto; background:#7f9f98; color:#fff; font-size:14px;
+-moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; border-radius:5px; font-size:18px;}

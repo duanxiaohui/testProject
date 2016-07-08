@@ -1,0 +1,257 @@
+@CHARSET "utf-8";
+
+body {
+    margin: 0;
+    font-family: Helvetica;
+     overflow: hidden;
+    -webkit-text-size-adjust: none;
+	font-family: "Microsoft YaHei",arial,simsun;
+	color: #333;
+	font-size:28px; line-height: 1.8em; 
+}
+
+#btnBar {
+	position:fixed;
+	background:url('images/greatheat/btn.png') no-repeat;
+	bottom:10px;
+	left: 60px;
+	width:auto;
+	height:60px;
+	text-align:center;
+	z-index:2;
+	overflow:hidden;
+}
+
+#btnBar:active {
+	background:url(images/greatheat/btn_click.png) no-repeat;
+}
+
+.panel {
+    box-sizing: border-box;
+    width:auto;
+}
+
+.panel_poster img{
+	max-width:100%;
+}
+
+.panel_detail {
+	padding-left:10px;
+	padding-top:3px;
+	padding-bottom:5px;
+	color:#3b545f;
+	border-bottom:1px #d2d0d0 solid;
+}
+.panel_detail img {
+	width:11px;
+}
+.panel_detail_h1{
+	font-size:15px;
+	margin-top:2px;
+	margin-bottom:5px;
+}
+.panel_detail_h2{
+	font-size:12px;
+	margin-bottom:2px;
+}
+.panel_desp {
+	padding:10px 0 10px 10px;
+	color:#989a9a;
+	font-size:12px;
+	border-bottom:1px #d2d0d0 dotted;
+}
+
+.panel_tag{
+	padding-bottom:0px;		
+}
+
+.panel_tag_title{
+	position:relative;
+	font-size:14px;
+	padding:15px 0px 15px 0px;
+}
+.panel_tag_title img{
+	position:relative;
+	width:13px;
+	margin-left:10px;
+}
+
+.cinema_name{
+	position:absolute;
+	top:17px;
+	left:28px;
+	color:#717171;
+}
+.cancel_btn {
+	position:absolute;
+	top:10px;
+	right:10px;
+	color:#ffffff;
+	background-color:#cbd2d8;
+	padding:8px 12px 6px 12px;
+	border:1px solid #9ca3a8;
+	border-radius:5px;
+}
+.panel_tag_detail {
+	background:#ffffff;
+	margin:0 8px 0 8px;
+	padding:10px 0 8px 15px;
+	color:#c1c1c1;
+	font-size:14px;
+}
+
+.panel_tag_date {
+	background:#ffffff;
+	margin:0 8px 0 8px;
+	color:#717171;
+	margin-top:15px;
+	padding:10px 0 0 15px;
+	font-size:14px;
+}
+
+.panel_tag_detail spam{
+	color:#3cadfb;
+}
+
+.constellation_web {
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.constellation_web img {
+	width:100%;
+	padding-bottom:5px;
+}
+
+.constellation_weibo_text{
+	border-radius:5px;
+	border:1px solid #88d700;
+	background:#f1f2f2;
+	margin-top:7px;
+	margin-bottom:7px;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.constellation_weibo_text div{
+	padding:8px;
+	padding-top:10px;
+	padding-bottom:13px;
+	color:#6d6e71;
+	line-height:22px;
+}
+
+.constellation_weibo_text img {
+	width:100%;
+	padding:0px;
+}
+
+.constellation_bottom{
+	width:100%;
+	text-align:center;
+	color:#bcbec0;
+	font-size:22px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.constellation_web a{
+	TEXT-DECORATION:none;
+}
+
+.constellation_web a:link {
+	color:#6d6e71;
+}
+
+.constellation_web a:visited {
+	color: #6d6e71;
+}
+
+.city_list_div{
+	position:absolute;
+	background-color:#ffffff;
+	z-index:999999;
+	top:50px;
+	left:20px;
+	right:20px;
+	display:none;
+	border-radius:5px;
+	border:2px solid #9ca3a8;
+	line-height:50px;
+}
+
+.citylistitem{
+	border-bottom:1px solid #9ca3a8;
+	padding-left:15px;
+	margin:2px;
+	margin-bottom:0px;
+}
+
+.cinema_detail_title{
+	padding-left:15px;
+	margin:2px;
+	padding-bottom:0px;
+	margin-bottom:0px;
+	color:#9ca3a8;
+	font-size:20px;
+}
+
+.cinema_detail_date{
+	padding-left:15px;
+	line-height:20px;
+	color:#d1d3d4;
+}
+
+.cinema_detail_time{
+	padding-left:13px;
+	margin:2px;
+	margin-bottom:0px;
+	background-color:#f1f3f4;
+	color:#9ca3a8;
+	margin-bottom:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	line-height:22px;
+}
+
+.cinema_detail_btn{
+	position:relative;
+	height:65px;
+	margin:2px;
+	font-size:16px;
+}
+
+.cinema_div_btn_add{
+	position:absolute;
+	background-color:#cbd2d8;
+	border:1px solid #9ca3a8;
+	border-radius:5px;
+	color:#ffffff;
+	width:100px;
+	top:6px;
+	left:25px;
+	line-height:40px;
+	text-align:center;
+}
+
+.cinema_div_btn_return{
+	position:absolute;
+	background-color:#cbd2d8;
+	border:1px solid #9ca3a8;
+	border-radius:5px;
+	color:#ffffff;
+	width:100px;
+	top:6px;
+	right:25px;
+	line-height:40px;
+	text-align:center;
+}
+
+.other_cinema{
+	border-radius:35px;
+	border:10px solid #e3e3e3;
+	text-align:center;
+	margin:10px 15px 30px 15px;
+	padding:10px 0px 10px 0px;
+	font-size:20px;
+	color:#666666;
+}

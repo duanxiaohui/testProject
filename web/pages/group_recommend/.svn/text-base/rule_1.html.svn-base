@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>通关秘籍</title>
+<link href="/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link rel="stylesheet" href="/pages/group_recommend/dist/css/rule.css">
+</head>
+<body>
+    <div class="rule_1">
+    	<h2>如何创建一个公开的群组日历？</h2>
+    	<p>第一步：打开365日历客户端，进入“日历群”模块，点击“创建群组”按钮；</p>
+    	<div class="rule_img1">
+    		<img src="/pages/group_recommend/dist/img/rule_img1.jpg" alt="">
+    	</div>
+    	<p>第二步：为群组日历传一张合拍的头像，起个响亮的名字，写上一段闪闪的介绍；记住选择“不需要验证”的选项哦！</p>
+    	<div class="rule_img2">
+    		<img src="/pages/group_recommend/dist/img/rule_img2.jpg" alt="">
+    	</div>
+		<p>第三步：为群组日历选择一个分类；</p>
+		<div class="rule_img2">
+			<img src="/pages/group_recommend/dist/img/rule_img3.jpg" alt="">
+		</div>
+		<p>第四步：再为群组日历设置一张背景图，一个公开的群组日历就创建完成了；</p>
+    </div>
+</body>
+</html>

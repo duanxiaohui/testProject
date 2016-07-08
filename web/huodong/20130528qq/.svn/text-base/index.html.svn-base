@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历--QQ浏览器</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+</head>
+<body>
+	<div class="main">
+		<div class="top"></div>
+		<div class="text">
+			<p>QQ浏览器（极速内核）界面清新，操作简单易用。采用腾讯自主研发的X5内核， 提供前所未有的极速上网体验。2013年，速度会更快哦！QQ浏览器，给你超快感！</p>
+		</div>
+		<a href="http://misc.wcd.qq.com/app?packageName=com.tencent.mtt&channelId=75813" class="btn">下载QQ浏览器</a>
+	</div>
+</body>
+</html>

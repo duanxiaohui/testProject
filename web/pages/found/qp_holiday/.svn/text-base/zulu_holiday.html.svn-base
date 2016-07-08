@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>逐草而行，牧草辽远</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/zulu_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>逐草而行，牧草辽远</h1>
+            </div>
+        </div>
+
+        <div class="qp_main">
+            <p>中国有四大草原，内蒙古呼伦贝尔草原、内蒙古锡林郭勒草原、新疆伊犁草原、西藏那曲草原。虽然新疆和西藏两个草原加起来占据了四大草原的“半壁江山”，但内蒙古仍然以绝对优势牢牢占据着人们心中“草原”这一标签。</p>
+            <img src="/pages/found/qp_holiday/images/zulu_img1.jpg"/>
+            <p>丰草集结而成原，铺展千里碧毯，河水流淌、牛羊歌唱，这一切构成了一副美丽的画卷，吸引着人们心动于这场逐草之旅。这里有让人不醉不归的马奶酒，有热情奔放的盅盘舞、筷子舞，有神圣不可侵犯的山神崇拜，也有春节“同款”的祖鲁节。</p>
+            <h3>【春节同款】</h3>
+            <p>祖鲁节是蒙古族的传统节日，在每年农历十月二十五日举行节日庆祝活动。这个节日由佛教点灯仪式演变而来，在卫拉特蒙古人当中最受重视，他们认为过了祖鲁节每个人都会年长一岁，意义类似传统的春节。</p>
+
+            <p class="mt15">过节当然是吃最大，在这天蒙古人要做一种叫“蒙利森巴达”的点心，做法是将炒米碾成碎米，用黄油炒后加入红糖，在“琶纳（做奶豆腐的模子）”内压成硬块，然后按四方形和三角形切开，并互相赠送。除了美食过节时最引人注目的当然是熊孩子们，在大人们念玛尼（看清楚哦）时，他们在有灯的地方跑来跑去、追逐嬉戏。第二天，他们仍然是最活跃的人物，当大人们还在梦乡时他们就已经争先恐后的爬起来，三五成群吵着闹着到各家去抢吃佛灯。祖鲁节的佛灯都是“定制款”，由糖、奶、面制成，凌晨时分灯芯已燃尽，油也已耗干，烧了一夜的火把灯盏燎黄烤熟，使佛灯变成了别具风味的小吃。族人祭拜的是长寿的佛，寓意吉祥，因此大家都会品尝。</p>
+            <img src="/pages/found/qp_holiday/images/zulu_img2.jpg"/>
+            <h3>【节日的AB面】</h3>
+            <p>蒙古族这个族群在漫长的历史发展过程中产生了许多的分支，巴林蒙古、察哈尔蒙古、卫拉特蒙古等。这些小的分支在继承民族传统节日的时候充分发挥了自己的聪明才智，久而久之，使得不同部落的节日有了细微的差别。察哈尔蒙古过佛灯节就不同于上述介绍，他们的灯盏是把莜面用放了砂糖的奶水搅起来捏成的，把芨芨草棍上缠上新棉花插进每盏灯做灯芯，再用黄油一盏一盏灌满。以家庭为单位每家至少要捏几百盏。土豪可以忽略，捏上几千几万盏也不会有人反对。晚上星宿全了以后，佛灯就会被搬出来，从佛包还是，居室、凉房、羊圈、羊棚都要摆上。接着大家都集中到一个大户人家，围绕火撑子坐成一个圈念玛尼经。一圈玛尼经念完了，锅里的羊肉也煮熟了，大家一起分享着佛祖赐予的神食，吃喝完毕各回各家。</p>
+
+            <p class="mt15">同一个节日的多样性给予我们更多机会去了解草原的壮美文化一面又一面，这场逐草而行的心灵之路，值得每一个人用心体会。</p>
+
+            <div class="tips">
+                <p>1、每年农历十月二十五日是卫拉特蒙古的祖鲁节，他们认为过了这个节每个人都会年长一岁，意义类似传统的春节；</p>
+                <p>2、蒙古草原有让人不醉不归的马奶酒，有热情奔放的盅盘舞、筷子舞，有神圣不可侵犯的山神崇拜，逐草之旅势在必行。</p>
+            </div>
+            
+        </div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+      <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+    
+ </body>
+</html>
+

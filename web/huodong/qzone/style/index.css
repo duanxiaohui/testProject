@@ -1,0 +1,32 @@
+body{ font-family: "Microsoft YaHei"; border-top:4px solid #ff6600; background:#eaeaea;}
+*{margin:0; padding:0;}
+ul{list-style: none;}
+li{list-style-type: none;}
+img{border:0; font-size:0; vertical-align:top;}
+a { color:#0d23f4; cursor: pointer; text-decoration: none;  }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+
+#bg{width:100%; display:none; background:#000; filter:alpha(opacity=30);	-moz-opacity:0.3;	-khtml-opacity: 0.3; opacity: 0.3; position:absolute; top:0; left:0; z-index:5;}
+.top,.banner,.main,.code_img,.footer{width:1003px; margin:0 auto;}
+.top{height:65px; padding-top:10px;}
+.down_btn{float:right; padding-left:60px; height:50px; line-height:25px; width:120px; text-align:left; background:url(../images/down_btn.jpg) no-repeat left; cursor:pointer;}
+.logo_img,.logo_txt{float:left;}
+.logo_txt{padding-left:5px;}
+.logo_txt h2{font-size:26px; font-weight:500; color:#414042;}
+.logo_txt p{color:#414042; font-size:14px;}
+.banner{width:100%; height:320px; background:#000;}
+.banner_box a{display:block; width:240px; height:46px; position:absolute; bottom:30px; right:50px; background:#f39423; text-align:center; line-height:46px; color:#fff; border:1px solid #e98f23;-moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px;}
+.banner_box{width:724px; height:320px; position:relative; margin:0 auto; background:url(../images/banner.jpg) no-repeat;}
+.main{background:#fff; padding-bottom:20px;}
+.main h3{line-height:72px; padding-left:30px; font-size:18px; color:#414042; font-weight:500;}
+.main ul li{float:left; margin-left:26px; display:inline; width:300px;}
+.main p{text-align:center; height:50px; line-height:20px; font-size:14px; color:#414042;}
+.code_img{padding:20px 0;}
+.code_images{float:left;width:160px; height:160px; padding:10px; background:#fff; -moz-border-radius: 16px; -webkit-border-radius: 16px; -khtml-border-radius: 16px; border-radius: 16px;}
+.code_txt{float:left; padding:10px 0 0 30px; width:285px; font-size:18px; line-height:30px; color:#414042;}
+.footer{padding-bottom:20px;}
+.footer p{line-height:24px; text-align:center; color:#58595b;}
+.code_layer{display:none; position:absolute; z-index:6; left:50%; top:100px; margin:0 0 0 -258px; width:295px; height:430px; background:#fff; padding:50px 110px;-moz-border-radius: 16px; -webkit-border-radius: 16px; -khtml-border-radius: 16px; border-radius: 16px;}
+.code_layer p{padding-top:15px; font-size:14px; color:#414042;}

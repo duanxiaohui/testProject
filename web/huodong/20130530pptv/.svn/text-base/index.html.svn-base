@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历--PPTV</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+</head>
+<body>
+	<div class="main">
+		<div class="top"></div>
+		<div class="text">
+			<p>PPTV看电影、电视剧，最高人气视频软件！全面支持iPad、iPhone、Android。涵盖最新高清国产热播剧、美剧、日剧、韩剧、英剧、泰剧、动漫，每日准时更新。支持手机视频下载，离线观看。</p>
+		</div>
+		<a href="http://d2.365rili.com/dl/android/exchange/PPTV_aPhone_2.3.5.1_76_20130527.apk" class="btn">下载PPTV</a>
+	</div>
+</body>
+</html>

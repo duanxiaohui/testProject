@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>初七，来一场赴汤蹈火的欢聚</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/vulcan_section/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>火神节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>伟大圣经的打开方式是这样的：“上帝说要有光，于是就有了光……”光是有了，但是同时上帝还丢给了人类一个不容拒绝的漫漫长夜！火的存在给了人们更好的使用黑夜的机会，人们烤肉、人们煲汤、人们围着篝火欢快的唱歌跳舞。但是这美好的一切都被爱迪生毁了！因为他发明了电灯！虽然电灯在照明方面可以代替火，但是在很多方面它都只能模仿、无法超越，比如做饭（电磁炉、电饭煲什么的不服气了，但是并没什么用）！</p>
+            <img src="images/vulcan_section/holiday_1.jpg"/>
+            <p>火带来了热量，熟的、没有细菌的食物，能量，技术等等，它给我们的生活带来了极大的便利，甚至可以说火是生命之源（水又不服气了）！历史学家们言简意赅的说了一句：掌握火的使用，标志着人类进入了文明的社会，这句话全票通过。</p>
+            <h3>【火神节】</h3>
+            <p>火非常重要，掌管火的神当然也就得到了人们无限的敬重。这个厉害的神详细资料如下：火神是汉族传说中的司火之神，名祝融、回禄，又称火德星君。他的来历是这样的：相传远古时期燧人氏教人钻木取火，使人类以熟食为生。为了纪念他，人们尊称他为“火神”，把农历正月初七定为他的生日，并把这天定为火神节。</p>
+            <img src="images/vulcan_section/holiday_2.jpg"/>
+            <p>鲁西、鲁南菏泽、济宁等地一带有在火神节送火神的习俗。初七当日家家都会绑扎柴把，柴把内夹带鞭炮，上插火神牌位。天一黑，后生辈就争先恐后的齐集村头，高举柴把排成长列，点燃后奔跑着朝西南方向把“火神”送到原野或山上。火光辉映、鞭炮声声，远远望去宛若游龙，景像颇为壮观。</p>
+            <h3>【祭火神的典范】</h3>
+            <p>在菏泽最闻名的祭祀火神形式就数曹县桃源花供。花供是人们为祈求风调雨顺、五谷丰登、人丁兴旺、消灾祛病的特有的祭祀供奉习俗，当地人们称这种祭祀活动为看花供。</p>
+            <img src="images/vulcan_section/holiday_3.jpg"/>
+            <p>花供会，又叫火神节。据说早在建村初期桃源集就有祭祀火神的习俗，即正月初七给火神爷做生，他们把这一天定为火神的生日。当天桃源集家家户户烧香摆供，祈求火神赐福。那时候穷苦人家拿不出鸡、鱼、肉等较好的礼品，只好用白面捏蒸成鸡、鸭、鱼、猪头等仿生面塑代之。后来又发展成用白萝卜刻成香瓜圣果、亭台楼宇等艺术品。种类也由原来单纯的鸡、鱼、肉发展为水果、蔬菜、花草及戏剧人物、瑞禽珍兽等等，其形象逼真、生动传神、五彩缤纷，所以被称为花供。</p>		
+
+            <div class="tips">
+                <p>1、每年正月初七是火神节，这一节日以鲁西、鲁南菏泽、济宁地区为最盛；</p>
+                <p>2、这个初七，让我们来一场赴汤蹈火的欢聚吧！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

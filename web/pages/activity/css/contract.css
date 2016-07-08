@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.contract{ padding:28px 20px;}
+.content{min-height: 360px;}
+.content,.footer{	font-family: "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, SimSun, arial; line-height: 24px; color: #898e91; font-size: 14px;font-weight: normal;}
+.content div{margin-bottom:30px;font-weight: bold;}
+.accept_btn{
+	background-color: #55d361;
+	display: block;
+	margin: auto;
+	width:260px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	color: #fff;
+	border-radius: 6px;
+	text-decoration: none;
+	border:1px solid #eef9fb;
+	font-size: 15px;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>活动日程安排</title>
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/pages/bd/movie_sh/css/main.css" rel="stylesheet">
+</head>
+<body>
+    <img src="/pages/bd/movie_sh/images/bg.jpg" width="100%" alt="">
+    <div class="contain">
+    	<h4 class="title"><span>展映推荐</span></h4>
+	    <img class="photo" src="/pages/bd/movie_sh/images/img9.png" width="100%" alt="">
+	    <div class="txt1">
+			<p class="single"><span>导演: </span><span>贝尼特·米勒作品</span></p>
+			<p class="single"><span>主演: </span><span>查宁·塔图姆/ 马克·鲁法洛/ 史蒂夫·卡瑞尔</span></p>
+			<p class="single"><span>类型: </span><span>剧情</span></p>
+			<p><span>放映时间：</span>
+<br>6.13 周六 15:45 大光明电影院一厅
+<br>6.14 周日 13:30 嘉定影剧院三厅
+<br>6.17 周三 15:45 曲阳影都一厅
+<br>6.20 周六 15.45 上海兰生典尚影院六厅
+<br>6.21 周日 15:45 SFC上影影城南桥百联店五厅
+			</p>
+	    </div>
+
+
+	    <img class="photo" src="/pages/bd/movie_sh/images/img10.png" width="100%" alt="">
+	    <div class="txt1">
+			<p class="single"><span>导演: </span><span>达米恩·查泽雷</span></p>
+			<p class="single"><span>主演: </span><span>迈尔斯·特勒/ J·K·西蒙斯</span></p>
+			<p class="single"><span>类型: </span><span>剧情/ 音乐</span></p>
+			<p><span>放映时间：</span>
+<br>6.13 周六 18:30 上海虹桥世茂国际影城一厅
+<br>6.14 周日 13:30 大光明电影院一厅
+<br>6.15 周一 18:30 曲阳影都一厅
+<br>6.18 周四 18:30 SFC上海影城一厅
+<br>6.19 周五 15:45 沪北电影院一厅
+<br>6.20 周六 20:45 华谊兄弟影院一厅
+<br>6.21 周日 18:30 UME新天地国际影城一厅
+			</p>
+	    </div>
+
+
+	    <img class="photo" src="/pages/bd/movie_sh/images/img11.png" width="100%" alt="">
+	    <div class="txt1">
+			<p class="single"><span>导演: </span><span>大岛渚</span></p>
+			<p class="single"><span>主演: </span><span>桑野美雪/ 川津祐介</span></p>
+			<p class="single"><span>类型: </span><span>剧情</span></p>
+			<p><span>放映时间：</span>
+<br>6.16 周二 18:30 大光明电影院一厅
+<br>6.18 周四 20:45 国泰电影院二厅
+<br>6.19 周五 20:45 上海17.5影城又一城一厅
+<br>6.20 周六 20:45 曹杨影城一厅
+<br>6.21 周日 18:30 SFC上海影城一厅
+			</p>
+	    </div>
+
+
+	    <img class="photo" src="/pages/bd/movie_sh/images/img12.png" width="100%" alt="">
+	    <div class="txt1">
+			<p class="single"><span>导演: </span><span>理查德·林克莱特</span></p>
+			<p class="single"><span>主演: </span><span>艾拉·科尔特兰/ 帕特里夏·阿奎特/ 伊桑·霍克</span></p>
+			<p class="single"><span>类型: </span><span>剧情</span></p>
+			<p><span>放映时间：</span>
+<br>6.14 周日 20:45 莘庄海上国际影城四厅
+<br>6.15 周一 20:45 SFC上影影城新衡山店一厅
+<br>6.16 周二 10:30 大光明电影院一厅
+<br>6.19 周五 10:30 SFC上海影城一厅
+<br>6.21 周日 20:45 环艺电影城二厅
+			</p>
+	    </div>
+
+
+	    <img class="photo" src="/pages/bd/movie_sh/images/img13.png" width="100%" alt="">
+	    <div class="txt1">
+			<p class="single"><span>导演: </span><span>詹姆斯·马什</span></p>
+			<p class="single"><span>主演: </span><span>埃迪·雷德梅恩/ 菲丽希缇·琼斯</span></p>
+			<p class="single"><span>类型: </span><span>剧情/ 传记</span></p>
+			<p><span>放映时间：</span>
+<br>6.13 周六 18:30 曲阳影都一厅
+<br>6.16 周二 20:45 金逸影城（凯德龙之梦虹口店)一厅
+<br>6.17 周三 18:30 SFC上海影城一厅 Hall
+<br>6.18 周四 18:30 大光明电影院一厅
+<br>6.20 周六 15:45 和平影都ATMOS厅
+			</p>
+	    </div>
+
+
+
+	    <h4 class="title"><span>其他信息</span></h4>
+	    <div class="btns">
+	    	<a href="http://www.365rili.com/pages/bd/movie_sh/hotevent/schedule.html" class="btn rcjs"></a>
+	    	<a href="http://www.365rili.com/pages/bd/movie_sh/hotevent/pwzr.html" class="btn pwzr"></a>
+	    	<a href="javascript:;" class="btn gdyp"></a>
+	    </div>
+    </div>
+    <div class="footer">
+    	<img src="/pages/bd/movie_sh/images/bgb.jpg" width="100%" alt="">
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+	<script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+	<script src="http://www.365rili.com/pages/bd/movie_sh/js/movie.js"></script>
+    <div style="display:none;">
+    </div>
+</body>
+</html>

@@ -1,0 +1,334 @@
+body{
+	text-algin:center;
+	font-family: "Microsoft YaHei","YouYuan","FangSong",arial,simsun;
+	background:url(http://up2.365rili.com/v3/images/bg.jpg) repeat-y fixed center;
+	width: 100%;
+}
+
+#page{
+	width:1024px;
+	margin:0px auto;
+	margin-top: 10px;
+	margin-bottom: 80px;
+	overflow: hidden;
+	position:relative; 
+	clear:both;
+	/*border:1px solid #000;*/
+}
+#header{
+	margin-bottom: 5px;
+}
+
+#main {position:relative; float:left; }
+#content {position:relative; float:left; background-color: #fff; z-index:100}
+#focus {width: 744px; z-index:200}
+#client {position:relative; float:left; width: 742px; height: 760px; border:1px solid #d3d3d3; z-index:200; }
+.oneClient {float:left;width: 330px;margin: 20px 15px;}
+.cIcon {float:left;margin: 5px 15px 25px 5px;}
+.cContent .cTitle {
+	color: #999;
+	font: normal 18px "Microsoft YaHei",arial,simsun;
+	margin-bottom: 5px;
+	text-shadow:#ccc 1px 1px 0,#fff 1px 1px 0;
+}
+.cTxt,.cTxt a {
+	font: normal 13px simsun;
+	color: #999;
+	text-decoration: none;
+	line-height: 20px;
+}
+.cTxt a:hover{ text-decoration:underline; color:#666;}
+.cButton {margin: 5px;float: right;}
+#client .title1{
+	font:normal 33px "Microsoft YaHei",arial,simsun; margin:30px 0 0 30px; color:#999;
+}
+#client .title2{
+	font:normal 22px "Microsoft YaHei",arial,simsun; margin:20px 0; color:#999;
+}
+#client .text{
+	font:normal 18px "Microsoft YaHei",arial,simsun;; 
+	text-indent: 2em; 
+	line-height: 1.7em;
+	margin:0px; 
+	color:#999; 
+	padding:0px 40px;
+}
+#client .text p{
+	margin: 20px 0px;
+}
+
+#plugins {
+	position:relative;
+	float:left;
+	clear: both;
+	height: 353px;
+	width: 742px;
+	background-color: #d4ecf7;
+	border-left:1px solid #d3d3d3;
+	border-right:1px solid #d3d3d3;
+	border-bottom:1px solid #d3d3d3;
+}
+
+<!--[if lte IE 7]-->
+#client {width: 740px; border:1px solid #d3d3d3;}
+.oneClient {float:left;width: 320px;margin: 20px 15px;}
+<!--[endif]-->
+
+#sidebar {
+	position:relative; 
+	float: right;
+	width: 280px;
+	z-index:100;
+	border:1px solid #d3d3d3;
+}
+.mainmenu {
+	width: 140px;
+	height: 130px;
+	float: left;
+}
+#secmenu {}
+.smcell {
+	width: 70px;
+	height: 65px;
+	float: left;
+}
+.menuText {
+	display:none;
+	position:relative; 
+	float: right; 
+	margin-top: -25px;
+	margin-right: 80px;
+	width: 50px;
+	text-decoration: none; 
+	color:#fff;
+}
+.menuText:hover{color:red; font-size:110%;}
+#news,#update,#qa_box {
+	width: 252px;
+	float: left;
+	font-size: 12px;
+	padding:10px 14px 20px 14px;
+}
+#news div {
+	margin: 10px;
+}
+#news {
+	background:url(http://up2.365rili.com/v3/images/news_bg.jpg) repeat-x;
+	height: 83px;
+}
+#news a {
+	font-size: 13px;
+	color: #555;
+	text-decoration: none;
+	text-shadow:#eee 1px 1px 0;
+}
+#news a:hover{ text-decoration:underline; color:#222;}
+
+#update {
+	background:url(http://up2.365rili.com/v3/images/update_bg.png) repeat-x;
+	height: 336px;
+	line-height:26px;
+}
+
+#update div {
+	/*margin: 6px 6px;*/
+}
+#update .cal {
+	width: 40px;
+	float: left;
+	margin:0px;
+	padding:0px;
+	text-algin:center;
+	background: url("http://up2.365rili.com/v3/images/date_bg.png");
+	/*border: 1px solid #000;*/
+	height: 33px;
+}
+#update .mon {
+	margin:0px;
+	padding:1px;
+	font: normal 8px "Microsoft YaHei",arial,simsun;
+	line-height:9px;
+	text-algin:center;
+	color: #fff;
+}
+#update .day {
+	margin:0px;
+	font: bold 16px Impact,"Arial Black",simsun;
+	text-algin:center;
+	color: #000;
+}
+#update .aline {
+	float:left;
+	width: 94%;
+	margin: 10px 8px;
+	/*border-bottom: 1px dashed #eee;*/
+}
+#update .uptxt {
+	vertical-align: text-top;
+	padding-top:6px;
+	margin-left: 48px;
+/*	margin-top: 10px;*/
+	margin-bottom: -1px;
+}
+#update .uptxt a, .more a {
+	font: normal 12px "Microsoft YaHei",arial,simsun;
+	color: #555;
+	text-decoration: none;
+	text-shadow:#eee 1px 1px 0;
+}
+#update .uptxt a:hover, .more a:hover {
+	text-decoration:underline; color:#222;
+}
+.more, .moreqa {
+	float:right;
+	padding-right: 20px;
+}
+.moreqa {margin-top: -15px}
+.moreqa a{text-decoration:none; color: #fff;}
+.moreqa a:hover {text-decoration:underline; }
+#qa_box {
+	background:url("http://up2.365rili.com/v3/images/index/blue_line.png") repeat-x;
+	height: 546px;
+	width: 280px;
+	padding: 0px;
+}
+#qa_box img {display: block;}
+.qa_a_box1, .qa_a_box2 {
+	width: 266px;
+	color: #fff;
+	font-size: 12px;
+}
+.qa_a_box1 {
+	background:url("http://up2.365rili.com/v3/images/index/talk.png");
+	height: 120px;
+	margin-top: 10px;
+}
+.qa_a_box2 {
+	background:url("http://up2.365rili.com/v3/images/index/talk2.png");
+	height: 97px;
+	margin-top: 10px;
+}
+.qabox_q {
+	float:left;
+	font-size:14px;
+	margin-top: 8px;
+	margin-left: 26px;
+	filter:alpha(opacity=80); /*IE*/
+	-moz-opacity:0.8;/*FF*/
+	opacity: 0.8;/*Chrome��*/
+	font-weight: 600;
+}
+.qabox_a {
+	float:left;
+	line-height: 1.4em;
+	font-weight: 500;
+	margin-top: 20px;
+	margin-left: 45px;
+	margin-right: 6px;
+}
+
+#footer{
+	clear:both;
+}
+.footertitle,.fontertext,.copyright {
+	font-family: "Microsoft YaHei",arial,simsun;
+	color: #444;
+}
+.footertitle {
+	clear: both;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.footertext {
+	font-size: 12px;
+	margin-left: 10px;
+	line-height: 20px;
+	color: #666;
+}
+.footertext a {
+	text-decoration: none;
+	color: #666;
+}
+#aboutmetxt {
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+.amtxt {
+	font: normal 15px "Microsoft YaHei",arial,simsun;
+}
+.amtxt a {
+	text-decoration: none;
+	color: #666;
+}
+.copyright {
+	font-size: 12px;
+	vertical-align: text-top;
+	float: left;
+	line-height:22px;
+}
+#bottomlogo {
+	float: left;
+	padding-left: 10px;
+}
+#bottomicon {
+	float: right;
+}
+
+.mainmenu a, .smcell a {
+	display:block;
+}
+
+.mainBox .showCon {width: 744px; height: 364px; overflow: hidden; clear: both; position: relative; }
+.mainBox .overCon {width: 744px;}
+.mainBox .showCon .roll1 {background: url("../../v3/images/index/A.jpg"); height: 364px;}
+.mainBox .showCon .roll2 {background: url("http://up2.365rili.com/v3/images/index/B.jpg"); height: 364px;}
+.mainBox .showCon .roll3 {background: url("http://up2.365rili.com/v3/images/index/C.jpg"); height: 364px;}
+.mainBox .showCon .roll4 {background: url("http://up2.365rili.com/v3/images/index/D.jpg"); height: 364px;}
+.mainBox .showCon .roll5 {background: url("http://up2.365rili.com/v3/images/index/E.jpg"); height: 364px;}
+.mainBox .ctrlCon {position: absolute; width:194px; top:0px;}
+.ctrlbtn {width: 97px;height: 91px; cursor: pointer; float:left;}
+.blankbtn {width: 97px;height: 91px; float:left;}
+
+
+
+#login a span:before{content: url("http://up2.365rili.com/v3/images/menu/menu_logon.jpg")}
+#login a:hover span:before{content: url("http://up2.365rili.com/v3/images/menu/menu_logon_h.jpg")}
+
+#wnl a span:before{content: url("http://up2.365rili.com/v3/images/menu/menu_calender.jpg")}
+#wnl a:hover span:before{content: url("http://up2.365rili.com/v3/images/menu/menu_calender_h.jpg")}
+
+#feedback a span:before{content: url("http://up2.365rili.com/v3/images/menu/menu_feed.jpg")}
+#feedback a:hover span:before{content: url("http://up2.365rili.com/v3/images/menu/menu_feed_h.jpg")}
+
+#future a span:before{content: url("http://up2.365rili.com/v3/images/menu/chal_future.jpg")}
+#future a:hover span:before{content: url("http://up2.365rili.com/v3/images/menu/chal_future_h.jpg")}
+
+#mstone a span:before{content: url("http://up2.365rili.com/v3/images/menu/chal_mstone.jpg")}
+#mstone a:hover span:before{content: url("http://up2.365rili.com/v3/images/menu/chal_mstone_h.jpg")}
+
+#support a span:before{content: url("http://up2.365rili.com/v3/images/menu/chal_support.jpg")}
+#support a:hover span:before{content: url("http://up2.365rili.com/v3/images/menu/chal_support_h.jpg")}
+
+#sevice a span:before{content: url("http://up2.365rili.com/v3/images/menu/chal_sev.jpg")}
+#sevice a:hover span:before{content: url("http://up2.365rili.com/v3/images/menu/chal_sev_h.jpg")}
+
+#job a span:before{content: url("http://up2.365rili.com/v3/images/menu/chal_job.jpg")}
+#job a:hover span:before{content: url("http://up2.365rili.com/v3/images/menu/chal_job_h.jpg")}
+
+#contact a span:before{content: url("http://up2.365rili.com/v3/images/menu/chal_cont.jpg")}
+#contact a:hover span:before{content: url("http://up2.365rili.com/v3/images/menu/chal_cont_h.jpg")}
+
+#privcy a span:before{content: url("http://up2.365rili.com/v3/images/menu/chal_priv.jpg")}
+#privcy a:hover span:before{content: url("http://up2.365rili.com/v3/images/menu/chal_priv_h.jpg")}
+
+#qa a span:before{content: url("http://up2.365rili.com/v3/images/menu/chal_qa.jpg")}
+#qa a:hover span:before{content: url("http://up2.365rili.com/v3/images/menu/chal_qa_h.jpg")}
+
+#mainmenu table td{
+	width:1px;
+	height:1px;
+	vertical-align: top;
+}

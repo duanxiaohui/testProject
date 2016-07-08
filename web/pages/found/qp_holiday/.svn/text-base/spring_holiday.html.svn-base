@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>真的不是“春宫”</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/spring_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>真的不是“春宫”</h1>
+            </div>
+        </div>
+
+        <div class="qp_main">
+            <p>猛的一瞧今天的节日估计很多人都虎躯一震、两眼放光，那证明你可能没看仔细，今天的内容都是很正经的！</p>
+            <h3>【师生易位】</h3>
+            <p>中国曾经是日本的老师，从公元七世纪初至九世纪末约264年的时间里，日本为了学习我天朝文化，先后向唐朝派出十几次遣唐使团。遣唐使回国后，日本便由落后愚昧的奴隶制国家转变为稍微先进一点的封建制国家，并改国名为日本。日本的茶道、花道、日本文字包括和服都是从中国传来的，就连京都的城市规划建筑也是仿制长安城的。</p>
+            <img src="/pages/found/qp_holiday/images/spring_img1.jpg"/>
+            <p>日本明治维新之父福泽谕吉说“把日本人民从野蛮世界中拯救出来，而引导到今天这样的文明境界，这不能不归功于佛教和儒学”。然而，时间不仅是杀猪刀和猪饲料，它还是会“乾坤大挪移”的高手，时过境迁，中国和日本这对“师生”发生了易位。网易报道，中国军事工业完全依赖日本技术，双方科技、工业水平差距很大。翻译成好理解的话就是，日本的马桶、电饭煲、面膜甚至是大米都成了国人购物清单中的“明星”。</p>
+
+            <p class="mt15">现在的日本整个国家一片和气的繁荣，其文化也“侧漏”着慢慢的正能量。窥一斑而见全身，今天就跟着小编一起从“春日若宫节”来了解一下日本吧！</p>
+            <h3>【春日若宫节】</h3>
+            <p>12世纪时的日本人民，面对疾病蔓延、灾荒缺粮等残酷的现实是无助的，于是每年他们都会在春日大社内的若宫神社举办节庆活动，以求遏制疾病蔓延并祈求丰收。这个节日每年都吸引着大量的观光客。</p>
+            <img src="/pages/found/qp_holiday/images/spring_img2.jpg"/>
+            <p>春日若宫节从15日开始，持续到18日，共4天。整个过程中看点最多的要数17日这一天的“本祭”，又尤以“神乐”和“舞乐”表演最为新引人。“神乐”是祭神时演奏的音乐，“舞乐”是伴有舞蹈的宫中音乐。此外，17日下午还会举行再现各个朝代风情、有500多名演员参加的华美“朝代游行”，“麻豆们”生动的为人们展示从9世纪平安时代到19世纪江户时代的服侍变迁过程，日本历史控不可错过！众多难得一见的古典文艺表演，能让你对日本民族风情、服饰、歌舞等文化产生更深刻的认识，这简直是集齐七颗龙珠才能召唤的福利！</p>
+
+            <div class="tips">
+                <p>1、春日若宫节是日本每年在春日大社内的若宫神社举办的节庆活动，目的是遏制疾病蔓延并祈求丰收，和“春宫”真的一点关系都没有；</p>
+                <p>2、盲目自信不可取，任何一个名族都有其值得借鉴的优点，纳百家之长不断奋进才能立于不败之地。</p>
+            </div>
+        </div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

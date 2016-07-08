@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015石景山游乐园春节洋庙会</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015石景山游乐园春节洋庙会</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/724e685c-7021-4ab6-9ab8-88ceb66f5b97.jpg"/>
+			 <a class="btn js-subscribe" data-uuid="a4b1ff29-7992-4cff-a3f0-447fcb34d867" data-cid="147462861">添加提醒</a>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	
+	    	<p class="time"><b>时间：2015.2.19 - 2.25（08:00-17:00）</b>
+</br>
+	    	<b>场地：北京-石景山游乐园</b></br>
+			<b>费用：详见现场</b></p>
+			<h3>活动看点：</h3>
+			<p>我国传统的民俗活动与欧美表演艺术相结合，让人们不出国门也可以逛洋景，听洋曲，吃洋味，赏洋玩意儿。</p>
+			<!--h3是小标题-->
+			<h3>活动简介：</h3>
+			<!--p是段落文字描述-->
+			<p>石景山游乐园举办的“洋庙会”不单纯是“听洋曲儿，唱洋戏，卖洋货”的“西洋景儿”。它更像是一个集知识性、趣味性、娱乐性、参与性为一体的欧美既经典又时 尚的文化活动的“大观园”。它使中国人不出国门即可领略异域风光、风情、风味;让外国人在北京过中国节，感受到本土的故乡之情。</p>
+			<p><b>2015石景山游乐园庙会公交路线：乘318、325、327、337、354、472、527、545、597、598、598区、663、941、958、959、977支线等公交车直达</br>
+2015石景山游乐园庙会地铁路线：乘坐1号线八角游乐园站下车即到</b></br></br>
+具体详情以官方信息为准</p>
+<img src="http://cocoimg.365rili.com/schedule_pics/default/9e36927c-1f15-4fca-becf-6f1d90357630.jpg"/>
+<img src="http://cocoimg.365rili.com/schedule_pics/default/7a6d06b8-00fa-4722-b94c-116b6b82f6a5.jpg"/>
+<img src="http://cocoimg.365rili.com/schedule_pics/default/c30e397e-9302-4ca3-bafe-5a9ba80f257d.jpg"/>
+ <div class="remind_div" data-uuid="a4b1ff29-7992-4cff-a3f0-447fcb34d867" data-cid="147462861"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/724e685c-7021-4ab6-9ab8-88ceb66f5b97.jpg',
+                title: '2015石景山游乐园春节洋庙会',
+                desc: '石景山游乐园举办的“洋庙会”不单纯是“听洋曲儿，唱洋戏，卖洋货”的“西洋景儿”。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015石景山游乐园春节洋庙会',
+		        				content: '石景山游乐园举办的“洋庙会”不单纯是“听洋曲儿，唱洋戏，卖洋货”的“西洋景儿”。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/724e685c-7021-4ab6-9ab8-88ceb66f5b97.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

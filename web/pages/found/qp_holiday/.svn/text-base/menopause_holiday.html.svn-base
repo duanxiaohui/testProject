@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>妇女同胞待拯救——更年期关怀日</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/menopause_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>妇女同胞待拯救——更年期关怀日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>首先PO出一个大多数人会深有同感的话题——“我那爱唠叨的妈妈”，列举以下几种情况，请自由选择、对号入座。她关心的事情非常广，大到上班工作，小到挤牙膏的方式，稍微一起风就天天逼我们穿秋裤；睡的晚要挨骂、起的晚要挨骂、不吃早饭还要挨骂，完全无法体量我们年轻人的生活方式；脾气暴躁，掉桌上一粒米也是大事，类似的蝴蝶效应频频发生；还非常热衷于三五不时催我们找对象……</p>
+            <h3>【多半是更年期】</h3>
+            <p>妈妈唠叨老不好，多半是更年期！据统计，有高达94%的欧洲妇女患有一种或多种更年期病症，将近2/3的更年期妇女的症状会严重影响她们的生活的节奏和质量；而在中国，女性更年期症状的发生率也高达60%-80%，女性更年期已经成为公众广泛关注的话题。</p>
+            <img src="/pages/found/qp_holiday/images/menopause_img1.jpg"/>
+            <p>更可怕的是到2030年全世界会有12亿以上的更年期妇女人口，我国的更年期女性会超过2.1亿，约占总人口的1/7。这是什么概念？街上卖菜的阿姨可能正处在更年期，公司打扫卫生的阿姨可能正处在更年期，出国玩一趟，卖纪念品的歪果仁阿姨都有可能处在更年期！</p>
+
+            <p class="mt15">为了唤起世界各国对中老年妇女健康的关注，采取行动进行更年期教育保健活动，世界更年期医学会选定每年的10月18日为世界更年期关怀日。</p>
+            <h3>【更年期综合症】</h3>
+            <p>更年期综合症是指妇女在经历更年期阶段时会有不同症状表现的临床名称。尽管更年期的概念传到中国已经有很长的时间，但是公众对其认识还不够。人们往往把更年期女性的偏执、脾气大、乱猜疑、喜怒无常等视为正常表现。但其实这只是表面的症状，更年期综合症患者心理也会产生或轻或重的病态现象。所以，关爱更年期女性是每个人都要努力做到的事。</p>
+            <img src="/pages/found/qp_holiday/images/menopause_img2.jpg"/>
+            <h3>【教你更好的爱她】</h3>
+            <p>其实很多时候不是她没完没了的唠叨、不是她脾气大乱发火、也不是她不爱你乱猜疑，只是她生病了，她需要理解、需要关怀。在此，小编分享几个小妙招，教你如何更好的爱她！</p>
+            <p>1、摄取黄豆、山药、红枣、百合等，改善更年期女性尿频、失眠；</p>
+            <p>2、摄取含钙食物，充足的钙质能避免夜间盗汗、腿部抽筋或情绪沮丧；</p>
+            <p>3、补足水分，减轻发热潮红等不适；</p>
+            <p>4、在清晨或黄昏晒太阳至少10分钟，促进维生素D的合成，防止骨质疏松；</p>
+            <p>5、睡觉时穿透气的棉质衣服，并保持卧室通风良好；</p>
+            <p>6、调整心态结交好友，多参加社团活动，让心境变年轻。</p>
+
+            <div class="tips">
+                <p>1、世界更年期医学会选定每年的10月18日为“世界更年期关怀日”，并召集全世界49个国家，期望各国共同为中老年妇女的健康作出贡献；</p>
+                <p>2、更年期是许多疾病明显增加的时候，患者要注重自我保健、改变不良生活习惯，症状严重者需要积极就医；</p>
+                <p>3、给更年期患者多一些理解，多一些关爱，因为那也是别人的妈妈。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

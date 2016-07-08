@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>通知开关</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detection" content="telephone=no"/>
+<link href="/third_cooperation/base_calendar/css/calendar.css?ver=8" rel="stylesheet"/>
+<link href="/third_cooperation/qqgroup/style.css?ver=8" rel="stylesheet">
+<link rel="stylesheet" href="/pages/ui-lib/css/ui-lib.css?ver=8">
+<link rel="stylesheet" href="/js/lib/DatePicker_1/DateTimePicker.css">
+<style>
+	html, body{
+		background-color: #F7F8F9;
+	}
+</style>
+</head>
+<body>
+<div class="scheduleMain">
+    <div class="face1 face_panel e_clear"></div>
+
+    <div class="qun none">
+    	<p class="alarm_panelTip">群内消息管理</p>
+	    <div class="alarm_panel">
+		    <div class="alarm_item">
+		        <div class="checkBox">
+		        	<input id="qqunPush" class="ios7CBox" type="checkbox">
+		        </div>
+		    	<label for="qqunPush">建议日程推送<span>允许来自群日历的消息推送</span></label>
+		    </div>
+	        <div class="line"></div>
+		    <div class="alarm_item">
+		        <div class="checkBox">
+		        	<input id="qqunShare" class="ios7CBox" type="checkbox">
+		        </div>
+		    	<label for="qqunShare">建议日程分享<span>允许群成员向群内分享建议日程</span></label>
+		    </div>
+	    </div>
+    </div>
+
+    <div class="person none">
+    	<p class="alarm_panelTip">个人消息管理</p>
+	    <div class="alarm_panel">
+		    <div class="alarm_item">
+		        <div class="checkBox">
+		        	<input id="userShare" class="ios7CBox" type="checkbox">
+		        </div>
+		    	<label for="userShare">建议日程分享<span>允许将我参加的建议日程分享入群</span></label>
+		    </div>
+	    </div>
+    </div>
+
+    <p class="alarm_panelTip">解锁后的消息通知样式</p>
+    <div class="alarm_panel" style="padding-bottom: 40px;">
+    	<div style="text-align: center; margin-top: 33px;margin-left:-21px;">
+    		<img src="/third_cooperation/qqgroup/images/ts.jpg" class="none ts" width="223" alt="" style="margin-bottom: 20px;">
+	    	<img src="/third_cooperation/qqgroup/images/fx.jpg" width="223" alt="">
+    	</div>
+    </div>
+</div>
+
+<script src="/js/lib/zepto.min.js"></script>
+<script src="/js/lib/app.js"></script>
+<script src="/pages/ui-lib/js/plug.js"></script>
+    <script src="/js/lib/require.js" data-main="/third_cooperation/qqgroup/js/alarmSet.js"></script>
+</body>
+</html>

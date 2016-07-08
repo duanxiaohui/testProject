@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历--点评团购</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+</head>
+<body>
+	<div class="main">
+		<div class="top"></div>
+		<div class="text">
+			<p>聚餐娱乐，想开心又省钱？ 预约太麻烦，想团了就能用？ 团购券太多，忘记消费怕损失？ 使用大众点评团购客户端，我们帮你搞定！让您轻轻松松团购，明明白白消费。 爱团购，就来点评团！ [主要功能] －附近团购，免预约筛选，按距离排序，帮您快速找到心仪团购 －更多详情图片，还有商户简介、网友点评，让你消费明白又放心 －开团提醒，订单管理，查看物流，让您想团就团随时掌握消费信息 －团购券离线查看，支持过期退款，贴心保障免除后顾之忧 [联系我们] 您在使用客户端的过程中，有任何建议都可以通过“更多”中的“意见反馈”与我们沟通。 也可以加专用QQ：2568411372
+</p>
+		</div>
+		<a href="http://d2.365rili.com/dl/android/exchange/dianpingtuan.apk" class="btn">下载点评团购</a>
+	</div>
+</body>
+</html>

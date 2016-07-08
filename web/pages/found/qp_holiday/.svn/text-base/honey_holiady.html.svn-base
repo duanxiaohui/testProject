@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>你有一条来自Honey的信息</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/honey/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>你有一条来自Honey的信息</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>在美丽的西双版纳，有一个亲切的少数民族——Honey族（小编乱扯的）。这个民族历史悠久，人民勤劳勇敢，能歌善舞。今天就是他们一年中最隆重的节日，年节“嘎汤帕节”。</p>
+          
+            <img src="images/honey/holiday_img1.jpg"/>
+           
+			 <h3>【新一年 万物生】</h3>
+
+            <p>“嘎汤”这句哈尼族语，有的说是纪元年号，据说哈尼族的年号叫“嘎汤纪元”。但多数人则认为“嘎汤帕”意指万象更新或万物复苏，是新的一年的开始。虽然这是哈尼族早已有之的传统佳节，但从前没有统一的节期。据传，古时候的嘎汤帕节要过15天，以祭祖、宴请为主要内容。在过节的15天内，天天设宴饮酒，耗费极大。至哈尼族第14代祖先尊唐盘时，将过节的时间定为4天，规定从每年十月的第一个属牛日举庆，属龙日结束。</p>
+
+            <p class="mt15">旧时各村过嘎汤帕节，村中主持节日活动的司仪(龙巴头)，清晨要到井里背回村里的第一筒水，司仪家杀鸡献家神，蒸糯米饭，每位到他家的人都可以吃到手抓鸡肉和糯米饭团，吃手抓鸡肉和糯米饭团是祈求祖先保佑的意思，并得到司仪的祝福。</p>
+            
+            <img src="images/honey/holiday_img2.jpg"/>
+          
+            <h3>【镶嵌在布匹上的图腾】</h3>
+            <p>举行完祈福仪式后，就会上演哈尼族服饰展演。哈尼服饰由哈尼族妇女们用红、绿、蓝、紫、黄、青、白等色棉线，从天空飞鸟、山中清涧、村寨炊烟、田野小花、古寨的龙巴门、老虎的脚印那里汲取灵感，绣于服饰衣间、袖口、腰际、脚套上。图案不仅形象逼真，色泽瑰丽，还渗透着哈尼族精湛的刺绣技艺。每一件服饰都让人感受到哈尼族先人们生产、生活的历史印迹，彰显出哈尼族自由无拘无束的民族特性以及张扬奔放的洒脱个性，更包含着丰富的审美情趣，被外界称作“镶嵌在布匹上的图腾”。</p>  
+
+            <img src="images/honey/holiday_img3.jpg"/>
+			<h3>【有吃有玩才叫过节】</h3>
+
+            <p>长街宴是哈尼族的一种传统习俗，在摆酒庆祝时，百来张桌子排在一起，恰似一条长龙，“长街宴”也因此而得名。整个节日期间，哈尼族群众或宰猪，或杀鸡，家家都要舂粑粑、祭家神，置办丰盛的酒席宴请亲朋，以庆祝新年来临。“嘎汤帕”节和汉族春节一样，是一次家人大团圆的节日，也是农忙前夕开展娱乐活动的节日，过完节便准备工具，开始一年一度的春耕。</p>
+
+            <p class="mt15">噶汤帕节期间，男女老少都穿着鲜艳的民族服装，到宽敞的活动地点举行荡秋千、打陀螺、文艺表演等各种展示哈尼族文化风情的活动。青年男女穿上新衣服，邀约着去游山、采野花、摘野果。晚上，全村男女老少都聚到晒场上，围着篝火跳竹筒舞、对山歌，歌声和竹筒声响到天亮。</p>
+			
+
+
+            <div class="tips">
+                <p>1、每年1月2日是西双版纳哈尼族的新年——嘎汤帕年；</p>
+                <p>2、哈尼族的英文名Honey是小编取的，如有雷同纯属巧合。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/欢欢</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>我的志愿是当一个主席</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/star_light/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>光明星节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>第二次世界大战结束后，地球满目疮痍，绝大多数国家经过战火的洗礼再无力气从事侵略这一职业。这个时候，美苏两大国家以国力为后盾，在这个世界肆意的玩耍，将大片的海洋、陆地按照自己的心情途上了颜色。漫长的国境线、铁丝网越过了许多地方，原本是一个国家，后来却只能遥遥相望的悲剧上演了一幕又一幕。无数的“东德”和“西德”之间竖起了高高的“柏林墙”。</p>
+            <img src="images/star_light/holiday_1.jpg"/>
+            <p>而在遥远的朝鲜半岛，这个亚洲战场的前哨，也迎来了它分割的小巅峰，半岛被分为了南朝鲜和北朝鲜。许多年过去了，被分割的两块土地显现出了截然不同的风貌。韩国电视剧、化妆品大举向外进攻，朝鲜却还在坚持用演讲娱乐世界。宇航员在飞越东亚上空时曾拍摄过一张朝鲜半岛的夜景，韩国灯火通明，朝鲜黑灯瞎火。在首尔成为亚洲文化、潮流中心时，平壤还坚定不移的守着落后的原则。</p>
+            <h3>【我们对领导人是绝对尊重】</h3>
+            <p>虽然朝鲜落后了些，但是对国家的领导人他们还是抱有一百二十分的尊重（多二十分让领导骄傲去）。</p>
+            <img src="images/star_light/holiday_2.jpg"/>
+            <p>1995年，即金日成逝世后的翌年，朝鲜决定将金日成与金正日的生日都定为民族最大节日，其中金日成的生日被称为太阳节、金正日的生日则没有特定的名称。2011年金正日逝世后，朝鲜劳动党中央委员会政治局将每年的2月16日指定为“光明星节”。</p>
+            <h3>【我们是郑重声明了的】</h3>
+            <p>朝鲜劳动党中央委员会政治局当地时间2012年1月12日发布特别公报，公报指出：朝鲜将伟大领导者金正日同志的遗体安放在主体的最高圣地锦绣山纪念宫，建立金正日同志的铜像，将金正日同志的诞辰日、民族最大节日2月16日指定为光明星节，在全国各地建立金正日同志的太阳像和永生塔。</p>
+            <img src="images/star_light/holiday_3.jpg"/>
+            <p>看到了吧，这样的人生才是真正圆满的！你们就羡慕去吧！</p>
+
+            <div class="tips">
+                <p>1、每年2月16日是朝鲜的光明星节，这是一个为最高领导人量身打造的节日；</p>
+                <p>2、发展是世界的主题，朝鲜加油，我们看好你！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

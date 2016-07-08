@@ -1,0 +1,525 @@
+body {
+	background: url("/resource/erji/public/images/common-bg-x.png") repeat-x top;
+}
+html {
+	list-style: none; margin: 0px; padding: 0px;
+}
+body {
+	list-style: none; margin: 0px; padding: 0px;
+}
+p {
+	list-style: none; margin: 0px; padding: 0px;
+}
+ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+ol {
+	list-style: none; margin: 0px; padding: 0px;
+}
+li {
+	list-style: none; margin: 0px; padding: 0px;
+}
+h1 {
+	list-style: none; margin: 0px; padding: 0px;
+}
+h2 {
+	list-style: none; margin: 0px; padding: 0px;
+}
+h3 {
+	list-style: none; margin: 0px; padding: 0px;
+}
+h4 {
+	list-style: none; margin: 0px; padding: 0px;
+}
+h5 {
+	list-style: none; margin: 0px; padding: 0px;
+}
+h6 {
+	list-style: none; margin: 0px; padding: 0px;
+}
+dt {
+	list-style: none; margin: 0px; padding: 0px;
+}
+dl {
+	list-style: none; margin: 0px; padding: 0px;
+}
+dd {
+	list-style: none; margin: 0px; padding: 0px;
+}
+b {
+	font-style: normal; font-weight: normal; text-decoration: none;
+}
+u {
+	font-style: normal; font-weight: normal; text-decoration: none;
+}
+i {
+	font-style: normal; font-weight: normal; text-decoration: none;
+}
+s {
+	font-style: normal; font-weight: normal; text-decoration: none;
+}
+em {
+	font-style: normal; font-weight: normal; text-decoration: none;
+}
+img {
+	border: currentColor;
+}
+a {
+	color: rgb(0, 83, 165); text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+i.icon u {
+	display: none;
+}
+.wrapper::after {
+	height: 0px; line-height: 0; clear: both; font-size: 0px; display: block; visibility: hidden; content: ".";
+}
+.clearfix::after {
+	height: 0px; line-height: 0; clear: both; font-size: 0px; display: block; visibility: hidden; content: ".";
+}
+.wrapper {
+	display: block;
+}
+.clearfix {
+	display: block;
+}
+.page-width {
+	margin: 0px auto; width: 960px;
+}
+.layer {
+	display: none; position: absolute;
+}
+#page-header {
+	background: url("/resource/erji/public/images/common-bg-x.png") repeat-x top; font-family: Arial,sens-serif; min-height: 120px; _zoom: 1;
+}
+#page-header .layer-mask {
+	display: none; _display: block; _position: absolute; _top: 0; _left: 0; _right: 0; _z-index: -1; _width: 100%; _height: 200px;
+}
+#page-header .top-bar {
+	background: url("/resource/erji/public/images/common-bg-x.png") repeat-x top rgb(250, 250, 250); height: 30px; line-height: 30px; font-size: 12px;
+}
+#page-header .top-bar .wrapper {
+	position: relative; z-index: 600;
+}
+#page-header .top-bar .links {
+	width: auto; padding-left: 0px; float: left; position: relative; z-index: 700;
+}
+#page-header .top-bar .links .item {
+	margin: 0px 16px 0px 2px; height: 26px; color: rgb(51, 51, 51); line-height: 26px; padding-top: 3px; text-decoration: none; float: left;
+}
+#page-header .top-bar .links a.item:hover {
+	background: rgb(242, 245, 248); margin: 0px 6px 0px -8px; padding: 3px 9px 0px; height: 26px; color: rgb(255, 51, 0); line-height: 26px; text-decoration: underline; border-right-color: rgb(223, 223, 223); border-left-color: rgb(223, 223, 223); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; position: relative;
+}
+#page-header .top-bar .links .hilight.item {
+	font-weight: bold;
+}
+#page-header .top-bar .links .more {
+	width: auto; line-height: 26px; padding-left: 0px;
+}
+#page-header .top-bar .links .more i {
+	background: url("/resource/erji/public/images/common-bg-spr.png") -69px -36px; padding-left: 9px; margin-left: 1px;
+}
+#page-header .top-bar .links .exp.more i {
+	
+}
+.ipad #page-header .top-bar .exp.more {
+	box-shadow: 0px 28px 0px 0px rgb(232,232,232), 0px 5px 6px rgba(0,0,0,0.3); -moz-box-shadow: rgb(232, 232, 232) 0px 28px 0 0, rgba(0, 0, 0, 0.3) 0px 5px 6px; -webkit-box-shadow: rgb(232, 232, 232) 0px 28px 0 0, rgba(0, 0, 0, 0.3) 0px 5px 6px;
+}
+#page-header .top-bar .user-tools {
+	width: auto; line-height: 28px; padding-top: 1px; font-size: 12px; float: right;
+}
+#page-header .top-bar .user-tools s {
+	margin: 0px 6px; color: rgb(153, 153, 153); font-family: SIMSUN,"宋体"; font-size: 12px; float: left;
+}
+#page-header .top-bar .user-tools a {
+	color: rgb(51, 51, 51); text-decoration: none; float: left;
+}
+#page-header .top-bar .user-tools a.hilight {
+	color: rgb(255, 51, 0);
+}
+#page-header .top-bar .user-tools a:hover {
+	color: rgb(255, 51, 0); text-decoration: underline;
+}
+#page-header .top-bar .item-sethome .icon {
+	background: url("/resource/erji/public/images/common-bg-spr.png") -80px -32px; padding-left: 16px; margin-right: 4px; _padding-left: 13px;
+}
+#page-header .top-bar .sites-as-type-layer {
+	background: rgb(245, 246, 247); border: 2px solid rgb(232, 232, 232); top: 29px; width: 310px; right: -251px;
+}
+.ipad #page-header .top-bar .sites-as-type-layer {
+	box-shadow: 0px 5px 6px rgba(0,0,0,0.3); -moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 6px; -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 6px;
+}
+#page-header .top-bar .sites-as-type-layer b.exp.more {
+	background: rgb(245, 246, 247); border-width: 2px 2px medium; border-style: solid solid none; border-color: rgb(232, 232, 232) rgb(232, 232, 232) currentColor; left: -2px; top: -30px; width: 56px; height: 28px; text-align: center; line-height: 26px; position: absolute;
+}
+#page-header .top-bar .sites-as-type-layer .more-site-type {
+	padding: 8px 0px 8px 10px; line-height: 24px; position: relative;
+}
+#page-header .top-bar .sites-as-type-layer .odd {
+	background: rgb(245, 246, 247);
+}
+#page-header .top-bar .sites-as-type-layer .even {
+	background: rgb(251, 251, 251);
+}
+#page-header .top-bar .sites-as-type-layer .more-site-type .type {
+	padding: 0px 1px; color: rgb(102, 102, 102); font-size: 14px; font-weight: bold; display: block;
+}
+#page-header .top-bar .sites-as-type-layer .more-site-type .link-item {
+	color: rgb(51, 51, 51); text-decoration: none; margin-right: 1em; float: left; white-space: nowrap;
+}
+#page-header .top-bar .sites-as-type-layer .more-site-type .hilight.link-item {
+	color: rgb(255, 51, 0); font-weight: normal;
+}
+#page-header .top-bar .sites-as-type-layer .more-site-type .link-item:hover {
+	color: rgb(255, 51, 0); text-decoration: underline;
+}
+.mobile-layer {
+	background: url("/resource/erji/public/images/tooltip-spr-gri.png") repeat-x 0px 0px rgb(253, 253, 253); border-radius: 2px; border: 1px solid rgb(198, 198, 198); top: 32px; width: 198px; height: 40px; right: 0px; line-height: 16px; z-index: 600; box-shadow: 2px 2px 1px rgba(0,0,0,0.1);
+}
+.desktop-layer {
+	background: url("/resource/erji/public/images/tooltip-spr-gri.png") repeat-x 0px 0px rgb(253, 253, 253); padding: 0px 6px; border-radius: 2px; border: 1px solid rgb(198, 198, 198); top: 29px; height: 22px; right: 0px; line-height: 22px; z-index: 600; box-shadow: 2px 2px 1px rgba(0,0,0,0.1);
+}
+.mobile-layer s {
+	background: url("/resource/erji/public/images/common-bg-spr.png") -136px -38px; left: 128px; top: -7px; width: 13px; height: 7px; position: absolute;
+}
+.desktop-layer s {
+	background: url("/resource/erji/public/images/common-bg-spr.png") -136px -38px; left: 128px; top: -7px; width: 13px; height: 7px; position: absolute;
+}
+.desktop-layer s {
+	left: auto; right: 12px;
+}
+.desktop-layer a {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+.desktop-layer a:hover {
+	color: rgb(255, 51, 0); text-decoration: underline;
+}
+.mobile-layer b {
+	background: url("/resource/erji/public/images/common-bg-spr.png") -100px -35px; top: 0px; width: 13px; height: 13px; right: 0px; position: absolute; cursor: pointer;
+}
+.mobile-layer b:hover {
+	background-position: -116px -35px;
+}
+.mobile-layer b.hover {
+	background-position: -116px -35px;
+}
+.mobile-layer a {
+	width: 180px; color: rgb(51, 51, 51); padding-top: 5px; text-decoration: none; display: block;
+}
+.mobile-layer a:hover {
+	color: rgb(255, 51, 0);
+}
+.mobile-layer a i {
+	background: url("/resource/erji/public/images/hao123.32x32.png") no-repeat 0px 0px; margin: 0px 6px; width: 32px; height: 32px; float: left;
+}
+.mobile-layer a em {
+	font-weight: bold; display: block;
+}
+.mobile-layer a u {
+	color: rgb(102, 102, 102);
+}
+.mobile-layer a:hover u {
+	color: rgb(255, 51, 0);
+}
+#page-header {
+	min-width: 960px;
+}
+#page-header .logo {
+	width: 250px; height: 90px; float: left;
+}
+#page-header .logo label {
+	display: none;
+}
+#page-header .logo img {
+	display: block;
+}
+#page-header .logo .logo-link {
+	margin: 18px 2px 0px 0px; float: left;
+}
+#page-header .logo .logo-split {
+	margin: 40px 2px 0px; width: 0px; height: 37px; border-left-color: rgb(219, 219, 219); border-left-width: 1px; border-left-style: solid; float: left;
+}
+#page-header .logo .sublogo {
+	margin: 17px 0px 0px -1px; width: 79px; height: 64px;
+}
+#page-header .search-box {
+	margin-top: 40px; float: left; position: relative; z-index: 500; _display: inline;
+}
+#page-header .search-box .services {
+	left: 0px; top: -28px; height: 28px; padding-left: 5px; font-size: 14px; position: absolute;
+}
+#page-header .search-box .services input {
+	display: none;
+}
+#page-header .search-box .services i {
+	width: 48px; height: 28px; text-align: center; line-height: 26px; letter-spacing: 1px; margin-right: 1px; float: left;
+}
+:root #page-header .search-box .services i {
+	line-height: 24px;
+}
+#page-header .search-box .services i label {
+	cursor: pointer;
+}
+#page-header .search-box .services i.cur {
+	background: url("/resource/erji/public/images/common-bg-spr.png") 0px -32px; width: 55px; color: white; letter-spacing: 1px; font-weight: bold; margin-right: -2px; margin-left: -4px;
+}
+#page-header .search-box .fields {
+	background: url("/resource/erji/public/images/common-bg-spr.png") 0px 0px white; width: 349px; height: 32px; float: left;
+}
+#page-header .search-box .input-box {
+	padding: 0px 8px; border: 1px solid rgb(171, 171, 171); width: 331px; height: 30px; color: rgb(51, 51, 51); line-height: 30px; font-size: 14px; float: left;
+}
+#page-header .search-box .input-box:focus {
+	outline-color: rgb(150, 217, 123);
+}
+#page-header .search-box .search-button {
+	background: url("/resource/erji/public/images/common-bg-spr.png") 0px -60px; padding: 0px; border: currentColor; width: 95px; height: 32px; font-size: 14px; margin-left: 5px; float: left; cursor: pointer;
+}
+#page-header .search-box .search-button:hover {
+	background-position: -100px -60px;
+}
+#page-header .search-box .search-button:active {
+	background-position: -200px -60px;
+}
+#page-header .crumb-nav {
+	top: 0px; height: 15px; color: rgb(102, 102, 102); line-height: 15px; clear: both; font-family: "SIMSUN","宋体"; font-size: 12px; margin-bottom: -6px; position: relative; z-index: 1;
+}
+#page-header .crumb-nav s {
+	margin: 0px 0.5em;
+}
+#bd {
+	margin: 10px auto 0px; width: 960px; clear: both;
+}
+#ft {
+	margin: 10px auto 0px; width: 960px; clear: both;
+}
+#ft .ft_link {
+	text-align: center; padding-top: 17px; margin-left: -35px;
+}
+#ft .copyright {
+	text-align: center; color: rgb(202, 202, 202); padding-top: 5px; font-family: Arial; font-size: 12px; margin-left: -40px;
+}
+#ft .copyright .feedback {
+	color: rgb(102, 102, 102); font-family: Arial SimSun; margin-left: 7px;
+}
+#ft .ft_link a {
+	color: rgb(102, 102, 102); font-size: 12px;
+}
+.sug-wrap {
+	background: white; border-width: medium 1px 1px; border-style: none solid solid; border-color: currentColor rgb(204, 204, 204) rgb(204, 204, 204); left: 0px; top: 32px; width: 347px; line-height: 30px; overflow: hidden; font-size: 14px; position: absolute; _zoom: 1;
+}
+.sug-wrap iframe {
+	width: 100%; height: 440px; position: absolute; z-index: 0;
+}
+.sug-wrap ol {
+	_position: relative; _z-index: 1;
+}
+.sug-wrap li {
+	padding: 0px 8px; color: black; cursor: pointer; _zoom: 1;
+}
+.sug-wrap .sug-query {
+	font-weight: bold;
+}
+.sug-wrap .sug-select {
+	background: rgb(235, 235, 235);
+}
+.empty {
+	visibility: hidden;
+}
+.mod-content .content-link li h3 .indext {
+	text-indent: 20px;
+}
+.mod-content .content-link li h3 a img {
+	width: 16px; height: 16px;
+}
+.mod-content .content-link li h3 .indext .img1 {
+	left: 0px; top: 8px; position: absolute;
+}
+.mod-content .content-link li h3 .rhot {
+	
+}
+.mod-content .content-link li h3 .rhot .img2 {
+	top: 3px; margin-left: 2px; position: absolute;
+}
+.mod-content .content-mbo {
+	padding: 0px 0px 12px; width: 800px; color: rgb(5, 77, 161); float: left; display: none;
+}
+.mod-content .content-mbo .blue {
+	background: url("/resource/erji/junshi/img/h_junshi_68.png") no-repeat;
+}
+.mod-content .content-mbo .orange {
+	background: url("/resource/erji/junshi/img/h_junshi_71.png") no-repeat;
+}
+.mod-content .content-mbo li {
+	margin: 10px 8px 0px 0px; width: 60px; height: 90px; text-align: center; overflow: hidden; padding-right: 12px; font-family: "宋体"; font-size: 13px; float: left; position: relative;
+}
+.mod-content .content-mbo li span {
+	top: 54px; width: 14px; height: 13px; right: 0px; display: block; position: absolute; _top: 54px;
+}
+.mod-content .content-mbo li img {
+	margin: 0px auto 4px; padding: 0px; border: 0px currentColor; width: 48px; height: 48px; display: block;
+}
+.v4-beta {
+	background: url("/resource/erji/public/images/beta.png") no-repeat; left: 40px; top: 10px; width: 22px; height: 14px; float: left; display: inline; position: relative;
+}
+.v2-beta {
+	background: url("/resource/erji/public/images/beta.png") no-repeat; left: 60px; top: 15px; width: 22px; height: 14px; float: left; display: inline; position: relative;
+}
+.m-menu-wrap {
+	padding-top: 3px;
+}
+.m-menu {
+	border-width: 1px 1px 2px; border-style: solid; border-color: rgb(17, 146, 9) rgb(17, 146, 9) rgb(34, 116, 5); width: 958px; height: 34px; font-size: 14px;
+}
+.m-menu ul {
+	background: url("/static/images/public/repeat.png") repeat-x rgb(18, 158, 10); border-width: 1px 1px 0px; border-style: solid solid none; border-color: rgb(54, 180, 47) rgb(54, 180, 47) currentColor; width: 956px; height: 33px; float: left;
+}
+.m-menu li {
+	background: url("http://www.hao123.com/static/images/public/head.png") no-repeat -138px 12px; float: left;
+}
+.m-menu .first {
+	background: 0px;
+}
+.m-menu a {
+	padding: 0px 25px; color: rgb(255, 255, 255); line-height: 34px; font-size: 14px; font-weight: bold; text-decoration: none; display: block; _position: relative; _bottom: -2px;
+}
+.m-menu a:hover {
+	color: rgb(255, 255, 255); text-decoration: underline;
+}
+.m-menu li span {
+	display: none;
+}
+.m-menu li.new {
+	position: relative;
+}
+.m-menu li.new span {
+	background: url("http://www.hao123.com/static/images/public/head.png") no-repeat -88px 0px; top: -10px; width: 16px; height: 16px; right: 8px; display: block; position: absolute; z-index: 2;
+}
+span.new i {
+	background: url("http://www.hao123.com/static/images/public/head.png") no-repeat -88px 0px; top: -10px; width: 16px; height: 16px; right: 8px; display: block; position: absolute; z-index: 2;
+}
+.m-menu li.selected {
+	background: url("http://www.hao123.com/static/images/public/repeat.png") repeat-x 0px -35px rgb(12, 129, 7); height: 34px; border-right-color: rgb(12, 122, 7); border-left-color: rgb(12, 122, 7); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid;
+}
+.m-menu li.selected a {
+	color: rgb(242, 255, 142);
+}
+.m-menu li.selected a:hover {
+	color: rgb(242, 255, 142); text-decoration: underline;
+}
+.m-menu li.nobg {
+	background: 0px;
+}
+.m-menu li.recommend {
+	float: right; background-image: url("http://www.hao123.com/static/images/public/head.png"); background-repeat: no-repeat;
+}
+.m-menu li.video {
+	background-position: -122px -62px;
+}
+.m-notab .m-hd-search {
+	margin-top: 35px;
+}
+.m-hd-tab {
+	font: 14px/1.4 Arial; width: 500px; height: 30px; margin-top: 11px; font-size-adjust: none; font-stretch: normal;
+}
+.m-hd-tab a {
+	outline: 0px; width: 49px; height: 28px; text-align: center; color: rgb(51, 51, 51); letter-spacing: 1px; padding-top: 2px; float: left;
+}
+.m-hd-tab a:hover {
+	color: rgb(51, 51, 51);
+}
+.m-hd-tab a.cur {
+	background: url("http://www.hao123.com/static/images/public/head.png") no-repeat; color: rgb(255, 255, 255); font-weight: bold; cursor: default;
+}
+.m-hd-tab a.cur:hover {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.m-nomenu {
+	background: url("http://www.hao123.com/static/images/public/repeat.png") repeat-x bottom; border-bottom-color: rgb(50, 175, 0); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.m-nomenu .m-logo h1 {
+	background: url("http://www.hao123.com/static/images/public/logo1.jpg") no-repeat;
+}
+.subnav {
+	background: rgb(249, 251, 251); margin: 10px auto; border: 1px solid rgb(225, 225, 225); width: 958px; line-height: 24px; overflow: hidden; padding-top: 10px; padding-bottom: 5px; font-family: SIMSUN,"宋体",mono-space; font-size: 14px;
+}
+.subnav .title {
+	width: 105px; height: 35px; text-align: center; line-height: 28px; overflow: hidden; float: left;
+}
+.subnav .wrapper {
+	width: 840px; float: left;
+}
+.subnav .item {
+	width: 103px; height: 28px; line-height: 28px; overflow: hidden; float: left;
+}
+.subnav a {
+	color: rgb(0, 83, 165); font-family: SimSun;
+}
+.subnav a .icon {
+	width: 16px; height: 16px; margin-top: 4px; margin-right: 3px; vertical-align: -2px;
+}
+.subnav .active {
+	width: 82px; height: 20px; text-align: center; line-height: 20px; display: inline-block;
+}
+.subnav a:hover {
+	color: rgb(255, 51, 0);
+}
+.subnav-7 .item {
+	width: 120px;
+}
+.subnav .hilight a {
+	color: rgb(255, 51, 0);
+}
+#page-header .navilist {
+	background: url("../images/base_sprite.png") repeat-x 0px -436px; border-width: 1px 1px 2px; border-style: solid; border-color: rgb(17, 146, 9) rgb(17, 146, 9) rgb(35, 119, 5); margin: 0px auto; width: 958px;
+}
+#page-header .navilist .navis {
+	border-width: 1px 1px 0px; border-style: solid solid none; border-color: rgb(54, 180, 47) rgb(54, 180, 47) currentColor; width: 956px; height: 34px;
+}
+#page-header .navilist .navis .navi {
+	float: left; position: relative; z-index: 0;
+}
+#page-header .navilist .navis .cur.navi {
+	z-index: 1;
+}
+#page-header .navilist .navis .cur.navi a {
+	background: url("../images/base_sprite.png") repeat-x 0px -382px; border-width: 1px 1px 0px; border-style: solid solid none; border-color: rgb(12, 122, 7) rgb(12, 122, 7) currentColor; color: rgb(242, 255, 142); margin-top: -1px; margin-right: -2px; margin-left: -2px; position: relative;
+}
+#page-header .navilist .navis .new.navi span {
+	background: url("http://www.hao123.com/images/base/sprite1.gif") no-repeat 0px -45px; top: -10px; width: 16px; height: 16px; right: 8px; display: inline; position: absolute; z-index: 2;
+}
+#page-header .navilist .navis .navi i {
+	width: 16px; height: 16px; margin-top: 9px; margin-right: 6px; float: left; display: inline;
+}
+.navilist .navis .navi a {
+	padding: 0px 25px; color: rgb(255, 255, 255); line-height: 34px; font-size: 14px; font-weight: bold; text-decoration: none; float: left; display: inline;
+}
+#page-header .navilist .navis .navi a:hover {
+	text-decoration: underline;
+}
+.navilist .navis .navi a.banner {
+	background: url("../images/base_sprite.png") no-repeat -148px -96px;
+}
+.navilist .navis .navi a.banner-r {
+	background: url("../images/navi_banner.png") no-repeat right 10px;
+}
+.search-box #notice-list {
+	background: url("/resource/erji/public/images/notice-icon.png") no-repeat left 10px; width: 180px; height: 30px; overflow: hidden; padding-left: 21px; font-family: "simsun","宋体"; margin-left: 19px; float: left; display: inline;
+}
+.search-box #notice-list .item {
+	width: 201px; height: 29px; overflow: hidden; padding-top: 1px; float: left; display: inline;
+}
+.search-box #notice-list a {
+	color: rgb(51, 51, 51); line-height: 31px; overflow: hidden; font-size: 12px; float: left; display: inline; cursor: pointer;
+}
+.search-box #notice-list a.hilight {
+	color: rgb(255, 51, 0);
+}
+.search-box #notice-list a:hover {
+	color: rgb(255, 51, 0); text-decoration: underline;
+}
+#page-header .wrapper .headerfix {
+	height: 90px; font-size: 0px; float: left; display: inline;
+}

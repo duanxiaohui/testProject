@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0">
+<title>魔都十大娱乐日历</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/css/forum_new.css" rel="stylesheet">
+<script src="/js/lib/zepto.min.js"></script>
+<script src="/js/lib/app.js"></script>
+<script src="/pages/forum/js/underscore-1.6.0.js"></script>
+</head>
+<body>
+    <div class="calendar_project_top">
+        <div class="calendar_project_top_header">
+            <a href="javascript:;" class="return_btn"></a>
+            <a href="javascript:;" class="share_btn"></a>
+            魔都十大娱乐日历
+        </div>
+    	<div class="calendar_project_top_img">
+            <img src="images/img.jpg"/>
+        </div>
+    </div>
+    <div class="calendar_project_info">
+    	<p>这些日历带你吃喝玩乐大上海！这些日历，带你吃喝玩乐大上海！这些日历带你吃喝玩乐上海！这些日历，带你吃喝玩乐大上海！</p>
+    </div>
+    <div class="calendar_project_list">
+    	<dl class="e_clear" data-id="144750597">
+    		<dt style="background-image:url(images/img2.jpg)"></dt>
+    		<dd>
+    			<div class="focus">
+    				<div class="focus_icon" data-id="144750597" data-status="unsubscribe"></div>
+    				<p>关注</p>
+    			</div>
+    			<div class="calendar_list_txt">
+    				<h3>电影放映日历</h3>
+    				<p>提供海量的电影片源，各种经典怀旧电影放映</p>
+    				<div class="focus_num">570人关注</div>
+    			</div>
+    		</dd>
+    	</dl>
+    	<dl class="e_clear" data-id="147838253">
+    		<dt style="background-image:url(images/img2.jpg)"></dt>
+    		<dd>
+    			<div class="focus">
+    				<div class="focus_icon" data-id="147838253" data-status="unsubscribe"></div>
+    				<p>关注</p>
+    			</div>
+    			<div class="calendar_list_txt">
+    				<h3>电影放映日历</h3>
+    				<p>提供海量的电影片源，各种经典怀旧电影放映</p>
+    				<div class="focus_num">570人关注</div>
+    			</div>
+    		</dd>
+    	</dl>
+        <dl class="e_clear">
+            <dt style="background-image:url(images/img2.jpg)"></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon on"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>电影放映日历</h3>
+                    <p>提供海量的电影片源，各种经典怀旧电影放映</p>
+                    <div class="focus_num">570人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear">
+            <dt style="background-image:url(images/img2.jpg)"></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon on"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>电影放映日历</h3>
+                    <p>提供海量的电影片源，各种经典怀旧电影放映</p>
+                    <div class="focus_num">570人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear">
+            <dt style="background-image:url(images/img2.jpg)"></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon on"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>电影放映日历</h3>
+                    <p>提供海量的电影片源，各种经典怀旧电影放映</p>
+                    <div class="focus_num">570人关注</div>
+                </div>
+            </dd>
+        </dl>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/forum/js/func.js"></script>
+    <script src="/pages/forum/js/calendar_project.js"></script>
+</body>
+</html>

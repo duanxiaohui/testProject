@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>第十届上海双年展——社会工厂</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">第十届上海双年展——社会工厂</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/72123db6-e00b-4b1a-a2a1-488c5dc7c40b.jpg"/>
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	
+			<a href="http://www.shanghaibiennale.org/cn/" data-title="官网" class="btn js-other">官网</a>
+	    	<h3 class="time">时间：2015.01.01-2015.03.31</br>
+			                 每天：11:00-19:00</h3>
+	    	<h3>场地：上海 黄浦区 花园港路200号 上海当代艺术博物馆 </h3>
+			<h3>费用：20元(普通票)　10元(优惠票) </h3>
+			<p class="fc_000"></p>
+			
+			<h3>展览介绍：</h3>
+			<p>2014年，上海当代艺术博物馆——中国最重要的公立当代美术馆，前身为南市发电厂——即将第二次举办上海双年展。</p>
+			<p>本届双年展的主题为“社会工厂”，旨在探究“社会性的生产”特点和“社会事实”的组成要素。展览将回溯1978年这一历史参照点，这同时也是中国步入现代化的转折点。1978年，即将担任中国最高国家领导人的邓小平（1904-1997)宣布实行改革开放政策，重新确立“实事求是”的思想指导原则。此前毛泽东曾告诫党内，要以“实事求是”的态度区分对待客观事实与主观想象。“社会工厂”将响应中国一些先驱级、重量级现代改革家的号召，以文学虚构手法作为社会改革的手段，代表人物包括政治评论家梁启超及中国最著名的社会批评家——着有《阿Q正传》和《狂人日记》的作家鲁迅。</p>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/04a14430-869d-4ffe-9a60-98a370d83e7f.jpg"/>
+			<p>在此脉络下，本届双年展将探讨一系列相互关联的问题:在构建和重构社会的过程中，社会性与文学虚构之间存在何种关系？随着20世纪的现代化进程，社会性的生产发生了什么变化？随着“社会测量”技术的大范围使用、数据抽取和数码分析的盛行、以及社会进程日趋像电脑算法一般自动推演，社会性的生产是否进入了一个全新的阶段？近现代之前，中国建立起无以类比的管理体系和档案管理制度，实现了社会的系统化；而这种历史遗产是否会影响当下社会的构建进程？我们该如何解读历史和技术对主体化产生的双重冲击？在社会重构的大背景下，中国是否也会像其他国家一样，迎来主体化的加速和多元化发展？ </p>
+			
+			<p>所谓“社会性的生产”，就是要通过关爱、情感和教育来培养人们感同身受的能力。“社会性的生产”包括生产各种符号、抽象图像和概念性泛化结论，它与体系构建及物质文化的创造同步进行。此外，它还包括由生产出的各种符号组成的一种特殊经济体、符号与功能、意义及事物其间“鲜活”而又模糊的关系。正是因为这种复杂交错的渊源，“社会事实”处在实际与可能性之间的灰色地带，总是若隐若现，永远不可能被人们完全参透。 </p>
+			
+			<p>在现代性之中，社会性模棱两可的特点，以及我们能否规划并改造、建立在这种模糊性中的社会，成了人们争论不休的话题。人们通过建立管理体系、展开调查和统计数据提出各种身份概念，试图多管齐下地减少“社会象形符号”(James C. Scott)的复杂性，并试图将有意义的符号与无意义的符号区分开，把可读的“信号”从“噪音”中剥离出来。第十届上海双年展便是在此脉络下展开，重点呈现当代和历史作品及音乐和电影艺术，质疑这种分离的表现及其历史性的生产力。</p>
+			
+			<!--h3是小标题-->
+	        <h3>参展艺术家: </h3>
+			<p>莫纳•维塔曼&弗洛伊•图铎，周滔，徐坦，杨沛铿，黎清妍，黄汉明，蒂博•哈雅斯，彼得杜拜，郑国谷，巴格义•昂•苏，约瑟夫•康奈尔，彼得•阿林格，颜峻，黃明川，陈界仁，陈滢如，彭致颖，刘鼎，侯俊明，埃德加•艾克尼奥斯，史蒂芬•维勒慈，安东•维多克，尼奥•巴娄法，泰勒•库巴，刘艾真，阿拉克萨达•多曼诺维克，娜蒂•马瑞，阿德瑞娜•梅里斯，&奥利弗•查娜瑞&阿当•布鲁姆伯格，卡洛斯•阿莫拉雷斯，沙巴哈维•考尔，哈伦•法洛基，娜塔莎•萨德尔•哈格希海/乌维•施瓦策/罗比•威廉姆斯，艾瑞克•斯汀伯格，肯•雅各布斯，劳伦斯•阿布•哈姆丹，彼得•弗里德尔，莎朗•洛克哈特，KP•博赫姆，苏珊娜•崔斯特，达瑞•马丁，马丁•贝克，亚当•阿维凯尼，何子彦，尼古拉斯•布斯曼，余政达，阿米•林可，苏珊•苏普利，朱塔•寇泽，罗瑞塔•法仁霍兹，路易斯•罗勒，威廉姆•德•罗杰，赵亮，高士強，李消非，何翔宇，黄然，胡柳，赵延年，孙逊，刘窗，季云飞，王子月，李秀勤，艺术和语言，常赛坦，纳瑞梅因•马里，拉提•恰克拉尤&阿西施•阿维昆塔，CAMP（莎娜•阿南德，阿烁克•苏库马让），酒井高&滨口隆介，卢西恩•卡斯坦-泰勒&维勒纳•帕拉威尔，史杰鹏&张莫，王兵，黄文海 </p>
+			
+			
+			
+			<h3>免责说明：</h3>
+			<p>所有活动信息及图片仅供参考。365日历致力于提供真实、准确的活动信息，但不保证活动信息的真实性和准确性，且不对因信息的不真实或者不准确导致的任何损失或损害承担责任。凡以任何方式登录365日历或者直接、间接参加相关活动者，视为自愿接受本网站声明的约束。</p>
+			
+			<!-- 默认底部有个添加提醒的按钮，不显示的话remind_div的位置加上 none -->
+            <div class="remind_div none" data-uuid="4e0b87d7-73ef-47ed-9069-5060d1f79f57" data-cid="125821987"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/04fbafc7-2d12-4693-8e4a-f3963c948e75.jpg',
+                title: '第十届上海双年展——社会工厂',
+                desc: '本届双年展的主题为“社会工厂”，旨在探究“社会性的生产”特点和“社会事实”的组成要素。展览将回溯1978年这一历史参照点，这同时也是中国步入现代化的转折点。1978年，即将担任中国最高国家领导人的邓小平（1904-1997)宣布实行改革开放政策，重新确立“实事求是”的思想指导原则。此前毛泽东曾告诫党内，要以“实事求是”的态度区分对待客观事实与主观想象。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '第十届上海双年展——社会工厂',
+		        				content: '本届双年展的主题为“社会工厂”，旨在探究“社会性的生产”特点和“社会事实”的组成要素。展览将回溯1978年这一历史参照点，这同时也是中国步入现代化的转折点。1978年，即将担任中国最高国家领导人的邓小平（1904-1997)宣布实行改革开放政策，重新确立“实事求是”的思想指导原则。此前毛泽东曾告诫党内，要以“实事求是”的态度区分对待客观事实与主观想象。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/04fbafc7-2d12-4693-8e4a-f3963c948e75.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

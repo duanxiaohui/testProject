@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>多读本书真的不会让你的罩杯从A变成D</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/world_reading_day/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>世界读书日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>一般来说高大上的打开方式应该是一组极具逼格的调查数据，那么我们就开始套路吧。2013年的一个调查显示：韩国每人年均读书15本，法国人年均读书40本，日本44本，以色列64本，而我大天朝你猜怎么着！人均4.77本。都说知识就是力量、知识就是财富，这下你终于知道为什么自己挣不到大钱了吧！从小，你妈让你读书、你爸让你读书、你老师让你读书，连隔壁老王都让你读书，你怎么就是不听话！</p>
+            <h3>【榜样的力量】</h3>
+            <p>从小你耳濡目染知道了多少发奋读书的故事，什么头悬梁、锥刺骨，什么囊萤映雪，什么凿壁偷光，可是你呢？家里有明亮的电灯，有舒服的书桌，有堆成山的古今名著、教辅材料，可你就是对那些如雷贯耳的榜样彻底免疫，不管不顾的和墨水划清了界限，只顾着撒丫子在大自然狂奔了。</p>
+            <img src="images/world_reading_day/holiday_1.jpg"/>
+            <p>你奔跑、你跳跃，你欢乐不停歇，因为你不是孤单的，这种不爱读书的现象在世界各国都相当普遍！所以，有关组织看不下去了！</p>
+            <h3>【世界读书日】</h3>
+            <p>1972年，联合国教科文组织向全世界发出了“走向阅读社会”的号召，要求社会成员人人读书，让读书成为人们日常生活中不可或缺的部分。1995年，国际出版商协会在第二十五届全球大会上提出“世界图书日”的设想，并由西班牙政府将方案提交联合国教科文组织。后来，俄罗斯认为，“世界图书日”还应当增加版权的概念。</p>
+            <img src="images/world_reading_day/holiday_2.jpg"/>
+            <p>1995年，联合国教科文组织宣布4月23日为“世界读书日”。节日定位这一天或许在一定程度上是因为，1616年4月23日是西班牙著名作家塞万提斯和英国著名作家莎士比亚的辞世纪念日，大咖就是有地位！</p>
+            <h3>【你不就是想看我说胸吗】</h3>
+            <p>有一天小编我在地铁上从头走到尾，那么长的地铁读书的人不超过6个。可是在很多（别人的）国家，人们在等公车时、乘坐公共交通工具时、街边喝咖啡时、吃饭等位时……都会捧着一本书读啊读。或许读书并不能立刻解决你当下遇到的什么问题，但是日积月累却能为你提供一种解决问题的思路。所以说，每天看会书吧，这样并不会让你的罩杯从A变成D，但是会让你觉得A也挺好。</p>
+
+            <div class="tips">
+                <p>1、每年4月23日是世界读书日，设立节日是希望世界各地的人，无论年老还是年轻、无论贫穷还是富裕、无论患病还是健康，都能享受阅读的乐趣；</p>
+                <p>2、还愣着干什么，看书去呗！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html manifest="/pages/appcache/jumpToBDHelper.appcache">
+<head>
+<meta charset="utf-8" >
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>百度手机助手</title>
+</head>
+<body>
+<script>
+    (function () {
+    	var isOpened = false;
+    	try{
+    		isOpened = AliansBridge.openByPackageName('com.baidu.appsearch');
+    	}
+    	catch(e){
+    		window.location.href = 'http://shouji.baidu.com/appsearch?&from=as&f=index@rec-slide-right@1';
+    	}
+    	if(isOpened){
+    		AliansBridge.back();
+    	}
+    	else{
+    		window.location.href = 'http://shouji.baidu.com/appsearch?&from=as&f=index@rec-slide-right@1';
+    	}
+    })();
+</script>
+</body>
+</html>

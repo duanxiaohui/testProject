@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>小黄人</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">小黄人</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/4263d81f-1114-4ac7-b09c-ca16e1193af8.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	<a href="http://www.iqiyi.com/v_19rrn2bixs.html" data-title="查看预告片" class="btn js-other">查看预告片</a>
+	    	<h3 class="time">上映时间：2015年7月10日（美国）</h3>
+			<p> </p>
+	    	<h3>导演：凯尔·巴尔达 / 皮埃尔·科芬</h3>
+			<p class="fc_000">主演：小黄人=_=</p>
+			<h3>剧情：</h3>
+			<p>故事发生在第一部《神偷奶爸》之前，回溯到上世纪60年代，小黄人的“黑历史”被一一曝光，在遇到格鲁之前，这群小东西可谓“成事不足败事有余”，几乎害死了每一任主人——从霸王龙，埃及法老，到拿破仑，甚至还包括了357岁的吸血鬼。在和平年代里，小黄人渐渐找不到了自己的主人，慢慢地陷入了忧伤之中。不过，就在这个时候，有三名小黄人，也是本片的主角，凯文、斯图尔特以及鲍勃开始了自己的新计划——他们要找到最强大的新主人，并且辅佐他的作恶事业，他们旅行的第一站便是1968年的纽约。他们会遇到自己的新主人：有史以来最坏、最没有底线的女性大坏蛋斯嘉丽·杀人狂。在整个1960年代，他们从纽约开始作恶，一直走到了伦敦。而在伦敦，小黄人却发现自己面临着新的挑战——他们要挽救自己的整个种族……</p>
+			<!--h3是小标题-->
+			<h3>看点：</h3>
+			<!--p是段落文字描述-->
+			<p>制片方还是不傻的，第一部上映后反响还算热烈，喜欢故事内容喜欢三个小姑娘的观众不在少数，可到了第二部的时候负面评价就接踵而至了，故事情节单薄，完全是搞笑片段的拼凑，甚至让人感觉有些虎头蛇尾。有观众说，此片已经和《冰河世纪》一样只能看看吉祥物了……所以幸好还有小黄人支撑起场面，那种贱兮兮的蠢萌，杀伤力比三个姑娘更大，不少观众直接要求下部让小黄人做主角好了。于是片方顺水推舟，下一部就拍小黄人了！小胶囊们最萌的地方就是它们的奇妙语言，表面上看，没有任何一个国家的人能听懂他们在说什么，但实际上，每个人都明白他们的意思。在这部片子里，胶囊控们可以听个爽啦！</p>
+    	<img src="http://cocoimg.365rili.com/schedule_pics/default/37282c7f-ceb3-4807-8332-de076516b41a.jpg"/>
+		<img src="http://cocoimg.365rili.com/schedule_pics/default/1148aca3-5fce-4625-bc1d-832f19f70b1a.jpg"/>
+		 <div class="remind_div none" data-uuid="4e0b87d7-73ef-47ed-9069-5060d1f79f57" data-cid="125821987"><div class="remind_icon"></div><span>添加提醒</span></div>
+		</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/628a4575-9025-452a-a8a0-067c629b554e.jpg',
+                title: '电影：小黄人',
+                desc: '《小黄人》是为《卑鄙的我》中抢尽风头的迷你小黄人拍摄的外传动画片。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '电影：小黄人',
+		        				content: '《小黄人》是为《卑鄙的我》中抢尽风头的迷你小黄人拍摄的外传动画片。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/628a4575-9025-452a-a8a0-067c629b554e.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

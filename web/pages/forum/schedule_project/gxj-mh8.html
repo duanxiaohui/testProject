@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015北京朝阳公园庙会</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015北京朝阳公园庙会</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/cfd3986e-5e41-493a-8a21-122a8af16a08.jpg"/>
+			 <a class="btn js-subscribe" data-uuid="b842ea56-8473-429e-a7d9-c8fc5dfcc632" data-cid="147462861">添加提醒</a>
+	    
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	
+	    	<p class="time"><b>时间： 2015.2.19 - 2.24（8:30-17:00）
+
+
+
+</b></br>
+	    	<b>场地：北京市朝阳区朝阳公园南路1号</b></br>
+			<b>费用：门票10元</b></p>
+			<h3>亮点：</h3>
+			<p>2015年朝阳公园庙会是第十一届北京朝阳国际风情节，风情节突出国际化、时尚互动，展示了世界不同国家在文化、艺术、美食风情，迄今为止也已有超过200位国外艺术家参与。让广大市民不出国门就可以游历领阅异国风土人情并留下许多快乐的深刻记忆。
+
+</p>
+			<!--h3是小标题-->
+			<h3>活动简介：</h3>
+			<!--p是段落文字描述-->
+			<p>北京朝阳公园是一处以园林绿化为主的综合性、多功能的大型文化休憩、娱乐公园，是北京市四环以内最大的城市公园，原称水碓子公园，始建于1984年，1992年更名为北京朝阳公园。</br></br>
+			朝阳公园庙会是北京市朝阳区政府主办，朝阳区对外文化交流协会与北京朝阳公园联合承办的大型群众性文化活动。</br></br>
+			
+朝阳公园庙会是人们过年不可或少的过年内容。庙会里有各地名优小吃、特色风味、餐饮老字号等。
+</br></p>
+			<p>
+<b>朝阳公园庙会乘车线路：</br>乘车线路：到朝阳公园的公交车有976、406、305、750、988、731、729、758、831、834、815、847、302、705、117、703、710、419、31、973、431、984、754、985路等。</br>
+自驾路线：三环长虹桥向东1000米，四环朝阳公园桥下向西300米即到。</br>
+朝阳公园庙会停车场：停车场各门区停车位，南门：173个;东门：808个;西门：177;北门：180个;共计：1338个。</br>
+
+
+
+</b></br></br>
+具体详情以官方信息为准</p>
+<img src="http://cocoimg.365rili.com/schedule_pics/default/29788339-7b8a-4c87-985d-157bcbc56119.jpg"/>
+<img src="http://cocoimg.365rili.com/schedule_pics/default/f7cc0ef6-bb3a-4fbe-9bb9-4b6eda10181f.jpg"/>
+
+ <div class="remind_div" data-uuid="b842ea56-8473-429e-a7d9-c8fc5dfcc632" data-cid="147462861"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/cfd3986e-5e41-493a-8a21-122a8af16a08.jpg',
+                title: '2015北京朝阳公园庙会',
+                desc: '朝阳公园庙会是人们过年不可或少的过年内容。庙会里有各地名优小吃、特色风味、餐饮老字号等。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015北京朝阳公园庙会',
+		        				content: '朝阳公园庙会是人们过年不可或少的过年内容。庙会里有各地名优小吃、特色风味、餐饮老字号等。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/cfd3986e-5e41-493a-8a21-122a8af16a08.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

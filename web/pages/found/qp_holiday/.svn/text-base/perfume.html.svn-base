@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>不擦香水的女人没有未来</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/perfume/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>国际香水节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>“不擦香水的女人没有未来。”这是可可·香奈儿最爱引述的法国著名诗人保罗.瓦莱利的一句话。法国女性认为与其被男性称赞“你的衣着十分得体，很漂亮”，不如一句“你的香水多么适合你，你太有魅力了”。对衣着对赞美只是外在对恭维，可是一个男人已经注意你身体散发的香味时，就是从心理上了解你，或者对你有非常好的好感了。</p>
+          
+            <img src="images/perfume/holiday_img1.jpg"/>
+
+            <h3>【历史悠久的香水】</h3>
+            <p>公元前三千年左右，埃及就开始使用香料，这远远比埃及其它的文明更早。埃及人发明的可菲神香是人类最早的香水。十五世纪以后，香水很快流传到法国、英国等欧洲国家。十九世纪下半叶起，香水制造技术比较成熟。由于法国人当时喜欢在皮革手套上加上香水，而要找这种手套最好就是前往格拉斯，因此它的香水业得到了很好的发展，法国很快就有了世界香水之都的称号。</p>
+            <img src="images/perfume/holiday_img2.jpg"/>
+                    
+            <h3>【关于香水不得不知的事】</h3>
+            <p>香水一般分为七种香型——单花型：原料以单一花香为主调；混合花型：由几种花香配合形成综合花香型，香味浓烈；植物型：以野外一些清香的植物为原料，清香淡雅；香料型：以丁香、桂皮、香草等香料为原料配成的香型，表现一种持久的情感和思念；柑桔型：以柑桔、柠檬为香型，能引起愉快的心绪；东方型：以薄荷和麝香为原料，味道辛辣；森林型：以橡树和新鲜绿色植物为原料，表现一种深远莫测、宽广凝重的气质。</p>
+            
+            <p class="mt15">一般香水的香味可以分为前调、中调和尾调三个部分。前调是一瓶香水最先透露的信息，味道一般较清新，大多为花香或柑橘类成分的香味。但前味并不是一瓶香水的真正味道，因为它只能维持几分钟而已。中调是香水中最重要的部分，也是“香核”。这部分通常由含有某种特殊花香、木香、及微量辛辣刺激香制成，其气味无论清新还是浓郁，都必须是和前味完美衔接的。中味的香味一般可持续数小时或者更久一些。尾调也就是我们平常所说的“余”香。这个阶段的香味是兼具整合香味的功能的。后味的作用是给予香水一种绕梁三日不绝的深度，它持续的时间最长久，可达整日或者数日之久，抹过香水隔天后还可以隐隐感到的香味就是香水的后味，这也就是香水制作的极致了，连绵不断，回味无尽。</p>
+
+            <img src="images/perfume/holiday_img3.jpg"/>
+            
+			<h3>【国际香水节】</h3>
+
+            <p>西方爱美的女人们规定每年1月12日为国际香水节，每逢这个节日，人们都把自己变成香美人并且可以获得自己喜爱的香水。如果近期有不知道该为女士送什么礼物而烦恼的人，不如就选择一款香水吧~</p>
+			
+
+
+            <div class="tips">
+                <p>1、1月12日是国际香水节，大家都可以喷上最喜爱的香水展现自己的魅力；</p>
+                <p>2、香水虽好，喷起来可不要贪多呦~</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/欢欢</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

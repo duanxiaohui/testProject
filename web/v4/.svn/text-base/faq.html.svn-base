@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="css/base.css?v=20131219" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/sub.css?v=20131219" media="screen" />
+</head>
+<body>
+<div class="rili_v4_top e_clear">
+	<div class="logo e_clear">
+		<a href="http://www.365rili.com"><img src="images/logo.png" alt="365日历"/></a>
+	</div>
+	<div class="nav">
+		<ul class="e_clear">
+			<li class="public"><a href="http://open.365rili.com" target="_blank">公众平台</a></li>
+			<li class="down"><a href="/v4/product.html">产品下载</a></li>
+			<li class="personrl"><a href="/main/calendar.do">个人日历</a></li>
+			<li class="home"><a href="/">首页</a></li>
+		</ul>
+	</div>
+</div>
+<div class="rili_v4_focus"></div>
+<div class="faq_box e_clear">
+	<h2><img src="images/faq_h2.jpg"/></h2>
+	<div class="faq_left">
+		<h3>1.通用问题</h3>
+		<dl>
+			<dt>Q：365日历能和Google日历同步吗？ </dt>
+			<dd>
+				<p>A：365日历可以和google日历完美双向同步，注册365日历账号之后，绑定您的google日历，就可以将您的google日历上的日程同步到您的手机上来。</p>
+				<p>注意：365日历支持多日历形式，默认情况下，您自己输入的日程是添加在“我的日历”中，如果希望把客户端上的日历同步到google日历，请把日程添加在您的google日历中</p>
+			</dd>
+		</dl>
+		<dl>
+			<dt>Q：如何设置日程的开始时间和结束时间？ </dt>
+			<dd>
+				<p>A：当您添加日程时，可以看到最右侧有一个按钮，在“重复设置-阶段（支持一段时间）”中可以设置日程的开始时间和结束时间。当然365日历还支持很多复杂的重复日程形式，希望能帮到您。</p>
+			</dd>
+		</dl>
+		<dl>
+			<dt>Q：新版365日历+为什么没有记事本功能？  </dt>
+			<dd>
+				<p>A：我们把记事本功能升级为待办事项，待办事项增加了完成标志以及截至日期。您之前的记事本内容已经转移到待办事项中，只要登录原账户就可以看到。</p>
+			</dd>
+		</dl>
+		<dl>
+			<dt>Q：没有显示第几周？  </dt>
+			<dd>
+				<p>A：您可以在“工具->星期查询”里查询到今天是第几周第几天；另外最新版的365日历+支持周视图显示，今天是第几周可以很方便的看到。 </p>
+			</dd>
+		</dl>
+		<dl>
+			<dt>Q：如何查看到所有日程列表？  </dt>
+			<dd>
+				<p>A：您可在“工具->搜索”里输入英文字符的“%”，就可查看全部日程。  </p>
+			</dd>
+		</dl>
+		<dl>
+			<dt>Q：如何添加农历、公历生日并提醒？   </dt>
+			<dd>
+				<p>A：您可在添加日程中选择每年重复或每年农历重复的日程，添加完后每年的这个时候会自动提醒的，当然您也可以设置提前1天、3天提醒。 </p>
+			</dd>
+		</dl>
+		<dl>
+			<dt>Q：是否能跟outlook同步？    </dt>
+			<dd>
+				<p>A：这个功能我们正在开发，会尽快推出！ </p>
+			</dd>
+		</dl>
+	</div>
+	<div class="faq_right">
+		<h3>2.iPhone问题 </h3>
+		<dl>
+			<dt>Q：为什么不能同步联系人生日 ？     </dt>
+			<dd>
+				<p>A：您可以使用导入系统日历的功能，这样就能够把联系人的生日都导入进来了。  </p>
+			</dd>
+		</dl>
+		<dl>
+			<dt>Q：为什么没有提醒？      </dt>
+			<dd>
+				<p>A：请您检查一下日程是否设置提醒。   </p>
+			</dd>
+		</dl>
+		<dl>
+			<dt>Q：如何自动同步？       </dt>
+			<dd>
+				<p>A：您可以点“设置->同步设置”这点击同步，您也可以在这这开启启动程序就同步，这样您在每次进入程序的时候都会自动同步。   </p>
+			</dd>
+		</dl>
+		<h3>3.Android问题 </h3>
+		<dl>
+			<dt>Q：为什么下载的最新版看不到放假安排了？    </dt>
+			<dd>
+				<p>A：请到sd卡下找到365riliDownload这个文件夹，删除里面的Cache 文件夹，然后重新打开就可以了  </p>
+			</dd>
+		</dl>
+		<dl>
+			<dt>Q：插件找不到了 </dt>
+			<dd>
+				<p>A：因为android系统的特殊原因，请您把主程序和插件都装载在手机内存中，这样重启后插件才不会失效。  </p>
+			</dd>
+		</dl>
+		<dl>
+			<dt>Q：安装插件之后无法显示 </dt>
+			<dd>
+				<p>A：如果插件是装在sd卡里，那么转移到手机内存中，然后重启手机。如果是安装在手机内存中，建议卸载后重新安装，如果还不行的话，卸载后，在SD卡中找到365riliDownload->apk这个文件夹，找到相应的插件apk进行手动安装。   </p>
+			</dd>
+		</dl>
+		<dl>
+			<dt>Q：设置日程之后没有提醒我  </dt>
+			<dd>
+				<p>A：请您开机后启动365日历，然后不要在后台杀掉365日历，杀掉的话最好重新打开一下日历。 </p>
+			</dd>
+		</dl>
+		<dl>
+			<dt>Q：为什么不能同步联系人生日  </dt>
+			<dd>
+				<p>A：您好，关于这个功能，我们已经有计划在开发了！ </p>
+			</dd>
+		</dl>
+		<dl>
+			<dt>Q：为什么日程插件只显示今天的？ </dt>
+			<dd>
+				<p>A：您可以在插件管理中下载4×3近期日程的插件，这个是可以显示近段时间的日程插件。 </p>
+			</dd>
+		</dl>
+		<dl>
+			<dt>Q：插件是否能够设置透明度？为什么没有全透明的插件？  </dt>
+			<dd>
+				<p>A：插件无法设置透明度，只能够设置背景颜色，这是由于android的桌面系统的限制。 我们不做全透明是因为不好搭配背景，文字的颜色大小问题，如此添加起来很难使桌面美观，因此并不做全透明的。 </p>
+			</dd>
+		</dl>
+		<dl>
+			<dt>Q：为什么我的手机提醒没有铃声或无法修改铃声？  </dt>
+			<dd>
+				<p>A：您好，这应该是跟你手机的系统有关的，有一些手机系统限制了读取系统铃声，所以我们无法读取到您选择的其他铃声，因此只能使用默认的了。 </p>
+			</dd>
+		</dl>
+		<dl>
+			<dt>Q：为什么要有短信权限？   </dt>
+			<dd>
+				<p>A：短信权限是为了让您可以把日程通过短信的形式分享给您的好友。 </p>
+			</dd>
+		</dl>
+		<dl>
+			<dt>Q：不能同步Google task？    </dt>
+			<dd>
+				<p>A：因为Google task的同步接口跟日程的不太一样，还不能够跟我们的待办事项很好的结合，因此还不能同步。 </p>
+			</dd>
+		</dl>
+		<dl>
+			<dt>Q：为什么没有天气了？    </dt>
+			<dd>
+				<p>A：请您在软件的“设置->插件管理”中选择安装4×2的天气插件，回到系统桌面上添加此插件，然后就可以看到天气了。  </p>
+			</dd>
+		</dl>
+		<dl>
+			<dt>Q：天气城市怎么修改？     </dt>
+			<dd>
+				<p>A：您在添加好4×2凌风天气插件后，点击插件右上角的天气图标，在这个界面可以选择您的地区以及天气更新的频率。  </p>
+			</dd>
+		</dl>
+	</div>
+</div>
+<div class="rili_v4_footerbox">
+	<div class="rili_v4_about">
+				<a href="prospect.html">公司远景</a><a href="http://www.365rili.com/v3/milestone/index.htm" target="_blank">里程碑</a><a href="join.html">加入我们<span class="num"></span></a><a href="faq.html">常见问题</a><a href="service.html">服务条款</a><a href="privacy.html">隐私政策</a><a href="http://bbs.365rili.com" target="_blank">在线支持</a><a href="contact.html">联系我们</a>
+	</div>
+	<div class="rili_v4_footer">
+		<p>&copy; 2015 365rili Inc. 京ICP证130262号 </p>
+		<p>京公网安备11010102002007号</p>
+	</div>
+</div>
+<div style="display:none">
+	<script src="//www.365rili.com/js/lib/app.js"></script>
+</div>
+</body>
+</html>

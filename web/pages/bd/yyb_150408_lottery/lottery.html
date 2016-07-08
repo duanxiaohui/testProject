@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>365幸运大转盘</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <meta name="viewport" content="width=320, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ </head>
+<body>
+    <div class="rullContent"></div>
+    <div class="main">
+        <div class="logo"></div>
+        <div class="content">
+            <div class="lottery">
+                <div class="circle"></div>
+                <div class="start"></div>
+                <div class="pointer none"></div>
+            </div>
+            <div class="lottery_txt"></div>
+        </div>
+    </div>
+    <div class="lottery_info none">
+        <div class="logo"></div>
+        <div class="top_txt"></div>
+        <div class="prize">
+            <div class="prize_txt">
+                恭喜你获得
+            </div>
+            <div class="prize_pic">
+                <img src="images/prize1.png"/>
+            </div>
+        </div>
+        <!--添加中奖信息-->
+        <div class="lottery_info_div">
+            <div class="lottery_info_txt">
+                <h3>输入手机号领取奖品</h3>
+                <!--<input type="text" class="username" placeholder="姓名"/>-->
+                <input type="text" class="mobile" placeholder="点击输入手机号码"/>
+                <!--<input type="text" class="address" placeholder="邮寄地址"/>-->
+            </div>
+            <div class="lottery_note">
+                <!-- <p>注：请务必填写详细正确信息。<br/>以便工作人员与您取得联系，并送出奖品。</p> -->
+                <a href="javascript:;" class="submit_btn">提交信息</a>
+            </div>
+        </div>
+        <!--填完手机号-->
+        <div class="confirm_info_layer none">
+            <h3>提交成功！</h3>
+            <div class="confirm_info_txt">
+                <p>奖品将在15个工作日内发放<br/>
+                通过手机号 <span class="confirm_mobile"></span> 联系中奖者<br/>
+                请注意查看信息</p>
+            </div>
+        </div>
+        <!--规则-->
+        <div class="lottery-cp none">
+            <h3><span id="js-cp-back">&lt;返回</span>活动详情</h3>
+            <p>1．活动有效期：即日起至2015年4月15日。</p>
+            <p>2．中奖用户请按抽奖系统提示，提交手机号码即可领奖。</p>
+            <p>3．抽中大奖的用户请等待工作人员与您取得联系安排发奖。</p>
+            <p>4．本活动最终解释权归北京问日科技有限公司所有。</p>
+        </div>
+        <div class="view_btn" id="js-cp"></div>
+    </div>
+        <input id="UID" type="hidden" >
+    <input id="PWD" type="hidden" >
+    <input id="MAC" type="hidden" >
+    <input id="VER" type="hidden" >
+<script src="/js/jquery/jquery-1.8.3.min.js"></script>
+<script src="/js/jquery/jquery-ui-1.9.0.custom.min.js"></script>
+<script src="/js/jquery/jquery.cookie.js"></script>
+<script src="/js/jquery/jquery.rotate.js"></script>
+<script>
+    var lottery = {
+        config: {
+            w: $(window).width(),
+            h: $(window).height(),
+            key: '',
+            date: null,
+            dateStr: '',
+            UID: '0',
+            MAC: 'null'
+        },
+
+        init: function() {
+            $(".lottery_info, .infosub_layer").width(lottery.config.w).height(lottery.config.h);
+            $('.circle').css('transform', 'rotate(60deg)');
+        },
+
+        bindEvents: function() {
+            $('.start').on('click', function() {
+                if($.cookie('flag') == lottery.config.dateStr) {
+                    alert('每天只有一次抽奖机会，明天再来吧！');
+                    return;
+                }
+                lottery.getLottery();
+            });
+
+            $('.submit_btn').on('click', function() {
+                var mobile = $('.mobile').val();
+                if(mobile == '') {
+                    alert('请填写完整的信息以便领取奖品。');
+                    $('body').scrollTop(0);
+                    return;
+                }
+                if(!(/^1[3|4|5|8][0-9]\d{4,8}$/.test(mobile))) {
+                    alert('请输入正确格式的手机号码！');
+                    $('body').scrollTop(0);
+                    return;
+                }
+                $('.lottery_info_div').addClass('none');
+                $('.confirm_info_layer').removeClass('none');
+                $('.confirm_mobile').text(mobile);
+                lottery.lotteryUser();
+            });
+
+            // $('.edit_btn').on('click', function() {
+            //     $('.confirm_info_layer').addClass('none');
+            //     $('.lottery_info').removeClass('none');
+            // });
+
+            // $('.confirm_btn').click(function() {
+            //     lottery.lotteryUser();
+            // });
+
+            var has3d = 'WebKitCSSMatrix' in window && 'm11' in new WebKitCSSMatrix();
+            $('.lottery-cp').css({
+                '-webkit-transform': has3d ? "translate3d(200%,0,0)" : "translate(200%,0)",
+                '-webkit-transition': '0ms linear'
+            });
+            $('.lottery_info').css({
+                width: $(window).width() + 'px',
+                overflow: 'hidden'
+            })
+            $('#js-cp').on('click', function () {
+                $('.lottery_info_div').css({
+                    '-webkit-transform': has3d ? "translate3d(-200%,0,0)" : "translate(-200%,0)",
+                    '-webkit-transition': '200ms linear'
+                });
+                $('.confirm_info_layer').css({
+                    '-webkit-transform': has3d ? "translate3d(-200%,0,0)" : "translate(-200%,0)",
+                    '-webkit-transition': '200ms linear'
+                });
+                $('.lottery-cp').css({
+                    '-webkit-transform': has3d ? "translate3d(-0%,0,0)" : "translate(-0%,0)",
+                    '-webkit-transition': '200ms linear'
+                });
+                $(".prize").hide();
+                $(this).hide();
+            });
+            $('#js-cp-back').on('click', function () {
+                $('.lottery_info_div').css({
+                    '-webkit-transform': has3d ? "translate3d(0%,0,0)" : "translate(0%,0)",
+                    '-webkit-transition': '200ms linear'
+                });
+                $('.confirm_info_layer').css({
+                    '-webkit-transform': has3d ? "translate3d(0%,0,0)" : "translate(0%,0)",
+                    '-webkit-transition': '200ms linear'
+                });
+                $('.lottery-cp').css({
+                    '-webkit-transform': has3d ? "translate3d(200%,0,0)" : "translate(200%,0)",
+                    '-webkit-transition': '200ms linear'
+                });
+                $('#js-cp').show();
+                $(".prize").show();
+            });
+        },
+
+        getUserInfo: function() {
+            try {
+                if(/android/i.test(navigator.userAgent)) {
+                    lottery.config.UID = AliansBridge.getUserId();
+                    lottery.config.MAC = AliansBridge.getMac();
+                } else {
+                    setTimeout(function() {
+                        lottery.config.UID = document.getElementById('UID').value;
+                        lottery.config.MAC = document.getElementById('MAC').value;
+                    }, 500);
+                }
+            }catch(e) {
+                lottery.config.UID = 0;
+                lottery.config.MAC = 0;
+            }
+        },
+
+        getLottery: function() {
+            if(lottery.config.UID == '') {
+                lottery.config.UID = 0;
+            }
+            if(lottery.config.MAC == '') {
+                lottery.config.MAC = 0;
+            }
+            $.ajax({
+                url: '/coop/lottery.do',
+                type: 'post',
+                dataType: 'json',
+                data: {
+                    deviceID: lottery.config.MAC,
+                    userID: lottery.config.UID,
+                    campaign:'yyb0410'
+                },
+                success: function(data) {
+                    lottery.handleLottery(data);
+                }
+            });
+        },
+
+        handleLottery: function(data) {
+            if(data.prize == -1) {
+                alert('来晚啦~礼物都送完啦亲！下次早点来！');
+                return;
+            }else{
+                $('.pointer').removeClass('none');
+            }
+            if(data.prize > 0) {
+                lottery.config.key = data.key;
+            }
+            var prize = data.prize,
+                rotate = 60 + 10 * 360;
+            if(prize == 0) {
+                rotate = 360 * 10 + 60;
+            } else if(prize == 1) {
+                rotate = 360 * 10 + 360;
+                // $('.prize_txt').html('您的奖品是<br/>索尼香水自拍神器');
+                $('.prize_pic img').attr('src', 'images/prize.png');
+            } else if(prize == 2) {
+                rotate = 360 * 10 + 240;
+                // $('.prize_txt').html('您的奖品是<br/>200兆流量');
+                $('.prize_pic img').attr('src', 'images/prize1.png');
+            } else if(prize == 3) {
+                rotate = 360 * 10 + 120;
+                // $('.prize_txt').html('您的奖品是<br/>200兆流量');
+                $('.prize_pic img').attr('src', 'images/prize2.png');
+            }
+            $(".circle").rotate({
+                angle: 0,
+                animateTo: rotate,
+                duration: 10000,
+                callback: function() {
+                    if(data.prize == 0) {
+                        alert('真可惜，只差一点点...');
+                    } else {
+                        alert('恭喜你！中奖啦！');
+                        $('.main').addClass('none');
+                        $('.lottery_info').removeClass('none');
+                    }
+                }
+            });
+            $.cookie('flag', lottery.config.dateStr, {expires: 365});
+        },
+
+        lotteryUser: function() {
+            $.ajax({
+                url: '/coop/lottery_user.do',
+                type: 'post',
+                dataType: 'json',
+                data: {
+                    phone: $('.confirm_mobile').text(),
+                    key: lottery.config.key
+                },
+                success: function(data) {
+                    if(data.state == 'ok') {
+                        alert('提交成功!');
+                        $('.confirm_info_layer').addClass('none');
+                        $('.infosub_layer').removeClass('none');
+                    }
+                }
+            });
+        }
+    };
+
+    $(document).ready(function() {
+        $('.lottery-cp').removeClass("none");
+        var date = new Date(),
+            dateStr = date.getFullYear() + '-' + (date.getMonth()+1) + '-' + date.getDate();
+        lottery.config.date = date;
+        lottery.config.dateStr = dateStr;
+        lottery.init();
+        lottery.getUserInfo();
+        lottery.bindEvents();
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历--腾讯新闻</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+</head>
+<body>
+	<div class="main">
+		<div class="top"></div>
+		<div class="text">
+			<p>全球资讯，领先一步</p>
+			<p>《腾讯新闻》是腾讯团队用心打造的一款丰富、及时的新闻应用，本着精炼、轻便的目标，为用户提供高效、优质的阅读体验。全球视野，聚焦中国，一朝在手，博览天下。</p>
+		</div>
+		<a href="http://misc.wcd.qq.com/app?packageName=com.tencent.news&channelId=75813" class="btn">下载腾讯新闻</a>
+	</div>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015苏州环金鸡湖国际半程马拉松赛</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015苏州环金鸡湖国际半程马拉松赛</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/1b986bd9-ac7e-4778-b012-560bb6bad6c2.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+			  <a class="btn js-subscribe" data-uuid="6d0ec6d1-7a13-456a-9d2d-ee43aa4e60a1" data-cid="147514789">添加提醒</a>
+	    	
+	    	<p class="time"><b>报名时间：</br>
+   第一阶段：2015.1.8 09:00 - 2015.2.8 24:00 </br>
+   第二阶段：2015.2.9 00:00 - 2015.2.28 17:00</br>
+
+
+
+
+
+</b>
+
+<b>比赛时间：2015年3月29日上午8:30
+</b></br>
+
+	    	<b>比赛地点：苏州工业园区月光码头-文化艺术中心广场
+</b></br><b>类型：半马</b></br>
+
+			</p>
+			<h3>比赛路线：</h3>
+			<p>（一）半程马拉松：</br>
+苏州工业园区月光码头-文化艺术中心广场（起点）→现代大道→星湖街→旺墩路→华池街→月廊街→右岸街→星湖街→环洲路→星湖街→金鸡湖大道→李公堤路→星州街→中新大道西→星汉街→现代大道→观枫街→月光码头（终点），全程21.0975公里。</br>
+（二）短程马拉松：</br>
+苏州工业园区月光码头-文化艺术中心广场（起点）→现代大道→星湖街→旺墩路→华池街→月廊街→右岸街→星湖街→环洲路→星湖街→金鸡湖大道→李公堤路四期广场（终点），全程约12公里。</br>
+（三）迷你马拉松： </br>
+苏州工业园区月光码头-文化艺术中心广场（起点）→现代大道→星湖街→旺墩路→华池街→月廊街→苏州大道东（国际博览中心3A馆段）（终点），全程约4.5公里。</br>
+（四）家庭亲子跑：</br> 
+苏州工业园区月光码头-文化艺术中心广场（起点）→现代大道→星湖街→旺敦路（拟终点），全程约2.5公里。</br>
+
+
+</p>
+			<!--h3是小标题-->
+			<h3>报名方法：</h3>
+			<!--p是段落文字描述-->
+			<p>
+1. 本次比赛接受个人报名和团体报名。</br>
+2. 在中国田径协会注册的运动员必须通过中国田协网上报名系统进行报名，组委会不接受个人直接报名。</br>
+3. 所有项目的个人参赛者和团队参赛者，可以在赛事官方网站：www.suzhou-marathon.com在线报名。</br>
+4.报名期间，所有报名者须阅读并同意《参赛声明》、《注册须知》、《报名须知》、《风险提示》后按要求如实填写所有报名信息并提交，报名费用支付成功后，即完成相应报名流程。</br>
+5.支付方式</br>
+支付宝：国内交易</br>
+PayPal：外汇交易</br>
+网银在线：国内交易</br>
+6.报名截止</br>
+报名总人数限30,000人：半程马拉松限10,000人、短程马拉松限6,000人、迷你马拉松限10,000人、家庭亲子跑限4,000人。额满为止，额满后不再接受任何报名。</br>
+组委会有权根据参赛者报名情况决定是否接受报名，报名成功后，不可更改报名项目及参赛信息，放弃比赛，报名费将不予返还。</br>
+
+
+</br>具体详情以官网信息为准
+
+</p>
+
+<img src="http://cocoimg.365rili.com/schedule_pics/default/f8681d2a-aad4-4ace-aaad-255e11b6acff.jpg"/>
+			<a href="http://www.suzhou-marathon.com/index.html" class="btn js-other">详见官网</a>
+			 <div class="remind_div" data-uuid="6d0ec6d1-7a13-456a-9d2d-ee43aa4e60a1" data-cid="147514789"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/1b986bd9-ac7e-4778-b012-560bb6bad6c2.jpg',
+                title: '2015苏州环金鸡湖国际半程马拉松赛',
+                desc: '比赛时间：2015年3月29日上午8:30 比赛地点：苏州工业园区月光码头-文化艺术中心广场'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015苏州环金鸡湖国际半程马拉松赛',
+		        				content: '比赛时间：2015年3月29日上午8:30 比赛地点：苏州工业园区月光码头-文化艺术中心广场',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/1b986bd9-ac7e-4778-b012-560bb6bad6c2.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

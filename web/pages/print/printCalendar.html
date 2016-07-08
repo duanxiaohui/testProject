@@ -1,0 +1,434 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link href="/css/calendar1.css" rel="stylesheet">
+<link href="/css/jquery-ui-1.9.2.custom.min.css" rel="stylesheet">
+<title>365日历 </title>
+    <style>
+        html {
+            overflow: auto;
+        }
+        .print_select_calendar{height:45px; padding:0 10px; background:#fff;}
+        .print_select_btn{float:left; height:27px; width:132px; margin-top:9px;}
+        .print_select_btn a{display:block;height:25px; width:130px; text-align: center; line-height:25px; color:#fff; background:#54daff; border:1px solid #00bff3; 
+        -moz-border-radius: 16px; -webkit-border-radius: 16px; -khtml-border-radius: 16px; border-radius: 16px;
+        }
+        .print_select_calist{margin-left:150px;}
+        .calist{float:left; margin:9px 10px 0 0; line-height:25px; cursor:pointer;}
+        .calist:hover .calist_colse{visibility: visible;}
+        .calist_idot{float:left; width:8px; height:8px; background:#8dc63f; margin:8px 0;}
+        .calist_txt{float:left; margin:0 5px;}
+        .calist_colse{float:left; visibility: hidden; width:9px; height:9px; margin-top:8px;}
+        .print_select_layer{width:190px; padding:5px 30px; position:absolute; top:0; left:150px; background:#fff; border:1px solid #d7d8d9; display:none;}
+        .print_select_layer li{padding:5px 0; margin:5px 0; line-height:18px;}
+        .print_select_layer input,.print_select_layer span{vertical-align: middle; }
+        .print_select_layer input{margin-right:10px;}
+        .cal_corlor{float:right; width:8px; height:8px; background:#f00; margin-top:4px;}
+        .print_select_time{background:#f6f9fd; padding:15px 10px;}
+        .print_select_time input{width:100px; padding:10px 0; border:1px solid #f6f9fd; outline: none; height:31px; text-align:center;}
+        .star_time,.end_time{float:left; margin-right:65px;}
+        .sub_btn{float:right; width:80px; height:25px; background:#54daff; border:1px solid #00bff3; line-height:25px; color:#fff; text-align: center;
+        -moz-border-radius: 15px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px;
+        }
+        .print_month{width:140px; float:left; padding:10px;}
+        .print_schedule_content{margin-left:160px; padding:10px 0;}
+        .print_schedule li:nth-of-type(odd){background:#fff;}/*奇数行*/
+        .print_schedule li:nth-of-type(even){background:#f6f9fd;}/*偶数行*/
+        .print_month h3{margin-bottom: 5px;}
+        .print_month span{margin-right:10px;}
+        .print_schedule_content .spheric{display:block; margin:3px 5px 0 0; width:8px; height:8px;}
+    </style>
+</head>
+<body>
+<div class="calendar_header">
+    <div class="user_info">
+        <a href="/" class="return_btn"></a>
+        <span id="sp_user_info"></span>
+    </div>
+</div>
+<div class="print_select_calendar">
+    <div class="print_select_btn">
+        <a id="chooseCal" href="javascript:;">选择要打印的日历</a>
+        <div class="print_select_layer">
+            <div class=""></div>
+            <ul>
+                <!--
+                <li><span class="cal_corlor ui-corner-all-16"></span><label><input type="checkbox"/><span>我的日历</span></label></li>
+                <li><span class="cal_corlor ui-corner-all-16"></span><label><input type="checkbox"/><span>我的日历</span></label></li>
+                <li><span class="cal_corlor ui-corner-all-16"></span><label><input type="checkbox"/><span>我的日历</span></label></li>
+                <li><span class="cal_corlor ui-corner-all-16"></span><label><input type="checkbox"/><span>我的日历</span></label></li>
+                <li><span class="cal_corlor ui-corner-all-16"></span><label><input type="checkbox"/><span>我的日历</span></label></li>
+                <li><span class="cal_corlor ui-corner-all-16"></span><label><input type="checkbox"/><span>我的日历</span></label></li>
+                <li><span class="cal_corlor ui-corner-all-16"></span><label><input type="checkbox"/><span>我的日历</span></label></li>
+                <li><span class="cal_corlor ui-corner-all-16"></span><label><input type="checkbox"/><span>我的日历</span></label></li>
+                <li><span class="cal_corlor ui-corner-all-16"></span><label><input type="checkbox"/><span>我的日历</span></label></li>
+                <li><span class="cal_corlor ui-corner-all-16"></span><label><input type="checkbox"/><span>我的日历</span></label></li>
+                <li><span class="cal_corlor ui-corner-all-16"></span><label><input type="checkbox"/><span>我的日历</span></label></li>
+                <li><span class="cal_corlor ui-corner-all-16"></span><label><input type="checkbox"/><span>我的日历</span></label></li>
+                <li><span class="cal_corlor ui-corner-all-16"></span><label><input type="checkbox"/><span>我的日历</span></label></li>
+                <li><span class="cal_corlor ui-corner-all-16"></span><label><input type="checkbox"/><span>我的日历</span></label></li>
+                <li><span class="cal_corlor ui-corner-all-16"></span><label><input type="checkbox"/><span>我的日历</span></label></li>
+                <li><span class="cal_corlor ui-corner-all-16"></span><label><input type="checkbox"/><span>我的日历</span></label></li>
+                -->
+            </ul>
+        </div>
+    </div>
+    <div class="print_select_calist">
+        <div class="calist e_clear">
+            <span class="calist_idot ui-corner-all-16"></span>
+            <div class="calist_txt">我的日历</div>
+            <a href="javascript:;" class="calist_colse"></a>
+        </div>
+        <!--
+        <div class="calist e_clear">
+            <span class="calist_idot ui-corner-all-16"></span>
+            <div class="calist_txt">我和我的小伙伴</div> 
+            <a href="javascript:;" class="calist_colse"></a>
+        </div>
+        -->
+    </div>
+</div>
+<div class="print_select_time e_clear">
+    <a href="javascript:;" class="sub_btn">提交</a>
+    <div class="star_time">
+        <span>开始时间：</span><input id="startTime" name="startTime" type="text" />
+    </div>
+    <div class="end_time">
+        <span>结束时间：</span><input id="endTime" name="endTime" type="text" />
+    </div>
+</div>
+<div class="print_schedule">
+    <ul>
+        <li class="e_clear">
+            <div class="print_month">
+                <h3>
+                    <span>周日</span><span>2014-03-01</span>
+                </h3>
+                <p><span>五月初四</span><span>儿童节</span></p>
+            </div>
+            <div class="print_schedule_content">
+                <dl>
+                    <dt>
+                        <div class=""></div>
+                        <span>asdasdasdada</span>
+                    </dt>
+                    <dd></dd>
+                </dl>
+            </div>
+        </li>
+        <li class="e_clear">
+            <div class="print_month">
+                <h3>
+                    <span>周日</span><span>2014-03-01</span>
+                </h3>
+                <p><span>五月初四</span><span>儿童节</span></p>
+            </div>
+            <div class="print_schedule_content">
+                <dl>
+                    <dt>
+                        <div class=""></div>
+                        <span>asdasdasdada</span>
+                    </dt>
+                    <dd></dd>
+                </dl>
+            </div>
+        </li>
+        <li class="e_clear">
+            <div class="print_month">
+                <h3>
+                    <span>周日</span><span>2014-03-01</span>
+                </h3>
+                <p><span>五月初四</span><span>儿童节</span></p>
+            </div>
+            <div class="print_schedule_content">
+                <dl>
+                    <dt>
+                        <div class="spheric ui-corner-all-16"></div>
+                        <span>全天</span>
+                    </dt>
+                    <dd>按时大大的撒大师大师大师大师爱上撒大师大师的撒</dd>
+                </dl>
+            </div>
+        </li>
+
+    </ul>
+</div>
+<script type="text/javascript" src="/js/jquery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/js/jquery/jquery-ui-1.9.2.custom.min.js"></script>
+<script type="text/javascript" src="/js/newweb/common.js"></script>
+<script type="text/javascript" src="/js/newweb/solarAndLunar.js"></script>
+<script>
+    function getCurrentMonthFirst() {
+        var date = new Date();
+        date.setDate(1);
+        return date;
+    }
+
+    function getCurrentMonthLast() {
+        var date = new Date();
+        var currentMonth = date.getMonth();
+        var nextMonth = ++currentMonth;
+        var nextMonthFirstDay = new Date(date.getFullYear(), nextMonth, 1);
+        var oneDay = 1000 * 60 * 60 * 24;
+        return new Date(nextMonthFirstDay - oneDay);
+    }
+
+    function getLunarFestivalDesc(date) {
+        var l = lunar(date), festival = l.festival();
+        return (((festival[0] && festival[0].desc) == undefined) ? "" : festival[0].desc);
+    }
+
+    function getDayOfWeek(date) {
+        var arr = ["周日","周一","周二","周三","周四","周五","周六"];
+        return arr[date.getDay()];
+    }
+
+    function getFormatDate(dateStr) {
+        return dateStr.split(" ")[0];
+    }
+
+    function getLunarDay(date) {
+        var l = lunar(date);
+        return (l.lMonth + "月" + l.lDate);
+    }
+
+    function getDayOfDetails(dateStr, allday_event) {
+        return allday_event ? "全天" : dateStr.split(" ")[1];
+    }
+
+    function getDateFromStr(str) {
+        var d = new Date();
+        try {
+            var ary = str.split(" ");
+            d.setFullYear(ary[0].split("-")[0]);
+            d.setMonth(parseInt(ary[0].split("-")[1],10) - 1,ary[0].split("-")[2]);
+
+            d.setHours(ary[1].split(":")[0]);
+            d.setMinutes(ary[1].split(":")[1]);
+            d.setSeconds(ary[1].split(":")[2]);
+            return d;
+        } catch(e) {
+            return new Date(str);
+        }
+    }
+
+    $(function() {
+        var options = {
+            dateFormat: "yy-mm-dd",
+            onSelect: function(dateText, inst) {
+
+            }
+        };
+
+        var selectedCals = [];
+        var calListArr = [];
+
+        var startTime = $('#startTime');
+        var endTime = $('#endTime');
+
+        startTime.datepicker(options);
+        startTime.datepicker('setDate', getCurrentMonthFirst());
+        endTime.datepicker(options);
+        endTime.datepicker('setDate', getCurrentMonthLast());
+
+        var sch_tmpl = '<li class="e_clear">\
+                            <div class="print_month">\
+                                <h3>\
+                                    <span>{weekday}</span><span>{date}</span>\
+                                </h3>\
+                                <p><span>{lunar_day}</span><span>{holiday}</span></p>\
+                            </div>\
+                            <div class="print_schedule_content">\
+                                <dl>\
+                                    <dt>\
+                                        <div class="spheric ui-corner-all-16"></div>\
+                                        <span>{detailTime}</span>\
+                                    </dt>\
+                                    <dd>{text}</dd>\
+                                </dl>\
+                            </div>\
+				        </li>';
+
+
+        var cal_tmpl = '<div class="calist e_clear">\
+                            <span class="calist_idot ui-corner-all-16"></span>\
+                            <div class="calist_txt">{title}</div>\
+                            <a href="javascript:;" class="calist_colse"></a>\
+                        </div>';
+
+        //$('.print_schedule ul').html();
+
+
+        $('#chooseCal').click(function() {
+            var calArr = [], filterArr = [];
+            $.ajax({
+                url: '/calendar/getCalendarListByUser.do',
+                type: 'post',
+                dataType: 'json',
+                success: function(data) {
+                    calArr = data;
+                    calArr.sort(function(a, b) {
+                        var a_accessType = parseInt(a.access_type);
+                        var b_accessType = parseInt(b.access_type);
+                        var a_cid = parseInt(a.id);
+                        var b_cid = parseInt(b.id);
+                        //先判断是否是主日历
+                        if(a.is_primary == "true" && a.data_domain != "google") {
+                            return -1;
+                        } else if(b.is_primary == "true" && b.data_domain != "google") {
+                            return 1;
+                        }
+                        //判断是否是google日历
+                        if(a.data_domain == "google" && b.data_domain != "google") {
+                            return -1;
+                        } else if(b.data_domain == "google" && a.data_domain != "google") {
+                            return 1;
+                        }
+                        if(a_accessType != b_accessType) {
+                            return b_accessType - a_accessType;
+                        }
+                        return a_cid - b_cid;
+                    });
+
+                    $.each(calArr, function(i, o) {
+                        if(o.access_type >=2) {
+                            filterArr.push(o);
+                        }
+                    });
+                    calListArr = filterArr;
+
+                    $('.print_select_layer').css('display', 'block');
+
+                    var tmpl = '<li><span class="cal_corlor ui-corner-all-16"></span><label><input type="checkbox" cid="{id}"/><span>{title}</span></label></li>';
+
+                    $('.print_select_layer ul').html($.format(tmpl, $.map(filterArr, function(o) {
+                        return o;
+                    })));
+
+                    $('.print_select_layer input[type="checkbox"]').click(function(event) {
+                        var arr = [];
+                        $('.print_select_layer input[type="checkbox"]:checked').each(function(index, o) {
+                            var obj = {};
+                            obj.title = $(o).next().html();
+                            obj.color = filterArr[index].color;
+                            arr.push(obj);
+                        });
+
+                        $('.print_select_calist').html($.format(cal_tmpl, $.map(arr, function(o) {
+                            return o;
+                        })));
+
+                        $('.print_select_calist .ui-corner-all-16').each(function(index, o) {
+                            var hsl = rgbToHsl(filterArr[index].color), h = hsl[0], s = hsl[1];
+                            $(o).css({
+                                backgroundColor: hslToRgb.call(null, h, s, 0.80),
+                                borderColor: filterArr[index].color
+                            });
+                        });
+
+                    });
+
+                }
+            });
+        });
+
+
+
+        $('a.sub_btn').click(function() {
+            var packUpArr = [];
+            var sortOutArr = [];
+
+            $('.print_select_layer').css('display', 'none');
+            $('.print_select_layer ul input:checkbox').each(function(index, o) {
+                if(o.checked) {
+                    selectedCals.push($(o).attr('cid'));
+                }
+            });
+
+            $.ajax({
+                url: '/schedule/list.do',
+                type: 'post',
+                dataType: 'json',
+                data: {
+                    fromDate: formatDate(startTime.datepicker('getDate')),
+                    toDate: formatDate(endTime.datepicker('getDate')),
+                    timeZone: 8,
+                    calendarId: selectedCals.join(',')
+                },
+                success: function(data) {
+                    var arr = data;
+                    for(var i=0; i<arr.length; i++) {
+                        var cid = arr[i].cid;
+                        var iArr = arr[i].schlist;
+                        for(var j=0; j<iArr.length; j++) {
+                            iArr[j].cid = cid;
+                            packUpArr.push(iArr[j]);
+                        }
+                    }
+
+                    $.each(packUpArr, function(index, o) {
+                        var obj = {};
+                        var dateStr = $(o).attr('start_time');
+                        var date = getDateFromStr(dateStr);
+                        obj.dateStr = dateStr;
+                        obj.weekday = getDayOfWeek(date);
+                        obj.date = getFormatDate(dateStr);
+                        obj.lunar_day = getLunarDay(date);
+                        obj.holiday = getLunarFestivalDesc(date);
+                        obj.detailTime = getDayOfDetails(dateStr, $(o).attr('allday_event'));
+                        obj.text = $(o).attr('text');
+                        obj.cid = $(o).attr('cid');
+                        sortOutArr.push(obj);
+                    });
+
+                    var dateOrderArr = sortOutArr.sort(function(a, b) {
+                        var astr = a.start_time;
+                        var bstr = b.start_time;
+                        var d1 = getDateFromStr(astr);
+                        var d2 = getDateFromStr(bstr);
+                        if(d1 < d2) return -1;
+                        if(d1 > d2) return 1;
+                        return 0;
+                    });
+
+                    $('.print_schedule ul').html($.format(sch_tmpl, $.map(sortOutArr, function(o) {
+                        return o;
+                    })));
+
+                    for(var i=0; i<sortOutArr.length; i++) {
+                        for(var j=0; j<calListArr.length; j++) {
+                            if(sortOutArr[i].cid == calListArr[j].id) {
+                                sortOutArr[i].color = calListArr[j].color;
+                            }
+                        }
+                    }
+
+                    $('.print_schedule ul .ui-corner-all-16').each(function(index, o) {
+                        var arr = sortOutArr;
+                        var hsl = rgbToHsl(arr[index].color), h = hsl[0], s = hsl[1];
+                        $(o).css({
+                            backgroundColor: hslToRgb.call(null, h, s, 0.80),
+                            borderColor: arr[index].color
+                        });
+                    });
+                }
+            });
+
+        });
+
+        $('body').click(function(event) {
+            var $menu = $(".print_select_layer");
+            if ($menu && $menu.is(':visible')) {
+                $menu.hide('fade');
+            }
+        });
+
+        $('.print_select_layer').click(function(event) {
+            event.stopPropagation();
+            $(this).show();
+        });
+
+    });
+</script>
+</body>
+</html>

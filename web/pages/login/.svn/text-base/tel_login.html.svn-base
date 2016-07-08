@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>手机号登录</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+<link href="/pages/login/css/login.css" rel="stylesheet">
+</head>
+<body>
+	<div class="main">
+		<div class="header">手机号登录</div>
+		<div class="content" style="padding-top:30px;">
+			<form>
+				<div class="text_div">
+					<span>手机号</span>
+					<input type="text" placeholder="请输入手机号"/>
+				</div>
+				<div class="text_div">
+					<span>密码</span>
+					<input type="password" placeholder="请输入密码"/>
+				</div>
+				<button class="button login" >登 录</button>
+			</form>
+		</div>
+		<div class="footer">
+			<button class="down_btn">立即下载</button>
+		</div>
+	</div>
+	<script src="/js/lib/zepto.min.js"></script>
+</body>
+</html>

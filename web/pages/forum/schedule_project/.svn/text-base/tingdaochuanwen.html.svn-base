@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>听到传闻</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">听到传闻</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/1336255c-d11f-4691-acdf-7d7904b2381c.jpg"/>
+			<!--a的href是链接地址，无bar,按钮为灰色字体-->
+            <a class="btn js-subscribe" data-uuid="6691f0da-21b8-4e6c-a1fb-2be7393b5fef" data-cid="144204593">添加提醒</a>
+            <!-- 比如时光网这样的外链的按钮用这个,有bar，按钮为绿色字体 -->
+	    	<a href="http://www.tudou.com/programs/view/4jo1ISh5l6I/" data-title="在线看预告片" class="btn js-other">在线看预告片</a>
+			
+	    	<h3 class="time">【首播】2015年2月23日</h3>
+			<p> </p>
+	    	<h3>【韩文】풍문으로 들었소</h3>
+			<h3>【导演】安畔锡【妻子的资格】 【密会】</h3>
+			<h3>【编剧】郑成珠【妻子的资格】【 密会】</h3>
+			<h3>【主演】李准，柳好贞，刘俊相，高雅星</h3>
+			<h3>【类型】月火剧（周一周二剧）</h3>
+			<h3>【放送】SBS电视台</h3>
+			<h3>【时间】每周一周二 韩国时间晚10点</h3>
+			<h3>【集数】32集</h3>
+			<h3>【简介】《听到传闻》为韩国SBS电视台于2015年2月23日起播出的月火连续剧，由《妻子的资格》《密会》安畔锡导演及郑成珠作家第三度合作打造。该剧是一部讽刺重视富贵和血统的上流家庭丑恶嘴脸的黑色幽默剧，讲述了能力一等的高中生与同龄少女有了孩子的故事。</h3>
+			
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/0997c767-f45a-492a-b5dd-163e3bb2698a.jpg"/>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/34270626-d6bb-4923-ba12-bdd28ae80039.jpg"/>
+            <!-- 默认底部有个添加提醒的按钮，不显示的话remind_div的位置加上 none -->
+            <div class="remind_div " data-uuid="6691f0da-21b8-4e6c-a1fb-2be7393b5fef" data-cid="144204593"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/259a82dd-6cfc-42ab-9ba6-6789f325a12f.jpg',
+                title: '韩剧：听到传闻',
+                desc: '该剧是一部讽刺重视富贵和血统的上流家庭丑恶嘴脸的黑色幽默剧，讲述了能力一等的高中生与同龄少女有了孩子的故事。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '韩剧：听到传闻',
+		        				content: '该剧是一部讽刺重视富贵和血统的上流家庭丑恶嘴脸的黑色幽默剧，讲述了能力一等的高中生与同龄少女有了孩子的故事。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/259a82dd-6cfc-42ab-9ba6-6789f325a12f.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

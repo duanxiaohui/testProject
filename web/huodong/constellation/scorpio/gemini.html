@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>365日历</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
+</head>
+<body>
+    <div class="main">
+    	<div class="top_bg">
+    			<div class="constellation_avtar e_clear">
+    				<div class="avtar"><img src="images/gemini.png" width="98" height="98"/></div>
+					<div class="constellation_exp">
+						<h3>双子座  Gemini</h3>
+						<p>22/05-21/06</p>
+						<p>2013年运势</p>
+					</div>
+    			</div>
+				<dl class="e_clear">
+					<dt class="overall">整体</dt>
+					<dd>
+						<p>双子君的年度主题：告别飘飘然的孩子气，脚踏实地背负责任。</p>
+						<p>新年伊始木星就在命宫，一直辅助双子君至六月下旬才离开，上半年的自我反思令双子看到自己，也意识到悬在空中找不到自己是件多么可怕的事。七月木星进入二宫，就是来帮助你重树自我价值体系。如何让能力确实发挥，如何稳定状况，如何能真正赚到稳定的钱，才是双子下半年致力的重点。</p>
+						<p>你彻底地离开天真的孩子气和理想主义，要安身立命，努力赚钱，稳定下来。</p>
+					</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="career">事业</dt>
+					<dd>
+						<p>土星进六宫，工作成为双子君本年度重中之重的成长课题。在土星影响下绝对能进步快速，潜能发挥，也考验着你的抗压性，容易感觉到事业发展不顺利。</p>
+						<p>职场的双子君，本年度工作变动大。二、三月好运连连，颇得上司和客户赏识。四月职业变动较容易有挫折感、压力，但若接受挑战，职场能力会快速成长，适合进修考证。六、七月可以在有自信的领域冲刺，七、八月有建功的机会，值得把握。。十一、十二月，职场有上佳表现。而四、五、九、十月倒要当心，会因为错判导致职场失误。</p>
+						<p>自己创业的双子君，今年的决策十分重要，牵涉广泛且深远，考验甚至可能将持续到随后的两年，怎样抗拒贪婪、或不当利益的诱惑，成了最大的课题。四、五、九、十月是谈判期，也是考验双子君人性的时候，成败就在一念间，一定要注意拿捏分寸。而与员工关系部分，你得更重视员工福利以及尊重他们需求，否则很容易遇到员工求去的窘况，且你可能会损失更多。</p>
+					</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="affection">感情</dt>
+					<dd>
+						<p>对于单身的双子君，爱情与事业相较而言不再是焦点，多参与团体活动，能增加让别人看到你的机会，四五月有遇到新对象的机会，颇让你心动，单身双子君可能会陷入热恋、但有伴侣的双子，则要小心处理，除非你想顺便解除现有男女关系。</p>
+						<p>已婚双子君，如果另一半能帮助双子工作顺利，赚钱，或者给与双子君相当有利的支持，并且足够尊重双子君的个人空间，则婚姻相对稳定，若一位强势控管、恐怕会有反效果。</p>
+						<p>特别注意四，五，九，十月，是离婚拆伙的危险时机。</p>
+					</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="money">金钱</dt>
+					<dd>
+						<p>天冥四分相的冲击 ，令双子君想赚大钱没那么容易。金主愿意把钱给你赚，要小心维护，贪心而有自私的行为会切断钱脉</p>
+						<p>七月后的正财运大开，木星增加双子君的财帛宫，护佑增加正财气。九、十月有爆发机会，不但有正财运也有偏财运。总之，今年是赚钱、理财的好年，只要愿意多付出时间、贡献能力，不自以为是，保持谦卑和不计较，就能拥有更多金钱与资源。</p>
+					</dd>
+				</dl>
+    		</div>
+			<p class="txt">安装星座插件，查看每日星座指南！</p>
+			<a class="btn" id="btn" href="javascript:;">分享到微博</a>
+    </div>
+<script type="text/javascript">
+    function $(id){
+        return document.getElementById(id);
+    }
+	window.onload = function(){
+		var btn = $("btn");
+		btn.onclick = function(){
+			var txt = "@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com"
+			var json = '[{"img": "constellation.jpg","content": "@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com","via": "weibo","type": "type","follow": true},{"img":"test","content":"@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com","via":"qt","type":"type","follow":true}]';
+			if (/android/i.test(navigator.userAgent)) {
+				try {
+					AliansBridge.sharev2(json);
+				} 
+				catch (e) {
+					try {
+						AliansBridge.share(txt, img = "constellation.jpg", null, false);
+					} 
+					catch (e) {
+						alert("您的365日历版本暂不支持发微博，请升级到最新版");
+					}
+				}
+			}
+			else 
+				if (/ipad|iphone|mac/i.test(navigator.userAgent)) {
+					btn.href = 'rili365app:share|||||' + txt + '|||||constellation.jpg';
+				}
+		}
+	}
+</script>
+</body>
+</html>

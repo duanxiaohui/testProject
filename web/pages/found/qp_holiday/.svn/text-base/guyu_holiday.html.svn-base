@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>谷得雨而生</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/guyu/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>二十四节气之谷雨</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>又是一季山色欲将放空。谷雨，源自古人“雨生百谷”之说，此时寒潮天气基本结束，气温回升加快，冬眠的种子得到雨水的浇灌开始萌芽生长。谷雨的命名，和仓颉有关，和唐代高宗年间一位名叫“谷雨”勇敢少年有关，可偏偏这些都只是传说。</p>
+            <h3>【传说还很凄美呢】</h3>
+            <p>关于谷雨有很多个传说，小编最中意那个英勇少年的版本……传说在高宗年间有位叫谷雨的年轻人，有一次他的家乡曹州发大水，他凭借自己的水性救出了村民，还冒着生命危险救了一颗牡丹花。这颗牡丹花其实是翻版的“海螺姑娘”，后来谷雨母亲病重，美丽的牡丹化作女子替他照看母亲，后来（日久生情你懂得）牡丹仙女和他约定“待到明年四月八，奴到谷门去安家”。</p>
+            <img src="images/guyu/holiday_1.jpg"/>
+            <p>不料！牡丹仙子被仇人秃鹰抓走，秃鹰逼迫牡丹仙子用自己的血酿酒并关押了她。谷雨历尽艰险战胜了秃鹰，却被秃鹰的暗箭刺中身亡……从此，没到谷雨死的那一天天空就会下起雨，所有的牡丹都会开放，以此来纪念谷雨。</p>
+            <h3>【谷雨三侯】</h3>
+            <p>古人将谷雨分为三候：“一候萍始生；二候鸣鸠拂其羽；三候为戴胜降于桑。”是说谷雨后降雨量增多，而此时的河水名曰“桃花水”，意即桃花盛开时江河里暴涨的水。传说用它洗浴可起到消灾避祸的作用。这个时候浮萍也开始生长，接着布谷鸟便开始提醒人们播种，谷雨——谷得雨而生，自然发生。</p>
+            <img src="images/guyu/holiday_2.jpg"/>
+            <h3>【谷雨养生】</h3>
+            <p>由于谷雨节气后降雨增多，空气中的湿度逐渐加大，此时在养生中应遵遁自然节气的变化，针对气候特点进行调养。此时天气转暖，人们受到明媚阳光和花草的召唤，纷纷开启了户外活动模式，但此时四处飞扬的柳絮、杨絮给花粉症过敏的人带来了难言的痛，所以要注意佩戴口罩。</p>
+            <img src="images/guyu/holiday_3.jpg"/>
+            <p>在饮食上应减少高蛋白质、高热量食物的摄入。此时适宜的膳食有：参蒸鳝段、菊花鳝鱼等，具有祛风湿、舒筋骨、温补气血的功效；草菇豆腐羹、生地鸭蛋汤则具有滋阴养胃、降压隆脂、抗菌消炎、清热解毒、养血润燥的功效。但是补要适当，此时进补应适当食用一些补血益气功效的食物，这样不仅可以提高体质，还可为安度盛夏打下基础。</p>		
+
+            <div class="tips">
+                <p>1、谷雨是二十四节气的第六个节气，谷雨到来意味着寒潮天气基本结束，气温回升加快；</p>
+                <p>2、每个节气都有最适宜的养生方式，谷雨应多食用温补气血的食物。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

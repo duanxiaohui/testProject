@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015无锡国际马拉松</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015无锡国际马拉松</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/21aea222-e9c7-46af-a38b-ef57cfef8da5.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+			  <a class="btn js-subscribe" data-uuid="e7bf9cec-f4db-4303-b3ae-fd342ae57996" data-cid="147514789">添加提醒</a>
+	    	
+	    	<p class="time"><b>报名时间：</b></br>
+ <b>第一阶段：</b></br>
+<b>　报名时间：2014年12月18日 ~ 2015年1月8日</b></br>
+
+  <b>第二阶段：</b></br>
+<b>　报名时间：2015年1月9日 ~ 2015年1月20日</b></br>
+<b>比赛时间：2015-03-15 07:30
+</b></br>
+
+	    	<b>比赛起点：太湖大道隐秀路口</b></br><b>比赛终点：太湖大道</b></br><b>类型：全马</b></br>
+			</p>
+			<h3>比赛路线：</h3>
+			<p>（一）马拉松（42.195公里）</br>
+起点：太湖大道隐秀路口 - 百米高喷左转 - 环湖路 - 环湖路双虹路口折返 - 环湖路 - 渤公岛 - 十里芳堤 - 鼋渚路 - 山水东路 - 具区路 - 缘溪道 - 清源路 - 清源路山水东路口折返 - 清源路 - 状元路折返 - 清源路 - 缘溪道 - 高浪路长广溪桥 - 山水东路 - 双虹桥 - 双虹路 - 隐秀路 - 太湖大道（终点）</br>
+    （二）半程马拉松（21.0975公里）</br>
+起点：太湖大道隐秀路口 - 百米高喷左转 - 环湖路 - 环湖路双虹路口折返 - 环湖路 - 渤公岛 - 十里芳堤 - 鼋渚路 - 双虹桥 - 双虹路 - 隐秀路 - 望湖路 - 鸿桥路 - 鸿桥路太湖大道路口折返 - 鸿桥路 - 望山路 - 隐秀路 - 太湖大道（终点）</br>
+    （三）迷你马拉松（3.7公里）</br>
+起点：太湖大道隐秀路口 - 百米高喷左转 - 环湖路 - 蠡湖中央公园（终点）
+</p>
+			<!--h3是小标题-->
+			<h3>报名方法：</h3>
+			<!--p是段落文字描述-->
+			<p>1、报名期间，参赛选手可通过无锡国际马拉松赛官方网站报名系统进行报名，须填写所有报名信息并提交，报名费支付成功后，即报名成功。待报名工作截止后，参赛者可登陆无锡国际马拉松赛官方网站查询参赛号码并下载打印《参赛物品领取单》。此领取单将与本人身份证（护照）等有效证件相组合，作为赛前参赛物品领取的唯一凭证，请妥善保管。
+ </br>2、马拉松项目限报10000名、半程马拉松项目限报10000名、迷你马拉松项目将在第二阶段报名开始时视第一阶段报名情况开放限额，各参赛项目报名额满为止。
+ </br>3、报名办法详见《2015无锡国际马拉松赛报名须知》。
+ </br></br>具体详情以官网信息为准
+</p>
+
+<img src="http://cocoimg.365rili.com/schedule_pics/default/9a52a7b2-46b0-4ba5-a2d7-599820689e53.jpg"/>
+			<a href="http://wuximarathon.com/" class="btn js-other">详见官网</a>
+			 <div class="remind_div" data-uuid="e7bf9cec-f4db-4303-b3ae-fd342ae57996" data-cid="147514789"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/21aea222-e9c7-46af-a38b-ef57cfef8da5.jpg',
+                title: '2015无锡国际马拉松',
+                desc: '比赛时间：2015-03-15 07:30 类型：全马'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015无锡国际马拉松',
+		        				content: '比赛时间：2015-03-15 07:30 类型：全马',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/21aea222-e9c7-46af-a38b-ef57cfef8da5.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

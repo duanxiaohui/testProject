@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>这个冬天不太冷</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<link href="http://www.365rili.com/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/found_topic/style/found_topic.css" rel="stylesheet">
+<body>
+	<div class="found_topic">
+		<div class="found_topic_top">
+
+			<img src="images/zuqiu/found_topic_top.jpg" width="100%" alt="">
+		</div>
+		<div class="found_topic_txt">
+		
+			<h2>这个冬天不太冷<br/>英超&西甲带你high翻天</h2>
+			<p>英超是欧洲足坛最火爆的联赛、最具有观赏度的联赛；西甲是技术与攻势足球的代表，它们拥有最华丽的踢球风格，让球迷如痴如醉。无论是英超还是西甲，上演的都是足球界盛宴，都值得你拥有！2016，让英超&西甲带你一起high起来！</p>
+		</div>
+		<div class="found_topic_list">
+			<ul>
+
+				<li class="e_clear" data-url="http://www.365rili.com/activity/detail.do?id=18">
+					<div class="topic_list_img">
+						<img src="images/zuqiu/found_topic_list4.jpg" width="100%" alt="">
+					</div>
+					<h3>巴塞罗那vs格拉纳达CF</h3>
+					<p>巴塞罗那在主场诺坎普球场迎战格拉纳达CF。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-url="http://www.365rili.com/activity/detail.do?id=17">
+					<div class="topic_list_img">
+						<img src="images/zuqiu/found_topic_list3.jpg" width="100%" alt="">
+					</div>
+					<h3>塞维利亚VS毕尔巴鄂竞技</h3>
+					<p>塞维利亚在主场皮斯胡安球场迎战巴斯克球队毕尔巴鄂竞技。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-url="http://www.365rili.com/activity/detail.do?id=16">
+					<div class="topic_list_img">
+						
+						<img src="images/zuqiu/found_topic_list2.jpg" width="100%" alt="">
+					</div>
+					
+					<h3>纽卡斯尔VS曼联</h3>
+					
+					<p>喜鹊纽卡斯尔在圣詹姆斯公园球场迎战红魔曼联。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>		
+
+				<li class="e_clear" data-url="http://www.365rili.com/activity/detail.do?id=15">
+					<div class="topic_list_img">
+						
+						<img src="images/zuqiu/found_topic_list1.jpg" width="100%" alt="">
+					</div>
+					
+					
+					<h3>利物浦VS阿森纳</h3>
+					
+					<p>本轮双红会的重磅战役，红军利物浦坐镇主场安菲尔德迎战抢手阿森纳。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+						
+				
+				
+			</ul>
+		</div>
+	</div>
+    <div id="VER" style="display: none;"></div>
+    <div id="UID" style="display: none;"></div>
+    <div id="MAC" style="display: none;"></div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js?20151016"></script>
+    <script src="http://www.365rili.com/js/lib/app.js?20151119"></script>
+     <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/function.js?20151119"></script>
+    <script src="http://www.365rili.com/pages/found/found_topic/js/found_topic.js?20151119"></script>
+</body>
+</html>

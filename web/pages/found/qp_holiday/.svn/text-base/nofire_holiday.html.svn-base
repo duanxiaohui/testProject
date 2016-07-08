@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>不该存在的节日——世界停火日</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/nofire_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>不该存在的节日——世界停火日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>贪婪和欲望从来都不是整齐划一的，它会让政治家丧失自我的觉知，为了更多的财产、更广的土地发动对别国的侵略。当一片土地燃起战火，国家将不再安定、家庭将失去和谐……严重者，对子孙后代都会产生恶劣的影响。</p>
+            <h3>【节日产生】</h3>
+            <p>世界停火日是由英国演员热勒米·希尔发起的，自1999年起，他就为实现“全世界停火一天”的活动四处奔波。他说服了很多国家首脑、组织领导人和联合国官员，并最终使他的这个梦想成为现实。2001年9月7日，联合国大会通过决议将9月21日定为世界停火日。督促世界上所有的交战方在每年的这一天休战，以便救援人员能够为交战各方提供人道主义援助。</p>
+            <img src="/pages/found/qp_holiday/images/nofire_img1.jpg" width="100%"/>
+            <h3>【惨痛记忆】</h3>
+            <p>接下来小编给学渣们普及一下关于战争的知识，如果过程太过枯燥，你可以重点关注数字——那都是鲜活的生命和白花花的银子啊！</p>
+
+            <p class="mt15">帝国主义之间分赃不均使同盟国与协约国矛盾激化，第一次世界大战爆发。30多个国家，15亿人口卷入战争，伤亡人员3000万，经济损失3400万美元。PS：当时的中国虽然没有沦为战场，但也被列强瓜分的“一百块都没有”，各路人士救亡图存好不热闹</p>
+            <img src="/pages/found/qp_holiday/images/nofire_img2.jpg"/>
+            <p>一战战败国充斥着极端民族主义和复仇主义，在领土、经济、军事方面受到重重限制的德国渐渐成为纳粹党一党专制的国家。军事实力发展较快的德、意、日三国要求重新划分世界势力范围，第二次世界大战爆发。从欧洲到亚洲、从大西洋到太平洋， 61个国家和地区、20亿以上的人口被卷入战争，作战区域面积2200万平方千米，据不完全统计，战争中军民共伤亡9000余万人，4万多亿美元付诸流水。</p>
+            <img src="/pages/found/qp_holiday/images/nofire_img3.jpg"/>
+            <p>《辛德勒名单》中的红衣小女孩</p>
+            <h3>【停火一天远远不够】</h3>
+            <p>二战之后，世界整体呈现和平的状态，但中东、非洲等地仍有武装冲突，各种恐怖组织持刀砍人等事件时有发生。不知道你怕不怕，反正小编已经申请了在家办公，并提前屯好了一个月的粮食……</p>
+
+            <div class="tips">
+                <p>1、2001年9月7日，联合国大会通过决议将9月21日定为世界停火日，督促世界上所有的交战方在每年的这天休战，以便救援人员能够为交战各方提供人道主义援助；</p>
+                <p>2、第一次世界大战和第二次世界大战的惨痛教训仍在眼前，许多国家至今还经受着战争核武器遗留的危害；</p>
+                <p>3、停火一天远远不够，人类需要持久稳定的和平。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+      <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+    
+ </body>
+</html>
+

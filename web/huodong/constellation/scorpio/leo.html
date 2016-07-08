@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>365日历</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
+</head>
+<body>
+    <div class="main">
+    	<div class="top_bg">
+    			<div class="constellation_avtar e_clear">
+    				<div class="avtar"><img src="images/leo.png" width="98" height="98"/></div>
+					<div class="constellation_exp">
+						<h3>狮子座  Leo</h3>
+						<p>23/07-22/08</p>
+						<p>2013年运势</p>
+					</div>
+    			</div>
+				<dl class="e_clear">
+					<dt class="overall">整体</dt>
+					<dd>
+						<p>狮子君的年度主题：忘记自己外表的骄傲，深入关照内心重建安全感。</p>
+						<p>上半年狮子向上攀爬的好运仍在1,2月就有好机会让自己又跃进另一个层次。上半年3月5月矛盾状况是，外在很风光忙碌，但家务事使你被牵制，迫使你停下脚步好好思考，开始自我怀疑。下半年木星，进入隐退宫位，意味着狮子君内省的时候到了，可能会开启你的恐惧。但是对有自觉，也不怕能力影响力消失的狮子君是个很适合放空的时候，接受你的运势，安排你的生活，正面思考，你的收获会是别人看不见，但内心幸福满溢的。</p>
+					</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="career">事业</dt>
+					<dd>
+						<p>职场的狮子君，上半年一到三月是劳累辛苦的时期，请忍辱负重，不管是失业、工作重、或事务杂乱多，别管外界变化，你有没有努力才是最重要的，很快就会有汇报，三月有贵人相助，下半年七、八月则有挑大梁的机会，值得把握，九月火星入狮子，增加冲突的可能性，要注意职场人际关系。</p>
+ 						<p>自己创业的狮子君，凡事亲力亲为、过于焦虑、注重小细节，而耗费精力与健康，建议尝试权力下放，并非没人可帮你分担，只是你自己缺乏信任感。</p>
+					</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="affection">感情</dt>
+					<dd>
+						<p>单身的狮子君上半年桃花盛开，一,二月有与国外有关的感情机会，感觉强烈即加深谈成恋爱的机会。三月有变数存在，工作与家庭都对恋爱有所牵制，不知如何处理。另有一种可能是，闪电速度，迅速确认彼此关系，安定成为长远的关系。下半年狮子君人际较为封闭，会对是否步入稳定关系想很多，能让自己精神安定的人的对象，就变成狮子君的精神支柱，让关系更确立。七.八.十二月，都是感情大跃进的时候。已婚有伴侣的狮子君，有机会与伴侣关系变的更深化。因为经历过外面的桃花后，更肯定身边伴侣的价值，你的心渐渐沉淀，婚姻关系也在平淡中成长。倦鸟知返的狮子要对另一半多表示感谢，为彼此关系累积幸福能量，</p>
+					</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="money">金钱</dt>
+					<dd>
+						<p>狮子君事业正财运很好，有机会哄抬身价，但也不能超过行情。</p>
+						<p>偏财运比较有问题，在投资理财上，不要碰自己不熟悉的领域，上半年，狮子君的投资运爆量，都是诱惑的陷阱，要小心不要上当。</p>
+						<p>在投资的方向是正确的，只是可能得犯一些小错来弥补，因为这还不是因此获利的时候。</p>
+					</dd>
+				</dl>
+    		</div>
+			<p class="txt">安装星座插件，查看每日星座指南！</p>
+			<a class="btn" id="btn" href="javascript:;">分享到微博</a>
+    </div>
+<script type="text/javascript">
+    function $(id){
+        return document.getElementById(id);
+    }
+	window.onload = function(){
+		var btn = $("btn");
+		btn.onclick = function(){
+			var txt = "@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com"
+			var json = '[{"img": "constellation.jpg","content": "@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com","via": "weibo","type": "type","follow": true},{"img":"test","content":"@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com","via":"qt","type":"type","follow":true}]';
+			if (/android/i.test(navigator.userAgent)) {
+				try {
+					AliansBridge.sharev2(json);
+				} 
+				catch (e) {
+					try {
+						AliansBridge.share(txt, img = "constellation.jpg", null, false);
+					} 
+					catch (e) {
+						alert("您的365日历版本暂不支持发微博，请升级到最新版");
+					}
+				}
+			}
+			else 
+				if (/ipad|iphone|mac/i.test(navigator.userAgent)) {
+					btn.href = 'rili365app:share|||||' + txt + '|||||constellation.jpg';
+				}
+		}
+	}
+</script>
+</body>
+</html>

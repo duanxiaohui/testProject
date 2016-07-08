@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>如果吃肉都不开心，那还不如吃咸菜</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/veggiedag/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>健康素食日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>曾经有那么一段时间，肉是几乎是和黄金一样的稀有商品。黄面窝头、黑面窝头交替吃，三年都不知道肉是什么味道。后来，在英勇的经济建设者的带领下，人们有钱啦，从那之后大家一言不合就去吃肉。后来，油腻腻的生活过习惯了，忽然有人想戒肉了！</p>
+            <h3>【一个吃素的故事】</h3>
+            <p>有史记载最早的素食者大概出现在公元前7世纪的印度，在其他国家地区的文明中也存在着不定期进行斋戒的习俗。后来素食主义在世界范围内大规模流行开来，是拜大航海时代所赐。</p>
+            <img src="images/veggiedag/holiday_1.jpg"/>
+            <p>15世纪末，达·伽马率领舰队绕过好望角来到印度。在这里，他们遇到了一群吃素的印度人。达·伽马和他的船员们惊奇地发现，印度的统治阶级既不吃肉也不吃鱼，甚至不宰杀任何动物。而且贵族、朝臣和其他达官贵人都是如此。十六世纪，一个名为巴博萨的葡萄牙作家这样写道：“由于摩尔人经常带着活生生的蠕虫和小鸟来到印度，并且声言要当众杀了他们，于是印度人只好付钱替它们赎身，然后放生。为了拯救它们，他们付出超过那些蠕虫和小鸟本来的价格。”</p>
+            <h3>【健康素食日】</h3>
+            <p>学者认为，从人类进化的历史、人体的消化结构等方面来看，人应该属于杂食动物，即不是单纯的肉食或素食，一味地强调单纯的素食、肉食都不利于人类的整体发育和发展。从营养学角度来说，人类饮食的荤素黄金比例应该为1：7，即1分荤7分素。饮食应种类多样，营养才会均衡。</p>
+            <img src="images/veggiedag/holiday_2.jpg"/>
+            <p>每年的6月15日是佛教团体举办的健康素食日。素食是一种对大家身心都健康的饮食法，亦是一种可以救地球的低碳饮食法。这个活动每年只举办一天，时间在每年的6月15日，是佛教界人士发起的，针对的是长期食肉者。素食主要是指以水果、蔬菜、豆类、谷物、种子和坚果等植物类食品为主的饮食习惯。</p>
+
+            <div class="tips">
+                <p>1、每年6月15日是健康素食日，食素有利于身心健康，还能保护环境；</p>
+                <p>2、油腻腻的人生难逃肥胖，开始行动吧！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

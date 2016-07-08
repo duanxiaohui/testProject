@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>小贴士</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<link href="/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link href="style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="recommend_main">
+    	<div class="recommend_schedule_top">
+    		<h2>参加万圣节party</h2>
+            <h4 class="none">万圣节就要high起来，再不疯狂就老了</h4>
+    	</div>
+    	<div class="recommend_schedule_middle">
+    		<div class="recommend_schedule_img">
+    			<img src="images/wanshengjie.jpg" alt="">
+    		</div>
+    		<p><span>推荐理由：</span>害怕被拒绝，所以不敢表白；害怕不被接受，所以不敢开口；害怕……我们害怕的事情有很多，瞻前顾后的思考以求周全，在这犹豫挣扎中我们渐渐失去了勇敢的自己。</p> 
+            <p>10月31日万圣节，丢掉所有的胆怯吧！在万圣节的party上戴着面具尽情疯狂，穿平时不敢穿的衣服、说平时不敢说的话，cos一个勇敢的自己，这个万圣节，就要这样疯狂的过~</p>
+            <p>添加到我的日程，和勇敢的自己来一场约会吧！</p>
+
+    	</div>
+    	<div class="recommend_schedule_bottom">
+    			<p>添加到我的日程</p>
+    			<a href="javascript:;" class="add_mySchedule"></a>
+    	</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script type="text/javascript" src="/pages/ui-lib/js/plug.js"></script>
+    <script type="text/javascript" src="/pages/recommend_schedule/js/recommend.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var startTime = new Date("2015/10/30 0:0:0").getTime();
+            tips.init(startTime);
+        })
+    </script>
+</body>
+</html>

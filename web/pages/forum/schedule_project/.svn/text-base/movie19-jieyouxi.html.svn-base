@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>饥饿游戏3：自由幻梦（下）</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">饥饿游戏3：自由幻梦（下）</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/d3bc41cb-029b-4072-8c7a-572f77319f96.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	
+	    	<h3 class="time">上映时间：2015年11月20日（美国）</h3>
+			<p> </p>
+	    	<h3>导演：弗朗西斯·劳伦斯</h3>
+			<p class="fc_000">主演：詹妮弗·劳伦斯 / 乔什·哈切森 / 利亚姆·海姆斯沃斯</p>
+			<h3>剧情：</h3>
+			<p>凯特尼斯·伊夫狄恩，燃烧的女孩，虽然她的家被毁了，可她却活了下来。盖尔也逃了出来，凯特尼斯的家人也安全了，皮塔被凯匹特抓走了。十三区并不真的存在，出现了反抗，出现了新的领导者，一个革命的序幕正在缓缓拉开。凯特尼斯从噩梦般的竞技场逃出来是已经设计好的，她是反抗运动的参与者，也是设计好的，而她对此并不知情。十三区从隐蔽处出来了，并计划推翻凯匹特的统治。似乎每个人都参与了这项精心策划的行动，而只有凯特尼斯并不知情。反抗运动将凯特尼斯卷入了漩涡，她被迫成为棋子，她被迫为许多人的使命负责，不得不肩负起改变帕纳姆国的未来的负责。为了做到这一切，她必须抛却愤怒和不信任，她必须要成为反抗者的嘲笑鸟――不管要付出多大的代价。</p>
+			<!--h3是小标题-->
+			<h3>看点：</h3>
+			<!--p是段落文字描述-->
+			<p>小说还是笼络了很多的粉丝，第一、二部也拍得差强人意，但是第三部上集《饥饿游戏3：嘲笑鸟(上)》似乎受到不少诟病，本来在三部曲中应该是高潮的存在，却不管是从叙事还是拍摄手法的角度来说都太过平淡，节奏进展太慢甚至让人有一种看电视剧的感觉。但是！这一部可说是为了接下来上映的自由幻梦的铺垫之作，你看：副标题How to set up a revolution. 大场面留给了第二部，这一部重点放在了革命的准备上；本来是可以很有说头的剧情（比如革命阵营内部的分化与冲突），被简化成了拍摄广告片；关于女主席的人物设定也给后面的故事带来很好的伏笔。依此我们可以推断，这最后的大结局水平一定不俗。而且演员们也一如既往的保持着高水准，配角们个个演技精湛，主角詹妮弗·劳伦斯拿了一堆奥斯卡奖不说，要命的是凭借在《饥饿游戏》和《X-战警》系列电影中的精彩演出，夺得了“男性最渴望的99位全球性感女性”第四名的好成绩！这部电影可是一个男性欣赏女性学习的好机会啊！</p>
+    	<img src="http://cocoimg.365rili.com/schedule_pics/default/403ae8a7-6c45-4f3b-9fd2-b4f9e0c22a16.jpg"/>
+		<img src="http://cocoimg.365rili.com/schedule_pics/default/ddea7d20-f63f-4062-8c1d-e1da7f25fbc1.jpg"/>
+		 <div class="remind_div none" data-uuid="4e0b87d7-73ef-47ed-9069-5060d1f79f57" data-cid="125821987"><div class="remind_icon"></div><span>添加提醒</span></div>
+		</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/753cf44f-96f2-4d37-bcbf-f9f6458cc73f.jpg',
+                title: '电影：饥饿游戏3：自由幻梦（下）',
+                desc: '《饥饿游戏3：自由幻梦（下）》电影由导演弗朗西斯·劳伦斯继续执导，并预计于2015年11月20日上映。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '电影：饥饿游戏3：自由幻梦（下）',
+		        				content: '《饥饿游戏3：自由幻梦（下）》电影由导演弗朗西斯·劳伦斯继续执导，并预计于2015年11月20日上映。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/753cf44f-96f2-4d37-bcbf-f9f6458cc73f.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

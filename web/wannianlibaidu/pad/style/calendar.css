@@ -1,0 +1,130 @@
+body { background: #fff; color: #444; font: 12px / 1.5em arial,"Microsoft YaHei", 微软雅黑; height: 100%; margin: 0; padding: 0;}
+*{-webkit-tap-highlight-color: rgba(0,0,0,0); tap-highlight-color: rgba(0,0,0,0);}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+textarea { background: #fff; border: 1px solid #d2d9dc; border-radius: 2px; box-shadow: 0 0 0 #d2d9dc; -moz-transition: .3s ease-in-out; transition-property: border box-shadow; -webkit-transition: .3s ease-in-out; }
+textarea:focus, input[type="text"]:focus { /*border: 1px solid #b7d4ea;*/ box-shadow: 0 0 5px #b7d4ea; }
+a { color: #208de9; cursor: pointer; text-decoration: none; }
+a:hover { color: #ff5b86; }
+
+.v_align { vertical-align: middle; }
+/*color*/
+.c_ed6d23{color:#ed6d23;}
+.c_6aba49{color:#6aba49;}
+.c_1f9237{color:#1f9237;}
+
+
+/*jq-ui*/
+.ui-corner-all-16, .ui-corner-top-16, .ui-corner-left-16, .ui-corner-tl-16 { -moz-border-radius-topleft: 16px; -webkit-border-top-left-radius: 16px; -khtml-border-top-left-radius: 16px; border-top-left-radius: 16px; }
+.ui-corner-all-16, .ui-corner-top-16, .ui-corner-right-16, .ui-corner-tr-16 { -moz-border-radius-topright: 16px; -webkit-border-top-right-radius: 16px; -khtml-border-top-right-radius: 16px; border-top-right-radius: 16px; }
+.ui-corner-all-16, .ui-corner-bottom-16, .ui-corner-left-16, .ui-corner-bl-16 { -moz-border-radius-bottomleft: 16px; -webkit-border-bottom-left-radius: 16px; -khtml-border-bottom-left-radius: 16px; border-bottom-left-radius: 16px; }
+.ui-corner-all-16, .ui-corner-bottom-16, .ui-corner-right-16, .ui-corner-br-16 { -moz-border-radius-bottomright: 16px; -webkit-border-bottom-right-radius: 16px; -khtml-border-bottom-right-radius: 16px; border-bottom-right-radius: 16px; }
+
+.none { display: none; }
+.main{background:url(http://s.365rili.com/wannianlibaidu/pad/images/bg.jpg); padding:0 10px;}
+.operate_btn{height:33px; padding:5px 0;}
+.select_year,.operate_vacation,.solar_terms,.prev{float:left;}
+.operate_today,.next{float:right;}
+.select_year{width:190px; height:30px; line-height:30px; text-align:center; margin-right:20px;font-size:18px;}
+.prev,.next{width:26px; height:30px; line-height:30px; color:#633903; text-align:center;background:url(http://s.365rili.com/wannianlibaidu/pad/images/btn.jpg); border:1px solid #9d6c1b; position:relative; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; }
+
+#div_buttons .on{background:url(../images/wood2.png) repeat; color:#fff;}
+/*
+.prev:after{content: "◀"; display: block;}
+.next:after{content: "▶"; display: block;}
+*/
+
+.operate_vacation,.solar_terms,.operate_today{width:66px; text-align:center; height:30px; font-size:18px; line-height:30px; margin-left:10px; background:url(http://s.365rili.com/wannianlibaidu/pad/images/btn.jpg); border:1px solid #9d6c1b; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px;}
+.operate_today,.operate_today:hover,.operate_vacation:hover,.solar_terms:hover{color:#595959;}
+.operate_vacation,.solar_terms{position:relative; z-index:4;color:#595959;}
+
+a.prev:active,a.next:active,a.operate_today:active,.operate_vacation:active,.solar_terms:active{background:url(../images/wood2.png) repeat; color:#fff;}
+a.prev:active div.prev_arrow{border-color: transparent #fff transparent transparent;}
+a.next:active div.prev_arrow{border-color: transparent #fff transparent transparent;}
+
+.calendar_box{border:1px solid #a78854;background:#fff url(http://s.365rili.com/wannianlibaidu/pad/images/cal_bg.jpg) repeat-x left top; padding:0px 0 10px 0; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px;}
+.calendar_bg{background:url(http://s.365rili.com/wannianlibaidu/pad/images/cal_bg1.jpg) no-repeat center top; padding:20px 0 0 0;}
+.calendar{margin:0 160px 0 8px; }
+.calendar table.calendar_top td{height:39px; background:#fdfbf9;}
+.calendar .calendar_top li{height:39px; line-height:39px; text-align:center; width:14%; color:#595959; font-size:17px; float:left; background:#fdfbf9; border:1px solid #f6f1ec; position:relative; margin:-1px 0 0 -1px;}
+.calendar .calendar_table li{height:53px; width:14%; float:left; background:#fff; border:1px solid #f6f1ec; position:relative; margin:-1px 0 0 -1px;}
+.calendar .calendar_table li .icon{dispaly:none;}
+.calendar .calendar_table li .date_box{width:100%; height:100%; position:absolute; top:-1px; left:-1px; z-index:2; border:1px solid rgba(0,0,0,0);}
+
+/*
+.calendar .calendar_table li .date_box:hover,.calendar .calendar_table li.work .date_box:hover,.calendar .calendar_table li.rest .date_box:hover,.calendar .calendar_table li.today .date_box:hover{z-index:3; border:1px solid #eaa300;}
+*/
+
+/*周末*/
+.calendar li.weekend{color:#BC5016;}
+/*班*/
+.calendar .calendar_table li.work .icon{display:block;}
+.calendar .calendar_table li.work .date_box{background:#f6f6f6; border:1px solid #e1e1e1;}
+.work div.icon{width:17px; height:17px; border:1px solid #e1e1e1; background:#fff; text-align:center; line-height:17px; font-size:13px; color:#bc5016; position:absolute; left:-1px; top:-1px;}
+.work div.icon:after{content: "班"; display: block;}
+/*休*/
+.calendar .calendar_table li.rest .icon{display:block;}
+.calendar .calendar_table li.rest .date_box{background:#fff6eb; border:1px solid #ffdea6;}
+.rest div.icon{width:17px; height:17px; border:1px solid #e1e1e1; background:#feffea; text-align:center; line-height:17px; font-size:13px; color:#bc5016; position:absolute; left:-1px; top:-1px; color:#966c3c;}
+.rest div.icon:after{content: "休"; display: block;}
+.rest .calendar_lunar{color:#CCCCCC;}
+/*今天*/
+.calendar .calendar_table li.today .date_box{background:#ff8a00; border:1px solid #df5900;}
+/*节气日*/
+.solar .calendar_lunar{color:#BC5016;}
+/*法定节假日*/
+.isolar .calendar_lunar,.isolar .calendar_date{color:#BC5016;}
+/*前后月*/
+.befor {filter:alpha(opacity=50);-moz-opacity:0.5;-khtml-opacity: 0.5;opacity: 0.5;}
+.befor .calendar_lunar,.befor .calendar_date{color:#CCCCCC;}
+/*点击*/
+.calendar .calendar_table li.on .date_box{z-index:3; border:2px solid #eaa300; left:-2px; top:-2px;}
+/*按下*/
+.calendar .calendar_table li.liactive,.calendar .calendar_table li.liactive .date_box{background:#9EE2FF;}
+
+.calendar_date{height:30px; font:26px/42px arial; text-align:center;}
+.calendar_lunar{font:12px; color:#ccc; line-height:22px; text-align:center; white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden; -o-text-overflow:ellipsis;}
+.calendar_right{width:140px; float:right; padding:0 10px;}
+.alm_date{font-size:16px; color:#969797; height:18px;}
+.today_date{height:100px; text-align:center; font-size:102px; color:#969797; line-height:100px;}
+.alm_content p{color:#bc5016; font-size:14px; line-height:24px; text-align:center;}
+.yj_box{padding-top:10px;}
+.yi,.ji{width:70px; float:left; position:relative; padding-top:35px;font-size:16px; text-align:center; line-height:22px;}
+.yi{color:#bc5016;}
+.ji{color:#595959;}
+.yi:after{content:"宜" ;display: block; position:absolute; width:70px; text-align:center; top:5px; font-size:30px; color:#bc5016;}
+.ji:after{content:"忌" ;display: block; position:absolute; width:70px; text-align:center; top:5px; font-size:30px; color:#595959;}
+
+/**/
+.vac_solar_layer{width:380px; height:310px; position:absolute; top:38px; left:50%; background:url(http://s.365rili.com/wannianlibaidu/pad/images/vac_solar_layer.jpg); margin-left:-190px; border:3px solid #5b2000;-moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; z-index:9;}
+.vac_solar_layer h3{font-size:22px; color:#e1c07a; line-height:50px; font-weight:500; text-align:center;}
+.solar_layer ul{width:380px; height:255px; overflow:hidden;}
+.vac_layer ul li{width:184px; height:50px; padding-top:8px; border:1px solid #87581e; float:left; margin:0 0 3px 3px; cursor:pointer;}
+.vac_layer ul li p{line-height:24px;}
+.vac_layer ul li p.name{color:#e0cca9; font-size:21px; font-weight:500;}
+.vac_layer ul li p.time{color:#a28a56; font-size:13px; font-weight:500;}
+.solar_layer ul{margin-left:-1px;}
+.solar_layer ul{display:inline-block;}
+.solar_layer ul{display:block;}
+.solar_layer ul li{width:94px; height:42px; border-top:1px solid #87581e; border-left:1px solid #87581e; float:left; color:#fbe9bf; cursor:pointer;}
+.solar_layer ul li p{line-height:43px;}
+
+.solar_layer ul li:hover,.vac_layer ul li:hover{background:url(../images/bg.jpg) repeat;}
+.vac_layer ul li:hover p{color:#000;}
+
+.footer_icon{height:26px; line-height:26px; padding:5px 0; padding-left:30px; background:url(http://s.365rili.com/wannianlibaidu/pad/images/icon.jpg) no-repeat left 5px; font-size:17px; color:#fff;}
+.footer_icon a{color:#fff;}
+.prev_arrow{height: 0;  width: 0;   border-width: 8px;  border-style: solid; margin-top:6px;  border-color: transparent #633903 transparent transparent;}
+.next_arrow{height: 0;  width: 0;   border-width: 8px;  border-style: solid; margin:6px 0 0 10px;  border-color: transparent transparent transparent #633903 ;}
+
+/**/
+.arror_top{width:10px; height:10px; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -o-transform: rotate(45deg); background:url(http://s.365rili.com/wannianlibaidu/pad/images/vac_solar_layer.jpg) no-repeat; border-top:3px solid #5B2000;border-left:3px solid #5B2000; position:absolutel; margin:-8px 0 0 175px;}
+.vacation_exp{padding-top:10px;}

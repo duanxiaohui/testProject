@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
+</head>
+<body>
+    <div class="main">
+    	<div class="top_bg">
+    			<div class="constellation_avtar e_clear">
+    				<div class="avtar"><img src="images/sagittarius.png" width="98" height="98"/></div>
+					<div class="constellation_exp">
+						<h3>射手座  Sagittarius</h3>
+						<p>22/11-21/12</p>
+						<p>2013年运势</p>
+					</div>
+    			</div>
+				<dl class="e_clear">
+					<dt class="overall">整体</dt>
+					<dd>
+						<p>射手君的年度主题：不逃避困境和矛盾，平静地成熟。</p>
+						<p>上半年二月前尤其是射手的低潮期，木星落位双子座也令射手君觉得很无力，但十分适合离开有负累的关系，离职、分手，解除合作。</p>
+						<p>下半年木星、土星、海王星落入水相宫位，形成水相大三角，虽有好运，受制于多余担忧。也容易情绪落差。你要意识到问题的根源，2013年下半风光的表象下，要有更积极往内在修持方向努力，勇敢面对错误，加快更新与进化</p>
+					</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="career">事业</dt>
+					<dd>
+						<p>职场的射手君，上半年应先以务实的角度面对工作较好，一至四月都有升职跳槽换岗的机会，但可能仍不尽理想，五、六月时射手又再次有异动现象，或不适应。下半年则好多了，一来有贵人提拔，二来与环境、同事都有认同感，能安适自在。利升职的时间最佳是七月，贵人运极佳，你的状态也很好，甚至引来别人挖角；八月有发挥自己特殊性的机会，让人刮目相看；九月容易有失手失误，对自己不够有信心。十二月也有利于升职，冥冥中机会降临。</p>
+						<p>自己创业的射手君，会有遇到劲敌，市场被瓜分，上半年的处境确是形势比人强，必须低头，射手君需要衡量，究竟该继续要求外界，还是修正自己的忍耐度？态度上的不同，便衍生出不一样的事业生涯，机会就在一、二月间。</p>
+					</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="affection">感情</dt>
+					<dd>
+						<p>单身射手君，2013年闪婚的机率很高，但"赌"的成分很大。可另有可能“奉子成婚”，忽然怀孕的机率很高。</p>
+						<p>上半年感情需委屈求全，可能遇人不淑。来电指数最高的月份是一，二月，参与聚会、派对，与人有互动就有机会。四，五月份则会陷入执着，而忘记评估对方与自己合适不合适。下半年的桃花运比较有品质，体贴多金愿意聆听而不是一味要求。七、八月份就非常有桃花，别人因为太欣赏你能力、魅力，而心生爱慕，主动靠近。九月跟喜欢的人有缘无分，更增加你的执着。十月会有选择与决定。 </p>
+						<p>已婚的射手君，有渐渐疏远的念头，只是仍未下决心采取行动。于今年四、五、九、十月易出现家庭危机。</p>
+					</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="money">金钱</dt>
+					<dd>
+						<p>一至三月冥王顺行，土冥互融期间危机会开发你的赚钱潜能，带来赚钱机运， 而四月至九月冥王逆行期间，则是财运受牵制时期，正财赚得辛苦，还随时会断。</p>
+						<p>上半年会有受人拖累，太容易相信他人而来的金钱套牢、现金需周转的状况，所以有合伙人、另一半者，可能要多关注对方动态，是否有令你措手不及的状况，或不诚实的行为，尤其是一，二月份。 投资、投机运气也平平。</p>
+						<p>下半年则有很棒的合伙机运，且所开启的事业或合作，都是可以长久经营的，而不是短线，约莫三，四年内会形成不错的大局面，非常值得争取。除了正财之外，偏财运意外地好，想推掉都难，因为工作能力大受肯定，而萌生做生意赚钱的念头，也有这样的机会，让收入翻倍，或有金主投资，或担任顾问等，有兼职多赚的好运。尤其把握七，八，九三个月，机运不请自来，令人眼红。</p>
+					</dd>
+				</dl>
+    		</div>
+			<p class="txt">安装星座插件，查看每日星座指南！</p>
+			<a class="btn" id="btn" href="javascript:;">分享到微博</a>
+    </div>
+<script type="text/javascript">
+    function $(id){
+        return document.getElementById(id);
+    }
+	window.onload = function(){
+		var btn = $("btn");
+		btn.onclick = function(){
+			var txt = "@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com"
+			var json = '[{"img": "constellation.jpg","content": "@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com","via": "weibo","type": "type","follow": true},{"img":"test","content":"@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com","via":"qt","type":"type","follow":true}]';
+			if (/android/i.test(navigator.userAgent)) {
+				try {
+					AliansBridge.sharev2(json);
+				} 
+				catch (e) {
+					try {
+						AliansBridge.share(txt, img = "constellation.jpg", null, false);
+					} 
+					catch (e) {
+						alert("您的365日历版本暂不支持发微博，请升级到最新版");
+					}
+				}
+			}
+			else 
+				if (/ipad|iphone|mac/i.test(navigator.userAgent)) {
+					btn.href = 'rili365app:share|||||' + txt + '|||||constellation.jpg';
+				}
+		}
+	}
+</script>
+</body>
+</html>

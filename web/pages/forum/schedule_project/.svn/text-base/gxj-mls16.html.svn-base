@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015秦皇岛国际马拉松</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015秦皇岛国际马拉松</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/25839a25-b163-42a6-bf6b-beb32942afde.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+			  <a class="btn js-subscribe" data-uuid="28ba6e9f-4543-424a-817a-82399a71c12e" data-cid="147514789">添加提醒</a>
+	    	
+	    	<p class="time">
+
+
+<b>比赛时间：2015年5月31日上午8:00</b></br>
+
+
+	    	<b>比赛地点：秦皇岛市海港区、北戴河区</b></br><b>类型：全马
+</b></br>
+
+			</p>
+			<h3>比赛路线：</h3>
+			<p>(一)马拉松</br>
+奥体中心体育场南门(起点)—沿奥体街向东—至文体路左转—至河北大街西段左转向西—至与滨海大道交叉口左转向南—至山东堡桥--至滨海大道—至鸽赤路—至海波路—至东海滩路—至中海滩路—至西经路右转—至东经路--至滨海大道--至河滨路右转向东—至文涛路左转—至岭前街左转向西—至滨海大道转折点左转上山东堡立交桥—至与河北大街西段交叉口右转—至文昌路右转—至奥体街左转—至奥体中心南门(终点)</br>
+(二)半程马拉松</br>
+奥体中心体育场南门(起点)—沿奥体街向东—至文体路左转—至河北大街西段左转向西—至与滨海大道交叉口左转向南—至山东堡桥--至滨海大道—至鸽赤路—至海波路—至东海滩路—至中海滩路—至西经路右转--至与海宁路交叉口左转230米(终点)</br>
+(三)迷你马拉松</br>
+奥体中心体育场南门(起点)—沿奥体街向东—至文体路左转—至河北大街西段左转向西—至欧美学院(终点)</br>
+</p>
+			<!--h3是小标题-->
+			<h3>
+</h3>
+			<!--p是段落文字描述-->
+			<p>
+
+具体详情以官网信息为准
+</p>
+
+<img src="http://cocoimg.365rili.com/schedule_pics/default/ba2b51c8-cd07-4e75-9f99-9220ccc4d72d.jpg"/>
+<a href="http://www.qhdmarathon.com/" class="btn js-other">详见官网</a>
+		
+			 <div class="remind_div" data-uuid="28ba6e9f-4543-424a-817a-82399a71c12e" data-cid="147514789"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/25839a25-b163-42a6-bf6b-beb32942afde.jpg',
+                title: '2015秦皇岛国际马拉松',
+                desc: '由中国田径协会、河北省体育局、秦皇岛市人民政府共同主办的2014秦皇岛国际马拉松赛'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'shareTo',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015秦皇岛国际马拉松',
+		        				content: '由中国田径协会、河北省体育局、秦皇岛市人民政府共同主办的2014秦皇岛国际马拉松赛',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/25839a25-b163-42a6-bf6b-beb32942afde.jpg',
+		        				isEvent: false
+		        			})
+		        		},
+		        		{
+		        			name: 'channel',
+		        			value: 'wx'
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

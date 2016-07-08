@@ -1,0 +1,89 @@
+#cal_header .createBtn{
+	background: url(/images/cal365_default/createBtn.png) no-repeat;
+	width:26px;
+	height:26px;
+	cursor:pointer;
+}
+#cal_header .todayBtn{
+	background: url(/images/cal365_default/todayBtn.png) no-repeat;
+	width:66px;
+	margin-left:5px;
+	height:26px;
+	line-height:26px;
+	cursor:pointer;
+	text-align:center;
+	font-weight:bolder;
+}
+#cal_header .refresh{
+	background: url(/images/cal365_default/todayBtn.png) no-repeat;
+	width:66px;
+	margin-left:5px;
+	height:26px;
+	line-height:26px;
+	cursor:pointer;
+	text-align:center;
+	font-weight:bolder;
+}
+#cal_header .prevBtn{
+	background: url(/images/cal365_default/prevBtn.png) no-repeat;
+	margin-left:5px;
+	width:27px;
+	height:26px;
+	cursor:pointer;
+}
+
+#cal_header .listBtn{
+	background:url(/images/cal365_default/viewBtns_06.gif) 125px 32px;
+	width:61px;
+	height:26px;
+	line-height:26px;
+	text-align:center;
+	cursor:pointer;
+	color:#256479;
+}
+#cal_header .todoBtn{
+	background:url(/images/cal365_default/viewBtns_06.gif) 65px 32px;
+	width:61px;
+	height:26px;
+	line-height:26px;
+	text-align:center;
+	cursor:pointer;
+	color:#256479;
+}
+#cal_header .monthBtn{
+	background:url(/images/cal365_default/viewBtns_06.gif) -4px -5px;
+	margin-left:10px;
+	cursor:pointer;
+	width:61px;
+	height:26px;
+	line-height:26px;
+	text-align:center;
+	color:#256479;
+}
+#cal_header .nextBtn{
+	background: url(/images/cal365_default/nextBtn.png) no-repeat;
+	width:26px;
+	height:26px;
+	cursor:pointer;
+}
+#cal_header .dateNavInfo{
+	position:relative;
+	font-size:30px;
+	font-weight:bolder;
+	width:55%;
+	text-align:center;
+}
+#cal_header .searchBtn{
+	float:right;
+	margin-left:5px;
+}
+
+#userInfo{
+	font-weight:bold;
+}
+#userInfo a,
+#userInfo a:visited{
+	color: #000000;
+}
+
+

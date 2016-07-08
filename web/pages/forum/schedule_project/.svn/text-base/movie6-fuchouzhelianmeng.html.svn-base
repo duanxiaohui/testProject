@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>复仇者联盟2：奥创纪元</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">复仇者联盟2：奥创纪元</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/9a4f9f64-9777-4f0c-939a-bb345d95d578.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	<a href="http://www.iqiyi.com/w_19rrbloh59.html" data-title="查看预告片" class="btn js-other">查看预告片</a>
+	    	<h3 class="time">上映时间：2015年5月12日（内地）</h3>
+			<p> </p>
+	    	<h3>导演：乔斯·韦登</h3>
+			<p class="fc_000">主演：克里斯·海姆斯沃斯 / 马克·鲁法洛 / 斯嘉丽·约翰逊 / 詹姆斯·斯派德</p>
+			<h3>剧情：</h3>
+			<p>身经百战的超级英雄们产生了职业倦怠，已经卸下钢铁战甲的托尼·斯塔克因此发明了奥创——有自我意识、有学习能力的人工智能机器人，并将指挥机器人军团的重任交给奥创。令超级英雄们始料不及的是，当钢铁侠试图启动处于休眠状态的维持和平计划时，事情出了差错，不断进化的奥创得出了“人类是地球上最大的威胁”这一结论，进而开始实施清洗人类的毁灭计划。有强大能力的变种人姐弟红女巫和快银也成为奥创的帮手，四处制造麻烦。于是，在地球面临生死存亡的紧急关头时，强大的超级英雄们挺身而出承担起拯救世界的重任。这些超级英雄包括：钢铁侠、美国队长、雷神、绿巨人、寡妇和鹰眼，他们将阻止可怕的人工智能机器人“奥创”制定恐怖计划，随之而来的是一场独一无二的、史诗般的全球大冒险。</p>
+			<!--h3是小标题-->
+			<h3>看点：</h3>
+			<!--p是段落文字描述-->
+			<p>从发布的预告片已经窥得影片磅礴场面的的一角，但对于影迷来说，从来不需要担心漫威出品的硬件怎么样，我们关注的是哪个英雄上线了，哪个英雄有感情戏了，那个英雄快打不动了……在复仇者联盟2的预告片中不但熟悉的英雄们出现，最大的反派奥创也露面了，还有万磁王的一对儿女：姐姐和舅哦不，是绯红女巫和快银也将登场亮相。要说影迷们真的该珍惜这个系列，因为主演们慢慢的年纪大了，皱纹多了，生孩子了，不想演了，漫威会逐渐让这些英雄们消失，扶植一批新的英雄开创一个新的时代，估计是看一部少一部了。况且……你们真的相信黑寡妇会和绿巨人在一起吗！！怎么看和美队和鹰眼也比和绿巨人的违和感少一点吧！冲这一点还不赶紧买票？</p>
+    	<img src="http://cocoimg.365rili.com/schedule_pics/default/298e7287-5f36-4557-a26b-e08fbb21a7a0.jpg"/>
+		<img src="http://cocoimg.365rili.com/schedule_pics/default/69c21b0f-92bc-4658-96df-b4906cea5abb.jpg"/>
+		<div class="remind_div none" data-uuid="4e0b87d7-73ef-47ed-9069-5060d1f79f57" data-cid="125821987"><div class="remind_icon"></div><span>添加提醒</span></div>
+		</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/023d48b6-ee85-47f2-aef8-b5e046938ce4.jpg',
+                title: '电影：复仇者联盟2：奥创纪元',
+                desc: '《复仇者联盟2：奥创纪元》影片讲述当钢铁侠试图启动处于休眠状态的维和计划时，事情出了差错。于是，在地球面临生死存亡的紧急关头时，强大的超级英雄们挺身而出承担起拯救世界的重任，他们将阻止可怕的人工智能机器人“奥创”制定的恐怖计划。。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '电影：复仇者联盟2：奥创纪元',
+		        				content: '《复仇者联盟2：奥创纪元》影片讲述当钢铁侠试图启动处于休眠状态的维和计划时，事情出了差错。于是，在地球面临生死存亡的紧急关头时，强大的超级英雄们挺身而出承担起拯救世界的重任，他们将阻止可怕的人工智能机器人“奥创”制定的恐怖计划。。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/023d48b6-ee85-47f2-aef8-b5e046938ce4.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		},
+		        		{
+		        			name: 'channel',
+		        			value: 'wx'
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

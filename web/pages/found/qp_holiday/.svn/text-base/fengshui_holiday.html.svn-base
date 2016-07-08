@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>论如何趋吉避凶、遇难呈祥</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/fengshui_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>论如何趋吉避凶、遇难呈祥</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>风水学在我国建筑、选址、规划、设计、营造中几乎无所不在——从皇宫到民宅、从城市到乡村，都保留着诸多风水古建筑，乡村里还有可以随便聊起自己家乡风水特色的老人。很多人认为风水是一种老旧的迷信思想，但其实风水是一种文化，与中华五千年的文明有着千丝万缕的联系。风水涉及天地人三才文化、趋吉避凶的择吉文化，善待万物的和谐文化、居中平衡的中庸文化……中华民族文化心态如进取、谦让、孝道等在风水文化中都有充分的体现。</p>
+            <h3>【罗盘——一个神奇的发明】</h3>
+            <p>中国古代的风水大师根据多年的“工作经验”发明了中国独有的风水操作工具——罗盘。从此，“行家一伸手，便知有没有”，如果手上没这么一个工具就称不上风水测算界的大师。</p>
+            <img src="/pages/found/qp_holiday/images/fengshui_img1.jpg"/>
+            <p>古人认为人的气场受宇宙气场的控制，人与宇宙和谐就是吉，人与宇宙不和谐就是凶。于是他们凭着经验把宇宙中各个层次的信息，如天上的星宿、地上以五行为代表的万事万物、天干地支等，全部放在罗盘上。风水师通过磁针的转动，寻找最适合特定人或特定事的方位或时间。</p>
+            <h3>【风水师从业指南】</h3>
+            <p>罗盘是风水师最重要的工具，大概相当于钢琴家的双手，歌手的嗓子，程序员的电脑。这行的师父通常会比较“小气”，在临终前才会把最重要的衣钵及秘诀传给喜爱的弟子，罗盘就是上师传承的法物之一。</p>
+            <img src="/pages/found/qp_holiday/images/fengshui_img2.jpg"/>
+            <p>一个风水从业人员，不管是否“出身名师”，如果没有上师的衣钵就不具备嫡传传承的资格，用江湖术语来说就是“瓢学”。这种没经过师承的先生只能从事一些简单的断风水类工作，至于做风水，是非常危险的。</p>
+            <h3>【风水文化节】</h3>
+            <p>风水是集建筑学、环境学、天文学、健康学、地质地理学、水文地质学、磁场学等多种学科为一体的中国国学传统大文化，具有非常重要的意义。我国著名作家、风水家、中国风水家协会主席高占全指定每年公历十一月二十八日为风水文化节，这一天民间百姓都请风水大师为自己调整阴阳风水。</p>
+            <img src="/pages/found/qp_holiday/images/fengshui_img3.jpg"/>
+            <p>这种“有血有肉”的中华风水文化之所以能千古流传至今，的确是有功不可没的价值的。不仅在过去的皇城、郡邑的选址定位上，在民间百姓的建筑规范中，并且在对百姓的安居乐业、趋吉避凶等许多方面都起到了良好的指导作用。</p>
+            <div class="tips">
+                <p>1、每年公历十一月二十八日为风水文化节，这一天民间百姓都请风水大师为自己调整阴阳风水；</p>
+                <p>2、风水是一种文化，是与中华五千年文明的传统思想一脉相承、紧密结合的传统文化，积累了数千年的传统文化，难免清浊混杂，因此要辩证的看待。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

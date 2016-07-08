@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>每个人心里都住着一个孩子</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/children_day/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>儿童节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>童年是儿时的一段时光，后来是一段回忆、一个符号，像暗夜里的萤火虫，闪着美好的亮光，告诉你，很多时候要像个孩子一样。</p>
+            <p class="mt15">像个孩子一样，在失去了喜欢的玩具时会难过，但很快又会忘记；像个孩子一样，对新鲜有趣的事物始终抱有兴趣，不断发现生活中的美好；像个孩子一样，对周围的人怀着最大的热情，做一个善良的宝宝！</p>
+            <h3>【孩子有时候也很惨】</h3>
+            <p>1942年6月10日，德国法西斯枪杀了捷克利迪策村16岁以上的男性公民140余人和全部婴儿，并把妇女和90名儿童押往集中营。村里的房舍、建筑物均被烧毁，好端端的一个村庄就这样被德国法西斯给毁了。</p>
+            <img src="images/children_day/holiday_1.jpg"/>
+            <p>第二次世界大战结束后，世界各地经济萧条，成千上万的工人失业，过着饥寒交迫的生活。儿童的处境更糟，有的得了传染病，一批批地死去；有的则被迫当童工，受尽折磨，生活和生命得不到保障。</p>
+            <h3>【孩子们欢脱起来】</h3>
+            <p>为了悼念利迪策惨案和全世界所有在战争中死难的儿童，反对虐杀和毒害儿童，以及保障儿童权利，1949年11月，国际民主妇女联合会在莫斯科举行理事会议，各国代表愤怒地揭露了帝国主义分子和各国反动派残杀、毒害儿童的罪行。为了保障世界各国儿童的生存权、保健权和受教育权，为了改善儿童的生活，会议决定以每年的6月1日为国际儿童节。</p>
+            <img src="images/children_day/holiday_2.jpg"/>
+            <p>每到五四青年节，一批爱跟岁月对着干的人就声明“对不起朋友们，我不能和你们一起过青年节了，因为再过一些天，我要过自己的鹅！童！节！” 有些善良的小编想提醒你们一下：社会和人们公认儿童的年龄段为0-14岁，所以……关于嫩这件事情，且装且珍重吧！谁叫你们心理年龄才13岁呢！</p>
+
+            <div class="tips">
+                <p>1、每年的6月1日是儿童节，这个节日是给孩子们用来欢脱的；</p>
+                <p>2、大朋友们要记得，像个孩子一样～</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

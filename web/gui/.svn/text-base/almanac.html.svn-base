@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html class="pc">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>日历</title>
+<link href="/css/jquery-ui-1.9.2.custom.min.css" rel="stylesheet"/>
+<style type="text/css">
+body { color: #444; font: 12px / 1.5em "Microsoft YaHei", 微软雅黑,SimSun,arial; height: 100%; margin: 0; padding: 0; background:#fff;}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+html { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; +padding-top:0; overflow: hidden;}
+html, body {background-color: transparent; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+.ui-shadow { box-shadow: 3px 3px 3px #d7d8d9; -moz-box-shadow: 3px 3px 3px #d7d8d9; -webkit-box-shadow: 3px 3px 3px #d7d8d9; }
+.pc_windows_news{width:600px; height:420px;margin:auto;-moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius: 5px; border-radius: 5px; background:#fff url(../images/pc/window_almanac.jpg) repeat-x left top;}
+a.close_btn,a.min_btn{float:right; width:25px; height:16px; background:url(../images/pc/pc_almanac_btn.jpg) no-repeat;}
+a.close_btn{background-position:left top;}
+a.close_btn:hover{background-position:-25px top;}
+a.min_btn{background-position:left -16px;}
+a.min_btn:hover{background-position:-25px -16px;}
+
+.pc_windows_time{padding-top:15px; height:90px;}
+.pc_windows_time,.almanac,.pc_windows_news_list ul{padding-left:20px;}
+.pc_windows_todaydate{width:80px; height:50px; line-height:50px; float:left; font-size:60px; font-family:Arial; color:#fff; font-weight:600;}
+.pc_windows_date{float:left;}
+.pc_windows_date p{line-height:25px; font-size:14px; color:#fff;}
+
+.almanac dl{padding:10px 0;}
+.almanac dt{width:28px; height:28px; line-height:28px; float:left; font-size:18px; text-align:center; -moz-border-radius: 16px; -webkit-border-radius: 16px; -khtml-border-radius: 16px; border-radius: 16px;}
+.almanac dl.yi dt{border:1px solid #40a31e; color:#40a31e; }
+.almanac dl.yi dd{color:#40a31e;}
+.almanac dd{margin-left:35px;}
+.almanac dd span{margin-right:5px; line-height:28px;}
+.almanac dl.ji dt{border:1px solid #d55b5b; color:#d55b5b; }
+.almanac dl.ji dd{color:#d55b5b;}
+
+.alamanac_more{height:80px; padding-left:35px; line-height:28px; color:#666;}
+.alamanac_more span{margin-right:10px;}
+.money_boox{padding:0 5px;}
+</style>
+<script type="text/javascript" src="http://cbjs.baidu.com/js/m.js"></script>
+</head>
+<body>
+<div class="pc_windows_news ui-shadow e_clear">
+	<a href="javascript:void(0)" class="close_btn"></a>
+	<!--  <a href="javascript:void(0)" class="min_btn"></a> -->
+		<div class="pc_windows_time e_clear">
+			<div class="pc_windows_todaydate">16</div>
+			<div class="pc_windows_date">
+				<p id="lunarDayStr">癸巳年【蛇年】丁巳月甲午日申时(10:30)</p>
+				<p id="gregorianDayStr">星期四 2013年3月</p>
+			</div>
+		</div>
+		<div class="almanac">
+			<dl class="yi e_clear">
+				<dt>宜</dt>
+				<dd class="yi_container">
+				</dd>
+			</dl>
+			<dl class="ji e_clear">
+				<dt>忌</dt>
+				<dd class="ji_container">
+				</dd>
+			</dl>
+			<div class="alamanac_more">
+				<p><span id="lunar_c">冲:</span><span id="lunar_s">煞:</span><span id="lunar_ch">成:</span><span id="lunar_zc">正冲:</span></p>
+				<p id="lunar_ts">胎神 :</p>
+			</div>
+		</div>
+		<div class="money_boox">
+			<script type="text/javascript">BAIDU_CLB_fillSlot("708026");</script>
+			<!--  <a href="http://www.365rili.com" target="_blank"><img src="../images/pc/money.jpg"/></a>-->
+		</div>
+</div>
+</body>
+<script type="text/javascript" src="/js/jquery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/protocol.js"></script>
+<script type="text/javascript" src="js/wnl.js"></script>
+<script type="text/javascript" src="js/almanac.js"></script>
+<script>
+	$(function(){
+		clientProtocol.init(3, 600, 420);
+		disableSelectAndRightClick();
+	});
+</script>
+</html>

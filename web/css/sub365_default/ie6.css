@@ -1,0 +1,109 @@
+#recommand
+{
+	width: 700px;
+	border: 1px solid #ccc;
+	border-bottom: 3px solid #aaa;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+#recommandTitle
+{
+	font-size: 20px;
+	color: #333;
+	padding: 20px;
+	background: url(/sub_images/backgroundie6.png);
+	font-family: arial,sans-serif;
+	font-weight: bold;
+}
+
+.browserimg
+{
+	width: 120px;
+	height: 120px;
+}
+
+.prevsmallimg
+{
+	width: 120px;
+	height: 80px;
+}
+
+.updateButton
+{
+	height: 30px;
+	width: 120px;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #999;
+	cursor: pointer;
+}
+
+.browserDetail
+{
+	width: 120px;
+	font-size: 14px;
+	color: #444;
+}
+
+#chrome
+{
+	background: #FFF2B1;
+}
+
+.chromebutton
+{
+	background: #fcd309;
+}
+
+#firefox
+{
+	background: #FFD882;
+}
+
+.firefoxbutton
+{
+	background: #FFAE00;
+}
+
+#opera
+{
+	background: #EEB6A2;
+}
+
+.operabutton
+{
+	background: #D63900;
+}
+
+#ie9
+{
+	background: #CAF5FF;
+}
+
+.ie9button
+{
+	background: #82e6ff;
+}
+
+#ie8
+{
+	background: #A9CDDE;
+}
+
+.ie8button
+{
+	background: #087fb9;
+}
+
+.recommandBrowser
+{
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 500px;
+	width: 120px;
+}

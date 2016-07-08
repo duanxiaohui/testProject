@@ -1,0 +1,287 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 张明臣
+ * @date    2014-07-30 14:33:51
+ * @version 1.0
+ */
+body { background: #2b2b2b; color: #444; font: 12px / 1.5em "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑,SimSun,arial; margin: 0; padding: 0; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+a{text-decoration: none; }
+.none{display:none;}
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+.none{display:none;}
+
+.bg{width:100%; height:-webkit-calc(100% + 0px); position:fixed; z-index: 1; top:0; overflow: hidden; opacity:.6; -webkit-filter: blur(8px);}
+.bg img{width:100%; height:100%;}
+.mask_bg{width:100%; height:-webkit-calc(100% + 0px); position:fixed; background:rgba(0,0,0,.4); top:0; left:0; z-index:2; }
+
+.main{padding:0 15px 35px; z-index: 3; top:0; position: relative;  margin-bottom: 25px;}
+.schedule_source_calendar{font-size:16px; padding-top:20px; text-align:center; color:#8d8b94;display: none;}
+.schedule_txt{padding:30px 0 20px; margin: 0 5px; color:#414242; font-size:17px; line-height:150%;word-wrap: break-word; border-bottom: 1px solid #e1e1e1;}
+.schedule_time{padding:11px 5px; min-height:24px; line-height:24px; font-size:16px; background:#fff;}
+.remind span{margin-right:8px;}
+
+.remind{min-height:24px;background:url(/pages/client_calendar_h5/images/watches_n.jpg) no-repeat left center; padding-left:25px; background-size:16px 16px;}
+.schedule_detail p{background:url(/pages/client_calendar_h5/images/txt_n.jpg) no-repeat left 5px; background-size:14px 16px;}
+.schedule_map p{background:url(/pages/client_calendar_h5/images/map_icon_n.jpg) no-repeat left 5px; background-size:14px 16px;}
+.team_list{background:url(/pages/client_calendar_h5/images/team_icon_n.jpg) no-repeat left 5px; background-size:13px 15px;}
+.schedule_url p{background:url(/pages/client_calendar_h5/images/url_n.jpg) no-repeat left 3px; background-size:16px 16px;}
+.team_list span{display: inline-block; margin-right:5px;}
+.schedule_detail p{width:calc(100% - 30px); width:-webkit-calc(100% - 30px);   padding-left:25px; font-size:16px; line-height:150%;word-wrap: break-word; text-align:justify;text-justify:distribute-all-lines;}
+.schedule_detail{padding:11px 5px; background:#fff;min-height:24px; margin-top:10px;}
+.schedule_map{padding:11px 5px; background:#fff; margin-top:10px;}
+.schedule_url{padding:11px 5px; background:#fff;height:24px; margin-top:10px; font-size:16px; }
+.repeat_div{padding:11px 5px; min-height:24px; margin-top:10px; font-size:16px;background:#fff; }
+.repeat_div span{display:block;padding-left:25px; background:#fff url(/pages/client_calendar_h5/images/repeat_n.jpg) no-repeat left 3px; background-size:16px 16px; min-height:24px; line-height:24px;}
+
+
+.schedule_map,.schedule_url,.schedule_detail,.schedule_time{color:#a4aaaf;}
+.schedule_map p{padding:0 0 0 25px; font-size:16px; line-height:150%;}
+.schedule_url p:before{width:8px; height:8px; content: " ";position:absolute; border-top:2px solid #cccccc; border-right:2px solid #ccc; -webkit-transform: rotate(45deg); top:6px; right:3px;}
+.map{border:1px solid #dcdddd; margin-top:15px; display: none;}
+.schedule_source{padding:25px 0 0 0; font-size:12px; color:#a4aaaf; border-top: 1px solid #e1e1e1;margin-top: 10px; text-align:center;}
+.schedule_team{padding:3%; background:#fff; margin-top:10px;}
+.team_list{padding-left:25px;font-size:16px; line-height:150%;}
+.schedule_url p{padding:0 15px 0 25px;font-size:16px; line-height:24px; height:24px;overflow: hidden;
+white-space: nowrap; text-overflow: ellipsis; position: relative;}
+.btns{margin-top: 28px;}
+.public_btn{float:left; height:34px; line-height:34px; color:#fff; font-size:14px; background:#50bbff url(../images/ling.png) 12px center no-repeat; background-size: 17px 17px; padding: 0 21px 0 34px; border-radius: 20px;}
+.share_footer{width:95%; height:40px; padding:5px 3%; background:#e8e8e8; position:fixed; bottom:0; z-index: 5}
+.share_footer p{color:#999; font-size:12px;}
+.logo{width:90px; height:23px; background:url(../images/new/logo.jpg) no-repeat; background-size:90px 23px;}
+.down_btn{float:right;width:100px; height:30px; border-radius: 5px; text-align: center; line-height:30px; margin:5px; font-size:16px; background:#ff7900; color: #fff;}
+
+.public_schedule_top{text-align:center; padding-top:15px;min-height: 150px;margin-left: -15px;margin-right: -15px;background-color: #f3f3f3; border-bottom: solid 1px #cecece;}
+.public_schedule_top h3{font-size:18px; color:#fff; font-weight:500;}
+.public_schedule_top h4{font-size:19px;  line-height:150%; color:#fff; font-weight:500; margin:0 12px;}
+#image_wrapper {min-height: 65px;}
+.public_image_container {width:100%;height:150px;margin:25px auto 5px auto;overflow: hidden; position: relative;white-space: nowrap;}
+.public_image_container li{width:100%; height:150px; overflow:hidden;}
+#image_wrapper .public_image {height:150px; -webkit-transition: transform ease 1s;}
+/*.group_image{height: 80px; margin-top:5px;margin-right:3px;}*/
+.map_image {width:100%;}
+.schedule_images {white-space: nowrap;overflow-y:auto; height:85px;}
+.schedule_images li{width:80px; height:80px; margin:5px 3px 0 0; float:left; overflow:hidden;}
+.public_image_span {display: inline-block; width:8px; height: 8px; border-radius: 100%;background-color: #aaa;margin:0 3px;}
+.public_image_span.on{background-color: #fff;}
+.public_image_index {margin-top: 10px;margin-bottom: 0;padding-bottom:18px;}
+.group_btn a, .personal_btn a{display:block; width:100%; height:50px; line-height:50px; text-align:center; color:#fff; font-size:18px; background:rgba(255,255,255,.2); margin:15px 0 0 0; font-weight:600;}
+.group_btn a.on{background-color:rgba(2,206,84,1);}
+.public_btn_on{background-color:#a4aaaf;}
+/*tips*/
+.mask{width:100%; height:550px; background:rgba(102,102,102,.5); position:fixed; top:0; left:0; z-index: 6;}
+.tips_layer{width:240px; padding:30px 10px 10px; height:130px; background:url(../images/new/layer_bg.jpg); background-size:100% 100%; position: fixed; z-index: 7; top:50%; left:50%; margin:-85px 0 0 -130px; border-radius: 17px;}
+.tips_layer h3{font-size:18px; color:#28465e; line-height:150%; text-align:center;}
+.tips_layer p{font-size:15px; color:#28465e; line-height:150%; text-align:center; margin-top:15px;}
+.layer_btn{display:block; width:125px; height:35px; line-height:35px; text-align:center; color:#fff; font-size:18px; background:#40a4f7; border-radius:19px; margin:15px auto 0;}
+
+.public_image_container_ul li{display: inline-block;}
+
+.btn_inline_box{display:inline-block;}
+.btn_bg{display:inline-block; width:30px; height:50px; background:url(../images/new/remind_btn.png) no-repeat center center; background-size:16px 18px; vertical-align: middle; margin-top:-5px;}
+.btn_txt{display:inline-block; height:50px; line-height:50px; vertical-align: middle; margin-top:-5px;}
+
+.popDiv{position:absolute; width:100%;height:100%;background:#000; left:0;top:0; z-index:10;}
+.popDiv .public_image_container, .popDiv .public_image_container_ul, .popDiv .public_image_container li {height: 100%;}
+.popDiv .public_image_container li {position:relative;}
+.popDiv .public_image {position: absolute; left:50%;}
+.popDiv .public_image_container {margin: 0;}
+.join_icon{display:inline-block; width:30px; height:50px; background:url(../images/new/join_icon.png) no-repeat center center; background-size:14px 17px; vertical-align: middle; margin-top:-5px;}
+.join_txt{display: inline-block;height: 50px;line-height: 50px;vertical-align: middle;margin-top: -5px; text-align:center;}
+.join_user{padding:10px 0 10px 28px; height:19px; font-size:14px; color:#fff; background:url(../images/new/join_user.png) no-repeat 3px 10px; background-size:21px 19px; }
+
+.join_schedule{padding:90px 0 0 0 ; background:#fff;}
+.tips{width:270px; padding:45px 0 0 0; height:125px; background:#40a4f7; border-radius:12px; margin:0 auto; position:relative; text-align:center; color:#fff;}
+.tips:before{content:" "; position:absolute; width:35px; height:43px; top:-22px; left:25px; background:url(../images/new/bell_icon.png) no-repeat; background-size:35px 43px;}
+.tips:after{content:" ";position:absolute; width:22px;height:22px;
+    background:#40a4f7;    bottom:-10px;    left:40px;
+    -webkit-transform: rotate(-45deg); 
+}
+.join_schedule .tips h3{font-size:23px; line-height:45px; color:#fff;}
+.join_schedule .tips p{font-size:15px; color:#fff;}
+
+.line{height:1px; line-height:1px; margin:80px 0 25px; width:100%; font-size:0; background:#c8cacc; position:relative;}
+.logo_img{width:203px; height:45px; position:absolute; background:#fff url(../images/new/logo.png) no-repeat center; background-size: 183px 45px; left:50%; margin-left:-91px; top:-24px;}
+.use_btn{height:40px; width:-webkit-calc(100% - 20px); text-align:center; line-height:40px; color:#fff; font-size:16px; border-radius:20px; background:#ff6c00; margin:35px auto 10px; display:block;}
+.join_schedule p{text-align:center; font-size:14px; color:#898e91;padding-bottom: 30px;}
+.join_schedule_footer{height:20px; line-height:20px; text-align:center; color:#a9a9aa; background:#e8e8e8; position:fixed; width:100%;bottom: 0;}
+
+
+.group_main .clendar_info{width:90%;}
+.invited_join{padding:0 0 0px; background:#fff; 
+border-top:1px solid #cecece;
+border-bottom:1px solid #cecece;
+}
+.invited_join h2{font-size:18px; padding:30px 0; font-weight:500;}
+.invited_list{padding:0px 5px; background:#fff; border-radius:5px; text-align:center;}
+.invited_list ul{display:inline-block;}
+.invited_list h3{font-size:14px; color:#9fa0a0; text-align:center; font-weight:500; margin-bottom:5px;}
+.invited_list li{float:left; display:inline-block; width:40px; height:40px; border-radius:20px; -webkit-border-radius:20px; margin:0 5px;background:#000; overflow:hidden;}
+.invited_list li img{width:100%; height:100%;}
+.invited_list p{text-align:center; font-size:14px; color:#9fa0a0; padding:8px 0;}
+.join_group_btn{width:-webkit-calc(100% - 30px); height:40px; line-height:40px; text-align:center; font-size:18px; color:#fff; background:#40a4f7; display:block; border-radius:5px; margin:30px 0 0 0;}
+.group_schedule_list{padding:0; background:#fff;}
+
+
+/*bar*/
+.client_title{padding:0; width:100%; height:44px; position:fixed; z-index:999; top:0;}
+.client_title_bg{width:100%; height:44px;  position:fixed; z-index:998; background-position: left top;background-repeat: no-repeat ; -webkit-filter: blur(10px); -moz-filter: blur(10px); top:0;}
+.return_btn{width:44px; height:44px; float:left;background:url(../images/return_btn.png) no-repeat center center; background-size:12px 21px;}
+.share_btn{width:44px; height:44px; float:right; background:url(../images/share_btn.png) no-repeat center center; background-size:24px 24px; margin-right:6px;}
+
+
+.group_main{background:#fff;}
+.calendar_personal .schedule_time,.calendar_personal .remind{min-height:24px; height:auto;}
+.calendar_personal .remind{background-position:left 3px;}
+
+.schedule_images .public_image_container{margin:0; height:85px;}
+.schedule_images .public_image_container li{width:85px; height:85px; overflow:hidden; text-align:center; float:left;}
+.schedule_images .public_image_container li img{height:100%;}
+.client_title h2{position:absolute; width:100%; width:-webkit-calc(100% - 36px); line-height:44px; text-align:center; color:#fff; font-size:18px;}
+.calendar_personal .main{	padding-top: 44px;}
+.ui-dialog .ui-dialog-title h3{font-size:16px;}
+
+
+.comments {margin-top: 10px;}
+.comments h3{height:44px; line-height:44px; text-align:left; font-size:14px; color:#a4aaaf; background:#fff url(/pages/client_calendar_h5/images/comments_n.jpg) no-repeat 5px center; background-size:16px 16px; padding-left:35px; font-weight:500; border-top:1px solid #efefef;position: relative;}
+.comments h3:before{
+  width: 8px;
+  height: 8px;
+  content: " ";
+  position: absolute;
+  border-top: 2px solid #cccccc;
+  border-right: 2px solid #ccc;
+  -webkit-transform: rotate(45deg);
+  top: 16px;
+  right: 8px;
+}
+.comments_content li{padding:5px 10px 5px 0; border-bottom:1px solid #efefef; background:#fff;}
+.comments_title{color:#e1e1e1; font-size:12px; padding-bottom:5px}
+.comments_title span{float: left; display: inline;margin-right: 20px;}
+.comments_time,.reply{float:left; }
+.comments_txt{font-size:14px; color:#a4aaaf; line-height:160%;}
+.comments_content ul{margin-left: 34px;}
+.view_all_comments{height:50px; line-height:50px; text-align:right; font-size:14px; padding-right:40px; color:#898989; display:block; width:-webkit-calc(100% - 40px); background:#fff;}
+.enter_calendar{margin:10px 0; display:block; width:100%; height:50px; line-height:50px; text-align:center; color:#fff; background:#39cf60;}
+
+.none_content_box{text-align:center; line-height:40px; font-size:14px;}
+
+
+#js-mapBox .common-widget-nav {
+	height: 50px;
+	position: relative;
+	text-align: center;
+	z-index: 999;
+}
+
+#js-mapBox .common-widget-nav .btn:first-child {
+	top: 0;
+	left: 0;
+}
+#js-mapBox .common-widget-nav .back-btn {
+	width: 50px;
+	height: 50px;
+	font-size: 14px;
+	padding: 0;
+}
+#js-mapBox .common-widget-nav .btn {
+	position: absolute;
+}
+#js-mapBox .btn-group, #js-mapBox .flex-row, #js-mapBox .row {
+	width: 100%;
+	-webkit-box-align: center;
+	display: -webkit-box!important;
+	display: -webkit-flex!important;
+	-webkit-align-items: center;
+}
+#js-mapBox .-shadow-card {
+	-webkit-box-shadow: 0 2px 1px -1px rgba(0,0,0,.2)!important;
+}
+#js-mapBox .common-widget-nav .title {
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+}
+#js-mapBox .btn-group>*, #js-mapBox .flex-row>*, #js-mapBox .row>* {
+	display: block!important;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+}
+#js-mapBox .-ft-large {
+	font-size: 16px!important;
+}
+#js-mapBox .common-widget-nav .title span {
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin: 0 60px;
+}
+#js-mapBox{
+	background: #f2f2f2;
+	color: #3b3b3b;
+	font-size: 14px;
+	font-family: "Heiti SC","Droid Sans","Helvetica Neue","Microsoft YaHei",Helvetica,Arial,sans-serif;
+}
+#js-mapClose:after{content:" "; position:absolute; width:10px; height:10px; border-width:2px; border-style:solid; border-color:#333 transparent transparent #333; transform:rotate(-45deg); -moz-transform:rotate(-45deg); -webkit-transform:rotate(-45deg);
+top:18px; left:20px;}
+
+
+.add_schedule_title{padding:15px 0; height:15px; text-align:center; background:#ededed;}
+.add_schedule_title span{display:inline-block; vertical-align: middle; font-size:15px; color:#7f7f7f;}
+.add_schedule_content,.suc_schedule_more_content{background:#ffffff; padding:0 15px;}
+.add_schedule_content li{padding:25px 0; border-bottom:1px dashed #c9c9c9; font-size:16px; color:#000;}
+.suc_icon{ height:15px; width:15px; background:#4bb5ff; border-radius: 8px; margin:0 5px; position:relative; }
+.add_schedule_content li:last-child{border:0;}
+.suc_icon:after{content:" "; position:absolute; width:5px; height:7px; border-top:1px solid #fff; border-left:1px solid #fff; border-right:1px solid transparent; border-bottom:1px solid transparent; transform:rotate(225deg); -webkit-transform:rotate(225deg); top:1px; left:4px;}
+
+.add_schedule_btn{position:relative; padding:58px 0 28px;}
+.view_schedule_btn{display:none;}
+.down_scheduel_btn{width:100%; height:40px; border-radius:4px; background:#56abed; float:right; text-align:center; line-height:38px; font-size:16px; color:#fff;}
+.single .view_schedule_btn{display:block;width:45%; height:38px; border:1px solid #adacac; border-radius:4px; float:left; text-align:center; line-height:38px; font-size:16px; color:#7f7f7f;}
+/*修改了按钮宽度和箭头的位置，张路，2015-01-12*/
+.single .down_scheduel_btn{width:100%; height:38px; border-radius:4px; background:#56abed; float:right; text-align:center; line-height:38px; font-size:16px; color:#fff;}
+.down_client_tips{position:absolute; width:100%; height:40px; line-height:40px; text-align:center; background:#d6ecfd; border-radius:5px; top:0; color:#7f7f7f; font-size:15px;}
+.down_client_tips:after{content:" "; position:absolute; width:10px; height:10px; background:#d6ecfd; transform:rotate(45deg); -webkit-transform:rotate(45deg); bottom:-5px; left:50%; margin-left:-3px;}
+.single .down_client_tips:after{content:" "; position:absolute; width:10px; height:10px; background:#d6ecfd; transform:rotate(45deg); -webkit-transform:rotate(45deg); bottom:-5px; left:50%; margin-left:-3px;}
+
+.suc_schedule_more_title{line-height:35px; padding:0 15px; background:#ededed; border-top:1px solid #cecece; border-bottom:1px solid #cecece; color:#7f7f7f; font-size:15px;}
+
+.suc_schedule_more_content dl{padding:18px 0; }
+.suc_schedule_more_content a{border-bottom:1px dashed #c9c9c9; display:block;}
+.suc_schedule_more_content dl:nth-last-of-type(1){border:0;}
+.suc_schedule_more_content dt{float:left; width:53px; height:53px; border:1px solid #21a0ff; border-radius:4px; -webkit-border-radius:4px;}
+.suc_schedule_more_content dd{margin-left:63px;}
+.suc_year_moth{height:18px; line-height:18px; text-align:center; font-size:10px; font-family: arial; background:#21a0ff; color:#fff;}
+.suc_data{height:35px; line-height:35px; font-size:24px; color:#21a0ff;text-align:center;}
+.suc_time{font-size:12px; color:#adacac;}
+.suc_schedule_more_content dd p{font-size:14px; color:#000;table-layout:fixed; word-break: break-all;}
+.remaining_schedule_num{height:50px; line-height:50px; text-align:center; font-size:16px; color:#000; background:#ecedee; border:1px solid #ddd; border-radius:5px; margin-top: 20px;}
+.suc_schedule_more{padding-bottom:40px; background:#fff;}
+
+.single_schedule{padding:15px 0;}
+.single_schedule_img{text-align:center; padding-bottom:15px;}
+.single_schedule_txt span{font-size:16px; color:#bcbcbc;}
+.single_schedule_txt p{font-size:16px; color:#090909; text-indent:-3em; padding-left:3em; line-height:150%; margin-bottom:5px;}
+.schedule_title{
+	font-size: 17px;
+	color: #414242;
+	line-height: 20px;
+	font-weight: normal;
+	margin: 33px 5px 0;
+}
+.schedule_top{
+	border-bottom: 1px solid #e1e1e1;
+	padding-bottom: 28px;
+}
+.arrow{position:relative;}
+/*.arrow:after{content:" "; position:absolute;width:10px; height:10px; border-left: 1px solid #acacac; border-top:1px solid #acacac; top:50%; margin-top:-5px; right:12px; transform:rotate(135deg);-webkit-transform:rotate(135deg);}*/
+.arrow:after{content:" "; position:absolute;width:16px; height:16px; top:50%; margin-top:-8px; right:12px; background: url(/pages/client_calendar_h5/images/map.gif) no-repeat center; background-size:16px 16px;}

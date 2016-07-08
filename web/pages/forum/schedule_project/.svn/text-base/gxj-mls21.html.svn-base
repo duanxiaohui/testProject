@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015张家口康保草原国际马拉松</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015张家口康保草原国际马拉松</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/ac1e1c44-22ac-476d-94cc-062c6f3ce7e7.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+			  <a class="btn js-subscribe" data-uuid="3b2ce7b5-9f8b-4623-a5f0-c9d150163ec0" data-cid="147514789">添加提醒</a>
+	    	
+	    	<p class="time">
+
+
+<b>比赛时间：2015年7月19日
+</b></br>
+
+	    	<b>比赛地点：河北张家口</b></br><b>类型：全马</b></br>
+
+
+			</p>
+			<h3>活动介绍：</h3>
+			<p>2014张家口·康保草原国际马拉松由中国田径协会、河北省体育局、张家口市政府主办，张家口市体育局、康保县政府、北京中奥汇跑体育文化发展有限公司联合承办。
+			</br></br>赛事设全程马拉松（42.195公里）、半程马拉松（21.0975公里）、迷你马拉松（4.5公里）三个比赛项目。赛事的起终点均设在县文化广场，半程马拉松赛终点为卧龙图生态文化旅游景区。共吸引肯尼亚、埃塞俄比亚、美国、韩国等多个国家及全国各地的3000多名马拉松专业选手参赛。
+</p>
+			<!--h3是小标题-->
+			<h3>
+</h3>
+			<!--p是段落文字描述-->
+			<p>
+具体详情以官网信息为准
+</p>
+
+<img src="http://cocoimg.365rili.com/schedule_pics/default/4c1c2faa-df95-4044-b7ed-d64496c5186f.jpg"/>
+<a href="http://kangbaomarathon.com/" class="btn js-other">详见官网</a>
+		
+			 <div class="remind_div" data-uuid="3b2ce7b5-9f8b-4623-a5f0-c9d150163ec0" data-cid="147514789"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/ac1e1c44-22ac-476d-94cc-062c6f3ce7e7.jpg',
+                title: '2015张家口康保草原国际马拉松',
+                desc: '张家口·康保草原国际马拉松由中国田径协会、河北省体育局、张家口市政府主办，张家口市体育局、康保县政府、北京中奥汇跑体育文化发展有限公司联合承办'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015张家口康保草原国际马拉松',
+		        				content: '张家口·康保草原国际马拉松由中国田径协会、河北省体育局、张家口市政府主办，张家口市体育局、康保县政府、北京中奥汇跑体育文化发展有限公司联合承办',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/ac1e1c44-22ac-476d-94cc-062c6f3ce7e7.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		},
+		        		{
+		        			name: 'channel',
+		        			value: 'wx'
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

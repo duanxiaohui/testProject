@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="万年历,万年历查询,黄历,黄历查询,365,日历,阳历,阴历,公历,老皇历,黄道吉日,星座,赛程,赛事,日程,运程,共享,客户端,桌面日历,手机日历" />
+<meta name="Description" content="365日历网是专业的日历门户网站，可以在PC、手机、网站之间同步数据。同时还提供各种日历日程信息，包括黄道吉日、农历、黄历、星座运程、体育赛程、电视节目等。" /> 
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="Bookmark" href="/favicon.ico">
+<title>365日历网(www.365rili.com)_万年历_桌面日历_手机日历_黄道吉日_星座运程</title> 
+<link rel="stylesheet" type="text/css" href="css/sync2cell.css" />
+</head>
+<body>
+	<div class="main">
+		<div class="logo_nav">
+			<div class="nav">
+				<ul>
+					<li><a href="/?p=contact">联系我们</a></li>
+					<li><a href="javascript:alert('在线支持QQ群：92767096');">在线支持</a></li>
+					<li><a href="/?p=privacy">隐私政策</a></li>
+					<li><a href="/?p=service">服务条款</a></li>
+					<li><a href="/?p=qa">常见问题</a></li>
+					<li><a href="/?p=job">加入我们</a></li>
+					<li><a href="http://up2.365rili.com/v3/milestone/index.htm" target="_blank">里程碑</a></li>
+					<li class="on"><a href="javascript:;">公司远景</a></li>
+				</ul>
+			</div>
+			<div class="logo iepng"><a href="http://www.365rili.com" target="_blank"></a></div>
+		</div>
+		<div class="code_down">
+			<div class="ios iepng"></div>
+			<div class="focus iepng"></div>
+			<div class="android iepng"></div>
+			<p>用手机浏览器打开网址： http://i.365rili.com</p>
+		</div>
+		<div class="about">
+			<dl>
+				<dt class="iepng">365日历 - 农历 万年历 日程提醒</dt>
+				<dd>
+					<p>365日历，超过4000万智能手机用户使用，是中国最专业的日历和万年历产品，装机必备。</p>
+					<p>365日历支持农历、万年历查询，手机和电脑同步更新日程提醒，完美同步google日历<br/> 在iPhone、Android、Windows Phone等手机平台上都可以使用，并为百度、腾讯、360等战略合作伙伴提供定制日历。</p>
+				</dd>
+			</dl>
+			<dl>
+				<dt class="iepng">主要功能：
+				<dd>
+					<p>【云同步】云端实时同步，更新电脑和手机的日程，已为用户保存超过3000万条日程提醒</p>                                    
+					<p>【google日历】完美同步google日历账号</p>        
+					<p>【丰富插件】丰富多彩的插件，提供星座运势、生日提醒、体育赛事提醒和车辆限行等服务</p>                          
+					<p>【顶级设计】由顶级设计公司Eico Design精心打造用户界面，给你完美视觉享受</p>
+					<p>【全平台支持】 iPhone、Android、Windows Phone三大智能平台完美同步支持</p>
+					<p>【精美皮肤】精美皮肤随心换，让你精彩每一天！</p>
+				</dd>
+			</dl>
+			<dl>
+				<dt class="iepng">可安装的插件功能：
+				<dd>
+					<ul>
+						<li class="festival iepng">【节日】：公历、农历、节气等各种节日提醒，节日介绍</li>
+						<li class="birthday iepng">【生日】：公历农历生日提醒，让你不会忘记好友生日</li>
+						<li class="wnl iepng">【黄历】：每日宜忌，吉日查询</li>
+						<li class="constellation iepng">【星座】：在日历上显示今日，明日，本周，本月的星座运势</li>
+						<li class="todo iepng">【待办】：重要待办，截止待办，与日历紧密结合</li>
+						<li class="date iepng">【日期计算】：阴阳历转换，日期间隔计算</li>
+						<li class="slq iepng">【生理期】：日历上显示每天的生理期状况，贴心管理大姨妈</li>
+						<li class="limit iepng">【车辆限行】：限行的日子提醒你不要开车</li>
+					</ul>
+				</dd>
+			</dl>
+		</div>
+		<div class="footer">
+			<p>我们在用心做软件，感谢大家的支持！365日历，让您精彩每一天！</p>
+			<p>Copyright &copy;2007-2013 365rili.com    京ICP备08005906号    内容合作：contact@365rili.com</p>
+		</div>
+	</div>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://www.365rili.com/v3/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('.iepng, img');
+</script>
+<![endif]-->
+</body>
+</html>
+

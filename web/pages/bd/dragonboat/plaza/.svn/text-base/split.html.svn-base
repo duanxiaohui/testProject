@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html style="height:auto;">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>史上最神“蜜”之粽子节</title>
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no"/>
+<link href="/pages/bd/dragonboat/css/main.css" rel="stylesheet">
+</head>
+<body style="height:auto;">
+    <img class="forbg" src="/pages/bd/dragonboat/images/index_bg.jpg" width="100%" height="100%" style="position:fixed;left:0; top:0;" alt="">
+    <div class="gift_show">
+        <div class="gift_title animated"></div>
+        <div class="gift_btn_div animated">
+            <a href="javascript:;" class="gift_btn"></a>
+        </div>
+    	<div class="gift_show_div">
+    		<div class="gift_box animated">
+    			<!-- gift_bamboo -->
+    			<div class="gift_bamboo animated none">
+    				<div class="gift_bamboo_div"></div>
+    				<div class="line"></div>
+    			</div>
+    			<!-- gift_rice -->
+    			<div class="gift_rice animated none">
+    				<div class="gift_rice_div"></div>
+    				<div class="line"></div>
+    			</div>
+    			<!-- gift_filling -->
+    			<div class="gift_filling animated none">
+    				<div class="gift_filling_div"></div>
+    				<div class="line"></div>
+    			</div>
+    		</div>
+    	</div>
+    	<div class="gift_sentiment none">
+    		<div class="gift_sentiment_img">
+    			<img src="/pages/bd/dragonboat/images/split/gift_sentiment_img.png" width="100%"/>
+    		</div>
+    		<div class="gift_sentiment_title"></div>
+    		<p class="zfy"></p>
+    		<p class="tr"></p>
+    	</div>
+    	<a href="javascript:;" class="replay_btn none"></a>
+    </div>
+    <div class="footer" style="position:static;">&copy;2015 365日历. 版权所有</div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/app.js"></script>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/bd/dragonboat/js/split.js"></script>
+    <script>
+    function postShare () {
+        $.ajax({
+            url: '/operation/share.do?shareId=126&channel=' + window.location.pathname.split('/')[4]
+        });
+    }
+    
+    if(app.getUa.weixin){
+        wxProtocol.init(function (wx, link) {
+            wx.onMenuShareAppMessage({
+                title: (app.query('s5') ? app.query('s5') : '我') + '正在包个特殊的粽子给你，什么馅，绝对想不到！',
+                desc: '看到这几款奇葩的粽子馅，小伙伴们再也无法淡定了！',
+                link: link,
+                imgUrl: 'http://www.365rili.com/pages/bd/dragonboat/images/wx.jpg',
+                success: postShare
+            });
+            wx.onMenuShareTimeline({
+                title: (app.query('s5') ? app.query('s5') : '我') + '正在包个特殊的粽子给你，什么馅，绝对想不到！',
+                link: link,
+                imgUrl: 'http://www.365rili.com/pages/bd/dragonboat/images/wx.jpg',
+                success: postShare
+            });
+        });
+    }
+    $('.gift_filling').css({
+        width: $(window).width() + 'px',
+        left: -($(window).width() / 2 - 32) + 'px'
+    });
+    </script>
+
+</body>
+</html>

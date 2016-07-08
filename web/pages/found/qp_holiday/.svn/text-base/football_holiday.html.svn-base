@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>球迷那么多，谁知道你是真是假</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/football_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>球迷那么多，谁知道你是真是假</h1>
+            </div>
+        </div>
+
+        <div class="qp_main">
+            <p>人若没个爱好，生活势必同白开水一样贫乏。万千女性的爱好非常广泛，她们爱包、爱香水、爱口红、爱漂亮衣服……这一切都源于那句“女为悦己者容”。相对而言，男性的选择就狭窄了许多，无非是香烟、美女和足球。聚在一起谈论共同的爱好，颇有几分“士为知己者死”的意味。尤其是世界杯期间，“足球寡妇”几乎要揭竿而起，一众得了“不看世界杯会死病”的壮士互相掩护，惺惺相惜，好不容易才渡过了这段艰难的岁月。</p>
+            <h3>【足球怎么就这么吸引人】</h3>
+            <p>小编作为一个正儿八经的女青年，无法理解男人们的那股狂热，不过专家对这件事有看法——据说，投射能让男人获得宣泄的愉悦、满足他们的英雄主义情节、让他们融入男性群体甚至找到生命的一部分意义。</p>
+            <img src="/pages/found/qp_holiday/images/football_img1.jpg"/>
+            <p>更有把足球视为“国球”的巴西，足球已成为他们文化生活的主流。对巴西人来说，足球是运动更是文化。巴西几乎人人都是球迷，“不懂足球的人是当不上巴西总统的，也得不到高支持率”，这句话绝对不是说说而已。巴西人常常半开玩笑地说：“我们不在乎一个政府执政是否糟糕，只要它能帮我们赢得世界杯。”</p>
+            <h3>【一个顺理成章的节日】</h3>
+            <p>一种运动如果受到许多人的喜爱，甚至发展为一项全球参加的赛事，那它肯定会有自己的组织。1863年10月26日英国成立了世界第一个足球协会——英格兰足球协会，这个协会的诞生标志着足球运动的发展进入了一个崭新的阶段。</p>
+            <img src="/pages/found/qp_holiday/images/football_img2.jpg"/>
+            <p>1978年联合国召开会议，经国际足联同意后把每年的12月9日定为世界足球日。</p>
+            <h3>【猜中了结局却没猜中经过】</h3>
+            <p>中国经历了一段漫长的救亡图存历史，外有侵略者，内有两大政党的不和睦。当时社会上受过高等教育的进步青年敏锐的察觉到了内战的愚蠢，他们一忍再忍终于忍无可忍！1935年12月9日在中国共产党的组织和领导下，北平市学生联合会率领北平市6000多名学生举行了示威游行。学生们高呼“打倒日本帝国主义”，“停止内战，一致对外”等口号。示威游行得到了北平市清醒、理智的民众和各界人士的支持，示威游行的队伍不断扩大。国民党政府出动了大批的军警进行镇压，打伤和逮捕了许多学生。</p>
+
+            <p class="mt15">为了纪念这次伟大的学生运动，联合国于1978年召开会议，经过国际足联同意把12月9日定为世界足球日。足球和学生爱国运动并没有什么直接关系，但如果连这个节日的来源都知道的人，绝对是真球迷！</p>
+
+            <div class="tips">
+                <p>1、足球和中国的救亡图存运动并没有直接关联，但为了纪念一二九学生运动，联合国于召开会议经过国际足联同意后把12月9日定为世界足球日；</p>
+                <p>2、爱足球能享受宣泄的愉悦，爱音乐能享受律动的美好，人生总要有点爱好，白开水总归是寡淡了些。</p>
+            </div>
+        </div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

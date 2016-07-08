@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>“待机时间最短”的市长</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/mayor_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>“待机时间最短”的市长</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>说起英国你最先会想起什么——优雅的绅士、苏格兰裙、装修精致的各色酒吧……亦或是“超长待机”的英国女王？不过伊丽莎白二世这个女王，她的在位时间那真是“久到离谱”的——已在国王宝座上坐了整整63年！在此请大家忽略这位女王的“老儿子”查尔斯王储是否郁闷，小编只想说，跟占据女王宝座63年的伊丽莎白二世相比，英国伦敦的市长真的是有点惨，他们的任期竟只有短短的一年！</p>
+            <h3>【像昙花一样绽放吧】</h3>
+            <p>“伦敦城”是大伦敦的老城，面积只有260公顷，常住人口近6000人，是英国著名的商业金融中心。“伦敦城”市长为荣誉职位，任期只有一年且不能连任——既然客观的规定这么“不近人情”，那么新上任的市长大人们请像昙花一样的绽放吧！</p>
+            <img src="/pages/found/qp_holiday/images/mayor_img1.jpg"/>
+            <p>每年11月的第二个星期六是伦敦市新选市长上任视事的日子，都要举行颇有声势的古装游行。“伦敦城”市长的马车古色古香，是100多年前的产品，重达4吨。那时候的条件还不支持避震弹簧这种高级配置，所以坐在马车里面上下颠簸时会非常不舒服，可见“怒放”也是要付出代价的。不过还好，市长大人一生只乘坐一次。</p>
+            <img src="/pages/found/qp_holiday/images/mayor_img2.jpg"/>
+            <p>具有800年历史的市长就职游行日最早是伦敦的民选市长就职后从伦敦城巡游到威斯敏斯特的一项活动，后来演变成了伦敦市民的年度狂欢盛会。英国伦敦的军队、学校、社区、医院等单位都会参加，其中还有风琴手演奏优美的乐曲，装扮成小木偶的人和行人亲切握手……</p>
+            <h3>【伦敦市市长和伦敦市长】</h3>
+            <p>伦敦市市长和伦敦市长是两个不同的职位。前者历史久远，是伦敦中心的伦敦市的首长；后者创立于20世纪末，是整个伦敦的首长。市长就职游行日匹配的是伦敦市市长这个职位，所以今天小编就重点讲一下伦敦市市长的二三事。</p>
+            <p class="mt15">首先，在伦敦市内伦敦市市长拥有最高的优先权，以及相当的传统特权、权利和权力。伦敦是一个国际性的大都市、是英国的金融中心，因此伦敦市市长被视为整个英国的金融业代言人，因此伦敦市市长必须颜值过人、骨骼清奇。同时，市长还担负着与其他市长一样的作为基层政府首长的职责以及一些特殊的仪仗。为了使市长在国内和国际上代表英国金融时更有说服力，市长必须没有党派色彩。每年市长要发表100场演说，至少有100天是在国外访问，所以说当这样一个市长也是很辛苦的！</p>
+
+            <div class="tips">
+                <p>1、每年11月的第二个星期六是伦敦市新选市长上任视事的日子，会举行颇有声势的古装游行；</p>
+                <p>2、伦敦市市长任期仅为一年且不可连任，这应该是“待机时间最短”的市长了；</p>
+                <p>3、伦敦市市长承担着相当的责任且拥有很多“超能力”，市长不是你想当，想当就能当啊！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

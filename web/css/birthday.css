@@ -1,0 +1,71 @@
+.birthday_plug{width:800px; height:600px; position:absolute; background:#fff; font-family: "Microsoft YaHei", 微软雅黑; box-shadow: 0px 0px 10px #bdbdbe; -moz-box-shadow: 0px 0px 10px #bdbdbe; -webkit-box-shadow: 0px 0px 10px #bdbdbe;}
+.birthday_plug_title { height: 40px; line-height: 40px; padding: 0 18px; background: url(../images/birthday/birthday_plug_title.gif) repeat-x; font-size: 22px; color: #fff; font-weight: 600; }
+.birthday_plug_title .close_plug { float: right; }
+.birthday_plug_title h3{float:left; line-height:40px}
+.add_birthday_btn{float:left; width:27px; height:27px; margin:8px 0 0 10px; background:url(../images/birthday/add_birthday_btn.jpg) no-repeat;}
+
+.birthday_plug_content_left{width:99px; height:688px; float:left; border-right:1px solid #e4eae9; background:#f9fffe; padding-top:20px;}
+.birthday_plug_content_left ul li{padding-left:35px; line-height:33px; color:#7a6241; cursor:pointer;}
+.birthday_plug_content_left ul li.on{background:url(../images/birthday/list_on.gif) no-repeat 22px center; font-weight:600;}
+.birthday_plug_content_right{height:708px; overflow-y:auto; overflow-x:hidden; background:#f7fafa;}
+.birthday_plug_content_right ul li{padding:0 15px;height:100px; background:url(../images/birthday/birthday_plug_list.gif) repeat-x; border-bottom:1px solid #e5e5e5; position:relative;}
+.birthday_plug_content_right ul li:hover .birthday_operating{display:block;}
+.birthday_name{padding-top:10px;}
+.sex_type,.constellation,.zodiac{float:right; width:40px; height:20px; line-height:20px; text-align:center; color:#fff; -moz-border-radius:3px; -webkit-border-radius:3px; -khtml-border-radius:3px; border-radius:3px; margin:6px 0 0 10px;}
+.girl{background:url(../images/birthday/girl.jpg) no-repeat; padding-left:19px; width:21px;}
+.boy{background:url(../images/birthday/boy.jpg) no-repeat; padding-left:19px; width:21px;}
+.constellation{background:#8ec549;}
+.zodiac{background:#ff984c;}
+.birthday_name h3{height:33px; line-height:33px; font-size:21px; color:#4a2c18; font-weight:500; float:left;}
+.birthday_list .diffTime{float:left;width:23px; height:17px; margin:8px 3px;}
+.birthday_list .red{background:url(../images/birthday/diffTime.jpg) no-repeat 0 0;}
+.birthday_list .yellow{background:url(../images/birthday/diffTime.jpg) no-repeat 0 -19px;}
+.birthday_list .blue{background:url(../images/birthday/diffTime.jpg) no-repeat 0 -37px;}
+.birthday_time{color:#946e4c; font-size:14px; line-height:25px;}
+.birthday_time span{margin-right:20px;}
+.birthday_time span.year_txt{margin:0;}
+.difftime_txt{font-size:14px; color:#979ea9; line-height:25px;}
+.difftime_zero{font-size:16px; color:#e60d19;  line-height:25px;}
+.birthday_operating{width:50px; height:16px; position:absolute; right:15px; bottom:15px; display:none;}
+.birthday_operating a{float:right; height:40px; margin-left:3px; width:20px;}
+.edit_birthady_btn{background: url(../images/plug/todo_edit.png) no-repeat;}
+.del_birthady_btn{background:url(../images/plug/todo_del.png) no-repeat;}
+
+.edit .birthday_list,.edit .birthday_operating,.birthday_plug_content_right ul li.edit:hover .birthday_operating,.birthday_edit{display:none;}
+.birthday_plug_content_right ul li.edit{height:140px; background:#f9f9f9; position:relative;}
+.edit .birthday_name{float:left; width:250px; color:#946e4c; font-size:13px; padding:20px 0 0 0;}
+.edit .birthday_name span{float:left;width:65px;text-align:justify; text-justify:distribute-all-lines;/*ie6-8*/ text-align-last:justify;/* ie9*/  -moz-text-align-last:justify;/*ff*/ -webkit-text-align-last:justify;/*chrome 20+*/}
+.edit .birthday_name input{width:160px; height:16px; padding:2px 4px;}
+.edit .birthday_gender{height:24px; float:left; padding-top:20px; margin-left:15px;color:#946e4c; font-size:13px;}
+.edit .birthday_gender span{float:left;}
+.edit .checkbox{width:16px; height:16px; background:url(../images/birthday/checkbox.jpg) no-repeat left top; border:0; margin:0 2px 0 0;}
+.edit label span{color:#979ea9;}
+.edit label.on .checkbox{background:url(../images/birthday/checkbox.jpg) no-repeat left -16px;}
+.edit label.on span{font-weight:600; color:#946E4C;}
+.edit .checkbox_boy{margin-right:5px; }
+.edit .birthday_edit{display:block;}
+.birthday_date{ padding:20px 0;}
+.add_birthday_date{color:#946e4c; font-size:13px; float:left;}
+.add_birthday_date span{float:left; vertical-align:middle;}
+.add_birthday_date label{margin-right:8px; float:left;}
+.add_birthday_date label span{margin-top:1px;}
+.add_birthday_date label.on span.checkbox{background:url(../images/birthday/checkbox.jpg) no-repeat left -16px;}
+.add_birthday_date label.on span{font-weight:600; color:#946E4C;}
+.transform_solar,.transform_lunar{float:left; padding-left:10px;}
+.transform_solarlunar_txt{float:left;padding-left:20px; color:#959595;}
+.phone_remind span{color:#946E4C; font-size:13px;}
+.phone_remind span{float:left;}
+.phone_remind span.remind_txt{font-size:12px; margin-right:15px; padding-top:1px;}
+.birthday_btn{width:180px; height:30px; position:absolute; bottom:10px; right:0;}
+.birthday_btn a{float:left; width:80px; height:30px; line-height:30px; text-align:center; color:#fff; margin-right:10px;-moz-border-radius:3px; -webkit-border-radius:3px; -khtml-border-radius:3px; border-radius:3px;}
+.save_birthday_btn{background:#268648;}
+.save_birthday_btn:hover{background:#059036;}
+.cancel_birthday_btn{background:#C7C7CA;}
+.cancel_birthday_btn:hover{background:#c23435;}
+.phone_remind label,.birthday_gender label{cursor:pointer;}
+
+.birthday_plug_content_right ul li.birth_empty{padding:0;background:url(../images/birthday/no_birthday.jpg) no-repeat; width:700px; height:553px; border:0;}
+
+.txt_red{font-size:14px; color:#f00;}
+.txt_tom{color:#149b06;}
+.txt_acq{color:#6c9606;}

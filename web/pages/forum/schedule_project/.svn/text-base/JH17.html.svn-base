@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015上海海湾国家森林公园梅花节</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015上海海湾国家森林公园梅花节</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/25772b18-6108-4dfa-9f1f-0dd11059dddc.jpg"/>
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	
+			<a href="http://www.ly.com/scenery/BookSceneryTicket.aspx?id=28286&refid=11103301&tcbdkeyid=17238639159" data-title="点击购票" class="btn js-other">点击购票</a>
+	    	<h3 class="time">时间：2015.02.26-2015.03.22</br>
+                          	 每天：10:00-18:00</h3>
+	    	<h3>场地：上海随塘河路1677号五四社区内 </h3>
+			<h3>费用：80元 </h3>
+			<p class="fc_000"></p>
+			
+			<h3>有一个地方，只想让你知道!</h3>
+		    <p>约定!2015!在中国最大的梅园迎接春光![上海海湾国家森林公园]海之隅 森之秘上海海湾国家森林公园，国家4A级旅游景区，位于奉贤区海湾镇境内。公园占地面积近16000亩，核心开放区域6500亩，拥有全国最大的梅园，2月16 日-3月22日，“梅林-2015上海梅花节”将在这里举办。园内负氧离子含量是平均2520个/cm3，是名副其实的天然大氧吧。 </p>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/ff9abcd9-6dbf-4d64-af06-e3b4c151baf7.jpg"/>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/6fc63023-34b1-420e-bfef-454e76519a4a.jpg"/>
+			<p>花开五福春归日 一年之计醉梅时 2014年，已有40.2万人在这里完成了与春天的契约，那以后，我们要做的就是静候春光归来。 2015年2月16日-3月22日，“梅林-2015上海梅花节”将在上海海湾国家森林公园盛世花开。赏游年关第一花，品玩初春第一味。活动紧扣新春和踏春两个主题，新春带您体味民俗风味，踏春许你海派风情。 </p>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/2a0d7a88-2706-4472-8a61-3ea944030afd.jpg"/>
+			<!--p是段落文字描述-->
+			<h3>公交车：</h3>
+			<p>乘坐南燎线、海湾三线、奉城三线公交车，在(海湾森林)站下。</p>
+			  
+			<h3>自驾车：</h3>
+			
+			<p>1.市区—S4—G1501瓦洪公路出口—瓦洪公路—随塘河路—海湾森林公园</br>
+			   2.市区—S20—S2新四平公路出口—五四公路/五四支路—随塘河路—海湾森林公园</br>
+			   3.市区—浦星公路—平庄公路—洪朱公路—随塘河路—海湾森林公园 </p>
+			
+			
+			
+			<h3>免责说明：</h3>
+			<p>所有活动信息及图片仅供参考。365日历致力于提供真实、准确的活动信息，但不保证活动信息的真实性和准确性，且不对因信息的不真实或者不准确导致的任何损失或损害承担责任。凡以任何方式登录365日历或者直接、间接参加相关活动者，视为自愿接受本网站声明的约束。</p>
+			
+			<!-- 默认底部有个添加提醒的按钮，不显示的话remind_div的位置加上 none -->
+            <div class="remind_div none" data-uuid="4e0b87d7-73ef-47ed-9069-5060d1f79f57" data-cid="125821987"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/813f36ba-4087-43d1-a6a0-e738c23f582d.jpg',
+                title: '2015上海海湾国家森林公园梅花节',
+                desc: '花开五福春归日 一年之计醉梅时 2014年，已有40.2万人在这里完成了与春天的契约，那以后，我们要做的就是静候春光归来。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015上海海湾国家森林公园梅花节',
+		        				content: '花开五福春归日 一年之计醉梅时 2014年，已有40.2万人在这里完成了与春天的契约，那以后，我们要做的就是静候春光归来。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/813f36ba-4087-43d1-a6a0-e738c23f582d.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

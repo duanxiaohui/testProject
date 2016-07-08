@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>渴望自由的人啊，脱掉裤子吧</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/underwear/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>内裤地铁日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>如果你今天上班的时候在地铁站看到一些面无表情的没穿裤子的人，不要惊慌，可能是神经病院今天放假了。不然呢，这冰天雪地的三九严寒，头脑正常的人怎么会不穿秋裤！</p>
+          
+            <img src="images/underwear/holiday_img1.jpg"/>
+            <h3>【冷冻自己 娱乐他人】</h3>
+           
+
+            <p>每年1月13日为“内裤地铁日”，它是由美国民间组织“处处即兴”在2002年发起的一项活动，意在让人们尝试摒弃保守，为生活增加乐趣。由于这个节日能带来新奇、刺激（和寒冷、神经病一般）的体验，它如今已冲出美国、走向世界。英国伦敦市民在严冬中光着双腿庆祝“不穿裤子节”，已有好几年的历史，而纽约、伦敦、北京和上海在内的世界许多城市的人们也开始“不约而同”地穿着内裤乘坐地铁，并在旁人的讶异眼光中若无其事地看报纸杂志。</p>
+            
+            <img src="images/underwear/holiday_img2.jpg"/>
+            <h3>【请严格做好表情管理】</h3>
+          
+            <p>2002年，一群喜爱恶作剧的纽约人决定不穿裤子乘地铁，以引起轰动，并借此鼓励人们摈弃保守思想、尝试新东西、为生活增添乐趣。参加者要求面无表情，倘若有人问起，就说：“忘记穿裤子了。”当时，一名参与者只穿着内裤走进地铁，连坐了7站。到第8站时，最后一名参与者就会走进车厢，在其他困惑的乘客面前售卖裤子。</p>  
+
+            <p class="mt15">因此沿袭下来的“无裤日”活动传统，就是不穿裤子乘地铁，同时要面无表情，参加者要表现得仿佛互相不认识。在天气寒冷的地方，除了不穿裤子外，参加者的其他衣着要符合冬天的装扮——戴帽子、围围巾、穿大衣等。不过在悉尼等地，参加者就比较“幸运”，他们可以享受温暖的阳光。</p>
+
+            <img src="images/underwear/holiday_img3.jpg"/>
+            
+			<h3>【警察叔叔，就是他们裸奔】</h3>
+
+            <p>自此，越来越多人加入“无裤日”活动。但这项活动在2006年时遇到了小麻烦，8名在纽约参加活动的乘客被警察抓走，不过法官判他们无罪释放，理由是在地铁上穿内裤并不违法。</p>
+
+            <p class="mt15">“内裤地铁日”的发起者查理·托德说：“该活动无意触犯法律，我们的目标是在公众场合制造欢乐和趣事。”该组织规定所有参与者一律不穿长裤、只穿短裤，但是他（她）们穿的内裤都是平头裤，三角裤、丁字裤是禁穿的。参加这一活动的人需要满足三个条件：一是自愿在地铁中脱裤子，二是能够板住脸以免露出任何破绽，三是所穿内裤要符合道德伦理。</p>
+			
+
+
+            <div class="tips">
+                <p>1、1月13日是内裤地铁日，乘坐地铁时下身只需穿着内裤；</p>
+                <p>2、要是工作日的话，记得把裤子装进包里；</p>
+                <p>3、内裤不可败坏风俗，紧身的三角的丁字的就免了。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/欢欢</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

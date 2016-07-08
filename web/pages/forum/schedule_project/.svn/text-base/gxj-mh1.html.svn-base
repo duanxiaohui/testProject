@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015北京地坛公园春节庙会</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015北京地坛公园春节庙会</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	
+	    	<img src='http://cocoimg.365rili.com/schedule_pics/default/8886a99e-b676-475e-8a0c-e4b9588601db.jpg'>
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+			 <a class="btn js-subscribe" data-uuid="94f00c18-3694-453d-a004-5ae4eca14ecd" data-cid="147462861">添加提醒</a>
+	    
+	    	<p class="time"><b>时间：2015.2.18 - 2.25  （09:00-17:00）</b><br/>
+	    	<b>场地：北京-地坛公园</b><br/>
+			<b>费用：详见现场</b></p>
+			<h3>活动看点：</h3>
+			<p>1、被誉为现代的《清明上河图》和中国的狂欢节。<br/>
+			   2、地道的民俗、传统的民间特色。<br/>
+			   3、北京特色小吃，民俗表演。</p>
+			<!--h3是小标题-->
+			<h3>活动简介：</h3>
+			<!--p是段落文字描述-->
+			<p>地坛庙会每年都有的活动是扫年货、祭地和文娱节目，空竹、古彩戏法、口技等老北京绝活令人大饱眼福，非物质文化遗产广场上有东巴陶艺、剪纸、皮影、土布织造等艺术制作的全过程。</p>
+<img src='http://cocoimg.365rili.com/schedule_pics/default/758fbd59-715d-4052-9810-cf62ff85f721.jpg'>
+<p>每年都会有其特色突出的活动，并且每一届都会有吉祥物。今年的庙会如何，就要亲自去现场揭秘了。</p>
+<p><b>地坛公园庙会公交：乘坐125、117路在 地坛东门 下，或125路在地坛北门站下步行至地坛公园庙会现场，或地铁2号线或5号线在雍和宫站下，由南天门入园。<br/>
+停车场：①雍和宫桥下停车场;②公园南门外西侧停车场;</b></br></br>
+具体详情以官方信息为准</p>
+
+</p>
+
+<img src='http://cocoimg.365rili.com/schedule_pics/default/db908677-1f04-4217-829b-083af49fa15a.jpg'>
+ <div class="remind_div" data-uuid="94f00c18-3694-453d-a004-5ae4eca14ecd" data-cid="147462861"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/93c289d5-feeb-4f8a-92fc-0be8861f5822.jpg',
+                title: '2015北京地坛公园春节庙会',
+                desc: '地坛庙会每年都有的活动是扫年货、祭地和文娱节目，空竹、古彩戏法、口技等老北京绝活令人大饱眼福，非物质文化遗产广场上有东巴陶艺、剪纸、皮影、土布织造等艺术制作的全过程。每年都会有其特色突出的活动，并且每一届都会有吉祥物'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015北京地坛公园春节庙会',
+		        				content: '地坛庙会每年都有的活动是扫年货、祭地和文娱节目，空竹、古彩戏法、口技等老北京绝活令人大饱眼福，非物质文化遗产广场上有东巴陶艺、剪纸、皮影、土布织造等艺术制作的全过程。每年都会有其特色突出的活动，并且每一届都会有吉祥物'
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/93c289d5-feeb-4f8a-92fc-0be8861f5822.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

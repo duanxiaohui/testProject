@@ -1,0 +1,39 @@
+body { background: #ecedee; color: #444; font: 12px / 1.5em "Microsoft YaHei", 微软雅黑,SimSun,arial; height: 100%; margin: 0; padding: 0; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+textarea { background: #fff; border: 1px solid #d2d9dc; border-radius: 2px; box-shadow: 0 0 0 #d2d9dc; -moz-transition: .3s ease-in-out; transition-property: border box-shadow; -webkit-transition: .3s ease-in-out; }
+textarea:focus, input[type="text"]:focus { /*border: 1px solid #b7d4ea;*/ box-shadow: 0 0 5px #b7d4ea inset; }
+a { color: #208de9; cursor: pointer; text-decoration: none; }
+a:hover { color: #ff5b86; }
+html { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; overflow: hidden;}
+html, body { height: 100%; }
+.v_align { vertical-align: middle; }
+
+.user_info{padding:20px 5%;}
+.user_sign{padding:18px 5%;}
+
+.user_avatar{float:left; width:65px; height:65px; border:3px solid #d9d9d9; -moz-border-radius: 5px; -webkit-border-radius:5px; -khtml-border-radius: 5px; border-radius:5px;}
+.user_avatar img{-moz-border-radius: 5px; -webkit-border-radius:5px; -khtml-border-radius: 5px; border-radius:5px;}
+.user_name{margin-left:28%; padding-top:15px;}
+
+.user_sign{background:#fff; border-top:1px solid #cdcdcd; border-bottom:1px solid #cdcdcd; color:#a5a5a5;}
+.user_nickname{font-size:18px; color:#1a1a1a;}
+.userid_txt{line-height:30px; color:#a6a6a6; font-size:13px;}
+
+.user_sign p{color:#ababab; font-size:15px; line-height:170%; padding-left:78px; text-indent:-78px;}
+.user_sign p span{color:#565656; margin-left:15px;}
+
+.collect_calendar{padding:20px 0 20px 5%; margin-top:15px; border-top:1px solid #cdcdcd; background:#fff;}
+.collect_calendar_title{font-size:15px; color:#ababab; padding-bottom:20px; border-bottom:1px solid #cdcdcd; padding-right:5%;}
+.collect_calendar_title span{float:right;}
+.collect_calendar_content li{width:71px; height:100px;  float:left; margin:20px 5% 0;}
+.collect_calendar_content li a{display:block; width:65px; border:3px solid #dddedf; height:65px; overflow:hidden; -moz-border-radius: 100%; -webkit-border-radius:100%; -khtml-border-radius: 100%; border-radius:100%;}
+.collect_calendar_content li p{font-size:13px; color:#363636; line-height:29px; text-align:center; height:29px; width:71px; overflow:hidden; white-space: nowrap;text-overflow: ellipsis; }

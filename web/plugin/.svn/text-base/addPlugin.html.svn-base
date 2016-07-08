@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>365日程助手</title>
+		<script src="/js/jquery/jquery-1.6.1.min.js"></script>
+		<script>
+			function is_ie(){
+				 return navigator.userAgent.indexOf('MSIE')>0;
+			 }
+			 function is_ie_8(){
+				 return navigator.userAgent.indexOf('MSIE 8')>0 || navigator.userAgent.indexOf('MSIE 7')>0;
+			 }
+			 function is_chrome(){
+				 return navigator.userAgent.indexOf('Chrome')>0;
+			 }
+			 function is_firefox(){
+				 return navigator.userAgent.indexOf('Firefox')>0;
+			 }
+
+			 $(document).ready(function(){
+				  if(is_chrome())
+				 {
+					 $('.other').show();
+				 }else if(is_firefox())
+				 {
+					$('.other').show();
+				  }else if(is_ie_8())
+				  {
+					$('.ie').show();
+				}else
+				{
+					$('.ie').show();
+				 }
+			});
+
+		</script>
+    </head>
+    <body>
+		<div id="bd" class="wrp clear-fix"><!-- body -->
+			<div id="aside" class="clear-fix"><!-- aside -->
+				<h2>如何使用？</h2>
+				<ol id="ver">
+					<li class="func" >
+						<p class="ie" style="display:none">右键点击下面的按钮，选择菜单中的“<strong>添加到收藏夹...</strong>”。</p>
+						<p class="other" style="display:none">用鼠标直接将下面的链接拖拽到浏览器的书签栏</p>
+						<p>
+							<a  href="javascript:(function(){CLIP_HOST='http://www.365rili.com/plugin/';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=CLIP_HOST+'addPlugin.js';x.charset='utf-8';document.getElementsByTagName('head')[0].appendChild(x);}catch(e){alert(e);}})();" onclick="alert('请将此链接拖拽到书签栏'); return false;">
+								日程助手
+							</a>
+						</p>
+						<p class="tip">注：如果弹出安全警报，请选择“是”继续</p>
+
+					</li>
+					<li class="func func-ie8" style="display:none">
+						<p>将“<strong>创建位置</strong>”修改为“<strong>收藏夹栏</strong>”</p>
+						<p class="img"><img src="styles/images/ie8/p-1.png" ></p>
+					</li>
+
+					<li class="func func-add">
+						<p>遇到需要记录的日程就可以直接点击<span class="btn-pos">书签栏</span>中的“<strong>日程助手</strong>”使用了！</p>
+						<p class="img"><img src="1.png" class="add-snap""></p>
+					</li>
+				</ol>
+			</div><!-- end aside -->
+
+			<div id="main"><!-- main content -->
+				<div class="main-bd clear-fix">
+					<div class="sec" id="faq">
+						<h2><span class="h2-title">常见问题</span></h2>
+						<ul>
+
+							<li>
+								<h3>1. 365插件可以为我做什么？</h3>
+								<p>一键保存网页内容和网址，并可在365日历中方便地管理，并可以同步到手机上查看并提醒。</p>
+							</li>
+							<li>
+								<h3>2. 365插件有哪几种用法？</h3>
+								<p>
+								打开网页，鼠标选中想保存的内容，点击收藏夹/书签栏上的“日程助手”链接。
+								</p>
+							</li>
+							<li>
+								<h3>3. 365插件支持哪些浏览器？</h3>
+								<p>IE，360，Firefox，Chrome，搜狗等主流浏览器。</p>
+
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div><!-- end main content -->
+			
+		</div><!-- end body -->
+	</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>嘿！科！技！</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/kejiri/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>全国科技人才活动日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>要问现在最热的科技，无疑就是这些日子里持续霸屏的《AlphaGo大战李世石》了。与过去提到人工智能，人们通常的反应——“不屑一顾”、“离我太远”、”太恐怖了“相比，今天大众对人工智能的理解，开始趋于理性化。特别是在这样“机器赢了人类”的事件爆发后，对人工智能持肯定态度的用户还能排在第一位，因为人们对事件的快速反应，通常是防御性的，这更难能可贵。我们国家也一直鼓励科技的创新，从越来越多的科技孵化器中我们就可以感受到现在科技发展的迅速。</p>
+            <img src="images/kejiri/holiday_1.jpg"/>
+          
+
+            <h3>【人工智能已经来啦】</h3>
+
+            <p>人工智能真正威胁到人类，这种可能性虽然不能完全排除，但科技进步从长期趋势看，对人类总是有益的。而且人工智能战胜围棋高手这件事情本身，也并不代表人工智能的智力水平达到或超越人类。AlphaGo和李世石的这场比赛，对于围棋界来说，是一场尊严之战；对于科技圈来说，是一场正名之战。而对于人工智能，这场比赛让其大众和社会影响力被全球化媒体平台快速传播放大——这比战胜多少个李世石都更为重要。</p>
+
+            <img src="images/kejiri/holiday_3.jpg"/>
+
+             <h3>【科技日的由来】</h3>
+
+            <p>随着世界科技的发展，科技已经成为一个国家力量的表现，因为科学技术是推动现代生产力发展中的重要因素和重要力量。1978年的3月18日 , 召开了全国科学大会，在此次大会上，邓小平提出“科学技术是生产力”的著名论断。1993年3月18日上午, 全国首届科技人才技术交流洽谈会在中国国际展览厅开幕。组委会发出倡议 , 将3月18日定“科技人才活动日”。倡议书发出后 , 得到著名科学家和社会各界人士的积极响应，3月18日也就定位了“全国科技人才活动日”。了。</p>	
+            <img src="images/kejiri/holiday_2.jpg"/>		
+
+            <div class="tips">
+                <p>1、科技推动着人类社会的发展，以后的日子我们将会越来越离不开科技；</p>
+                <p>2、现在慢慢兴起的VR（虚拟现实）领域，也将会为我们打开科技的新大门的。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/Vanna</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

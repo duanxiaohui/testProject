@@ -1,0 +1,50 @@
+body { background:url(http://up2.365rili.com/v3/images/bg.jpg) repeat; color: #444; font: 12px / 1.5em arial,"Microsoft YaHei", 微软雅黑; height: 100%; margin: 0; padding: 0;}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+textarea { background: #fff; border: 1px solid #d2d9dc; border-radius: 2px; box-shadow: 0 0 0 #d2d9dc; -moz-transition: .3s ease-in-out; transition-property: border box-shadow; -webkit-transition: .3s ease-in-out; }
+textarea:focus, input[type="text"]:focus { /*border: 1px solid #b7d4ea;*/ box-shadow: 0 0 5px #b7d4ea; }
+a { color: #208de9; cursor: pointer; text-decoration: none; }
+
+.main{width:987px; margin:0 auto; padding-top:25px;}
+.logo_nav{padding-bottom:10px;}
+.logo{height:35px; width:186px; background:url(../images/sync2cell/logo.png) no-repeat; position:relative;}
+.nav{float:right; padding-top:7px; height:28px; width:600px;}
+.nav ul li{float:right; line-height:28px; color:#333; font-size:14px; padding:0 0 0 20px;}
+.nav ul li a{color:#333;}
+.nav ul li a:hover,.nav ul li.on a{color:#0ab7d3;}
+.code_down{width:987px; height:525px; margin:0 auto; position:relative; background:url(../images/sync2cell/code_down.jpg) no-repeat;  
+	-webkit-box-shadow: 0 0 10px #999;
+    -moz-box-shadow: 0 0 10px #999;
+    box-shadow: 0 0 10px #999;}
+.ios{width:121px; height:295px; position:absolute; top:150px;left:160px; background:url(../images/sync2cell/ios.png) no-repeat;}
+.focus{width:200px; height:390px; position:absolute; top:43px;left:413px; background:url(../images/sync2cell/focus.png) no-repeat;}
+.android{width:121px; height:296px; position:absolute; top:150px;right:160px; background:url(../images/sync2cell/android.png) no-repeat;}
+.about{width:887px; padding:25px 0 0 100px; margin:0 auto;}
+.about dl{padding-bottom:15px;}
+.about dl dt{height:28px; line-height:28px; background:url(../images/sync2cell/dt.png) no-repeat left center; padding-left:22px; font-size:16px; color:#000;}
+.about dl dd{padding-left:22px; line-height:28px;  color:#888; }
+.about dl dd p{font-size:14px;}
+.about ul{padding-top:10px;}
+.about ul li{height:68px; padding-left:64px; line-height:42px; font-size:14px;}
+.festival{background:url(../images/sync2cell/festival.png) no-repeat left top;}
+.birthday{background:url(../images/sync2cell/birthday.png) no-repeat left top;}
+.wnl{background:url(../images/sync2cell/wnl.png) no-repeat left top;}
+.constellation{background:url(../images/sync2cell/constellation.png) no-repeat left top;}
+.todo{background:url(../images/sync2cell/todo.png) no-repeat left top;}
+.slq{background:url(../images/sync2cell/slq.png) no-repeat left top;}
+.limit{background:url(../images/sync2cell/limit.png) no-repeat left top;}
+.active{background:url(../images/sync2cell/active.png) no-repeat left top;}
+.date{background:url(../images/sync2cell/date.png) no-repeat left top;}
+.code_down p{width:987px;line-height:38px; text-align:center; color:#fff; font-size:14px; font-family:Arial;height:38px; position:absolute; bottom:15px; font-weight:600;}
+
+.footer{text-align:center; line-height:30px; color:#0bb6d0; padding-bottom:15px; }
+
+.logo a{width:35px; height:35px; display:block; position:absolute; left:0; top:0; z-index:3;}

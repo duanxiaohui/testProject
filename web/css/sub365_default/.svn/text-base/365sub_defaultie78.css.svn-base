@@ -1,0 +1,203 @@
+
+html
+{
+	background: #cecece;
+}
+
+#riliPage
+{
+	
+}
+
+#contentTB
+{
+	padding-bottom: -200px;
+	margin-bottom: 200px;
+}
+
+.chooser
+{
+	font: 13px Arial,Helvetica,sans-serif;
+	color: #999999;
+	margin: 10px;
+}
+
+#gridcontainer-cate
+{
+	
+}
+
+.expand-arrow
+{
+	width: 20px;
+	height: 20px;
+}
+.expand-button
+{
+	float: right;
+	padding: 6px;
+	margin-top: -5px;
+	cursor: pointer;
+}
+
+#content-title-name
+{
+	float: left;
+}
+
+.gridcontainer-title
+{
+	text-align: left;
+	text-align: -moz-left !important;
+	font: 20px Arial,Helvetica,sans-serif;
+	height: 30px;
+	font-style: italic;
+	background: #BBB5FF;
+	padding-left: 20px;
+	padding-top: 5px;
+	margin-top: 10px;
+	color: white;
+}
+
+.gridcontainer-title-name
+{
+	float: left;
+}
+
+#contentTB
+{
+	border-left: 1px solid #AAAAAA;
+}
+
+#gridcontainer
+{
+	
+}
+#cal_header .spaceLi{
+	width: 219px;
+	height: 10px;
+}
+
+#cal_header .fullDateNavInfo{
+	position:relative;
+	font-size:30px;
+	font-weight:bolder;
+	width:55%;
+	text-align:center;
+	text-align: -moz-center !important;
+}
+
+#sub-left-top .ctlsub
+{
+	background:url(/images/cal365_default/viewBtns_06.gif) 65px 32px;
+	width:61px;
+	height:26px;
+	line-height:26px;
+	text-align:center;
+	text-align: -moz-center !important;
+	cursor:pointer;
+	color:#256479;
+}
+
+#subtag-cloud
+{
+	width: 172px;
+	min-height: 160px;
+	background: #f9f9f9;
+	margin: 0px 10px 0px 10px;
+	padding-right: 5px;
+	overflow: hidden;
+	color: #888888;
+}
+
+#recommend-cloud
+{
+	width: 172px;
+	height: 100px;
+	background: #f9f9f9;
+	margin: 0px 10px 0px 10px;
+	padding-right: 5px;
+	overflow: hidden;
+	color: #888888;
+}
+
+.cloud-bar
+{
+	color: white;
+	font: 16px Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	height: 14px;
+	margin-left: 10px;
+	margin-right: 8px;
+	padding: 5px;
+}
+.allsub-bar
+{
+	background: #8BA585;
+}
+.subcloud-bar
+{
+	background: #99CC8D;
+}
+.more-bar
+{
+	background: #4464BA;
+}
+.recommend-bar
+{
+	background: #A0ABFF;
+}
+
+.subtag-cloud-item
+{
+	font: 14px Arial,Helvetica,sans-serif;
+	float: left;
+	cursor: pointer;
+	padding: 2px;
+	height: 16px;
+	margin-top: 10px;
+	margin-right: 10px;
+	border-bottom: 1px solid #e0e0e0;
+	display: inline;
+	white-space:nowrap;
+}
+.subtag-cloud-item:hover
+{
+	color: #333333;
+}
+.cate-list-item
+{
+	text-align: center;
+	text-align: -moz-center !important;
+	font: 15px Arial,Helvetica,sans-serif;
+	color: #333333;
+	text-shadow: 1px 1px 0 white;
+	background: #ECFFFF;
+	padding: 5px;
+	margin: 0px 10px 0 10px;
+	border-bottom: 1px solid #CCCCFF;
+	cursor: pointer;
+	height:20px;
+}
+
+.cate-list-item:hover
+{
+	background: #DEE0FF;
+}
+
+.catename
+{
+	float: left;
+	margin-left: 10px;
+}
+
+.categt
+{
+	float: right;
+}
+
+#cate-list
+{
+	overflow-y: auto;
+	overflow-x: hidden;
+}

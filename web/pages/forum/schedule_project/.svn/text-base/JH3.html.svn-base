@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>第六届摇滚春晚</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">第六届摇滚春晚</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/cad40f43-b2bd-4d81-bb42-57bc0f190fbc.jpg"/>
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+			<a href="http://www.chinaticket.com/beijing/view/19658.html" data-title="点击购票" class="btn js-other">点击购票</a>
+	    	<h3 class="time">时间：2015-2-7  19:00-22:00</h3>
+	    	<h3>地址：北京东城区 糖果TANGO</h3>
+			<h3>费用：250元</br>提示：演出门票一经售出，不退不换。</h3>
+			<p class="fc_000"></p>
+			<h3>参演内容：</h3>
+			<p>摇滚春晚是由内地知名摇滚乐队天堂乐队09年底发起的一个摇滚乐盛会，自2011年第二届起已将主办场地转至奥体中心体育馆，旨在为更多的乐迷在一年的开端可以享受由内地最优秀的摇滚音乐人带来的新年祝福！做为国内第二大春晚品牌，连续五届饱受好评。2009年年底由天堂乐队发起，本着丰富文化市场和中国年的情节，将音乐（主流摇滚乐）与表现形式丰富的相声以及杂技魔术等颇受欢迎的艺术相结合，创造出新生代乐于接受的新派的以摇滚乐为核心的曲艺联欢形式。</p>
+			
+			<!--h3是小标题-->
+			
+			<!--p是段落文字描述-->
+			<h3>本届参演阵容：</h3>
+			<p>天堂乐队、秦勇、川子（川鑫联）、爽子与瓷、指人儿乐队、万重、糖衣娃娃&耿琦&诱派、非鱼乐队、灰子、单翼天使、彩虹来乐队、CMCB、轴、闻风民乐团&殇、九宝、远途乐队、赵卫指行者&上猇、张宇（液氧罐头）、光速飞行、龙锦、玛丽玩偶、老皮匠乐队、OOC、相声第二班：徐强、梁洪昊</p>
+			<h3>历史回顾：</h3>
+			<p>首届摇滚春晚是由《中国摇滚榜》与天堂乐队联手策划，聚集了国内知名的老中青摇滚干将：天堂、爽子和义和团、面孔、赵卫和吴遥（轮回乐队）、栾树、夏乐团、艳乐队、陈磊（唐朝）、张克芃（黑豹）、宁浩（《疯狂石头》导演）、秦勇以及80后相声新宠“嘻哈包袱铺“等，因为在异地演出未能到场的叶世荣以及圈内重量级人物丁武、老五、何勇、周晓鸥等也都在VCR中献上祝福。</p>
+			<p>现场演出的乐队和歌手们不仅带来了经典成名曲，还翻唱了很多经典摇滚歌曲，现场异常火爆。有些艺人除了唱歌还表演相声，极尽搞笑之能事，让看腻了传统春节晚会和喜欢摇滚音乐的人们眼前一亮。演唱会场面红火，主题标新立异，内容推陈出新，让观众们提前感受了春节独有的“年”味。</p>
+			<p>演出持续了三个小时，最后，当天堂乐队主唱雷刚把所有歌手和乐队代表请到台上时，台上台下的情绪沸腾到顶点，最近在网上疯传的摇滚群星版《过年喽》第一次在现场和大家一起躁了起来，而这样的场面充满了特别的意义，摇滚人的团结和力量再一次展现在大众面前。</p>
+		    <h3>免责说明：</h3>
+			<p>所有活动信息及图片仅供参考。365日历致力于提供真实、准确的活动信息，但不保证活动信息的真实性和准确性，且不对因信息的不真实或者不准确导致的任何损失或损害承担责任。凡以任何方式登录365日历或者直接、间接参加相关活动者，视为自愿接受本网站声明的约束。</p>
+    	
+		<!-- 默认底部有个添加提醒的按钮，不显示的话remind_div的位置加上 none -->
+            <div class="remind_div none" data-uuid="4e0b87d7-73ef-47ed-9069-5060d1f79f57" data-cid="125821987"><div class="remind_icon"></div><span>添加提醒</span></div>
+		</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/1c9fb878-59b6-48b6-8227-24861c664530.jpg',
+                title: '第六届摇滚春晚',
+                desc: '摇滚春晚是由内地知名摇滚乐队天堂乐队09年底发起的一个摇滚乐盛会，自2011年第二届起已将主办场地转至奥体中心体育馆，旨在为更多的乐迷在一年的开端可以享受由内地最优秀的摇滚音乐人带来的新年祝福！'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '第六届摇滚春晚',
+		        				content: '摇滚春晚是由内地知名摇滚乐队天堂乐队09年底发起的一个摇滚乐盛会，自2011年第二届起已将主办场地转至奥体中心体育馆，旨在为更多的乐迷在一年的开端可以享受由内地最优秀的摇滚音乐人带来的新年祝福！',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/1c9fb878-59b6-48b6-8227-24861c664530.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

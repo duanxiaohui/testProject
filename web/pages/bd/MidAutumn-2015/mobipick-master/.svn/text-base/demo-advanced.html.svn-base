@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mobi Pick - An Android-style datepicker widget for jQuery Mobile - Progressive enhancement demo</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<link rel="shortcut icon" href="demo/favicon.ico" type="image/x-icon" />
+	<style type="text/css">
+		div.demo {
+			border-bottom: 1px dotted gray;
+			margin-bottom: 2em;
+		}
+		input {
+			margin: 2em 0;
+		}
+	</style>
+	<link rel="stylesheet" href="external/jquery.mobile-1.3.0.min.css?ver=1" />
+	<link href="css/mobipick.css?ver=1" rel="stylesheet" type="text/css" />
+	<link href="demo/shCoreDefault.css?ver=1" rel="stylesheet" type="text/css" />
+	<link href="demo/shThemeDefault.css?ver=1" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="demo/shCore.js"></script>
+	<script type="text/javascript" src="demo/shBrushJScript.js"></script>
+	<script type="text/javascript" src="demo/shBrushXml.js"></script>
+	<script type="text/javascript" src="external/modernizr.custom.min.js"></script>
+	<script type="text/javascript" src="external/xdate.js"></script>
+	<script type="text/javascript" src="external/xdate.i18n.js"></script>
+	<script type="text/javascript" src="external/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="external/jquery.mobile-1.3.0.min.js"></script>
+	<script type="text/javascript" src="js/mobipick.js"></script>
+	<script type="text/javascript">
+		$( document ).on( "pagecreate", "#advanceddemo", function() {
+			SyntaxHighlighter.all();
+
+			$( "input.mobipick-demo-default-date", this ).mobipick();
+
+			$( "input.mobipick-demo-spanish", this ).mobipick({
+				locale: "es"
+			});
+
+			$( "input.mobipick-demo-min-max-date", this ).mobipick();
+
+			$( "input.mobipick-accuracy-month", this ).mobipick({
+				accuracy: "month"
+			});
+
+			$( "input.mobipick-accuracy-year", this ).mobipick({
+				accuracy: "year"
+			});
+
+			$( "input.mobipick-accuracy-year-min-max-date", this ).mobipick({
+				accuracy: "year"
+			});
+			var mpFrom = $( "input.mobipick-range-date-min", this ).mobipick();
+			var mpTo   = $( "input.mobipick-range-date-max", this ).mobipick();
+			mpFrom.on( "change", function() {
+				mpTo.mobipick( "option", "minDate", mpFrom.mobipick( "option", "date" ) );
+			});
+			mpTo.on( "change", function() {
+				mpFrom.mobipick( "option", "maxDate", mpTo.mobipick( "option", "date" ) );
+			});
+			$( "input.mobipick-human-readable" ).mobipick({
+				intlStdDate: false
+			});
+
+			$( "input.mobipick-date-min-dynamic" ).mobipick({
+				minDate: (new XDate()).addDays( 4 )
+			});
+			var pickerWithReset = $( "input.mobipick-reset" ).mobipick();
+			$( "a.reset" ).on( "tap", function() {
+				pickerWithReset.mobipick("option", "date", null).mobipick("updateDateInput");
+			});
+
+			$( "input.mobipick-mm-dd-yyyy" ).mobipick({
+				dateFormat: "MM-dd-yyyy"
+			});
+			$( "input.mobipick-controls-8601-order" ).mobipick({
+				inputOrder: "y m d"
+			});
+
+            var buttonPicker = $( "input.mobipick-programmatically", this ).mobipick();
+            $( "button.mobipick-programmatically", this ).on( "tap click", function() {
+                buttonPicker.mobipick( "open" );
+            });
+            buttonPicker.on( "change", function() {
+                // use the date after confirmation
+                window.alert( buttonPicker.mobipick( "option", "date" ) );
+                // or alternatively
+                // window.alert( buttonPicker.mobipick( "dateString" ) );
+                // window.alert( buttonPicker.mobipick( "localeString" ) );
+            })
+
+        });
+	</script>
+</head>
+<body>
+	<div id="advanceddemo" data-role="page" data-add-back-btn="true" class="ui-body-b">
+		<div data-role="header" class="ui-body-b">
+			<h1>Mobi Pick - Advanced demo</h1>
+		</div>
+		<div data-role="content" class="ui-body-b">
+			<div class="demo">
+				<h1>Datepicker with default date</h1>
+				<input class="mobipick-demo-default-date" value="2008-10-17" type="text" />
+				Mobi Pick recognizes the value attribute as the default value.
+				<pre class="brush:xml">&lt;input type="text" value="2008-10-17" /&gt;</pre>
+			</div>
+			<div class="demo">
+				<h1>Datepicker with min and max date (for example, dates in 2011)</h1>
+				<input class="mobipick-demo-min-max-date" min="2011-01-01" max="2011-12-31" type="text" />
+				Mobi Pick recognizes the min and max attribute automatically.
+				<pre class="brush:xml">&lt;input type="text" min="2011-01-01" max="2011-12-31" /&gt;</pre>
+			</div>
+			<div class="demo">
+				<h1>Datepicker in spanish</h1>
+				<input class="mobipick-demo-spanish" type="text" />
+				<pre class="brush:xml">&lt;input type="text" /&gt;</pre>
+				Set the locale like this
+				<pre class="brush: js">
+				$( selector ).mobipick({
+					locale: "es" //default is "en", english
+				});</pre>
+			</div>
+			<div class="demo">
+				<h1>Monthpicker (no native support)</h1>
+				<input class="mobipick-accuracy-month" type="text" />
+				<pre class="brush:xml">&lt;input type="text" /&gt;</pre>
+				Set the accuracy to month like this
+				<pre class="brush: js">
+				$( selector ).mobipick({
+					accuracy: "month" //default is "day"
+				});</pre>
+			</div>
+			<div class="demo">
+				<h1>Yearpicker (no native support)</h1>
+				<input class="mobipick-accuracy-year" type="text" />
+				<pre class="brush:xml">&lt;input type="text" /&gt;</pre>
+				Set the accuracy to year like this
+				<pre class="brush: js">
+				$( selector ).mobipick({
+					accuracy: "year" //default is "day"
+				});</pre>
+			</div>
+			<div class="demo">
+				<h1>Yearpicker with min and max date (no native support)</h1>
+				<input value="2012" min="2010" max="2014" class="mobipick-accuracy-year-min-max-date" type="text" />
+				Mobi Pick recognizes the value, min and max attributes automatically. Set the accuracy to year like this
+				<pre class="brush: js">
+				$( selector ).mobipick({
+					accuracy: "year" //default is "day"
+				});</pre>
+				<pre class="brush:xml">&lt;input type="text" value="2012" min="2010" max="2014" /&gt;</pre>
+			</div>
+			<div class="demo">
+				<h1>Datepicker with dynamic min date (no native support)</h1>
+				<input class="mobipick-date-min-dynamic" type="text" />
+				Set the min date four days from now
+				<pre class="brush: js">
+				$( selector ).mobipick({
+					minDate: (new XDate()).addDays( 4 )
+				});</pre>
+				<pre class="brush:xml">&lt;input type="text" /&gt;</pre>
+			</div>
+			<div class="demo">
+				<h1>Range pickers (no native support)</h1>
+				<input class="mobipick-range-date-min" type="text" />
+				<input class="mobipick-range-date-max" type="text" />
+				You need to make use of the change event
+				<pre class="brush: js">
+					var mpFrom = $( ".min-date" ).mobipick();
+					var mpTo   = $( ".max-date" ).mobipick();
+					mpFrom.on( "change", function() {
+						mpTo.mobipick( "option", "minDate", mpFrom.mobipick( "option", "date" ) );
+					});
+					mpTo.on( "change", function() {
+						mpFrom.mobipick( "option", "maxDate", mpTo.mobipick( "option", "date" ) );
+					});</pre>
+				<pre class="brush:xml">&lt;input class="min-date" type="text" /&gt;
+&lt;input class="max-date" type="text" /&gt;</pre>
+			</div>
+			<div class="demo">
+				<h1>Human readable dates</h1>
+				<input class="mobipick-human-readable" type="text" />
+				Default output is international standard date (YYYY-MM-DD). If you want to use the localized dates, use these settings
+				<pre class="brush: js">
+					$( selector ).mobipick({
+						intlStdDate: false
+					});</pre>
+				<pre class="brush:xml">&lt;input type="text" /&gt;</pre>
+			</div>
+			<div class="demo">
+				<h1>Reset date</h1>
+				<table style="width:100%"><tbody><tr>
+				<td><input class="mobipick-reset" type="text" /></td>
+				<td><a href="#" class="reset" style="padding:4px" data-role="button" data-icon="delete" data-iconpos="notext"></a></td>
+				</tr></tbody></table>
+				Deletes the previously selected date.
+				<pre class="brush: js">
+			var picker = $( selector ).mobipick();
+			$( linkSelector ).on( "tap", function() {
+				picker.mobipick("option", "date", null).mobipick("updateDateInput");
+			});</pre>
+				<pre class="brush:xml">&lt;input type="text" /&gt;
+&lt;a href="#" data-role="button" data-icon="delete" data-iconpos="notext"&gt;&lt;/a&gt;</pre>
+			</div>
+            <div class="demo">
+                <h1>Custom date format</h1>
+                <input class="mobipick-mm-dd-yyyy" type="text" />
+				<pre class="brush: js">
+			var picker = $( selector ).mobipick({
+				dateFormat: "MM-dd-yyyy"
+			});</pre>
+                <pre class="brush:xml">&lt;input type="text" /&gt;</pre>
+            </div>
+            <div class="demo">
+                <h1>Programmatically open picker.</h1>
+                <input class="mobipick-programmatically" type="hidden" />
+                <button class="mobipick-programmatically" value="click to open picker"></button>
+				<pre class="brush: js">
+            var buttonPicker = $( "input", this ).mobipick();
+            $( "button" ).on( "tap click", function() {
+                buttonPicker.mobipick( "open" );
+            });
+            buttonPicker.on( "change", function() {
+                // use the date after confirmation
+                window.alert( buttonPicker.mobipick( "date" ) );
+                // or alternatively
+                // window.alert( buttonPicker.mobipick( "dateString" ) );
+                // window.alert( buttonPicker.mobipick( "localeString" ) );
+            })
+			    </pre>
+                <pre class="brush:xml">&lt;input type="hidden" /&gt;
+&lt;button type="hidden" value="click to open picker"/&gt;&lt;/button&gt;
+                </pre>
+            </div>
+            <div class="demo">
+                <h1>Customize order of controls in popup</h1>
+                <input class="mobipick-controls-8601-order" type="text" />
+				<pre class="brush: js">
+			var picker = $( selector ).mobipick({
+				// dateFormat controls the format of the output string
+				// whereas this controls the order of the controls
+				// in the picker popup.
+				// Default is "d m y"
+				// Here we request ISO 8601 order instead
+				inputOrder: "y m d"
+			});</pre>
+                <pre class="brush:xml">&lt;input type="text" /&gt;</pre>
+            </div>
+			Created by Christoph Baudson. Feel free to check out my <a href="http://sustainablepace.net">blog</a>.
+		</div>
+
+	</div>
+</body>
+</html>

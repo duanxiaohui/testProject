@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+</head>
+<body onload="init();"></body>
+<script type="text/javascript">
+//baidu wap app 手机版下载 ios android自适配跳转
+function init(){
+	var android = "http://d2.365rili.com/dl/android/exchange/coco_wapbaidu.apk";
+	var ios		= "http://um0.cn/00SJrM/";
+	var sUserAgent = navigator.userAgent.toLowerCase();
+	var bIsIpad = sUserAgent.match(/ipad/i) == "ipad"; 
+	var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+	var bIsAndroid = sUserAgent.match(/android/i) == "android";
+	
+	if(bIsIphoneOs || bIsIpad){
+		location.href = ios;				
+	}else if(bIsAndroid){
+		location.href = android;
+	}else{
+		location.href = "http://www.365rili.com"
+	}
+}
+</script>
+</html>

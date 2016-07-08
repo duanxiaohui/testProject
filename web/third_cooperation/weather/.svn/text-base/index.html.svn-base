@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>365日历</title>
+<meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link href="css/calendar.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div id="bd">
+		    <div class="solar_view">
+    	<div class="btn_div">
+    		<div id="div_buttons" class="ss">
+    			<a class="solar_terms jieqi_btn"  data-md='{"p":"节气"}'>节</a>
+				<a class="operate_vacation holiday_btn" data-md='{"p":"放假安排"}'>假</a>
+			</div>
+    		<a href="javascript:;" class="today_btn">今</a>
+    	</div>
+    	<div class="data_info" id="div_day_detail"></div>
+    </div>
+    <div class="calendar_position">
+    	 <div class="select">
+	    	<a href="javascript:;" class="next_btn" delta="-1">
+	    		<span class="arrow_div"></span>
+	    	</a>
+	    	<div class="select_div">
+	    		<span id="sp_year"></span>年
+	    		<span id="sp_month"></span>月
+				<select name="" id="sp_year_select">
+	    			</select>
+	    		<select name="" id="sp_month_select">
+	    			</select>
+	    	</div>
+	    	<a href="javascript:;" class="prev_btn" delta="1">
+	    		<span class="arrow_div"></span>
+	    	</a>
+	    </div>
+	    <div class="calendar_grid">
+	    	<ul class="calendar_week_list e_clear">
+	    		<li>一</li>
+	    		<li>二</li>
+	    		<li>三</li>
+	    		<li>四</li>
+	    		<li>五</li>
+	    		<li>六</li>
+	    		<li>日</li>
+	    	</ul>
+	    	<ul class="calendar_grid_list js-cld-panel_prev e_clear"></ul>
+	    	<ul class="calendar_grid_list js-cld-panel e_clear"></ul>
+	    	<ul class="calendar_grid_list js-cld-panel_next e_clear"></ul>
+	    </div>
+	    <div class="footer">
+	    	下载365日历APP，爱上每一天!
+	    </div>
+    </div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui-1.8.23.custom.min.js"></script>
+<script src="/third_cooperation/base_calendar/js/app/model/data.js"></script>
+<script src="/third_cooperation/base_calendar/js/parseDataForCalendar.js"></script>
+<script src="js/calendar.js?v=20160322"></script>
+<script src="js/lunar.js?v=20160305"></script>
+<script src="/js/lib/app.js"></script>
+</body>
+</html>

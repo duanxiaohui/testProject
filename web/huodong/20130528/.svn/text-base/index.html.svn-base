@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历--来电通</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+</head>
+<body>
+	<div class="main">
+		<div class="top"></div>
+		<div class="text">
+			<p>来电通是一款手机通讯管理软件，新增省钱电话功能，打长途高清话质低资费；此外还有智能快速拨号、桌面快捷短信查看及回复、精准云拦截骚扰诈骗电话及垃圾短/彩信、显示来电及短信号码归属地、流量监控等多种强大的通讯管理功能。来电通，让通讯更轻松！</p>
+		</div>
+		<a href="http://d2.365rili.com/dl/android/exchange/CallMaster_V5.1.0.39_Android_pf145_bi800_(Build13050613).apk" class="btn">下载来电通</a>
+	</div>
+</body>
+</html>

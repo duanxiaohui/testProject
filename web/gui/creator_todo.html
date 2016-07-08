@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="style/creator_schedule.css" media="screen" />
+<link href="/css/jquery-ui-1.9.2.custom.min.css" rel="stylesheet"/>
+
+</head>
+<body>
+<div id="div_add_schedule" class="add_schedule_layer complete ui-shadow">
+    <a href="javascript:;" class="close_btn js_close"></a>
+    <h2 class="drag_title">新建待办</h2>
+    <div class="add_todo_content">
+        <textarea class="edit_textarea" ori=""></textarea>
+        <div class="add_todo_bottom e_clear">
+        	 <a hidefocus="true" href="javascript:;" class="star"></a>
+        	 <div class="cut_off_date"><input type="text" readonly="readonly" value="截止日期  不限"></div>
+        </div>
+    </div>
+    <a class="add_schedule_bottom">添加</a>
+</div>
+<script type="text/javascript" src="/js/jquery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/js/jquery/jquery-ui-1.9.2.custom.min.js"></script>
+<script type="text/javascript" src="/js/newweb/common.js"></script>
+<script type="text/javascript" src="js/protocol.js"></script>
+<script type="text/javascript" src="/js/newweb/solarAndLunar.js"></script>
+<script type="text/javascript" src="/js/newweb/lunarPicker.js"></script>
+<script type="text/javascript" src="/js/newweb/calendarPanel.js"></script>
+
+<script>
+	clientProtocol.init(8, 510, 367);
+	function setTitle(title){
+		var txt=title.replace(/<br>/g, "\n");
+		$(".edit_textarea").val(txt);
+	}
+	$(function(){
+		//init
+		var noteId = getURLParameter("noteid");
+		if(noteId){
+			var deadline= getURLParameter("deadline");
+			$(".cut_off_date input").val(deadline);
+			var star = getURLParameter("star");
+			if(star == "true"){
+				$(".star").addClass("staron");
+			}else{
+				$(".star").removeClass("staron");
+			}
+			$(".drag_title").html("编辑待办");
+			$(".add_schedule_bottom").html("保存");
+		}
+		$('div.cut_off_date input').datepicker($.getDPOptions({
+			minDate: 0,
+			onSelect: function(dateText, inst){
+				inst.input.val('截止日期  ' + dateText);
+				if(noteId){
+					post('/todo/updateDeadline.do', {
+						noteId: parseInt(noteId),
+						deadlinestr: dateText
+					}, function(result){
+						js365.runScriptWnd(5, 'location.reload()');
+					}, '更新待办截止日期');
+				}
+				
+			}
+		}));
+		var starRequesting = false;
+		$("a.star").click(function(){
+			$(this).toggleClass("staron");
+			if (noteId && !starRequesting) {
+				starRequesting = true;
+				var priority = $(this).hasClass('staron');
+				post('/todo/updatePriority.do', {
+					noteId: parseInt(noteId),
+					priority: priority
+				}, function(result){
+					starRequesting = false;
+					js365.runScriptWnd(5, 'location.reload()');
+				}, '设置待办重要性');
+			}			
+		})
+		$(".add_schedule_bottom").click(function(){
+			var $ta = $('textarea.edit_textarea'), priority, content, deadlinestr;
+			content = $.trim($ta.val());
+			if (!content) {
+				$.alert('待办内容不能为空！', {
+					buttons: {
+						'确定': function(){
+							$(this).dialog("close");
+							$ta.focus();
+						}
+					}
+				});
+				return;
+			}
+			if (content.length > 1000) {
+				$.alert('待办内容最多1000个字，超出'+(content.length - 1000)+'个字！', {
+					buttons: {
+						'确定': function(){
+							$(this).dialog("close");
+							$ta.focus();
+						}
+					}
+				});
+				return;
+			}
+			if (!noteId) {
+				priority = $('a.star').hasClass('staron');
+				deadline = $('div.cut_off_date input').val().split('  ')[1];
+				deadline = /^\d{4}-\d{2}-\d{2}$/.test(deadline) ? deadline : 'NODEADLINE';
+			    post('/todo/createv2.do', {
+					priority: priority,
+					content: content,
+					deadlinestr: deadline
+				}, function(noteid){
+					if (noteid > 0) {
+						js365.runScriptWnd(1, "location.reload()");
+						$.alert('保存成功',{
+							buttons: {
+								'确定': function(){
+									clientProtocol.closeWnd(8);
+									
+								}
+							}
+						});
+					}
+				}, '保存待办');
+			} else {
+				post('/todo/updateContent.do', {
+					noteId: parseInt(noteId),
+					content: content
+				}, function(result){
+					if (result) {
+						js365.runScriptWnd(5, 'location.reload()');
+						$.alert('保存成功',{
+							buttons: {
+								'确定': function(){
+									clientProtocol.closeWnd(8);
+								}
+							}
+						});
+					}
+				}, '保存待办');
+			}
+		})
+	})
+	function getURLParameter(name) {
+	    return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
+	}
+	function post(url, data, success, errorText){
+		if (!$.loading.is()) {
+			$.loading();
+			$.ajax({
+				url: url,
+				type: 'post',
+				dataType: 'json',
+				data: data,
+				success: function(data){
+					$.loading.close();
+					$.isFunction(success) && success(data);
+				},
+				error: function(xhr, textStatus, errorThrown){
+					$.loading.close();
+					$.alert(errorText + '时出现错误:' + textStatus + ':' + errorThrown);
+				}
+			});
+		}
+	}
+</script>
+</body>
+</html>

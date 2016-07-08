@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<title>365日历</title>
+<link href="/share/style/share.css" rel="stylesheet">
+</head>
+<body style="background-color: #fff;">
+	<div class="join_schedule">
+		<div class="tips">
+			<h3>已参与该日程</h3>
+			<p style="margin-top:20px;">使用【微信帐号】登录365日历客户端后<br/>即可查看该日程哦~~</p>
+		</div>
+	    <div class="line">
+	    	<div class="logo_img"></div>
+	    </div>
+	    <a href="javascript:;" class="use_btn"></a>
+	    <p>更多精彩下载365日历最新版</p>
+	</div>
+	<div class="join_schedule_footer">
+		&copy;2014by 365rili inc
+	</div>
+
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+	<script>
+		function bindEvent (){
+			//根据useragent判断当前的设备类型
+			var sUserAgent = navigator.userAgent.toLowerCase();
+			var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+			var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+			var bIsAndroid = sUserAgent.match(/android/i) == "android";
+			var bIsWeixin = sUserAgent.match(/micromessenger/i) == "micromessenger";
+			var bIsWeibo = sUserAgent.match(/weibo/i) == "weibo";
+			var bIsqq = sUserAgent.match(/qq/i) == "qq";
+			
+			function callback(evt){
+				if(bIsWeixin){
+					location.href = "http://a.app.qq.com/o/simple.jsp?pkgname=com.when.coco&g_f=991609";
+					return;
+				}
+				location.href = 'http://www.365rili.com/pages/download/download.html';	
+			}
+			var appInstalledInWX = JSON.parse(window.name).isAppInstalled;
+			if(appInstalledInWX){
+				$('.use_btn').html('立即打开');
+				$(".use_btn").on("tap", function(evt){
+					window.location.href = 'coco://365rili.com';
+				});
+			}
+			else{
+				$('.use_btn').html('立即使用');
+				$(".use_btn").on("tap", function(evt){
+					callback();
+				});
+			}
+		}
+		function redirectApp (url, ios, callback){
+			var iframe = document.createElement("iframe");
+			iframe.style.display = "none";
+			iframe.src = url;
+			document.body.appendChild(iframe);
+			
+			var startTime = new Date().getTime();
+			var interval = setTimeout(function(){
+				if(new Date().getTime() - startTime > 1200 && (ios)){
+					return;
+				}
+				if(!callback){
+					location.href = 'http://www.365rili.com/pages/download/download.html';	
+				}else{
+					callback();
+				}
+			}, 1000)
+			window.onblur= function(){
+				clearTimeout(interval);
+			};
+		}
+		function showTip (callback){
+			if($('.tips_container').length > 0){
+				$('.tips_container').css('display', 'block');
+			}else{
+				var tip = $('<div class="tips_container">\
+					<div class="tips_layer">\
+						<h3>温馨提示</h3>\
+						<p></p>\
+	        			<a href="javascript:;" class="layer_btn">立即使用</a>\
+	    			</div>\
+	    			<div class="mask"></div>\
+	    		   </div>');
+				var sTip;
+				sTip = '快使用365日历记录你的日程吧，从此重要事件不再错过！';
+				tip.find('p').html(sTip);
+				$('body').append(tip);
+				tip.find(".layer_btn").on("tap", callback);
+				
+				tip.find(".mask").on("tap", function(e){
+					$(".tips_container").css("display", "none");
+				})
+			}
+		}
+		bindEvent();
+		$('body').height($(window).height());
+	</script>
+</body>
+</html>

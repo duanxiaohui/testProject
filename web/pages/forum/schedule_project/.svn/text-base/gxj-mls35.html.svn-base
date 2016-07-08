@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015广州马拉松</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015广州马拉松</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/9b665bbd-27ca-4ddc-bec1-874ecec997e8.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+			  <a class="btn js-subscribe" data-uuid="0874d499-9af1-41b5-b143-5032b2cb1647" data-cid="147514789">添加提醒</a>
+	    	
+	    	<p class="time">
+
+
+<b>比赛时间：2015年12月6日
+</b></br>
+
+	    	<b>比赛地点：广东广州</b></br>　
+
+
+
+			</p>
+			<h3>活动介绍：</h3>
+			<p> 由中国田径协会、广州市人民政府主办，广州市体育局、越秀区 、海珠区、荔湾区、天河区人民政府、广州市体育竞赛中心、广州市田径协会承办，智美控股集团、广州市城市建设投资集团有限公司、广州天河体育中心、广州市慈善会协办的广州马拉松赛（简称“广马”）是广州一年一度的国际体育盛会。广马是经国家体育总局、广东省政府和广州市政府批准，由国际田联和国际马拉松及公路跑协会备案的中国高水平马拉松赛。
+</p> 
+			<!--h3是小标题-->
+			<h3>
+</h3>
+			<!--p是段落文字描述-->
+			<p>
+具体详情以官网信息为准
+</p>
+
+<img src="http://cocoimg.365rili.com/schedule_pics/default/9e7f82c9-dec6-4c92-8466-c4fe51167eff.jpg"/>
+<a href="http://www.guangzhou-marathon.com/index" class="btn js-other">详见官网</a>
+		
+			 <div class="remind_div" data-uuid="0874d499-9af1-41b5-b143-5032b2cb1647" data-cid="147514789"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/9b665bbd-27ca-4ddc-bec1-874ecec997e8.jpg',
+                title: '2015广州马拉松',
+                desc: '由中国田径协会、广州市人民政府主办，广州市体育局、越秀区 、海珠区、荔湾区、天河区人民政府、广州市体育竞赛中心、广州市田径协会承办，智美控股集团、广州市城市建设投资集团有限公司、广州天河体育中心、广州市慈善会协办的广州马拉松赛（简称“广马”）'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'shareTo',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015广州马拉松',
+		        				content: '由中国田径协会、广州市人民政府主办，广州市体育局、越秀区 、海珠区、荔湾区、天河区人民政府、广州市体育竞赛中心、广州市田径协会承办，智美控股集团、广州市城市建设投资集团有限公司、广州天河体育中心、广州市慈善会协办的广州马拉松赛（简称“广马”）',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/9b665bbd-27ca-4ddc-bec1-874ecec997e8.jpg',
+		        				isEvent: false
+		        			})
+		        		},
+		        		{
+		        			name: 'channel',
+		        			value: 'wx'
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

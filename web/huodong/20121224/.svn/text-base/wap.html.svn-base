@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html manifest="http://m.weibo.cn/weibo.manifest">
+<head>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>NBA</title>
+	<meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+	<style type="text/css">
+		*{margin:0; padding:0;}
+		body{font-size:12px; font-family:"Microsoft YaHei",微软雅黑;}
+		li{list-style-type: none;}
+		a {color: #fff;  text-decoration: none;}
+		.nba365_top,.ios_btn,.nba365_rule{margin:0 auto;}
+		.nba365_top{width:320px; height:171px; background:url(images/nba365_top.jpg) no-repeat; -webkit-background-size:320px 171px;}
+		.nba365_rule{width:272px; padding:10px 24px 70px; color:#1f5c8c; line-height:150%; background:url(images/nba365_img.jpg) no-repeat center bottom; -webkit-background-size:272px 55px;}
+		.ios_btn{padding:35px 24px; width:272px; height:37px;}
+		.nba365_btn{float:left; width:120px; height:37px; background:#4e8bbc; text-align:center; line-height:37px;-moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; box-shadow: 2px 2px 2px #d7d8d9; -moz-box-shadow: 2px 2px 2px #d7d8d9; -webkit-box-shadow: 2px 2px 2px #d7d8d9;}
+		#knicks{float:right;}
+	</style>
+</head>
+<body>
+	<div class="nba365_top"></div>
+	<div class="nba365_rule">
+		<p>365日历联合新浪loveNBA即将推出一系列NBA球迷关怀活动，第一期便是“圣诞大战竞猜”，26日凌晨4点，新浪体育将直播湖人vs尼克斯，现在只要你选择竞猜会赢的队，将微博分享至新浪微博，并关注相关loveNBA账号，就可以参与抽奖，一等奖1名，将是获胜队的球衣，二等奖3名，将是新浪微博达人Tee！（比如你猜湖人胜，则需要关注 @Love_湖人 的账号）</p>
+	</div>
+	<div class="ios_btn">
+		<a href="javascript:;" class="nba365_btn" id="lakers_btn">湖人获胜</a>
+		<a href="javascript:;" class="nba365_btn" id="knicks">尼克斯获胜</a>
+	</div>
+<input type="hidden" id="UID" value="">
+<input type="hidden" id="PWD" value="">
+<script type="text/javascript">
+    function $(id){
+        return document.getElementById(id);
+    }
+    
+    var userid = null;
+    var password = null;
+    var content = null;
+    var qqDo = false;
+    var sinaDo = false;
+    var androidDo = false;
+    function getUserInfo(){
+        if (/android/i.test(navigator.userAgent)) {
+            userid = AliansBridge.getUserId();
+            password = AliansBridge.getUserPassword();
+        }
+        if (/ipad|iphone|mac/i.test(navigator.userAgent)) {
+            userid = document.getElementById('UID').value;
+            password = document.getElementById('PWD').value;
+        }
+    }
+    
+    function sinaBtnClick1(){
+        getUserInfo();
+        if (userid == 'null' || !userid) {
+            alert("您还没有登录，请登录");
+        }
+        else {
+            if (sinaDo == true) 
+                return false;
+            else 
+                sinaDo = true;
+            var txt = "我正在使用 @365日历 竞猜NBA圣诞大战，认为 @Love_湖人 会赢噢！你认为谁会赢，快来告诉 @Love_NBA小秘书 ！想竞猜赢取由 @比分牌 提供的球衣大奖吗，赶紧来下载365日历参与活动吧！ http://www.365rili.com";
+            AJAX('/weibo/statusFromWebView.do', true, 'POST', 'content=' + txt + '&u=' + userid + '&p=' + password + '&img=nba_lk.jpg', function(result){
+                result = eval("(" + result + ")");
+                if (result.state == "ok") 
+                    alert("微博已经发送成功！");
+                else 
+                    alert("发送失败，请绑定新浪微博！若已绑定请尝试重新绑定后再试。");
+            });
+        }
+    };
+    function sinaBtnClick2(){
+        getUserInfo();
+        if (userid == 'null' || !userid) {
+            alert("您还没有登录，请登录");
+        }
+        else {
+            if (sinaDo == true) 
+                return false;
+            else 
+                sinaDo = true;
+            var txt = "我正在使用 @365日历 竞猜NBA圣诞大战，认为 @Love_尼克斯 会赢噢！你认为谁会赢，快来告诉 @Love_NBA小秘书 ！想竞猜赢取由 @比分牌 提供的球衣大奖吗，赶紧来下载365日历参与活动吧！ http://www.365rili.com";
+            AJAX('/weibo/statusFromWebView.do', true, 'POST', 'content=' + txt + '&u=' + userid + '&p=' + password + '&img=nba_lk.jpg', function(result){
+                result = eval("(" + result + ")");
+                if (result.state == "ok") 
+                    alert("微博已经发送成功！");
+                else 
+                    alert("发送失败，请绑定新浪微博！若已绑定请尝试重新绑定后再试。");
+            });
+        }
+    };
+    window.onload = function(){
+        var lakers_btn = $("lakers_btn"), knicks = $("knicks");
+        
+        lakers_btn.onclick = function(){
+            var txt = "我正在使用 @365日历 竞猜NBA圣诞大战，认为 @Love_湖人 会赢噢！你认为谁会赢，快来告诉 @Love_NBA小秘书 ！想竞猜赢取由 @比分牌 提供的球衣大奖吗，赶紧来下载365日历参与活动吧！ http://www.365rili.com"
+            var json = '[{"img": "nba_lk.jpg","content": "我正在使用 @365日历 竞猜NBA圣诞大战，认为 @Love_湖人 会赢噢！你认为谁会赢，快来告诉 @Love_NBA小秘书 ！想竞猜赢取由 @比分牌 提供的球衣大奖吗，赶紧来下载365日历参与活动吧！ http://www.365rili.com","via": "weibo","type": "type","follow": true}]';
+            if (/android/i.test(navigator.userAgent)) {
+                try {
+                    AliansBridge.sharev2(json);
+                } 
+                catch (e) {
+                    try {
+                        AliansBridge.share(txt, img = "nba_lk.jpg", null, false);
+                    } 
+                    catch (e) {
+                        alert("您的365日历版本暂不支持发微博，请升级到最新版");
+                    }
+                }
+            }
+            else 
+                if (/ipad|iphone|mac/i.test(navigator.userAgent)) {
+                    sinaBtnClick1();
+                }
+        };
+        knicks.onclick = function(){
+            var txt = "我正在使用 @365日历 竞猜NBA圣诞大战，认为 @Love_尼克斯 会赢噢！你认为谁会赢，快来告诉 @Love_NBA小秘书 ！想竞猜赢取由 @比分牌 提供的球衣大奖吗，赶紧来下载365日历参与活动吧！ http://www.365rili.com"
+            var json = '[{"img": "nba_lk.jpg","content": "我正在使用 @365日历 竞猜NBA圣诞大战，认为@Love_尼克斯 会赢噢！你认为谁会赢，快来告诉 @Love_NBA小秘书 ！想竞猜赢取由 @比分牌 提供的球衣大奖吗，赶紧来下载365日历参与活动吧！ http://www.365rili.com","via": "weibo","type": "type","follow": true}]';
+            if (/android/i.test(navigator.userAgent)) {
+                try {
+                    AliansBridge.sharev2(json);
+                } 
+                catch (e) {
+                    try {
+                        AliansBridge.share(txt, img = "nba_lk.jpg", null, false);
+                    } 
+                    catch (e) {
+                        alert("您的365日历版本暂不支持发微博，请升级到最新版");
+                    }
+                }
+            }
+            else 
+                if (/ipad|iphone|mac/i.test(navigator.userAgent)) {
+                    sinaBtnClick2();
+                }
+        };
+    }
+</script>
+<script type="text/javascript" src="../js/ajax.js"></script>
+</body>
+</html>

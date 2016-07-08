@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>大鱼·海棠</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">大鱼·海棠</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/4b00d992-4441-4d9a-b42e-ddcbfaead5e0.jpg"/>
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	<a href="http://m.mtime.cn/#!/movie/135022/" class="btn js-other">查看预告片</a>
+	    	<h3 class="time">上映时间：2015年11月11日（中国）</h3>
+			<p> </p>
+	    	<h3>导演：梁旋</h3>
+			<h3>编剧：梁旋</h3>
+			<h3>音乐：坂本龙一 Ryuichi Sakamoto</h3>
+			<h3>类型：动画 / 奇幻</h3>
+			<p class="fc_000">制片国家/地区: 大陆</p>
+			
+			<h3>看点：</h3>
+			<p>这部动画终于要上了，小编甚至已经忘记了它折腾了多少年了。当年的一段片花曾引起无数人的关注。小编也很希望它能尽快上映，且很希望，它能真的很精彩。</p>
+			<p>该剧的创意来源于庄子的“北冥有鱼，其名为鲲。鲲之大，不知其几千里也”，讲述了一个属于中国人的奇幻故事，我们试图向观众展现那条游弋在每个中国人血液和灵魂中的大雨——鲲。故事发生在我们生活中人们肉眼看不到的另一个世界，在那里人们可以自由的掌控岁月更迭和季节变换。女主角是一个名叫椿的小女孩，当她16岁的时候变成了一只海豚去探寻人类世界，不料途中波涛汹涌，海潮狂暴，椿差点丢失自己的性命，还好被一个小男孩救下她才幸免于难，不过小男孩却因此失去了自己宝贵的生命。椿被小男孩的善良和勇气深深的打动，于是她决定拯救小男孩，让他复活，为此她必须要保护小男孩的灵魂，即一条小鱼，精心呵护它成长，随着时间的流逝，他们饱经磨难，却萌生了爱的种子，小鱼最终长成为一条“属于天空的大鱼”，只是椿现在必须把他放回大海，让他回到人类世界从新获得生命。</p>
+			<!--h3是小标题-->
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/764ef9ac-8dac-409b-8830-62dc00b1d886.jpg"/>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/78ff2acf-62a6-486e-ae3f-db5368ef362c.jpg"/>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/db985b5c-279d-45a8-a4e2-bfb3b6a79975.jpg"/>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/4b00d992-4441-4d9a-b42e-ddcbfaead5e0.jpg',
+                title: '大鱼·海棠',
+                desc: '这部动画终于要上了，我甚至已经忘记了他折腾了多少年了。当年的一段片花曾引起无数人的关注。我也很希望它能尽快上映，且很希望，它能真的很精彩。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '大鱼·海棠',
+		        				content: '这部动画终于要上了，我甚至已经忘记了他折腾了多少年了。当年的一段片花曾引起无数人的关注。我也很希望它能尽快上映，且很希望，它能真的很精彩。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/4b00d992-4441-4d9a-b42e-ddcbfaead5e0.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

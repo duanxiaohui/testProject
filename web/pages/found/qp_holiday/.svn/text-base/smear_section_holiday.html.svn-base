@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>请赐我一张大黑脸</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/smear_section/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>抹黑节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>中国地大物博，五千年源远流长的文化中蕴含着许多的节日，众多节日当中有一些是非常需要“豁的出去”的，比如泼水节——泼水节最重要的活动就是泼水送祝福，广场上、小道上人们拿着盆互相泼啊泼，忽然一人惊叫“哪个王八蛋泼我”！懂道理的人语重心长的向他解释“泼你乃是祝福你”！怎奈猜中了结局却没猜中过程——“我说的是谁拿开水泼我”！！！</p>
+            <img src="images/smear_section/holiday_1.jpg"/>
+            <p>但泼水节并不孤单，中国新疆的锡伯族至今流传着奇葩的抹黑节，确切来说这个节日简直就是用来拉仇恨的！</p>
+            <h3>【走，拉仇恨去】</h3>
+            <p>这个节日的习俗和字面意思保持了高度一致。这一天人们会起的特别早，走到大街小巷上去拉（song）仇（zhu）恨（fu）。他们出门的时候会带上事先准备好的抹黑布，上面沾着满满的锅底灰。见面之后便是你追我赶的往对方脸上抹黑，起床困难户们通常还没起床就被抹了一脸！</p>
+            <img src="images/smear_section/holiday_2.jpg"/>
+            <p>这样的节日抹黑你就是祝福你，被抹上黑是吉祥的象征，可以避免灾难、得到幸福。所以说这个节日老人也不能“幸免”。不过他们非常尊敬老人，这一天如果遇见老人，必须先请安然后单腿下跪，在得到老人的允许后才能半跪着象征性的给老人抹一点点黑，或者由老人自己抹，以示尊敬。</p>
+            <img src="images/smear_section/holiday_3.jpg"/>
+            <h3>【抹黑节的昨天与今天】</h3>
+            <p>据传说，这天五谷之神要下凡巡视，人们互相往脸上抹黑是为了祈求五谷之神让黑穗病远离人间 ，以确保小麦的丰收、保佑百姓平安。后来，随着社会文化的发展抹黑节渐渐被废除，变成男女青年的一种娱乐性活动。抹脸时也有禁忌：子女不能给父亲抹，大伯子与弟媳之间不能相互涂抹。从小崇拜包大人那炭黑肤色的小编听到这节日眼睛都绿了，快放开那块抹黑布，让我来！！！</p>
+
+            <div class="tips">
+                <p>1、正月十六是新疆锡伯族的抹黑节，节日当天人们用锅底灰互相抹脸，意为送祝福；</p>
+                <p>2、他们对长辈始终要尊敬，抹脸要经过允许或由长辈亲自执行。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

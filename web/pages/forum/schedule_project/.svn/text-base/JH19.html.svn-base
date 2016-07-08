@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>上海巴黎春天百货泰迪熊珍藏展</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">上海巴黎春天百货泰迪熊珍藏展 </div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/6e9bf013-8595-4efd-bf09-767169712ca6.jpg"/>
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	<a class="btn js-subscribe" data-uuid="5b223c68-3c63-4137-b7a0-b4751ae344ec" data-cid="145993945">添加提醒</a>
+			
+	    	<h3 class="time">时间：2015.01.29-2015.03.14</h3>
+	    	<h3>场地：金沙江路1685号巴黎春天118广场 </h3>
+			<h3>费用：免费  </h3>
+			<p class="fc_000"></p>
+			
+			<h3>活动j介绍：</h3>
+			<p>2015年，时至泰迪熊诞生112周年，泰迪珍藏品牌与上海的10家巴黎春天百货携手传递温暖，守护真爱。期间部分明星泰迪展品首度在上海亮相，巴黎春天118广场店还原了泰迪熊迷你博物馆，更有中国最大3米高的玻璃钢泰迪熊首度展出。配合泰迪百年和中国情人节的到来，除经典泰迪熊外，泰迪珍藏首推了3,000只会表白的限量款泰迪士兵熊，他们也将在上海各大巴黎春天百货限量发售。 </p>
+			<p>泰迪珍藏展将从 2015年1月29日一直持续到3月14日，展出时间长达近一个半月。新年期间，可以给孩子们送上父母最充满爱意的礼物并传达给孩子关于泰迪充满爱的故事，而2月14日情人节时刻，大家也可以相约巴黎春天的泰迪熊珍藏展上，一起携手检阅过往的温馨，约定未来的幸福。一只泰迪熊，一个温馨而充满爱意的礼盒，携手享受观展好时光，一起共度最甜蜜浪漫的温馨一刻。 </p>
+			<h3>1、迷你泰迪熊博物馆 </h3>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/332cb553-fc8f-48aa-80a7-3ecc21088c11.jpg"/>
+			<p>这次正版韩国泰迪珍藏品牌终于被邀请来上海，在10家巴黎春天百货携手传递温暖。巴黎春天118广场店更有还原韩国的泰迪熊迷你博物馆哦~不出国门就能看泰迪~棒棒哒!</br>
+			   118广场的走廊，会有整面的二维泰迪熊背景墙陪着你哦~ </p>
+			<!--h3是小标题-->
+	        <h3>2、明星泰迪首度上海亮相</h3>
+			<p>展出期间，部分明星泰迪展品将首度在上海亮相!不知道你会遇见谁呢?</p>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/27d63fc9-b8ed-400d-8edd-3baf7c920ba5.jpg"/>
+			<p>周杰伦2013年摩天轮演唱会的现场还原，有他签名的玫红泰迪~~全场成了玫红色的海洋~</p>
+			
+			<!--p是段落文字描述-->
+			<h3>3、中国最大的玻璃钢泰迪熊</h3>
+			<p>三米高的玻璃钢熊，可是中国最高最大的玻璃钢泰迪哦!这只好萌啊!好想求合影!</p>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/15518446-943e-4a54-a0bd-090c8e75229e.jpg"/>
+			<h3>4、1.6米高毛绒熊首展 </h3>
+			<p>这次1.6米的超大泰迪熊也是中国首展哦~~超大一只!好想和它来个大大的拥抱!</p>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/92f47f6e-76a0-4fd4-aadc-950b53e161b5.jpg"/>
+			<h3>5、3千只会表白的限量泰迪</h3>
+			
+			<p>配合泰迪百年和中国情人节的到来，这次策展方还为中国区首推了3,000只会表白的限量款泰迪士兵熊，他们将会在那里等待你带他们回家，护你永远...</p>
+		    <img src="http://cocoimg.365rili.com/schedule_pics/default/cd02436d-bb62-4a8e-9751-08593ee8d162.jpg"/>
+			<p>左边红色那只可以录音，会说话哟~所以也被称为“表白熊”，据小编所知是399一对，限量发行1500对!这个情人节，如果能送出自己定制的甜言蜜语，感觉萌萌哒。</p>
+			
+			
+			<h3>免责说明：</h3>
+			<p>所有活动信息及图片仅供参考。365日历致力于提供真实、准确的活动信息，但不保证活动信息的真实性和准确性，且不对因信息的不真实或者不准确导致的任何损失或损害承担责任。凡以任何方式登录365日历或者直接、间接参加相关活动者，视为自愿接受本网站声明的约束。</p>
+			
+			<!-- 默认底部有个添加提醒的按钮，不显示的话remind_div的位置加上 none -->
+            <div class="remind_div" data-uuid="4e0b87d7-73ef-47ed-9069-5060d1f79f57" data-cid="125821987"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/1ef31791-e32a-4afd-9074-90ebbfeb3719.jpg',
+                title: '上海巴黎春天百货泰迪熊珍藏展',
+                desc: '015年，时至泰迪熊诞生112周年，泰迪珍藏品牌与上海的10家巴黎春天百货携手传递温暖，守护真爱。期间部分明星泰迪展品首度在上海亮相，巴黎春天118广场店还原了泰迪熊迷你博物馆，更有中国最大3米高的玻璃钢泰迪熊首度展出。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '上海巴黎春天百货泰迪熊珍藏展',
+		        				content: '015年，时至泰迪熊诞生112周年，泰迪珍藏品牌与上海的10家巴黎春天百货携手传递温暖，守护真爱。期间部分明星泰迪展品首度在上海亮相，巴黎春天118广场店还原了泰迪熊迷你博物馆，更有中国最大3米高的玻璃钢泰迪熊首度展出。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/1ef31791-e32a-4afd-9074-90ebbfeb3719.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

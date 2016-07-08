@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="style/creator_schedule.css" media="screen" />
+<link href="/css/jquery-ui-1.9.2.custom.min.css" rel="stylesheet"/>
+
+</head>
+<body>
+<div id="div_add_schedule" class="add_schedule_layer complete ui-shadow">
+    <a href="javascript:;" class="close_btn js_close"></a>
+    <h2 class="drag_title">新建日程</h2>
+    <div class="add_schedule_content">
+        <form>
+            <input type="hidden" name="scheduleId" value=""/>
+            <dl class="e_clear">
+                <dt>内容：</dt>
+                <dd>
+                    <textarea name="schTitle"></textarea>
+                </dd>
+            </dl>
+            <dl class="e_clear">
+                <dt>时间：</dt>
+                <dd>
+                    <div class="timetype">
+                        <label>
+                            <input type="checkbox" name="alldayEvent" checked="checked"/><span>全天</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="chk_lunar"/><span>农历</span>
+                        </label>
+                    </div>
+                    <div class="data_box ">
+                        <ul class="js_datepicker" style="float:left;">
+                            <li>
+                                <input type="text" name="startTime"/>
+                            </li>
+                            <li class="none js_lunarPicker">
+                                <select name="dlt_from_year">
+                                    <option value="0">一月</option>
+                                    <option value="1">二月</option>
+                                    <option value="2">三月</option>
+                                    <option value="3">四月</option>
+                                    <option value="4">五月</option>
+                                    <option value="5">六月</option>
+                                    <option value="6">七月</option>
+                                    <option value="7">八月</option>
+                                    <option value="8">九月</option>
+                                    <option value="9">十月</option>
+                                    <option value="10">十一月</option>
+                                    <option value="11">十二月</option>
+                                </select>
+                                <select name="dlt_from_month"  style="width:65px;">
+                                    <option value="0">一月</option>
+                                    <option value="1">二月</option>
+                                    <option value="2">三月</option>
+                                    <option value="3">四月</option>
+                                    <option value="4">五月</option>
+                                    <option value="5">六月</option>
+                                    <option value="6">七月</option>
+                                    <option value="7">八月</option>
+                                    <option value="8">九月</option>
+                                    <option value="9">十月</option>
+                                    <option value="10">十一月</option>
+                                    <option value="11">十二月</option>
+                                </select>
+                                <select name="dlt_from_date"  style="width:55px;">
+                                    <option value="1">初一</option>
+                                    <option value="2">初二</option>
+                                    <option value="3">初三</option>
+                                    <option value="4">初四</option>
+                                    <option value="5">初五</option>
+                                    <option value="6">初六</option>
+                                    <option value="7">初七</option>
+                                    <option value="8">初八</option>
+                                    <option value="9">初九</option>
+                                    <option value="10">初十</option>
+                                    <option value="11">十一</option>
+                                    <option value="12">十二</option>
+                                    <option value="13">十三</option>
+                                    <option value="14">十四</option>
+                                    <option value="15">十五</option>
+                                    <option value="16">十六</option>
+                                    <option value="17">十七</option>
+                                    <option value="18">十八</option>
+                                    <option value="19">十九</option>
+                                    <option value="20">二十</option>
+                                    <option value="21">廿一</option>
+                                    <option value="22">廿二</option>
+                                    <option value="23">廿三</option>
+                                    <option value="24">廿四</option>
+                                    <option value="25">廿五</option>
+                                    <option value="26">廿六</option>
+                                    <option value="27">廿七</option>
+                                    <option value="28">廿八</option>
+                                    <option value="29">廿九</option>
+                                    <option value="30">三十</option>
+                                </select>
+                            </li>
+                        </ul>&nbsp;
+                        <div class="hour js_time none">
+                            <select name="dlt_start_hour" style="width:50px;">
+                                <option value="00">00</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09" selected="selected">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                            </select>
+                            <span>时</span>
+                            <select name="dlt_start_minute"  style="width:50px;">
+                                <option value="00">00</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                                <option value="32">32</option>
+                                <option value="33">33</option>
+                                <option value="34">34</option>
+                                <option value="35">35</option>
+                                <option value="36">36</option>
+                                <option value="37">37</option>
+                                <option value="38">38</option>
+                                <option value="39">39</option>
+                                <option value="40">40</option>
+                                <option value="41">41</option>
+                                <option value="42">42</option>
+                                <option value="43">43</option>
+                                <option value="44">44</option>
+                                <option value="45">45</option>
+                                <option value="46">46</option>
+                                <option value="47">47</option>
+                                <option value="48">48</option>
+                                <option value="49">49</option>
+                                <option value="50">50</option>
+                                <option value="51">51</option>
+                                <option value="52">52</option>
+                                <option value="53">53</option>
+                                <option value="54">54</option>
+                                <option value="55">55</option>
+                                <option value="56">56</option>
+                                <option value="57">57</option>
+                                <option value="58">58</option>
+                                <option value="59">59</option>
+                            </select>
+                            <span>分</span>
+                        </div>
+                    </div>
+                </dd>
+            </dl>
+            <div class="complete_time_calender">
+                <dl class="e_clear">
+                    <dt>日历：</dt>
+                    <dd>
+                        <select name="calendarId">
+                        </select>
+                    </dd>
+                </dl>
+            </div>
+            <div class="complete_content">
+                <div class="complete_set s-no">
+                    <dl class="st1 e_clear">
+                        <dt>重复类型：</dt>
+                        <dd>
+                            <select>
+                                <option mode="s-no" value="0">不重复</option>
+                                <option mode="s-dy" value="1">按天</option>
+                                <option mode="s-w" value="7">按周</option>
+                                <option mode="s-m" value="31">按月</option>
+                                <option mode="s-dy" value="365">按年</option>
+                                <option mode="s-dwd" value="5">法定工作日</option>
+                            </select>
+                        </dd>
+                    </dl>
+                    <dl class="st2 e_clear">
+                        <dt>重复类型： </dt>
+                        <dd>
+                            <select>
+                                <option mode="l-no" value="0">不重复</option>
+                                <option mode="l-my" value="29">农历每月</option>
+                                <option mode="l-my" value="354">农历每年</option>
+                            </select>
+                        </dd>
+                    </dl>
+                    <dl class="st3 e_clear">
+                        <dt>重复频率：</dt>
+                        <dd>
+                            		每
+                            <select name="repeatFrequency">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                                <option value="32">32</option>
+                                <option value="33">33</option>
+                                <option value="34">34</option>
+                                <option value="35">35</option>
+                                <option value="36">36</option>
+                                <option value="37">37</option>
+                                <option value="38">38</option>
+                                <option value="39">39</option>
+                                <option value="40">40</option>
+                                <option value="41">41</option>
+                                <option value="42">42</option>
+                                <option value="43">43</option>
+                                <option value="44">44</option>
+                                <option value="45">45</option>
+                                <option value="46">46</option>
+                                <option value="47">47</option>
+                                <option value="48">48</option>
+                                <option value="49">49</option>
+                                <option value="50">50</option>
+                            </select>
+                            <span class="js_rp_unit">周</span>
+                        </dd>
+                    </dl>
+                    <dl class="st4 e_clear">
+                        <dt>重复时间：</dt>
+                        <dd class="repetition_time js_rp_month">
+                            <label>
+                                <input type="radio" name="rdo_repeat" checked="checked" value="month"/><span>一个月的某一天</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="rdo_repeat" value="week"/><span>一周的某一天</span>
+                            </label>
+                        </dd>
+                    </dl>
+                    <dl class="st5 e_clear">
+                        <dt>重复时间：</dt>
+                        <dd class="repetition_time js_rp_week">
+                            <label>
+                                <input type="checkbox" name="chk_rp_week" day="一" value="MON"/><span>一</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" name="chk_rp_week" day="二" value="TUE"/><span>二</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" name="chk_rp_week" day="三" value="WED"/><span>三</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" name="chk_rp_week" day="四" value="THU"/><span>四</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" name="chk_rp_week" day="五" value="FRI"/><span>五</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" name="chk_rp_week" day="六" value="SAT"/><span>六</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" name="chk_rp_week" day="日" value="SUN"/><span>日</span>
+                            </label>&nbsp;<a href="javascript:;" class="js-work-day" title="只选择工作日">工作日</a>&nbsp;<a href="javascript:;" class="js-rest-day" title="只选择双休日">双休日</a>
+                        </dd>
+                    </dl>
+                    <dl class="st6 e_clear">
+                        <dt>结束条件：</dt>
+                        <dd class="end_data">
+                            <ul>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="rdo_repeat_cond" value="never" checked="checked"/><span>从不</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="rdo_repeat_cond" value="times" id="rdo_repeat_cond_1"/><span>发生</span>
+                                    </label>
+                                    <input type="text" class="end_data_text1" name="repeatCount" value="20"/>
+                                    <label for="rdo_repeat_cond_1">
+                                        <span>次后</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="rdo_repeat_cond" value="date"/><span>在</span>
+                                    </label>
+                                    <input type="text" name="repeatStopTime" class="end_data_text2"/>
+                                </li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    <dl class="st7 e_clear">
+                        <dt>摘要：</dt>
+                        <dd class="summary">
+                        </dd>
+                    </dl>
+                    <dl class="remind_view e_clear">
+                        <dt>提醒设置：</dt>
+                        <dd>
+                            <select name="before_minutes">
+                                <option value="">无提醒</option>
+                                <option value="0">正点</option>
+                                <option value="5">5分前</option>
+                                <option value="10">10分前</option>
+                                <option value="30">30分前</option>
+                                <option value="60">1小时前</option>
+                                <option value="1440">1天前</option>
+                                <option value="4320">3天前</option>
+                            </select>
+                        </dd>
+                    </dl>
+                    <dl class="e_clear none">
+                        <dt>关联URL： </dt>
+                        <dd>
+                            <input type="text" size="50" name="linked_url"/>
+                        </dd>
+                    </dl>
+                    <dl class="e_clear none">
+                        <dt>地址：</dt>
+                        <dd>
+                            <input type="text" size="50" name="location"/>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </form>
+    </div>
+    <a class="add_schedule_bottom">添加</a>
+</div>
+<script type="text/javascript" src="/js/jquery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/js/jquery/jquery-ui-1.9.2.custom.min.js"></script>
+<script type="text/javascript" src="/js/newweb/common.js"></script>
+<script type="text/javascript" src="js/protocol.js"></script>
+<script type="text/javascript" src="/js/newweb/solarAndLunar.js"></script>
+<script type="text/javascript" src="/js/newweb/lunarPicker.js"></script>
+<script type="text/javascript" src="js/scheduleCreator.js"></script>
+</body>
+</html>

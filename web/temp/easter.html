@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<title>清明节，你想复活谁？</title>
+<link href="/pages/bd/2015_easter/css/index.css" rel="stylesheet">
+</head>
+<body>
+	<div class="bar">
+	    <a href="javascript:;" class="share_btn"></a>
+        <a href="javascript:;" class="return_btn"></a>
+        <div class="bar_txt">清明节，你想复活谁？</div>
+    </div>
+	<div class="main">
+		<div class="res_icon"></div>
+		<div class="logo"></div>
+		<div class="title"></div>
+	</div>
+	<div class="pic_list">
+		<h3>以下9位巨星，点击你最想复活的那个人</h3>
+		<div id="faces" class="pic_list_div"></div>
+	</div>
+	<div class="footer"></div>
+
+	<a href="javascript:;" class="share_btn1"></a>
+
+	<div style="position:absolute; left: -99999px">
+		<div class="pic_div1 fadeInRight animated"><a href="http://www.365rili.com/pages/bd/2015_easter/active.html?active=ln"><img src="/pages/bd/2015_easter/images/index/resList_img1.jpg"/></a></div>
+		<div class="pic_div2 fadeInRight animated delay200"><a href="http://www.365rili.com/pages/bd/2015_easter/active.html?active=mj"><img src="/pages/bd/2015_easter/images/index/resList_img2.jpg"/></a></div>
+		<div class="pic_div3 fadeInRight animated delay300"><a href="http://www.365rili.com/pages/bd/2015_easter/active.html?active=mw"><img src="/pages/bd/2015_easter/images/index/resList_img3.jpg"/></a></div>
+		<div class="pic_div4 fadeInLeft animated  delay600"><a href="http://www.365rili.com/pages/bd/2015_easter/active.html?active=zgr"><img src="/pages/bd/2015_easter/images/index/resList_img4.jpg"/></a></div>
+		<div class="pic_div5 fadeInLeft animated  delay500"><a href="http://www.365rili.com/pages/bd/2015_easter/active.html?active=myf"><img src="/pages/bd/2015_easter/images/index/resList_img5.jpg"/></a></div>
+		<div class="pic_div6 fadeInLeft animated  delay400"><a href="http://www.365rili.com/pages/bd/2015_easter/active.html?active=lxl"><img src="/pages/bd/2015_easter/images/index/resList_img6.jpg"/></a></div>
+		<div class="pic_div7 fadeInRight animated  delay700"><a href="http://www.365rili.com/pages/bd/2015_easter/active.html?active=hjj"><img src="/pages/bd/2015_easter/images/index/resList_img7.jpg"/></a></div>
+		<div class="pic_div8 fadeInRight animated  delay800"><a href="http://www.365rili.com/pages/bd/2015_easter/active.html?active=dlj"><img src="/pages/bd/2015_easter/images/index/resList_img8.jpg"/></a></div>
+		<div class="pic_div9 fadeInRight animated  delay900"><a href="http://www.365rili.com/pages/bd/2015_easter/active.html?active=zys"><img src="/pages/bd/2015_easter/images/index/resList_img9.jpg"/></a></div>
+	</div>
+	<script>
+	function getURLParameter(name) {
+	    return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
+	}
+	window.onload = function () {
+		$('.pic_list_div').html('\
+			<div class="pic_div1 fadeInRight animated"><a href="http://www.365rili.com/pages/bd/2015_easter/active.html?active=ln"><img src="/pages/bd/2015_easter/images/index/resList_img1.jpg"/></a></div>\
+			<div class="pic_div2 fadeInRight animated delay200"><a href="http://www.365rili.com/pages/bd/2015_easter/active.html?active=mj"><img src="/pages/bd/2015_easter/images/index/resList_img2.jpg"/></a></div>\
+			<div class="pic_div3 fadeInRight animated delay300"><a href="http://www.365rili.com/pages/bd/2015_easter/active.html?active=mw"><img src="/pages/bd/2015_easter/images/index/resList_img3.jpg"/></a></div>\
+			<div class="pic_div4 fadeInLeft animated  delay600"><a href="http://www.365rili.com/pages/bd/2015_easter/active.html?active=zgr"><img src="/pages/bd/2015_easter/images/index/resList_img4.jpg"/></a></div>\
+			<div class="pic_div5 fadeInLeft animated  delay500"><a href="http://www.365rili.com/pages/bd/2015_easter/active.html?active=myf"><img src="/pages/bd/2015_easter/images/index/resList_img5.jpg"/></a></div>\
+			<div class="pic_div6 fadeInLeft animated  delay400"><a href="http://www.365rili.com/pages/bd/2015_easter/active.html?active=lxl"><img src="/pages/bd/2015_easter/images/index/resList_img6.jpg"/></a></div>\
+			<div class="pic_div7 fadeInRight animated  delay700"><a href="http://www.365rili.com/pages/bd/2015_easter/active.html?active=hjj"><img src="/pages/bd/2015_easter/images/index/resList_img7.jpg"/></a></div>\
+			<div class="pic_div8 fadeInRight animated  delay800"><a href="http://www.365rili.com/pages/bd/2015_easter/active.html?active=dlj"><img src="/pages/bd/2015_easter/images/index/resList_img8.jpg"/></a></div>\
+			<div class="pic_div9 fadeInRight animated  delay900"><a href="http://www.365rili.com/pages/bd/2015_easter/active.html?active=zys"><img src="/pages/bd/2015_easter/images/index/resList_img9.jpg"/></a></div>\
+		').css({
+			overflow: 'hidden'
+		});
+		setTimeout(function () {
+			$('body').css('height', 'auto');
+			$(window).off('touchstart', stopDefault);
+			$(window).off('pointerdown', stopDefault);
+		}, 1000);
+		(function () {
+			var q = '&push=1';
+			if(getURLParameter('isappinstalled') == 1){
+				q += '&isappinstalled=1';
+			}
+			else{
+				q += '&isappinstalled=0'
+			}
+			if(getURLParameter('isShowBar') == 1){
+				q += '&isShowBar=1';
+			}
+			var a = document.getElementById('faces').getElementsByTagName('a');
+			for (var i = 0; i < a.length; i++) {
+				a[i].href += q;
+			};
+		})()
+		var w = $(window).width();
+		var picList = $(".pic_list_div div"),
+			mlNum = (w-40)/3,
+			mlNumH = (mlNum*144)/89,
+			picH = mlNumH*3 + 30;
+			picList.width(mlNum).height(mlNumH);
+			$(".pic_list_div").height(picH);
+		picList.each(function( i, o){
+			if(i%3 == 0){
+				$(o).css({
+					"left":"0px"
+				})
+			}
+			if(i%3 == 1){
+				$(o).css({
+					"left":mlNum+ 5 + "px"
+				})
+			}
+			if(i%3 == 2){
+				$(o).css({
+					"left":mlNum*2 + 10 + "px"
+				})
+			}
+			if(i<3){
+				$(o).css({
+					"top":"0px"
+				})
+			}
+			if(2<i && i<6){
+				$(o).css({
+					"top":mlNumH + 5 + "px"
+				})
+			}
+			if(i>5){
+				$(o).css({
+					"top":mlNumH*2 + 10 + "px"
+				})
+			}
+		})
+	}
+	</script>
+
+<script src="/js/lib/zepto.min.js"></script>
+<script src="/js/lib/app.js"></script>
+<script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+<script src="/share/js/weixin_1.0.js"></script>
+
+<script>
+	function stopDefault( e ) { 
+	    if ( e && e.preventDefault ) 
+	        e.preventDefault(); 
+	    else
+	        window.event.returnValue = false; 
+	    return false; 
+	}
+	$(window).on('touchstart', stopDefault);
+	$(window).on('pointerdown', stopDefault);
+</script>
+<script>
+wxProtocol.init(function (wx, link) {
+	wx.onMenuShareAppMessage({
+        title: '清明节, 这9名巨星你想“复活”谁？',
+        desc: 'TA曾是我的挚爱，如今只能在这里见到TA……',
+        link: 'http://www.365rili.com/pages/bd/2015_easter/index.html',
+		imgUrl: 'http://www.365rili.com/pages/bd/2015_easter/images/wx.jpg'
+    });
+    wx.onMenuShareTimeline({
+        title: '清明节, 这9名巨星你想“复活”谁？',
+        link: 'http://www.365rili.com/pages/bd/2015_easter/index.html',
+		imgUrl: 'http://www.365rili.com/pages/bd/2015_easter/images/wx.jpg'
+    });
+});
+if(getURLParameter('isShowBar') == 1){
+	$('body').addClass('weixin');
+}
+$('.share_btn').on('tap', share);
+$('.share_btn1').on('tap', share);
+
+if(!app.getUa.weixin && getURLParameter('isShowBar') != 1){
+	$('.share_btn1').show('fast');
+}
+
+function share () {
+    if(!app.getUa.weixin && getURLParameter('isShowBar') != 1){
+		$.ajax({
+            url:'http://www.365rili.com/tmpmessage/shared.do',
+            data:{
+                id: '36',
+                target: '123'
+            },
+            success: function (datas) {
+                if(datas.state != 'ok'){
+                    return false;
+                }
+                app.call({
+                    action: 'share',
+                    params: [
+                        {
+			    			name: 'shareString',
+			    			value: JSON.stringify({
+			    				title: '清明节, 这9名巨星你想“复活”谁？',
+			    				content: 'TA曾是我的挚爱，如今只能在这里见到TA……',
+			    				link: 'http://www.365rili.com/pages/bd/2015_easter/index.html',
+			    				image: 'http://www.365rili.com/pages/bd/2015_easter/images/wx.jpg',
+			    				isEvent: 'true'
+			    			})
+                        }
+                    ],
+                    callBack: function (headers) {}
+                });
+            },
+            error: function () {
+
+            }
+        });
+		return
+	}
+	app.call({
+    	action: 'share',
+    	params: [
+    		{
+    			name: 'shareString',
+    			value: JSON.stringify({
+    				title: '清明节, 这9名巨星你想“复活”谁？',
+    				content: 'TA曾是我的挚爱，如今只能在这里见到TA……',
+    				link: 'http://www.365rili.com/pages/bd/2015_easter/index.html',
+    				image: 'http://www.365rili.com/pages/bd/2015_easter/images/wx.jpg',
+    				isEvent: 'true'
+    			})
+    		}
+    	],
+    	callback: function(data) {}
+    });
+}
+
+</script>
+<script src="//www.365rili.com/js/lib/app.js"></script>
+</body>
+</html>

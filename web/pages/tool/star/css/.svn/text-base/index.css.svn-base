@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 张明臣 (vest0804@gamil.com)
+ * @date    2014-07-28 15:52:29
+ * @version 1.0
+ */
+body { background: #2b2b2b; color: #444; font: 12px / 1.5em "Microsoft YaHei", 微软雅黑,SimSun,arial; margin: 0; padding: 0; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+a{text-decoration: none; }
+.none{display:none;}
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+
+.select_head{height:80px; padding:0 5%;}
+.botton{float:right; width:60px; height:25px; text-align:center; line-height:25px; font-size:16px; margin-top:27px; background:#0893ff; color:#fff; border-radius: 3px;}
+.select_head p{line-height:80px; font-size:16px; color:#fff;}
+.set_btn{float:right; width:16px; height:16px; background:url(../images/set_btn.png) no-repeat; background-size:16px 16px; margin-top:12px;}
+.constellation_list{padding:0 5%;}
+.constellation_list ul{margin-left:-3.3%;}
+.constellation_list li{width:30%; height:90px; float:left; background:#4a4a4a; color:#fff; text-align:center; margin:5px 0 5px 3.3%;font-size:16px;}
+.constellation_list li.on{background:-webkit-linear-gradient(270deg, #c244fa, #6155d9);
+}
+
+.constellation_list li p{font-size:20px; margin-top:20%; line-height: 150%;}
+
+.constellation_content{padding:0 5%;background:-webkit-linear-gradient(270deg, #c244fa, #6155d9);}
+.constellation_head{height:50px; text-align:center; color:#fff; line-height:50px; font-size:18px;}
+.next,.constellation_img,.prv{float:right;}
+.next,.prv{width:20%; height:115px; position: relative;}
+.constellation_img{width:60%; height:95px; text-align:center; padding-top:20px;}
+.next:after{content: " "; position: absolute; width:15px; height:15px; border-top:1px solid #fff; border-left:1px solid #fff; -webkit-transform:rotate(-225deg); top:50%; left:50%; margin:-7px 0 0 -7px;}
+.prv:after{content: " "; position: absolute; width:15px; height:15px; border-top:1px solid #fff; border-left:1px solid #fff; -webkit-transform:rotate(-45deg);  top:50%; left:50%; margin:-7px 0 0 -7px;}
+
+.constellation_detailed{background:#fff; border-radius:5px; padding:3% 5%;}
+.constellation_detailed dl{height:44px; border-bottom:1px solid #e0e1e1; font-size:16px; line-height:44px;}
+.constellation_detailed dl:last-child{border:0;}
+.constellation_detailed dl dt{width:100px; float:left;}
+.constellation_detailed dl dd{margin-left:100px; text-align:right; color:#5e55d8;}
+
+.start_list{float:right; padding-top:18px;}
+.start_list li { position: relative; float:right; color:
+#dfddf7; width: 0px; height: 0px; border-right: 10px solid transparent;
+border-bottom: 7px solid #dfddf7; border-left: 10px solid transparent;
+-moz-transform: rotate(180deg); -webkit-transform: rotate(180deg);
+-ms-transform: rotate(180deg); -o-transform: rotate(180deg); margin:0 0 0 5px;}
+.start_list li:before { border-bottom: 7px solid #dfddf7; border-left: 10px
+solid transparent; border-right: 10px solid transparent; position:
+absolute; height: 0; width: 0; top: 0px; left: -10px; display: block;
+content: ""; -webkit-transform: rotate(72deg); -moz-transform:
+rotate(72deg); -ms-transform: rotate(72deg); -o-transform:
+rotate(72deg); } 
+.start_list li:after { position: absolute; display: block;
+color: #dfddf7; top: 0px; left: -10px; width: 0px; height: 0px;
+border-right: 10px solid transparent; border-bottom: 7px solid #dfddf7;
+border-left: 10px solid transparent; -webkit-transform: rotate(-72deg);
+-moz-transform: rotate(-72deg); -ms-transform: rotate(-72deg);
+-o-transform: rotate(-72deg); content: ""; }
+
+.start_list li.on { position: relative; float:right; color:
+#5f55d9; width: 0px; height: 0px; border-right: 10px solid transparent;
+border-bottom: 7px solid #5f55d9; border-left: 10px solid transparent;
+-moz-transform: rotate(180deg); -webkit-transform: rotate(180deg);
+-ms-transform: rotate(180deg); -o-transform: rotate(180deg); margin:0 0 0 5px;}
+.start_list li.on:before { border-bottom: 7px solid #5f55d9; border-left: 10px
+solid transparent; border-right: 10px solid transparent; position:
+absolute; height: 0; width: 0; top: 0px; left: -10px; display: block;
+content: ""; -webkit-transform: rotate(72deg); -moz-transform:
+rotate(72deg); -ms-transform: rotate(72deg); -o-transform:
+rotate(72deg); } 
+.start_list li.on:after { position: absolute; display: block;
+color: #5f55d9; top: 0px; left: -10px; width: 0px; height: 0px;
+border-right: 10px solid transparent; border-bottom: 7px solid #5f55d9;
+border-left: 10px solid transparent; -webkit-transform: rotate(-72deg);
+-moz-transform: rotate(-72deg); -ms-transform: rotate(-72deg);
+-o-transform: rotate(-72deg); content: ""; }
+
+.constellation_txt{padding-left:5%;}
+.constellation_txt h3{padding:10px 0; font-size:16px; font-weight:500; color:#fff;}
+.constellation_txt p{font-size:14px; line-height:150%; color:#fff;}
+
+.set_display{margin-top:10px; padding:15px 0; border-top:1px solid #fff; font-size:16px; color:#fff; height:25px;}
+.display_btn{float:right; width:40px; height:25px; border-radius: 13px; background:#4cd964; margin-top:-5px; position: relative;}
+.display_btn:after{content:" "; position:absolute; width:23px; height:23px; border-radius: 100%; background:#fff; top:1px; right:1px;}
+
+.colse .display_btn{background:#ccc;}
+.colse .display_btn:after{left:1px;}

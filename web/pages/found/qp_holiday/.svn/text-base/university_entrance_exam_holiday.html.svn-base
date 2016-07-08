@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>海淀名师最后一模</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/university_entrance_exam/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>高考日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>年年岁岁花相似，岁岁年年人想死……一年一度的高考又要来了，不知道考生的知识储备够多了吗、心理素质够强了吗、万一遇到不会做的题能淡定吗……没准备好也没关系，大不了再复习一年……</p>
+            <h3>【高考的前身】</h3>
+            <p>科举制度的历史由来已久，在那个任人唯亲的时代，科举制给很多中下层报（qiong）国（kun）无（liao）门（dao）的知识分子一个参与管理的机会，全国各地的人也是削尖了脑袋想要考中状元谋个一官半职。</p>
+            <img src="images/university_entrance_exam/holiday_1.jpg"/>
+            <p>科举考试少不了夹带小抄，作为历史上长盛不衰的“袖里乾坤”至今名列作弊手段排行榜榜首。那时候的考核项较少，一般都是诗词歌赋、治国之略。很多考生把在生物化学方面的造诣都用到了做小抄上——用“墨鱼牌显影墨水”把答案写在衣服的夹里上，涂上烂泥，混入场后，把泥去掉，文字就显现出来了。</p>
+            <h3>【高考木有捷径！】</h3>
+            <p>各类考试抄袭手段层出不穷，高考当然也有人想走捷径，但是！像带小纸条、在笔上做手脚甚至是利用高科技设备抄袭，都是无效的！高考可以算是中国的第一大考试，对检查、监督都是十分重视的。而且，整个高中阶段那么多知识，即使带了小抄，能不能找到答案才是重点。</p>
+            <img src="images/university_entrance_exam/holiday_2.jpg"/>
+            <p>所以，真正能在考场上发光发热的不是抄袭技术，而是海淀名师押题、黄冈名师猜题、五年高考三年模拟……</p>
+            <p class="mt15">对于成年人，高考更多是一种情节，代表着一段青春。那时候有类似“只要学不死，就往死里学”等标语，有黑板一侧每天修改的倒计时天数，有因为困而睁不开的眼，有汗水有泪水……</p>			
+
+            <div class="tips">
+                <p>1、又到一年高考时，还记得你经历过的高考吗，不记得的话只能证明你有点老了；</p>
+                <p>2、在路上如果遇到有需要的高考生，帮助他们一下吧！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

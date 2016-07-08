@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>小贴士</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link href="/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link href="style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="recommend_main">
+    	<div class="recommend_schedule_top">
+    		<h2>扫尘日大扫除</h2>
+            <h4 class="none">腊月二十四为了迎新年要进行年终大扫除</h4>
+    	</div>
+    	<div class="recommend_schedule_middle">
+    		<div class="recommend_schedule_img">
+    			<img src="images/saochenri.jpg" alt="">
+    		</div>
+            <p><span>推荐理由：</span>春节前大扫除是中国的传统习俗，既有驱除病疫、祈求新年安康的意思，也蕴含着除“陈”（尘）布新的情感愿望。</p>
+            <p>扫尘日这一天，家家户户都会全体出动，清扫蛛网扬尘、擦玻璃、清洗各种器具、拆洗被褥……在这中间发现许多的惊喜——年中不小心丢掉的证件、钥匙、玩具……统统在今天被找到了。</p>
+            <p>添加2月2日扫尘日到备忘，和家人一起享受劳动快乐的同时寻找惊喜吧！</p>
+    	</div>
+    	<div class="recommend_schedule_bottom">
+    			<p>添加到我的日程</p>
+    			<a href="javascript:;" class="add_mySchedule"></a>
+    	</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script type="text/javascript" src="/pages/ui-lib/js/plug.js"></script>
+   <script type="text/javascript" src="/pages/recommend_schedule/js/recommend.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var startTime = new Date("2016/2/2 0:0:0").getTime();
+            tips.init(startTime);
+        })
+    </script></body>
+</html>

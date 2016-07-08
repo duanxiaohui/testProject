@@ -1,0 +1,36 @@
+@CHARSET "utf-8";
+
+.body_title{
+	font-size:20px;
+	margin-top:20px;
+	margin-left:10px;
+	color:#4a4a4a;
+}
+
+.body_detail{
+	border-radius:8px;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.body_detail_problem{
+	color:#2f9d56;
+	padding-bottom:1px;
+	border-bottom:1px solid #dcddde;
+}
+
+.body_detail_problem div{
+	padding:10px;
+}
+
+.body_detail_answer{
+	color:#4a4a4a;
+	padding-top:1px;
+	border-top:1px solid #ffffff;
+	line-height: 1.6em;
+}
+
+.body_detail_answer div{
+	padding:10px;
+}

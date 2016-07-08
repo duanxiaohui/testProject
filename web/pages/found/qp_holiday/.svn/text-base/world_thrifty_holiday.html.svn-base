@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>你勤俭你说了算——世界勤俭日</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/world_thrifty_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>你勤俭你说了算——世界勤俭日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>小编从某高收视率的脱口秀节目中学到了快速致富的秘密——勤“捡”！也就是说，你走在路上，看到100的人民币要捡，看到一毛的硬币要捡，看到饮料瓶也要捡……照这样下去，你很快就能塞满钱包、搞定高富帅、迎娶白富美、踏上人生巅峰了！到时候，花20万造出17万假币已经不算什么了，你靠自己勤劳的双手把自己捡成了人生赢家才是真正励志的头条！</p>
+            <h3>【勤俭日】</h3>
+            <p>联合国人口基金会发布的2006年世界人口现状报告显示，世界人口已突破65亿，并且呈现一个高速增长的模式。再这样下去，地球资源消耗会急速加剧，我们可能会没饭吃、没衣服穿……不能再说下去了！总之，我们一定要勤俭节约了！</p>
+            <img src="/pages/found/qp_holiday/images/world_thrifty_img1.jpg"/>
+            <p>1924年来自世界各地的29个国家参加了在意大利米兰举办的第一届国际储蓄银行大会，这看起来和勤俭没太大关系。但是在会议的最后一天意大利教授Filippo Ravizza倡议该日为国际节能日，之后大会决定创立一个促进全世界共同勤俭的世界勤俭日，号召人们勤俭节约以应对日益严重的资源危机、进而促进社会的健康可持续发展。</p>
+
+            <p class="mt15">其实，很多小伙伴在多年的生活中就奉行着不浪费的原则，因为受过高等教育的他们心中从没忘记过勤俭节约的传统美德。这其中，就包括小编啦！</p>
+            <h3>【一个“花边”新闻】</h3>
+            <p>勤俭历来被视为中华民族的传家宝，古籍典章、民间谚语以及历史名人佳句中都不乏对勤俭的精彩论述。“一粥一饭，当思来处不易；半丝半缕，恒念物力维艰。” “历览前朝国与家，成由勤俭败由奢。”不仅如此，很多优秀历史人物的身上都发生过勤俭节约的“花边”故事，小编就知道你们对这个最感兴趣了！</p>
+            <img src="/pages/found/qp_holiday/images/world_thrifty_img2.jpg"/>
+            <p>我听说勤俭节约的人都有很高的颜值，比如我们的周总理：周恩来一贯倡导勤俭建国、艰苦奋斗，在他身上发生过这样一个故事：1961年12月4日召集专门委员会对当时第二机械工业部的一个规划进行审议，会议从上午开到中午还没结束，周总理留大家吃午饭。餐桌上是一大盆肉丸熬白菜、豆腐，四周摆几小碟咸菜和烧饼。周总理同大家同桌就餐，吃同样的饭菜。这下知道了吧，要想颜值高，一定要恪行节俭啊！</p>
+
+            <div class="tips">
+                <p>1、近年来人口数量增加、资源消耗加剧，意大利Filippo Ravizza教授在第一届国际储蓄银行大会后倡议该日为国际节能日，之后大会决定创立一个促进全世界共同勤俭的世界勤俭日；</p>
+                <p>2、受过高等教育的进步青年们都要奉行勤俭的美德，一不小心就能提高自己的颜值！</p>
+            </div>
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

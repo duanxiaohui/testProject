@@ -1,0 +1,46 @@
+.infoBox {
+		padding-left: 25px;
+		padding-bottom: 30px;
+		font-size:13px;
+		background-color: white;
+		/*border-left:1px #e6e6e6 solid;*/
+		/*border-bottom:1px #e6e6e6 solid;*/
+	}
+	.errorInfo {
+		color: red;
+		font: normal 12px 宋体,serif;
+		padding-left: 18px;
+		margin-bottom: 10px;
+		background: url('http://www.365rili.com/images/cal365_default/err_icon.png') 0 50% no-repeat;
+	}
+	
+	.textBox {
+		width: 75px;
+		border: 1px solid #CACACA;
+		font-size: 15px;
+		padding: 5px 3px 5px 3px;
+	}
+	.link_login {
+		margin-left:10px;
+		cursor:pointer;
+		text-decoration:underline;
+	}
+	
+	.input_bg{
+		position:relative;
+		margin-bottom: 15px;
+	}
+	.input_bg input{
+		width: 230px;
+		border: 1px solid #CACACA;
+		padding: 8px 5px;
+		color:#999;
+		font-size: 13px;
+	}
+
+	.link_login a{
+		color: #000000;
+	}
+	.link_login a:visited{
+		color: #000000;
+	}

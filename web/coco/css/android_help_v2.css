@@ -1,0 +1,34 @@
+body{ font-family: "Microsoft YaHei";}
+*{margin:0; padding:0;}
+ul{list-style: none;}
+li{list-style-type: none;}
+a { color:#0d23f4; cursor: pointer; text-decoration: none; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; width:100%; }
+td,th{border: 1px solid #BCBEC0; height:30px; text-align:center;}
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+
+.main{margin:0 auto;  padding:10px 5px;}
+.main p{font-size:16px; color:#1ea2ee; line-height:24px; font-weight:600; padding-left:24px; text-indent:-24px;}
+.box{padding:10px 0; text-align:center;}
+.box div{width:145px; height:238px; display:inline-block;}
+
+.a1{background:url(../images/help_v2/a1.jpg?v=20140313) no-repeat left top; -webkit-background-size:145px 238px; }
+.a2{background:url(../images/help_v2/a2.jpg?v=20140313) no-repeat center top; -webkit-background-size:145px 238px; }
+.b1{background:url(../images/help_v2/b1.jpg?v=20140313) no-repeat center top; -webkit-background-size:145px 238px;}
+.b2{background:url(../images/help_v2/b2.jpg?v=20140313) no-repeat center top;-webkit-background-size:145px 238px;}
+.c1{background:url(../images/help_v2/c1.jpg?v=20140313) no-repeat center top; -webkit-background-size:145px 238px;}
+.c2{background:url(../images/help_v2/c2.jpg?v=20140313) no-repeat center top; -webkit-background-size:145px 238px;}
+.d1{background:url(../images/help_v2/d1.jpg?v=20140313) no-repeat center top; -webkit-background-size:145px 238px;}
+.d2{background:url(../images/help_v2/d2.jpg?v=20140313) no-repeat center top; -webkit-background-size:145px 238px;}
+.e1{background:url(../images/help_v2/e1.jpg?v=20140313) no-repeat center top; -webkit-background-size:145px 238px;}
+.e2{background:url(../images/help_v2/e3.jpg?v=20140313) no-repeat center top; -webkit-background-size:145px 238px;}
+.f1{background:url(../images/help_v2/f1.jpg?v=20140313) no-repeat center top; -webkit-background-size:145px 238px;}
+.f2{background:url(../images/help_v2/f2.jpg?v=20140313) no-repeat center top; -webkit-background-size:145px 238px;}
+.g1{background:url(../images/help_v2/g1.jpg?v=20140313) no-repeat center top; -webkit-background-size:145px 238px;}
+.g2{background:url(../images/help_v2/g2.jpg?v=20140313) no-repeat center top; -webkit-background-size:145px 238px;}
+.g3{background:url(../images/help_v2/g3.jpg?v=20140313) no-repeat center top; -webkit-background-size:145px 238px;}
+.g4{background:url(../images/help_v2/g4.jpg?v=20140313) no-repeat center top; -webkit-background-size:145px 238px;}
+
+.footer{color:#1ea2ee; font-size:14px; line-height:26px; padding-top:20px; text-align:center;}

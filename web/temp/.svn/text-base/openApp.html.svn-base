@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><script src="/js/lib/app.js"></script></head><body><script>app.open(app.query('url'), null);setTimeout(function () {window.history.go(-1)}, 1500);</script></body></html>

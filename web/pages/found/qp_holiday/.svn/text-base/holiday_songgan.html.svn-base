@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>躲得过泼水节，躲不过今天！</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/holiday_songgan/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>宋干节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>一年一度的泰国新年——宋干节开始于4月13日，一连三天全泰国均笼罩在喜气洋洋的气氛当中。在这个时刻，泰国人通常以相互泼水来庆祝，故又叫做泼水节。</p>
+            <img src="images/holiday_songgan/holiday_1.jpg"/>
+          
+
+            <h3>【宋干节的由来】</h3>
+
+            <p>据说宋干节源自印度婆罗门教的一种仪式，教徒们每年都有一个宗教日要到河边沐浴，洗去身上的罪恶。因年老体迈或残疾病弱不能到河边者，其家人或好友则要为他们把水挑回，给他们泼水洗罪。泰国清迈府的宋干节因隆重热闹而享有盛名，每年都能招徕大批国内外观光游客。</p>
+           
+            <img src="images/holiday_songgan/holiday_2.jpg"/>
+
+            <p>而"宋干"一词出自梵语，泼水节之所以命名为宋干，是因为东南亚居民相信，太阳转入黄道星座中的第一宫——牡羊宫，当天代表新一年开始。太阳入牡羊宫应该是三月，将节日订在四月中是计算错误所致，但人们都无意推翻约定俗成的观念，宋干是泰国的新年。</p>
+
+            <h3>【来来来，泼水啦】</h3>
+
+            <p>传统的宋干节清晨第一项仪式是祈福，年轻一辈列队向长者表示敬意，希望得到长者的赐福，图来年吉祥。在这三天里，全国都热闹非凡，各地都举行大型庆典及"宋干节小姐"选美活动。曼谷大街小巷里当地人和游客挤在一起，乐着泼水，互道恭喜及祝福，尤其在炎热的天气下，淋一身湿反倒更能消暑。宋干节期间曼谷泼水最热闹的地点是大皇宫附近的皇家田广场，水枪、面具和水管都上阵，有的人不仅浑身透湿，还"挂彩",那是涂满身满脸的白色爽身粉。全国最值得一游的地方是清迈。宋干节乐趣无穷，吉祥幸福。</p>
+            <img src="images/holiday_songgan/holiday_3.jpg"/>
+
+
+            <div class="tips">
+                <p>1、“宋干节”同样也被称为“泼水节”，因此许多人相信水可以将霉运冲走；</p>
+                <p>2、宋干节也是泰国一年一度的国家家庭日和敬老节。在今天要多关心家人，多利用空闲时间和家人团聚哦！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/Vanna</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

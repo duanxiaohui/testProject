@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>新手指南</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="/coco/new_help/css/new_help.css" media="screen" />
+</head>
+<body>
+	<div class="help_main">
+		<div class="hot_pro">
+			<ul>
+				<li data-url="https://shimo.im/doc/nMKGEWBmFasf6rOC">日期计算在哪里？</li>
+				<li data-url="https://shimo.im/doc/ClmmaGbnGngLJhMv">如何搜索日程、待办？</li>
+				<li data-url="https://shimo.im/doc/M2DxhwA3FBFBV4Eu">可以用365日历做什么？</li>
+				<li data-url="https://shimo.im/doc/uq5sCD6R4y3qOuBz">为什么要注册登录？登录的好处是什么？</li>
+				<li data-url="https://shimo.im/doc/YW14JWPVSWglmRbS">如何创建个人日程并设置提醒？</li>
+				<li data-url="https://shimo.im/doc/W4KlIGcb9A7FJ937">微信邀请日程如何使用？</li>
+				<li data-url="https://shimo.im/doc/yVimTkUvpSP42mHU">共享日历可以用来做什么？</li>
+				<li data-url="https://shimo.im/doc/dj0tKeUswjtnotBZ">发现模块可以看到哪些内容？</li>
+				<li data-url="https://shimo.im/doc/dr8OQWqxydghUXL0">我的日程数据是永久保存的么？</li>
+				<li data-url="https://shimo.im/doc/1k8Bi68NgZ9TAjHy">生日本和生理期在哪里找？</li>
+			</ul>
+		</div>
+	</div>
+	<script src="/js/lib/zepto.min.js"></script>
+	<script src="/js/lib/app.js"></script>
+	<script src="/coco/new_help/js/new_help.js"></script>
+</body>
+</html>

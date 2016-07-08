@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历--PPS影音</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+</head>
+<body>
+	<div class="main">
+		<div class="top"></div>
+		<div class="text">
+			<p>为用户提供了便捷、稳定、流畅的视频播放体验。打开“PPS影音”享受一场高清视频盛宴吧! </p>
+		</div>
+		<a href="http://download.ppstream.com/android/partners/am/pps_am-0042.apk" class="btn" id="btn">下载PPS影音</a>
+	</div>
+</body>
+</html>

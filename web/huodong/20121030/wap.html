@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html manifest="http://m.weibo.cn/weibo.manifest">
+<head>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>NBA</title>
+	<meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+	<style type="text/css">
+		*{margin:0; padding:0;}
+		body{font-size:12px; font-family:"Microsoft YaHei",微软雅黑;}
+		li{list-style-type: none;}
+		a {color: #fff;  text-decoration: none;}
+		.nba365_top,.nba365_introduction,.nba365_rule,.nba365_vote,.nba365_fixtures{margin:0 auto;}
+		.nba365_top{width:320px; height:84px; padding:14px 0 0 0; background:url(images/nba365_top.jpg) no-repeat;}
+		.nba365_top a{display:block; width:175px; height:63px; margin:0 0 0 11px;}
+		.nba365_introduction{width:320px; height:171px; background:url(images/nba365_introduction.jpg) no-repeat;}
+		.nba365_introduction p{margin:0 125px 0 12px; width:183px; line-height:16px; color:#002e55;}
+		.nba365_rule{width:320px; padding:40px 0 0 0; height:184px; background:url(images/nba365_rule.jpg) no-repeat;}
+		.nba365_rule p{margin:0 30px 0 12px; color:#fff; line-height:19px; font-weight:600;}
+		.nba365_rule p span{color:#f50; font-family:Arial;}
+		.nba365_fixtures{width:308px; height:115px; background:#e9f2f9; padding-left:12px;}
+		.nba365_fixtures h3{font-size:12px; color:#002e55; margin-bottom:15px;}
+		.nba365_fixtures p{font-size:14px; font-weight:600; line-height:24px;color:#002e55; padding-left:50px;}
+		.nba365_vote{width:258px; height:115px; padding:22px 0 0 62px; background:#e9f2f9 url(images/icon_ad.png) no-repeat left top; font-weight:600;}
+		.nba365_vote p{color:#002e55;}
+		.nba365_vote ul li{padding:5px 0 0 0;color:#002e55;}
+		.nba365_vote input,.nba365_vote span{vertical-align:middle; margin:0 3px 0 0;}
+		.nba365_btn{display:block; width:130px; height:25px; text-align:center; background:url(images/nba365_btn.jpg) no-repeat; margin:10px 0 10px 23px; font-size:12px;line-height:25px; color:#fff; font-weight:500;}
+	</style>
+</head>
+<body>
+	<div class="nba365_top">
+		<a href="###"></a>
+	</div>
+	<div class="nba365_introduction">
+		<p>365日历此前曾推出欧洲杯和奥运插件，获得了外界一致的好评，我们应时推出体育插件，并与中国网球公开赛以及李宁进行合作，为3000多万用户推送各类体育热门信息。在10月31日NBA2012-13赛季揭幕之际，365日历联合推出有奖竞猜活动，回馈各位历友，奖品包括霍华德亲笔签名Tee以及中网勋章等，参与方式：</p>
+	</div>
+	<div class="nba365_rule">
+		<p>1、只要安装最新版本的365日历，并安装“体育插件”，NBA揭幕战当天竞猜任意比赛，只要竞猜结果正确，即可参与抽奖赢<span>“霍华德签名Tee”</span>。</p>
+		<p>2、只要在新浪微博上关注“365日历”和“新浪体育视频”，并转发相关抽奖微博，即可参与抽奖赢<span>”霍华德签名Tee”</span>。</p>
+		<p>3、点击本页分享按钮，分享内容，即可参与抽奖赢<span>“中网纪念勋章”</span>。</p>
+	</div>
+	<div class="nba365_vote" id="radioList">
+		<p>您认为NBA揭幕战热火vs凯尔特人谁会获胜？</p>
+		<ul>
+			<li><label><input type="radio" name="radiobotton" value="热火"/><span>热火</span></label></li>
+			<li><label><input type="radio" name="radiobotton" value="凯尔特人"/><span>凯尔特人</span></label></li>
+		</ul>
+		<div id="ios_btn">
+			<a href="javascript:;" class="nba365_btn" id="nba365_btn">微博竞猜分享</a>
+		</div>
+	</div>
+	<div class="nba365_fixtures">
+		<h3>NBA揭幕战赛程：</h3>
+		<p>07:00    骑士vs奇才</p>
+		<p>08:00    凯尔特人vs热火</p>
+		<p>10:30    小牛vs湖人</p>
+	</div>
+<script type="text/javascript">
+function $(id){
+	return document.getElementById(id);
+}
+
+window.onload = function(){
+    var nba_btn = $("nba365_btn"), ios_btn = $("ios_btn"), r = 0;
+    
+    nba_btn.onclick = function(){
+        var rbs = document.getElementsByTagName("Input"), team;
+        if (team = (rbs[0].checked && rbs[0].value || rbs[1].checked && rbs[1].value || '')) {
+            var txt = "#365日历直击NBA揭幕战#我认为热火vs凯尔特人，" + team + "会获胜。下载@365日历 ，用体育插件不仅可以关注赛事更新，还能参与抽奖赢霍华德亲笔签名Tee和中网纪念勋章噢，赶快来参加吧！传送门：http://t.cn/zOqhUGC", txt1 = "#365日历直击NBA揭幕战#我认为热火vs凯尔特人，" + team + "会获胜。下载@365日历 ，用体育插件不仅可以关注赛事更新，还能参与抽奖赢霍华德亲笔签名Tee和中网纪念勋章噢，赶快来参加吧！传送门：t.cn/zOqhUGC"
+            if (/android/i.test(navigator.userAgent)) {
+                try {
+                    AliansBridge.share(txt, img = "nba.jpg", null, false);
+                } 
+                catch (e) {
+                    alert("您的365日历版本暂不支持发微博，请升级到最新版");
+                }
+            }
+            else 
+                if (/ipad|iphone|mac/i.test(navigator.userAgent)) {
+                    nba_btn.href = 'rili365app:share:' + txt1 + ':nba.jpg';
+                }
+        }
+        else {
+            alert("请选择您认为会获胜的队伍");
+        }
+    }
+}
+
+</script>
+</body>
+</html>

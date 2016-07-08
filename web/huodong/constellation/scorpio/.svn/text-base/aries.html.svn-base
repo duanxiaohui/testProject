@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>365日历</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
+</head>
+<body>
+    <div class="main">
+    	<div class="top_bg">
+    			<div class="constellation_avtar e_clear">
+    				<div class="avtar"><img src="images/aries.png" width="98" height="98"/></div>
+					<div class="constellation_exp">
+						<h3>白羊座  Aries</h3>
+						<p>21/03-20/04</p>
+						<p>2013年运势</p>
+					</div>
+    			</div>
+				<dl class="e_clear">
+					<dt class="overall">整体</dt>
+					<dd>白羊君的年度主题：自我认知引导的成长。木星的引导让白羊君通过自我认知得到放松的能量，适当的外出走走，会带来心灵治愈，会令你内心的力量强大，足以抵挡工作上的各种压力。上半年贵人频现，慢慢替代你的酒肉朋友们，给白羊君更多好的影响，帮助白羊君自我成长。木星下半年落入巨蟹，白羊君的心力会集中在家人身上，你的家人对你的需要也会给你很多的力量，带来责任感的成长。土星和冥王星的良好相位，对于白羊君的事业运和金钱运有很好的帮助，特别是在年初。</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="career">事业</dt>
+					<dd>
+						<p>本年度的职场白羊君有升迁运的，只要愿意投入精力，上司会非常认可你，但是升迁的前提是调整自己的行事及为人处世，凡事不可过于直接莽撞。一至三月有工作上重要的任务，完成后可以奠定自己无人撼动的升迁基础，要注意抓住机会表现，来证明自己的实力。四、五月份与九、十月份，是能否能够得到升迁的关键期，其间注意避免各种冲突，特别是与上司以及客户的冲突。自己创业的白羊君，则存在一定的资金周转问题，而其中主要原因也是需要扩大的生意。你的实力让你有机会站在第一线，现在也正在打开市场、吸纳金钱、把事业做大的关键期，调整自己冲动的个性，内敛圆融一些是非常有必要的，即使那样看起来就不太像白羊君了，但是对于自我的成熟是有好处的。</p>
+					</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="affection">感情</dt>
+					<dd>
+						<p>单身的白羊君上半年其实桃花很旺，年初会出现短暂而愉快的关系，四、五月工作会对感情运有所影响。下半年成家的欲望较强的白羊君很可能通过相亲遇到适合结婚的对象，九月十月甚至存在嫁娶的可能。</p>
+						<p>已婚者要重视家庭关系和家庭责任感，特别是在年初工作繁忙的时候，也尽量照顾好家人的需要，否则容易出现两面不讨好的局面。九、十月婚姻会有受指责的状况，要小心处理。</p>
+					</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="money">金钱</dt>
+					<dd>白羊君今年不适合冒险，投资态势变得比较保守，宁可投资不动产，基金、股票一类以稳健为主，少赚、不赔就好。土冥互融在一至三月间影响力兼职偏财运最强，偏财收入颇丰只是会牺牲私人时间。四、五月你有赚钱的欲望，也有发挥实力的机会，五、六、七月可能又有金钱的漏洞要补，小心面对，债务可能有其必要但必须控制，否则又卷入经济风波中，让自己觉得十分辛苦。</dd>
+				</dl>
+    		</div>
+			<p class="txt">安装星座插件，查看每日星座指南！</p>
+			<a class="btn" id="btn" href="javascript:;">分享到微博</a>
+    </div>
+<script type="text/javascript">
+    function $(id){
+        return document.getElementById(id);
+    }
+	window.onload = function(){
+		var btn = $("btn");
+		btn.onclick = function(){
+			var txt = "@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com"
+			var json = '[{"img": "constellation.jpg","content": "@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com","via": "weibo","type": "type","follow": true},{"img":"test","content":"@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com","via":"qt","type":"type","follow":true}]';
+			if (/android/i.test(navigator.userAgent)) {
+				try {
+					AliansBridge.sharev2(json);
+				} 
+				catch (e) {
+					try {
+						AliansBridge.share(txt, img = "constellation.jpg", null, false);
+					} 
+					catch (e) {
+						alert("您的365日历版本暂不支持发微博，请升级到最新版");
+					}
+				}
+			}
+			else 
+				if (/ipad|iphone|mac/i.test(navigator.userAgent)) {
+					btn.href = 'rili365app:share|||||' + txt + '|||||constellation.jpg';
+				}
+		}
+	}
+</script>
+</body>
+</html>

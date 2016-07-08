@@ -1,0 +1,194 @@
+	.page{
+		width:1030px;
+		margin:0px auto;
+	}
+	.header{
+		height:30px;
+		width:1030px;
+	}
+	.fContent{
+		background:url(/images/index/fContent.png) no-repeat;
+		height:682px;
+		width:1028px;
+		position:relative;
+		margin-top:5px;
+	}
+	.upCircle{
+		background:url(/images/index/upCircle.png) no-repeat;
+		height:16px;
+		width:1029px;
+	}
+	.contentBg{
+		background:url(/images/index/contentBg.png) repeat-y -1px 0px;
+		width:1030px;
+	}
+	.downCircle{
+		background:url(/images/index/downCircle.png) repeat-y -1px 0px;
+		height:16px;
+		width:1030px;
+	}
+	.cPart{
+		margin-top:10px;
+		position:relative;
+	}
+	.sysShow{
+		float:left;
+		width:340px;
+		height:100%;
+	}
+	.firstPart{
+		background:url(/images/index/firstPart.png) no-repeat;
+		height:119px;
+		width:259px;
+		left:45px;
+		bottom:16px;
+		position:absolute;
+
+	}
+	.share{
+		background:url(/images/index/share.png) no-repeat;
+		height:122px;
+		width:267px;
+		left:385px;
+		bottom:30px;
+		position:absolute;
+	}
+	.xiezuo{
+		background:url(/images/index/xiezuo.png) no-repeat;
+		height:83px;
+		width:287px;
+		left:720px;
+		bottom:55px;
+		position:absolute;
+	}
+	.fenge{
+		background:url(/images/index/fenge.png) no-repeat;
+		height:260px;
+		width:7px;
+		position:absolute;
+	}
+	.personal{
+		background:url(/images/index/mobilePhone.png) no-repeat;
+		height:222px;
+		width:891px;
+		position:absolute;
+		left:68px;
+		bottom:16px;
+	}
+	.tools{
+		background:url(/images/index/tools.png) no-repeat;
+		height:224px;
+		width:561px;
+		position:absolute;
+		top:39px;
+		right:83px;
+	}
+	.contentColor{
+		color:#8f8f8f;
+		margin-top:3px;
+	}
+	.partContent{
+		margin-left:40px;height:120px;width:270px;overflow:hidden;
+	}
+	.android{
+		background:url(/images/index/android.gif) no-repeat;
+		height:55px;
+		width:134px;
+		float:left;
+		cursor:pointer;
+		
+	}
+	.iPhone{
+		background:url(/images/index/iphone.gif) no-repeat;
+		height:55px;
+		width:134px;
+		float:left;
+		margin-left:5px;
+		cursor:pointer;
+		
+	}
+	.windows{
+		background:url(/images/index/windows.gif) no-repeat;
+		height:55px;
+		width:134px;
+		float:left;
+		margin-left:5px;
+		cursor:pointer;
+		
+	}
+	.footer{
+		margin-top:10px;
+		text-align:center;
+		height:20px;
+		width:1030px;
+		color:#929292;
+		font-size:10px;
+	}
+	.header a, 
+	.header a:visited{
+		color:#626262;
+	}
+	.footer_top {
+	    height: 167px;
+	    padding: 0;
+	}
+	.footer_top a {
+	    color: #7B7B7B;
+	    margin: 0 2px;
+	    text-decoration: none;
+	}
+	.partner {
+	    float: left;
+	    margin: 25px 0 0 25px;
+	}
+	.links {
+	   	clear: both; 
+	    margin: 0;
+    	padding: 0;
+	}
+	.footer_top p {
+	    color: #7B7B7B;
+	    float: left;
+	    font-size: 12px;
+	    line-height: 23px;
+	    margin: 35px 45px 0 !important;
+	}
+
+	.window_big_head p {
+	    float: left;
+	    font-size: 16px;
+	    font-weight: normal;
+	    line-height: 39px;
+	    margin: 0;
+	}
+	.window_big_head {
+    	color: #373737;
+	}
+
+	.window_img1 {
+	    float: left;
+	    margin-left: 30px;
+	    margin-right: 15px;
+	    margin-top: 15px;
+	}
+	.window_img2 {
+	    float: left;
+	    margin-left: 20px;
+	    margin-right: 250px;
+	    margin-top: 25px;
+	}
+
+	.window_big_body a {
+	    color: #4899ED;
+	    margin-right: 10px;
+	    text-decoration: none;
+	}
+
+.and_table {
+	    color: #777777;
+	    float: left;
+	    font-size: 12px;
+	    line-height: 14px;
+	    margin-bottom: 10px;
+	    margin-left: 40px;
+}

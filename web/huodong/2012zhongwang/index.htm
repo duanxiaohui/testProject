@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>365日历</title>
+<link type="text/css" rel="Stylesheet" href="css/index.css" />
+<link type="text/css" rel="Stylesheet" href="css/active.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+</head>
+<body>
+<div class="rili_365">
+	<div class="auto">
+		<script type="text/javascript">
+			if (/android/i.test(navigator.userAgent)){
+				document.write("<img src='img/abg.jpg' usemap='#map' style='float:left;' /><map name='map' id='map' style='float:left; cursor:pointer'><area shape='rect' coords='42,1183,280,1252' href='javascript:sendBtnClick()'/></map>");
+			}
+			else document.write("<img src='img/ibg.jpg' usemap='#map' style='float:left;' /><map name='map' id='map' style='float:left; cursor:pointer'><area shape='rect' coords='165,1179,321,1234' href='javascript:qqBtnClick()'/><area shape='rect' coords='1,1179,158,1236' href='javascript:sinaBtnClick()'/></map>");
+		</script>
+	</div>
+</div>
+
+<input type="hidden" id="UID" value="">
+<input type="hidden" id="PWD" value="">
+
+<script type="text/javascript">
+	var userid = null;
+	var password = null;
+	var content = null;
+	var qqDo = false;
+	var sinaDo = false;
+	var androidDo = false;
+	function getUserInfo()
+	{
+		if (/android/i.test(navigator.userAgent))
+		{
+			userid = AliansBridge.getUserId();
+			password = AliansBridge.getUserPassword();
+		}
+		if (/ipad|iphone|mac/i.test(navigator.userAgent)){
+			userid = document.getElementById('UID').value;
+			password = document.getElementById('PWD').value;
+		}
+	}
+
+	function qqBtnClick(){
+		getUserInfo();
+		if(userid=='null'||!userid)
+		{
+			alert("您的365日历版本暂不支持发微博，请升级到最新版");
+		}
+		else
+		{
+			if(qqDo == true)return false;
+			else qqDo = true;
+			var txt = "我正在通过 @a365rili 关注中国网球公开赛，支持中网 ，支持中国军团！ @李娜 @彭帅 @郑洁 加油！（通过365日历-体育插件竞猜中网赛事，可参与抽奖，下载传送门： http://t.cn/ho6A0 ）";
+			AJAX(
+			'/qt/weiboFromWebView.do', true, 'POST',
+			'content='+txt+'&u='+userid+'&p='+password+'&img=zhongwang',
+			function (result) {
+				alert(result);
+				result = eval("("+result+")");
+				if(result.state == "ok")alert("微博已经发送成功！");
+				else alert("发送失败，是否未登录365账号或未绑定腾讯微博！请返回软件操作后重试。");
+			});
+		}
+	}
+	function sinaBtnClick(){
+		getUserInfo();
+		if(userid=='null'||!userid)
+		{
+			alert("您的365日历版本暂不支持发微博，请升级到最新版");
+		}
+		else
+		{
+			if(sinaDo == true)return false;
+			else sinaDo = true;
+			var txt = "我正在通过 @365日历 关注中国网球公开赛，支持 @中网ChinaOpen ，支持中国军团！ @李娜 @彭帅 @郑洁 加油！（通过365日历-体育插件竞猜中网赛事，可参与抽奖，下载传送门： http://t.cn/ho6A0 ）";
+			AJAX(
+				'/weibo/statusFromWebView.do', true, 'POST', 
+				'content='+txt+'&u='+userid+'&p='+password+'&img=zhongwang', 
+				function (result) {
+					alert(result);
+					result = eval("("+result+")");
+					if(result.state == "ok")alert("微博已经发送成功！");
+					else alert("发送失败，是否未登录365账号或未绑定新浪微博！请返回软件操作后重试。");
+			});
+		}
+	}
+	function sendBtnClick(){
+		getUserInfo();
+		if(userid=='null'||!userid)
+		{
+			alert("您的365日历版本暂不支持发微博，请升级到最新版");
+		}
+		else
+		{
+			if(androidDo == true)return false;
+			else androidDo = true;
+			var txt = "我正在通过 @365日历 关注中国网球公开赛，支持 @中网ChinaOpen ，支持中国军团！ @李娜 @彭帅 @郑洁 加油！（通过365日历-体育插件竞猜中网赛事，可参与抽奖，下载传送门： http://t.cn/ho6A0 ）";
+			AliansBridge.share(txt, "zhongwang", null, true);
+		}
+	}	
+	
+</script>
+</body>
+<script type="text/javascript" src="js/ajax.js"></script>
+</html>

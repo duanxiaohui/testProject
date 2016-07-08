@@ -1,0 +1,37 @@
+#ie6alertblock
+{
+	z-index:32767;
+	position:absolute;
+	top:-138px;
+	left:0px;
+	width:100%;
+	height: 137px;
+	font-size: 20px;
+	background-color: #165c87;
+	filter:alpha(opacity=80);
+	opacity: 0.8;
+	border-bottom: 1px solid #165c87;
+	color: white;
+}
+
+#id6365logo
+{
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/index/iealert/logo.png");
+	width: 95px;
+	height: 97px;
+	margin-top: 20px;
+	margin-left: 40px;
+	display: inline;
+	float: left;
+}
+
+#365alertcontent
+{
+	float: left;
+	padding-top: 20px;
+}
+
+#365alerttishi
+{
+	font-size: 30px;
+}

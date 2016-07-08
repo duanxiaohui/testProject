@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>放开那个罗马，让我来</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/rome_mushen/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>古罗马牧神节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>希腊人曾多次自豪的说：“我们的国家没有统治者，每一个城邦公民都是统治者。”奴隶社会就享如此高层次的自由，这一社会现实让希腊达到了文化繁荣的小巅峰。跟“三好学生”希腊做了许多年上下铺的罗马，却是非常的有“原则”，几百年如一日的将自己的粗俗本性坚持到底，真想大呼一声：放开那么好的舍友，让我来！</p>
+            <h3>【插播一段希腊罗马的过往】</h3>
+            <p>希腊盛产文艺青年，那是山的那边海的那边一群单纯到只知道写诗、研究哲学的人们，当他们在象牙塔里追逐嬉戏的时候，罗马人已经建立了自己的国家。</p>
+            <img src="images/rome_mushen/holiday_1.jpg"/>
+            <p>跟希腊完全相反的是，罗马崇尚武力，扩大国家版图的宏伟目标就是这样达成的。因此罗马的缺点也是显而易见的，那就是流于粗俗，不管是为人处事还是治国安邦，都不太有底（jie）线（cao），而且他们不怎么崇尚科学文化，坚信“枪杆子里出政权”。因此罗马人的角色比较类似班级里的体育委员，一到户外活动时间就兴奋不已、动如脱兔。他们在政治和军事方面堪称天才，在科学文化方面也绝对是白痴的典范。</p>
+            <h3>【莽夫也过节】</h3>
+            <p>因此，罗马给人的印象更像是五大三粗的莽夫，似乎罗马满大街都是李逵那种风格。</p>
+            <img src="images/rome_mushen/holiday_2.jpg"/>
+            <p>但是莽夫也有细腻的时候，甚至是也会有信仰。罗马人就非常尊敬畜牧神卢波库斯，每年的2月15日都会在柏伦町山上的卢波库斯洞里庆祝牧神节。柏伦町山是罗莫路和勒莫小时候被一只狼收养的地方，据罗马传说描述，一个牧羊人在狼窝里找到了这对双胞胎并将他们带回家让他的妻子来抚养他们，后来他们成为了罗马的奠基人。</p>
+            <h3>【节日习俗】</h3>
+            <p>罗马城刚刚建成时周围还是一片荒野，成群的狼四处游荡。在罗马人崇拜的众神中，畜牧神卢波库斯掌管着对牧羊人和羊群的保护。每年二月中，罗马人会举行盛大的典礼来庆祝牧神节。</p>
+            <img src="images/rome_mushen/holiday_3.jpg"/>
+            <p>在节日的各项庆典中，有一项是年轻的贵族们手持羊皮鞭在街道上奔跑，年轻妇女们会聚集在街道两旁祈望羊皮鞭抽打到她们头上，人们相信这样会使她们更容易生儿育女。随着罗马势力在欧洲的扩张，牧神节的习俗被带到了现在的法国和英国等地。人们最乐此不疲的一项节日活动类似于现在的摸彩，年轻女子们的名字被放置于盒子内，然后年轻男子上前抽取。抽中的一对男女成为情人，时间是一年或更长。</p>
+
+            <div class="tips">
+                <p>1、每年的2月15日是罗马的牧神节，罗马人会举行盛大的典礼来庆祝这个节日；</p>
+                <p>2、罗马彪悍但不粗俗，本节日最终解释权归本小编所有，请勿擅自更改对罗马的印象！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

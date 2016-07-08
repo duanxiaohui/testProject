@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015福州１２小时超长马拉松</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015福州１２小时超长马拉松</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/1f20248c-2958-4f74-bd76-e02ffd0b5faa.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+			  <a class="btn js-subscribe" data-uuid="f0a7d99e-c5c3-42ab-b0dc-3ca8a43b58a0" data-cid="147514789">添加提醒</a>
+	    	
+	    	<p class="time"><b>报名时间：2015年2月3日-2015年2月18日
+
+</b></br>
+
+<b>比赛时间：2015.03.22星期日8:00 - 20:00
+</b></br>
+
+	    	<b>比赛地点：福建省体育中心奥体田径场</b></br><b>类型：超马</b></br>
+
+			</p>
+			<h3></h3>
+			<p>
+
+</p>
+			<!--h3是小标题-->
+			<h3>报名条件：</h3>
+			<!--p是段落文字描述-->
+			<p>
+1、年龄要求</br>
+18周岁以上（1997年3月22日以前出生）, 60周岁以下（1955年3月22日以后出生）的男女均可报名参加。</br>
+2、有以下疾病患者不宜参加比赛；</br>
+ 1）先天性心脏病和风湿性心脏病患者；</br>
+2）高血压和脑血管疾病患者；</br>
+3）心肌炎和其他心脏病患者；</br>
+4）冠状动脉疾病患者和严重心率不齐者；</br>
+5）血糖过高或过低的糖尿病患者；</br>
+6）其它不适合运动的疾病患者。</br>
+3、参赛经验要求</br>
+近两年内完成5次以上全程马拉松比赛（男子成绩在4个半小时以内，女子成绩在5小时以内），或完成1次百公里比赛，提供成绩证书及身份证件。</br>
+
+</br>具体详情以官网信息为准
+</p>
+
+<img src="http://cocoimg.365rili.com/schedule_pics/default/c46724cc-3739-42b0-a140-c98d013d0ae4.jpg"/>
+			
+			 <div class="remind_div" data-uuid="f0a7d99e-c5c3-42ab-b0dc-3ca8a43b58a0" data-cid="147514789"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/1f20248c-2958-4f74-bd76-e02ffd0b5faa.jpg',
+                title: '2015福州１２小时超长马拉松',
+                desc: '比赛时间：2015年3月22日（星期日）8:00-20：00 比赛地点：福建省体育中心奥体田径场'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015福州１２小时超长马拉松',
+		        				content: '比赛时间：2015年3月22日（星期日）8:00-20：00 比赛地点：福建省体育中心奥体田径场',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/1f20248c-2958-4f74-bd76-e02ffd0b5faa.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

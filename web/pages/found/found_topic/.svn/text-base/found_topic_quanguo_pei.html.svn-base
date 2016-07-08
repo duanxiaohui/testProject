@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>宠爱身边特别的她</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<link href="http://www.365rili.com/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/found_topic/style/found_topic.css" rel="stylesheet">
+<body>
+	<div class="found_topic">
+		<div class="found_topic_top">
+			<img src="images/quanguo_pei/pic_top.jpg" width="100%" alt="">
+		</div>
+		<div class="found_topic_txt">
+			<h2>一年一次，做好你的“陪”友</h2>
+			<p>春风十里，不如睡你；对你，“我”不仅走肾，还走心</p>
+		</div>
+		<div class="found_topic_list">
+			<ul>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=8171">
+					<div class="topic_list_img">
+						<img src="images/quanguo_pei/pic_1.jpg" width="100%" alt="">
+					</div>
+					<h3>陪吃｜今晚，下面给你吃。</h3>
+					<p>给女王做顿饭</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=8173">
+					<div class="topic_list_img">
+						<img src="images/quanguo_pei/pic_2.jpg" width="100%" alt="">
+					</div>
+					<h3>陪买｜最浪漫的情话，刷我滴卡！</h3>
+					<p>她烦的时候又不能抽烟，就让她买买买吧。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+    <div id="VER" style="display: none;"></div>
+    <div id="UID" style="display: none;"></div>
+    <div id="MAC" style="display: none;"></div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js?20151016"></script>
+    <script src="http://www.365rili.com/js/lib/app.js?20151119"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/function.js?20151119"></script>
+    <script src="http://www.365rili.com/pages/found/found_topic/js/found_topic.js?20151119"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/index.css?v=20140229" media="screen" />
+</head>
+<body>
+<div class="proudct">
+	<div class="proudct_top">
+		<div class="proudct_logo"></div>
+	</div>
+	<div class="proudct_list">
+		<ul>
+			<li>
+				<div class="btn_bg">
+					<a href="javascript:;" class="business_btn"></a>
+					<div class="business"></div>
+				</div>
+				<p>365日历，超过6000万智能手机用户使用，是中国最专业的日历和万年历产品，装机必备。365日历支持农历、万年历查询，手机和电脑同步更新日程提醒，完美同步google日历， 在iPhone、Android、Windows等平台上都可以使用，并为百度、腾讯、360等战略合作伙伴提供定制日历。</p>
+			</li>
+			<li>
+				<div class="btn_bg">
+					<a href="javascript:;" class="tudo_btn"></a>
+					<div class="tudo"></div>
+				</div>
+				<p>强力的插件功能，细致入微的使用体验，超越你的想象极限，新iOS版近日即将火热推出，Hold住你Hold不住你的精彩生活！</p>
+			</li>
+			<li>
+				<div class="btn_bg">
+					<a href="javascript:;" class="wnl_btn"></a>
+					<div class="wnl"></div>
+				</div>
+				<p>最简洁清新的万年历，回归时间的淳朴本质！绿色安全，无广告无弹窗！阳历阴历一目了然，每日宜忌提前知晓！</p>
+			</li>
+		</ul>
+	</div>
+	<div class="proudct_footer">
+		<div class="proudct_footer_img"></div>
+	</div>
+</div>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/adaptation.js"></script>
+</body>
+</html>

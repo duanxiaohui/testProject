@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>万紫千红不是春</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/sahong/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>洒红节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>明媚的三月天，驱走寒冷、带来温暖。春天悄然来临，触手可及的是一个姹紫嫣红的世界。红的热烈、黄的明媚、绿的清新、粉的甜蜜……人说万紫千红总是春，但有的时候万紫千红可能不是春天的专属，它还有可能是洒红节！</p>
+            <h3>【姗姗来迟的印度年】</h3>
+            <p>这边中国刚刚告别了喜庆的春节，印度就接着迎来了自己的传统新年——洒红节。洒红节原是庆祝春天，代表春分和谷物丰收。洒红节期间，上至达官显贵、下至寻常百姓，都会“无所不用其极”的用五彩缤纷的颜色装扮起来，载歌载舞的庆祝节日。</p>
+            <img src="images/sahong/holiday_1.jpg"/>
+            <p>撒红节期间，男女老少都会提着各种颜色的彩粉和彩水的袋子走出家门。见面不论认识与否都会相互泼洒，孩子还会对平时尊敬的老人突然泼洒深红或菊黄色的颜料，得逞之后便手舞足蹈。汹涌的色彩浪潮中，每个人脸上都会画上彩妆，运气更“好”一点还会被鸡蛋砸中，挂着新鲜的黄汤。在这一天捉弄别人总有足够的理由——“请别生气，今天是撒红节”。</p>
+            <h3>【节日来源】</h3>
+            <p>洒红节源于印度的著名史诗《摩诃婆罗多》，传说古代有一个国王希兰卡亚生性残暴，他的儿子普拉拉德爱护百姓，受到百姓拥护。王子对父亲的专横跋扈表示了不满，国王大怒之下竟想烧死王子，他命令不怕火烧的公主霍利嘉抱着王子跳入大火之中。然而他猜中了过程却没猜中结局：霍利嘉意外的被烧成灰烬，普拉拉德却因为维施努的保护安然无恙。百姓为了庆祝便向王子身上泼洒红颜色的水，撒红节便由此而来。</p>
+            <img src="images/sahong/holiday_2.jpg"/>
+            <h3>【洒红节印象】</h3>
+            <p>小编第一印象觉得这种狂欢更像是欧美的节日，但是没有想到一向温和内向的印度人也有这么疯狂的时候。或许撒红节的魅力就在于：让害羞的人大胆、让自卑的人抬头、让怯懦的人勇敢，由此让人们发现平凡生活中的七彩之美。</p>		
+
+            <div class="tips">
+                <p>1、每年2、3月间印度会庆祝其新年——洒红节，这是一个色彩斑斓的节日；</p>
+                <p>2、泼洒色彩亮丽的勇气，一起体味七彩的美好。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

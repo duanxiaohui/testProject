@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>石头也过生日呢</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/stone_section/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>石头节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>猴年勾起了我们的“猴子”情节，那就先讲个猴子的笑话热热场吧——唐僧师徒四人西行途中，路过了一个采石场。采石场正在放炮炸石，只听轰轰隆隆一阵巨响，霎时间电光火石、鸡飞狗跳……唐僧见状惊叫：悟空快来，你妈炸了！</p>
+            <h3>【插播一个猴王和石头的故事】</h3>
+            <p>你知道的，悟空的妈妈就是石头——“其石有三丈六尺五寸高，有二丈四尺围圆。四面更无树木遮阴，左右倒有芝兰相衬。盖自开辟以来，每受天真地秀，日精月华，感之既久，遂有灵通之意。内育仙胞，一日迸裂，产一石卵，似圆球样大。因见风，化作一个石猴……”</p>
+            <img src="images/stone_section/holiday_1.jpg"/>
+            <p>石头是日常生活中非常常见的东西，看起来很不起眼的石头，其实也有着一段轰轰烈烈的历史。可以毫不夸张的说石头见证了人类的历史，它们有的看过恐龙灭绝、有的经历过冰川时代、它们当中的绝大多数比你爷爷的爷爷的（此处省略N个爷爷的）爷爷还要大。石头在建筑、装饰、医学、制造等行业都发挥着不可替代的作用，在很久很久以前，我们的祖先还经历了一个极其依赖石头的石器时代。这样看起来，石头真是有够低调的，从来没见它开口炫耀过自己！</p>
+            <h3>【初十日，石头节】</h3>
+            <p>在民俗中，石头节定在初十日。原始人类对大山及石头的崇拜延续至今未曾断绝，初十的“十”发音又与“石”相同，因此人们决定将正月初十定为石头的生日！</p>
+            <img src="images/stone_section/holiday_2.jpg"/>
+            <p>石头过生日这天，任何人不能以任何理由让石头劳累！翻译成普通话就是：这一天民间忌动石器，不准搬动任何石头。这天还要祭祀碾神、磨神、碓臼神、泰山石敢当神等等掌管石头的神。旧俗除夕时会在这些石器上贴春联，正月初十日以前是禁止使用的，过了正月初十日，才可以开封使用。</p>
+            <h3>【老鼠也来凑热闹】</h3>
+            <p>墙基大多用石头垒砌，而老鼠又总是喜欢生活在墙角窟窿里，所以民间还有传说正月初十是老鼠娶媳妇的日子，因此各地给石头过生日的时候也有些习俗是招待老鼠的。晋东南地区习惯用谷面作蒸食，称为十子团，夜晚将其放置于墙角土穴等处供老鼠吃。晋南地区则是在墙根置放面饼，以庆祝老鼠娶媳妇。</p>			
+
+            <div class="tips">
+                <p>1、正月初十是石头节，按照习俗这天所有的石头休假一天；</p>
+                <p>2、很多地区正月初十是老鼠娶亲的日子，因此产生了很多招待老鼠的年俗。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

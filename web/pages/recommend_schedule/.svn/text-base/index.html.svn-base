@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>365日历</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<link href="style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="recommend_main">
+    	<div class="recommend_schedule_top">
+    		<h2>祭灶节吃灶糖</h2>
+    	</div>
+    	<div class="recommend_schedule_middle">
+    		<div class="recommend_schedule_img">
+    			<img src="images/schedule_img.jpg" alt="">
+    		</div>
+    		<p><span>推荐理由：</span>俗话说，“二十三糖瓜儿粘，二十四扫房子，二十五磨豆腐，二十六炖大肉，二十七宰公鸡，二十八把面发，二十九蒸馒头，三十晚上熬一宿，大年初一扭一扭！”</p>
+			<p>今天是腊月二十三，离春节仅剩 7 天的时间了，因此也被视为小年。</p>
+			<p>小时候就听妈妈讲：“小年吃灶糖，也是为了让灶王爷嘴甜能在玉帝面前多说好话。</p>
+			<p>小时候就听妈妈讲：“小年吃灶糖，也是为了让灶王爷嘴甜能在玉帝面前多说好话。</p>
+			<p>小时候就听妈妈讲：“小年吃灶糖，也是为了让灶王爷嘴甜能在玉帝面前多说好话。</p>
+    	</div>
+    	<div class="recommend_schedule_bottom">
+    			<p>添加到我得日程</p>
+    			<a href="javascript:;" class="add_mySchedule"></a>
+    	</div>
+    </div>
+</body>
+</html>

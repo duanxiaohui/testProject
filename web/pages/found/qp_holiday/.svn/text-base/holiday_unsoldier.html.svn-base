@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>呼叫和平支援！</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/holiday_unsoldier/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>联合国维和人员国际日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>2016年迄今为止最火的韩剧，应该非《太阳的后裔》莫属了。随着韩剧《太阳的后裔》热播，韩国“欧巴”又有了一个伟大光荣的新标签——联合国维和部队战士。在虚构的OURCQ国内危机四伏、疾病蔓延的乌鲁克地区，宋仲基饰演的刘时镇大尉，从容不迫地应付着各种天灾人祸，还从容不迫地抽空谈着恋爱。</p>
+            <img src="images/holiday_unsoldier/holiday_1.jpg"/>
+            <p>剧中宋仲基是韩国派出的联合国维和部队中的一员，驻扎地在乌鲁克。除了韩国以外，世界上很多国家都派出过维和部队，作为五个常任理事国之一的中国，自然也有中国维和部队。那，这维和部队到底是什么来头呢？</p>
+            
+
+            <h3>【什么是维和部队】</h3>
+
+            <p>联合国维和部队全称为“联合国维持和平部队”。联合国维持和平始于1948年6月，当时安全理事会授权在中东部署联合国军事观察员。特派团的任务是监督以色列与其阿拉伯邻邦之间的《停战协定》——这一行动被称为联合国停战监督组织。它受联合国大会或安全理事会的委派，活跃于国际上有冲突的地区。维和部队士兵头戴天蓝色钢盔或蓝色贝雷帽，上有联合国英文缩写“UN”，臂章缀有“地球与橄榄枝”图案。凡参加联合国维持和平部队的人员，必须被送到设于北欧四国的训练中心接受特种训练，以熟悉维和部队的职能、宗旨、任务和进行特种军事训练。</p>
+           
+            <img src="images/holiday_unsoldier/holiday_2.jpg"/>
+
+            <p>自此，联合国已部署了69个维持和平行动，其中56个是1988年以来开展的。近些年，共有数十万名军事人员和数万名联合国警察以及来自超过120个国家的文职人员参加了联合国维持和平行动。当然维持和平的代价也是巨大的，迄今为止，来自约120个国家的超过3326名联合国维持和平人员为这项崇高的使命献出了宝贵的生命。</p>
+
+            <img src="images/holiday_unsoldier/holiday_3.jpg"/>
+
+            <h3>【维和英雄永垂不朽】</h3>
+
+            <p>联合国于2002年12月11日讨论决议，指定5月29日——第一个特派团、停战监督组织设立的日子——为联合国维持和平人员国际日。其目的在于向曾经在联合国维和行动中服务过和继续服务的所有男男女女致敬，对他们高度的专业精神、奉献态度与勇气表示敬意，并纪念为和平事业奉献生命的人们。</p>
+           
+            <p class="mt15"></p>
+
+            <p>所有的和平都来之不易，自我国开展维和行动以来，共有15名维和官兵牺牲。愿他们的家人安好，感谢他们的奉献。</p>
+
+
+            <div class="tips">
+                <p>1、宋仲基虽然帅，但是真正担任着维和行动重任的英雄们更帅；</p>
+                <p>2、和平从古至今都是民生大事，和平来之不易，且行且珍惜。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/Vanna</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

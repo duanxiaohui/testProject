@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>海绵宝宝历险记：海绵出水</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">海绵宝宝历险记：海绵出水</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/317731ce-6250-48a7-b5ad-8e7b233518c4.jpg"/>
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	<a href="http://m.mtime.cn/#!/movie/204902/" class="btn js-other">查看预告片</a>
+	    	<p class="time"><h3>上映时间：2015年2月6日（美国）</h3></p>
+	    	<h3>导演：迈克•米歇尔 / Paul Tibbitt</h3>
+			<h3>编剧：乔纳森•阿贝尔 / 格伦•伯杰</h3>
+			<h3>主演：安东尼奥•班德拉斯 / 克兰西•布朗 </h3>
+			<h3>类型：喜剧 / 动画 / 家庭 / 冒险</h3>
+			<p class="fc_000">制片国家/地区: 美国</p>
+			
+			<h3>看点：</h3>
+			<p>该片由美国尼克儿童频道风靡全球的动画剧集改编、采用真人+动画形式打造。海绵宝宝、派大星、章鱼哥、蟹老板从动画中走出来，化身逗比版“超级英雄”！</p>
+			<!--h3是小标题-->
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/278b89d2-c861-4f48-8b1b-c55ff98545e4.jpg"/>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/e16f65cf-4cce-4e5c-af06-83c8f7891c22.jpg"/>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/21d2dc92-2164-4341-b9cf-6498b46c3ba2.jpg"/>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/317731ce-6250-48a7-b5ad-8e7b233518c4.jpg',
+                title: '海绵宝宝历险记：海绵出水',
+                desc: '蟹老板丢失了他的美味蟹堡秘方，如果没有它，整个社会的秩序就会完全崩溃。为了拯救家园，海绵宝宝带着伙伴们冲出海底，闯入人类世界。在这里，他们将变身超级英雄，从大反派海盗那里夺回秘方。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '海绵宝宝历险记：海绵出水',
+		        				content: '蟹老板丢失了他的美味蟹堡秘方，如果没有它，整个社会的秩序就会完全崩溃。为了拯救家园，海绵宝宝带着伙伴们冲出海底，闯入人类世界。在这里，他们将变身超级英雄，从大反派海盗那里夺回秘方。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/317731ce-6250-48a7-b5ad-8e7b233518c4.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

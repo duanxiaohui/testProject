@@ -1,0 +1,83 @@
+body {color: #444; font: 12px / 1.5em "Microsoft YaHei", 微软雅黑,SimSun,arial; height: 100%; margin: 0; padding: 0; overflow:hidden;}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+textarea { background: #fff; border: 1px solid #d2d9dc; border-radius: 2px; box-shadow: 0 0 0 #d2d9dc; -moz-transition: .3s ease-in-out; transition-property: border box-shadow; -webkit-transition: .3s ease-in-out; ime-mode:auto;}
+textarea:focus { /*border: 1px solid #b7d4ea;*/ box-shadow: 0 0 5px #b7d4ea; }
+
+.add_schedule_layer { background: #fff;}
+
+.add_schedule_content { padding: 0 15px 15px; }
+.add_schedule_content textarea { padding: 3px; display: block; overflow: auto; resize: none; oueline: none; line-height: 22px; border: 1px solid #dadbdc; font-size: 14px; ime-mode:auto;}
+.imitation_select { vertical-align: middle; height: 13px; overflow: hidden; }
+.add_schedule_calendar_select { height: 20px; padding: 0 5px; color: #58595b; lime-height: 20px; border: 1px solid #dadbdc; background: url(../images/add_schedule_calendar_select.jpg) repeat-x left top; float: left; }
+
+.timetype { height: 20px; margin: 0 0 5px 0; }
+.timetype input, .timetype span { vertical-align: middle; margin-right: 3px; }
+.data_box{ color: #58595b; }
+.js_datepicker{margin-bottom:5px;}
+.data_box input { width: 80px; text-align: center; padding: 1px 0; }
+.data_box select{margin-right:3px;}
+.hour { display: inline; }
+.data_box .none { display: none; }
+
+.complete { width: 510px; position:relative;}
+.complete h2,.schedule_detailed h2{ padding: 0 15px; height: 30px; line-height: 30px; color: #fff; background:url(../images/new_list_top.png) repeat-x; font-size: 14px; font-weight: 600; }
+.complete dl { padding-top: 10px; }
+.complete dt { width: 65px; float: left; padding-left: 10px; text-align: right; }
+.complete dd { width: 388px; float: left; }
+.complete dd textarea { width: 382px; height: 88px; }
+
+.complete_time_calender { padding-bottom: 10px; border-bottom: 1px dashed #ccc; }
+.complete_time_calender .data_box { float: left; margin-right: 10px; vertical-align: middle; }
+.complete_time_calender span, .complete_time_calender select { margin: 2px 3px 0 0; }
+.complete_time_calender select{max-width:210px;}
+.end_data ul li { padding: 0 0 5px 0; }
+.end_data span, .end_data input, .repetition_time span, .repetition_time input { vertical-align: middle; margin: 0 3px; }
+.end_data_text1 { width: 40px; }
+.end_data_text2 { width: 80px; }
+.summary span { color: #31B2DC; margin-right: 3px; }
+.s-no .st2, .s-no .st3, .s-no .st4, .s-no .st5, .s-no .st6, .s-no .st7,.s-no .st8 { display: none; }
+.s-dy .st2, .s-dy .st4, .s-dy .st5, .s-dy .st8{ display: none; }
+.s-m .st2, .s-m .st5, .s-m .st8{ display: none; }
+.s-w .st2, .s-w .st4, .s-w .st8 { display: none; }
+.l-no .st1, .l-no .st3, .l-no .st4, .l-no .st5, .l-no .st6, .l-no .st7 ,.l-no .st8{ display: none; }
+.l-my .st1, .l-my .st4, .l-my .st5 ,.l-my .st8{ display: none; }
+.s-t .st2,.s-t .st3,.s-t .st4,.s-t .st5,.s-t .st6,.s-t .st7{ display: none; }
+.s-dwd .st2,.s-dwd .st3, .s-dwd .st4, .s-dwd .st5, .s-dwd .st8{ display: none; }
+.close_btn{display:block; width:13px; height:13px; background:url(../images/pop_close_btn.png) no-repeat 0 0; position:absolute; right:10px; top:7px;}
+.close_btn:hover{background:url(../images/pop_close_btn.png) no-repeat 0 -13px;}
+
+.add_schedule_bottom{cursor:pointer;display:block; width:510px; height:32px; line-height:32px; text-align:center; background:url(../images/new_list_btn.gif) repeat-x 0 0px; color:#fff; font-family:"Microsoft YaHei",微软雅黑; font-size:14px;}
+.add_schedule_bottom:hover{background:url(../images/new_list_btn.gif) repeat-x 0 -48px; color:#fff;}
+.none {display:none;}
+
+
+
+.schedule_detailed{width:260px; height:300px;position:relative;background:#fff;}
+.schedule_detailed_content{padding:5px 10px;height: 237px; width:238px;border:1px solid #ddd; border-top:0px;border-bottom:0px;overflow: hidden;}
+
+.schedule_detailed h2{width:210px; padding:0 35px 0 15px; height:30px; line-height:30px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis;}
+.schedule_detailed p{line-height:24px; font-size:12px; color:#999; word-wrap: break-word; word-break: break-word; }
+
+.add_schedule_btn{float:left; width:130px; height:32px; line-height:32px; text-align:center; background:url(../images/new_list_btn.gif) repeat-x 0 -48px; color:#fff; font-family:"Microsoft YaHei",微软雅黑; font-size:14px;text-decoration:none;}
+.add_schedule_btn:hover{background:url(../images/new_list_btn.gif) repeat-x 0 0px; color:#fff;}
+
+.del_schedule_btn{float:left; width:129px; height:32px; line-height:32px; border-left:1px solid #fff; text-align:center; background:url(../images/del_list_btn.gif) repeat-x 0 -48px; color:#fff; font-family:"Microsoft YaHei",微软雅黑; font-size:14px;text-decoration:none;}
+.del_schedule_btn:hover{background:url(../images/del_list_btn.gif) repeat-x 0 0px; color:#fff;}
+
+/*todo*/
+.add_todo_content{padding:5px;}
+.add_todo_bottom{padding:5px 0;}
+.edit_textarea{width:98%; padding:1%; height:250px;}
+.star{float:left; width:16px; height:16px; background:url(../images/star.jpg) no-repeat; margin:0 10px 0 0px;}
+.add_todo_bottom input{border:0;}
+.cut_off_date{float:left;padding-left:20px; background:url(../images/cut_off_time.jpg) no-repeat left 2px;}
+.staron{background:url(../images/staron.jpg) no-repeat;}

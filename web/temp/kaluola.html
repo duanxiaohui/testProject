@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>让幸福发声</title>
+<meta id="viewport" name="viewport" content="width=640, user-scalable=0">
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	html, body{
+		height:100%;
+	}
+	iframe{
+		-webkit-transform-origin: 0 0;
+		border: none;
+	}
+</style>
+</head>
+<body>
+    <iframe id="js-iframe" height="100%" width="640" src="http://event.ftms.com.cn/temp_newcorolla/mobile/index.php" frameborder="0"></iframe>
+    
+	<script src="/js/lib/zepto.min.js"></script>
+	<script>
+		var pre = document.documentElement.clientWidth / 640;
+		$('#js-iframe').css({
+			'-webkit-transform': 'scale('+pre+')',
+			'height': document.documentElement.clientHeight / pre
+		});
+	</script>
+    <script src="//www.365rili.com/js/lib/app.js"></script>
+</body>
+</html>

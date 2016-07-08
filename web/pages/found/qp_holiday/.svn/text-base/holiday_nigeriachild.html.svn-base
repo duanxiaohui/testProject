@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>抢人一步的“儿童节”</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/holiday_nigeriachild/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>尼日利亚儿童节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>提到儿童节，人们应该都会不约而同地想起6月1日，但是偏偏有国家例外，这个国家就是尼日利亚。与世界上很多国家不同，尼日利亚的儿童节设在每年的5月27日。在这一天，政府通常会举办娱乐活动，让孩子们参与其中，尽享快乐。孩子们也会盼望每年的儿童节，这是他们童年里最美好的回忆。</p>
+            
+
+            <h3>【儿童节列队仪式】</h3>
+
+            <p>2013的5月27日，尼日利亚首都阿布贾举行了盛大的儿童节列队仪式，参加活动的政府官员表示，将大力发展青少年教育。为了庆祝尼日利亚今年的儿童节，27日上午，该国联邦首都区政府、尼日利亚妇女和社会发展部联合阿布贾地区的中小学校举行了盛大的学生列队表演活动。</p>
+           
+            <img src="images/holiday_nigeriachild/holiday_1.jpg"/>
+            <img src="images/holiday_nigeriachild/holiday_2.jpg"/>
+
+            <h3>【儿童依旧需要更多的关爱】</h3>
+
+            <p>和许多非洲国家一样,在尼日利亚，这个节日不比孩子出操前的阵雨好多少，来得快去得也快。儿童节到了，随之而来的是对于尼日利亚儿童们的无数疑问。对于他们，面对现实。 贫穷，童工和虐童，缺乏安全，教育条件恶化，医疗匮乏引发的高孕妇死亡率和不断恶化的生存条件仍然是这些孩子的全部。而儿童是当今社会必须要考虑的关键点，现在对儿童的关爱还需要更多。</p>
+           
+            <img src="images/holiday_nigeriachild/holiday_3.jpg"/>
+
+
+            <div class="tips">
+                <p>1、希望全世界，无论种族与性别、无论地区和宗教的小天使们都能平平安安长大；</p>
+                <p>2、也希望所有的朋友童心永在，每一天都能像孩提时代一样快乐。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/Vanna</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>真的不是我吓唬你</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/world_health_day/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>世界健康日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>在开玩笑时，“你有病啊”是一句出现频率极高的话，这样的时候对方或许还会反问你一句“你有药啊”。但有没有想过，假如一语成谶，你真的病了呢？小小的感冒，工位旁边的垃圾桶会被抽纸塞满，声音会变得更“有磁性”。发烧时，头晕脑胀，或许可以请假在家“偷得浮生半日闲”了。但是有没有想过，白血病呢？艾滋病呢？癌症呢？</p>
+            <h3>【我就是来吓唬你的】</h3>
+            <p>如果说感冒发烧这样的病不足以让你警醒的话，那就看看癌症吧。世界卫生组织发布的一份报告显示：全球癌症患者在上世纪最后30年里翻了一番，估计这一数字在2020年前将再翻一番，2030年前将增至上世纪最后30年的3倍。这意味着到2030年，全球将新增2700万癌症病例，死于癌症的人数将达到1700万人，这一数字对许多国家的健康护理体系来说是难以承受的。</p>
+            <img src="images/world_health_day/holiday_1.jpg"/>
+            <p>当重大疾病患病率逐年上升、治愈率却不见增长时，当通过各种渠道看到病患与家属死别生离时，你可曾有过触动，可曾想过要加倍的珍惜这看似平常的健康？</p>
+            <h3>【世界卫生日】</h3>
+            <p>1946年7月22日，联合国经社理事会在纽约举行了一次国际卫生大会，60多个世界卫生组织国家的代表共同签署了《世界卫生组织宪章》。为纪念宪章通过，第一届世界卫生大会决定将每年的7月22日定为世界卫生日。次年，将节日日期改为4月7日。自1950年以来，世界卫生组织每年为世界卫生日选定一个主题，突出世卫组织关注的重点领域。</p>
+            <img src="images/world_health_day/holiday_2.jpg"/>
+            <p>确定世界卫生日的宗旨是希望引起世界各国对卫生问题的重视，并动员世界各国人民普遍关心和改善当前的卫生状况，提高人类健康水平。世界卫生日期间，包括中国在内的世界卫生组织各会员国都举行庆祝活动，推广和普及有关健康知识，提高人民健康水平。</p>
+            <h3>【一切为了健康！】</h3>
+            <p>我们深知健康的重要，却又“明知故犯”的去伤害自己的健康。为了维系自己的社交关系，我们抽烟、喝酒，推杯换盏、觥筹交错，不知不觉间伤了胃伤了肝。我们熬夜，或是工作、或是刷电视剧，我们以为，后果只是熊猫眼而已……在生活的方方面面，我们都忽略了自己的身体，没有让它按照最健康的方式生活。从现在起，向不健康的生活习惯说再见吧！</p>
+
+            <p class="mt15"></p>			
+
+            <div class="tips">
+                <p>1、每年的4月7日是世界卫生日，设立这个节日旨在引起世界对卫生、健康工作的关注，提高人们对卫生领域的素质和认识，强调健康对于劳动创造和幸福生活的重要性；</p>
+                <p>2、要知道，身体是革命的本钱，一定要照顾好自己的身体！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors zhangmingchen (vest0804@gmail.com)
+ * @date    2016-03-02 17:12:44
+ * @version $Id$
+ */
+body{background:#f7f8f9;}
+
+.schedule_top{background:#fff;}
+.schedule_top_content{border-bottom:1px solid #e6e6e6;padding:15px;}
+.schedule_user_header{width:50px; height:50px; float:left; border-radius:25px; -webkit-border-radius:25px; overflow:hidden;}
+.schedule_user_header img{width:100%; height:100%;}
+.schedule_user_info{margin-left:60px; height:50px;}
+.schedule_username{font-size:13px; color:#888e92; line-height:25px;}
+.scedule_source{font-size:15px; color:#000; line-height:25px;}
+
+.schedule_detail_div{padding:5px 0px 0px 15px; border-bottom:1px solid #e6e6e6; background:#fff;}
+
+.schedule_remid_repeat{padding:0 0 0 15px;border-bottom:1px solid #e6e6e6; background:#fff;}
+
+.schedule_txt{padding:10px 15px 10px 0; line-height:22px; font-size:16px; color:#000;}
+
+.schedule_time{height:52px; font-size:16px; background:url(../images/schedule_time.jpg) no-repeat left center; background-size:17px 17px; border-bottom:1px solid #e6e6e6; padding:4px 0 4px 25px;}
+.schedule_time p{line-height:20px; padding:3px 0;}
+.schedule_remind{padding:15px 15px 15px 25px; background:url(../images/schedule_remind.jpg) no-repeat left 17px; background-size:17px 17px; font-size:16px; color:#888e92;line-height:150%; border-bottom:1px solid #e6e6e6;}
+
+.personal_remind_div span{float:right; }
+
+.schedule_tips{text-align:center; position:static; bottom:0; width:100%; padding:15px 0 0 0;}
+.schedule_tips p{color:#35adec; font-size:16px; }
+.schedule_tips p b{border-bottom:1px solid #35adec; line-height:180%; font-weight:500;}
+
+.schedule_tips span{font-size:13px; color:#b3b8ba; line-height:150%;}
+
+.schedule_dec{font-size:14px; color:#888e92; padding-bottom:5px; line-height:150%;}
+
+.schedule_address{padding:15px 15px 15px 25px; line-height:150%; font-size:16px; color:#888e92; background:url(../images/schedule_address.jpg) no-repeat 2px center; background-size: 13px 17px; border-bottom:1px solid #e6e6e6;}
+
+.schedule_url{padding:15px 15px 15px 25px; line-height:150%; font-size:16px; color:#888e92; background:url(../images/schedule_url.jpg) no-repeat 2px center; background-size: 17px 17px; border-bottom:1px solid #e6e6e6;}
+.schedule_tag{padding:15px 15px 15px 25px; line-height:150%; font-size:16px; color:#888e92; background:url(../images/schedule_tag.jpg) no-repeat 2px center; background-size: 17px 17px;}
+
+.schedule_repeat{padding:15px 15px 15px 25px; line-height:150%; font-size:16px; color:#888e92; background:url(../images/schedule_repeat.jpg) no-repeat 2px center; background-size: 17px 17px;}
+
+
+.schedule_pics .public_image_container{height:auto; margin:0;}
+.schedule_pics .public_image_container ul{margin-left:-10px;}
+.schedule_pics .public_image_container li{float:left; margin:0px 0 10px 10px;}
+
+
+.token_div{background:#f7f8f9; width:100%;}
+.token_icon{width:64px; height:64px; margin:100px auto 25px; background:url(../images/token_icon.jpg) no-repeat; background-size:100% 100%;}
+.token_txt{text-align:center; font-size:17px; color:#a1aaaf; line-height:150%;}
+.token_pic{height:40px; width:40px; margin:35px auto; background:url(../images/token_pic.jpg) no-repeat; background-size:100% 100%;}
+.token_btn{display:block; width:180px; height:50px; line-height:50px; text-align:center; font-size:16px; color:#35adec; border:1px solid #35adec; margin: 0 auto; border-radius:3px; -webkit-border-radius:3px;}
+.token_txt1{text-align:center; line-height:180%; color:#a1aaaf; font-size:12px; margin-top:5px; font-size:14px;}
+
+.followers{margin-top:10px;border-bottom:1px solid #e6e6e6;border-top:1px solid #e6e6e6;padding:10px 15px; background:#fff;}
+.followers ul{padding-top:5px;}
+.followers ul li{width:30px; height:30px; border-radius: 15px; -webkit-border-radius: 15px; float:left; margin:0 10px 5px 0; overflow: hidden;}
+
+.p_btns{margin-top:10px;border-bottom:1px solid #e6e6e6;border-top:1px solid #e6e6e6;padding:10px 0px; background:#fff;}
+
+.p_btns a{width:50%; float:left; height:40px; text-align:center;}
+.p_edit_icon,.p_del_icon{display: inline-block; width:20px; height:40px; vertical-align: middle; padding:0 4px;}
+.p_edit_icon{background:url(../images/edit_btn_icon.jpg) no-repeat left 8px; background-size:20px 18px;}
+.p_del_icon{background:url(../images/del_btn_icon.jpg) no-repeat left 9px; background-size:18px 18px;}
+.p_btns span{display:inline-block; font-size:16px; color:#000; line-height:40px;}
+
+.p_edit_btn{position:relative;}
+.p_edit_btn:after{content:" "; width:1px; height:30px; background:#d5d5d5; position:absolute; right:0px; top:5px;}
+
+.invitation_btn{width:100%; height:55px; background:#1ad264; margin-top:30px; line-height:55px; color:#fff; text-align:center; position:fixed; bottom:0; left:0;}
+
+.share_weixin{width:100%; position:fixed; top:0; left:0; background:rgba(0,0,0,.5) url(../images/wx_share_img.png) no-repeat top right; background-size:300px 245px;}
+
+.g_del_btn,.sign_btn{display:block; margin:20px 10px; border:1px solid #ec5050; border-radius:5px; -webkit-border-radius:5px; height:50px; line-height:50px; text-align:center; color:#ec5050; font-size:15px;}
+.schedule_pics{padding-bottom:5px;}
+
+
+/*二维码*/
+.follow_div{margin-top:10px; background:#fff; border-top:1px solid #e6e6e6; border-bottom:1px solid #e6e6e6;padding:10px 0;}
+.follow_div h3{font-size:15px; color:#000; font-weight:500;}
+.tips_top_txt {font-size:16px; color:#fa9131; line-height:22px; padding:15px 0; text-align:center;}
+.follow_code{text-align:center;}
+
+/*添加日程成功提醒*/
+.success_tip{background:#efefef; padding:5px 0; text-align:left; border-bottom:1px solid #e6e6e6; }
+.tips_icon{display:inline-block; width:19px; height:19px; background:url(../images/ok_icon.png) no-repeat; background-size:100% 100%; vertical-align: middle; margin-left:5px; float:left;}
+.success_tip span{line-height:150%; color:#1b1d1f; font-size:14px; margin-left:5px; vertical-align: middle}
+.success_tip p{line-height:150%; color:#1b1d1f; font-size:14px; margin-left:5px; vertical-align: middle; margin-left:30px;}
+
+.join_btn{background:#1ad264; display:block; margin:20px 10px;border-radius:5px; -webkit-border-radius:5px; height:50px; line-height:50px; text-align:center; color:#ec5050; font-size:15px; color:#fff;}
+
+.weixin_icon{width:18px; height:18px; display:inline-block; vertical-align: middle}
+.invitation_btn span{line-height:55px; vertical-align: middle; color:#fff; margin:0 10px; font-size:15px;}
+
+
+.cld-ui-loading{top:50%; left:50%; margin:-42px 0 0 -42px;}
+.wx_loading p{text-align:center; line-height:30px; top:50%; margin-top:160px;}
+.wx_loading{width:100%; background:#fff; position:fixed; top:0; left:0;opacity:1;
+	transition:opacity 1s ease-in .5s;
+	-webkit-transition:opacity 1s ease-in .5s;
+}

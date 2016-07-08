@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:mongo="http://www.springframework.org/schema/data/mongo"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+	<import resource="controller_dao.xml" />
+	<import resource="interceptor_all.xml" />
+	<import resource="mail.xml" />
+	<import resource="druid.xml" />
+	<!-- json转换器 -->
+	<bean id="mappingJacksonHttpMessageConverter" class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter">
+	    <!--这玩意暂时会有问题 <property name="objectMapper" ref="CustomObjectMapper"/>-->
+	</bean>
+
+	<bean id="mappingStringHttpMessageConverter" class="org.springframework.http.converter.StringHttpMessageConverter">
+		<constructor-arg value="UTF-8" />
+	</bean>
+
+	<bean id="identityParamResolver" class="com.rili.web.controller.IdentityParamResolver" />
+	
+	<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping" />
+
+	<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
+		<property name="messageConverters">
+			<list>
+				<ref bean="mappingJacksonHttpMessageConverter" />
+				<ref bean="mappingStringHttpMessageConverter" />
+			</list>
+		</property>
+		<property name="customArgumentResolvers">
+			<list>
+				<ref bean="identityParamResolver" />
+			</list>
+		</property>
+	</bean>
+
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<constructor-arg>
+			<ref bean="dataSource" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="simpleJdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<constructor-arg>
+			<ref bean="dataSource" />
+		</constructor-arg>
+	</bean>
+	
+	<bean id="simpleJdbcTemplateTickets" class="org.springframework.jdbc.core.JdbcTemplate">
+		<constructor-arg>
+			<ref bean="dataSourceTickets" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="simpleJdbcMapper" class="com.rili.common.dao.SimpleJdbcMapper" />
+
+	<!-- jedis配置 -->
+	<bean id="jedisConfig" class="redis.clients.jedis.JedisPoolConfig">
+		<!-- Maximum active connections to Redis instance -->
+		<property name="maxTotal" value="150" />
+		<!-- Number of connections to Redis that just sit there and do nothing -->
+		<property name="maxIdle" value="300" />
+		<!-- Tests whether connection is dead when connection retrieval method is called -->
+		<property name="testOnBorrow" value="true" />
+		<!-- Tests whether connection is dead when returning a connection to the pool -->
+		<property name="testOnReturn" value="true" />
+		<!-- Maximum time, in milliseconds, to wait for a resource when exausted action is set to WHEN_EXAUSTED_BLOCK -->
+		<property name="maxWaitMillis" value="1000" />
+	</bean>
+
+	<bean id="redisConnectionPool" class="redis.clients.jedis.JedisPool" destroy-method="destroy">
+		<constructor-arg index="0" ref="jedisConfig" />
+		<constructor-arg index="1" value="redis365" />
+		<constructor-arg index="2" value="6379" />
+	</bean>
+	
+	<bean id="redisSessionPool" class="redis.clients.jedis.JedisPool" destroy-method="destroy">
+		<constructor-arg index="0" ref="jedisConfig" />
+		<constructor-arg index="1" value="redis365" />
+		<constructor-arg index="2" value="6379" />
+		<constructor-arg index="3" value="2000" /> <!-- timeout -->
+		<constructor-arg index="4"> <null /> </constructor-arg> <!-- password -->
+		<constructor-arg index="5" value="1" /> <!-- database 实用db1-->
+	</bean>
+
+
+	<!-- 事务 -->
+	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<tx:annotation-driven transaction-manager="transactionManager" />
+
+	<bean id="redisSession" class="com.rili.web.utils.RedisSession">
+		<property name="redisConnectionPool" ref="redisSessionPool" />
+	</bean>
+	
+	<bean id="sessionIdGenerator" class="com.rili.web.utils.SessionIdGenerator">
+	</bean>
+	
+	<!-- http -->
+	<bean id="restTemplate" class="org.springframework.web.client.RestTemplate">
+		<constructor-arg ref="httpClientFactory" />
+	</bean>
+
+	<bean
+		class="org.apache.commons.httpclient.params.HttpConnectionManagerParams"
+		id="httpConnectionManagerParams">
+		<property name="connectionTimeout" value="10000" />
+		<property name="defaultMaxConnectionsPerHost" value="5" />
+		<property name="maxTotalConnections" value="50" />
+	</bean>
+	<bean
+		class="org.apache.commons.httpclient.MultiThreadedHttpConnectionManager"
+		id="httpConnectionManager">
+		<property name="params" ref="httpConnectionManagerParams" />
+	</bean>
+	<bean class="org.apache.commons.httpclient.params.HttpClientParams"
+		id="httpClientParams">
+		<property name="authenticationPreemptive" value="true" />
+		<property name="soTimeout" value="10000" />
+		<property name="cookiePolicy" value="ignoreCookies" />
+	</bean>
+	<bean class="org.apache.commons.httpclient.HttpClient" id="httpClient">
+		<constructor-arg ref="httpClientParams" />
+		<constructor-arg ref="httpConnectionManager" />
+	</bean>
+	<bean class="org.springframework.http.client.CommonsClientHttpRequestFactory"
+		id="httpClientFactory">
+		<constructor-arg ref="httpClient" />
+	</bean>
+	
+</beans>
+

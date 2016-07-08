@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015北京圆明园春节皇家庙会</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015北京圆明园春节皇家庙会</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/cdee2820-8031-4003-a83f-2ea958f9b1a4.jpg"/>
+			 <a class="btn js-subscribe" data-uuid="ba05e65c-94b8-48ec-8df9-4f3ef6548735" data-cid="147462861">添加提醒</a>
+	    
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	
+	    	<p class="time"><b>时间：2015.2.19 - 2.25 （08:00-17:00）</b></br>
+	    	<b>场地：北京-圆明园</b></br>
+			<b>费用： 详见现场</b></p>
+			<h3>活动看点：</h3>
+			<p>1、在传统新春庙会元素的基础上，融入了宫廷生活，打造京城独具一格的皇家风格庙会。</br>
+2、冰上大戏“冰嬉”再现清代皇宫的冰上活动
+</p>
+			<!--h3是小标题-->
+			<h3>活动简介：</h3>
+			<!--p是段落文字描述-->
+			<p>圆明园在清代历史上有着举足轻重的地位，皇室在年节期间举办丰富多彩的活动，主要包括：“放生”活动、“庆丰图”、灯戏、火戏表演、举办宫市、演唱大戏及各种表演等。</br></br>
+			圆明园在清代历史上有着举足轻重的地位，皇室每逢年节都会举办丰富多彩的活动。2010年首届“圆明园庙会”在融合传统新春庙会元素的基础上，首次提出“皇家”的概念，并通过演艺和展览等方式，展现圆明园的历史文化与清代年节文化。让游客充分体验”皇家“过年怎么吃、穿、用、玩、学、行等。</br></br>
+			届时将举行多项游艺演出活动，内容丰富多彩，妙趣横生，主要包括：皇家祈福、皇家文化展示、宫廷斗鸡、皇家皮影戏、五帝赐福、百花迎春活动等。</br></p>
+			<p><b>圆明园庙会乘车线路：东门：公交365、432、498、656、664、717、743、814、982、963、特4、运通105、运通205路;南门：公交319、320、331、432、438、498、628、690、697、696、801、826、特6路。</b></br></br>
+具体详情以官方信息为准</p>
+    <img src="http://cocoimg.365rili.com/schedule_pics/default/769a0516-6968-4601-b85d-3f3d76acfdaa.jpg"/>
+	<img src="http://cocoimg.365rili.com/schedule_pics/default/9102ac83-7bc3-415c-b1fb-d76c1a6c1a5d.jpg"/>
+	<img src="http://cocoimg.365rili.com/schedule_pics/default/052ba035-840f-4f7e-b501-2967e8792338.jpg"/>
+	
+	 <div class="remind_div" data-uuid="ba05e65c-94b8-48ec-8df9-4f3ef6548735" data-cid="147462861"><div class="remind_icon"></div><span>添加提醒</span></div>
+	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/cdee2820-8031-4003-a83f-2ea958f9b1a4.jpg',
+                title: '2015北京圆明园春节皇家庙会',
+                desc: '圆明园在清代历史上有着举足轻重的地位，皇室在年节期间举办丰富多彩的活动，主要包括：“放生”活动、“庆丰图”、灯戏、火戏表演、举办宫市、演唱大戏及各种表演等。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015北京圆明园春节皇家庙会',
+		        				content: '圆明园在清代历史上有着举足轻重的地位，皇室在年节期间举办丰富多彩的活动，主要包括：“放生”活动、“庆丰图”、灯戏、火戏表演、举办宫市、演唱大戏及各种表演等。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/cdee2820-8031-4003-a83f-2ea958f9b1a4.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

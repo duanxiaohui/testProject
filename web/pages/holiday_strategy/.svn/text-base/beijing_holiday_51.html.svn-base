@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<title>五一乐啵节</title>
+<link href="http://www.365rili.com/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/holiday_strategy/css/index.css" rel="stylesheet">
+</head>
+<body>
+    <div class="holiday_patch_top">
+    	<img src="http://static.365rili.com/pages/holiday_strategy/images/pinjia_51_holiday/pic_top.jpg" alt="">
+    </div>
+    <div class="holiday_patch_main">
+    	<p class="holiday_patch_p">掐指一算，五一即将到来，假期只有三天，旅行望眼欲穿！拼个假，3天变9天！3天变9天！！3天变9天！！！去面朝大海，真的看春暖花开！</p>
+
+        <div class="holiday_patch_plan3">
+            <div class="holiday_patch_plan_h">
+                <h3>拼假攻略</h3>
+                <p>HOLIDAY STRATEGY</p>
+            </div>
+            <div class="h4">
+                <img src="images/holiday_51_h4.png" width="102"/>
+            </div>
+            <div class="holiday_patch_icon">
+                <img src="images/holiday_51_icon1.png" width="78" alt="">
+            </div>
+            <div class="holiday_decorate"></div>
+            <img src="images/holiday_51_img.jpg" width="100%" alt=""/> 
+            <a href="javascript:;" class="remind_btn_2">添加放假提醒</a>  
+        </div>
+
+    	<div class="holiday_patch_recommend">
+    		<div class="holiday_patch_plan_h">
+    			<h3>特别推荐</h3>
+    			<p>SPECIAL OFFER</p>
+    		</div>
+    		<ul>
+    			<li data-url="http://www.365rili.com/pages/found/found_topic/found_topic_beijing_chi51.html"><img src="http://static.365rili.com/pages/holiday_strategy/images/pinjia_51_holiday/pic_1.jpg" alt=""></li>
+    			<li data-url="http://www.365rili.com/pages/found/found_topic/lebo_movie.html"><img src="http://static.365rili.com/pages/holiday_strategy/images/pinjia_51_holiday/pic_2.jpg" alt=""></li>
+    			<li data-url="http://www.365rili.com/pages/found/found_topic/lebo_beijing_music.html"><img src="http://static.365rili.com/pages/holiday_strategy/images/pinjia_51_holiday/pic_3.jpg" alt=""></li>
+                <li data-url="http://www.365rili.com/pages/found/found_topic/found_topic_beijing_diy51.html"><img src="http://static.365rili.com/pages/holiday_strategy/images/pinjia_51_holiday/pic_4.jpg" alt="">
+    		</ul>
+    	</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js?20151016"></script>
+    <script src="/js/lib/app.js?20151223"></script>
+    <script type="text/javascript" src="/pages/ui-lib/js/plug.js"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/function.js?20151119"></script>
+    <script src="/pages/holiday_strategy/js/index.js?20151119"></script>
+</body>
+</html>  
+

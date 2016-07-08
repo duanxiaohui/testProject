@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>下载</title>
+<script src="/js/lib/app.js"></script>
+<script>window.location.href = app.getUa.ios ? 'IOS：http://um0.cn/2fgTdv' : 'http://d2.365rili.com/dl/android/exchange/coco_aiqiyi.apk';</script>
+</head>
+<body></body>
+</html>

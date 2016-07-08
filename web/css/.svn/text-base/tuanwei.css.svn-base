@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 张明臣 (vest0804@gamil.com)
+ * @date    2014-08-10 11:20:35
+ * @version 1.0
+ */
+
+ .user_management {margin-left: 170px; display: none;}
+.search_user{padding:0 10px; height:40px; border-left: 1px solid #ccc;}
+
+.search_user input{width:70%; margin:4px 0; padding:5px 0; height:20px; border:1px solid #00bff6; float:left;}
+.search_btn,.show_user_btn{float:left; width:115px; height:32px; line-height:32px; margin:4px 0; background:#01bef6; text-align:center; color:#fff;}
+.user_list_table table{}
+
+.user_list_table table{ width:100%;  }
+.user_list_table table th ,.user_list_td td{ border: 1px solid #bcbec0; }
+.user_list_table table.table_th tr { width: 100%; height: 40px; background:#e1e1e1; }
+.user_list_table table td { background: #fff; border-top: 0; text-align:center;overflow: hidden;white-space: nowrap;text-overflow:ellipsis; }
+.user_list_td tr{height:40px;}
+.user_list_td tr:nth-of-type(odd) td{background:#fff;}
+.user_list_td tr:nth-of-type(even) td{background:#f4f3f8;}
+
+.my_calendar_left li.on {background-color: #edfbff;}
+.user_list_table {height:522px;overflow-y: auto;}
+
+.user_list_pages {float: right; margin-right: 20px;margin-top: 20px;}
+.user_list_pages li {display: inline-block;margin-left: 2px;}
+.user_list_pages a {padding: 2px 3px 1px 4px;text-decoration: none;text-align: center;}
+.page_normal a{border: 3px double #fff;background: #eee;color: #06f;}
+.page_select a,.page_normal a:hover {border: 3px double #fff;background: #598ede;color: #fff;}
+
+.del_btn { margin-left: 3px;}

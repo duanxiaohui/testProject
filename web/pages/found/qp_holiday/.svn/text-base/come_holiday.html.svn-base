@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>心留期待</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/come_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>心留期待</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>今天我们换一种高大上的打开方式，来聊聊非常著名的荒诞派戏剧《等待戈多》。或许很多人都忘记了戏剧的具体情节、人物设置，但那句重复了无数次的台词就像夺命魔音一样，“绕梁N日，不绝于耳”，是的，就是那句“我们走吧，我们不能，为什么不能，因为我们要等待戈多”。“戈多”作为一个代名词始终是一个朦胧虚无的幻影，一个梦魇中的海市蜃楼。戈多虽然没有露面，却是决定人物命运的首要人物，成为贯穿全局的中心线索。似乎会来，又总是不来，代表的就是“希望”。</p>
+            <img src="/pages/found/qp_holiday/images/come_img1.jpg"/>
+            <p>从圣诞节前第四个星期日开始到之后的一段时间，许多基督教徒都会祈祷、斋戒及忏悔以迎接圣诞节的到来。这段时间被称为降临节，意思是等候的时间，或者说是期待的时间——无论生活的境遇怎么样，都要对未来有所期待。</p>
+            <h3>【特色的“降临节周边”】</h3>
+            <p>自圣诞节前的第四个星期的星期日起至圣诞节止是降临节，长达二十多天的节日让人们脑洞大开，发明了许多有意思的“周边产品”，其中之最当属各种记时间的日历。</p>
+            <img src="/pages/found/qp_holiday/images/come_img2.jpg"/>
+            <p>好玩的日历首先会吸引儿童的注意，自1920年起，在原有日历的基础上增添了可以打开的小窗户，这种日历有24个小窗户，记时间的同时还能让孩子们尽情玩耍。福音教派的牧师是这个节日最忠诚的拥护者，为了让节日与圣经更好的结合，他们在24个小窗户里加上了圣经的小故事，每天一个故事。后来，人们的脑洞越开越大，1958年出现了第一个嵌有巧克力的降临节日历，后来又出现了嵌有玩具、小礼物的日历。</p>
+            <h3>【节日习俗】</h3>
+            <p>在旧约时代，基督教信徒期待、等候、盼望耶稣基督在肉身中降临，整个教会在圣诞节前的几个星期里专心盼望基督的到来。</p>
+            <img src="/pages/found/qp_holiday/images/come_img3.jpg"/>
+            <p>西方教会年历以降临节开始。其中第一个周日被称为降临节主日，而最后那个周日被称为降临节第四主日。在这四个周日期间内，人们通常可以看到所制作的降临节花冠（由木制或金属制架上的四根蜡烛组成），在降临节的每一个周日会点燃其中的一根蜡烛。某些教会的教牧人员在这段时间内会穿象征忏悔的紫色服装。</p>
+            <div class="tips">
+                <p>1、自圣诞节前的第四个星期的星期日起至圣诞节止是降临节，许多基督教徒都会祈祷、斋戒及忏悔以迎接圣诞节的到来；</p>
+                <p>2、无论生活的境遇怎么样，都要对未来有所期待。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

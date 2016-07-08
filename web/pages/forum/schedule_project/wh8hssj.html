@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>海上世界国际灯光节</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <div class="bar_txt">海上世界国际灯光节</div>
+    </div>
+    <div class="main">
+    	<div class="main_content">
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/d34fc9dd-88c2-4070-bc02-8086771fb5cf.jpg"/>
+            <a class="btn js-subscribe" data-uuid="926e960a-0d30-4142-bab7-1447a9bcb057" data-cid="148162975">添加到我的日历</a>
+	    	<h3 class="time">时间：截至02月15日 每天17:30-23:30</h3>
+            <p></p>
+            <h3 class="address">地点：深圳南山区海上世界</h3>
+            <p>费用：免费</p> 
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/7137fab5-a9f3-4a87-a5cb-03471966ade2.jpg"/>
+			<h3>活动简介：</h3>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/b1758f8a-c006-42bc-a90d-ec4b3397500e.jpg"/>
+			<p>最不容错过的视觉盛宴！</p>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/482b3bae-8d7c-4f0e-a2e3-9b7864333fe3.jpg"/>
+            <p>12月下旬，深圳海上世界开始举办美丽浪漫的灯光节活动，持续至今，深受游客喜爱。并将持续到春节前夕。浪漫不可错过。</p>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/caa9a576-870c-4d25-b4eb-689d83159980.jpg"/>
+            <h3>活动详情：</h3>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/c020fdec-c953-4283-aa74-72c52214b0bb.jpg"/>
+            <p>2014年12月20日至2015年2月15日，出自国际顶级灯光艺术家之手，由超过5000只led灯构成的10幅创意灯光作品，在海上世界进行为期56天的免费展出，其中包括获得国际大奖的《树之舞》、《天地》作品及专为海上世界原创的《海石》、《涟漪》作品等。</p>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/08c97661-7336-4657-aa4e-8376cee455b0.jpg"/>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/82a7759a-2ff5-4eeb-9116-1c8a40b3601a.jpg"/>
+            <p>市民大众不仅可在展览期间欣赏国际灯光作品与海上世界独特建筑、精彩水秀组成的创意光影未来世界，还能参与海上世界举行的圣诞、新年、春节、情人节及商家美食优惠等多项活动，享受来自视觉、味觉、触觉的全新体验。</p>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/3e99aa76-ec1e-4933-9cb3-ac8e1167bca5.jpg"/>
+            <div class="remind_div none" data-uuid="926e960a-0d30-4142-bab7-1447a9bcb057" data-cid="148162975"><div class="remind_icon"></div><span>添加提醒</span></div>           
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/d34fc9dd-88c2-4070-bc02-8086771fb5cf.jpg',
+                title: '深圳国际灯光节',
+                desc: '新年深圳海上世界举办美丽浪漫的灯光节活动，最不容错过的视觉盛宴！'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '深圳国际灯光节',
+		        				content: '新年深圳海上世界举办美丽浪漫的灯光节活动，最不容错过的视觉盛宴！',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/d34fc9dd-88c2-4070-bc02-8086771fb5cf.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

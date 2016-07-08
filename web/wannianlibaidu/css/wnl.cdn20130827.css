@@ -1,0 +1,1003 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family:Arial;
+}
+table, td
+{
+	border-collapse:collapse;
+	border-spacing:0;
+	border:1px solid #f6f0eb;  
+	padding: 0px;
+}
+
+.clear{
+	clear: both;
+}
+#mainCal
+{
+	margin-left: 21px;
+	margin-top: 37px;
+	width: 374px;
+}
+table
+{
+	width: 344px;
+}
+.block
+{
+	width: 50px;
+	text-align: left;
+	vertical-align: top;
+	border: 1px solid #f6f0eb;
+	overflow: hidden;
+	background-repeat: no-repeat on-repeat;
+	cursor: pointer;
+	background-color: white;
+	font-famlily:Microsoft YaHei;
+}
+.tablehead
+{
+	font-size: 14px;
+	/*color: #58421d;*/
+	font-family:Microsoft YaHei;
+}
+
+.thead4
+{
+	height: 32px;
+	text-align: center;
+	border-right: 0px;
+	background: #fdfbf9;
+}
+.thead5
+{
+	height: 32px;
+	text-align: center;
+	border-right: 0px;
+	background: #fdfbf9;
+}
+.thead6
+{
+	height: 28px;
+	text-align: center;
+	border-right: 0px;
+	background: #fdfbf9;
+}
+.today
+{
+	width: 50px;
+	text-align: left;
+	vertical-align: top;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	background-repeat: no-repeat on-repeat;
+}
+.today4, .today4:hover
+{
+    background: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg) no-repeat top left;
+	background-position: -117px -276px; width: 50px; height: 64px;
+}
+.today5, .today5:hover
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -384px -235px; width: 50px; height: 51px;
+}
+.today6, .today6:hover
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -384px -297px; width: 50px; height: 43px;
+}
+.block_content
+{
+	width: 50px;
+	overflow: hidden;
+}
+.block_content5
+{
+	height: 51px;
+}
+.workrest
+{
+	position: absolute;
+	height: 15px;
+	width: 16px;
+}	
+.number
+{
+	position: absolute;
+	font-size: 18px;
+	font-family:Arial;
+	width: 50px;
+	text-align: center;
+	overflow: hidden;
+	height: 23px;
+	color:#444444;
+	
+}
+
+.before, .after
+{
+	color: #ccc;
+}
+
+.weekendNum
+{
+	position: absolute;
+	font-size: 18px;
+	width: 50px;
+	text-align: center;
+	overflow: hidden;
+	height: 23px;
+	color: #bc5016;
+}
+
+.number5
+{
+	margin-top: 10px;
+}
+
+.chinaday
+{
+	position: absolute;
+	font-size: 12px;
+	text-align: center;
+	width: 50px;
+	height: 15px;
+	overflow: hidden;
+	color: #CCCCCC;
+	font-family:simsun;
+}
+
+.chinaday5
+{
+	margin-top: 33px;
+}
+
+.work
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -514px -143px; width: 16px; height: 15px;
+}
+.rest
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -514px -160px; width: 16px; height: 15px;
+}
+.workBlock
+{
+	background-color: #f6f6f6;
+	border: 1px solid #e1e1e1;
+	color: #595959;
+}
+.restBlock
+{
+	background-color: #fff6eb;
+	border: 1px solid #ffdb9d;
+	color: #bc5016;
+}
+
+/*baidu_wnl.css*/
+::-webkit-scrollbar {
+	height: 1px;
+	width: 5px;
+	background: white;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #777777;
+	-webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.8);
+}
+::-webkit-scrollbar-thumb {
+	background: #888888;
+	-webkit-border-radius: 5px;
+	width: 8px;
+	height: 30px;
+	margin: 5px;
+}
+::-webkit-scrollbar-corner {
+	background: #000;
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+}
+a, img
+{
+	text-decoration: none;
+	border: none;
+}
+#cal_container
+{
+	width: 542px;
+	height: 439px;
+	background-repeat: no-repeat no-repeat;
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg1.jpg);
+	background-position: -12px -7px; width: 542px; height: 439px;
+}
+
+#cal_body
+{
+	width: 542px;
+	height: 439px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#cal_topbar_top
+{
+	height: 22px;
+	padding: 11px 0px 0px 10px;
+	padding: 11px 0px 0px 10px !important;;
+	background-repeat: repeat-x;
+}
+
+#logo_a{
+	display:block;
+	height: 18px;
+	width: 55px;
+}
+#logo-text
+{
+	height: 18px;
+	width: 55px;
+	float: left;
+	color: #ffffff;
+	margin-left: 22px;
+	font-size: 13px;
+	line-height: 18px;
+	cursor:pointer;
+}
+
+.top_bar_text
+{
+	font-size: 13px;
+	margin-right: 10px;
+}
+
+#cal_down
+{
+	height: 344px;
+}
+
+#cal_downleft
+{
+	width: 395px;
+	height: 100%;
+	float: left;
+}
+
+#beijingtime
+{
+	float: left;
+	margin-right: 6px;
+	line-height:18px;
+	height:18px;
+}
+
+#cal_365riliTime
+{
+	margin-right: 7px;
+	float: right;
+	color: white;
+}
+
+#top_bar_time
+{
+	float: left;
+	line-height:18px;
+	height:18px;
+}
+
+#365riliUserName
+{
+	float: left;
+	margin-right:10px;
+	color: #493413;
+	text-shadow: 0px 1px 1px #d5b67c;
+	float: left; 
+	margin-right: 10px; 
+	display:none; 
+}
+
+#365riliLogout
+{
+	float: left;
+}
+
+#cal_funcbar
+{
+	height: 33px;
+	width: 542px;
+	color: white;
+	font-size: 15px;
+	padding-top: 10px;
+}
+
+#funcbar_content
+{
+	height: 33px;
+	width: 542px;
+}
+
+#prev_button
+{
+	height: 33px;
+	width: 18px;
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -12px -15px; width: 18px; height: 33px;
+	float: left;
+}
+#prev_button:hover
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -12px -58px; width: 18px; height: 33px;
+}
+#prev_button:active
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -12px -97px; width: 18px; height: 33px;
+}
+
+#next_button
+{
+	height: 33px;
+	width: 15px;
+	margin-left:1px;
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -137px -15px; width: 17px; height: 33px;
+	float: left;
+}
+#next_button:hover
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -137px -58px; width: 17px; height: 33px;
+}
+#next_button:active
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -137px -97px; width: 17px; height: 33px;
+}
+
+#year_func
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -31px -15px; width: 65px; height: 33px;
+	margin-left: 1px;
+	text-align: center;
+	height: 33px;
+	width: 65px;
+}
+#year_func:hover
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -31px -58px; width: 65px; height: 33px;
+}
+#year_func:active
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -31px -97px; width: 65px; height: 33px;
+}
+#month_func
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -96px -15px; width: 40px; height: 33px;
+	text-align: center;
+	height: 33px;
+	width: 40px;
+}
+#month_func:hover
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -96px -58px; width: 40px; height: 33px;
+}
+#month_func:active
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -96px -97px; width: 40px; height: 33px;
+}
+#year_num, #month_num
+{
+	float: left;
+}
+#year_str
+{
+	margin-left: -13px;
+}
+#month_str
+{
+	margin-left: -15px;
+}
+#year_func, #month_func
+{
+	font-size: 13px;
+	color: #493413;
+	text-shadow: 0px 1px 1px #d5b67c;
+}
+
+#year_func, #month_func, #prev_button, #next_button, #festival, #today_button, #add_button, #cal_plusbutton
+{
+	cursor: pointer;
+	line-height: 33px;
+	float: left;
+}
+#festival
+{
+	width: 78px;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -160px -15px; width: 80px; height: 33px;
+	margin-left: 8px;
+	font-size: 14px;
+	color: #493413;
+	text-shadow: 0px 1px 1px #d5b67c;
+	font-family:Microsoft YaHei;
+	cursor:pointer;
+}
+#festival:hover
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -160px -58px; width: 80px; height: 33px;
+}
+#festival:active
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -160px -97px; width: 80px; height: 33px;
+}
+#year_num
+{
+	text-align: center;
+	margin-left: 7px;
+	display: inline;
+}
+
+#month_num
+{
+	text-align: center;
+	width:15px;
+	height:30px;
+}
+
+#today_button
+{
+	width: 43px;
+	height: 33px;
+	line-height: 33px;
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -247px -15px;
+	margin-left: 6px;
+	font-size: 14px;
+	color: #493413;
+	text-shadow: 0px 1px 1px #D5B67C;
+	padding-left: 14px;
+	font-family:Microsoft YaHei;
+}
+#today_button:hover
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -247px -58px;
+}
+#today_button:active
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -247px -97px;
+}
+
+#cal_plusbutton
+{
+	width: 27px;
+	height: 33px;
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -312px -15px; width: 27px; height: 33px;
+	margin-left: 11px;
+}
+#cal_plusbutton:hover
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -312px -58px; width: 27px; height: 33px;
+}
+#cal_plusbutton:active
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -312px -97px; width: 27px; height: 33px;
+}
+
+#cal_365riliUser
+{
+	height: 33px;
+	float: right;
+	line-height: 33px;
+	min-width: 51px;
+	color: #493413;
+	text-shadow: 0px 1px 1px #D5B67C;
+}
+#bd_login
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -352px -15px; width: 42px; height: 33px;
+	cursor: pointer;
+	margin-right: 5px;
+	color: #493413;
+	text-shadow: 0px 1px 1px #D5B67C;
+	padding-left: 10px;
+	font-size: 14px;
+	font-family:Microsoft YaHei;
+}
+#bd_login:hover
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -352px -58px; width: 42px; height: 33px;
+}
+#bd_login:active
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -352px -97px; width: 42px; height: 33px;
+}
+.selecter_table
+{
+	position: absolute;
+	overflow-y: auto;
+	overflow-x: hidden;
+	background: white;
+	font-size: 13px;
+	display: none;
+	width: 60px;
+	z-index: 10;
+	border: 1px solid #ccc;
+	-webkit-box-shadow: 0px 3px 3px #999;
+	-moz-box-shadow: 0px 3px 3px #999;
+	box-shadow: 0px 3px 3px #999;
+}
+#year_select_selecter, #month_select_selecter
+{
+	height: 210px;
+}
+#festival_select_selecter
+{
+	overflow: hidden;
+}
+.select_item
+{
+	cursor: pointer;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	height: 15px;
+}
+.select_item:hover
+{
+	background: #ddd;
+}
+
+#cal_rightboard
+{
+	width: 140px;
+	height: 308px;
+	overflow: hidden;
+	margin-top: 36px;
+}
+#gregorianDayStr
+{
+	font-size: 12px; 
+	text-align: center;
+}
+#dayafterorbefore
+{
+	color: #e26100; 
+	font-size: 13px; 
+	text-align: center; 
+	display:none;
+}
+#YJdiv
+{
+	margin-top: 15px;
+	display: inline;
+}
+#ylistblock
+{
+	float: left;
+	margin-left: 8px;
+	text-align: center;
+	color: #bc5016;
+	display: inline;
+}
+#ylistword
+{
+	font-size: 22px;
+	font-family:Microsoft YaHei; 
+	margin-bottom: 10px; 
+	width:56px;
+}
+#ylist
+{
+	font-size: 13px; 
+	width:56px; 
+	height: 122px; 
+	overflow: hidden;
+	line-height: 20px;
+}
+#jlistblock
+{
+	float: right; 
+	margin-right: 8px; 
+	text-align: center; 
+	color: #595959;
+}
+#jlistword
+{
+	font-size: 22px;
+	font-family:Microsoft YaHei; 
+	margin-bottom: 10px;
+	width:56px;
+}
+#jlist
+{
+	font-size: 13px; 
+	width:56px; 
+	height: 122px; 
+	overflow: hidden;
+	line-height: 20px;
+}
+#plusDiv
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -262px -136px; width: 242px; height: 93px;
+	width: 242px;
+	height: 93px;
+	top: 42px;
+	left: 136px;
+	z-index: 5;
+	position: absolute;
+	display: none;
+}
+#closePlus
+{
+	width: 45px;
+	height: 23px;
+	position: absolute;
+	top: 106px;
+	left: 326px;
+	z-index: 6;
+	cursor: pointer;
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -415px -1182px;
+	font-size: 13px;
+	line-height: 23px;
+	text-align: center;
+}
+#plusDivEle
+{
+	display: none;
+}
+#huangliDiv
+{
+	position: absolute;
+	top: 181px;
+	left: 151px;
+	z-index: 4;
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -11px -139px;width: 250px;
+	height: 130px;
+	display: none;
+	overflow: hidden;
+}
+#popDateStr
+{
+	color: #595758; 
+	font-size: 12px; 
+	font-family: arial; 
+	display: inline;
+	margin: 10px 15px 0px 15px;
+	float:left;
+}
+#popChineseStr
+{
+	color: #909092; 
+	font-size: 12px; 
+	display: inline;
+	margin:10px 0px 10px 15px;
+	float: left;
+}
+.popYJ
+{
+	height: 65px;
+	width: 220px;
+	margin-left: 15px;
+}
+.popWord
+{
+	font-size: 15px;
+	border: 1px solid white;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	height: 18px;
+	width: 18px;
+	color: white;
+	font-weight: bold;
+	padding-left: 1px;
+	padding-top: 1px;
+	float: left;
+}
+#popYword
+{
+	background: #83a918;
+}
+#popJword
+{
+	background: #ce5e54;
+}
+.popStr
+{
+	font-size: 12px;
+	height: 45px;
+	width: 195px;
+	float: left;
+	margin-left: 2px;
+}
+.popHuangliItemY
+{
+	float: left;
+	color: #83a918;
+	margin: 1px;
+}
+.popHuangliItemJ
+{
+	float: left;
+	color: #595959;
+	margin: 1px;
+}
+
+
+#popHourSelect
+{
+	top: 305px;
+	cursor: pointer;
+}
+#popMinuteSelect
+{
+	top: 305px;
+	cursor: pointer;
+}
+#popMinuteSelectList
+{
+	height: 180px;
+	width: 40px;
+	overflow: hidden;
+	z-index: 18;
+	position: absolute;
+	display: none;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	border-right: 1px solid #888;
+	overflow: hidden;
+}
+#popHourSelectList
+{
+	height: 200px;
+	width: 50px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	z-index: 18;
+	position: absolute;
+	display: none;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	border-right: 1px solid #888;
+}
+.minItem
+{
+	width: 35px;
+	height: 15px;
+	padding-left:5px;
+	background: white;
+	cursor: pointer;
+	color: #444;
+	font-size: 13px;
+	line-height: 15px;
+}
+.minItem:hover
+{
+	background: #e0e0e0;
+}
+.hourItem
+{
+	width: 45px;
+	padding-left:5px;
+	height: 15px;
+	background: white;
+	cursor: pointer;
+	color: #444;
+	font-size: 13px;
+	line-height: 15px;
+}
+.hourItem:hover
+{
+	background: #f0f0f0;
+}
+.popDivItem
+{
+	float: left;
+	font-size: 13px;
+	color: #bc5016;
+	font-family: arial;
+}
+
+#popDivItem
+{
+	position: absolute;
+	z-index: 10;
+	top: 53px;
+	left: 147px;
+	width: 300px;
+}
+#popMinuteSelectNumb
+{
+	width: 30px;
+	text-align: center;
+	height: 15px;
+	cursor: pointer;
+	font-size: 13px;
+	margin-left: 5px;
+	float: left;
+}
+.popDownArrow
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: 0 -1054px; width: 10px; height: 14px;
+	width: 10px;
+	height: 14px;
+	float: left;
+}
+#popHourSelectNumb
+{
+	width: 30px;
+	text-align: center;
+	height: 15px;
+	font-size: 13px;
+	color: #bc5016;
+	margin-left: 5px;
+	float: left;
+}
+#popTextarea
+{
+	resize: none;
+	font-size: 15px; 
+	position: absolute; 
+	top: 73px; 
+	height: 16px; 
+	width: 214px;
+	left: 144px; 
+	z-index: 9; 
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+#plusDivCreate
+{
+	position: absolute;
+	z-index: 9;
+	top: 106px;
+	left: 276px;
+	height: 23px;
+	width: 45px;
+	text-align: center;
+	font-size: 10px;
+	cursor: pointer;
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -415px -1182px;
+	font-size: 13px;
+	line-height: 23px;
+	text-align: center;
+}
+#plusDivCreate:hover, #closePlus:hover
+{
+	background-position: -461px -1182px;
+}
+#plusDivCreate:active, #closePlus:active
+{
+	background-position: -508px -1182px;
+}
+#right_big_date
+{
+	font-size: 65px; 
+	line-height: 65px;
+	text-align: center; 
+	color: #969797;
+	height: 70px;181px
+	overflow-y: hidden;
+}
+.chinaDay
+{
+	width: 100%; 
+	text-align: center; 
+	font-size: 13px;
+	margin-top: 3px;
+	color: #bc5016;
+}
+#taskHover
+{
+	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);
+	background-position: -425px -5px; width: 138px; height: 94px;
+	width: 127px;
+	height: 101px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	display: none;
+}
+#taskHover a
+{
+	color: #888;
+}
+#taskList
+{
+	height: 65px;
+	width: 128px;
+	padding-top: 16px;
+	padding-left: 10px;
+}
+#moretask
+{
+	padding-top: 4px;
+	height: 19px;
+	width: 127px;
+	cursor: pointer;
+	font-family: simsun;
+	font-size: 12px;
+	line-height: 12px;
+	text-align: center;
+}
+/*render.css*/
+#festival_detail_str
+{
+	margin-left: 21px;
+	color: #493413;
+	font-size: 14px;
+	height: 16px;
+	line-height: 16px;
+}
+/*点击状态*/
+.clickBlock4, .clickBlock4:hover{background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg); background-position: -170px -276px; width: 50px; height: 64px;}
+.clickBlock5, .clickBlock5:hover{background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);	background-position: -436px -235px; width: 50px; height: 51px; }
+.clickBlock6, .clickBlock6:hover{background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);	background-position: -436px -297px; width: 50px; height: 43px;}
+
+/*某些日期的间距和高度[受absolute影响]*/
+.number6{margin-top: 8px;}
+.number4{margin-top: 25px;}
+.block4:hover{background: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg) no-repeat top left; background-position: -224px -276px; width: 50px; height: 64px;}
+.block5:hover{background: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg) no-repeat top left; background-position: -489px -235px; width: 50px; height: 51px;}
+.block6:hover{background: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg) no-repeat top left; background-position: -489px -297px; width: 50px; height: 43px;}
+.block_content4{height: 64px;}
+.block_content6{height: 43px;}
+/*农历距上的间距[受absolute影响]*/
+.chinaday6{margin-top: 28px;}
+.chinaday4{margin-top: 46px;}
+
+/*日程icon*/
+.workDot{position: absolute; margin-left: 41px;	height: 9px; width: 9px; overflow: hidden;}
+.workDot6{margin-top: 33px;}
+.workDot5{margin-top: 42px;}
+.workDot4{margin-top: 55px;}
+
+#cal_365riliLogo{float: left; background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/365logo.png);	cursor: pointer; height: 23px;	width: 24px;}
+#help-text{height: 13px; width: 153px; float: left; color: #ffffff; margin-left: 22px; font-size: 13px;	line-height: 17px;	text-decoration: underline;}
+#cal_downright{	width: 109px; height: 100%; float: left;}
+#workBoard{	height: 58px; 	width: 100%; 	background-color: #fbfbe0;	border-top: 1px dashed #ccc;	font-family:Microsoft YaHei;}
+.morework{	line-height:18px;	color: #aaa;	font-size: 12px;	margin-left: 16px;	height: 18px;	cursor: pointer;	width: 90px;	overflow: hidden;}
+.work_item{	height: 18px;	font-size: 18px;	line-height:18px;	width: 105px;	overflow: hidden;}
+.work_item_content{	font-size: 14px;	color: #666261;}
+#select-time{display: none;}
+.popDivItemRight{	float: right;	font-size: 17px;	color: red;	font-family: arial;}
+.workitem{	clear: both;	font-size: 13px;	color: #626262;	margin-bottom: 2px;}
+.tastWorkDot{	float: left;	background-image: url(http://static.365rili.com/wannianlibaidu/BD_images/bg2.jpg);	background-position: 0 -997px; width: 6px; height: 7px;	width: 6px;	height: 7px;	margin-top: 5px;}
+.taskWorkTime{	float: left;	color: #cccccc;	margin-left: 5px;}
+.cover{	background: none repeat scroll 0 0 #000000;	position: absolute;	left: 0;top: 0;	opacity: 0.6;	filter:alpha(opacity=60);	width: 100%;	z-index: 1999;	height:110%;}
+.loading{	height:100px;	width:100px;	position:absolute;}
+.fixed-tip{	height:18px;	padding-left:5px;	padding-right:5px;	background-color:#C6322A;	color:white;	position:fixed;	top:1px;	left:240px;}
+.popup-menu{	position:fixed;	width:240px;	border:1px solid #CCCCCC;	background:#FFFFFF;	z-index:1999;}
+.popup-menu a,.popup-menu a:hover{	display:block;	width:228px;	height:24px;	padding-top:3px;	padding-bottom:3px;	padding-left:12px;	float:left;	text-decoration:none;	color:#666666;	font-size:14px;	font-weight: normal;	text-align: left;}
+.popup-menu a:hover{	background:#CCCCCC;}

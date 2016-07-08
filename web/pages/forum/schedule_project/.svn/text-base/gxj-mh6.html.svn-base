@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015北京大观园红楼庙会</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015北京大观园红楼庙会 </div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/0872094d-f40c-49be-90d4-3151c6e4117c.jpg"/>
+			 <a class="btn js-subscribe" data-uuid="0ecb5d59-b320-41a5-b469-0b4bbe5a4ef8" data-cid="147462861">添加提醒</a>
+	    
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	
+	    	<p class="time"><b>时间：2015.2.19 - 2.24（09:00-17:00）
+
+
+
+
+</b></br>
+	    	<b>场地：北京-大观园</b></br>
+			<b>费用：详见现场</b></p>
+			<h3>活动看点：</h3>
+			<p>1、具有古典园林外观、红楼文化内涵、博物馆功能的大型文化旅游景区。
+
+
+
+</br>
+2、庙会内容包括文艺演出、民间花会、风味小吃、民俗活动等。其中“元妃省亲”古装巡游是大观园文化庙会的传统项目和独有的特色。
+</p>
+			<!--h3是小标题-->
+			<h3>活动简介：</h3>
+			<!--p是段落文字描述-->
+			<p>大观园红楼庙会是融民间艺术、宗教信仰、物资交流、文化娱乐为一体的汉族传统民俗文化盛会。北京大观园是京城一处极富特色的古典园林。在占地13公顷的范围内，40余处亭台楼阁、佛庵庭院配以山形水系、繁花名木、鹤鸣鹿啼，宛若人间仙境。红学界认为它实现了《红楼梦》的梦外梦，是展示红楼文化的，建筑学认为它把红楼学术、古典建筑、传统造园艺术三术融为一体。</br>
+			1983年为拍摄电视连续剧《红楼梦》，依据原著描述而建造的古典园林，占地13万平方米。园中建筑格局、山形水系、植物配置、匾额楹联均力求忠实于书中的风尚和细节。</br>
+			园内有40余处景观。亭台楼榭、佛庵庭院，繁花名木、鹤鸣鹿啼，雅中有俗，静中寓动。主要景观有曲径通幽、怡红院、潇湘馆、顾恩思义殿—省亲别墅等。</br></p>
+			<p>
+<b>
+2015北京大观园红楼庙会公交：坐56、59、122、351、特3、922、939、423、721等路公交车在大观园站下车即到。</br></br>
+自驾车去庙会的朋友需要注意：北京大观园红楼庙会停车场有观园停车场、护城河南侧树林停车场、59路总站以北二环辅路两侧停车场。
+
+</b></br></br>
+具体详情以官方信息为准</p>
+<img src="http://cocoimg.365rili.com/schedule_pics/default/b1cf996f-5c96-40b2-a5c8-5222eb523650.jpg"/>
+
+ <div class="remind_div" data-uuid="0ecb5d59-b320-41a5-b469-0b4bbe5a4ef8" data-cid="147462861"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/0872094d-f40c-49be-90d4-3151c6e4117c.jpg',
+                title: '2015北京大观园红楼庙会',
+                desc: '大观园红楼庙会是融民间艺术、宗教信仰、物资交流、文化娱乐为一体的汉族传统民俗文化盛会。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015北京大观园红楼庙会',
+		        				content: '大观园红楼庙会是融民间艺术、宗教信仰、物资交流、文化娱乐为一体的汉族传统民俗文化盛会。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/0872094d-f40c-49be-90d4-3151c6e4117c.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

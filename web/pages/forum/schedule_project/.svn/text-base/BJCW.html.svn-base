@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015靠谱青年北漂网络春晚</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015北漂网络春晚</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/fcc46c5c-7464-4b89-8c8a-77eab548637f.jpg"/>
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	<a href="http://v.qq.com/cover/n/np8qt5v05ym9287.html" data-title="点击观看" class="btn js-other">点击观看</a>
+	    	
+			
+			<p> </p>
+			<h3>详情介绍：</h3>
+			<p>2月11日，“靠谱青年” 2015北漂网络春晚在智能电视、PC、手机三屏终端的众多播出平台同步播出。北漂网络春晚去年首播即获公众巨大认同和感动，石述思、肖鹰等知名评论人亦专门刊文点赞力挺，令公众对今年的晚会更加充满了期待。今年一经播出即占据了各大平台的首页，首日三屏终端点播量累计破亿。这台朴素但不简单的草根春晚再次创造奇迹。 </p>
+			<p>今年，晚会主办单位北京团市委、北京青少年网络文化发展中心联合国家新媒体平台视讯中国和互联网电视旗舰CIBN共同打造“三屏联播、在线互动”的网络春晚模式。目前，这台经过精心打磨的晚会正在基于CIBN内容平台的多个品牌互联网电视和智能硬件上热播。PC端网友可以在腾讯视频、优酷、360影视、凤凰视频、中华网视频等视频网站点播，还可以在百度贴吧中直接观看并参与话题互动。手机用户可以通过视讯中国旗下的互动电视观看，并能在手机上边看边聊参与互动，还可以在365日历中找到更多手机观看入口。晚会总负责人、北京青少年网络文化发展中心主任杨斌说，今年的播出模式较去年有了大幅升级，三屏联播的模式给观众提供了更多观看的方式，并大大增强了网络互动的体验，突显网络春晚的特色。</p>
+			<!--h3是小标题-->
+		
+			<!--p是段落文字描述-->
+			
+			
+			<h3>免责说明：</h3>
+			<p>所有活动信息及图片仅供参考。365日历致力于提供真实、准确的活动信息，但不保证活动信息的真实性和准确性，且不对因信息的不真实或者不准确导致的任何损失或损害承担责任。凡以任何方式登录365日历或者直接、间接参加相关活动者，视为自愿接受本网站声明的约束。</p>
+			
+			<!-- 默认底部有个添加提醒的按钮，不显示的话remind_div的位置加上 none -->
+            <div class="remind_div none" data-uuid="4e0b87d7-73ef-47ed-9069-5060d1f79f57" data-cid="125821987"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/3c160697-7feb-4d34-b275-885ca4e275cd.jpg',
+                title: '2015靠谱青年北漂网络春晚',
+                desc: '2月11日，“靠谱青年” 2015北漂网络春晚在智能电视、PC、手机三屏终端的众多播出平台同步播出。首日三屏终端点播量累计破亿。这台朴素但不简单的草根春晚再次创造奇迹。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015靠谱青年北漂网络春晚',
+		        				content: '2月11日，“靠谱青年” 2015北漂网络春晚在智能电视、PC、手机三屏终端的众多播出平台同步播出。首日三屏终端点播量累计破亿。这台朴素但不简单的草根春晚再次创造奇迹。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/3c160697-7feb-4d34-b275-885ca4e275cd.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

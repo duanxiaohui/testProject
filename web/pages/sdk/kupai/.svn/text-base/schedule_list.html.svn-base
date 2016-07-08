@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0">
+<title>日历广场</title>
+<link href="/pages/client_calendar_h5/css/silde_s.css" rel="stylesheet" media="screen">
+<link href="style/main.css" rel="stylesheet">
+<script src="/js/lib/zepto.min.js"></script>
+<style>
+    .public_image_span.on{
+        background-color: #fff;
+    }
+    .public_image_index{
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+    <div class="bar">
+        <span class="title"></span>
+    </div>
+    <div class="schedule_img"></div>
+    <div class="schedule_content">
+        <div class="calendar_info">
+            <div class="kupai_title_h4">
+                <h4>简介</h4>
+            </div>
+            <p class="js-calendarInfo"></p>
+        </div>
+        <div class="recommended_calendar_list"></div>
+        <div class="footer_copy"></div>
+    </div>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="js/Function.js"></script>
+    <script src="js/calendar.js"></script>
+</body>
+</body>
+</html>

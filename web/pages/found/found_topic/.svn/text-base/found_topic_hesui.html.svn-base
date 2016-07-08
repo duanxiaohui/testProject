@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>不热闹，不成活</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<link href="http://www.365rili.com/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link href="style/found_topic.css" rel="stylesheet">
+<body>
+	<div class="found_topic">
+		<div class="found_topic_top">
+			<img src="images/hesui/found_hesui_top.jpg" width="100%" alt="">
+		</div>
+		<div class="found_topic_txt">
+			<h2>不热闹，不成活<br/>2016年贺岁档电影佳片盘点</h2>
+			<p>想在新一年最开始的地方埋下快乐、红火的种子，当然不能错过时下最in的贺岁片！2016贺岁档，功夫、动画、情感、魔幻、喜剧、悬疑……保证满足所有观影者“眼中的哈姆雷特”！</p>
+		</div>
+		<div class="found_topic_list">
+			<ul>
+
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=4">
+					<div class="topic_list_img">
+						<img src="images/hesui/found_hesui_xingzhan7.jpg" width="100%" alt="">
+					</div>
+					<h3>	星球大战7：原力觉醒</h3>
+					<p>38年时间6部星战大片重塑了多少人的空间地理知识，不过我只看特效，嘎嘎。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+			
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=5">
+					<div class="topic_list_img">
+						<img src="images/hesui/found_hesui_xiongmao3.jpg" width="100%" alt="">
+					</div>
+					<h3>	功夫熊猫3</h3>
+					<p>食无止境，阿宝又来。这次可是一大群胖子…哦不，熊猫，来闹大荧幕。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=6">
+					<div class="topic_list_img">
+						<img src="images/hesui/found_hesui_meirenyu.jpg" width="100%" alt="">
+					</div>
+					<h3> 美人鱼</h3>
+					<p>星爷的作品，不支持一下你好意思出门么？</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=7">
+					<div class="topic_list_img">
+						<img src="images/hesui/found_hesui_aomen3.jpg" width="100%" alt="">
+					</div>
+					<h3> 澳门风云3</h3>
+					<p>虽然有圈钱嫌疑，但新老大牌齐上阵的阵容，饱饱眼福，乐呵乐呵也值了。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=8">
+					<div class="topic_list_img">
+						<img src="images/hesui/found_hesui_zhenxiang.jpg" width="100%" alt="">
+					</div>
+					<h3> 真相禁区</h3>
+					<p>虽然有圈钱嫌疑，但新老大牌齐上阵的阵容，饱饱眼福，乐呵乐呵也值了。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=9">
+					<div class="topic_list_img">
+						<img src="images/hesui/found_hesui_wohu2.jpg" width="100%" alt="">
+					</div>
+					<h3> 卧虎藏龙2：青冥宝剑</h3>
+					<p>杨紫琼&甄子丹，续接卧虎藏龙1的故事，不过呢，看不看随便！</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=1">
+					<div class="topic_list_img">
+						<img src="images/hesui/found_hesui_wushi.jpg" width="100%" alt="">
+					</div>
+					<h3> 最后的巫师猎人</h3>
+					<p>在速7中飙完车，范•迪塞尔又来给我们表演打怪，特效据说杠杠的。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=10">
+					<div class="topic_list_img">
+						<img src="images/hesui/found_hesui_jixian.jpg" width="100%" alt="">
+					</div>
+					<h3> 极限挑战</h3>
+					<p>极限挑战大电影，哈哈哈，还没看我已经笑了。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=11">
+					<div class="topic_list_img">
+						<img src="images/hesui/found_hesui_xiaoshi.jpg" width="100%" alt="">
+					</div>
+					<h3> 消失的爱人</h3>
+					<p>当代招魂续爱故事，热恋的情侣去看吧，反正你们也不关心电影本身。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+    <div id="VER" style="display: none;"></div>
+    <div id="UID" style="display: none;"></div>
+    <div id="MAC" style="display: none;"></div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js?20151016"></script>
+    <script src="http://www.365rili.com/js/lib/app.js?20151119"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/function.js?20151119"></script>
+    <script src="http://www.365rili.com/pages/found/found_topic/js/found_topic.js?20151119"></script>
+</body>
+</html>

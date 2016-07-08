@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 张明臣 (vest0804@gamil.com)
+ * @date    2015-03-12 16:32:09
+ * @version 1.0
+ */
+body { background: #d93448; color: #444; font: 12px / 1.5em arial,"Microsoft YaHei", 微软雅黑; margin: 0; padding: 0;}
+html, body {
+-webkit-user-select: none; /* 禁止选中文本（如无文本选中需求，此为必选项） */
+user-select: none;
+}
+*{-webkit-tap-highlight-color: rgba(0,0,0,0); tap-highlight-color: rgba(0,0,0,0);}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+textarea { background: #fff; border: 1px solid #d2d9dc; border-radius: 2px; box-shadow: 0 0 0 #d2d9dc; -moz-transition: .3s ease-in-out; transition-property: border box-shadow; -webkit-transition: .3s ease-in-out; }
+textarea:focus, input[type="text"]:focus { /*border: 1px solid #b7d4ea;*/ box-shadow: 0 0 5px #b7d4ea; }
+a { color: #208de9; cursor: pointer; text-decoration: none; }
+a:hover { color: #ff5b86; }
+
+.v_align { vertical-align: middle; }
+.none{display: none;}
+
+.solar_view{min-height:170px; width:100%; background:#d93448 url(../images/logo.png) no-repeat right top; background-size:122px 125px; position:relative;}
+.today_solar{padding:15px 0 0 15px;}
+.today_solar_txt,.today_lunar_txt{float:left;}
+.today_solar_txt{font-size:32px; color:#fff; line-height:36px;}
+.today_lunar_txt{padding-left:5px;}
+.today_lunar_txt p{color:#fff;}
+.holiday_txt{padding-left:15px; position:absolute; bottom: 80px;}
+.holiday_icon{padding:0 10px 0 25px; height:30px; background:rgba(255,255,255,.1); float:left; line-height:30px; font-size:15px; color:#fff; -webkit-border-radius:3px;border-radius:3px; position:relative; margin-left:15px;}
+
+.holiday_icon:after{position:absolute; content:" "; width:22px; height:22px; transform:rotate(45deg); -webkit-transform:rotate(45deg);background:rgba(255,255,255,.1); top:4px; left:-10px; -webkit-border-radius:3px;border-radius:3px;}
+.holiday_icon:before{position:absolute; content:""; width:6px; height:6px; border-radius: 5px; background:rgba(255,255,255,.5); left:-3px; top:12px;}
+.hl{width:100%; min-height:45px; padding:10px 0; position:absolute; bottom:0; background:url(../images/hl_bg.png) no-repeat; background-size:100% 100%;}
+.hl div{padding-left:40px; font-size:14px; color:#fff; line-height:160%; position:relative;}
+.yi:after{content:"宜："; position:absolute; width:14px; height:14px; left:15px; top:0px; font-size:14px;}
+.ji:after{content:"忌："; position:absolute; width:14px; height:14px; left:15px; top:0px; font-size:14px;}
+.btn_div{width:165px; height:30px; position:absolute; right:10px; top:15px;}
+.btn_div a{float:right; width:28px; height:28px; border:2px solid rgba(255,255,255,.5); border-radius:18px; color:#fff; text-align:center; line-height:28px; margin:0 2px; font-size:16px; position:relative;}
+.btn_div a.on{background:#d93448; border:2px solid rgba(255,255,255,1);}
+.btn_div a:active{background:rgba(255,255,255,.5);}
+.select{height:34px; border:1px solid #d4d4d4; text-align:center; background:#fff;}
+.prev_btn,.next_btn{display:inline-block;width:34px; height:26px; vertical-align: middle; padding-top:8px;}
+.next_btn .arrow_div{display:inline-block; width:12px; height:12px; border-top:2px solid #b3b3b3; border-left:2px solid #b3b3b3; border-right:transparent; border-bottom:transparent; transform:rotate(-45deg); -webkit-transform:rotate(-45deg); vertical-align: middle; margin-right:10px;}
+.prev_btn .arrow_div{display:inline-block; width:12px; height:12px; border-top:2px solid #b3b3b3; border-right:2px solid #b3b3b3; border-left:transparent; border-bottom:transparent; transform:rotate(45deg); -webkit-transform:rotate(45deg); vertical-align: middle; margin-left:10px;}
+
+.next_btn:active .arrow_div{border-top-color:#000; border-left-color:#000;}
+.prev_btn:active .arrow_div{border-top-color:#000; border-right-color:#000;}
+.select_div{display:inline-block; width:100px; height:34px; vertical-align: middle; line-height:34px; font-size:14px; position:relative;}
+#sp_year_select{width:41px; font-size:80px; display:block; position:absolute; top:7px; left:0px; opacity: 0;}
+#sp_month_select{width:30px; font-size:30px; display:block; position:absolute; top:7px; left:62px; opacity: 0;}
+
+.calendar_grid{background:#fff;position: relative;height:350px;overflow: hidden;}
+.calendar_grid_list{
+	position: absolute;
+	top: 25px;
+}
+.calendar_week_list li{float:left; width:14.2%; width:-webkit-calc(100% / 7); height:25px; line-height:25px; font-size:13px; color:#9c9c9c; text-align:center;}
+
+.calendar_grid_list li{float:left; width:14.2%; width:-webkit-calc(100% / 7); height:55px; }
+.grid{width:51px; height:51px; border-radius:50px; -webkit-border-radius:50px; border:1px solid #fff; position:relative;}
+.solar_data{padding-top:9px; height:22px; line-height:22px; text-align:center; font-size:22px; font-family: arial;}
+.lunar_data{width:100%; height:22px; line-height:22px; text-align:center; color:#9c9c9c; font-size:12px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; }
+/*5行*/
+.calendar_grid .five li{padding:4px 0;}
+.calendar_grid .fives li{padding:5px 0;}
+
+/*班*/
+.calendar_grid_list li.work .vacation_icon{display:block;}
+.calendar_grid_list li.work .grid{background:rgba(233,233,233,1);;}
+.work div.vacation_icon{width:17px; height:17px; background:rgba(217,52,72,1);border-radius:10px; -webkit-border-radius:10px;  text-align:center; line-height:17px; font-size:12px; color:#fff; position:absolute; left:-1px; top:-1px; z-index:9;}
+.work div.vacation_icon:after{content: "班"; display: block;}
+/*休*/
+.calendar_grid_list li.rest .vacation_icon{display:block;}
+.calendar_grid_list li.rest .grid{background:rgba(233,233,233,1);}
+.rest div.vacation_icon{width:17px; height:17px; background:rgba(48,159,217,1); text-align:center; line-height:17px; font-size:12px; color:#fff; position:absolute; left:-1px; top:-1px; color:#fff; border-radius:10px; -webkit-border-radius:10px;}
+.rest div.vacation_icon:after{content: "休"; display: block;}
+.rest .calendar_lunar{color:#CCCCCC;}
+/*今天*/
+.calendar_grid_list li.today .grid{border:1px solid rgba(217,52,72,1);}
+
+/*点击*/
+.calendar_grid_list li.on .grid{background:rgba(217,52,72,.6);}
+.calendar_grid_list li.on .solar_data,.calendar_grid_list li.on .lunar_data{color:#fff;}
+
+/*上下月*/
+.calendar_grid_list li.befor{opacity: .5}
+
+/*箭头*/
+.arror_top{width:10px; height:10px; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -o-transform: rotate(45deg);  border-top:2px solid #d93448;border-left:2px solid #d93448; position:absolute; margin:-8px 0 0 0; right:55px; background:#fff;}
+.solar_layer .arror_top{right:18px;}
+
+#sp_year,#sp_month{height:34px; display:inline-block; padding:0 5px; position:relative;}
+
+.footer{height:35px; width:100%; background:#dbdbdb url(../images/footer_logo.png) no-repeat 15px center; background-size:29px 28px; text-indent:55px; line-height:35px; color:#878787; font-size:16px;}
+
+.vac_layer{position:absolute; width:100%; height:290px; background:#fff; border:1px solid #d93448; left:50%; z-index:999; top:40px;}
+.vac_layer h3,.solar_layer h3{line-height:50px; color:#d93448; font-size:20px; text-align:center;}
+.vac_layer li{float:left; width:49%; height:59px; border-top:1px solid #d4d4d4; color:#000000; border-right:1px solid #d4d4d4;}
+.vac_layer li:last-child p{text-indent:-999px;}
+.vac_layer li:nth-child(2n){border-right:0;}
+
+.solar_layer{position:absolute; width:100%; background:#fff; border:1px solid #d93448; left:50%; z-index:999; top:40px;}
+.solar_layer li{  width: 24.5%;  width: -webkit-calc(25% - 1px);  height: 42px;
+  border-top: 1px solid #d4d4d4;  border-left: 1px solid #d4d4d4;  color: #fbe9bf;
+  cursor: pointer;  display: inline-block;}
+.solar_layer li p{text-align:center; line-height:42px; color:#535353;}
+
+.calendar_position{bottom:0; width:100%;}
+@media(max-width:320px){
+	.today_solar_txt{font-size:30px;}
+	.today_lunar_txt{padding-left:3px;}
+}

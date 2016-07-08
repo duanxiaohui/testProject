@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>童心永葆人不老——世界动画日</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/world_animation_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>童心永葆人不老——世界动画日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>一提起动画，小编首先想起的就是小时候看的《喜羊羊与灰太狼》、《熊出没》、《巧虎》这些……（众人：别扯了你）咳咳，好吧，其实小编小时候看的是《美少女战士》、《足球小子》、《彭彭丁满历险记》之类，前面是为了不暴露年龄胡说的。这说明动画片是一个时代的烙印，它对很多成年人的影响深刻到只听名字我们就能回想起那个年代的很多事，仿佛又回到了无忧无虑的孩提时期。</p>
+            <img src="/pages/found/qp_holiday/images/world_animation_img1.jpg"/>
+            <h3>【动画节的来历】</h3>
+            <p>1892年的10月28日，法国人埃米尔·雷诺在胶片上绘图，制入回转圆滚内，并借助派西诺镜，以反射镜及灯光投射出来，并搭配音乐在巴黎的Grevin博物馆展出，这是史上第一部动画影片的公开放映，世界动画协会组织为了庆祝这个具有时代意义的日子，特别定下10月28日为国际动画日。</p>
+            <img src="/pages/found/qp_holiday/images/world_animation_img2.jpg"/>
+            <h3>【一方水土养一方动画】</h3>
+            <p>不同地区出产的动画带有明显的地方特色，你知道中日美欧的动画都具有什么样的特质吗？快来跟着小编涨涨知识~</p>
+
+            <p class="mt15">-中国动画洋溢着活泼清新的气息，给人以美的启迪。同时又十分注重教化意义，在动画片的创作中秉承“寓教于乐”，使动画片不致流于肤浅的纯娱乐搞笑。在影片类型上具有代表性的中国动画就是水墨动画。</p>
+
+            <p class="mt15">-日本动画作品非常偏好超现实主义题材，常与日式漫画紧密联系。在科技发达的当下，日本仍然坚持这采用传统的手工绘制的方法，致力于研究动画叙事语言的研究。</p>
+
+            <p class="mt15">-美国动画一向注重高科技的应用与高质量的追求。以剧情片为主，多以大团圆结局，特别注重细节的刻画。动物形象大都作大幅度的夸张，大头、大眼、大手、大脚，成为被世界各国广泛借鉴的卡通模式。</p>
+
+            <p class="mt15">-欧洲动画较少生产动画连续剧，而是喜欢在动画电影上进行试验和探索，通常把欧洲的动画作品称为“动画艺术短片”。欧洲动画片把重点放在讲故事上，试图在有限的时间内表达丰富感情和无限哲思。以精炼的手法表现主题与内容，以独特的构图和色彩勾勒出情绪的波动。</p>
+            <img src="/pages/found/qp_holiday/images/world_animation_img3.jpg"/>
+            <h3>【2015动画电影大年】</h3>
+            <p>2015年是值得全球动画迷热血贲张的动画大年。这种火热激情既来自于“海绵宝宝”、“史奴比”、“小王子”等诸多经典品牌的动画电影集体上映，更来自于史无前例的同一年问世两部皮克斯影片的饕餮盛宴。当然，我们也不要忘记将有40多部动画电影上映的日本市场。以细田守为代表的中生代力量，正在“后宫崎骏时代”重塑日本动画格局。此外尤其值得关注的是，真人动画电影将在今年成为市场上不可忽视的一抹亮色。有4、5部重量级作品均采用这种方式制作，它们将带给观众亦真亦幻的美妙感受。</p>
+
+            <p class="mt15">今年已上映的动画大片：《头脑大作战》、《小黄人》、《精灵旅社2》、《西游记之大圣归来》、《小羊肖恩》、《小王子》你看过几部？还没上映的人气动画电影：《花生漫画大电影：史努比》、《恐龙当家》、《海绵宝宝3D》、《家园》《一万年以后》、《大鱼·海棠》你期待哪部？请允许小编在此打个硬广：加入365日历电影首映汇群组，大片上映信息一手掌握！</p>
+
+            <div class="tips">
+                <p>1、每年10月28日为国际动画日，是世界动画协会组织为了庆祝史上第一部动画影片的公开放映而定的；</p>
+                <p>2、全球各地的动画风格不同，但喜欢动画的人都有一颗纯真的心，使他们成为了最青春的人。</p>
+            </div>
+    	</div>
+        <div class="editor">编辑/欢欢</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

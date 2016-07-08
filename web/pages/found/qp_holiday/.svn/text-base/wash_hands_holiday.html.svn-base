@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>洗去病菌更健康——洗手日</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/wash_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>洗去病菌更健康——洗手日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>迄今为止你都听过什么奇葩的歌？小编先分享自己平淡无奇人生里闪闪发光的几首歌给你们看：“我在人民广场吃着炸鸡”、“杀了她喂猪”、“我叫纠结伦”……还有一个大型科普类的奇葩歌曲——“饭前便后要洗手”。说到这里小编要问一个问题：你饭前便后洗手了吗？你洗手的时候放肥皂（洗手液）了吗？</p>
+            <img src="/pages/found/qp_holiday/images/wash_img1.jpg"/>
+            <h3>【洗手是最简单的健康干预】</h3>
+            <p>在很多国家，人们普遍认为仅用水洗手就足以去除可见的污垢以保持手部的清洁。但其实并不是！仅仅用水洗手，病菌还是会停留在手部，而且有可能导致皮肤感染、眼部感染、肠道寄生虫病等疾病。世界范围内在关键时候用肥皂或洗手液洗手的比例仅为0到34%，每年，全球有超过350万的儿童因为腹泻和肺炎无法迎来他们的5岁生日。从某种程度上来说，用肥皂洗手可以挽救上百万儿童的生命！</p>
+            <img src="/pages/found/qp_holiday/images/wash_img2.jpg"/>
+            <p>远远地看这张图，像不像手掌上开出的花？实际上，这是一个8岁的熊孩子出去疯玩之后手上沾染的细菌！美国生物学家Tasha Sturm让刚从外面疯完回家的儿子用小手轻轻拍在培养皿上，48小时后儿子手上的细菌就长成了这样！ </p>
+            <h3 class="mt15">【世界洗手日】</h3>
+            <p>用肥皂或洗手液洗手，可以破坏手上携带的大量病菌的油脂和污垢，但这一力所能及的拯救生命的健康干预措施却长时间被忽视。2006年，促进用肥皂洗手公私伙伴组织终于坐不住了，他们勇敢的站出来号召世界各国在每年的10月15日开展用肥皂洗手活动。2005年，世界卫生组织将10月15日定为世界洗手日，呼吁全世界通过洗手这个简单但重要的动作加强卫生意识，以防止感染到传染病。</p>
+            <img src="/pages/found/qp_holiday/images/wash_img3.jpg"/>
+            <p>用肥皂洗手是所有国家和社区在技术和经济上都力所能及的拯救生命的干预措施。号召人们用肥皂洗手不仅因为其有益健康，还因为用肥皂洗手使人感到舒适，能体现一个人的社会地位和教养。</p>
+            <h3>【你真的会洗手吗？】</h3>
+            <p>其实洗手有很多学问的，远不是搓搓、冲冲这么简单。今天小编义务开设洗手小课堂，告诉你什么才是洗手的正确打开方式——</p>
+
+            <p class="mt15">第一式：摩拳擦掌搓手心</p>
+            <p>第二式：铁砂神掌擦手背</p>
+            <p>第三式：纵横交错清指缝</p>
+            <p>第四式：白鹤晾翅转拇指</p>
+            <p>第五式：雁落平沙啄手心</p>
+            <p>第六式：手到擒来绕手腕</p>
+            <p>学会这六式，保证你成为抵御病菌界的武林高手，爱健康的小伙伴快快学起来！</p>
+
+            <div class="tips">
+                <p>1、10月15日的洗手日是促进用肥皂洗手公私伙伴组织发起的，号召各国开展用肥皂洗手的活动，呼吁全世界通过“洗手”这个简单但重要的动作加强卫生意识，以防止感染到传染病；</p>
+                <p>2、每天都在洗手的你不一定真的会洗手，正文里抵御病菌的健康秘笈你都学会了吗？</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家  </div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

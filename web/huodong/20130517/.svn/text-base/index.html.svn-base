@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历--搜狗阅读</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+</head>
+<body>
+	<div class="main">
+		<div class="top"></div>
+		<div class="text">
+			<p>应用宝是腾讯应用中心出品的安卓应用市场，提供丰富安全的应用下载及便捷可靠的应用管理服务！</p>
+			<p><strong>特色功能：</strong></p>
+			<p>1.抢先首发和内测体验专区，第一时间体验最新应用。</p>
+			<p>2.省流量更新应用，节省流量高达90%。</p>
+			<p>3.应用搬家，将应用移到SD卡</p>
+			<p>4.普通网络下也能高速下载。</p>
+		</div>
+		<a href="http://misc.wcd.qq.com/app?packageName=com.tencent.android.qqdownloader&channelId=75813" class="btn">下载应用宝</a>
+	</div>
+</body>
+</html>

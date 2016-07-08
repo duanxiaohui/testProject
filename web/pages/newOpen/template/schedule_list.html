@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+<title>365公众日历</title>
+<link rel="stylesheet" href="../css/newOpen.css">
+<link href="http://www.365rili.com/css/jquery-ui-1.9.2.custom.min.css" rel="stylesheet"/>
+<link href="http://www.365rili.com/gui/style/jquery.jscrollpane.css" rel="stylesheet"/>
+<link href="http://www.365rili.com/css/lightbox.css" rel="stylesheet"/>
+</head>
+<body>
+	<script type="text/javascript">
+    	var G = {
+	        currUser: {
+	            "id": "240167047",
+	            "username": "veecam",
+	            "email": "veecam@vvedo.com"
+	        },
+	        googleID: "",
+	        outlookID: "null",
+	        emailSituation: "0",
+	        needBind: "",
+	        currDate: new Date(),
+			autoRegBy: "null"
+	    };
+	</script>
+    <div class="header">
+    	<div class="h-info">
+    		<img src="../image/logo.jpg" alt="" class="h-info-face">
+    		<a href="" class="h-info-name">薛鹏</a>
+			<i class="h-info-line"></i>
+    		<a href="javascript:;" class="h-info-quit">退出</a>
+    	</div>
+    	<a href="/" class="h-logo"><img src="../image/logo.jpg" alt=""></a>
+    </div>
+
+	<div class="side">
+	
+		<div class="calendar">
+			<a href="javascript:;" id="js-curCalendar"></a>
+			<div class="create_calendar_list none" id="js-calendarList">
+				<ul></ul>
+			</div>
+		</div>
+
+		<dl class="control">
+			<dt><a href="javascript:;" class="control-item icon icon-schedule">日程</a></dt>
+			<dd>
+				<ul class="control-list">
+					<li><a href="" class="control-list-on">评论管理</a></li>
+					<li><a href="">权限管理</a></li>
+					<li><a href="">申请</a></li>
+					<li><a href="">开发者信息管理</a></li>
+				</ul>
+			</dd>
+		</dl>
+		<dl class="control control_on">
+			<dt><a href="javascript:;" class="control-item icon icon-statistical">统计</a></dt>
+			<dd>
+				<ul class="control-list">
+					<li><a href="" class="control-list-on">评论管理</a></li>
+					<li><a href="">权限管理</a></li>
+					<li><a href="">申请</a></li>
+					<li><a href="">开发者信息管理</a></li>
+				</ul>
+			</dd>
+		</dl>
+		<dl class="control">
+			<dt><a href="javascript:;" class="control-item icon icon-manage">管理</a></dt>
+			<dd>
+				<ul class="control-list">
+					<li><a href="" class="control-list-on">评论管理</a></li>
+					<li><a href="">权限管理</a></li>
+					<li><a href="">申请</a></li>
+					<li><a href="">开发者信息管理</a></li>
+				</ul>
+			</dd>
+		</dl>
+		<dl class="control">
+			<dt><a href="javascript:;" class="control-item icon icon-calendar">日历详情信息</a></dt>
+			<dd></dd>
+		</dl>
+	</div>
+
+	<div class="main-outer">
+		<div class="schedule_list">
+			<div class="list_top">
+				<h3>置顶日程<span>(最多可以创建3个置顶日程，默认战士最新创建的置顶日程)</span></h3>
+				<ul id="js-topic">
+					<li>
+						<div class="list_top_img">
+							<img src="../image/top_img.jpg"/>
+							<a href="javascript:;" class="cancel_top">取消置顶</a>
+							<div class="change_pic">
+								<a href="javascript:;" class="change_pic_btn">更换图片</a>
+								<p>建议尺寸640*480</p>
+							</div>
+						</div>
+						<p class="pic_alt">手机摄影赢小米10</p>
+					</li>
+					<li>
+						<div class="list_top_img">
+							<img src="../image/top_img.jpg"/>
+							<a href="javascript:;" class="cancel_top">取消置顶</a>
+							<div class="change_pic">
+								<a href="javascript:;" class="change_pic_btn">更换图片</a>
+								<p>建议尺寸640*480</p>
+							</div>
+						</div>
+						<p class="pic_alt">手机摄影赢小米10</p>
+					</li>
+					<li>
+						<div class="list_top_img">
+							<img src="../image/top_img.jpg"/>
+							<div class="poto_confirm">
+								<a href="javascript:;" class="reselect_btn">重新选择</a>
+								<A href="javascript:;" class="submit_btn">确定</a>
+							</div>
+						</div>
+						<p class="pic_alt">手机摄影赢小米10</p>
+					</li>
+				</ul>
+			</div>
+			<div class="today_calendar e_clear">
+				<div class="today_calendar_data none" id="today_calendar_year_month" style="display: block;">
+					<span id="sp_year" title="滚动鼠标滚轮调整年份">2014</span>
+					年
+					<span id="sp_month" title="滚动鼠标滚轮调整月份">9</span>
+					月
+				</div>
+				<div class="today_calendar_data none" id="today_calendar_week">
+					<span id="sp_week"></span>
+				</div>
+
+				<div class="today_calendar_pn">
+					<a id="lnk_prev" delta="-1" href="javascript:;" class="prev" hidefocus="true" title="前一个月" ng-click="monthChanged(-1)"></a>
+					<a id="lnk_next" delta="1" href="javascript:;" hidefocus="true" class="next" title="后一个月" ng-click="monthChanged(1)"></a>
+				</div>
+				<a id="lnk_today" delta="0" href="javascript:;" class="today_btn none" hidefocus="true" title="切换回今天" style="display: none;">今天</a>
+			</div>
+			<div class="data_list">
+			</div>
+		</div>
+	</div>
+	<script src="/js/newOpen/Function.js"></script>
+	<script src="/js/jquery/jquery-1.8.3.min.js"></script>
+	<script src="/js/jquery/jquery-ui-1.9.2.custom.min.js"></script>
+	<script src="/js/jquery/jquery.lightbox.js"></script>
+	<script src="/js/lib/amplify.core.min.js"></script>
+	<script>
+		var require = {urlArgs:"2014080601"};
+	</script>
+    <script src="/js/lib/require.min.js" data-main="/js/newOpen/base/bootstrap_list"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>端午节专题</title>
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="gift none">
+    	<div class="gift_content">
+    		<div class="gift_title"></div>
+    	</div>
+    	<div class="gift_btn_div">
+    		<a href="javascript:;" class="gift_btn"></a>
+    	</div>
+    </div>
+    <!-- gift end-->
+    <div class="gift_show">
+    	<div class="gift_show_div">
+    		<div class="gift_box">
+    			<!-- gift_bamboo -->
+    			<div class="gift_bamboo">
+    				<div class="gift_bamboo_div">
+    					<img src="images/mak/bamboo_1.png" alt="" width="100%">
+    					<p>较常见，平凡但不平庸，可药用去火气平浮躁。</p>
+    				</div>
+    				<div class="line"></div>
+    			</div>
+    			<!-- gift_rice -->
+    			<div class="gift_rice">
+    				<div class="gift_rice_div">
+    					<img src="images/mak/rice_1.png" alt="" width="100%">
+    					<p>超黏滑，属于米中的502，可以牢牢的将你的祝福粘给TA</p>
+    				</div>
+    				<div class="line"></div>
+    			</div>
+    			<!-- gift_filling -->
+    			<div class="gift_filling">
+    				<div class="gift_filling_div">
+    					<div class="gift_filling_imgdiv">
+    						<img src="images/split/x.png" alt="" height="100%">
+    					</div>
+    					<p>[唐僧肉]这个疗效你懂得，长生不老</p>
+    					<p class="none">[翔]没错，我就是一坨巧克力味儿的翔</p>
+    					<p class="none">[元宝]金子耶！</p>
+    					<p class="none">[貔貅]可挡五煞，吞纳八方之财的神物</p>
+    					<p class="none">[蜜枣]甜甜蜜蜜，永远不腻</p>
+    					<p class="none">[戒指]一生一世，不离不弃</p>
+    					<p class="none">[护身符]一个有情有义的护身符</p>
+    					<p class="none">[奔驰]装B就靠它！</p>
+    					<p class="none">[信用卡]无上限信用卡，拿去随便花</p>
+    				</div>
+    				<div class="line"></div>
+    			</div>
+    		</div>
+    	</div>
+    	<div class="gift_sentiment">
+    		<div class="gift_sentiment_img">
+    			<img src="images/split/gift_sentiment_img.png" width="100%"/>
+    		</div>
+    		<div class="gift_sentiment_title"></div>
+    		<p>一年中总有一些日子想起你；虽不能时时问候，却想在此刻轻轻道声：端午节愉快，我的朋友！</p>
+    		<p class="tr">你的朋友：二水大冰冰</p>
+    	</div>
+    	<a href="javascript:;" class="replay_btn"></a>
+    </div>
+    <div class="footer">&copy;2015 365日历. 版权所有</div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015国际时尚中心冰雪迷宫</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <div class="bar_txt">2015国际时尚中心冰雪迷宫</div>
+    </div>
+    <div class="main">
+    	<div class="main_content">
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/07b27a19-8f38-4845-b9cd-014da65fe1cf.jpg"/><h6>
+            <a class="btn js-subscribe" data-uuid="ee33d6da-3018-4764-97b6-3a529b14cb8e" data-cid="145993945">添加提醒</a>
+	    	<p class="time">时间：2014年12月19日-2015年02月15日<h6>
+            <p></p>
+            <p class="address">地点：上海杨浦区杨树浦路2866号国际时尚中心</p>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/d4e17d3e-9b22-4439-a3a1-150fbaaa1065.jpg"/>
+			<h3>活动简介：</h3>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/f4d80230-b21a-43c4-898c-70de23367d68.jpg"/> 
+			<p>当冰雪覆盖了大地，当寒冷极致地刺穿我们的身体。人类就没有停止过寻找任何温暖家园的机会。我们历经千辛万苦重重折磨，来到了巨型冰雪迷宫面前。</p>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/735f2744-0f22-4815-b238-322afa514917.jpg"/>
+            <p>对于迷宫内的一切都是一个谜，我们不知道里面有什么，我们也不了解前方的未知，可是，作为佣兵的我们，必须踏出全人类的第一步。寻找那个传说中的糖果屋与童话镇的所在，让我们携伴前进！穿越冰雪迷宫！</p>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/2c29ccd3-5e1b-40c9-9436-caea5a9060bd.jpg"/>
+            <p>2014年12月19日至2015年的2月15日，迪士尼童话集市和冰雪迷宫携手空降上海国际时尚中心 。这里有等着挑战的闯关项目；这里有每周末儿童选秀大赛、童话舞台剧；这里还将吸引神秘嘉宾莅临现场，唱起美妙的歌声。</p> 
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/d2ffb854-a649-4224-a744-2bb33790506c.jpg"/>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/dfefa021-93f3-488a-89c2-b55107145236.jpg"/>
+            <p>冰雪狂欢季，上海国际时尚中心等你GO！</p>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/5326ae14-6c0d-4f74-86e5-98749e4532b2.jpg"/>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/25ea3c4f-93c4-4dfe-9b63-1029d5f12c39.jpg"/>
+            <div class="remind_div" data-uuid="ee33d6da-3018-4764-97b6-3a529b14cb8e" data-cid="145993945"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/07b27a19-8f38-4845-b9cd-014da65fe1cf.jpg',
+                title: '上海冰雪狂欢节活动',
+                desc: '冰雪狂欢季，上海国际时尚中心等你GO！让我们携伴前进！穿越冰雪迷宫！'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '上海冰雪狂欢节活动',
+		        				content: '冰雪狂欢季，上海国际时尚中心等你GO！让我们携伴前进！穿越冰雪迷宫！',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/07b27a19-8f38-4845-b9cd-014da65fe1cf.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

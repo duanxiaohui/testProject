@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop         
+        http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:env/*.properties</value>
+			</list>
+		</property>
+		<property name="ignoreUnresolvablePlaceholders" value="true" />
+	</bean>
+ 
+	 <!-- 配置Spring和Jdbc的关联监控 -->
+    <bean id="druid-stat-pointcut" class="org.springframework.aop.support.JdkRegexpMethodPointcut"
+          scope="prototype">
+        <property name="patterns">
+            <list>
+                <value>com.rili.common.dao.*</value>
+                <value>com.rili.web.dao.*</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="druid-stat-interceptor"
+          class="com.alibaba.druid.support.spring.stat.DruidStatInterceptor">
+    </bean>
+
+    <aop:config>
+        <aop:advisor advice-ref="druid-stat-interceptor" pointcut-ref="druid-stat-pointcut" />
+    </aop:config>
+	
+	<bean id="stat-filter" class="com.rili.datasource.RiliStatFilter">
+        <property name="slowSqlMillis" value="${db.stats.slowSqlMillis}" />
+        <property name="logSlowSql" value="true" />
+        <property name="mergeSql" value="true" />
+    </bean>
+    
+	<!-- 数据库配置 -->
+	<bean id="dataSourceTickets" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+		<property name="url" value="${db.tickets.url}" />
+		<property name="username" value="${db.tickets.username}" />
+		<property name="password" value="${db.tickets.pass}" />
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<!-- 一分钟统计一次 -->
+		<property name="timeBetweenLogStatsMillis" value="${db.stats.timeBetweenLogStatsMillis}" />
+		
+		<property name="maxActive" value="${db.tickets.maxActive}" />
+		<property name="maxWait" value="${db.tickets.maxWait}" />
+		<property name="initialSize" value="${db.tickets.initialSize}" />
+		<property name="testWhileIdle" value="true" />
+		<property name="testOnBorrow" value="true" />
+		<property name="testOnReturn" value="false" />
+		<property name="validationQuery" value="SELECT 1" />
+		<property name="RemoveAbandonedTimeout" value="${db.tickets.RemoveAbandonedTimeout}" />
+		<property name="removeAbandoned" value="true" />
+		<property name="logAbandoned" value="true" />
+		<property name="minEvictableIdleTimeMillis" value="${db.tickets.minEvictableIdleTimeMillis}" />
+
+		<property name="timeBetweenEvictionRunsMillis" value="${db.tickets.timeBetweenEvictionRunsMillis}" />
+		<property name="connectionInitSqls" value="set names utf8mb4"></property>
+		
+		<property name="dbType" value="mysql" />
+		
+		<property name="statLogger" ref="myStatLogger" />
+
+		<property name="proxyFilters">
+            <list>
+                <ref bean="stat-filter" />
+            </list>
+        </property>
+        <!-- 数据库监控，及日志配置 -->
+        <property name="filters" value="log4j" />
+	</bean>
+    
+    <bean id="myStatLogger" class="com.rili.datasource.MyStatLogger" />
+    
+    <!-- 数据库配置 -->
+	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+		init-method="init" destroy-method="close">
+		<property name="url" value="${db.rili365.url}" />
+		<property name="username" value="${db.rili365.username}" />
+		<property name="password" value="${db.rili365.pass}" />
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		
+		<property name="timeBetweenLogStatsMillis" value="${db.stats.timeBetweenLogStatsMillis}" />
+		
+		<property name="maxActive" value="${db.rili365.maxActive}" />
+		<property name="maxWait" value="${db.rili365.maxWait}" />
+		<property name="initialSize" value="${db.rili365.initialSize}" />
+		<property name="testWhileIdle" value="true" />
+		<property name="testOnBorrow" value="true" />
+		<property name="testOnReturn" value="false" />
+		<property name="validationQuery" value="SELECT 1" />
+		<property name="RemoveAbandonedTimeout" value="${db.rili365.RemoveAbandonedTimeout}" />
+		<property name="removeAbandoned" value="true" />
+		<property name="logAbandoned" value="true" />
+		<property name="minEvictableIdleTimeMillis" value="${db.rili365.minEvictableIdleTimeMillis}" />
+
+		<property name="timeBetweenEvictionRunsMillis" value="${db.rili365.timeBetweenEvictionRunsMillis}" />
+
+		<property name="connectionInitSqls" value="set names utf8mb4"></property>
+		
+		<property name="dbType" value="mysql" />
+		
+		<property name="statLogger" ref="myStatLogger" />
+
+		<property name="proxyFilters">
+            <list>
+                <ref bean="stat-filter" />
+            </list>
+        </property>
+        <!-- 数据库监控，及日志配置 -->
+        <property name="filters" value="log4j" />
+
+	</bean>
+
+</beans>

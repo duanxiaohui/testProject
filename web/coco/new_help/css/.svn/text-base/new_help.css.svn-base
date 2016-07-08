@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/**
+ * newHelp
+ * @authors 张明臣 (vest0804@gamil.com)
+ * @date    2015-08-20 11:10:00
+ * @version 1.0
+ */
+
+body { background: #efefef; color: #444; font: 12px / 1.5em "Microsoft YaHei", 微软雅黑,SimSun,arial; height: 100%; margin: 0; padding: 0; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+textarea { background: #fff; border: 1px solid #d2d9dc; border-radius: 2px; box-shadow: 0 0 0 #d2d9dc; -moz-transition: .3s ease-in-out; transition-property: border box-shadow; -webkit-transition: .3s ease-in-out; }
+textarea:focus, input[type="text"]:focus { /*border: 1px solid #b7d4ea;*/ box-shadow: 0 0 5px #b7d4ea; }
+a { color: #208de9; cursor: pointer; text-decoration: none; }
+
+.help_main h3{height:50px; line-height:50px; padding-left:25px; font-size:14px; color:#1b1d1f; position:relative;border-bottom:1px solid #f2f2f2; background:#fff;}
+.help_main h3:after{content:" "; width:4px; height:12px; position:absolute; left:10px; top:19px; background:#fa9131; }
+
+.hot_pro ul{padding-left:20px; background:#fff;}
+.hot_pro li{line-height:48px; color:#1b1d1f; border-bottom:1px solid #f2f2f2; font-size:15px; position: relative;}
+.hot_pro li:after{content:''; position:absolute; width:10px; height:10px; border-top:1px solid #a1aaaf; border-right:1px solid #a1aaaf; transform:rotate(45deg); -webkit-transform:rotate(45deg); right:15px; top:19px;}
+
+.common_list{margin-top:10px;}
+.common_list .icon{width:49px; height:49px; margin:0 auto;}
+.common_list .icon img{width:100%; height:100%;}
+.common_list ul{padding:25px 0; text-align:center; background:#fff;}
+.common_list li{ width:60px; display:inline-block; margin:0 5px;}
+.first_user{display:block; width:100%; height:60px; line-height:60px; text-align:center; color:#1b1d1f; border-bottom:1px solid #f2f2f2; border-top:1px solid #f2f2f2; font-size:15px; background:#fff; text-align:center; margin-top:10px;}

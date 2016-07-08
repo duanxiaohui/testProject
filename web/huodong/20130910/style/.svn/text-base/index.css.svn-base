@@ -1,0 +1,19 @@
+body{ font-family: "Microsoft YaHei";}
+*{margin:0; padding:0;}
+ul{list-style: none;}
+li{list-style-type: none;}
+a { color:#0d23f4; cursor: pointer; text-decoration: none; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+
+
+.main{margin:0 auto; padding-bottom:10px;}
+.top{width:100%; margin:0 auto; height:244px; position:relative; background:url(http://d2.365rili.com/huodong/20130910/images/img.jpg) no-repeat center top; -webkit-background-size:320px 244px; background-size:cover;}
+.text{padding:10px 15px; margin:0 auto;}
+.text p{line-height:35px; color:#666; font-size:15px; color:#754c24;}
+.text p span{color:#ff5b86;}
+.btn{text-align:center; -moz-border-radius: 3px; -webkit-border-radius: 3px; -khtml-border-radius: 3px; border-radius: 3px;}
+ a.btn_2{display:block; margin:0 auto; width:160px; height:50px; line-height:35px; font-size:16px; text-align:center; color:#fff; padding-right:7px; background:url(../images/btn_1.png) no-repeat; top:155px; left:25px; -webkit-background-size:160px 50px;}
+
+.text p.tips{margin-top:10px; color:#ff5b86;}

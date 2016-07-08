@@ -1,0 +1,8 @@
+body{background:#fff;}
+*{margin:0; padding:0;}
+ul{list-style: none;}
+li{list-style-type: none;}
+.top{width:320px; height:137px; margin:0 auto; background:url(../images/top.jpg) no-repeat; -webkit-background-size:320px 137px;}
+.txt{width:320px; margin:0 auto; padding:20px 0; background:url(../images/icon.jpg) no-repeat 15px 20px; -webkit-background-size:51px 60px;}
+.txt p{margin:0 0 0 70px; font-size:14px; color:#41708a; line-height:24px;}
+.btn{display:block; width:177px; height:45px; margin:0 auto; background:url(../images/btn.jpg) no-repeat; -webkit-background-size:177px 45px;}

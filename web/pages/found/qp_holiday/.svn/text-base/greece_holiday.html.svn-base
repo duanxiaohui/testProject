@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>蔚蓝色的国度</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/greece/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>希腊国庆日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>记得小时候，从《荷马史诗》中的《伊利亚特》和《奥德赛》两部分中，了解了希腊神话故事，后来随着星座文化的越来越普及，对每个星座背后的古希腊神话也产生了浓厚的兴趣，也渐渐地对希腊这个有着悠久文明的国家产生了很大的兴趣。</p>
+            <img src="images/greece/holiday_1.jpg"/>
+          
+
+            <h3>【魅力四射的爱琴海】</h3>
+
+            <p>说起希腊就不得不提起地中海悠久海岸线勾勒出最美的爱琴海。爱琴海，地中海的一部分，被希腊最大岛屿克里特岛围在了今天的希腊和土耳其两国之间，几乎成为一片独立的海域。虽说在中国，由于其汉语谐音“爱情”会被人冠以浪漫主义的联想，但这远远无法诠释其真正的浪漫主义色彩。爱琴海海水蒸发量远大于降水量，其极高的矿物质盐分使水体呈现迷人的深蓝色，或许在这个世界上，没有任何另一片海域的蓝色能与爱琴海相比。爱琴海岛屿众多，当天气晴朗的日子里，海轮航行在任何一个位置，环顾四周总有一片岛屿的陆地在你的视线之中，或许在这个世界上，没有任何另一片海域的岛屿能与爱琴海相比。</p>
+
+            <img src="images/greece/holiday_2.jpg"/>
+
+            <p>正是这片浪漫主义的海水及其两岸的陆地，历史上几经易手，被不同时期不同帝国所占据。从古希腊到古罗马，从拜占庭到奥斯曼土耳其，这里同样经历过基督教和伊斯兰教的战争洗礼。今天的爱琴海，两岸分别归于两个国家，两种宗教。翻开地图，希腊和土耳其的国境线几乎是贴着土耳其的海岸线，这意味着爱琴海诸岛，几乎全部为希腊版图。但文化不是这么分的，无论希腊半岛的沿岸，抑或小亚细亚半岛的沿岸，都是统一的爱琴海文明。希腊人和土耳其人都以此为自豪，也认为自己才是这个文明的嫡系传人。今日的土耳其国力强盛要优于希腊，双方在这片沃土上的争端亦长期持久。</p>
+
+            <img src="images/greece/holiday_3.jpg"/>
+
+             <h3>【反土耳其独立战争的胜利】</h3>
+
+            <p>希腊是欧洲文明的发祥地，创造过灿烂的古代文化，在音乐、数学、哲学、文学、建筑、雕刻等方面都曾取得过巨大成就。公元前2800至前1400年，克里特岛和伯罗奔尼撒半岛先后出现了米诺斯文化和迈锡尼文化。公元前800年形成了数以百计的独立城邦。雅典、斯巴达、底比斯等是其中最发达的城邦。公元前5世纪为希腊鼎盛时期。1460年遭奥斯曼帝国统治。1821年3月25日希腊爆发反土侵略军的独立战争，同时宣布独立。而3月25日，也就定为了希腊国庆日。</p>	
+            <img src="images/greece/holiday_4.jpg"/>
+            <img src="images/greece/holiday_5.jpg"/>			
+
+            <div class="tips">
+                <p>1、昨日的历史光辉，今天的浪漫情怀，爱琴海是一片神奇之地，无愧于排名第一的旅行目的地；</p>
+                <p>2、现代的希腊一直以它的慢节奏著称，如果有时间去游玩的话，一定要放松下来心情来体验这种轻松慵懒的氛围。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/Vanna</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

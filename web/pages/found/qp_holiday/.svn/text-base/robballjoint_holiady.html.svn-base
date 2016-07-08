@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>摸摸幸运球 烦恼都赶走</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/robballjoint/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>摸摸幸运球 烦恼都赶走</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>生活中有许多争夺球类的活动，对男生来说最熟悉的就是足球和篮球，一个是把球拿在手上，一个是把球围在脚边；对女生来说最想抢到的就是捧花球了吧。在我们的邻居霓虹国，也有一种球会让大家争先恐后的抢夺，据说摸到的人就能带来一整年的幸运呢~</p>
+          
+            <img src="images/robballjoint/holiday_img1.jpg"/>
+           
+			 <h3>【画风清奇的抢球节】</h3>
+
+            <p>每年的1月3日是日本福冈县的抢球节。相传，作为九州三大节庆活动之一、具有500年历史的抢球节起源于龙神向神功皇后进献双球的传说。抢球类的运动总是让人热血贲张，可能是因为身材健美的运动员们汗流浃背的样子让人觉得很性感，但抢球节上各位选手的画风却有点鬼畜：裸身（系1条兜裆布）男子们一边戏水，一边争抢一颗直径30厘米、重达8公斤的宝球，据说如果谁能把这块球高举头顶，幸运就会降临。</p>
+           
+            <img src="images/robballjoint/holiday_img2.jpg"/>
+          
+            <h3>【人人都想摸的大宝球】</h3>
+            <p>抢球节当天的下午1时，经过清洗、分别象征男女的“阳”、“阴”双球被运至玉取惠比寿神社。“阴”球供奉于该神社后，男孩子们再次将“阳”球运向筥崎宫方向，交与一直守护在那里的男子们。他们分成以务农为主、取意陆地的“陆组”和靠捕鱼为生、在海洋上驰骋的“滨组”两组，准备抢球交给一直守在楼门等待的神官。如果抢先把宝球交与神官的是“陆组”，则意味着当年农业丰产，如果是“滨组”，则渔业丰收。</p>  
+            <p class="mt15">于是，一场宝球争夺战拉开帷幕。伴随着“噢伊萨〜、噢伊萨〜”的号子声，男子们的热情不断高涨，行至筥崎宫大门时达到高潮。尽管室外寒冷，但男子们的身上已被泼水湿透，连路旁观看的游人也都被淋湿。据说宝球哪怕是摸一下也能带来幸运，所以游人们也争先恐后上前抓抢，场面愈来愈喧嚷热闹。</p>
+            
+
+            <img src="images/robballjoint/holiday_img3.jpg"/>
+			<h3>【关于幸运】</h3>
+
+            <p>“心满意足享受每一点快乐，是走向幸福的唯一途径”，这句话出自知名的静冈县人民樱桃小丸子之口。就是这样单纯善良永远对生活抱有期待的人们才能构建出小丸子这样一个美好的形象吧~即使知道世界不会事事都遂人愿，但仍然希望幸运可以降临在自己头上。如果樱桃小丸子在三次元中存在的话，这一天一定会跑到筥崎宫去摸幸运球呢！</p>
+			
+
+
+            <div class="tips">
+                <p>1、每年1月3日是日本福冈的抢球节；</p>
+                <p>2、据说摸到了这个球可以带来一整年的幸运哦~</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/欢欢</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

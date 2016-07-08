@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>共享日历</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="/coco/new_help/css/new_help.css" media="screen" />
+</head>
+<body>
+	<div class="help_main">
+		<div class="hot_pro">
+			<ul>
+				<li data-url="https://shimo.im/doc/kacOsaKGY28RblpX">共享日历显示日程最后编辑人</li>
+				<li data-url="https://shimo.im/doc/g4VQTaWeFREfV06t">共享日历 @ 功能优化，可以多次@ 成员（V6.2版本）</li>
+				<li data-url="https://shimo.im/doc/dsvSZ9wxpC4SgGNh">共享日历创建者可以直接废除共享日历（V6.2版本）</li>
+				<li data-url="https://shimo.im/doc/GmpHQt7jgpQHEj4D">共享日历增加日期计算功能（V6.2版本）</li>
+				<li data-url="https://shimo.im/doc/WOLetRq3g10gp0Zw">邀请成员“＋”号外放（V6.2版本）</li>
+				<li data-url="https://shimo.im/doc/cGMWKDmOJWr27WiW">创建共享日历第一步</li>
+				<li data-url="https://shimo.im/doc/2ARNHWkkypsywN6t">共享日历日程如何在主界面上显示？</li>
+				<li data-url="  https://shimo.im/doc/MihsokW3gRP7t1AR">关注共享日历更新尽在掌握</li>
+				<li data-url=" https://shimo.im/doc/of26tr5JfAcQ5gvj">共享资料全知道</li>
+				<li data-url="https://shimo.im/doc/vGg3Ys4MKZELUyIS">共享日程一键查看</li>
+				<li data-url="https://shimo.im/doc/W7tebqamyio6UG5M">共享日历可以用来做什么？</li>
+				<li data-url="https://shimo.im/doc/9UiXlxAIAUVXLKwy">共享日程与个人日程有什么联系？</li>
+				<li data-url="https://shimo.im/doc/INvYv64QiEN8RUDi">共享日历私有属性和公开属性有什么区别？</li>
+				<li data-url="https://shimo.im/doc/YauSd9yYdbQfPqmf">共享日历（私有和公开）如何管理？</li>
+				<li data-url="https://shimo.im/doc/azJgGg0em09tlbCe">共享日历怎么加入？</li>
+				<li data-url="https://shimo.im/doc/REValsb7uROZbCNV">共享日历中任何成员都可以发布日程么？</li>
+			</ul>
+		</div>
+	
+	</div>
+	<script src="/js/lib/zepto.min.js"></script>
+	<script src="/js/lib/app.js"></script>
+	<script src="/coco/new_help/js/new_help.js"></script>
+</body>
+</html>

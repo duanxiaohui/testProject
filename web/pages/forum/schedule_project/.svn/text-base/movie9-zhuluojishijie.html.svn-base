@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>侏罗纪世界</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">侏罗纪世界</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/1be4a75d-ec9e-4767-8d82-df8f2ce1e706.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	<a href="http://www.iqiyi.com/v_19rrn95swo.html" data-title="查看预告片" class="btn js-other">查看预告片</a>
+	    	<h3 class="time">上映时间：2015年6月10日（内地）</h3>
+			<p> </p>
+	    	<h3>导演：科林·特雷沃罗</h3>
+			<p class="fc_000">主演：克里斯·帕拉特 / 朱迪·格雷尔 / B·D·王 / 泰·辛普金斯</p>
+			<h3>剧情：</h3>
+			<p>	故事将从22年后《侏罗纪公园》中的事发地点努布拉岛展开。此时，努布拉岛已经发展为一个功能完整的恐龙主题公园。人们将再度进入一个超大规模的侏罗纪公园参观。这个主题公园设施齐全，恐龙的展品也相当给力，游客可以乘坐高速穿梭观光车深入密林，和各种恐龙进行亲密接触。但是，公园方面为了赢利，不得不把招揽回头客作为第一目标，显然，他们需要丰富“展品”来吸引更多的游客。失去良心的科学家和公园方面携手合作，让最凶猛的霸王龙和其他恐龙以及物种杂交，试图制造出新的奇怪生物，他们甚至还把霸王龙的DNA，和蟒蛇、墨鱼的基因结合到一起，最终制造出了令人匪夷所思的怪龙。毫无疑问，当这些生物出现在“侏罗纪世界”之后，游客的安全已然难以得到保障。</p>
+			<!--h3是小标题-->
+			<h3>看点：</h3>
+			<!--p是段落文字描述-->
+			<p>这是斯皮尔伯格于1993年开始打造的《侏罗纪公园》系列科幻动作大片中的第四部。虽然他本人担任的是制片人而不是导演，但仍然是一块响当当的金字招牌，而男主角正是在《银河护卫队》中大放异彩的星爵：克里斯·帕拉特。《侏罗纪世界》当中最引人关注的无疑是混血恐龙D-Rex，那你会说了，难道一般恐龙已经杀不死人类了？这个混血儿有多强？我们的好盆宇霸王龙同学还能出镜吗？导演说了，虽然公园里的恐龙已经足够把人类折磨到死，但还是希望在电影里有些不同以往的设计，“而且人类总是对未知事物充满好奇，这也是为什么片中的基因公司会去创造混血恐龙，他们想打造出一种比霸王龙更凶悍的物种。”作为影片的大BOSS，D-Rex结合了霸王龙、迅猛龙、乌贼、蛇的DNA，成为当之无愧的恶魔。并且导演向所有影迷保证，绝对会有霸王龙！还有在这一部里，会有星爵驯龙的场面，想看看他给恐龙喂的什么饲料？只能去电影院啦~</p>
+    	<img src="http://cocoimg.365rili.com/schedule_pics/default/a59d1438-37fc-4e9e-8f0b-b3fa4fd6d713.jpg"/>
+		<img src="http://cocoimg.365rili.com/schedule_pics/default/b84c81ee-0735-4b06-80fd-a6a5f365abcd.jpg"/>
+		 <div class="remind_div none" data-uuid="4e0b87d7-73ef-47ed-9069-5060d1f79f57" data-cid="125821987"><div class="remind_icon"></div><span>添加提醒</span></div>
+		</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/289e3ca0-e982-42e5-b077-b1bf8bd567f2.jpg',
+                title: '电影：侏罗纪世界',
+                desc: '《侏罗纪世界》是环球影业出品的一部科幻冒险电影，讲述科学家欧文在纳布拉尔岛上的恐龙主题公园中与迅猛龙们打成一片，并意外发生了一些事故和故事。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '电影：侏罗纪世界',
+		        				content: '《侏罗纪世界》是环球影业出品的一部科幻冒险电影，讲述科学家欧文在纳布拉尔岛上的恐龙主题公园中与迅猛龙们打成一片，并意外发生了一些事故和故事。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/289e3ca0-e982-42e5-b077-b1bf8bd567f2.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		},
+		        		{
+		        			name: 'channel',
+		        			value: 'wx'
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

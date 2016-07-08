@@ -1,0 +1,143 @@
+html{-webkit-text-size-adjust:none;}
+.regContent{
+	margin-top: 20px;
+}
+.infoBoxLog {
+	background:url(http://up2.365rili.com/v3/images/login/bg_log.png) no-repeat;
+	width:1024px;
+	height:480px;
+	float: left;
+}
+.infoBoxReg {
+	background:url(http://up2.365rili.com/v3/images/login/bg_reg.png) no-repeat;
+	width:1024px;
+	height:510px;
+	float: left;
+}
+#logbk1 {
+	background:url(http://up2.365rili.com/v3/images/login/log_pic1.png) no-repeat;
+	width:240px;
+	height:480px;
+	float:left;
+}
+#logbk2 {
+	background:url(http://up2.365rili.com/v3/images/login/log_pic2.png) no-repeat;
+	width:240px;
+	height:480px;
+	float:left;
+}
+#regbk1 {
+	background:url(http://up2.365rili.com/v3/images/login/reg_pic1.png) no-repeat;
+	width:240px;
+	height:480px;
+	float:left;
+}
+#regbk2 {
+	background:url(http://up2.365rili.com/v3/images/login/reg_pic2.png) no-repeat;
+	width:240px;
+	height:480px;
+	float:left;
+}
+.regshadow{
+	text-shadow:0px 1px 1px #333;
+}
+.regtext {
+	color: #FFF;
+	font: normal 16px "Microsoft YaHei",arial,simsun;
+	margin: 8px 10px 0px 0px;
+	width: 70px;
+	height: 38px;
+	text-align: right;
+	vertical-align : middle;
+	float: left;
+}
+.reginput {
+	width: 178px;
+	height: 38px;
+	background:url(http://up2.365rili.com/v3/images/login/input.png) no-repeat;
+	float: left;
+}
+.reginput1 {
+	width: 101px;
+	height: 38px;
+	background:url(http://up2.365rili.com/v3/images/login/input2.png) no-repeat;
+	float: left;
+}
+.reginput a{
+	font: normal 13px simsun;
+	color: #999;
+	text-decoration: none;
+}
+.regline a{
+	font: normal 12px simsun;
+	color: #eee;
+	text-decoration: none;
+}
+.reginfo {
+	/*display: none;*/
+	width: 178px;
+	height: 38px;
+	background:url(http://up2.365rili.com/v3/images/login/warning.png) no-repeat;
+	float: left;
+	margin-left: -2px;
+	padding-left: 3px;
+	padding-top: 6px;
+	font-size: 12px;
+	color:#ddd;
+}
+.regline {
+	margin-bottom: 5px;
+	float: left;
+}
+.regTextBox {
+	border:0px;
+	width: 170px;
+	height: 30px;
+	margin: 2px;
+	font: normal 16px "Microsoft YaHei",arial,simsun;
+}
+.autologin {
+	color: #FFF;
+	font: normal 14px "Microsoft YaHei",arial,simsun;
+	width: 250px;
+}
+
+#errorInfo p.error{
+    padding-left:16px;
+    color:#FFF;
+    text-shadow:0px 1px 1px #000;
+    background:url(/images/cal365_default/invalid.gif) no-repeat 0 50%;
+    background-color:#F3E99E;
+    border:1px solid red;
+    display:none;
+    line-height:20px;
+}
+#errorInfo p.pass {
+    background:url(/images/cal365_default/valid.gif) no-repeat 0 50%;
+    background-color:#D1EAC0;
+    border:1px solid #6CC422;
+    color:#6CC422;
+}
+.fieldError {
+    padding-left:16px;
+    background:url(http://up2.365rili.com/v3/images/login/err.png) no-repeat 0 50%;
+    color:#FFF;
+    text-shadow:0px 1px 1px #000;
+}
+.inputOK {
+    background:url(http://up2.365rili.com/v3/images/login/ok.png) no-repeat 0 50%;
+    height:16px;
+    margin-left:5px;
+    margin-top:10px;
+    padding-left:14px;
+    display:none;
+    float:left;
+}
+
+.tips {
+    position:relative;
+    width:240px;
+    margin-left:90px;
+    font-size:12px;
+    color: #ddd;
+}

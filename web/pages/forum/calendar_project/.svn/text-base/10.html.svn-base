@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0">
+<title>混互联网，没有这些日历好意思出门？</title>
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/css/forum_new.css" rel="stylesheet">
+<script src="/js/lib/zepto.min.js"></script>
+<script src="/js/lib/app.js"></script>
+<link href="/css/footer.css?20141126" rel="stylesheet">
+<script src="/pages/forum/js/underscore-1.6.0.js"></script>
+</head>
+<body class="weixin">
+    <div class="calendar_project_top">
+        <div class="calendar_project_top_header">
+            <a href="javascript:;" class="return_btn"></a>
+            <a href="javascript:;" class="share_btn none"></a>
+            <span>混互联网，没有这些日历好意思出门？</span>
+        </div>
+        <div class="calendar_project_top_img">
+            <img src="http://cocoimg.365rili.com/pic/default/zhuanti_in_10.jpg"/> <!-- 图片地址 -->
+        </div>
+    </div>
+    <div class="calendar_project_info">
+        <p>通过参加活动交流学习，往往是最快的成长方式！</p>
+    </div>
+    <div class="calendar_project_list">
+        <dl class="e_clear" data-id="130880805">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/b8095d2e-6a9a-45d1-af48-c08806bb57bc.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="130880805" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>移动互联网圈活动</h3>
+                    <p>移动互联网相关的各种聚会、沙龙、展览等活动信息发布</p>
+                    <div class="focus_num">42689人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="132591877">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/0212f3b4-e991-498b-ac81-9182a75154e5.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="132591877" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>互联网技术圈活动</h3>
+                    <p>互联网技术相关的各种聚会、沙龙、展览等活动信息发布</p>
+                    <div class="focus_num">16253人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="132436827">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/37263ced-6242-4796-9360-2bc3ef96473f.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="132436827" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>市场营销圈活动</h3>
+                    <p>市场营销相关的聚会沙龙、研讨会等活动信息发布</p>
+                    <div class="focus_num">14552人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="130994245">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/8d019521-b0e9-409d-b822-a941a0fa2e38.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="130994245" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>电子商务圈活动</h3>
+                    <p>电子商务相关的各种聚会、沙龙、展览等活动信息发布</p>
+                    <div class="focus_num">11874人关注</div>
+                </div>
+            </dd>
+        </dl>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/js/lib/footer.js?20150122"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+            $('.calendar_project_top_header').hide();
+            $('.calendar_project_top_img').css('padding-top', '0')
+
+            wxProtocol.init({
+                imgUrl: $('.calendar_project_top_img img')[0].src,
+                title: $('.calendar_project_top_header span').html(),
+                desc: $('.calendar_project_info p').html()
+            });
+
+            wxProtocol.initWithAlready({
+                imgUrl: $('.calendar_project_top_img img')[0].src,
+                title: $('.calendar_project_top_header span').html(),
+                desc: $('.calendar_project_info p').html()
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+    })();
+    </script>
+    <script src="/pages/forum/js/func.js"></script>
+    <script src="/pages/forum/js/calendar_project.js"></script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

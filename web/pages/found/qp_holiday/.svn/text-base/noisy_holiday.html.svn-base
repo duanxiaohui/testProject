@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>神轿对抗大战——滩之吵闹节</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/noisy_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>神轿对抗大战——滩之吵闹节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>“童话外婆”林格伦有一本书叫做《吵闹村的孩子》——吵闹村是一个很小的村庄，只有三户人家，七个孩子。但这里是一个快乐的地方，这里的孩子们十分幸福，时时刻刻都能感受到生活的乐趣。在学校，有温和的老师、友善的同学、宽松的环境；在家里，有爸爸妈妈给予的关爱和自由。他们可以无忧无虑地游戏、肆无忌惮地吵闹。在游戏和吵闹中，他们学会了乐观、自信、关爱别人……</p>
+
+            <p>人和人之间吵吵闹闹能滋生感情，那轿子之间的吵闹呢？ </p>
+            <img src="/pages/found/qp_holiday/images/noisy_img1.jpg"/>
+            <h3>【轿子之间的吵闹】</h3>
+            <p>10月14日的滩之吵闹节是日本姫路市白滨町松原八幡神社举办的节庆活动，节日最大的看点就是肩抬神轿行进时神轿之间激烈碰撞，就像轿子在“吵架”一样，因此这个节日被人们称为“滩之吵闹节”。神轿对抗之外，花车游行也是非常受欢迎的节目。来自邻近各村的花车聚集在神社前广场上，夜幕降临的时候每座花车都点亮灯笼或电饰，装点一新的花车更加绚丽夺目，为节日增添了色彩。</p>
+            <h3>【神轿对抗大战】</h3>
+            <p>神轿之间虽然进行激烈争夺，但并没有具体的规则和对抗方面的规定，只需姿势动作整齐划一，不分对手只管去撞就可以，最终只要一座神轿驾在另一座上面就算胜利。最大的看点是由40〜50岁白头巾队、30〜40岁黄头巾队、20〜30岁红头巾队组成的3座神轿之间的较量，各方阵的男子们手持竹竿参与助威。争夺进行得异常激烈，但绝不是在打架。据说，该节在全国诸多“吵闹节”中规模最大，其美名不仅早已传遍日本国内而且远播海外。</p>
+            <img src="/pages/found/qp_holiday/images/noisy_img2.jpg"/>
+            <h3>【中国的轿子文化】</h3>
+            <p>轿子在中国自成一派文化，在轮子刚刚产生的夏代轿子就产生了。唐代著名的《步辇图》中，唐太宗端坐在一乘“步辇”上，由两个宫女扛抬，四角还有宫女扶持。宋代皇帝的专用轿叫銮舆，官宦贵族用轿为檐子，还有女人专业的女轿。明清两代，轿子几乎成为中国交通的代名词，“行到前门门未启，轿中安坐吃槟榔”，关于轿子的等级制度和权力文化也在这一时期达到登峰造极的程度。</p>
+
+            <p class="mt15">轿子是中国文化最传神的物化，中国人被分为人上人和人下人，即坐轿的人和抬轿的人，或者说奴役者和被奴役者。坐轿是一件作威作福的乐事，抬轿却是体力加技巧的苦活。32人抬的大轿里放一碗水，走出数里水不撒一滴，那是怎样的劲头和技巧，这或许也只有久经权力“考验”的中国人才能做到。</p>
+  
+
+            <div class="tips">
+                <p>1、滩之吵闹节是日本的一个节庆活动，节日最大的看点就是肩抬神轿行进时神轿之间激烈碰撞，就像轿子在“吵架”一样，这也是节日得名的原因；</p>
+                <p>2、在全国诸多“吵闹节”中，姫路市白滨町松原八幡神社举办滩之吵闹节规模最大，其美名不仅早已传遍日本国内而且远播海外，到日本旅行不容错过！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

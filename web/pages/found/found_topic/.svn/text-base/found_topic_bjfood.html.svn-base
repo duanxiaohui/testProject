@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>纤体轻食，吃出健康</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<link href="http://www.365rili.com/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/found_topic/style/found_topic.css" rel="stylesheet">
+<body>
+	<div class="found_topic">
+		<div class="found_topic_top">
+			<img src="http://www.365rili.com/pages/found/found_topic/images/bjfood/found_topic_top.jpg" width="100%" alt="">
+		</div>
+		<div class="found_topic_txt">
+			<h2>纤体轻食，吃出健康<br/>帝都春季低脂轻食餐厅甄选</h2>
+			<p>现在越来越多的人开始甩脱开油腻，渐渐走入轻食时代。所谓轻食，是强调的是简单、适量、健康和均衡的饮食。一年之计在于春，改变传统饮食结构，一起加入轻食主义的健康行列吧！</p>
+		</div>
+		<div class="found_topic_list">
+			<ul>
+				
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=7679">
+					<div class="topic_list_img">
+						<img src="http://www.365rili.com/pages/found/found_topic/images/bjfood/found_topic_list1.jpg" width="100%" alt="">
+					</div>
+					<h3>满足现代人健康轻食的法式慢悠闲晚餐</h3>
+					<p>微粒子--自然健康的食物和清新田园式的设计打造健康轻法餐的快休闲餐饮模式。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=3483">
+					<div class="topic_list_img">
+						<img src="http://www.365rili.com/pages/found/found_topic/images/bjfood/found_topic_list2.jpg" width="100%" alt="">
+					</div>
+					<h3>甩开油腻进入轻食时代</h3>
+					<p>Pasta Coffee Fresh--意式经典新鲜味道与健康融合的轻食料理。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=7643">
+					<div class="topic_list_img">
+						<img src="http://www.365rili.com/pages/found/found_topic/images/bjfood/found_topic_list3.jpg" width="100%" alt="">
+					</div>
+					<h3>选自大自然的健康时蔬素食</h3>
+					<p>天厨妙香--严选食材精心烹制，为你献上大自然的馈赠。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=7147">
+					<div class="topic_list_img">
+						<img src="http://www.365rili.com/pages/found/found_topic/images/bjfood/found_topic_list4.jpg" width="100%" alt="">
+					</div>
+					<h3>严选食材追崇“极鲜”理念</h3>
+					<p>索兰至--从农场直接到餐桌的无公害有机食材自助餐。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=9521">
+					<div class="topic_list_img">
+						<img src="http://www.365rili.com/pages/found/found_topic/images/bjfood/found_topic_list5.jpg" width="100%" alt="">
+					</div>
+					<h3>咖啡厅与酒吧的完美融合</h3>
+					<p>新鲜食材悉心烹饪，适合小聚的完美咖啡馆</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+				<li class="e_clear" data-cid="" data-uuid="" data-url="http://www.365rili.com/activity/detail.do?id=4029">
+					<div class="topic_list_img">
+						<img src="http://www.365rili.com/pages/found/found_topic/images/bjfood/found_topic_list6.jpg" width="100%" alt="">
+					</div>
+					<h3>应季食材健康单人晚餐</h3>
+					<p>美妙扒房--以四季为菜单，精选当季食材，看得到的季节之美。</p>
+					<a href="javascript:;" class="more">查看详情&gt;&gt;</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+    <div id="VER" style="display: none;"></div>
+    <div id="UID" style="display: none;"></div>
+    <div id="MAC" style="display: none;"></div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js?20151016"></script>
+    <script src="http://www.365rili.com/js/lib/app.js?20151119"></script>
+    <script src="http://www.365rili.com/pages/found/js/function.js?20151119"></script>
+    <script src="http://www.365rili.com/pages/found/found_topic/js/found_topic.js?20151119"></script>
+</body>
+</html>

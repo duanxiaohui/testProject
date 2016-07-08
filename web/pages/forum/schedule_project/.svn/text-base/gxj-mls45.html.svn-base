@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>山东滕州第二届微山湖湿地马拉松赛</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">山东滕州第二届微山湖湿地马拉松赛</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/221cfc9f-dc6e-4515-be17-fd90cd3b5c06.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+			  <a class="btn js-subscribe" data-uuid="f199df06-7384-4ae4-ad2a-39892a2940d4" data-cid="147514789">添加提醒</a>
+	    	
+	    	<p class="time">
+
+
+<b>比赛时间：2015年9月5日8:00
+</b></br>
+
+	    	<b>比赛地点：山东省枣庄市</b></br>
+
+
+
+			</p>
+			<h3>活动介绍：</h3>
+			<p>微山湖湿地位于有着7300年历史的东方礼仪之邦山东省滕州市。滕州古为三国五邑之地，历史悠久，人文鼎蔚，墨子、鲁班、滕文公、毛遂、孟尝君等众多贤志士皆出于此。微山湖是南四湖的别称，是中国第五大淡水湖，也是中国北方最大的淡水湖，这里是中国荷都、北方水乡、铁道游击队的故乡。马拉松这项有着悠久历史的体育运动，在今天与有着悠久历史的“东方礼仪之邦”滕州结缘。在这里。一场“劲跑”即将拉开序幕，相得益彰的是马拉松运动的精神同“铁道游击队”的顽强坚持精神在这片土地实现了完美结合。
+
+</p> 
+			<!--h3是小标题-->
+			<h3>
+</h3>
+			<!--p是段落文字描述-->
+			<p>
+具体详情以官方信息为准
+</p>
+
+<img src="http://cocoimg.365rili.com/schedule_pics/default/ef4af2e9-b3bb-4c41-a8d5-141e417556b0.jpg"/>
+<a href="http://www.tengzhou-marathon.com/index.html" class="btn js-other">详见官网</a>
+		
+			 <div class="remind_div" data-uuid="f199df06-7384-4ae4-ad2a-39892a2940d4" data-cid="147514789"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/221cfc9f-dc6e-4515-be17-fd90cd3b5c06.jpg',
+                title: '山东滕州第二届微山湖湿地马拉松赛',
+                desc: '微山湖湿地位于有着7300年历史的东方礼仪之邦山东省滕州市。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'shareTo',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '山东滕州第二届微山湖湿地马拉松赛',
+		        				content: '微山湖湿地位于有着7300年历史的东方礼仪之邦山东省滕州市。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/221cfc9f-dc6e-4515-be17-fd90cd3b5c06.jpg',
+		        				isEvent: false
+		        			})
+		        		},
+		        		{
+		        			name: 'channel',
+		        			value: 'wx'
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

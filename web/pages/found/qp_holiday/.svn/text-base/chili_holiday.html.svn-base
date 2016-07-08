@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>无辣不欢——辣椒节</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/chili_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>无辣不欢——辣椒节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>每年9月5—6日，美国西部新墨西哥州哈奇城都要举行一次盛大的辣椒节。节日期间，全美辣椒研究专家都要聚集在这里，对参展的辣椒进行鉴定从而评出最佳品种。</p>
+            <h3>【节日活动】</h3>
+            <p>辣椒节各项活动中最受吃货欢迎的就是辣椒烹调比赛——通过比赛会选出最佳辣椒菜肴和辣椒油、辣椒酒，获奖的菜、油、酒当天就会在各餐馆供应，并汇入《哈奇城辣椒节食谱》向全国推广。如果你是参加辣椒节的国内外记着、食客或者游人，那你就摩拳擦掌准备接福利吧！因为这些人都有机会参加午餐招待会，同6000多人一起享用节日的辣椒佳肴，这简直是——完美（请自觉金星老师附体一下）！</p>
+            <img src="/pages/found/qp_holiday/images/chili_img1.jpg"/>
+            <p>除了吃，这还是一个花样秀才艺的节日，如旧式小提琴比赛及吃辣椒好处的画展和演讲比赛。活动的最高潮当属 “辣椒女王”的选举，除颜值外，还设定了善于演讲、处事沉着、富有辣味等条件。小编觉得“富有辣味”这个要求真是苛刻至极！是吃起来的口感很辣，还是看起来身材火辣辣呢？</p>
+            <img src="/pages/found/qp_holiday/images/chili_img2.jpg"/>
+            <p>除了吃辣椒宴和欣赏辣椒小姐商人们还有一项更重要的任务——趁机签订期货合同，塞满腰包，赢娶白富美，搞定高富帅，踏上人生巅峰！农民则会蜂拥入城大卖辣椒、西瓜、南瓜、番茄、甘蔗等商品，辣椒节就这样活生生的变成了农副产品交易盛会！</p>
+            <h3>【获得吉尼斯认证的辣椒】</h3>
+            <p>据报道，吉尼斯世界纪录花了4年多的时间，认定了来自美国南卡罗莱纳州米尔堡的男子柯里种出的辣椒是地球上最辣的辣椒，这一辣椒也荣获了“卡罗莱纳死神”的光荣称号，它几乎和警用辣椒喷雾一样辣。</p>
+            <img src="/pages/found/qp_holiday/images/chili_img3.jpg"/>
+            <p>辣到灵魂出窍了有木有</p>
+            <h3>【中国的“辣妹子”】</h3>
+            <p>吃辣椒的时候不提起中国人，那“臣妾真的做不到啊！”</p>
+            <p>最纯粹的辣——贵州之辣</p>
+            <p>贵州的辣，辣的纯粹，辣的惊心动魄</p>
+            <p>最放肆的辣——四川之辣</p>
+            <p>花椒“相伴”，川辣独步天下，味道鲜明又张扬，刺激又放肆</p>
+            <p>最平民的辣——湖南之辣</p>
+            <p>湘菜充分尊重着食材本身的味道，辣中透着那么一股子令人赞叹的平民智慧</p>
+            <div class="tips">
+                <p>1、每年9月5—6日，辣椒节都会在美国西部新墨西哥州哈奇城举行，节日期间会选出最优辣椒拼种、吃各种辣椒美食、举办各类比赛，还会选出美貌与智慧并存的“辣椒女神”；</p>
+                <p>2、吃辣容易上火，吃辣菜时选择粗粮或饭后吃酸味水果，能缓解上火或由上火引起的便秘等状况。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+    
+ </body>
+</html>
+

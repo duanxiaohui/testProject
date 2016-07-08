@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 张明臣 (vest0804@gamil.com)
+ * @date    2015-03-26 11:00:42
+ * @version 1.0
+ */
+body { background: url(../images/index/index_bg.jpg) no-repeat; color: #444; font: 12px / 1.5em arial,"Microsoft YaHei", 微软雅黑; margin: 0; padding: 0;}
+html, body {
+-webkit-user-select: none; /* 禁止选中文本（如无文本选中需求，此为必选项） */
+user-select: none;
+}
+*{-webkit-tap-highlight-color: rgba(0,0,0,0); tap-highlight-color: rgba(0,0,0,0);}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+body{ background-size: 100% 100%; height:100%;}
+
+.bar {
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    color: #000;
+    background: #fff;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    top: 0;
+    z-index: 99;
+    display: none;
+    position: fixed;
+}
+
+.weixin .bar {
+    display: block;
+}
+.weixin .main{
+    margin-top: 48px;
+}
+
+.return_btn {
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    border-right: 0;
+    border-bottom: 0;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    left: 15px;
+    top: 14px;
+}
+
+.share_btn{width:20px; height:20px; position: absolute; top:14px; right:15px; background:url(../images/share_btn.png) no-repeat; background-size:100% 100%;} 
+
+.bar_txt{margin:0 40px; height:48px; line-height:48px; text-align:center; overflow:hidden;text-overflow:ellipsis; white-space: nowrap;}
+
+.main{padding:25px 20px; position:relative;}
+.logo{width:75px; height:19px; background:url(../images/index/logo.png) no-repeat; background-size:100% 100%;}
+.title{width:139px; height:87px; margin-top:8px; background:url(../images/index/rex_title.png) no-repeat; background-size:100% 100%;}
+.res_icon{width:122px; height:120px; background:url(../images/index/resList_img.png) no-repeat; background-size:100% 100%; float:right;}
+.text{margin-top:24px; width:222px; height:72px; background:url(../images/index/res_txt.png) no-repeat; background-size:100% 100%;}
+
+.pic_list {margin:0 15px;}
+.pic_list h3{font-size:14px; color:#000c1d; text-align:center; padding:8px 0;}
+.pic_list_div{position:relative;}
+.pic_list_div div{position:absolute;}
+.pic_list_div div img{width:100%; height:100%;}
+.footer{height:20px; margin:0 0 10px 0; background:url(../images/index/footer.png) no-repeat center center; background-size: auto 18px;}
+
+.share_btn1{width:35px; height:35px; position:absolute; right:0px; top:0px; background:url(../images/index/share.png) no-repeat center; background-size:22px 22px;display: none;}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+@-webkit-keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%,0,0);
+        transform: translate3d(-100%,0,0)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}@keyframes fadeInLeft {
+     0% {
+         opacity: 0;
+         -webkit-transform: translate3d(-100%,0,0);
+         -ms-transform: translate3d(-100%,0,0);
+         transform: translate3d(-100%,0,0)
+     }
+     100% {
+         opacity: 1;
+         -webkit-transform: none;
+         -ms-transform: none;
+         transform: none
+     }
+ }.fadeInLeft {
+    opacity: 0;
+      -webkit-animation-name: fadeInLeft;
+      animation-name: fadeInLeft
+  }
+
+@-webkit-keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(100%,0,0);
+        transform: translate3d(100%,0,0)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}@keyframes fadeInRight {
+     0% {
+         opacity: 0;
+         -webkit-transform: translate3d(100%,0,0);
+         -ms-transform: translate3d(100%,0,0);
+         transform: translate3d(100%,0,0)
+     }
+     100% {
+         opacity: 1;
+         -webkit-transform: none;
+         -ms-transform: none;
+         transform: none
+     }
+ }.fadeInRight {
+        opacity: 0;
+      -webkit-animation-name: fadeInRight;
+      animation-name: fadeInRight
+ }
+.delay200{-webkit-animation-delay:200ms;}
+.delay300{-webkit-animation-delay:300ms;}
+.delay400{-webkit-animation-delay:400ms;}
+.delay500{-webkit-animation-delay:500ms;}
+.delay600{-webkit-animation-delay:600ms;}
+.delay700{-webkit-animation-delay:700ms;}
+.delay800{-webkit-animation-delay:800ms;}
+.delay900{-webkit-animation-delay:900ms;}

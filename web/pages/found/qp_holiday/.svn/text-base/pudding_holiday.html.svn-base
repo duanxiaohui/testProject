@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>别光想着吃——布丁节</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/pudding_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>别光想着吃——布丁节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>听到布丁节这个香甜的名字的时候，小编以为是某个热爱布丁的国家设立的当天举国同吃布丁的节日，然后口水就下来了……然而并不是这样，让我们从头开始慢慢了解这个节日的由来。</p>
+            <img src="/pages/found/qp_holiday/images/pudding_img1.jpg"/>
+            <h3>【初出茅庐】</h3>
+            <p>2005年12月28日，台湾的天空飞来一朵五彩祥云，飞轮海正式出道了。这个由吴尊、辰亦儒、汪东城、炎亚纶组成的偶像团体由于高颜值一出道就备受瞩目，之后就一路凭借影视和歌曲收获到越来越高的关注和越来越多的粉丝。虽然后来因为种种原因解散了，还是让很多人认识了这个温柔可爱的忙内——炎亚纶。</p>
+            <img src="/pages/found/qp_holiday/images/pudding_img2.jpg"/>
+            <h3>【可爱教主】</h3>
+            <p>虽然出道的定位是冬天一样冷静的男子，可炎亚纶娃娃脸的精致长相被网民票选为“台湾男版可爱教主”、网络美少男票选第一名。这个出生于1986年的天蝎座男孩，是飞轮海最年轻的成员。炎亚纶小学时旅居美国康涅狄格州5年多，曾于文化大学新闻系就读，后转读于景文科技大学应用英文系，擅长演奏多种乐器，可以说是漂亮得不像实力派呢~</p>
+            <img src="/pages/found/qp_holiday/images/pudding_img3.jpg"/>
+            <h3>【终于要点题了】</h3>
+            <p>炎亚纶的粉丝叫做布丁，为什么叫布丁，因为炎亚纶叫做阿布，为什么叫阿布，来看看他本人的回答：</p>
+            <p>“我为什么叫阿布...因为我喜欢KOBE BRYANT，他是NBA洛杉矶湖人队的球员，背号8号，喜欢他华丽的球技。还有啊^^ 钢琴我真的会弹，弹的怎样，就希望能有机会现场弹奏给大家听罗~~另外我也重拾长笛，也会苦练的！ ”</p>
+            <p>感觉是一个热爱篮球，热爱音乐，走在校园里会让女孩子想扑上去的那种很暖的男生对不对~</p>
+            <img src="/pages/found/qp_holiday/images/pudding_img4.jpg"/>
+            <h3>【布丁节的正确打开方式】</h3>
+            <p>10月19日，是布丁自己发起的节日，用炎亚纶的生日——11月20日，月份和生日都减去1，得到10月19日，含义为布丁们一生一世爱亚纶。布丁节的那一天，布丁要在左手上系淡蓝色丝带，一直到亚纶生日那一天。淡蓝色，干净透明，更衬托亚纶生活中的直白，不加掩饰，真实的吴庚霖（炎亚纶的原名）。布丁节那天，所有的粉丝要把网名全部改成【挚爱、炎天王】。</p>
+
+            <p class="mt15">想当年，小编也是做过追星狗的，官方粉丝会给粉丝们起名字是很普遍的，选择应援色是很普遍的，给偶像过生日是很普遍的，给偶像树立一个生日以外的节日也是很普遍的（参考郭德纲大大的钢丝节），然而，把这个节日过得像玛丽苏小说一样确实不常见……不过这也许正说明了阿布的粉丝都是年轻可爱又梦幻的女孩纸吧~不管是班里同桌的男孩，还是电视里舞台上闪闪发光的偶像，青春的时候就是要肆无忌惮的去爱啊！</p>
+
+            <div class="tips">
+                <p>1、10月19日是炎亚纶粉丝为他设立的布丁节，并不是用来吃的节日；</p>
+                <p>2、追星是一件很正常的事，请理智追星，并且理智的看待追星族。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/欢欢</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+ </body>
+</html>
+

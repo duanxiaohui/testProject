@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>精灵旅社2</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">精灵旅社2</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/73e51625-0dde-4b6e-ae04-546b4e1bc26b.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	<a href="http://vod.kankan.com/v/86/86837/438883.shtml?id=731032" data-title="查看预告片" class="btn js-other">查看预告片</a>
+	    	<h3 class="time">上映时间：2015年9月25日（美国）</h3>
+			<p> </p>
+	    	<h3>导演：格恩迪·塔塔科夫斯基</h3>
+			<p class="fc_000">主演：亚当·桑德勒 / 赛琳娜·戈麦斯</p>
+			<h3>剧情：</h3>
+			<p>《精灵旅社》拍摄于2012年，讲述了一个人类青年误闯入怪兽嘉年华的故事。人类和德古拉的女儿之间产生了爱情，算是无所不能的德古拉对此也手足无措。而《精灵旅社2》的故事将延续第一集的线索，故事还将发生在精灵旅社内，依旧搞笑。据悉，《精灵旅社2》将继续由格恩迪·塔塔科夫斯基执导，亚当·桑德勒与赛琳娜·戈麦斯已确认回归续集，继续为吸血鬼父女“德古拉”和“梅菲斯”配音。而大卫·斯佩德也被证实将继续为“隐形人”配音。目前，其余主创是否回归及详细剧情还尚未可知。</p>
+			<!--h3是小标题-->
+			<h3>看点：</h3>
+			<!--p是段落文字描述-->
+			<p>索尼公司出品的怪口味动画片《精灵旅社》第一部上映后口碑很不错，不但制作精良，笑点也找得很好，这些无节操的怪物们在伯爵的领衔下狂吐槽的同时把Twilight黑得七荤八素，同时还不忘卖萌，话说本来没想到怪物卖萌也能这么可爱。《精灵旅社2》日前公布了第一张剧照。在这张剧照上，有一个看上去年龄很大、表情怪异的吸血鬼老头。在影片的设定中，这个老头就是德古拉的爸爸。这个德古拉爸爸的脾气极为糟糕，性情乖戾，说不定会惹出不少的笑话。而为这个角色配音的，是美国大名鼎鼎的喜剧界泰斗级人物梅尔·布鲁克斯，想必这部片子的笑点一定不少啊~</p>
+    	<img src="http://cocoimg.365rili.com/schedule_pics/default/71855672-e24d-4fe0-b45d-039e8b88f837.jpg"/>
+		<img src="http://cocoimg.365rili.com/schedule_pics/default/653ae901-132a-4805-a167-a12b3dbece5e.jpg"/>
+		 <div class="remind_div none" data-uuid="4e0b87d7-73ef-47ed-9069-5060d1f79f57" data-cid="125821987"><div class="remind_icon"></div><span>添加提醒</span></div>
+		</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/9c38407b-d056-4819-8b13-9225fe518af6.jpg',
+                title: '电影：精灵旅社2',
+                desc: '《精灵旅社2》（ Hotel Transylvania 2）是电影《精灵旅社》的续集，由亚当·桑德勒赛琳娜·戈麦斯主演，剧中生动有趣。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '电影：精灵旅社2',
+		        				content: '《精灵旅社2》（ Hotel Transylvania 2）是电影《精灵旅社》的续集，由亚当·桑德勒赛琳娜·戈麦斯主演，剧中生动有趣。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/9c38407b-d056-4819-8b13-9225fe518af6.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!--
+<html lang="zh-cn">
+
+<head>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no"/>
+    <title>商品详情</title>
+</head>
+
+<body>
+</body>
+
+</html>
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>你就那么想当网红吗</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/blog_day/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>世界博客日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>以前对“红人”的定义是这样的：像章子怡这样，有着《我的父亲母亲》中“谋女郎”的良好出身，再有《卧虎藏龙》、《一代宗师》这样的大片加持，又与斯皮尔伯格这种大咖合作，奥斯卡、金马、金像、百花等大奖绕身。后来，一首《滑板鞋》就能红，多读几本《故事会》、《读者》也能红，甚至在网上发几个视频不知道怎么也就红了……</p>
+            <h3>【互联网的变迁】</h3>
+            <p>互联网诞生至今还不到30年，还是个胡茬深青的小伙子，朝气蓬勃、干劲十足。但这个小伙子身体里确实有“洪荒之力”的，短短30年，从网站、论坛、博客、到微博、微信再到现在火的一塌糊涂的各类直播软件，风云变幻的网络世界啊！所以（这个转折很生硬的，我知道），我们谈谈博客吧，不为什么，就为了今天是国际博客日。</p>
+            <img src="images/blog_day/holiday_1.jpg"/>
+            <p>博客，又译为网络日志、部落格或部落阁等，是一种通常由个人管理、不定期张贴新的文章的网站。博客上的文章通常根据张贴时间，以倒序方式由新到旧排列。许多博客专注在特定的课题上提供评论或新闻，其他则被作为比较个人的日记。一个典型的博客结合了文字、图像、其他博客或网站的链接、及其它与主题相关的媒体。能够让读者以互动的方式留下意见，是许多博客的重要要素。</p>
+            <h3>【国际博客日】</h3>
+            <p>对现在而言，博客时代其实已经过去了。社交变得更加即时、快速、轻便，写博客的人变的越来越少，大家更多的转战到其他社交平台，于是一个博客时代渐渐远去。</p>
+            <img src="images/blog_day/holiday_2.jpg"/>
+            <p>Blog是继Email、BBS、ICQ之后出现的第四种网络交流方式，是网络时代的个人“读者文摘”，是以超级链接为武器的网络日记，是代表着新的生活方式和新的工作方式，更代表着新的学习方式。具体说来，博客这个概念解释为使用特定的软件，在网络上出版、发表和张贴个人文章的人。</p>
+            <p class="mt15">后来博客渐渐没落，为了纪念曾经的博客时代6月14日被定为国际博客日。2005年6月14是第一个国际博客日，以后的每年这一天，世界各国的博客们都热烈庆祝这个自己的节日。</p>			
+
+            <div class="tips">
+                <p>1、每年的6月14日是国际博客日，这天世界各国博客爱好者都会庆祝这个节日；</p>
+                <p>2、博客是一种写作方式，任何一种方式都是沉淀、反思和积累，每天记录有利于提升自己。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

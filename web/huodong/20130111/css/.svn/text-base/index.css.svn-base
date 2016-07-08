@@ -1,0 +1,23 @@
+body{background:#e0e1e1; font-family: "Microsoft YaHei", 微软雅黑;}
+*{margin:0; padding:0;}
+ul{list-style: none;}
+li{list-style-type: none;}
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+.box{background:#44a848;}
+.main{border:1px solid #b0b0b0; margin:5px;}
+.top{width:303px;padding:2px; height:166px; margin:0 auto; background:url(../images/top.jpg) no-repeat center center; -webkit-background-size:303px 166px;}
+.main dl{padding:5px; border-top:1px solid #b0b0b0;}
+.main dl dt{float:left; width:55px; height:55px;}
+.main dl dd{margin:0 0 0 70px; padding-top:5px;}
+.weishi{background:url(../images/weishi.jpg) no-repeat; -webkit-background-size:55px 55px;}
+.zhushou{background:url(../images/zhushou.jpg) no-repeat; -webkit-background-size:55px 55px;}
+.dierhao{background:url(../images/dierhaoma.png) no-repeat; -webkit-background-size:55px 55px;}
+.zhuomian{background:url(../images/zhuomian.png) no-repeat; -webkit-background-size:55px 55px;}
+.miliao{background:url(../images/miliao.png) no-repeat; -webkit-background-size:55px 55px;}
+.youhuadashi{background:url(../images/youhuadashi.png) no-repeat; -webkit-background-size:55px 55px;}
+
+h3{font-size:14px; color:#2d414a;}
+.main dl dd p{color:#2d414a; font-size:12px;}
+.btn{float:right; width:59px; height:27px; margin:10px auto; background:url(../images/btn.jpg) no-repeat; -webkit-background-size:59px 27px;}

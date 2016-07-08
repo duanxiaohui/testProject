@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>传统迎春花市</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">传统迎春花市</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	
+	    	<img src='http://cocoimg.365rili.com/schedule_pics/default/d739d73c-55b5-45c3-8c5b-e3be8986c42d.jpg'>
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+			 <a class="btn js-subscribe" data-uuid="5636e5f0-4273-44af-8812-50865f6a87c0" data-cid="148162557">添加到我的日历</a>
+	    
+	    	<p class="time"><b>时间：2015.02.16 8:30 - 2015.02.18 2:00</b><br/>
+	    	<b>场地：12区(县级市)传统花市现场</b><br/>
+			<h3>活动内容：</h3>
+			<p>全市12个区、县级市在主要路段组织传统迎春花市，设花卉、盆桔、公益志愿等档位。花市现场还将组织“全城联动送吉祥送挥春”活动，邀请书法家为广大市民书写春联、送福字。</p>
+			<!--h3是小标题-->
+			<h3></h3>
+			<!--p是段落文字描述-->
+			<p></p>
+
+<img src='http://cocoimg.365rili.com/schedule_pics/default/42d8ea8a-5def-4dd5-ab33-8c619ae1bd1b.jpg'>
+<img src='http://cocoimg.365rili.com/schedule_pics/default/b3b6c613-7ff2-4b44-bf78-0fb1cfb3fb3b.jpg'>
+ <div class="remind_div" data-uuid="5636e5f0-4273-44af-8812-50865f6a87c0" data-cid="148162557"><div class="remind_icon"></div><span>添加到我的日历</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/3de71890-6e8a-432b-b35f-ff31fdcdf315.jpg',
+                title: '活动：传统迎春花市',
+                desc: '全市12个区、县级市在主要路段组织传统迎春花市，设花卉、盆桔、公益志愿等档位。花市现场还将组织“全城联动送吉祥送挥春”活动，邀请书法家为广大市民书写春联、送福字。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '活动：传统迎春花市',
+		        				content: '全市12个区、县级市在主要路段组织传统迎春花市，设花卉、盆桔、公益志愿等档位。花市现场还将组织“全城联动送吉祥送挥春”活动，邀请书法家为广大市民书写春联、送福字。'
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/3de71890-6e8a-432b-b35f-ff31fdcdf315.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

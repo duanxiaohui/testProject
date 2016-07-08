@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>今天天气不错啊！</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/atmosphere/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>世界气象日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>气象是什么呢？用通俗的话来说，它是指发生在天空中的风、云、雨、雪、霜、露、虹、晕、闪电、打雷等一切大气的物理现象。小编对这个定义再进行一下更通俗的解说，就是指天气状况。我们需要这些信息来制定接下来的计划，比如灾难救援的空投时机，运动会室外项目的日期安排，爱美的小姑娘明天能不能穿裙子……再或者，难以避免的很多找不到话题的尴尬场合，我们还可以说上那么一句“今天天气不错，对吧？”</p>
+            <h3>【世界气象日】</h3>
+            <p>气象预报有非常重要的作用。对于个体来说，能提醒人们天冷加衣、雨天带伞、预防感冒；对于农民群体来说，他们需要通过关注天气状况帮助植物定期调整种植方式；上升到国家层面，气象预报能提醒一些地区预防恶劣天气状况导致的洪涝灾害、滑坡泥石流灾害等。</p>
+            <img src="images/atmosphere/holiday_1.jpg"/>
+            <p>为了加强国际间的气象研究与合作、更好地把气象观测结果应用于人类的各项实践活动，1878年国际气象组织在维也纳成立。该组织1947年9月召开气象局长会议，审议并通过了《世界气象组织公约》，国际气象组织由此改名为世界气象组织，并成为联合国的一个专门机构。世界气象组织于1960年6月将3月23日定为世界气象日。</p>
+            <h3>【不要随便评价天气好坏】</h3>
+            <p>在很多人的评价标准中，风和日丽、晴空万里就是好天气，雷雨交加就是坏天气，但事实并不一定是这样。</p>
+            <img src="images/atmosphere/holiday_2.jpg"/>
+            <p>有过那么一个故事：一位老太太有两个女儿，大女儿卖草帽，二女儿卖雨伞，老太太成天愁眉苦脸的。一位邻居问她：“老人家，你每天都在为什么而发愁呢？”老太太说：“唉，一到下雨天我就担心大女儿的遮阳草帽卖不出去，等天晴了我又担心二女儿的雨伞卖不出去，你说我能不发愁吗？”</p>
+            <p class="mt15">阴晴是天气自然的交替，顺境逆境也是人生的日常。无论天气如何、境遇怎样，都要乐观豁达的生活。</p>			
+
+            <div class="tips">
+                <p>1、每年3月23日是世界气象日，每年的这一天世界各国的气象工作者都要围绕选定的主题进行纪念和庆祝；</p>
+                <p>2、常看天气预报，刮风下雨预防感冒！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

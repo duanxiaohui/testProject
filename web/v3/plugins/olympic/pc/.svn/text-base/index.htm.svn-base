@@ -1,0 +1,107 @@
+<html>
+<head>
+<title>365日历 - 伦敦奥运会插件</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+body {
+	background-color: #e9f2f9;
+	background-image: url(images/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-family: "Microsoft YaHei",arial,simsun;
+	color: #333;
+}
+.redfont {
+	font-size: 20px;
+	font-weight: bold;
+	color: #F50;
+}
+.copyright {
+	font-family: "Microsoft YaHei",arial,simsun;
+	color: #444;
+	font-size: 10px;
+	vertical-align: text-top;
+	float: left;
+}
+img {margin:0px;border: 0px}
+a {text-decoration: none;border:0px;}
+table {
+border-collapse: collapse;
+border-spacing: 0px;
+}</style>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="1024" height="1596" border="0" align="center" cellpadding="0" cellspacing="0" id="Table_01">
+	<tr>
+		<td>
+			<img src="http://up2.365rili.com/v3/plugins/olympic/pc/images/ay_01.jpg" width="264" height="317" alt=""></td>
+		<td colspan="2">
+			<img src="http://up2.365rili.com/v3/plugins/olympic/pc/images/ay_02.jpg" width="530" height="317" alt=""></td>
+		<td>
+			<img src="http://up2.365rili.com/v3/plugins/olympic/pc/images/ay_03.jpg" width="230" height="317" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="http://up2.365rili.com/v3/plugins/olympic/pc/images/ay_04.jpg" width="264" height="259" alt=""></td>
+		<td height="259" colspan="2" align="left" valign="top"  style="background:url(images/ay_05.jpg); padding-top:20px;  font-size:15px;">奥运竞猜分享有奖活动细则：<br>
+		  亲爱的历友们，现在只要安装奥运插件、绑定新浪微博或腾讯微博，<br>
+		  并参与比赛竞猜分享活动，就有机会获赠<span class="redfont">Q币</span>。<br>
+		  1、我们将在8月13日从所有参与者中抽取5名用户，每人赠送<span class="redfont">1000Q</span>币币。<br>
+		  2、在奥运期间（7月26日至8月12日）有10天都分享内容到腾讯微博的用户，每人赠送<span class="redfont">10Q</span>币币。<br>
+		  <br>
+      PS. 一定要关注我们的官方账号<span class="redfont">&quot;@365日历&quot;</span>噢，因为我们将通过私信为大家发放<span class="redfont">Q币</span>。</td>
+		<td>
+			<img src="http://up2.365rili.com/v3/plugins/olympic/pc/images/ay_06.jpg" width="230" height="259" alt=""></td>
+	</tr>
+	<tr>
+		<td height="487" colspan="2" align="left" valign="top" style="background:url(images/ay_07.jpg); padding-top:150px; padding-left:40px; padding-right:20px; font-size:18px;">
+365日历是国内最专业的日历服务商，自2008年成立以来，一直专注日历产品。
+3000万用户的共同选择，各电子市场装机必备强力推荐日历产品。<br><br>
+●为用户保存超过2000万条日程；<br>
+●每日服务器同步1200万次，及时更新您的日程；<br>
+●每天超过300万用户使用，准时提醒200万人次；<br>
+●百度、腾讯、360战略合作伙伴，提供定制日历；<br>
+●由顶级设计公司eico design精心打造用户界面
+		</td>
+		<td colspan="2" align="center" valign="top" style="background:url(images/ay_08.jpg); padding-top:110px; padding-right:40px;"><span style="background:url(images/ay_13.jpg)"><a href="http://d2.365rili.com/dl/android/365rili.apk" target="_blank"><img src="http://up2.365rili.com/v3/plugins/olympic/pc/images/bt1.png" alt="" width="141" height="50"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://itunes.apple.com/cn/app/365ri-li+/id456880164?mt=8" target="_blank"><img src="http://up2.365rili.com/v3/plugins/olympic/pc/images/bt2.png" alt="" width="141" height="50"></a></span></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="http://up2.365rili.com/v3/plugins/olympic/pc/images/ay_09.jpg" width="264" height="342" alt=""></td>
+		<td colspan="2">
+			<img src="http://up2.365rili.com/v3/plugins/olympic/pc/images/ay_10.jpg" width="530" height="342" alt=""></td>
+		<td>
+			<img src="http://up2.365rili.com/v3/plugins/olympic/pc/images/ay_11.jpg" width="230" height="342" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="http://up2.365rili.com/v3/plugins/olympic/pc/images/ay_12.jpg" width="264" height="190" alt=""></td>
+		<td colspan="2" align="center" style="background:url(images/ay_13.jpg)"><a href="http://d2.365rili.com/dl/android/365rili.apk" target="_blank"><img src="http://up2.365rili.com/v3/plugins/olympic/pc/images/bt1.png" width="141" height="50"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://itunes.apple.com/cn/app/365ri-li+/id456880164?mt=8" target="_blank"><img src="http://up2.365rili.com/v3/plugins/olympic/pc/images/bt2.png" width="141" height="50"></a></td>
+		<td>
+			<img src="http://up2.365rili.com/v3/plugins/olympic/pc/images/ay_14.jpg" width="230" height="190" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="http://up2.365rili.com/v3/plugins/olympic/pc/images/spacer.gif" width="264" height="1" alt=""></td>
+		<td>
+			<img src="http://up2.365rili.com/v3/plugins/olympic/pc/images/spacer.gif" width="303" height="1" alt=""></td>
+		<td>
+			<img src="http://up2.365rili.com/v3/plugins/olympic/pc/images/spacer.gif" width="227" height="1" alt=""></td>
+		<td>
+			<img src="http://up2.365rili.com/v3/plugins/olympic/pc/images/spacer.gif" width="230" height="1" alt=""></td>
+	</tr>
+</table>
+<center>
+<table width="1024" border="0" cellpadding="0" cellspacing="0" class="font">
+		      <tr>
+		        <td colspan="3"><img src="http://up2.365rili.com/v3/plugins/olympic/pc/images/line.png" /></td>
+	          </tr>
+		      <tr>
+		        <td width="4%"><img src="http://up2.365rili.com/v3/plugins/olympic/pc/images/bottom_logo.png" /></td>
+		        <td width="89%"><span class="copyright"> &nbsp;&nbsp;&nbsp;Copyright @2007-2012 365rili.com &nbsp;&nbsp;&nbsp;京ICP备08005906号 &nbsp;&nbsp;&nbsp;内容合作：365rili<img src="http://up2.365rili.com/v3/plugins/olympic/pc/images/icon_@.png" />gmail.com </span></td>
+		        <td width="7%" align="right"><a href="http://weibo.com/365rili" target="_blank"><img src="http://up2.365rili.com/v3/plugins/olympic/pc/images/bottom_weibo.png" /></a>&nbsp; <a href="http://site.douban.com/133514/" target="_blank"><img src="http://up2.365rili.com/v3/plugins/olympic/pc/images/bottom_douban.png" /></a>&nbsp;&nbsp; </td>
+	          </tr>
+</table>
+</center>
+</body>
+</html>

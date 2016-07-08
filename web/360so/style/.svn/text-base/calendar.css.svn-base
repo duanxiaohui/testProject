@@ -1,0 +1,155 @@
+body { background: #fff; color: #444; font: 12px / 1.5em arial; height: 100%; margin: 0; padding: 0; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+textarea { background: #fff; border: 1px solid #d2d9dc; border-radius: 2px; box-shadow: 0 0 0 #d2d9dc; -moz-transition: .3s ease-in-out; transition-property: border box-shadow; -webkit-transition: .3s ease-in-out; }
+textarea:focus, input[type="text"]:focus { /*border: 1px solid #b7d4ea;*/ box-shadow: 0 0 5px #b7d4ea; }
+a { color: #208de9; cursor: pointer; text-decoration: none; }
+a:hover { color: #ff5b86;text-decoration: none; }
+
+.v_align { vertical-align: middle; }
+
+/*jq-ui*/
+.ui-corner-all-16, .ui-corner-top-16, .ui-corner-left-16, .ui-corner-tl-16 { -moz-border-radius-topleft: 16px; -webkit-border-top-left-radius: 16px; -khtml-border-top-left-radius: 16px; border-top-left-radius: 16px; }
+.ui-corner-all-16, .ui-corner-top-16, .ui-corner-right-16, .ui-corner-tr-16 { -moz-border-radius-topright: 16px; -webkit-border-top-right-radius: 16px; -khtml-border-top-right-radius: 16px; border-top-right-radius: 16px; }
+.ui-corner-all-16, .ui-corner-bottom-16, .ui-corner-left-16, .ui-corner-bl-16 { -moz-border-radius-bottomleft: 16px; -webkit-border-bottom-left-radius: 16px; -khtml-border-bottom-left-radius: 16px; border-bottom-left-radius: 16px; }
+.ui-corner-all-16, .ui-corner-bottom-16, .ui-corner-right-16, .ui-corner-br-16 { -moz-border-radius-bottomright: 16px; -webkit-border-bottom-right-radius: 16px; -khtml-border-bottom-right-radius: 16px; border-bottom-right-radius: 16px; }
+
+.none { display: none; }
+
+/*国际节假日*/
+.isolar .lunar_date{color:#fff;}
+/*节气日*/
+.solar .lunar_date{color:#fff;}
+/*法定节假日*/
+.vacation .solar_date,.vacation .lunar_date{color:#fff;}
+.work .solar_date,.workon .solar_date{color:#fff;}
+.work .lunar_date,.workon .lunar_date{color:#fff;}
+
+
+
+.calendar{width:750px; height:400px; overflow:hidden;}
+.calendar_operating{height:32px; padding:25px 0 15px 0; border-bottom:1px solid #f0884d;}
+.calendar_ym_select{margin:0 15px; width:248px; display:inline;}
+.calendar_ym_select,.vacation_btn,.today_btn,a.prve,a.next,.y_select,.m_select{float:left; }
+.prve,.next{width:15px; height:32px; background-image:url(../images/calendar_btn.png); background-repeat:none; }
+.prve{background-position:-236px 0;}
+.prve:hover{background-position:-236px -34px;}
+.prve:active{background-position:-236px -64px;}
+.next{background-position:-278px 0;}
+.next:hover{background-position:-278px -34px;}
+.next:active{background-position:-278px -64px;}
+.y_select{margin-left:20px; display:inline; width:100px; height:40px;}
+.dropselectbox{position:relative; z-index:10;} 
+.dropselectbox h4{font-size:14px; color:#fff; font-weight:500; height:32px; line-height:30px; text-align:center; cursor:pointer;}
+.y_select .dropselectbox h4{width:90px;  padding:0px 10px 0px 0px; background:url(../images/calendar_btn.png) no-repeat 0 0; font-size:18px;}
+.y_select .dropselectbox h4:hover{background:url(../images/calendar_btn.png) no-repeat 0 -33px;}
+.y_select .dropselectbox h4.active{background:url(../images/calendar_btn.png) no-repeat 0 -66px;}
+.m_select{margin-right:20px; width:78px; display:inline; height:40px;}
+.m_select .dropselectbox h4{width:49px; padding:0px 25px 0px 0px; background:url(../images/calendar_btn.png) no-repeat -97px 0; font-size:18px;}
+.m_select .dropselectbox h4:hover{background:url(../images/calendar_btn.png) no-repeat -97px -33px;}
+.m_select .dropselectbox h4.active{background:url(../images/calendar_btn.png) no-repeat -97px -66px;}
+
+.dropselectbox ul{max-height:215px; _height:215px; overflow-y:scroll; background:#fff; margin:-8px 0 0 0;}
+.y_select .dropselectbox ul{margin:-2px 0 0 10px;}
+.m_select .dropselectbox ul{margin:-2px 0 0 0px; max-height:312px; overflow-y:hidden; width:60px;}
+.dropselectbox ul li{width:100%; height:22px; line-height:22px; padding:2px 0; text-align:center; color:#f18c3e; font-size:18px; font-family: "Microsoft YaHei"; cursor:pointer;}
+.dropselectbox ul li.on,.dropselectbox ul li:hover{background:#fdede4;}
+
+.vacation_btn{width:47px; height:32px;}
+.vacation_btn .dropselectbox h4{width:47px; font-size:12px; background:url(../images/calendar_btn.png) no-repeat -178px 0;}
+.vacation_btn .dropselectbox h4:hover{background:url(../images/calendar_btn.png) no-repeat -178px -33px;}
+.vacation_btn .dropselectbox h4:active{background:url(../images/calendar_btn.png) no-repeat -178px -66px;}
+.vacation_btn .dropselectbox ul{width:80px; height:240px; max-height:240px; padding:5px 5px 10px 18px; background:url(../images/vacation_bg.png) no-repeat; position:absolute; top:-15px; left:52px; overflow:auto;}
+.vacation_btn .dropselectbox ul li{font-size:14px; height:26px; line-height:26px;}
+.vacation_btn .dropselectbox ul li.on,.vacation_btn .dropselectbox ul li:hover{background:#f68d52; color:#fff;}
+.today_btn{width:47px; height:32px; line-height:30px; margin-left:15px; display:inline; background:url(../images/calendar_btn.png) no-repeat -178px 0; text-align:center; font-size:14px; color:#fff;}
+.today_btn:hover{background:url(../images/calendar_btn.png) no-repeat -178px -33px; color:#fae0d1;}
+.today_btn:active{background:url(../images/calendar_btn.png) no-repeat -178px -66px;}
+.calendar_content{height:400px;}
+
+.calendar_grid{width:405px; height:400px; position:relative; float:left; background:#f68d52;}
+
+.calendar_grid ul.calendar_week{border-top:1px solid #f79c69; border-bottom:1px solid #f0884d; padding:0 20px;}
+.calendar_grid ul.calendar_week li{float:left; width:52px; height:38px; line-height:38px; text-align:center; color:#fff; font-size:18px; font-family: "Microsoft YaHei";}
+.calendar_grid ul.calendar_list,.calendar_grid ul.grid_five{padding:0 20px; border-top:1px solid #f79c69;}
+.calendar_grid ul.calendar_list li{float:left; width:52px; height:45px; text-align:center; cursor:pointer;}
+.calendar_grid li.week,.calendar_grid ul.calendar_week li.week{color:#fff;}
+
+
+.solar_date{font-size:18px; font-family:Arial; font-weight:600; line-height:21px; color:#fff; text-align:center;}
+.lunar_date{font-size:12px; font-family: "Microsoft YaHei"; color:#fff; height:15px; line-height:15px; width:42px; margin:0 auto; overflow: hidden; text-align: center; text-overflow: ellipsis; white-space: nowrap; word-wrap: break-word;}
+.calendar_date_box{width:48px; height:41px; position:relative; border:2px solid #F68D52;}
+  
+/*hover*/
+.calendar_grid ul.calendar_list li:hover .calendar_date_box{border:2px solid #fff; width:48px; height:41px; box-shadow:1px 5px 5px #e0804b;}
+.calendar_grid ul.grid_five li:hover .calendar_date_box{border:2px solid #fff; width:48px; height:50px; box-shadow:1px 5px 5px #e0804b;}
+.calendar_grid ul.calendar_list li.nextbefor:hover ,.calendar_grid ul.grid_five li.nextbefor:hover{background:none;}
+
+/*前后月*/
+.nextbefor .solar_date,.nextbefor .lunar_date{color:#f5be9f;}
+.before_rest .solar_date,.before_rest .lunar_date{color:#ee854b;}
+/*周六周日*/
+.calendar_grid li.week .solar_date,.calendar_grid ul.calendar_week li.week .solar_date{color:#fff;}
+/*今天*/
+.calendar_grid ul.calendar_list li.today .calendar_date_box{background:#f9af86; border:3px solid #fde4d6; width:46px; height:39px;}
+.calendar_grid ul.grid_five li.today .calendar_date_box{background:#f9af86; border:3px solid #fde4d6;width:46px; height:48px;}
+.today .lunar_date,.today .solar_date{color:#fff;}
+/*休*/
+.rest_txt,.work_txt{width:15px; height:15px; text-align:center; line-height:15px; position:absolute; top:0; left:0; font-size:12px; display:none;}
+.rest_txt{color:#fff;}
+.work_txt{color:#fff;}
+.work .work_txt,.rest .rest_txt{display:block;}
+.rest .calendar_date_box{background:#f9af86; border:2px solid #f9af86; width:48px; height:41px;}
+.work .calendar_date_box{background:#ec8347; border:2px solid #ec8347; width:48px; height:41px;}
+/*点击*/
+.on .calendar_date_box{background:#f9af86; border:1px solid #fde4d6;}
+
+/*5行的情况*/
+.calendar_grid .grid_five li{float:left; width:52px; height:54px; text-align:center; cursor:pointer;}
+.calendar_grid .grid_five li .solar_date{line-height:24px; padding-top:3px;}
+.calendar_grid .grid_five li .lunar_date{line-height:20px; height:20px;}
+/*休*/
+.calendar_grid .grid_five li.work .calendar_date_box,.calendar_grid .grid_five li.rest .calendar_date_box{width:48px; height:50px;}
+.calendar_grid .grid_five li.work .calendar_date_box:hover,.calendar_grid .grid_five li.rest .calendar_date_box:hover{width:48px; height:50px;}
+/*点击*/
+.calendar_grid .grid_five li.on .calendar_date_box{width:50px; height:52px; border:1px solid #fde4d6; background:#f9af86;}
+.calendar_grid .grid_five li .calendar_date_box{width:48px; height:50px;}
+
+
+.calendar_almanac{width:220px; float:left; margin-left:70px; padding-top:70px; display:inline;}
+.almanac_solar_info{height:40px; line-height:40px; text-align:center; color:#b5b5b5; font-size:12px;}
+.almanac_solar_info span{margin:0 4px;}
+.almanac_date{height:100px; line-height:100px; text-align:center; color:#f18c3e; font-size:80px; font-family:Arial;}
+.almanac_lunar_info{text-align:center;}
+.almanac_lunar_info p{font-size:16px; color:#807f7e; line-height:26px;}
+.almanac_lunar_info p.attribution{font-size:12px; color:#b5b5b5;}
+.almanac_txt{font-size:14px; padding-top:15px; position:relative;}
+.almanac_txt p.yi{color:#f18c3e; line-height:30px; white-space: nowrap;}
+.almanac_txt p.ji{color:#807f7e;}
+.almanac_txt span{margin-right:5px; white-space:nowrap;}
+
+.almanc_layer{display:none; width:349px; position:absolute; bottom:40px; left:50%; margin-left:-190px; }
+.almanc_layer h3{height:33px; line-height:33px; padding-top:4px; background:url(../images/almanc_layer.png) left top; font-size:14px; padding-left:15px; font-weight:500;}
+.almanc_layer h3 span{margin-left:10px;}
+.almanc_layer_content{ padding-bottom:30px; background:url(../images/almanc_layer.png) left bottom;}
+.almanc_layer_yi{padding:6px 0 0 15px;}
+.almanc_layer_ji{padding:6px 0 6px 15px;}
+.yi_icon,.ji_icon{width:27px; height:27px; float:left; line-height:27px; text-align:center; color:#fff;}
+.yi_icon{background:#f68d52;}
+.ji_icon{background:#9b9b9b;}
+.yi_txt,.ji_txt{float:left; padding:0px 0 0 10px; font-size:14px; width:280px;}
+.yi_txt span,.ji_txt span{float:left;margin-right:5px;}
+.yi_txt{color:#f97f21;}
+.ji_txt{color:#807f7e;}
+
+.vacation_txt{line-height:28px; position:absolute; left:410px; bottom:0px; width:330px; color:#807f7e;}
+.vacation_txt a{color:#807f7e;}
+.vacation_txt a:hover{text-decoration:underline;}

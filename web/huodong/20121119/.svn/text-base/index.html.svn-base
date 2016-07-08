@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>感恩节</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
+</head>
+<body>
+	<div class="main">
+	    <div class="top"></div>
+		<div class="content1">2012年11月22日，美国的感恩节恰逢中国迎来节气“小雪”。这是一个一家团聚的日子，赶紧来参加分享送温暖活动，兰寇礼盒和阿迪达斯爱心围巾或许是你送给亲近之人最好的礼物！</div>
+		<div class="content2">
+			<p>感恩节（Thanksgiving Day）是美国和加拿大共有的节日，由美国人民独创，原意是为了感谢上天赐予的好收成。在美国，自1941年起，感恩节是在每年11月的第四个星期四，并从这一天起将休假两天；像中国的春节一样，在这一天，成千上万的人们不管多忙，都要和自己的家人团聚。</p>
+			<p>11月22或23日为小雪节气。我国广大地区东北风开始成为常客，气温下降，逐渐降到0℃以下，但大地尚未过于寒冷，虽开始降雪，但雪量不大，故称小雪。“小雪”是反映天气现象的节令。古籍《群芳谱》中说：“小雪气寒而将雪矣，地寒未甚而雪未大也。”《二十四节气解》中说：“雨为寒气所薄，故凝而为雪，小者未盛之辞。”</p>
+		</div>
+		<a class="btn" id="btn" href="javascript:;">分享送祝福</a>
+	</div>
+	<script type="text/javascript">
+    function $(id){
+        return document.getElementById(id);
+    }
+    window.onload = function(){
+        var fixed = $("btn");
+        fixed.onclick = function(){
+            var txt = "恰逢中国节气小雪和感恩节，为我所有亲朋好友们送上祝福哦！快来参加 @365日历 “送温暖抽奖活动”，兰寇礼盒和阿迪达斯围巾或许就是你的啦！下载传送门：　http://www.365rili.com/",txt1 = "恰逢中国节气小雪和感恩节，为我所有亲朋好友们送上祝福哦！快来参加 @365日历 “送温暖抽奖活动”，兰寇礼盒和阿迪达斯围巾或许就是你的啦！下载传送门：www.365rili.com";
+            if (/android/i.test(navigator.userAgent)) {
+                try {
+                    AliansBridge.share(txt, img = "thanksgiving.jpg", null, false);
+                } 
+                catch (e) {
+                    alert("您的365日历版本暂不支持发微博，请升级到最新版");
+                }
+            }
+            else 
+                if (/ipad|iphone|mac/i.test(navigator.userAgent)) {
+                    fixed.href = 'rili365app:share:' + txt1 + ':thanksgiving.jpg';
+                }
+        }
+    }
+	</script>
+</body>
+</html>

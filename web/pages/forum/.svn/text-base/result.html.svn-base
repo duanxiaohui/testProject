@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<link href="../../css/forum.css" rel="stylesheet">
+<script src="/js/lib/zepto.min.js"></script>
+</head>
+<body>
+	<div class="tool">
+		<form action="" class="search e_clear">
+			<input class="search_con" placeholder="请输入..." type="text" name="content" value="体育">
+			<span class="search_icon"></span>
+		</form>
+	</div>
+    <div class="content e_clear">
+    	<dl class="list e_clear">
+	    	<dt class="list_face">
+	    		<a href="javascript:;"><img src="../../images/forum/img1.jpg" alt="" width="58" height="58"></a>
+	    	</dt>
+	    	<dd class="list_main">
+	    		<a href="javascript:;" class="list_focus">关注</a>
+	    		<div class="list_info">
+	    			<a class="overT" href="javascript:;">网球热门赛程</a>
+		    		<p class="overT">收藏人数：345678</p>
+		    		<p class="overT">四大满贯公开赛和中国网球公开赛四大满贯公开赛和中国网球公开赛四大满贯公开赛和中国网球公开赛四大满贯公开赛和中国网球公开赛</p>
+	    		</div>
+	    	</dd>
+	    </dl>
+    	<dl class="list e_clear">
+	    	<dt class="list_face">
+	    		<a href="javascript:;"><img src="../../images/forum/img1.jpg" alt="" width="58" height="58"></a>
+	    	</dt>
+	    	<dd class="list_main">
+	    		<a href="javascript:;" class="list_focus">关注</a>
+	    		<div class="list_info">
+	    			<a class="overT" href="javascript:;">网球热门赛程</a>
+		    		<p class="overT">收藏人数：345678</p>
+		    		<p class="overT">四大满贯公开赛和中国网球公开赛四大满贯公开赛和中国网球公开赛四大满贯公开赛和中国网球公开赛四大满贯公开赛和中国网球公开赛</p>
+	    		</div>
+	    	</dd>
+	    </dl>
+    	<dl class="list e_clear">
+	    	<dt class="list_face">
+	    		<a href="javascript:;"><img src="../../images/forum/img1.jpg" alt="" width="58" height="58"></a>
+	    	</dt>
+	    	<dd class="list_main">
+	    		<a href="javascript:;" class="list_focus">关注</a>
+	    		<div class="list_info">
+	    			<a class="overT" href="javascript:;">网球热门赛程</a>
+		    		<p class="overT">收藏人数：345678</p>
+		    		<p class="overT">四大满贯公开赛和中国网球公开赛四大满贯公开赛和中国网球公开赛四大满贯公开赛和中国网球公开赛四大满贯公开赛和中国网球公开赛</p>
+	    		</div>
+	    	</dd>
+	    </dl>
+    	<dl class="list e_clear">
+	    	<dt class="list_face">
+	    		<a href="javascript:;"><img src="../../images/forum/img1.jpg" alt="" width="58" height="58"></a>
+	    	</dt>
+	    	<dd class="list_main">
+	    		<a href="javascript:;" class="list_focus">关注</a>
+	    		<div class="list_info">
+	    			<a class="overT" href="javascript:;">网球热门赛程</a>
+		    		<p class="overT">收藏人数：345678</p>
+		    		<p class="overT">四大满贯公开赛和中国网球公开赛四大满贯公开赛和中国网球公开赛四大满贯公开赛和中国网球公开赛四大满贯公开赛和中国网球公开赛</p>
+	    		</div>
+	    	</dd>
+	    </dl>
+    	<dl class="list e_clear">
+	    	<dt class="list_face">
+	    		<a href="javascript:;"><img src="../../images/forum/img1.jpg" alt="" width="58" height="58"></a>
+	    	</dt>
+	    	<dd class="list_main">
+	    		<a href="javascript:;" class="list_focus">关注</a>
+	    		<div class="list_info">
+	    			<a class="overT" href="javascript:;">网球热门赛程</a>
+		    		<p class="overT">收藏人数：345678</p>
+		    		<p class="overT">四大满贯公开赛和中国网球公开赛四大满贯公开赛和中国网球公开赛四大满贯公开赛和中国网球公开赛四大满贯公开赛和中国网球公开赛</p>
+	    		</div>
+	    	</dd>
+	    </dl>
+    	<dl class="list e_clear">
+	    	<dt class="list_face">
+	    		<a href="javascript:;"><img src="../../images/forum/img1.jpg" alt="" width="58" height="58"></a>
+	    	</dt>
+	    	<dd class="list_main">
+	    		<a href="javascript:;" class="list_focus list_focus_cancel">关注</a>
+	    		<div class="list_info">
+	    			<a class="overT" href="javascript:;">网球热门赛程</a>
+		    		<p class="overT">收藏人数：345678</p>
+		    		<p class="overT">四大满贯公开赛和中国网球公开赛四大满贯公开赛和中国网球公开赛四大满贯公开赛和中国网球公开赛四大满贯公开赛和中国网球公开赛</p>
+	    		</div>
+	    	</dd>
+	    </dl>
+    </div>
+    <div class="loadmore">
+    	加载中...
+    	<div class="icon_loadmore"></div>
+    </div>
+    <script>
+    $('.list').on('tap', function () {
+    	$('.on').removeClass('on');
+    	$(this).addClass('on');
+    	return false;
+    })
+	$('.search_con').on('tap', function () {
+    	$('.on').removeClass('on');
+    	return false;
+	});
+    $(document).on('tap', function () {
+    	$('.search_con').blur();
+    })
+    $('.search_con').on('tap', function () {
+    	return false;
+    });
+    </script>
+</body>
+</html>

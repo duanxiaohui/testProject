@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>一半是天使，一半是魔鬼</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/iran_nuclear/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>伊朗国家核技术日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>世界上有许多东西，在带来便利的同时也带来灾祸。汽车、飞机一次又一次挑战速度上的不可能，让“日行千里”不再是奇迹，但同时坠机、车祸这样的灾难却一次次上演……火能烤熟食物也能焚毁建筑，刀能切断东西也能伤害生命，核资源能用于发电、安检、机械设备但利用不当也会给人类带来难以想象的伤痛。</p>
+            <h3>【伊朗“核”历史】</h3>
+            <p>20世纪50年代，伊朗开始了对核能源的开发活动，并在当时得到美国及其他西方国家的支持。1980年美国和伊朗断交后，美国多次指责伊朗以“和平利用核能”为掩护秘密发展核武器，并对其采取遏制政策。国际原子能机构也多次就伊朗核问题作出决议，2010年6月，安理会通过了史上最严厉制裁伊朗方案。</p>
+            <img src="images/iran_nuclear/holiday_1.jpg"/>
+            <p>2015年7月14日，经过多年的谈判，伊朗核问题最后阶段谈判终于达成历史性的全面协议。7月20日，联合国安理会通过了支持伊朗核问题的协议，这意味着长达10年的伊朗制裁将被取消。</p>
+            <h3>【伊朗核技术日】</h3>
+            <p>每年的4月9日是伊朗核技术日，伊朗最高领袖通常会接见伊朗原子能机构官员和一些核领域专家。伊朗最高领袖表示不会停止核计划，也不会关闭已经建成的核设施，并强调目前正在维也纳参加伊核问题谈判的伊朗谈判团队不会放弃伊朗的任何合法的权利。</p>
+            <img src="images/iran_nuclear/holiday_2.jpg"/>
+            <p>伊朗不满美国的指控，称虽然伊朗早已明确不会寻求发展核武器，但是美国官员总是在各种场合或明或暗地指控伊朗发展核技术的目的就是为了获得核武器。这都是伊朗领导人说的原话！小编只是拿来而已！</p>
+            <h3>【切尔诺贝利的灾难】</h3>
+            <p>切尔诺贝利核电站位于乌克兰北部，曾经被认为是最安全、最可靠的核电站。但1986年一声巨响彻底打破了这一神话：核电站的第4号核反应堆在进行半烘烤实验中突然失火引起爆炸。爆炸使机组被完全损坏、8吨多强辐射物质泄露、尘埃随风飘散，致使俄罗斯、白俄罗斯和乌克兰许多地区遭到核辐射的污染。</p>
+            <img src="images/iran_nuclear/holiday_3.jpg"/>
+            <p>这次灾难所释放出的辐射线剂量是广岛原子弹的400倍以上。事故导致32人当场死亡，上万人由于放射性物质的长期影响而致命或患的重病，至今仍有被放射影响而导致畸形胎儿的出生。</p>		
+
+            <div class="tips">
+                <p>1、每年的4月9日是伊朗核技术日，伊朗非常重视核技术；</p>
+                <p>2、核能源可以说一半是天使，一半是魔鬼，各国对这一能源的利用需要加倍谨慎。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

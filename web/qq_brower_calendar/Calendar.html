@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<title>日历</title>
+<link href="style/calendar.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="main smallcd" id="bd">
+	<div class="operate_btn">
+		<div class="select_year">
+			<a href="javascript:;" title="前一个月" delta="-1" class="prev" id="lnk_prev"><div class="prev_arrow"></div></a>
+			<span id="sp_year">2012</span>年<span id="sp_month">12</span>月
+			<a href="javascript:;" title="后一个月" delta="1" class="next" id="lnk_next"><div class="next_arrow"></div></a>
+		</div>
+		<div id="div_buttons" class="ss">
+			<a class="operate_vacation">假期</a>
+			<a class="solar_terms">节气</a>
+		</div>
+		<a href="javascript:;" class="operate_today">今天</a>
+	</div>
+	<div class="calendar_box e_clear">
+		<div class="calendar_bg">
+		<div class="calendar_right" id="div_day_detail"></div>
+		<div class="calendar">
+			<ul class="calendar_top">
+				<li>一</li>
+				<li>二</li>
+				<li>三</li>
+				<li>四</li>
+				<li>五</li>
+				<li class="weekend">六</li>
+				<li class="weekend">日</li>
+			</ul>
+			<ul class="calendar_table js-cld-panel e_clear"></ul>
+			<div class="vacation_exp"></div>
+		</div>
+		</div>
+	</div>
+	<div class="footer_icon"><a href="javascript:;">精彩每一天·365日历</a></div>
+	</div>
+<script src="//www.365rili.com/js/lib/app.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui-1.8.23.custom.min.js"></script>
+<script src="http://www.365rili.com/third_cooperation/base_calendar/js/app/model/data.js"></script>
+<script src="http://www.365rili.com/third_cooperation/base_calendar/js/parseDataForCalendar.js"></script>
+<script src="js/calendar.js?ver=20151214"></script>
+<script src="js/lunar.js"></script>
+</body>
+</html>

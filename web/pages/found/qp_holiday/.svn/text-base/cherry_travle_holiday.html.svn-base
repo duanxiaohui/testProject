@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>我给你承包了整个花花世界！</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/cherry_travle/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>日本赏樱之旅</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>春江水暖“花”先知！在人类的世界，乍暖还寒的时候，有人穿羽绒服，有人穿呢大衣，还有人穿T恤。但是在花的世界，她们是不管的，只要节气到了，她们都一股脑的争抢着绽放，生怕少了自己这个春天会黯淡几分。每种花都有自己开放的时间，三月、四月属于樱花。这个时候，层叠的娇艳花朵在短时间内悄然盛开，香云馥郁，又在繁盛中落下，赏樱花成了一桩盛事。</p>
+            <p class="mt15">十万樱花入梦眠，美好的梦境当然不能将就，要看就看最美的风景。那么，哪里的樱花足够美呢？</p>
+            <h3>【东京赏樱自留地】</h3>
+            <p>东京名园上野公园是日本的第一座公园，其名不仅在景色之秀美，更在历史之古远与人文之深厚。在1873年建起上野公园之前，园内的很多建筑和景观就早已存在，公园所在地也已是江户一带久负盛名的游玩之地。 早在1624年便修建完备的宽永寺，至今仍立于不忍池畔。正是宽永寺建立之时移种的樱花，开启了上野公园赏樱名园的历史。</p>
+            <img src="images/cherry_travle/holiday_1.jpg"/>
+            <p>现在上野公园已有1300多株樱花，其中樱花名品“染井吉野”，就是由上野公园开始而为世人广知的。每年樱花花季时，上野公园樱花大道的绯红云朵，早已在鲁迅笔下化为国人对日本樱花的第一印象。而花开时节在夜间灯光下观赏“夜樱”，是日本人赏樱的独特方式。</p>
+            <h3>【泛舟赏樱触手可及】</h3>
+            <p>千鸟渊位于皇居西北侧，原先是江户城的一条护城河，现在是与上野公园、新宿御苑齐名的东京三大赏樱名所之一，每当樱花开放之际游人如织，非常热闹。到了夜里，这里还会点亮灯光观赏夜樱花。最特别的是在千鸟渊可以一边划船一边赏樱。</p>
+            <img src="images/cherry_travle/holiday_2.jpg"/>
+            <p>千岛渊是樱花时节强烈推荐的地方，樱花的规模大，配合旁边的湖，可以说是大都市内的一块乐土，一点都不亚于京都的哲学小道。樱花时节租上一条船畅游于河上，头顶都是垂下的樱花树，想想都是很美的事情。</p>
+            <h3>【夜樱璀璨浪漫街区】</h3>
+            <p>目黑川的櫻花道全長3.2公里，想要漫步走完大约要二個小時。目黑川是一条清澈美丽的小溪，常年绿树摇曳，到了春天河边的800多棵樱花树怒放，繁多到快要遮挡住了河流上的整片天空，也因此成为日本东京人最爱的赏樱处之一。目黑川虽然很长，不过可以依照自己的心情决定什么时间离开河畔，前往下一个目的地。只要逛了一小段目黑川畔，就会感觉不虚此行。</p>
+            
+
+            <p class="mt15"></p>			
+
+            <div class="tips">
+                <p>1、烟花三月下扬州，转眼间三月已经过去，四月该去看樱花了；</p>
+                <p>2、小编已经给你承包了整个花花世界，你除了去还有别的选择吗？</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

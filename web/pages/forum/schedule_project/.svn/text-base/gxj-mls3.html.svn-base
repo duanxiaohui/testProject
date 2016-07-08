@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015清远国际马拉松</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015清远国际马拉松</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/5121a529-9b12-45c4-9686-71ad6e1d7d63.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	      <a class="btn js-subscribe" data-uuid="8d53fbf3-16d9-469e-85b8-e2b26d5dc189" data-cid="147514789">添加提醒</a>	
+	    	<p class="time"><b>报名截至时间：2014年12月21日</b></br>
+
+<b>比赛时间：2015.03.15 星期日 上午8:00
+</b></br>
+
+	    	<b>比赛地点：广东省清远市</b>
+			</p>
+			<h3>比赛路线：</h3>
+			<p>清远体育馆－凤翔大道－北江路－北江大桥－沿江路－凤城大桥－清远体育馆
+</p>
+			<!--h3是小标题-->
+			<h3>报名方法：</h3>
+			<!--p是段落文字描述-->
+			<p>1、参赛者可以个人或集体报名，必须如实填写个人资料；</br>
+2、赛事规模15000人，马拉松5000人、半程马拉松5000人、迷你马拉松5000人。</br>
+3、报名方式：</br>
+（1）网上报名：请登陆清远马拉松赛官方网站报名，或前往赛事授权合作方网站报名。</br>
+（2）现场报名：清远马拉松组委会办公室</br>
+地址：广东省清远市清城区凤翔大道1号丽晶豪庭一座1805室
+联系人：吴瑞源
+ 联系电话：0763-3668912 、3668913</br>
+4、收费标准：</br>
+（1）马拉松、半程马拉松国内(包括港、澳、台地区)参赛者：每人100元人民币；外籍参赛者每人40美元。</br>
+（2）迷你马拉松国内(包括港、澳、台地区)参赛者：每人50元人民币；外籍参赛者每人20美元；</br>
+（3）团体报名（人数在20人以上），马拉松、半程马拉松90元人民币。</br>
+5、参赛物品发放</br>
+所有参赛选手均发参赛服装、存衣包、号码布、参赛须知。
+参赛者请于赛前持个人身份证原件或复印件于2015年3月12日至14日，9:00—17:30于清远马拉松博览会现场领取
+地点：清远市清城区凤城广场
+组委会咨询电话：0763-3668912
+ </br></br>具体详情以官网信息为准
+
+</p>
+
+<img src="http://cocoimg.365rili.com/schedule_pics/default/5caac838-80a9-4b1b-abb8-51097107b97d.jpg"/>
+
+			<a href="http://www.qy-marathon.com/" class="btn js-other"> 详见官网</a>
+			 <div class="remind_div" data-uuid="8d53fbf3-16d9-469e-85b8-e2b26d5dc189" data-cid="147514789"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/5121a529-9b12-45c4-9686-71ad6e1d7d63.jpg',
+                title: '2015清远国际马拉松',
+                desc: '赛事规模15000人，马拉松5000人、半程马拉松5000人、迷你马拉松5000人。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015清远国际马拉松',
+		        				content: '赛事规模15000人，马拉松5000人、半程马拉松5000人、迷你马拉松5000人。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/5121a529-9b12-45c4-9686-71ad6e1d7d63.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

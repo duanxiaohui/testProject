@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>过一天撕一天的日子一去不复返</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/calendar/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>过一天撕一天的日子一去不复返</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>时间总不会停止它的进度。古时候它是滴答作响的水漏、是影子渐转的日晷，后来它是过一天撕一张的日历，是床头总也不会喜欢上的闹钟。时间对我们的意义是成长，是积累，是日复一日忙碌与悠闲的交叠，是经历过的每分每秒的欢愉与悲伤。直到现在，时间还以这样的形式存在于我们身边，也会一直存在下去。</p>
+            <h3>【日历】</h3>
+            <p>当年的日历，颜色单一、内容多样，那时候的生活基本就是“过一天撕一天”，一年过完再换一本。</p>
+            <img src="images/calendar/holiday_1.jpg"/>
+            <p>后来为了方便摆放、记录，产生了台历，放在桌子边随手即可翻看。它总是安安静静的做那个美丽的日历，所有事情都需要你“主动”去做——去看日期、自己记录的任何事情。再后来，日历类手机app就出现了，节假日、节气等信息一目了然，日程备忘“玩命”提醒，方便到了极致。</p>
+            <h3>【钟表】</h3>
+            <p>日晷、水漏等计时工具由于其不方便的特质而被淘汰，最先是被座钟代替。座钟刚刚出现时，活脱脱就是身份和地位的象征。它们外观精致，工艺复杂，滴答作响让人无法忽略。</p>
+            <img src="images/calendar/holiday_2.jpg"/>
+            <p>轻便灵巧、节约空间的挂钟以迅雷不及掩耳之势代替了座钟，直到现在它还和自己的弟弟——手表一起在日常生活中反复刷着存在感。</p>
+
+            <div class="tips">
+                <p>1、日历、钟表都是时间的“使者”，帮助我们更好的管理、利用时间；</p>
+                <p>2、365日历，管理时间的战斗机，没有之一！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

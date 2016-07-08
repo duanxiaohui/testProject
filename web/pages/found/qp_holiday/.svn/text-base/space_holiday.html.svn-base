@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>你咋不上天</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/space/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>世界航天日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>人类是非常伟大的，从机器代表手工的第一次工业革命到大范围电气化的第二次工业革命，再到电子计算机技术全面发展的第三次工业革命，在优秀个体的带领下，各国人民的生活水平发生了翻天覆地的变化。但是人们并不会因此满足，毕竟，我们的征途是那星辰大海……于是！我们早早的就开启了太空之旅。</p>
+            <h3>【最先要明确意义】</h3>
+            <p>探索太空这件事是有重大意义的，电影里面通常会介绍一些正常人无法企及的理由——地球要毁灭，探索太空开辟第二居住地……还是回到现实，看看这件事有什么益处吧！</p>
+            <img src="images/space/holiday_1.jpg"/>
+            <p>航天科学能揭示宇宙的形成与演化，探索生命的起源以及空间环境对人类生存环境的影响，对天文学、宇宙学、物质科学、生命科学和思想科学的发展有巨大的推动作用；航天技术是一门综合性的高技术，它依赖并刺激了一大批高技术的发展，如电子技术、计算机技术、遥控遥测遥感技术、新材料新能源技术及可靠性工程技术等等；航天科技引发了具有巨大市场潜力的空间产业，甚至像空间旅游这样的第三产业、现代服务业也应运而生。</p>
+            <h3>【太空探索历史】</h3>
+            <p>1957年10月4日前苏联第一颗人造卫星上天，拉开了人类航天时代的序幕。1961年4月12日，前苏联宇航员加加林第一位进入了太空。 1969年7月16日，美国"阿波罗11号"飞船，载着阿姆斯特朗，奥尔德林和柯林斯三人在美国肯尼迪航天中心升空，飞向月球，人类首次登月。1994年，美国发射了"克莱门汀"号无人驾驶飞船，对月球进行了新的地貌测绘，为在不久的将来建立月球基地和月基天文台作准备。这些太空探索活动都有着深远的意义。</p>
+            <img src="images/space/holiday_2.jpg"/>
+            <h3>【世界航天日】</h3>
+            <p>苏联宇航员尤里·加加林50年前首次登上宇宙飞船遨游太空，绕地球飞行一周后返回地面。加加林的壮举实现了自古以来人类飞天的梦想，开启了人类探索太空的新纪元，使人类能够从一个新视角对宇宙及其生活的星球有了更好的了解。在纪念人类首次太空飞行50周年之际，联合国举行了一个与其相关的图片展。同时，联大2011年4月7日通过决议，决定将每年的4月12日定为“载人空间飞行国际日”，并强调外层空间属于全人类，应确保外层空间的和平利用。</p>		
+
+            <div class="tips">
+                <p>1、每年的4 月12 日是国际航天日，各国都会举行纪念活动，以唤起全球意识、确保实现和平利用和维护外层空间，并利用外空科学和技术实现可持续发展目标；</p>
+                <p>2、搞不好有一天，我们真的都能“上天”了！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

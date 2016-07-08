@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>穹顶之下</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/holiday_worldenvironment/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>世界环境日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>去年柴静的一部《穹顶之下》，燃遍了整个朋友圈。有人说柴静的片子有唤醒对污染浑然不知的人的作用——让大爷大妈开始买N95和空气净化器。</p>
+            <img src="images/holiday_worldenvironment/holiday_1.jpg"/>
+            <p>我个人觉得即便大爷大妈们，也早就对空气问题叫苦不迭，我的同龄人更是抱怨连连，但大家是散沙般的个体，不忿消匿在为生计忙的日常，消解在惶恐乱炸的娱乐节目的声浪，我们除了在特别糟糕的天气拍照以自嘲，好像真的不知道还能做什么，除了无能为力，这份无奈里又夹杂着许多委屈。</p>
+            <img src="images/holiday_worldenvironment/holiday_2.jpg"/>
+            
+            <h3>【对于环保，他们在做什么】</h3>
+
+            <p>抛开我们自身的力量而言，国家乃至全世界都是竭力推行环保的。今天的世界环境日（WED）定于每年的6月5日，是联合国鼓励全球居民提高环保意识和采取环保行动的主要力量。联合国人类环境会议于1972年6月5日至16日在斯德哥尔摩举行，会议通过了将每年的6月5日作为“世界环境日”的建议。如今，世界环境日已经成为全球100多个国家的利益相关者积极采取环保行动的重要平台。世界环境日还作为“人类的节日”，呼吁民众采取积极的环保行动，以集小溪而成江海的力量共同保护我们的地球。</p>
+           
+            <img src="images/holiday_worldenvironment/holiday_3.jpg"/>
+
+            <p>历史的潮流不可阻挡。这次成功竟然是失败的开始。英国国会通过了对华用兵的提案，发动了鸦片战争。首先是进攻广州，在林则徐的精心布局，战士们的英勇抗击下，英国人无懈可击，继而北上进攻。尽管中国士兵视死如归，但英国人一直打到下关江面，扬言进攻南京。历史再次上演杀晁错以平七国之乱的故事。汉朝都没办成的事，清朝就更不行了。林老没被杀，而是流放。如果英军退了，那也值了，可这能阻挡条约的签订吗？当然不能。</p>
+
+            
+
+            <h3>【对于环保，我们为何要做】</h3>
+            
+            <p>我们生活的几乎一切都来自于环境，没有人可以脱离物质生存，而我们的所有物质层面的拥有和享用（包括作为精神层面载体的物质，从书籍到乐器到玩具到工具）都来自于自然环境。而如果不保护环境，环境发生的我们作为生物体难以适应的变化会愈发剧烈和迅速，使得我们自身的生存难以为继，或者成本急剧增高——而增高的成本更会带来进一步的环境问题，和在未来时段的更严重的环境危机，也就是人类的生存危机。由于事实已经证明了人类社会对环境的改变足以严重影响到人类社会自身的生存，环保的意义无可置疑。</p>
+            <img src="images/holiday_worldenvironment/holiday_4.jpg"/>
+           
+            <div class="tips">
+                <p>1、不仅仅是为了生活得更好，也不仅仅是造福后代，我们自己的生存本身就需要维系环境的稳定和适宜；</p>
+                <p>2、我们自以为是的说要拯救地球，其实应该是拯救我们自己。</p>
+            </div>
+        
+		<!-- 
+			<p class="mt15"></p>
+		 -->    
+    	</div>
+        <div class="editor">编辑/Vanna</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

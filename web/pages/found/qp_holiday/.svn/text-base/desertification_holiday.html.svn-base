@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>你这个魔鬼</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/desertification/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>世界防治荒漠化日和干旱日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>奇特的地质地貌、气候条件等原因造就了不同地区不同的景色，有“明月夜，短松岗“，有“平沙落雁”、“草长莺飞”……但是它们再每，也扛不过连年的干旱，荒漠化这个魔鬼几乎自带毁灭景色的buff，一路横冲直撞，几乎阻止不了！</p>
+            <h3>【什么是荒漠化】</h3>
+            <p>荒漠化是指气候异常和人类活动等因素造成的干旱、半干旱和亚湿润干旱地区的土地退化。其中包括：风蚀和水蚀所引起的土壤物质流失；土壤的物理、化学及生物学特性或经济特性的退化；自然植被的长期丧失。</p>
+            <img src="images/desertification/holiday_1.jpg"/>
+            <p>地球陆地表面极薄的一层物质就是土壤层，它对于人类和陆生动植物生存极为关键。没有土壤层，地球上就不可能生长任何草木、谷物，不可能有动物和人类的生存。荒漠化，就是土壤层土质恶化，有机物质下降乃至消失，造成表面沙化或板结从而成为不毛之地。荒漠化不仅造成贫困，而且迫使人们离开故土，造成严重可怕的移民浪潮，因此荒漠化被视为人类在环境领域面临的三大挑战之一。</p>
+            <h3>【防治荒漠化和干旱日】</h3>
+            <p>荒漠化是一个全球性问题，对全世界的生态安全、消除贫穷、社会经济稳定和可持续发展都造成严重影响。据联合国统计，全球26亿人直接依赖于农业，而用于农业的５２％的土地受中度或严重的退化影响。土地退化影响全球15亿人。由于干旱和荒漠化，全球每年失去1200万公顷的土地，而这些土地本可以生产2000万吨粮食。贫困人口的74％直接受到全球土地退化影响。</p>
+            <img src="images/desertification/holiday_2.jpg"/>
+            <p>1994年12月19日第49届联合国大会根据联大第二委员会的建议，从 1995年起把每年的6月17日定为“世界防治荒漠化和干旱日”，旨在进一步提高世界各国人民对防治荒漠化重要性的认识，唤起人们防治荒漠化的责任心和紧迫感。</p>
+            <p class="mt15"></p>			
+
+            <div class="tips">
+                <p>1、干旱、荒漠化对人类的生活产生了许多的不良影响；</p>
+                <p>2、这些后果与人类不节制的索取有着必然的联系，保护环境从自己做起。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

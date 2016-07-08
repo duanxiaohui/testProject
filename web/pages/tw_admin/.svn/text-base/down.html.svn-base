@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历</title>
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="/newwap/css/index.css?v=20140314" media="screen" />
+</head>
+<body>
+<div class="head"></div>
+<div class="weixin_wap_layer">
+	点这里的按钮<br/>选择在浏览器中打开
+</div>
+<div class="coco">
+
+	<p style="text-align: center;color: rgb(151,151,151);font-size: 24px;">北京青年新媒体工作<br/>手机客户端</p>
+	<div class="coco_content" style="background-position-x:center;margin-bottom:20px;">
+	</div>
+	<a href="javascript:;" class="coco_btn">立即下载</a>
+	<div class="coco_bottom"></div>
+</div>
+<div class="business none">
+	<h2>插件版</h2>
+	<p>365日历，超过6000万智能手机用户使用，是中国最专业的日历和万年历产品，装机必备。365日历支持农历、万年历查询，手机和电脑同步更新日程提醒，完美同步google日历， 在iPhone、Android、Windows等平台上都可以使用，并为百度、腾讯、360等战略合作伙伴提供定制日历。</p>
+	<a href="javascript:;">下载</a>
+</div>
+<div class="todo none">
+	<h2>待办</h2>
+	<p>365待办是中国最专业日历供应商365日历推出的轻量级待办产品是中国最简单最高效的待办提醒软件</p>
+	<p>占用内存极小,纯绿色无广告简约而不简单,是最适合您的待办工具。</p>
+	<div class="todo_box"></div>
+	<div class="todo_bottom"></div>
+	<a href="javascript:;" class="todo_btn">下载</a>
+</div>
+<div class="wnl none">
+	<h2>吉运万年历</h2>
+	<p>最简洁清新的万年历，回归时间的淳朴本质！绿色安全，无广告无弹窗！阳历阴历一目了然，每日宜忌提前知晓！</p>
+	<div class="wnl_box"></div>
+	<a href="javascript:;" class="wnl_btn">下载</a>
+</div>
+<div style="display:none;">
+	<script src="//www.365rili.com/js/lib/app.js"></script>
+</div>
+<script type="text/javascript" src="/newwap/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/newwap/js/adaptation.js?v=20140317"></script>
+</body>
+</html>

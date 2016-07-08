@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>日程详情</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detection" content="telephone=no"/>
+<link href="/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link href="/pages/client_calendar_h5/css/silde_s.css?v=2" rel="stylesheet" media="screen">
+<link href="/pages/wx_schedule/css/schedule.css" rel="stylesheet">
+</head>
+<body>
+	<div class="wx_schedule">
+		<div class="schedule_detail_div">
+			<div class="schedule_txt"></div>
+			<div class="schedule_dec"></div>
+		</div>
+		<div class="schedule_remid_repeat">
+			<div class="schedule_time" style="border:0"></div>
+		</div>
+		<div class="schedule_tips">
+			<p><b>进入365日历APP,体验完整功能</b></p>
+			<span>提示：请您用该微信号登录浏览日程</span>
+		</div>
+	</div>
+	<script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js?20151016"></script>
+    <script src="/js/lib/app.js"></script>
+    <script src="/pages/found/js/function.js?20151119"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/wx_schedule/js/share_schedule.js"></script>
+</body>
+</html>

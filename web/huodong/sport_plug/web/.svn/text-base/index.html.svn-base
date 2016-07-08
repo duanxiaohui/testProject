@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>365日历体育插件介绍</title>
+<link type="text/css" href="style/index.css" rel="stylesheet" media="all" />
+</head>
+<body>
+	<div class="top"></div>
+	<div class="main">
+		<div class="installation">
+			<h2>安装365日历</h2>
+			<div class="installation_content">
+				<p>方法一：用手机访问网址：<a href="http://www.365rili.com/i.htm">365rili.com/i.htm</a></p>
+				<p>方法二：用手机扫描二维码直接下载</p>
+				<div class="iphone">
+					<div class="phone_box">
+						<div class="icon"><img src="images/ios.jpg"/></div>
+						<div class="txt">iPhone 客户端AppStore</div>
+						<div class="two_code"><img src="images/ios_code.jpg"/></div>
+					</div>
+					<div class="phone_exp">扫描二维码下载</div>
+				</div>
+				<div class="andrioid">
+					<div class="phone_box">
+						<div class="icon"><img src="images/android.jpg"/></div>
+						<div class="txt">Android 客户端GooglePlay</div>
+						<div class="two_code"><img src="images/android_code.jpg"/></div>
+					</div>
+					<div class="phone_exp">扫描二维码下载</div>
+				</div>
+			</div>
+		</div>
+		<div class="sports_plug">
+			<h2>体育插件</h2>
+			<h3>365日历-体育插件，为所有体育爱好者提供了最新最全的赛事信息。我们会第一时间抓取NBA、冠军杯以及欧洲五大联赛所有比赛，您可以在体育插件察看相关比赛时间、直播信息以及过往比赛的赛果。</h3>
+			<p>如何获得365日历-体育插件？</p>
+			<p>进入365日历，在主页面点击下方灰色小图标（更多插件图标），点击进入插件管理界面并启用体育插件，你就可以在主页面看到相关小图标啦！</p>
+			<img src="images/img1.jpg"/>
+			<p>点击小图标进入体育插件，我们会在热门一栏中推荐今天以及未来一段时间的热点赛事。</p>
+			<img src="images/img2.jpg"/>
+			<p>左右划动，可切换至NBA、冠军杯、西甲、意甲、英超、德甲和法甲等项目，未来还会添加更多值得关注的体育项目。</p>
+			<img src="images/img3.jpg"/>
+			<p>可以通过点击单场比赛栏右侧的五角星进行收藏提醒，相关比赛信息将显示在365日历主页面上，这样你就不会忘记自己想关注的比赛啦。</p>
+			<img src="images/img4.jpg"/>
+			<p>可以通过点击单场比赛栏，就能参与竞猜相关比赛，并将竞猜结果分享至微博平台与好友们一起讨论哦。</p>
+			<img src="images/img5.jpg"/>
+			<div class="box e_clear">
+				<div class="iphone">
+					<div class="phone_box">
+						<div class="icon"><img src="images/ios.jpg"/></div>
+						<div class="txt">iPhone 客户端AppStore</div>
+						<div class="two_code"><img src="images/ios_code.jpg"/></div>
+					</div>
+					<div class="phone_exp">扫描二维码下载</div>
+				</div>
+				<div class="andrioid">
+					<div class="phone_box">
+						<div class="icon"><img src="images/android.jpg"/></div>
+						<div class="txt">Android 客户端GooglePlay</div>
+						<div class="two_code"><img src="images/android_code.jpg"/></div>
+					</div>
+					<div class="phone_exp">扫描二维码下载</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer_content e_clear">
+			<div class="about">
+				<dl>
+					<dt>关于我们</dt>
+					<dd>
+						<a href="/?p=future">公司远景</a> &nbsp;&nbsp;
+						<a target="_blank" href="http://up2.365rili.com/v3/milestone/index.htm">里程碑</a> &nbsp;&nbsp;
+						<a href="/?p=job">加入我们</a> &nbsp;&nbsp;
+						<a href="/?p=qa">常见问题</a> &nbsp;&nbsp;
+						<a href="/?p=service">服务条款</a> &nbsp;&nbsp;
+						<a href="#">隐私政策</a> &nbsp;&nbsp;
+						<a href="javascript:alert('在线支持QQ群：92767096');">在线支持</a> &nbsp;&nbsp;
+						<a href="/?p=contact">联系我们</a>
+					</dd>
+				</dl>
+			</div>
+			<div class="Comm">
+				<dl>
+					<dt>社区</dt>
+					<dd>
+						<a target="_blank" href="http://weibo.com/365rili">新浪微博</a> &nbsp;&nbsp;
+						<a target="_blank" href="http://t.qq.com/a365rili">腾讯微博</a> &nbsp;&nbsp;
+						<a target="_blank" href="http://site.douban.com/133514/">豆瓣小站</a> &nbsp;&nbsp;
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="copy">
+			<div class="copyright">Copyright &copy; 2007-2012 365rili.com    京ICP备08005906号    内容合作：contact365rili.com</div>
+			<div class="weibo">
+				<a target="_blank" href="http://weibo.com/365rili"><img src="images/bottom_weibo.png"></a>
+				<a target="_blank" href="http://site.douban.com/133514/"><img src="images/bottom_douban.png"></a>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript">  
+        (function(W){  
+            if(/iphone|nokia|sony|ericsson|mot|samsung|sgh|lg|philips|panasonic|alcatel|lenovo|cldc|midp|wap|mobile/i.test(navigator.userAgent.toLowerCase())){  
+                W.location.href ='http://www.365rili.com/huodong/sport_plug/mobile/index.html';  
+            }  
+        })(window);
+		window.location="http://www.365rili.com";
+</script>  
+</body>
+</html>

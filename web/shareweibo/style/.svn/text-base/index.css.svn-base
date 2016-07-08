@@ -1,0 +1,110 @@
+body {
+    background: #f5f4f0;
+    color: #444;
+    font: 12px / 1.5em arial;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    border: 0;
+    vertical-align: top;
+}
+
+select, input {
+    font-size: 12px;
+}
+
+address, cite, code, em, th {
+    font-style: normal;
+    font-weight: normal;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+	table-layout:fixed;
+}
+.e_clear:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.e_clear {
+    display: inline-block;
+}
+
+.e_clear {
+    display: block;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+/*font-color*/
+.c_red{color:#ce6666;}
+.c_ede7db{color:#ad8e77;}
+
+.main{width:640px; height:960px; margin:0 auto;}
+.top{width:640px; height:96px; background:url(../images/top.jpg) no-repeat;}
+.content{padding:0 25px; height:864px;}
+.watermark{height:864px; width:640px; position:absolute; top:96px; left:50%; margin-left:-320px; background:url(../images/sign.png) repeat;}
+.pro,.company{background:url(../images/pro.jpg) no-repeat left top;}
+.al_date{height:158px; padding:15px 0; border-bottom:2px solid #cdc7ab;}
+.al_date h3{font-size:50px; font-family:黑体; color:#ce6666; height:79px; line-height:79px; padding-left:16px;}
+.al_date_content{padding-left:104px; height:76px; }
+.shu{background:url(../images/shu.png) no-repeat 16px top;}
+.niu{background:url(../images/niu.png) no-repeat 16px top;}
+.hu{background:url(../images/hu.png) no-repeat 16px top;}
+.tu{background:url(../images/tu.png) no-repeat 16px top;}
+.long{background:url(../images/long.png) no-repeat 16px top;}
+.she{background:url(../images/she.png) no-repeat 16px top;}
+.ma{background:url(../images/ma.png) no-repeat 16px top;}
+.yang{background:url(../images/yang.png) no-repeat 16px top;}
+.hou{background:url(../images/hou.png) no-repeat 16px top;}
+.zodiac_ji{background:url(../images/zodiac_ji.png) no-repeat 16px top;}
+.gou{background:url(../images/gou.png) no-repeat 16px top;}
+.zhu{background:url(../images/zhu.png) no-repeat 16px top;}
+.al_date_content p{line-height:38px; font-size:30px; font-family:黑体;}
+.yi{padding:20px 0 0 104px; min-height:55px; border-top:1px solid #ffffff; background:url(../images/yi.png) no-repeat 25px 20px; font-size:28px; font-family:黑体; line-height:30px; color:#679557;}
+.ji{padding:20px 0 0 104px; min-height:55px; background:url(../images/ji.png) no-repeat 25px 20px; font-size:28px; font-family:黑体; line-height:30px; color:#d88e25;}
+.pro yi h3,.pro ji h3,.company yi h3,.company ji h3{display:none;}
+.almanac_more{padding:20px 0 0 20px; font-size:28px; font-family:黑体;  color:#ad8e77; line-height:38px;}
+.almanac_more p{ padding-left:110px; text-indent:-110px;}
+.share_btn{display:block; width:217px; height:55px; margin:100px auto 0; background:url(../images/share_btn.png) no-repeat left top;}
+
+.loli{background:url(../images/loli.jpg) no-repeat;}
+.loli .al_date h3,.loli .al_date_content p{color:#bd3100;}
+.loli .yi{padding:20px 0 0 16px; background:none; color:#658f00;font-size:25px;}
+.loli .yi h3,.loli .ji h3{font-size:25px; color:#000; font-weight:500;}
+.loli .ji{padding:20px 0 0 16px; background:none; color:#f39a00;font-size:25px;}
+.loli .almanac_more p{font-size:25px; color:#00a5bd; padding-left:98px; text-indent:-98px;}
+.loli .share_btn{width:276px; background:url(../images/loli_btn.png) no-repeat left top; margin:30px 0 0 16px;}
+
+.otaku{background:url(../images/otaku.jpg) no-repeat;}
+.otaku .al_date h3,.otaku .al_date_content p{color:#fff;}
+.otaku .yi{padding:20px 0 0 16px; background:none; color:#658f00;font-size:25px;}
+.otaku .yi h3,.otaku .ji h3{font-size:25px; color:#fff; font-weight:500;}
+.otaku .ji{padding:20px 0 0 16px; background:none; color:#f39a00;font-size:25px;}
+.otaku .almanac_more p{font-size:25px; color:#ad8e77; padding-left:98px; text-indent:-98px;}
+.otaku .share_btn{width:276px; background:url(../images/otaku_btn.png) no-repeat left top; margin:30px 0 0 16px;}
+
+

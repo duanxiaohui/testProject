@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>上海半程马拉松赛</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">上海半程马拉松赛</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/0614d27a-d6c9-47ee-a623-44b6be2701da.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+			  <a class="btn js-subscribe" data-uuid="ddf14f41-8cbb-429a-85fe-7c414c74f2d2" data-cid="147514789">添加提醒</a>
+	    	
+	    	<p class="time">
+
+
+<b>比赛时间：2015年5月24日上午6:30
+</b></br>
+
+	    	<b>比赛地点：上海浦东陆家嘴</b></br><b>类型：全马</b></br>
+
+
+
+			</p>
+			<h3>比赛路线：</h3>
+			<p>半程路线：</br>
+丰和路（起点）→陆家嘴环路→银城中路→浦明路→世博大道→耀龙路→耀江路→德州路→耀龙路→耀龙路桥→泳耀路→前滩大道→前滩大道折返→桐晚路→春眺路→芋秋路→前滩大道→高青西路→高青西路晴雪路（折返）→高青西路→前滩大道→泳耀路→耀龙路→耀龙路春眺路（折返）→耀龙路→泳耀路→东方体育大厦（终点）
+女子8英里路线：</br>
+丰和路（起点）→陆家嘴环路→银城中路→浦明路→世博大道→耀龙路→耀江路→德州路→耀龙路→耀龙路桥→泳耀路→东方体育大厦（终点）
+</p> 
+			<!--h3是小标题-->
+			<h3>报名办法：
+</h3>
+			<!--p是段落文字描述-->
+			<p>1、报名时间：</br>
+2015年4月21日9:00至2015年4月25日17:00为预报名登记，4月28日9:00—4月30日17:00为付费时间。</br>
+2、报名方式：</br>
+登陆上马网www.shang-ma.com或手机上马APP进行在线报名。</br></br>
+具体详情以官方信息为准
+</p>
+
+<img src="http://cocoimg.365rili.com/schedule_pics/default/334eb60e-937b-46f4-ac01-dc444da7e2c2.jpg"/>
+<a href="http://www.shang-ma.com/" class="btn js-other">详见官网</a>
+		
+			 <div class="remind_div" data-uuid="ddf14f41-8cbb-429a-85fe-7c414c74f2d2" data-cid="147514789"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/0614d27a-d6c9-47ee-a623-44b6be2701da.jpg',
+                title: '上海半程马拉松赛',
+                desc: '上海国际马拉松赛、上马系列赛、上马俱乐部由上海东浩兰生赛事管理有限公司独家运营承办。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'shareTo',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '上海半程马拉松赛',
+		        				content: '上海国际马拉松赛、上马系列赛、上马俱乐部由上海东浩兰生赛事管理有限公司独家运营承办。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/0614d27a-d6c9-47ee-a623-44b6be2701da.jpg',
+		        				isEvent: false
+		        			})
+		        		},
+		        		{
+		        			name: 'channel',
+		        			value: 'wx'
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

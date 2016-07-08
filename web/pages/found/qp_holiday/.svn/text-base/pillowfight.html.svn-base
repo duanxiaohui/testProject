@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>把你打进温柔乡</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/pillowfight/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>国际枕头大战日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>想必大家一定在电视或者电影里看过“一帮好友拿着枕头互相打闹”这样温柔甜蜜中带着小暴力的镜头。感觉这种“打架”的方式既能减轻压力危险性又很小，参加这样的Party肯定会爽翻天！</p>
+            <img src="images/pillowfight/holiday_1.jpg"/>
+          
+
+            <h3>【来！战个痛快！】</h3>
+
+            <p>枕头大战在中国才刚刚起步，但是它是在欧美已经是一项非常流行的活动了。为什么要有这个活动呢？因为都市里的人们每天都坐在电视机或者电脑前，很少走出来与其他人接触。当然拥有着“成熟体系”的枕头大战，竟然也有比赛！枕头大战联盟枕头大战比赛一般会被安排在酒吧或是酒店的宴会厅里，规模不大却很热闹。每次比赛的门票如果预订是10美元一张，那到现场买的话则要花12美元。要求参与者携带软枕作为武器，而且不能变成因为愤怒就赤手空拳打人，也不准袭击手无“寸铁”者或“战地记者”，就是那些拍照的人啦！当然枕头混战的原则还是“不打不相识”，毕竟结交新朋友才是主要目的哟。不过，也有参与者一脸无辜地说：“我刚买了枕头经过这里，结果……”</p>
+
+            <img src="images/pillowfight/holiday_2.jpg"/>
+
+             <h3>【枕头战的来历】</h3>
+
+            <p>国际枕头大战日起源于网络快闪文化，它当时由“快闪族”通过互联网创立。快闪族（Flash mob）是一种通过互联网组织起来的群体。他们可能相互熟悉也可能一无所知，只是在指定时间、指定地点聚集在一起，然后同一时刻做出令人意想不到的古怪行为，接着几分钟后又迅速分散。2007年，旧金山Justin Herman广场和巴黎埃菲尔铁塔下就曾出现过1000人的枕头大战。作为“快闪运动”的一部分，短短几年，“枕头大战”已在很多国家流行起来，日渐受到各国人民欢迎。</p>	
+            <img src="images/pillowfight/holiday_3.jpg"/>		
+
+            <div class="tips">
+                <p>1、枕头大战虽然有趣，但是要记得它的原则“严禁暴力，不能伤害任何人”；</p>
+                <p>2、如果参加枕头大战的话，记得参战前摘掉眼镜，防止受伤。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/Vanna</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

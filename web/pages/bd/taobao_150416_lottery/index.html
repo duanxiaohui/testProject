@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>专享礼包</title>
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+    	<a href="javascript:;" class="active_info_btn">活动详情 &gt;</a>
+    	<div class="iphone">
+    		<div class="canvas" id="canvas">
+                <div class="canvas_layer"></div>
+                <p>划掉屏幕上的文字可刮奖</p>
+            </div>
+    	</div>
+    	<!--活动详情-->
+    	<div class="active_info middle none">
+    		<div class="active_info_div">
+    			<h3><a href="javascript:;" class="back_btn">&lt;返回</a> 活动详情</h3>
+	    		<p>1.中奖用户请按抽奖系统提示，提交手机号码即可领奖。</p>
+	    		<p>2.抽中大奖的用户请等待工作人员与您取得联系安排发奖。</p>
+				<p>3.本活动最终解释权归北京问日科技有限公司所有。</p>
+    		</div>
+    	</div>
+    	<!--输入手机号-->
+    	<div class="input_tel middle none">
+    		<div class="input_tel_div">
+    			<h3>请输入手机号码</h3>
+	    		<div class="input_div e_clear">
+	    			<input type="text" class="tel_input mobile" placeholder="请输入11位手机号码"/>
+	    			<a href="javascript:;" class="submit_btn">提交</a>
+	    		</div>
+    		</div>
+    	</div>
+    	<!--提交成功-->
+    	<div class="submit_suc middle none">
+    		<div class="submit_suc_div">
+    			<h3>提交成功</h3>
+    			<p>工作人员会在15个工作日内发送奖品<br/>请耐心等待</p>
+    		</div>
+    	</div>
+
+    	<div class="footer">
+    		<div class="footer_icon">
+    			<a href="javascript:;" class="s"></a>
+    			<a href="javascript:;" class="u"></a>
+    		</div>
+    		<p>— 特权活动 —</p>
+    	</div>
+    </div>
+    <input id="UID" type="hidden" >
+    <input id="PWD" type="hidden" >
+    <input id="MAC" type="hidden" >
+    <input id="VER" type="hidden" >
+<div style="display:none">
+</div>
+<script src="/js/jquery/jquery-1.8.3.min.js"></script>
+<script src="/js/lib/zepto.min.js"></script>
+<!-- <script src="/js/jquery/jquery-ui-1.9.0.custom.min.js"></script> -->
+<script src="/js/jquery/jquery.cookie.js"></script>
+<script src="js/Lottery.js"></script>
+<script>
+var lottery = {
+        config: {
+            w: $(window).width(),
+            h: $(window).height(),
+            key: '',
+            date: null,
+            dateStr: '',
+            UID: '0',
+            MAC: 'null',
+            canvasW:'',
+            canvasH:''
+
+        },
+        init:function(){
+        	var $w,$h,$iW,$iH,pro;
+			//手机四周的外围边距
+			var ipt,ipr,ipb,ipl,pw,ph;
+			//手机上边距
+			ipt = 160;
+			//手机右边距
+			ipr = 38;
+			//手机下边距
+			ipb = 130 
+			//手机左边距
+			ipl = 38
+			//手机原始宽度
+			pw = 448
+			//手机原始高度
+			ph = 932
+							
+			$w = $(window).width();
+			$h = $(window).height();
+			$iW = $w - ($w*0.1)*2;
+			$iH = $h - ($h*0.15)*2;
+
+			//原始宽高比
+			var Dratio = $w/$h;
+			//缩放后宽高比
+			var Sratio = $iW/$iH;
+			//算缩放比例
+			if(Dratio < Sratio){
+				pro = $iH/ph
+			
+			}
+
+			//缩放后的手机四周外围边距 和 手机高宽
+			var sIpt,sIpr,sIpb,sIpl,sPw,sPh;
+			sIpt = ipt*pro;
+			sIpr = ipr*pro;
+			sIpb = ipb*pro;
+			sIpl = ipl*pro;
+			sPw = pw*pro;
+			sPh = ph*pro;
+			var rdd = (sIpl - sIpr)*pro;
+
+			$('.iphone').css({
+				"width":$iW + 'px',
+				"height":$iH + 'px',
+				"left":$w*0.1 + 'px',
+				"top":$h*0.15 + 'px'
+			});
+			//canvas的区域为 手机宽高 — 手机四边距
+			var canvasW = lottery.config.canvasW = parseInt(sPw - sIpr - sIpl);
+			var canvasH = lottery.config.canvasH = parseInt(sPh - sIpt - sIpb);
+
+			$('.canvas').css({
+				"width":canvasW + "px",
+				"height":canvasH + "px",
+				"margin-top":sIpt + "px"
+			});
+
+			//垂直居中
+			var m = $(".middle");
+			m.each(function(_,o){
+				$(o).css({
+					"margin-top":-($(o).height()/2) + "px"
+				});
+			});
+			// var lottery_canvas = new Lottery('canvas', 'images/canvas_mask.jpg', 'image', canvasW, canvasH);
+   //          lottery_canvas.init('http://365rili.com/coco/images/help_v5_android/a1.png', 'image');
+
+            // document.getElementById('freshBtn').onclick = function() {
+            //     drawPercentNode.innerHTML = '0%';
+            //     lottery.init(getRandomStr(10), 'text');
+            // }
+
+            // var drawPercentNode = document.getElementById('drawPercent');
+        },
+        bindEvents:function(){
+        	var has3d = 'WebKitCSSMatrix' in window && 'm11' in new WebKitCSSMatrix();
+        	$('.submit_btn').on('click', function() {
+                var mobile = $('.mobile').val();
+                if(mobile == '') {
+                    alert('请填写完整的信息以便领取奖品。');
+                    $('body').scrollTop(0);
+                    return;
+                }
+                if(!(/^1[3|4|5|8][0-9]\d{4,8}$/.test(mobile))) {
+                    alert('请输入正确格式的手机号码！');
+                    $('body').scrollTop(0);
+                    return;
+                }
+                lottery.lotteryUser();
+            });
+            $('.input_tel').css({
+	                    '-webkit-transform': has3d ? "translate3d(200%,0,0)" : "translate(200%,0)",
+	                    '-webkit-transition': '200ms linear'
+	                });
+
+        	$('.active_info').css({
+                    '-webkit-transform': has3d ? "translate3d(-200%,0,0)" : "translate(-200%,0)",
+                    '-webkit-transition': '200ms linear'
+                });
+        	$('.active_info_btn').on('tap',function(){
+        		$('.active_info').removeClass("none");
+        		$('.active_info').css({
+                    '-webkit-transform': has3d ? "translate3d(0%,0,0)" : "translate(0%,0)",
+                    '-webkit-transition': '200ms linear'
+                });
+                $('.iphone:visible ,.active_info:visible.submit_suc:visible, .input_tel:visible').css({
+                    '-webkit-transform': has3d ? "translate3d(-200%,0,0)" : "translate(-200%,0)",
+                    '-webkit-transition': '200ms linear'
+                });
+        	})
+        	$('body').on('tap','.back_btn',function(){
+        		$('.active_info').css({
+                    '-webkit-transform': has3d ? "translate3d(-200%,0,0)" : "translate(-200%,0)",
+                    '-webkit-transition': '200ms linear'
+                });
+                $('.iphone:visible ,.active_info:visible.submit_suc:visible, .input_tel:visible').css({
+                    '-webkit-transform': has3d ? "translate3d(-0%,0,0)" : "translate(0%,0)",
+                    '-webkit-transition': '200ms linear'
+                });
+        	});
+        },
+        lotterTel:function () {
+            var has3d = 'WebKitCSSMatrix' in window && 'm11' in new WebKitCSSMatrix();
+            $('body').on('tap','.lotter_div',function(){
+                $('.input_tel').removeClass("none");
+                $('.input_tel').css({
+                    '-webkit-transform': has3d ? "translate3d(0%,0,0)" : "translate(0%,0)",
+                    '-webkit-transition': '200ms linear'
+                });
+                $('.iphone').addClass("none");
+                $('.iphone').css({
+                    '-webkit-transform': has3d ? "translate3d(-200%,0,0)" : "translate(-200%,0)",
+                    '-webkit-transition': '200ms linear'
+                });
+
+            });
+        },
+        getUserInfo: function() {
+            try {
+                if(/android/i.test(navigator.userAgent)) {
+                    lottery.config.UID = AliansBridge.getUserId();
+                    lottery.config.MAC = AliansBridge.getMac();
+                } else {
+                    setTimeout(function() {
+                        lottery.config.UID = document.getElementById('UID').value;
+                        lottery.config.MAC = document.getElementById('MAC').value;
+                    }, 500);
+                }
+            }catch(e) {
+                lottery.config.UID = 0;
+                lottery.config.MAC = 0;
+            }
+        },
+        getLottery: function() {
+        	if($.cookie('flag') == lottery.config.dateStr) {
+                    alert('每天只有一次刮奖机会，明天再来吧！');
+                    return;
+            }
+            if(lottery.config.UID == '') {
+                lottery.config.UID = 0;
+            }
+            if(lottery.config.MAC == '') {
+                lottery.config.MAC = 0;
+            }
+            $.ajax({
+                url: '/coop/lottery.do',
+                type: 'post',
+                dataType: 'json',
+                data: {
+                    deviceID: lottery.config.MAC,
+                    userID: lottery.config.UID,
+                    campaign:'ppuc0416'
+                },
+                success: function(data) {
+                    lottery.handleLottery(data);
+                }
+            });
+        },
+        handleLottery: function(data) {
+        	var lottery_canvas = new Lottery('canvas', 'images/canvas_mask.jpg', 'image', lottery.config.canvasW, lottery.config.canvasH,lottery.drawPercent);
+            if(data.prize == -1  || data.prize == 0) {
+                lottery_canvas.init('http://www.365rili.com/pages/bd/taobao_150416_lottery/images/prize.jpg', 'image');
+            }
+             if(data.prize > 0) {
+                lottery.config.key = data.key;
+            }
+            var prize = data.prize;
+            if(prize == 1){
+                lottery_canvas.init('http://www.365rili.com/pages/bd/taobao_150416_lottery/images/prize_1.jpg', 'image');
+                lottery.lotterTel();
+            }else if(prize == 2){
+                lottery_canvas.init('http://www.365rili.com/pages/bd/taobao_150416_lottery/images/prize_2.jpg', 'image');
+                lottery.lotterTel();
+            }else if(prize == 3){
+                lottery_canvas.init('http://www.365rili.com/pages/bd/taobao_150416_lottery/images/prize_3.jpg', 'image');
+                lottery.lotterTel();
+            }
+            $.cookie('flag', lottery.config.dateStr, {expires: 365});
+        },
+        lotteryUser: function() {
+            $.ajax({
+                url: '/coop/lottery_user.do',
+                type: 'post',
+                dataType: 'json',
+                data: {
+                    phone: $('.mobile').val(),
+                    key: lottery.config.key
+                },
+                success: function(data) {
+                    if(data.state == 'ok') {
+                        $('.input_tel').addClass('none');
+                		$('.submit_suc').removeClass('none');
+                    }else{
+                        alert('服务器繁忙,请稍后重试!');
+                    }
+                }
+            });
+        },
+        drawPercent:function (percent) {
+        	if(percent > 35){
+        		$('.mask_layer').css({
+        			"display":"none"
+        		})
+        	}
+        }
+    };
+	$(function(){
+		var date = new Date(),
+            dateStr = date.getFullYear() + '-' + (date.getMonth()+1) + '-' + date.getDate();
+        lottery.config.date = date;
+        lottery.config.dateStr = dateStr;
+        lottery.init();
+        lottery.bindEvents();
+        lottery.getUserInfo();
+        lottery.getLottery();
+	})	
+</script>
+</body>
+</html>

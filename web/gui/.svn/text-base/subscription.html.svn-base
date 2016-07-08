@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="style/subscription.css" media="screen" />
+</head>
+<body>
+<div class="subscription">
+	<h2><a href="javascript:;" class="subscription_btn">开始使用</a>订阅精彩日历</h2>
+	<ul>
+		<li>
+			<div class="img"><img src="images/subscription/pinpai.jpg"/></div>
+			<div class="text">
+				<h3>品牌特卖</h3>
+				<p>聚合热门品牌的限时特卖信息</p>
+				<p>网购的必备神器</p>
+				<div class="checkbox"><span></span></div>
+			</div>
+		</li>
+		<li>
+			<div class="img"><img src="images/subscription/move.jpg"/></div>
+			<div class="text">
+				<h3>品牌特卖</h3>
+				<p>聚合热门品牌的限时特卖信息</p>
+				<p>网购的必备神器</p>
+				<div class="checkbox"><span></span></div>
+			</div>
+		</li>
+		<li>
+			<div class="img"><img src="images/subscription/3w.jpg"/></div>
+			<div class="text">
+				<h3>品牌特卖</h3>
+				<p>聚合热门品牌的限时特卖信息</p>
+				<p>网购的必备神器</p>
+				<div class="checkbox"><span></span></div>
+			</div>
+		</li>
+		<li>
+			<div class="img"><img src="images/subscription/guoke.jpg"/></div>
+			<div class="text">
+				<h3>品牌特卖</h3>
+				<p>聚合热门品牌的限时特卖信息</p>
+				<p>网购的必备神器</p>
+				<div class="checkbox"><span></span></div>
+			</div>
+		</li>
+		<li>
+			<div class="img"><img src="images/subscription/jd.jpg"/></div>
+			<div class="text">
+				<h3>品牌特卖</h3>
+				<p>聚合热门品牌的限时特卖信息</p>
+				<p>网购的必备神器</p>
+				<div class="checkbox"><span></span></div>
+			</div>
+		</li>
+		<li>
+			<div class="img"><img src="images/subscription/zongyi.jpg"/></div>
+			<div class="text">
+				<h3>品牌特卖</h3>
+				<p>聚合热门品牌的限时特卖信息</p>
+				<p>网购的必备神器</p>
+				<div class="checkbox"><span></span></div>
+			</div>
+		</li>
+		<li>
+			<div class="img"><img src="images/subscription/lefeng.jpg"/></div>
+			<div class="text">
+				<h3>品牌特卖</h3>
+				<p>聚合热门品牌的限时特卖信息</p>
+				<p>网购的必备神器</p>
+				<div class="checkbox"><span></span></div>
+			</div>
+		</li>
+		<li>
+			<div class="img"><img src="images/subscription/dianjing.jpg"/></div>
+			<div class="text">
+				<h3>品牌特卖</h3>
+				<p>聚合热门品牌的限时特卖信息</p>
+				<p>网购的必备神器</p>
+				<div class="checkbox"><span></span></div>
+			</div>
+		</li>
+	</ul>
+</div>
+
+<script type="text/javascript" src="/js/jquery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/js/jquery/jquery-ui-1.9.2.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/jquery.jscrollpane.js"></script>
+<script type="text/javascript" src="js/protocol.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/lunar.js"></script>
+<script type="text/javascript" src="js/calendar.js"></script>
+</body>
+</html>

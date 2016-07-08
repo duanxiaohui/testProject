@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<title>2015年CBA总决赛赛程</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main_20150316.css" rel="stylesheet">
+</head>
+<body class="">
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015年CBA总决赛赛程</div>
+    </div>
+    <div class="main">
+    	<div class="main_content">
+		    <img src="http://cocoimg.365rili.com/schedule_pics/default/b54f5a99-d45e-4c72-9639-5e87390c974e.jpg"/>  
+    		<!-- 对战信息 -->
+			<div class="vs e_clear">
+				<table style="width:100%">
+					<tr>
+						<td style="text-align: center;">
+							<div class="left_logo"style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/4762d2df-6928-42cb-b44a-44d3745a12db.jpg) 2x);"></div>
+							<span>北京首钢</span>
+						</td>
+						<td style="vertical-align: middle;">
+							<div class="vs_txt">
+								<!-- h3里面的内容是比分显示 或者 是VS -->
+								<h3>VS</h3>
+								<!-- p标签里面是日期时间显示 -->
+								<p>03-17 20:00</p>
+							</div>
+						</td>
+						<td style="text-align: center;">
+							<div class="right_logo" style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/be4b53c2-1018-4af3-8328-6bc5ff38f414.jpg) 2x);"></div>
+							<span>辽宁本溪</span>
+						</td>
+					</tr>
+				</table>
+				<!--战队logo尺寸82*82  url(这里是战队logo)-->
+			</div>
+			<p> </p>
+			<h3>比赛场次：总决赛第四场</h3>
+			<p> </p>
+			<h3>比赛球馆：北京万事达中心</h3>
+			<p> </p>
+			<h3>直播信息：CCTV5 北京体育</h3>
+			<p> </p>
+            <!-- 添加提醒的按钮 -->
+            <a class="btn js-subscribe" data-uuid="ef567a7c-d46c-453e-aedb-85e737a542dd" data-cid="266087825">添加提醒</a>
+			<p class="remind_div"> </P>
+			<!-- 对战信息 -->
+			<div class="vs e_clear">
+				<table style="width:100%">
+					<tr>
+						<td style="text-align: center;">
+							<div class="left_logo"style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/4762d2df-6928-42cb-b44a-44d3745a12db.jpg) 2x);"></div>
+							<span>北京首钢</span>
+						</td>
+						<td style="vertical-align: middle;">
+							<div class="vs_txt">
+								<!-- h3里面的内容是比分显示 或者 是VS -->
+								<h3>VS</h3>
+								<!-- p标签里面是日期时间显示 -->
+								<p>03-19 19:35</p>
+							</div>
+						</td>
+						<td style="text-align: center;">
+							<div class="right_logo" style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/be4b53c2-1018-4af3-8328-6bc5ff38f414.jpg) 2x);"></div>
+							<span>辽宁本溪</span>
+						</td>
+					</tr>
+				</table>
+				<!--战队logo尺寸82*82  url(这里是战队logo)-->
+			</div>
+			<p> </p>
+			<h3>比赛场次：总决赛第五场</h3>
+			<p> </p>
+			<h3>比赛球馆：北京万事达中心</h3>
+			<p> </p>
+			<h3>直播信息：CCTV5 北京体育</h3>
+			<p> </p>
+            <!-- 添加提醒的按钮 -->
+            <a class="btn js-subscribe" data-uuid="034e8ab5-f681-450e-873d-7179cffbaeb5" data-cid="266087825">添加提醒</a>
+			<p class="remind_div"> </P>
+			<!-- 对战信息 -->
+			<div class="vs e_clear">
+				<table style="width:100%">
+					<tr>
+						<td style="text-align: center;">
+							<div class="left_logo"style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/be4b53c2-1018-4af3-8328-6bc5ff38f414.jpg) 2x);"></div>
+							<span>辽宁本溪</span>
+						</td>
+						<td style="vertical-align: middle;">
+							<div class="vs_txt">
+								<!-- h3里面的内容是比分显示 或者 是VS -->
+								<h3>VS</h3>
+								<!-- p标签里面是日期时间显示 -->
+								<p>03-22 19:35</p>
+							</div>
+						</td>
+						<td style="text-align: center;">
+							<div class="right_logo" style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/4762d2df-6928-42cb-b44a-44d3745a12db.jpg) 2x);"></div>
+							<span>北京首钢</span>
+						</td>
+					</tr>
+				</table>
+				<!--战队logo尺寸82*82  url(这里是战队logo)-->
+			</div>
+			<p> </p>
+			<h3>比赛场次：总决赛第六场</h3>
+			<p> </p>
+			<h3>比赛球馆：辽宁本溪体育场</h3>
+			<p> </p>
+			<h3>直播信息：CCTV5 北京体育</h3>
+			<p> </p>
+            <!-- 添加提醒的按钮 -->
+            <a class="btn js-subscribe" data-uuid="991d39e2-8ca8-4fed-902a-febf9634efe3" data-cid="266087825">添加提醒</a>
+			<p class="remind_div"> </P>
+			<!-- 对战信息 -->
+			<div class="vs e_clear">
+				<table style="width:100%">
+					<tr>
+						<td style="text-align: center;">
+							<div class="left_logo"style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/be4b53c2-1018-4af3-8328-6bc5ff38f414.jpg) 2x);"></div>
+							<span>辽宁本溪</span>
+						</td>
+						<td style="vertical-align: middle;">
+							<div class="vs_txt">
+								<!-- h3里面的内容是比分显示 或者 是VS -->
+								<h3>VS</h3>
+								<!-- p标签里面是日期时间显示 -->
+								<p>03-24 19:35</p>
+							</div>
+						</td>
+						<td style="text-align: center;">
+							<div class="right_logo" style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/4762d2df-6928-42cb-b44a-44d3745a12db.jpg) 2x);"></div>
+							<span>北京首钢</span>
+						</td>
+					</tr>
+				</table>
+				<!--战队logo尺寸82*82  url(这里是战队logo)-->
+			</div>
+			<p> </p>
+			<h3>比赛场次：总决赛第七场</h3>
+			<p> </p>
+			<h3>比赛球馆：辽宁本溪体育场</h3>
+			<p> </p>
+			<h3>直播信息：CCTV5 北京体育</h3>
+			<p> </p>
+            <!-- 添加提醒的按钮 -->
+            <a class="btn js-subscribe" data-uuid="c63dee47-ea63-43af-95d3-26ad346342c1" data-cid="266087825">添加提醒</a>
+			<p class="remind_div"> </P>
+			<!-- 对战信息 -->
+			<div class="vs e_clear">
+				<table style="width:100%">
+					<tr>
+						<td style="text-align: center;">
+							<div class="left_logo"style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/4762d2df-6928-42cb-b44a-44d3745a12db.jpg) 2x);"></div>
+							<span>北京首钢</span>
+						</td>
+						<td style="vertical-align: middle;">
+							<div class="vs_txt">
+								<!-- h3里面的内容是比分显示 或者 是VS -->
+								<h3>VS</h3>
+								<!-- p标签里面是日期时间显示 -->
+								<p>03-15 19:35</p>
+							</div>
+						</td>
+						<td style="text-align: center;">
+							<div class="right_logo" style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/be4b53c2-1018-4af3-8328-6bc5ff38f414.jpg) 2x);"></div>
+							<span>辽宁本溪</span>
+						</td>
+					</tr>
+				</table>
+				<!--战队logo尺寸82*82  url(这里是战队logo)-->
+			</div>
+			<p> </p>
+			<h3>比赛结果：108:109</h3>
+			<p> </p>
+			<h3>比赛场次：总决赛第三场</h3>
+			<p> </p>
+			<h3>比赛球馆：北京万事达中心</h3>
+			<p> </p>
+			<h3>总比分：辽宁本溪 2:1 北京首钢</h3>
+			<p> </p>
+			<p class="remind_div"> </P>
+			<!-- 对战信息 -->
+			<div class="vs e_clear">
+				<table style="width:100%">
+					<tr>
+						<td style="text-align: center;">
+							<div class="left_logo"style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/be4b53c2-1018-4af3-8328-6bc5ff38f414.jpg) 2x);"></div>
+							<span>辽宁本溪</span>
+						</td>
+						<td style="vertical-align: middle;">
+							<div class="vs_txt">
+								<!-- h3里面的内容是比分显示 或者 是VS -->
+								<h3>VS</h3>
+								<!-- p标签里面是日期时间显示 -->
+								<p>03-12 19:35</p>
+							</div>
+						</td>
+						<td style="text-align: center;">
+							<div class="right_logo" style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/4762d2df-6928-42cb-b44a-44d3745a12db.jpg) 2x);"></div>
+							<span>北京首钢</span>
+						</td>
+					</tr>
+				</table>
+				<!--战队logo尺寸82*82  url(这里是战队logo)-->
+			</div>
+			<p> </p>
+			<h3>比赛结果：108:94</h3>
+			<p> </p>
+			<h3>比赛场次：总决赛第二场</h3>
+			<p> </p>
+			<h3>比赛球馆：辽宁本溪体育场</h3>
+			<p> </p>
+			<h3>总比分：辽宁本溪 1:1 北京首钢</h3>
+			<p> </p>
+			<p class="remind_div"> </P>
+			<!-- 对战信息 -->
+			<div class="vs e_clear">
+				<table style="width:100%">
+					<tr>
+						<td style="text-align: center;">
+							<div class="left_logo"style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/be4b53c2-1018-4af3-8328-6bc5ff38f414.jpg) 2x);"></div>
+							<span>辽宁本溪</span>
+						</td>
+						<td style="vertical-align: middle;">
+							<div class="vs_txt">
+								<!-- h3里面的内容是比分显示 或者 是VS -->
+								<h3>VS</h3>
+								<!-- p标签里面是日期时间显示 -->
+								<p>03-10 19:35</p>
+							</div>
+						</td>
+						<td style="text-align: center;">
+							<div class="right_logo" style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/4762d2df-6928-42cb-b44a-44d3745a12db.jpg) 2x);"></div>
+							<span>北京首钢</span>
+						</td>
+					</tr>
+				</table>
+				<!--战队logo尺寸82*82  url(这里是战队logo)-->
+			</div>
+			<p> </p>
+			<h3>比赛结果：84:103</h3>
+			<p> </p>
+			<h3>比赛场次：总决赛第一场</h3>
+			<p> </p>
+			<h3>比赛球馆：辽宁本溪体育场</h3>
+			<p> </p>
+			<h3>总比分：辽宁本溪 0:1 北京首钢</h3>
+			<p> </p>
+			<p class="remind_div"> </P>
+	    	<h3>CBA简介：</h3>
+			<p>中国男子篮球职业联赛（即CBA，英文全称China Basketball Association），简称中国篮球协会，是由中国篮球协会所主办的跨年度主客场制篮球联赛，中国最高等级的篮球联赛。其中诞生了如姚明、王治郅、易建联、朱芳雨等球星。CBA在1995-1996赛季由555香烟取得联赛的冠名权，1996-1997赛季到2000-2001赛季为希尔顿中国男子篮球甲级联赛，之后摩托罗拉和联通新时空分别取得过联赛的冠名权，联赛在2005年正式更名为中国男子篮球职业联赛。2013年吸收四川队队伍扩充为18支。2014-2015赛季CBA球队数量由18支增加到20支。</p>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/3d6c7065-c53f-4c06-b707-a4fc447ba099.jpg',
+                title: '2015年CBA总决赛赛程',
+                desc: 'duang~duang~京辽大战火热进行中，谁将是最后赢家？一起期待！'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015年CBA总决赛赛程',
+		        				content: 'duang~duang~京辽大战火热进行中，谁将是最后赢家？一起期待！',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/3d6c7065-c53f-4c06-b707-a4fc447ba099.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

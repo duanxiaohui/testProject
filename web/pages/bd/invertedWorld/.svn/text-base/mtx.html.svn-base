@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>365日历 - 反转世界</title>
+<meta name="format-detection" content="telephone=no">
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<script>document.documentElement.style.webkitUserSelect='none';document.documentElement.style.webkitTouchCallout='none';</script>
+<link rel="stylesheet" href="/pages/ui-lib/css/ui-lib.css">
+<link rel="stylesheet" href="/pages/bd/invertedWorld/style/main.css">
+</head>
+<body class="bg bg1">
+	<div class="musicBtn none">
+		<a href="javascript:;" class="animated infinite rotate1"></a>
+	</div>
+	<div onclick="_hmt.push(['_trackEvent', '反转世界', '点击', '分享', '分享'])" class="shareBtn none"></div>
+
+	<div class="loading none">
+		<div class="loadingIcon halfOP">
+		</div>
+		<div class="loadingIcon animated infinite"></div>
+		<p class="loadingTxt"><span>0</span></p>
+	</div>
+	
+	<script id="tmpl" type="text/tmpl">
+		<div class="main none">
+			<div class='setup1 center none'>
+				<div>
+					<img class="house" src="/pages/bd/invertedWorld/images/house.png" width="340" alt="">
+				</div>
+
+				<div>
+					<img class="indexTxt" src="/pages/bd/invertedWorld/images/indexTxt.png" alt="" width="241">
+				</div>
+
+				<div>
+					<img src="/pages/bd/invertedWorld/images/indexIcon.png" width="63" alt="" class="indexIcon animated tada infinite">
+				</div>
+				<div>
+					<img src="/pages/bd/invertedWorld/images/indexTip.png" width="323" alt="" class="indexTip">
+				</div>
+			</div>
+			<div class="setup2 center none">
+				<img src="/pages/bd/invertedWorld/images/setup2Txt.png" class="setup2Txt animated" width="205" alt="">
+				<table>
+					<tr>
+						<td><a class="inType1" onclick="_hmt.push(['_trackEvent', '反转世界', '点击', '入口', '娱乐'])" href="javascript:;"><img class="animated" src="/pages/bd/invertedWorld/images/ylstar.png" width="100%" /></a></td>
+						<td><a class="inType2" onclick="_hmt.push(['_trackEvent', '反转世界', '点击', '入口', '国内'])" href="javascript:;"><img class="animated" src="/pages/bd/invertedWorld/images/gnstar.png" width="100%" /></a></td>
+						<td><a class="inType3" onclick="_hmt.push(['_trackEvent', '反转世界', '点击', '入口', '国际'])" href="javascript:;"><img class="animated" src="/pages/bd/invertedWorld/images/gjstar.png" width="100%" /></a></td>
+					</tr>
+				</table>
+			</div>
+
+			<div class="setup3 none full">
+				<div class="full type type1">
+					<div class="full event event2">
+						<div class="full setupgray">
+							<div class="photo">
+								<img src="/pages/bd/invertedWorld/images/type1event1gray.jpg" width="100%" alt="">
+								<div class="eventName"><img src="/pages/bd/invertedWorld/images/type1event1Name.png" height="15" alt=""></div>
+								<div class="eventTime"><img src="/pages/bd/invertedWorld/images/type1event1Time.png" height="15" alt=""></div>
+							</div>
+							<div class="light">
+								<div class="lightBig animated infinite"></div>
+								<div class="lightSmall animated infinite"></div>
+							</div>
+							<div class="eventText">
+								<img class="animated et" src="/pages/bd/invertedWorld/images/type1event1grayText.png" width="272" alt="">
+								<div class="xz">
+									<img class="animated infinite" src="/pages/bd/invertedWorld/images/XZ.png" alt="" width="56">
+								</div>
+							</div>
+						</div>
+						<div class="full setupcolor">
+							<div class="photo">
+								<img src="/pages/bd/invertedWorld/images/type1event1color.jpg" width="100%" alt="">
+								<div class="eventTime"><img src="/pages/bd/invertedWorld/images/type1event1Time.png" height="15" alt=""></div>
+							</div>
+							<div class="light">
+								<div class="lightBig animated infinite"></div>
+								<div class="lightSmall animated infinite"></div>
+							</div>
+							<div class="eventText">
+								<img class="animated et" src="/pages/bd/invertedWorld/images/type1event1colorText.png" width="325" alt="">
+								<div class="xz">
+									<img class="animated infinite" src="/pages/bd/invertedWorld/images/XZ.png" alt="" width="56">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="full event event1">
+						<div class="full setupgray">
+							<div class="photo">
+								<img src="/pages/bd/invertedWorld/images/type1event2gray.jpg" width="100%" alt="">
+								<div class="eventName"><img src="/pages/bd/invertedWorld/images/type1event2Name.png" height="15" alt=""></div>
+								<div class="eventTime"><img src="/pages/bd/invertedWorld/images/type1event2Time.png" height="15" alt=""></div>
+							</div>
+							<div class="light">
+								<div class="lightBig animated infinite"></div>
+								<div class="lightSmall animated infinite"></div>
+							</div>
+							<div class="eventText">
+								<img class="animated et" src="/pages/bd/invertedWorld/images/type1event2grayText.png" width="318" alt="">
+								<div class="xz">
+									<img class="animated infinite" src="/pages/bd/invertedWorld/images/XZ.png" alt="" width="56">
+								</div>
+							</div>
+						</div>
+						<div class="full setupcolor">
+							<div class="photo">
+								<img src="/pages/bd/invertedWorld/images/type1event2color.jpg" width="100%" alt="">
+								<div class="eventTime"><img src="/pages/bd/invertedWorld/images/type1event2Time.png" height="15" alt=""></div>
+							</div>
+							<div class="light">
+								<div class="lightBig animated infinite"></div>
+								<div class="lightSmall animated infinite"></div>
+							</div>
+							<div class="eventText">
+								<img class="animated et" src="/pages/bd/invertedWorld/images/type1event2colorText.png" width="332" alt="">
+								<div class="xz">
+									<img class="animated infinite" src="/pages/bd/invertedWorld/images/XZ.png" alt="" width="56">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="full event event3">
+						<div class="full setupgray">
+							<div class="photo">
+								<img src="/pages/bd/invertedWorld/images/type1event3gray.jpg" width="100%" alt="">
+								<div class="eventName"><img src="/pages/bd/invertedWorld/images/type1event3Name.png" height="15" alt=""></div>
+								<div class="eventTime"><img src="/pages/bd/invertedWorld/images/type1event3Time.png" height="15" alt=""></div>
+							</div>
+							<div class="light">
+								<div class="lightBig animated infinite"></div>
+								<div class="lightSmall animated infinite"></div>
+							</div>
+							<div class="eventText">
+								<img class="animated et" src="/pages/bd/invertedWorld/images/type1event3grayText.png" width="332" alt="">
+								<div class="xz">
+									<img class="animated infinite" src="/pages/bd/invertedWorld/images/XZ.png" alt="" width="56">
+								</div>
+							</div>
+						</div>
+						<div class="full setupcolor">
+							<div class="photo">
+								<img src="/pages/bd/invertedWorld/images/type1event3color.jpg" width="100%" alt="">
+								<div class="eventTime"><img src="/pages/bd/invertedWorld/images/type1event3Time.png" height="15" alt=""></div>
+							</div>
+							<div class="light">
+								<div class="lightBig animated infinite"></div>
+								<div class="lightSmall animated infinite"></div>
+							</div>
+							<div class="eventText">
+								<img class="animated et" src="/pages/bd/invertedWorld/images/type1event3colorText.png" width="325" alt="">
+								<div class="xz">
+									<img class="animated infinite" src="/pages/bd/invertedWorld/images/XZ.png" alt="" width="56">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="full type type2">
+					<div class="full event event2">
+						<div class="full setupgray">
+							<div class="photo">
+								<img src="/pages/bd/invertedWorld/images/type2event1gray.jpg" width="100%" alt="">
+								<div class="eventName"><img src="/pages/bd/invertedWorld/images/type2event1Name.png" height="15" alt=""></div>
+								<div class="eventTime"><img src="/pages/bd/invertedWorld/images/type2event1Time.png" height="15" alt=""></div>
+							</div>
+							<div class="light">
+								<div class="lightBig animated infinite"></div>
+								<div class="lightSmall animated infinite"></div>
+							</div>
+							<div class="eventText">
+								<img class="animated et" src="/pages/bd/invertedWorld/images/type2event1grayText.png" width="296" alt="">
+								<div class="xz">
+									<img class="animated infinite" src="/pages/bd/invertedWorld/images/XZ.png" alt="" width="56">
+								</div>
+							</div>
+						</div>
+						<div class="full setupcolor">
+							<div class="photo">
+								<img src="/pages/bd/invertedWorld/images/type2event1color.jpg" width="100%" alt="">
+								<div class="eventTime"><img src="/pages/bd/invertedWorld/images/type2event1Time.png" height="15" alt=""></div>
+							</div>
+							<div class="light">
+								<div class="lightBig animated infinite"></div>
+								<div class="lightSmall animated infinite"></div>
+							</div>
+							<div class="eventText">
+								<img class="animated et" src="/pages/bd/invertedWorld/images/type2event1colorText.png" width="332" alt="">
+								<div class="xz">
+									<img class="animated infinite" src="/pages/bd/invertedWorld/images/XZ.png" alt="" width="56">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="full event event1">
+						<div class="full setupgray">
+							<div class="photo">
+								<img src="/pages/bd/invertedWorld/images/type2event2gray.jpg" width="100%" alt="">
+								<div class="eventName"><img src="/pages/bd/invertedWorld/images/type2event2Name.png" height="15" alt=""></div>
+								<div class="eventTime"><img src="/pages/bd/invertedWorld/images/type2event2Time.png" height="15" alt=""></div>
+							</div>
+							<div class="light">
+								<div class="lightBig animated infinite"></div>
+								<div class="lightSmall animated infinite"></div>
+							</div>
+							<div class="eventText">
+								<img class="animated et" src="/pages/bd/invertedWorld/images/type2event2grayText.png" width="238" alt="">
+								<div class="xz">
+									<img class="animated infinite" src="/pages/bd/invertedWorld/images/XZ.png" alt="" width="56">
+								</div>
+							</div>
+						</div>
+						<div class="full setupcolor">
+							<div class="photo">
+								<img src="/pages/bd/invertedWorld/images/type2event2color.jpg" width="100%" alt="">
+								<div class="eventTime"><img src="/pages/bd/invertedWorld/images/type2event2Time.png" height="15" alt=""></div>
+							</div>
+							<div class="light">
+								<div class="lightBig animated infinite"></div>
+								<div class="lightSmall animated infinite"></div>
+							</div>
+							<div class="eventText">
+								<img class="animated et" src="/pages/bd/invertedWorld/images/type2event2colorText.png" width="325" alt="">
+								<div class="xz">
+									<img class="animated infinite" src="/pages/bd/invertedWorld/images/XZ.png" alt="" width="56">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="full event event3">
+						<div class="full setupgray">
+							<div class="photo">
+								<img src="/pages/bd/invertedWorld/images/type2event3gray.jpg" width="100%" alt="">
+								<div class="eventName"><img src="/pages/bd/invertedWorld/images/type2event3Name.png" height="15" alt=""></div>
+								<div class="eventTime"><img src="/pages/bd/invertedWorld/images/type2event3Time.png" height="15" alt=""></div>
+							</div>
+							<div class="light">
+								<div class="lightBig animated infinite"></div>
+								<div class="lightSmall animated infinite"></div>
+							</div>
+							<div class="eventText">
+								<img class="animated et" src="/pages/bd/invertedWorld/images/type2event3grayText.png" width="281" alt="">
+								<div class="xz">
+									<img class="animated infinite" src="/pages/bd/invertedWorld/images/XZ.png" alt="" width="56">
+								</div>
+							</div>
+						</div>
+						<div class="full setupcolor">
+							<div class="photo">
+								<img src="/pages/bd/invertedWorld/images/type2event3color.jpg" width="100%" alt="">
+								<div class="eventTime"><img src="/pages/bd/invertedWorld/images/type2event3Time.png" height="15" alt=""></div>
+							</div>
+							<div class="light">
+								<div class="lightBig animated infinite"></div>
+								<div class="lightSmall animated infinite"></div>
+							</div>
+							<div class="eventText">
+								<img class="animated et" src="/pages/bd/invertedWorld/images/type2event3colorText.png" width="354" alt="">
+								<div class="xz">
+									<img class="animated infinite" src="/pages/bd/invertedWorld/images/XZ.png" alt="" width="56">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="full type type3">
+					<div class="full event event2">
+						<div class="full setupgray">
+							<div class="photo">
+								<img src="/pages/bd/invertedWorld/images/type3event1gray.jpg" width="100%" alt="">
+								<div class="eventName"><img src="/pages/bd/invertedWorld/images/type3event1Name.png" height="15" alt=""></div>
+								<div class="eventTime"><img src="/pages/bd/invertedWorld/images/type3event1Time.png" height="15" alt=""></div>
+							</div>
+							<div class="light">
+								<div class="lightBig animated infinite"></div>
+								<div class="lightSmall animated infinite"></div>
+							</div>
+							<div class="eventText">
+								<img class="animated et" src="/pages/bd/invertedWorld/images/type3event1grayText.png" width="261" alt="">
+								<div class="xz">
+									<img class="animated infinite" src="/pages/bd/invertedWorld/images/XZ.png" alt="" width="56">
+								</div>
+							</div>
+						</div>
+						<div class="full setupcolor">
+							<div class="photo">
+								<img src="/pages/bd/invertedWorld/images/type3event1color.jpg" width="100%" alt="">
+								<div class="eventTime"><img src="/pages/bd/invertedWorld/images/type3event1Time.png" height="15" alt=""></div>
+							</div>
+							<div class="light">
+								<div class="lightBig animated infinite"></div>
+								<div class="lightSmall animated infinite"></div>
+							</div>
+							<div class="eventText">
+								<img class="animated et" src="/pages/bd/invertedWorld/images/type3event1colorText.png" width="311" alt="">
+								<div class="xz">
+									<img class="animated infinite" src="/pages/bd/invertedWorld/images/XZ.png" alt="" width="56">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="full event event1">
+						<div class="full setupgray">
+							<div class="photo">
+								<img src="/pages/bd/invertedWorld/images/type3event2gray.jpg" width="100%" alt="">
+								<div class="eventName"><img src="/pages/bd/invertedWorld/images/type3event2Name.png" height="15" alt=""></div>
+								<div class="eventTime"><img src="/pages/bd/invertedWorld/images/type3event2Time.png" height="15" alt=""></div>
+							</div>
+							<div class="light">
+								<div class="lightBig animated infinite"></div>
+								<div class="lightSmall animated infinite"></div>
+							</div>
+							<div class="eventText">
+								<img class="animated et" src="/pages/bd/invertedWorld/images/type3event2grayText.png" width="332" alt="">
+								<div class="xz">
+									<img class="animated infinite" src="/pages/bd/invertedWorld/images/XZ.png" alt="" width="56">
+								</div>
+							</div>
+						</div>
+						<div class="full setupcolor">
+							<div class="photo">
+								<img src="/pages/bd/invertedWorld/images/type3event2color.jpg" width="100%" alt="">
+								<div class="eventTime"><img src="/pages/bd/invertedWorld/images/type3event2Time.png" height="15" alt=""></div>
+							</div>
+							<div class="light">
+								<div class="lightBig animated infinite"></div>
+								<div class="lightSmall animated infinite"></div>
+							</div>
+							<div class="eventText">
+								<img class="animated et" src="/pages/bd/invertedWorld/images/type3event2colorText.png" width="538" alt="">
+								<div class="xz">
+									<img class="animated infinite" src="/pages/bd/invertedWorld/images/XZ.png" alt="" width="56">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="full event event3">
+						<div class="full setupgray">
+							<div class="photo">
+								<img src="/pages/bd/invertedWorld/images/type3event3gray.jpg" width="100%" alt="">
+								<div class="eventName"><img src="/pages/bd/invertedWorld/images/type3event3Name.png" height="15" alt=""></div>
+								<div class="eventTime"><img src="/pages/bd/invertedWorld/images/type3event3Time.png" height="15" alt=""></div>
+							</div>
+							<div class="light">
+								<div class="lightBig animated infinite"></div>
+								<div class="lightSmall animated infinite"></div>
+							</div>
+							<div class="eventText">
+								<img class="animated et" src="/pages/bd/invertedWorld/images/type3event3grayText.png" width="300" alt="">
+								<div class="xz">
+									<img class="animated infinite" src="/pages/bd/invertedWorld/images/XZ.png" alt="" width="56">
+								</div>
+							</div>
+						</div>
+						<div class="full setupcolor">
+							<div class="photo">
+								<img src="/pages/bd/invertedWorld/images/type3event3color.jpg" width="100%" alt="">
+								<div class="eventTime"><img src="/pages/bd/invertedWorld/images/type3event3Time.png" height="15" alt=""></div>
+							</div>
+							<div class="light">
+								<div class="lightBig animated infinite"></div>
+								<div class="lightSmall animated infinite"></div>
+							</div>
+							<div class="eventText">
+								<img class="animated et" src="/pages/bd/invertedWorld/images/type3event3colorText.png" width="286" alt="">
+								<div class="xz">
+									<img class="animated infinite" src="/pages/bd/invertedWorld/images/XZ.png" alt="" width="56">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="end none">
+				<img width="276" src="/pages/bd/invertedWorld/images/2016.png" alt="" class="w2016 animated">
+				<img width="346" src="/pages/bd/invertedWorld/images/english.png" alt="" class="english">
+				<img width="86" src="/pages/bd/invertedWorld/images/back.png" alt="" class="back animated flashQ infinite">
+				<img width="86" src="/pages/bd/invertedWorld/images/back.png" alt="" class="back halfOP">
+				<img width="62" src="/pages/bd/invertedWorld/images/logo.png" alt="" class="logo">
+
+				<div class="line">
+					<img width="472" src="/pages/bd/invertedWorld/images/line1.png" alt="" class="line1 animated">
+					<img width="440" src="/pages/bd/invertedWorld/images/line2.png" alt="" class="line2 animated">
+					<img width="394" src="/pages/bd/invertedWorld/images/line3.png" alt="" class="line3 animated">
+				</div>
+			</div>
+		</div>
+	</script>
+
+	<img  class="change none" src="/pages/bd/invertedWorld/images/change.png" width="94" height="84" alt="">
+	<div class="changeBg none"></div>
+
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/app.js"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="/pages/bd/invertedWorld/js/main.js"></script>
+
+    <script>
+	function stopDefault( e ) { 
+	    if ( e && e.preventDefault ) 
+	        e.preventDefault(); 
+	    else
+	        window.event.returnValue = false; 
+	    return false;
+	}
+
+    </script>
+    <script>
+		wxProtocol.init(function (wx, link) {
+			wx.onMenuShareAppMessage({
+		        title: '365带你任性反转世界',
+		        desc: '我的2015已经彻底被颠覆了，你的呢？',
+				imgUrl: 'http://www.365rili.com/pages/bd/invertedWorld/images/wx.jpg'
+		    });
+		    wx.onMenuShareTimeline({
+		        title: '我的2015已经彻底被颠覆了，你的呢？',
+				imgUrl: 'http://www.365rili.com/pages/bd/invertedWorld/images/wx.jpg'
+		    });
+		});
+    </script>
+</body>
+</html>

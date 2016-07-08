@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>祖先的财富由我们来守护</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/amulize/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>阿姆利则遗产节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>提到“祖先的财富”这五个字的时候，肯定有许多人都十分高兴，但财富可不仅仅只有钱这一方面，文化遗产同样十分重要。文化遗产中蕴含着世界各族人民特有的精神价值、思维方式、想象力，体现着不同的生命力和创造力，是祖先智慧的结晶，也是全人类文明的瑰宝。保护文化遗产，保持文化的传承，是连接古今历史纽带、增进文化的发展的重要文化基础，也是维护世界文化多样性和创造性，促进人类共同发展的前提。</p>
+            <img src="images/amulize/holiday_1.jpg"/>
+            <p>作为四大文明古国之一的印度，同样也有着弥足珍贵的文化瑰宝。而3月4日至3月7日的阿姆利则遗产节，正是为了守护和传承旁遮普邦的独特文化。</p>
+            <h3>【关于旁遮普邦的历史和文化】</h3>
+            <img src="images/amulize/holiday_2.jpg"/>
+            <p>旁遮普邦位于印度西部，是锡克教的发源地。旁遮普邦主要是一个农业地区，有着得天独厚的肥沃的土壤和充足的水源。这片土地有着多民族和多种宗教信仰，进取和努力，这两个词是旁遮普人的精神所在。自获得独立后的50多年来，这片土地上的民众以其进取的精神和坚持不懈的辛勤劳动，为这片土地赢得了“印度粮仓”的称号。它以每年10%的平均增长率位局印度众邦之首，向人们展示了它经济飞速发展的步伐。作为印度人均收入最高的行政区域，旁遮普邦的受教育人数占全邦总人数的58%。</p>
+            <p class="mt15">而旁遮普邦的建筑文化主要围绕着历史的宫殿、战场以及宏伟的建筑物。旁遮普邦有许多要塞，每个要塞都有一个独特的故事，告诉其战斗和伟大的战士，而这里存在的各种堡垒便是这些历史的见证者。</p>
+            <h3>【遗产节的主要表现形式】</h3>
+            <p>对于多才多艺的印度人民来说，歌舞自然是文化遗产中重要的一部分。</p>
+            <img src="images/amulize/holiday_3.jpg"/>
+            <p>也有传统武术的表演，以及放在片头的喷火表演！</p>
+            <img src="images/amulize/holiday_4.jpg"/>		
+
+            <div class="tips">
+                <p>1、文化遗产跟物质遗产同样珍贵哦；</p>
+                <p>2、世界这么大，每一个地域的文化都弥足珍贵，所以要对这个未知的世界一直保持好奇心啊！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/Vanna</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

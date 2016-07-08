@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>欧洲杯赛程</title>
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0"> 
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link href="/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link href="/css/footer.css?20160616" rel="stylesheet">
+
+<link href="style/main.css?20160612" rel="stylesheet">
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+</head>
+<body>
+    <div class="football_top">
+    	<img src="images/football_top.jpg" width='100%' alt="">
+    </div>
+    <div class="football_tabs">
+    	<div class="football_tabs_nav">
+    		<ul>
+    			<li>淘汰赛</li>
+    			<li class="on">小组赛</li>
+    		</ul>	
+    	</div>
+		<div class="football_tabs_list">
+			<div class="football_group  footabll_list_div"></div>
+			<div class="football_eliminate footabll_list_div none"></div>
+		</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js?20151016"></script>
+    <script src="/js/lib/app.js"></script>
+    <script src="/js/lib/footer.js?20160616"></script>
+    <script src="/pages/found/js/function.js?20151119"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/ui-lib/js/plug.js?20160527"></script>
+    <script src="/pages/bd/2016_football/js/main.js?20160615"></script>
+</body>
+</html>

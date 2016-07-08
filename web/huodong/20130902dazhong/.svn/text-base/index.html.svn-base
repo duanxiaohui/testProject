@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历--大众点评网</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+</head>
+<body>
+	<div class="main">
+		<div class="top"></div>
+		<div class="text">
+			<p>找美食，住酒店，抢团购，享优惠用大众点评！精选美食、酒店等各类高品质团购信息！ 聚餐娱乐，找美食不再发愁；旅游出行，团购酒店为您省钱！ ·随时随地找美食、酒店、休闲娱乐等商家 ·GPS定位自动搜索周边商户、酒店、团购优惠 ·提供商户电话、地址地图、客观点评等信息 ·北京上海等八大城市优惠券免费下载,折扣不断 ·给力团购:吃喝玩乐、团购低至一折。团购品质值得信赖 ·签到功能:记录足迹,分享体验 ·覆盖城市:超过2300个 ·收录商户:超过240万 ·网友评论:超过2300万</p>
+			<p>【新增】支持查看团购点评</p>
+			<p>【新增】按地铁站浏览商户</p>
+			<p>【新增】附近中可以切换商区</p>
+			<p>【新增】团购新增＂银行卡直接支付＂方式，支持交通银行信用卡</p>
+			<p>【新增】发现好的点评，可以对其称赞「有用」</p>
+			<p>【优化】通知支持删除和清空</p>
+			<p>【优化】可以查看附近新开张的商户</p>
+			<p>【优化】附近中支持自定义地点搜索 说明：该版本支持android 2.1及以上系统</p>
+		</div>
+		<a href="http://d2.365rili.com/dl/android/exchange/dianpingwang.apk" class="btn">下载大众点评</a>
+	</div>
+</body>
+</html>

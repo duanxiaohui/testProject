@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>恐龙当家</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">恐龙当家</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/c888e85e-f672-4bdd-b072-3e25a06df38f.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	<a href="http://www.56.com/u51/v_OTcyNTg5NjA.html/" data-title="查看预告片" class="btn js-other">查看预告片</a>
+	    	<h3 class="time">上映时间：2015年11月25日（美国）</h3>
+			<p> </p>
+	    	<h3>导演：彼得·索恩 / 鲍勃·彼德森</h3>
+			<p class="fc_000">主演：卢卡斯·奈夫 / 尼尔·帕特里克·哈里斯 / 朱迪·格雷尔 / 约翰·利特高 / 弗兰西斯·麦克多蒙德 / 约翰·拉岑贝格（配音）</p>
+			<h3>剧情：</h3>
+			<p>《恐龙当家》讲述了一个“如果恐龙没有灭绝”的故事，故事设定在未遭到小行星撞击的地球上，恐龙不但没有灭绝，反而进化出类似人类社会的形态。主角是一只爱冒险的迷惑龙（又称雷龙）Arlo，他很喜欢人类，于是养了一个野孩子做宠物，给他起名“点点”（Spot）。虽然身高差悬殊，但他们互相照顾环游世界，经历了一段温馨又刺激的旅行。由皮克斯动画工作室出品，《暴力云与送子鹳》的导演彼得·索恩执导，《飞屋环游记》导演鲍勃·彼德森将作为联合导演参与制作，故事创意是来源于鲍勃·彼德森和皮克斯2011年获奥斯卡最佳短片奖提名的《月神》导演埃里康·卡萨罗萨。</p>
+			<!--h3是小标题-->
+			<h3>看点：</h3>
+			<!--p是段落文字描述-->
+			<p>皮克斯、飞屋环游记、暴力云与送子鹤，这些词语无不是品质动画的代表和保证，但这部片子的诞生也不是一帆风顺的。一开始《飞屋环游记》的导演鲍勃·彼德森构思创意了这个故事，但是他在进一步发展和充实这个创意的时候陷入了僵局，进展十分缓慢。鉴于这种情况，皮克斯撤销了他的导演职务，让本片联合导演彼得·索恩──《暴力云与送子鹳》的导演，同时也是《飞屋环游记》中小男孩的原型接手。彼得·索恩并没有全盘推翻鲍勃·彼德森的创意，而是继承了他的故事核心。说起来，动画电影更换导演的现象在好莱坞非常普遍，因为动画影片长达数年的创作时间非常考验一个人的创造力和耐力。但是索恩说，这个项目就像他的孩子，需要花心思和时间去继续抚养它，他会尽最大努力去完成这个项目。Whatever，《恐龙当家》还是一部非常值得期待的动画电影。</p>
+    	<img src="http://cocoimg.365rili.com/schedule_pics/default/3a12286a-bc00-466d-a9fe-627ced192eaf.jpg"/>
+		<img src="http://cocoimg.365rili.com/schedule_pics/default/5f16f981-5f64-416a-9145-7a717976adba.jpg"/>
+		 <div class="remind_div none" data-uuid="4e0b87d7-73ef-47ed-9069-5060d1f79f57" data-cid="125821987"><div class="remind_icon"></div><span>添加提醒</span></div>
+		</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/b44fe977-1b5a-4985-8fd6-e98cc1305f5b.jpg',
+                title: '电影：恐龙当家',
+                desc: '《恐龙当家》由皮克斯动画工作室出品，《飞屋环游记》导演鲍勃·彼德森执导，动画短片《暴力云与送子鹳》的导演彼得·索恩将作为联合导演参与制作，故事创意是来源于鲍勃·彼德森和皮克斯2011年获奥斯卡最佳短片奖提名的《月神》导演埃里康·卡萨罗萨。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '电影：恐龙当家',
+		        				content: '《恐龙当家》由皮克斯动画工作室出品，《飞屋环游记》导演鲍勃·彼德森执导，动画短片《暴力云与送子鹳》的导演彼得·索恩将作为联合导演参与制作，故事创意是来源于鲍勃·彼德森和皮克斯2011年获奥斯卡最佳短片奖提名的《月神》导演埃里康·卡萨罗萨。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/b44fe977-1b5a-4985-8fd6-e98cc1305f5b.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

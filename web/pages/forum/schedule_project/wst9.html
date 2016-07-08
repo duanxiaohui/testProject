@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>花与爱丽丝杀人事件</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">花与爱丽丝杀人事件</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/c9f99a9a-fc94-47e3-b9fe-66058e8461c2.jpg"/>
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	<a href="http://m.mtime.cn/#!/movie/217696/" class="btn js-other">查看预告片</a>
+	    	<h3 class="time">上映时间：2015年2月20日（日本）</h3>
+			<p> </p>
+	    	<h3>导演：岩井俊二</h3>
+			<h3>编剧：岩井俊二</h3>
+			<h3>主演：苍井优 / 铃木杏 / 胜地凉 / 黑木华 /木村多江 / 平泉成 / 相田翔子 / 铃木兰兰 /郭智博 / 木村绿子</h3>
+			<h3>类型：动画</h3>
+			<p class="fc_000">制片国家/地区: 日本</p>
+			
+			<h3>看点：</h3>
+			<p>2004年上映的电影《花与爱丽丝》，是岩井俊二的代表作之一。讲述了两名自幼为友的少女——花与爱丽丝和一名少年之间的三角关系。岩井俊二用细腻、唯美的视觉语言和一个简单的故事，构建出独特的青春风貌，还包办了该片的编剧、制片人和原创音乐的工作。这次的动画电影《花与爱丽丝杀人事件》，将讲述花和爱丽丝相遇的故事。</p>
+			<p>除了首次执导动画长片，岩井俊二也是这部电影的编剧和监制。另一位监制则是曾制作《哈尔的移动城堡》和《攻壳机动队SSS 3D》的石井朋彦。《东之伊甸》的色彩设计片山由美子和新海诚《言语之庭》的美术监督泷口比吕志也将加盟。</p>
+			<!--h3是小标题-->
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/4033b01c-a830-49d5-98e2-8d6a271c5abf.jpg"/>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/759418c9-ac69-4ed8-8c88-03d41e187ee4.jpg"/>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/494be384-b070-42ed-a14d-9917c461fe23.jpg"/>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/c9f99a9a-fc94-47e3-b9fe-66058e8461c2.jpg',
+                title: '花与爱丽丝杀人事件',
+                desc: '作为《花与爱丽丝》的前传，动画电影《花与爱丽丝杀人事件》，将讲述花和爱丽丝两人相遇及其友情发展的故事。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '花与爱丽丝杀人事件',
+		        				content: '作为《花与爱丽丝》的前传，动画电影《花与爱丽丝杀人事件》，将讲述花和爱丽丝两人相遇及其友情发展的故事。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/c9f99a9a-fc94-47e3-b9fe-66058e8461c2.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015凤凰岭新春游园会</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015凤凰岭新春游园会</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/5bff93de-1505-4517-aff0-b047561733ec.jpg"/>
+			 <a class="btn js-subscribe" data-uuid="0e4bee45-76dd-4800-a0c2-8059d6cc894d" data-cid="147462861">添加提醒</a>
+	    
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	
+	    	<p class="time"><b>时间：2015.2.19 - 2.24（09:00-17:00）
+</b></br>
+	    	<b>场地：北京-凤凰岭自然风景区</b></br>
+			<b>费用：详见现场</b></p>
+			<h3>亮点：</h3>
+			<p>除传统庙会的吃喝玩乐外，还有非遗项目优秀文化表演，以及祈福等最具民俗韵味的活动。
+
+</p>
+			<!--h3是小标题-->
+			<h3>活动简介：</h3>
+			<!--p是段落文字描述-->
+			<p>充分挖掘凤凰岭佛道儒、民间传说、古东方养生文化;引进扑蝴蝶、幼童少林五虎棍会等非遗项目优秀文化资源。</br>
+			尽享京城庙会中的各种特色小吃、年货和游艺项目。通过龙泉寺、桃源观、圣观音院、祈福墙、祈福鼓、祈福树等祈福元素，打造京城最具祈福文化特色的新春游园会。</br>
+			
+通过大型景观布置和氛围烘托，打造京城最“羊”气的新春游园会。
+</br></p>
+			<p>
+<b>公交线路：颐和园乘346路公交车至终点站凤凰岭下即可</br>自驾线路：</br>
+1、八达岭高速--北安河出口--沿北清路往西按路标行驶即可。</br>
+2、三环、四环--万泉河路--永丰路--北清路往西--过京密引水渠往北按路标行驶。</br>
+3、北五环--肖家河桥出口(圆明园西路)--经农大至永丰路--左拐北清路往西--温北路往北按路标行驶。</br>
+4、西六环--温阳路收费站出口--沿聂各庄东路行驶即到。</br>
+
+
+</b></br></br>
+具体详情以官方信息为准</p>
+<img src="http://cocoimg.365rili.com/schedule_pics/default/f92fbd69-3e79-44d9-bae0-8383ebad9dc0.jpg"/>
+<img src="http://cocoimg.365rili.com/schedule_pics/default/1fd89654-ec96-48f4-8e24-9e89800a04e0.jpg"/>
+
+ <div class="remind_div" data-uuid="0e4bee45-76dd-4800-a0c2-8059d6cc894d" data-cid="147462861"><div class="remind_icon"></div><span>添加提醒</span></div>
+
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/6874f805-d3d8-453e-ac2d-5c19b77c7122.jpg',
+                title: '2015凤凰岭新春游园会',
+                desc: '通过大型景观布置和氛围烘托，打造京城最“羊”气的新春游园会'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015凤凰岭新春游园会',
+		        				content: '通过大型景观布置和氛围烘托，打造京城最“羊”气的新春游园会',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/6874f805-d3d8-453e-ac2d-5c19b77c7122.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="style/jquery-ui-1.9.0.custom.min.css" rel="stylesheet"/>
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+<link type="text/css" href="style/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+</head>
+<body>
+<div id="div_main" class="main">
+	<div id="div_today" class="calendar_data"></div>
+	<div id="div_calendar" class="calendar_box">
+		<div class="calendar_years e_clear">
+			<a href="javascrpit:;" class="prv" delta="-1"></a>
+			<p></p>
+			<a href="javascrpit:;" class="next" delta="1"></a>
+			<a href="javascript:;" class="return_today_btn">今</a>
+		</div>
+		<div class="calendar_week">
+			<ul id="ul_header"><li>一</li><li>二</li><li>三</li><li>四</li><li>五</li><li>六</li><li>日</li></ul>
+		</div>
+		<div class="calendar_data_list">
+			<ul id="ul_calendar"></ul>
+		</div>
+	</div>
+	<div id="div_schedules" class="calendar_schedule scroll-pane">
+		<ul id="ul_schedules"></ul>
+	</div>
+</div>
+
+<script type="text/javascript" src="/js/jquery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/js/jquery/jquery-ui-1.9.2.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/jquery.jscrollpane.js"></script>
+<script type="text/javascript" src="js/protocol.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/lunar.js"></script>
+<script type="text/javascript" src="js/calendar.js?t=1376021243276"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>学搞机！找鲁班！</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/holiday_luban/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>鲁班师傅诞</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>“班门弄斧”这个成语想必大家都耳熟能详，但是这个词却不是用来纪念鲁班的，而是用来纪念诗仙李白。</p>
+            <p class="mt15"></p>
+            <p>“采石江边一堆土，李白之名高千古；来来往往一首诗，鲁班门前掉大斧。” 这是明朝诗人梅之涣的诗《题李白墓》。李白是举世闻名的唐代大诗人，死后名传千古。多少文人墨客经过李白墓前，都想停留片刻，吟诗抒发内心感受。而他们这种行为只能是附庸风雅，“鲁班门前班门弄斧”，太不自量力了。鲁班是战国时代的鲁国人。他是一个善于制作精巧器具的能手，人们叫他“巧人”，民间历来把他奉为木匠的始祖。谁敢在鲁班门前卖弄使用斧子的技术，也就是说，想在大行家面前显示自己的本领，这种太不谦虚的可笑行为，就叫做“鲁班门前弄大斧”，简称“班门弄斧”。</p>
+            <img src="images/holiday_luban/holiday_1.jpg"/>
+            
+            <h3>【鲁班究竟是何方神圣？】</h3>
+
+            <p>鲁班，姬姓，公输氏，名班，人称公输盘、公输般、班输，尊称公输子。小邾国（今山东省滕州市)人，现在被人们尊称为建筑业的鼻祖，鲁班的成就不光在建筑业，而且在航天业，他发明了飞鸢，是人类征服天空的第一人；在军事科学，鲁班发明的云梯（重武器）、钩钜（人们现在还在使用）及其它攻城的武器，是一位伟大的军事科学家；在机械方面，鲁班很早就被称为机械圣人；此外，还有很多民用、工艺等方面的成就。鲁班对人类的贡献不能说是前无古人，后无来者，是中国当之无愧的科技发明之父。</p>
+           
+            <img src="images/holiday_luban/holiday_2.jpg"/>
+            <img src="images/holiday_luban/holiday_3.jpg"/>
+
+            <h3>【鲁班师傅诞】</h3>
+
+            <p>六月十三日是鲁班师傅诞。架行木艺工会最重视这个节日，木艺工人昔日十分注意尊师重道精神，他们最尊崇的师傅，就是鲁班先师了。木艺这一行可说是最古老的行业，一直以来，木工在建筑业中占有很重要的地位。</p>
+            <img src="images/holiday_luban/holiday_4.jpg"/>
+            <p>每年祝贺师傅诞，还有一项很特别的传统活动，就是派“师傅饭”。所谓“师傅饭”，其实只是在师傅诞那天，用大铁镬煮的白饭，再加上一些粉丝、虾米、眉豆等。由于相传吃了师傅饭的小孩子，不仅能像鲁班那么聪明，而且快高长大，健康伶俐。以前，在贺诞这一天，请一班艺人回来唱八音，或者请一台木偶戏来演出，视乎当年的经济情况而定，总之是隆重其事。</p>
+           
+            <div class="tips">
+                <p>1、传统木匠的手艺真的很值得称赞，也从侧面可以看出鲁班对后世的伟大影响；</p>
+                <p>2、中国历来讲求传承，所以今天也给把知识传授给你的老师，发一条问候短信吧！</p>
+            </div>
+        
+		<!-- 
+			<p class="mt15"></p>
+		 -->    
+    	</div>
+        <div class="editor">编辑/Vanna</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

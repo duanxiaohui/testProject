@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>愿今天没有好人卡</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/men_do/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>男性表白日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>-“女神，我有许多话想跟你说，但是不知道应不应该讲。”</p>
+            <p>-“？”</p>
+            <p>-“我把你嵌在一滴泪里,幻想千年后是琥珀,我不敢低头,怕那颗泪坠下,碎了你，碎了我,碎了千年的梦，让我用一生来守护…”</p>
+            <p>-“嗯，但是我们性格不合，你是一个好人。”</p>
+            <p>-“可我真的喜欢你啊！”</p>
+            <p>-“要去洗澡了，之后会睡觉。”</p>
+            <p>-“晚安。”</p>
+            <p>之后就没信儿了。</p>
+            <img src="images/men_do/holiday_1.jpg"/>
+            <p>这种男默女泪的悲伤桥段，想必在各种表白直播贴各种影视剧中很常见吧。一句高冷的“你是一个好人”，久而久之，就成了大家最喜闻乐见的好人卡。然而今天的男性表白日，则是为各个缺乏勇气的男同胞准备的日子。在这一天，只要你肯对你的心仪对象表白，原则上她是不能拒绝的，当然如果真的不合适还是可以拒绝的，不过今天表白的话一定会为你带来许多的幸运加成。</p>
+            <h3>【单身汪，给你个机会】</h3>
+            <p>在苏格兰，2月29日是女生表白日，在这一天女性可大胆向男性表白，并且原则上要求男性必须答应。如果男性不答应，理应付给女性一定数量的“伤心补偿费”。在这一天拒绝求爱者的男性则需要为自己的拒绝付出“代价”，可以掏出1英镑作为象征性的“赎免费”，或是向求爱失败的“女方”赠送礼物。</p>
+            <img src="images/men_do/holiday_2.jpg"/>
+            <h3>【在什么时候表白最好？】</h3>
+            <p>其实，无论是聊天、工作还是生活，无论做什么，只要两个人在一起很开心，互相喜欢又心知肚明。不管以什么角色，都能以一种陪伴的姿态一直伴随着她走下去。陪伴两个字，看起来似乎很简单，其实挺难的。</p>
+            <img src="images/men_do/holiday_3.jpg"/>
+            <p>表白只是某一时刻的事，你可以想出千百种感动别人感动自己的表白方式，终究也就是开了个头，或者草草结了尾。剩下的，你与那一位的缘分，还得实实在在的自己修。长长久久的陪伴，需要你知道如何去爱自己及他人，需要你抛弃对爱的依赖与期待。当你全然而自由地活着，又没有对自我的执念时，你不会想要去表白。因为通常意义上的表白都是带有情感的寄托和期许，都会希望对方给以回应和肯定，而如果心中有爱，你会甘愿做感情的给予者。而当你忘记自我去给予爱的时候，是真正的爱与美的呈现。</p>
+
+            <div class="tips">
+                <p>1、表白的时候一定要对自己有信心哦，自己没信心的话怎么给姑娘安全感？</p>
+                <p>2、即便是表白失败的话也不要自暴自弃，合适的缘分一定会到来的！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/Vanna</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

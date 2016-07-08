@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>向抄袭致敬</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/intellectua_property/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>世界知识产权日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>互联网的发展给极大的方便了内容的传播，同时也给抄袭者提供了绝佳的机会，因此很多无生产能力但擅长“搜集”的人就奉行着“今天抄一千，明天抄八百，只要作者不上门，能抄一点是一点”的原则，走上了段子网红的不归路。其实他们也挺不容易的，虽然说没有花大心思去研究文章构造，但到处搜集、拼拼凑凑还要因为怕被发现而保持高度紧张，真的好辛苦！</p>
+            <h3>【到处都在抄啊】</h3>
+            <p>不光在写文章方面，几乎在任何需要创意的方面都伴生着抄袭的现象。比如设计领域，很多优秀的平面作品一出街就遵循了“个人的就是社会的、民族的就是社会的”原则，大家变着法的抄，瞬间就满街都是了。</p>
+            <img src="images/intellectua_property/holiday_1.jpg"/>
+            <p>这种行为其实是对原作者极其的不尊重，有关部门当然不会对这种现象坐视不理，于是经过激烈的讨论他们做出了一个无比正确的决定——</p>
+            <h3>【设立知识产权日】</h3>
+            <p>世界知识产权日由世界知识产权组织于2001年4月26日设立，组织决定从2001年起将每年的4月26日定为世界知识产权日，目的是在世界范围内树立尊重知识、崇尚科学和保护知识产权的意识，营造鼓励知识创新和保护知识产权的法律环境。</p>
+            <img src="images/intellectua_property/holiday_2.jpg"/>
+            <p>每年世界知识产权组织会确定一个主题，各成员国应围绕当年主题在世界知识产权日期间举办各种宣传活动。确定世界知识产权日和开展有关活动将有助于突出知识产权在所有国家的经济、文化和社会发展中的作用和贡献，并提高公众对人类在这一领域努力的认识和理解。</p>
+            <h3>【科普啦】</h3>
+            <p>知识产权是指公民、法人或者其他组织在科学技术方面或文化艺术方面，对创造性的劳动所完成的智力成果依法享有的专有权利，它包括工业产权和版权两部分。工业产权包括专利、商标、服务标志、厂商名称、原产地名称、制止不正当竞争等。版权是法律上规定的某一单位或个人对某项著作享有印刷出版和销售的权利，任何人要复制、翻译、改编或演出等均需要得到版权所有人的许可，否则就是对他人权利的侵权行为。知识产权的实质是把人类的智力成果作为财产来看待，所以抄袭的人啊，你还有向内心深处的纯洁致敬的权利吗？</p>			
+
+            <div class="tips">
+                <p>1、每年的4月26日是世界知识产权日，节日目的是在世界范围内树立尊重知识、崇尚科学和保护知识产权的意识；</p>
+                <p>2、原创不易，抄袭的人且抄且珍惜吧！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

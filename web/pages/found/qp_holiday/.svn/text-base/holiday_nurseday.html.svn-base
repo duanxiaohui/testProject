@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>隐形的翅膀</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/holiday_nurseday/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>国际护士节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>还记得小的时候因为发烧去医院，看到明晃晃的针头被吓得哇哇哭，但是护士姐姐在旁边一直不断地安慰，大部分恐惧被护士姐姐的温柔所治愈。护士，一个普通得不能再普通的职业，然而，人们却一直把护士称为“白衣天使”。这是一种很神圣的职业，她们用汗水和辛劳去照顾每一位患者，她们不嫌苦，不嫌累，不管那个人有多麻烦，总是很有耐心的去帮助每一位被疾病所折磨的人。</p>
+            <img src="images/holiday_nurseday/holiday_1.jpg"/>
+            
+          
+
+            <h3>【提灯女神】</h3>
+
+            <p>今天的国际护士节是全世界护士的共同节日，是为了纪念近代护理的创始人“提灯女神”——英国护士弗洛伦斯·南丁格尔而设立的。弗罗伦斯·南丁格尔是英国的一位女护士。在1854年到1856年克里米亚战争中，她率领38名护士赴前线参加伤病员护理工作，建立医院管理员制度，提高护理质量，使伤病员死亡率迅速下降。1860年她在伦敦创建了英国第一所护士学校，使护理事业逐步走向专业化、科学化，并且推动了西欧各国以及世界各地的护理工作和护士教育的发展。南丁格尔把护理经验写成专著，其中有《护理工作记录》。1912年，为纪念南丁格尔对护理工作做出的贡献，国际护士理事会将南丁格尔的诞辰日5月12日定为国际护士节。</p>
+           
+            <img src="images/holiday_nurseday/holiday_2.jpg"/>
+
+            <h3>【请善待这些天使们】</h3>
+
+            <p>现在中国的医患关系随着媒体的不断报导而矛盾日益加剧，近期也听到了很多关于打骂护士的新闻。这几天，陈仲伟医生被丧心病狂的患者砍杀身亡的新闻，更是加剧了医患矛盾。</p>
+            <p class="mt15"></p>
+
+            <p>人们常常歌颂着“护士的胸怀像大海，能容纳千百万被病痛折磨的父老兄弟，护士的品格像红烛，燃烧了自己，照亮了别人；护士的心灵像清泉，爱的透明，不是亲人胜似亲人；而护士的微笑，它尤如一坛封存了百年的佳酿，其味柔和，其意深远。”但是在护理工作逐渐被认同、护士待遇得到提高的今天，却还是有很多人不理解这些做着最辛苦最具爱心的工作而不被尊重的天使们。护士们是以仁慈博爱的胸怀无私地奉献着自己的一生。</p>
+            <img src="images/holiday_nurseday/holiday_3.jpg"/> 
+
+            <p>我忘了在哪处看到一位护士说过的这么一句话：“当我和同事们目送着康复病人欢快的身影，迎来病人和家属声声谢意,当自己的辛苦工作得以体现出成果的时候，所有的辛苦，所受的委屈又算得了什么？”天使尚且心怀慈悲，我们更应该以一颗感恩的心去对待这些善良的天使，而不是再进一步激化医患矛盾，不是么？</p>
+            
+
+            <div class="tips">
+                <p>1、护士是上帝派到人间的天使，她们每天辛勤地工作，只是为了给病人提供最贴心的护理；</p>
+                <p>2、希望人与人之间多一点体谅与关怀，日渐激化的医患矛盾也能早日得到缓解。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/Vanna</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

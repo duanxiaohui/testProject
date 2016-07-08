@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<title>2015中超联赛第1轮赛程</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015中超联赛第1轮赛程</div>
+    </div>
+	<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	
+    <div class="main">
+    	<div class="main_content">
+    		<img src="http://cocoimg.365rili.com/schedule_pics/default/35cb6351-523c-4dfb-903e-096821dcd9f6.jpg"/>
+			<!-- 对战信息 -->
+			<div class="vs e_clear">
+				<!--战队logo尺寸82*82  url(这里是战队logo)-->
+				<div class="right_logo" style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/f927fc71-adee-475e-a412-35d2544a88aa.jpg) 2x);"></div>
+				
+				<div class="left_logo"style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/2eeb8e4e-22de-4e7e-8fe4-63b4d9f8a5fd.jpg) 2x);"></div>
+				<div class="vs_txt">
+					<!-- h3里面的内容是比分显示 或者 是VS -->
+					<h3>VS</h3>
+					<!-- p标签里面是日期时间显示 -->
+					<p>03-07 15:35</p>
+				</div>
+            </div>
+		    <a class="btn js-subscribe" data-uuid="d771a91c-f1db-4556-8f02-512638b1faf1" data-cid="125821987">添加提醒</a>
+			<h3>杭州绿城VS广州富力 (揭幕战)</h3>
+			<p> </p>
+			<h3>看点：</h3>
+			<p>今年中超联赛开幕式在杭州举行，杭州绿城成为新赛季第一支亮相主场的球队，将在主场迎战广州富力队。汪嵩将战旧主，由于实力上的差距，本场富力恐客场带走三分。</p>
+			<!-- 添加提醒的按钮 -->
+	        
+            <p class="remind_div"> </P>
+    		<!-- 对战信息 -->
+			<div class="vs e_clear">
+				<!--战队logo尺寸82*82  url(这里是战队logo)-->
+				<div class="right_logo" style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/97a9b463-309e-4291-b1c7-26ec3fd70bf0.jpg) 2x);"></div>
+				<div class="left_logo"style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/051570d7-373c-46b1-99af-3178ac1c645e.jpg) 2x);"></div>
+				<div class="vs_txt">
+					<!-- h3里面的内容是比分显示 或者 是VS -->
+					<h3>VS</h3>
+					<!-- p标签里面是日期时间显示 -->
+					<p>03-07 15:35</p>
+				</div>
+			</div>
+			<a class="btn js-subscribe" data-uuid="592d87e1-1d76-482f-9d3e-713eda341932" data-cid="125821987">添加提醒</a>
+			<h3>上海上港VS江苏舜天</h3>
+			<p> </p>
+			<h3>看点：</h3>
+			<p>本赛季大肆招兵买马的上港将在主场迎战众国脚的江苏舜天，可谓上演一场精彩的比赛。</p>
+	        <!-- 添加提醒的按钮 -->
+            
+            <p class="remind_div"> </P>
+	
+
+    		<!-- 对战信息 -->
+			<div class="vs e_clear">
+				<!--战队logo尺寸82*82  url(这里是战队logo)-->
+				<div class="right_logo" style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/eb04ce7d-ea68-4541-b23c-1a1cca1c2bdd.jpg) 2x);"></div>
+				<div class="left_logo"style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/471cd42f-e7e9-4000-b850-f01767276ef1.jpg) 2x);"></div>
+				<div class="vs_txt">
+					<!-- h3里面的内容是比分显示 或者 是VS -->
+					<h3>VS</h3>
+					<!-- p标签里面是日期时间显示 -->
+					<p>03-08 15:35</p>
+				</div>
+			</div>
+			<a class="btn js-subscribe" data-uuid="216060df-9987-470d-9bd8-13d5754cd502" data-cid="125821987">添加提醒</a>
+			<h3>重庆力帆VS北京国安</h3>
+			<p> </p>
+			<h3>看点：</h3>
+			<p>作为本赛季的升班马重庆本轮将在主场迎战御林军北京国安，由于双方实力上的差距，本场御林军有望全身而退。</p>
+			<!-- 添加提醒的按钮 -->
+            
+			<p class="remind_div"> </P>
+			
+			<!-- 对战信息 -->
+			<div class="vs e_clear">
+				<!--战队logo尺寸82*82  url(这里是战队logo)-->
+				<div class="right_logo" style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/094103f8-8a9e-4a03-a207-fb993254b8dc.jpg) 2x);"></div>
+				<div class="left_logo"style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/fb44e539-3f4a-4f78-a15b-874ca0a9bda7.jpg) 2x);"></div>
+				<div class="vs_txt">
+					<!-- h3里面的内容是比分显示 或者 是VS -->
+					<h3>VS</h3>
+					<!-- p标签里面是日期时间显示 -->
+					<p>03-08 19:35</p>
+				</div>
+            </div>
+			<a class="btn js-subscribe" data-uuid="52a4aa6e-73e1-41b0-ba7f-31ac7969e4e5" data-cid="125821987">添加提醒</a>
+			<h3>山东鲁能VS长春亚泰</h3>
+			<p> </p>
+			<h3>看点：</h3>
+			<p>山东鲁能基本上留用了上赛季的阵容，再加上在转会市场引进了巴西强力前锋塔尔德利，鲁能方面当然希望收获更多，本轮主场作战迎战实力弱于自己的亚泰，主场拿分势在必得。</p>
+			
+			<!-- 对战信息 -->
+			<div class="vs e_clear">
+				<!--战队logo尺寸82*82  url(这里是战队logo)-->
+				<div class="right_logo" style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/40a5ac85-94c7-458f-9b1d-504a05a4a93e.jpg) 2x);"></div>
+				<div class="left_logo"style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/e85b8450-2c97-4217-a9ab-03e91ac789ad.jpg) 2x);"></div>
+				<div class="vs_txt">
+					<!-- h3里面的内容是比分显示 或者 是VS -->
+					<h3>VS</h3>
+					<!-- p标签里面是日期时间显示 -->
+					<p>03-08 19:45</p>
+				</div>
+            </div>
+			<a class="btn js-subscribe" data-uuid="946bf3d6-c0d9-4b4c-988b-a8db563f18bd" data-cid="125821987">添加提醒</a>
+			<h3>上海申花VS上海申鑫(上海德比)</h3>
+			<p> </p>
+			<h3>看点：</h3>
+			<p>上海申花本赛季引进了在亚洲杯上表现出色的澳大利亚国脚前锋卡希尔，再加上球队的其他引援本赛季球队实力大增，本场面对同城的申鑫，球队势必一口吃下实力弱于自己的客队。</p>
+			
+			<!-- 对战信息 -->
+			<div class="vs e_clear">
+				<!--战队logo尺寸82*82  url(这里是战队logo)-->
+				<div class="right_logo" style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/63d3a3b8-714f-4e4b-a5a7-35f6bfca8afd.jpg) 2x);"></div>
+				<div class="left_logo"style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/edb3a3cd-8c95-43e2-8f5b-56775426533c.jpg) 2x);"></div>
+				<div class="vs_txt">
+					<!-- h3里面的内容是比分显示 或者 是VS -->
+					<h3>VS</h3>
+					<!-- p标签里面是日期时间显示 -->
+					<p>03-09 20:00</p>
+				</div>
+            </div>
+			<a class="btn js-subscribe" data-uuid="ea15de7b-c720-459c-97b9-2d2db437d5c6" data-cid="125821987">添加提醒</a>
+			<h3>广州恒大VS石家庄永昌</h3>
+			<p> </p>
+			<h3>看点：</h3>
+			<p>卫冕冠军恒大在本赛季转会期高价买入了阿兰、高拉特等球员，又与前锋埃尔克森续约，本场比赛坐镇主场迎战升班马石家庄永昌，由于实力上的巨大差距，恒大恐主场大胜对手。</p>
+			<p class="remind_div"> </P>
+			<!-- 添加提醒的按钮 -->
+			<h3>中国平安中超联赛简介：</h3>
+			<p>中国足球协会超级联赛（官方英文名称：Chinese Football Association Super League，简称为CSL）是由中国足球协会组织的，是中国大陆地区最优秀的职业足球俱乐部参加的全国最高水平的足球职业联赛（中国港澳台有各自的联赛），仿照英格兰足球超级联赛，简称为中超联赛。该联赛开始于2004年，脱胎自原中国足球甲级A组联赛。</p>
+    	</div>
+
+    </div>
+	
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/fc183f34-e4e1-458a-b524-3f9a37eb637d.jpg',
+                title: '2015中超联赛第1轮赛程·提醒',
+                desc: '中国足球协会超级联赛（官方英文名称：Chinese Football Association Super League，简称为CSL）是由中国足球协会组织的，是中国大陆地区最优秀的职业足球俱乐部参加的全国最高水平的足球职业联赛（中国港澳台有各自的联赛），仿照英格兰足球超级联赛，简称为中超联赛。该联赛开始于2004年，脱胎自原中国足球甲级A组联赛。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015中超联赛第1轮赛程·提醒',
+		        				content: '中国足球协会超级联赛（官方英文名称：Chinese Football Association Super League，简称为CSL）是由中国足球协会组织的，是中国大陆地区最优秀的职业足球俱乐部参加的全国最高水平的足球职业联赛（中国港澳台有各自的联赛），仿照英格兰足球超级联赛，简称为中超联赛。该联赛开始于2004年，脱胎自原中国足球甲级A组联赛。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/fc183f34-e4e1-458a-b524-3f9a37eb637d.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

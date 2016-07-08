@@ -1,0 +1,32 @@
+body{ font-family: "Microsoft YaHei";}
+*{margin:0; padding:0;}
+ul{list-style: none;}
+li{list-style-type: none;}
+a { color:#0d23f4; cursor: pointer; text-decoration: none; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; width:100%; }
+td,th{border: 1px solid #BCBEC0; height:30px; text-align:center;}
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+
+
+.main{margin:0 auto;  padding:10px 5px;}
+.main p{font-size:16px; color:#008ebd; line-height:24px; font-weight:600; padding-left:24px; text-indent:-24px;}
+.box{padding:10px 0 10px 15px;}
+.box div{width:143px; height:40px; float:left; padding-top:174px;}
+.box p{text-align:center; font-size:12px; font-weight:500; line-height:20px; padding-left:0; text-indent:0; color:#000;}
+.a1{background:url(../images/android/a1.jpg) no-repeat left top; -webkit-background-size:143px 174px;}
+.a2{background:url(../images/android/a2.jpg) no-repeat center top; -webkit-background-size:120px 174px;}
+.b1{background:url(../images/android/b1.jpg) no-repeat center top; -webkit-background-size:114px 174px;}
+.b2{background:url(../images/android/b2.jpg) no-repeat center top; -webkit-background-size:115px 174px;}
+.c1{background:url(../images/android/c1.jpg) no-repeat center top; -webkit-background-size:115px 174px;}
+.c2{background:url(../images/android/c2.jpg) no-repeat center top; -webkit-background-size:128px 174px;}
+.d1{background:url(../images/android/d1.jpg) no-repeat center top; -webkit-background-size:115px 174px;}
+.d2{background:url(../images/android/d2.jpg) no-repeat center top; -webkit-background-size:115px 174px;}
+.e1{background:url(../images/android/e1.jpg) no-repeat center top; -webkit-background-size:115px 174px;}
+.e2{background:url(../images/android/e2.jpg) no-repeat center top; -webkit-background-size:115px 174px;}
+.e3{background:url(../images/android/e3.jpg) no-repeat center top; -webkit-background-size:115px 174px;}
+.f1{background:url(../images/android/f1.jpg) no-repeat center top; -webkit-background-size:115px 174px;}
+.f2{background:url(../images/android/f2.jpg) no-repeat center top; -webkit-background-size:115px 174px;}
+.f3{background:url(../images/android/f3.jpg) no-repeat center top; -webkit-background-size:115px 174px;}
+.f4{background:url(../images/android/f4.jpg) no-repeat center top; -webkit-background-size:120px 174px;}

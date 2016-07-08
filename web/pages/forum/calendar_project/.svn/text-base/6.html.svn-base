@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0">
+<title>美剧、韩剧、动漫迷们，快到碗里来！</title>
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/css/forum_new.css" rel="stylesheet">
+<script src="/js/lib/zepto.min.js"></script>
+<script src="/js/lib/app.js"></script>
+<link href="/css/footer.css?20141126" rel="stylesheet">
+<script src="/pages/forum/js/underscore-1.6.0.js"></script>
+</head>
+<body class="weixin">
+    <div class="calendar_project_top">
+        <div class="calendar_project_top_header">
+            <a href="javascript:;" class="return_btn"></a>
+            <a href="javascript:;" class="share_btn none"></a>
+            <span>美剧、韩剧、动漫迷们，快到碗里来！</span>
+        </div>
+        <div class="calendar_project_top_img">
+            <img src="http://cocoimg.365rili.com/pic/default/zhuanti_in_6.jpg"/> <!-- 图片地址 -->
+        </div>
+    </div>
+    <div class="calendar_project_info">
+        <p>新剧、新季、回归，不仅更新的快，更重要的是它们很全！</p>
+    </div>
+    <div class="calendar_project_list">
+        <dl class="e_clear" data-id="172943355">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/078f3475-d026-4269-9b5f-32fcc1288398.jpg)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="172943355" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>美剧更新日历</h3>
+                    <p>美剧新剧首播、更新等信息的发布，美剧迷有福了！</p>
+                    <div class="focus_num">1221372人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="144204593">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/e7cea3a0-cb60-4f35-b1c8-46cb801cb989.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="144204593" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>韩剧迷</h3>
+                    <p>看剧追剧，聊剧评剧，这里是韩剧迷的大家庭！</p>
+                    <div class="focus_num">54637人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="158903377">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/7b61608a-358a-484e-ae76-de71498f062f.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="158903377" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>我们爱动漫</h3>
+                    <p>动漫迷们看过来，这里提供经典、热门新番及漫展资讯类相关信息，手机也能看直播！</p>
+                    <div class="focus_num">90927人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="206427505">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/3222af0f-f4f9-41c8-b875-ecabdc760341.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="206427505" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>每日短片赏</h3>
+                    <p>来自AnimeTaste.net的每日短片赏，品味短片，重拾幻想</p>
+                    <div class="focus_num">100731人关注</div>
+                </div>
+            </dd>
+        </dl>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/js/lib/footer.js?20150122"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+            $('.calendar_project_top_header').hide();
+            $('.calendar_project_top_img').css('padding-top', '0')
+
+            wxProtocol.init({
+                imgUrl: $('.calendar_project_top_img img')[0].src,
+                title: $('.calendar_project_top_header span').html(),
+                desc: $('.calendar_project_info p').html()
+            });
+
+            wxProtocol.initWithAlready({
+                imgUrl: $('.calendar_project_top_img img')[0].src,
+                title: $('.calendar_project_top_header span').html(),
+                desc: $('.calendar_project_info p').html()
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+    })();
+    </script>
+    <script src="/pages/forum/js/func.js"></script>
+    <script src="/pages/forum/js/calendar_project.js"></script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

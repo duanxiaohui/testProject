@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>请快乐地做一枚胖纸——胖子节</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/fatman_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>请快乐地做一枚胖纸——胖子节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>有没有发现身边的胖子们一般脾气都很好？不知道是性格造就了身材还是身材影响了性格，TA们总是给人一种软萌、温和、可信赖的印象。中国网友们出于爱护身边胖子的目的，将每年的9月2日设立为胖子节。</p>
+            <img src="/pages/found/qp_holiday/images/fatman_img1.jpg"/>
+            <h3>【网友智慧无穷尽】</h3>
+            <p>该节日的日期来源于胖子的拼音PZ：古时的9就是反向的，所以9相当于P；2相当于Z，所以每年的9月2日就是胖子节。</p>
+            <p>是不是深深的为网友的机智折服了？</p>
+            <img src="/pages/found/qp_holiday/images/fatman_img2.jpg"/>
+            <h3>【吃吃吃！】</h3>
+            <p>这个节日的庆祝方法非常自由——这一天胖子们把身材问题抛到脑后，冲出家门奔向自己最爱的食物就行了：可以是章鱼小丸子炸臭豆腐上校鸡块烤面筋麻辣鸭脖酸辣粉鳕鱼盖浇饭；也可以是手抓饼瘦肉丸布丁巧克力奶茶寿司肉夹馍炒肝麦乐鸡烤鸡翅泡菜；还可以是软心布丁乳酪烤肉火锅红烧排骨鸭脖土豆烧牛肉鱼丸炒拉条子大白兔奶糖驴肉火烧鸡米花……</p>
+            <p>什么？你都喜欢吃？</p>
+            <p>我知道你为什么需要过这个节了……</p>
+            <img src="/pages/found/qp_holiday/images/fatman_img3.jpg"/>
+            <h3>【胖子全身都是宝】</h3>
+            <p>话说回来，做一个胖子好处多啊：</p>
+            <p>啥面相的女人命好？</p>
+            <p>圆脸、下巴丰满、臀大、腿粗、有小肚腩</p>
+            <p>啥样的男人适合做好老公？</p>
+            <p>心宽体胖、冬天做暖炉夏天当阳伞、饭量大因此两人吃饭可以多点几道菜</p>
+            <p>最重要的是可以经常捏肚子玩</p>
+            <p>那是瘦子们无法体验的柔软触感</p>
+            <img src="/pages/found/qp_holiday/images/fatman_img4.jpg"/>
+            <h3>【加油吧！胖胖！】</h3>
+            <p>要相信自己之所以体积比别人庞大</p>
+            <p>是因为单薄的躯壳不能承载我们饱满的灵魂</p>
+            <p>只要身体和心灵健康，胖瘦都不是问题</p>
+            <p>做人嘛，最重要的就是开心啦~</p>
+            <div class="tips">
+                <p>1、9月2日是发源于中国网络的胖子节</p>
+                <p>2、不论体型胖瘦，健康快乐的生活最重要</p>
+                <p>3、这天出生的人们简直可以理直气壮的做胖子了XD</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/欢欢</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+    
+ </body>
+</html>
+

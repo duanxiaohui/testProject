@@ -1,0 +1,402 @@
+@charset "UTF-8";
+body,textarea {
+    background: #fff;
+    color: #000000;
+    font: 100% / 1.5em "Microsoft YaHei", "微软雅黑", "SimSun", "arial";
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    border: 0;
+    vertical-align: top;
+}
+
+select, input {
+    font-size: 12px;
+}
+
+address, cite, code, em, th {
+    font-style: normal;
+    font-weight: normal;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+.e_clear:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.e_clear {
+    display: inline-block;
+}
+
+.e_clear {
+    display: block;
+}
+
+.err {
+    font-size: 12px;
+}
+
+/*textarea {*/
+    /*background: #fff;*/
+    /*border: 1px solid #d2d9dc;*/
+    /*border-radius: 2px;*/
+    /*box-shadow: 0 0 0 #d2d9dc;*/
+    /*-moz-transition: .3s ease-in-out;*/
+    /*transition-property: border box-shadow;*/
+    /*-webkit-transition: .3s ease-in-out;*/
+/*}*/
+
+/*textarea:focus, input[type="text"]:focus {*/
+    /*box-shadow: 0 0 5px #b7d4ea;*/
+/*}*/
+
+a {
+    color: #208de9;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+html {
+    height: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+    position: relative;
+}
+.hide {
+   display: none; 
+}
+.font-18 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*--- banner ---*/
+#banner {
+    width: 100%;
+    z-index: 9;
+/*
+    height: 278px;
+    background: url("../images/banner.jpg") no-repeat;
+*/
+}
+#banner img {
+    width:100%;   
+}
+/*--- 分享按钮 ---*/
+.share-btn-rt {
+    display: none;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    top: 10px;
+    right: 5px;
+    z-index: 998;
+}
+.share-btn-rt img {
+    width:50%;
+}
+/*--- 分享页 ---*/
+#user {
+    text-align: center;
+    margin: -50px auto 0;
+}
+
+.avatar {
+    position: relative;
+    width:25%;
+    background-color: #ffffff;
+    background-origin: padding-box;
+    line-height: 0;
+/*    padding:3px;*/
+    border: solid 3px #fff;
+    border-radius: 160px;
+    margin: 0 auto 5px;
+/*    transform: translateY(-50%);*/
+    z-index: 15;
+}
+.avatar img {
+    width:100%;
+/*    margin: 5px;*/
+    border-radius: 160px;
+}
+
+.user-title {
+    width:85%;
+    font-size: 20px;
+    font-size: 1.25em;
+    line-height: 26px;
+/*    font-size: 1.875em;*/
+    margin: 0 auto 15px;
+    text-align: center;
+}
+
+.container {
+    width:81.5625%;
+    margin: 20px auto 0;
+}
+.container.share,.container.replay {
+    display: none;
+}
+.container .con-header {
+    background: url("../images/cont-top.jpg") no-repeat;
+    background-size: 100% 100%;
+    height: 20px;
+}
+.container .con-footer {
+    background: url("../images/cont-bottom.jpg") no-repeat;
+    background-size: 100% 100%;
+    height: 20px;
+}
+.container .con-content {
+    color: #fff;
+    text-align: center;
+    padding: 0 10%;
+    min-height: 200px;
+    background: url("../images/con-con.jpg") repeat-y;
+    background-size:100% auto;
+}
+.con-content .title {
+    text-align: center;
+}
+.con-content .title img {
+    width:95%;
+}
+.con-content p {
+    font-weight: bold;
+    font-size: 20px;
+    color: aliceblue;
+    margin: 10px 0 10px;
+    text-align: center;
+    word-wrap:break-word;
+}
+ 
+
+.ultli {
+    padding:10px 0;
+}
+.ultli li {
+    padding: 3px 0;
+}
+.ultli li {
+    color:#fff;
+    background: #a50102;
+    text-align: center;
+    border-radius: 25px;
+    margin-bottom: 5px;
+}
+
+p.msg{
+    text-align: center;
+    margin: 20px 0 12px;
+    font-size: 16px;
+/*    font-size: 1em;*/
+}
+
+.share-btn {
+    width:80%;
+    text-align: center;
+    margin: 0 auto;
+}
+.share-btn a {
+    display: block;
+    padding: 30px 0;
+    margin-top: -20px;
+}
+.share-btn a img {
+    width:100%;
+}
+/*--- 大招页 ---*/
+.container.super {
+    display: none;
+}
+.ult {
+    position: relative;
+    border:solid 2px #ff7133;
+    padding: 5%;
+    text-align: center;
+}
+.ult.super {
+    padding-bottom: 0;
+}
+.ult .ult-title {
+    position: absolute;
+    background: #fff;
+    width:45.3%;
+    top: 0;
+    left:50%;
+    line-height: 0;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    text-align: center;
+    padding:0 5px;
+}
+.ult.super .ult-title {
+    width:70%;
+}
+.ult img {
+    width:100%;
+    line-height: 0;
+}
+.ult img.sub-title-super {
+    display: block;
+    width:70%;
+    margin: 15px auto;
+}
+.ult p {
+    text-align: center;
+    margin: 5% 1% 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.ult .super-text {
+    display: block;
+    resize: none;
+    text-align: left;
+    width: 70%;
+    height: 200px;
+    line-height: 40px;
+    border: none;
+    background: url("../images/text-bg.jpg") repeat 0 0;
+    background-position: top;
+    background-size: 100% 80%;
+    white-space: normal;
+    margin: 0 auto;
+    outline: none;
+}
+.ult .super-msg {
+    color:#ddd;
+/*    display: block;*/
+    margin: 20px 0 0;
+    text-align: right;
+}
+
+
+.ult-type {
+    margin: 15px auto;
+}
+
+.ult-type > a {
+    float: left;
+    display: block;
+    width:48%;
+    text-align: center;
+}
+.ult-type img {
+    width:70%;
+}
+.ult-type a,.ult-type img {
+/*    pointer-events:none;*/
+}
+/*
+.ult-type > a:active img {
+    transform: scale(2.0,2.0);
+    -webkit-transform:scale(2.0,2.0);
+    -moz-transform: scale(2.0,2.0);
+    transition: transform 500ms;
+    -webkit-transition: transform 500ms;
+    -moz-transition: transform 500ms;
+}
+*/
+
+/*--- footer ---*/
+#footer,#footer-share {
+    margin:15px auto 0;
+    text-align: center;
+    width: 100%;
+}
+.co-in {
+    width:40%;
+    
+}
+
+.coop-out-365,.coop-in-365 {
+    width: 100%;
+}
+.coop-out-365 img {
+    display: block;
+    margin: 0 auto 10px;
+    width:80%;
+}
+#footer-share > img {
+    width:80%;
+    margin-bottom: 15px;
+}
+.coop-app > a {
+    display: inline-block;
+    height: 37px;
+    width: 16%;
+/*    background-size: auto 500%;*/
+}
+#app-changba {
+    background: url("../images/app_logo.png") 0 0 no-repeat;
+    background-size: auto 500%;
+}
+#app-zhuangche {
+    background: url("../images/app_logo.png") 0 25% no-repeat;
+    background-size: auto 500%;
+}
+#app-douguo {
+    background: url("../images/app_logo.png") 0 50% no-repeat;
+    background-size: auto 500%;
+}
+#app-pptv {
+    background: url("../images/app_logo.png") 0 75% no-repeat;
+    background-size: auto 500%;
+}
+#app-helijia {
+    background: url("../images/app_logo.png") 0 100% no-repeat;
+    background-size: auto 500%;
+}
+
+.mi-big {
+    display: block;
+    font-size: 42px;
+    line-height: 50px;
+}
+
+.no-ult-super {
+    display: none;
+    padding-top: 28px;
+}
+.no-ult-super p {
+    margin:0 0 20px 0;
+    font-size: 23px;
+}
+.no-ult-super h4 {
+    margin-top: 10px;
+}
+.height200 {
+/*    height: 30px;*/
+}

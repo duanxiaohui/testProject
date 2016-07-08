@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="hahnzhu" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<title>Demo</title>
+	<link rel="stylesheet" href="../dist/css/parallax.css">
+	<link rel="stylesheet" href="../dist/css/parallax-animation.css">
+	<style>
+	/* custom */
+	section[data-id="1"] {
+		background-color: #3498db;
+	}
+	section[data-id="2"] {
+		background-color: #40d47e;
+	}
+	section[data-id="3"] {
+		background-color: #ff8c81;
+	}
+	section[data-id="4"] {
+		background-color: #3498db;
+	}
+	.box1 {
+		width: 100%;
+		height: 200px;
+		background-color: #ecf0f1;
+		position: absolute;
+		left:0px; top: 0px;
+	}
+	.box2 {
+		width: 80%;
+		height: 30px;
+		background-color: #8e44ad;
+		position: absolute;
+		left: 10%; top: 226px;
+	}
+	.box3 {
+		width: 80%;
+		height: 200px;
+		background-color: #34495e;
+		position: absolute;
+		left: 10%; top: 266px;
+	}
+	.box4 {
+		width: 125%;
+		height: 200px;
+		border-radius: 100%;
+		background-color: #e74c3c;
+		position: absolute;
+		margin-left:-62%;
+		line-height:80px; text-align:center;
+		left: 50%; bottom:-100px;
+	}
+	</style>
+</head>
+<body>
+<div class="wrapper">
+	<div class="pages">
+
+		<!-- 第一屏 -->
+		<section class="page">
+			<div class="box2" data-animation="[{'animation':'fadeInLeft','delay':'200','duration':'','timfunc':''},{'animation':'fadeInRight','delay':'700'}]">这里是文章藐视</div>
+			<div class="box3" data-animation="">这里是文章藐视</div>
+		</section>
+
+	</div>
+</div>
+<script src="../dist/js/zepto.min.js"></script>
+<script src="../dist/js/parallax.js"></script>
+<script>
+
+	$('.pages').parallax({
+		direction: 'vertical', 	// horizontal (水平翻页)
+		swipeAnim: 'cover', 	// cover (切换效果)
+		drag:      true,		// 是否允许拖拽 (若 false 则只有在 touchend 之后才会翻页)
+		loading:   false,		// 有无加载页
+		indicator: false,		// 有无指示点
+		arrow:     false,		// 有无指示箭头
+		/*
+		 * 翻页后立即执行
+		 * {int} 		index: 第几页
+		 * {DOMElement} element: 当前页节点
+		 * {String}		directation: forward(前翻)、backward(后翻)、stay(保持原页)
+		 */
+		onchange: function(index, element, direction) {
+			// code here...
+			// console.log(index, element, direction);
+		},
+		/*
+		 * 横竖屏检测
+		 * {String}		orientation: landscape、protrait
+		 */
+		orientationchange: function(orientation) {
+			// console.log(orientation);
+		}
+	});
+
+	$(".box3").anim([
+		{'animation':'fadeInLeft','delay':'200','duration':'','timfunc':''},
+		{'animation':'fadeInRight','delay':'700'}
+	]);
+		// $(".box3").anim({
+		// 	'animation':'fadeInLeft',
+		// 	'delay':'200',
+		// 	'duration':'',
+		// 	'timfunc':''
+		// 	})
+		// .anim({
+		// 	'animation':'fadeInRight',
+		// 	'delay':'700'
+		//  });
+
+</script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body { background: #eaeaea; color: #444; font: 12px / 1.5em arial; height: 100%; margin: 0; padding: 0; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+textarea { background: #fff; border: 1px solid #d2d9dc; border-radius: 2px; box-shadow: 0 0 0 #d2d9dc; -moz-transition: .3s ease-in-out; transition-property: border box-shadow; -webkit-transition: .3s ease-in-out; }
+textarea:focus, input[type="text"]:focus { /*border: 1px solid #b7d4ea;*/ box-shadow: 0 0 5px #b7d4ea; }
+a { color: #208de9; cursor: pointer; text-decoration: none; }
+a:hover { color: #ff5b86;text-decoration: none; }
+
+.v_align { vertical-align: middle; }
+
+.area_top{padding-top:5px; background:url(../images/source.jpg) repeat-x left top; -webkit-background-size: 320px 5px;}
+.source{padding-left:55px; background:#f0f7f7 url(../images/cal_logo.png) no-repeat 20px center; height:30px; line-height:30px; -webkit-background-size:20px 20px; color:#111; font-size:12px;}
+.area_top p{padding:10px 20px 0; font-size:14px; line-height:150%;}
+.area_top p span,.area_top p.cal_sum{color:#42adda;}
+
+.main{width:480px; margin:0 auto;}
+.img_box{width:480px; height:800px; margin-top:5px;}
+.img_1{background:url(../images/starts/intro_1.png) no-repeat;}
+.img_2{background:url(../images/starts/intro_2.png) no-repeat;}
+.img_3{background:url(../images/starts/intro_3.png) no-repeat;}
+.img_4{background:url(../images/starts/intro_4.png) no-repeat;}
+.img_5{background:url(../images/starts/intro_5.png) no-repeat;}
+.img_6{background:url(../images/starts/intro_6.png) no-repeat;}
+.img_7{background:url(../images/starts/intro_7.png) no-repeat; position:relative;}
+.img_7 a{display:block; width:280px; height:80px; position:absolute; background:#77c9a3; color:#fff; text-align:center; bottom:15px; left:14px;}
+.img_7 a p{font-size:32px; padding:25px 0 10px 0; font-weight:600;}
+.img_7 a span{font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+
+.wap .main{width:100%; margin:0 auto;}
+.wap .source{padding-left:45px; background:#f0f7f7 url(../images/logo_72x72.png) no-repeat 20px center; height:30px; line-height:30px; -webkit-background-size:20px 20px; color:#111; font-size:12px;}
+
+.wap .img_box{width:100%; margin-top:5px;}
+.wap .img_1{background:url(../images/starts/intro_1.png) no-repeat; -webkit-background-size:100%;}
+.wap .img_2{background:url(../images/starts/intro_2.png) no-repeat; -webkit-background-size:100%;}
+.wap .img_3{background:url(../images/starts/intro_3.png) no-repeat; -webkit-background-size:100%;}
+.wap .img_4{background:url(../images/starts/intro_4.png) no-repeat; -webkit-background-size:100%;}
+.wap .img_5{background:url(../images/starts/intro_5.png) no-repeat; -webkit-background-size:100%;}
+.wap .img_6{background:url(../images/starts/intro_6.png) no-repeat; -webkit-background-size:100%;}
+.wap .img_7{background:url(../images/starts/intro_7.png) no-repeat; -webkit-background-size:100%;}
+.wap .img_7 a{width:180px; height:50px; bottom:12px; left:10px;}
+.wap .img_7 a p{font-size:16px; padding:8px 0 5px 0;}
+.wap .img_7 a span{font-size:12px;}
+
+.footer{height:68px; line-height:68px; text-align:center; font-family:Arial, Helvetica, sans-serif; color:#808285;}
+.wap .footer{height:34px; line-height:34px; text-align:center; font-family:Arial, Helvetica, sans-serif; color:#808285;}

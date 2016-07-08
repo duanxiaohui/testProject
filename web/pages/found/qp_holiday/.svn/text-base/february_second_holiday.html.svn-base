@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>小心，龙要抬头了！</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/february_second/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>二月二，龙抬头</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>中国龙是中华民族的图腾、是中国文化的象征，虽然在西方龙在很多时候是阴暗、邪恶的代名词，但这丝毫影响不了天朝炎黄子孙对龙的崇拜。二月初二是传说中“龙抬头”的日子，全国各地的人们会以各种形式庆祝这个节日。</p>
+            <h3>【我们都是“小龙人”】</h3>
+            <p>上下五千年的时间，龙已渗透了中国社会的各个方面，成为一种文化的凝聚和积淀。龙成了中国的象征、中华民族的象征、中国文化的象征。对每一个炎黄子孙来说，龙的形象是一种符号、一种意绪、一种血肉相连的情感。龙的子孙、龙的传人……这些称谓带给我们的是激动、奋发、自豪。</p>
+            <img src="images/february_second/holiday_1.jpg"/>
+            <p>龙的文化除了在中华大地上传播承继外，还被远渡海外的华人带到了世界各地。在世界各国的华人居住区或中国城内，最多和最引人注目的装饰物仍然是龙。因而，龙的传人、龙的国度也获得了世界范围的认同。</p>
+            <h3>【龙抬头，祈风调雨顺】</h3>
+            <p>二月二龙抬头又被称为春耕节、农事节、春龙节，是中国民间的传统节日。庆祝龙头节是为了向龙表示敬意，以祈求雨水及来年的风调雨顺。</p>
+            <img src="images/february_second/holiday_2.jpg"/>
+            <p>二月二传说是尧王的诞辰，还有传说认为是土地公公的生日，称之为土地诞。为给土地公公暖寿，有的地方会举办土地会：家家凑钱为土地神祝贺生日、到土地庙烧香祭祀，敲锣鼓、放鞭炮。在广西中北部壮族地区也有二月二龙抬头，八月二龙收尾的说法。</p>
+            <h3>【节日习俗】</h3>
+            <p>龙抬头有很多习俗，流传较广的就是这天人们会去剃头。正月里通常不剃头，大都等二月二这天剃头，美其名曰剃龙头。很多人认为年年剃龙头有非常好的寓意，能踏上人生巅峰！</p>
+            <img src="images/february_second/holiday_3.jpg"/>
+            <p>各地还会在节日的那个天把食品名称加上龙的头衔。吃水饺叫吃龙耳，吃春饼叫吃龙鳞，吃面条叫食龙须，吃米饭叫吃龙子，吃馄饨叫吃龙眼等。妇女们在这一天则不能做针线活，因为苍龙在这一天要抬头观望天下，使用针会刺伤龙的眼睛。有的地方妇女还有停止洗衣服的习俗，怕伤了龙皮，等等。</p>
+
+            <div class="tips">
+                <p>1、二月二龙抬头，小伙伴们快去剃头吧，可能一不小心就成了人生赢家；</p>
+                <p>2、不管过什么节，吃饱吃好了最重要，呼朋唤友的吃起来吧！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

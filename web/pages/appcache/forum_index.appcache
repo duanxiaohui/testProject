@@ -1,0 +1,18 @@
+CACHE MANIFEST
+
+# v1 2015-06-05
+
+# updated  
+
+NETWORK:
+*
+
+CACHE:
+/pages/forum/index.html
+/css/forum_new.css
+/js/lib/zepto.min.js
+/js/lib/zepto.cookie.js
+/js/lib/zTouch.js
+/js/lib/app.js
+/pages/forum/js/main.js
+/pages/forum/js/func.js

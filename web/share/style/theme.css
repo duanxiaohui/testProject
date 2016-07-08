@@ -1,0 +1,345 @@
+@font-face{
+	font-family:"365 iconfont";
+	src:url('../font/icon_font.ttf?v=20140318') format('truetype');
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+
+.multi_area{
+	width:90px;
+	top:10px;
+	left:10px;
+	position:absolute;
+}
+.multi_area div{
+	margin:5px 0;
+}
+.main_area{
+	max-width:480px;
+	margin:auto;
+}
+.phone_area{
+	-webkit-user-select:none;
+	background: #fff;
+	
+}
+.phone_skin{
+	position:relative;
+	background-size:cover;
+	height:568px;
+}
+.mu_box{
+	width:50px;
+	height:48px;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.phone_header{ padding-top:20px; height:40px; position:relative;}
+.phone_header_title { margin-left:15px; font-size:28px; color:#fff;margin-right: 45px;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;word-wrap: break-word; }
+.phone_header_desc { margin-left:15px; font-size:20px; color:#fff; margin-top:10px;}
+.phone_header_menu { 
+	font-family:'365 iconfont';
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	font-size: 36px;
+	cursor: pointer; }
+.phone_activity { height:140px;padding-top:5px; overflow:hidden;}
+.phone_activity_row { 
+height:20px;line-height:20px; font-size:15px; color:#fff; padding:8px 15px; border-bottom:1px solid rgba(255,255,255,0.3);overflow: hidden;
+text-overflow: ellipsis;
+word-wrap: break-word;
+white-space: nowrap;}
+.calendar { position:absolute; bottom:0px; left:0px;width:100%;  }
+.calendar_header { height:30px; }
+.calendar_header{position:relative;}
+.calendar_header_year_month { font-size:28px; margin:10px 0 0 5px; }
+.calendar_header_today { font-size:18px; margin:12px 0 0 40px;position:absolute; top:-5px; left:120px;}
+.calendar_header_link{
+	font-family:"365 iconfont";
+	font-size:36px;
+	position:absolute;
+	top:-5px;
+	right:10px;
+	cursor:pointer;
+}
+.calendar_header_edit{
+	font-family:"365 iconfont";
+	font-size:36px;
+	position:absolute;
+	top:-5px;
+	right:15px;
+	cursor:pointer;
+}
+.solar-text {
+float: right;
+margin-right: 6px;
+margin-top: 3px;
+}
+.calendar_table td { 
+	border-top: 1px solid #bcbec0; 
+	border-right: 1px solid #bcbec0; 
+	height:44px; 
+	width:14%;
+	position:relative;
+}
+.calendar_panel {  
+}
+.day_box { }
+.day_box_number { float:right; font-size:24px;margin-top:-15px;margin-right:5px;color:#fff; }
+
+
+
+.operator_area{
+	margin-left:60px;
+	margin-top:40px;
+	background:#fff;
+	padding:10px;
+	width:480px;
+	-webkit-border-radius:5px;
+	float:left;
+	min-height:854px;
+}
+.json_area{
+	margin-left:60px;
+	margin-top:40px;
+	background:#fff;
+	padding:10px;
+	width:480px;
+	-webkit-border-radius:5px;
+	float:left;
+	min-height:854px;
+}
+.operator_area_row{
+	height:30px;
+	padding-top:10px;
+	border-bottom:1px dashed grey;
+	position:relative;
+}
+
+#colorSelector {
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	background: url(../images/select.png);
+	left:100px;
+	top:0px;
+}
+#colorSelector div {
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	width: 30px;
+	height: 30px;
+	background: url(../images/select.png) center;
+}
+.colorPicker {
+	position: relative;
+	width: 36px;
+	height: 36px;
+	background: url(../images/select.png);
+}
+.colorPicker div {
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	width: 30px;
+	height: 30px;
+	background: url(../images/select.png) center;
+}
+.fontPicker_header{
+	height:20px;
+	padding-top:10px;
+	cursor:pointer;
+}
+.font_picker{
+	border:1px solid grey;
+	-webkit-border-radius:5px;
+	margin-top:5px;
+	position:relative;
+}
+.disable_check{
+	position:absolute;
+	top:10px;
+	right:45px;
+}
+#slider{
+	height:400px;
+	position:absolute;
+	left:20px;
+	top:100px;
+}
+
+ 
+#tabnav {
+    background:#d5d5d5;
+    border-bottom:1px solid #333;
+    padding-bottom:3px;
+}
+ 
+#tabnav ul {
+    padding:15px 0px 5px 0px;
+    margin:5px 0px 5px 0px;
+    list-style:none;
+    background:#f1f1f1;
+    border-bottom:1px solid #999;
+}
+ 
+#tabnav ul li {
+    display:inline;
+    margin-left:10px;
+}
+ 
+#tabnav ul li a {
+    background:#fff;    
+    padding:5px 10px 5px 10px;
+    border:1px solid #999;
+	text-decoration:none;
+	color:#000;
+	
+}
+ 
+#tabnav ul li a:hover {
+    background:#ccc;    
+}
+ 
+#tabnav ul li a.here {
+    background:#d5d5d5;
+    padding:5px 10px 5px 10px;
+    border-top:1px solid #999;
+    border-left:1px solid #999;
+    border-right:1px solid #999;
+    border-bottom:1px solid #d5d5d5;
+}
+ 
+#tabnav ul li a.here:hover {
+    background:#d5d5d5;
+}
+
+
+.workday{
+	font-family:"365 iconfont";
+	font-weight:normal;
+	font-size:12px;
+	height:24px;
+	line-height:24px;
+	
+}
+.weekend{
+	font-family:"365 iconfont";
+	font-weight:normal;
+	font-size:12px;
+	height:24px;
+	line-height:24px;
+	
+}
+.day_box_lunar{
+	position:absolute;
+	bottom:3px;
+	right:8px;
+	color:#fff;
+	z-index:10;
+}
+
+.fontPicker_table tr{
+	height:30px;
+}
+.color_quick_set{ float:left;height:26px; padding:10px 0 0 5px;}
+.color_quick_set_text { width:80px;}
+.colorPicker_header_span{
+	float: left;
+line-height: 36px;
+width: 135px;
+}
+.colorPicker_trans_span{
+	float: left;
+line-height: 36px;
+width: 40px;
+margin-left:25px;
+}
+.colorPicker_alpha{
+	margin-top:10px;
+}
+.fontPicker_custom_fontcolor dd,.fontPicker_custom_activecolor dd{
+	padding:0;
+}
+.custom_style_edit{
+	width:26px;
+}
+.custom_style_dd{background:#ddd;padding:5px;width:330px;border-radius:5px;}
+
+.header_area{height:48px; line-height:48px; padding:0 15px; }
+.header_area span{font-size:14px; color:#3c525f;}
+.header_area a{float:right; width:100px; height:30px; font-size:14px; line-height:30px; text-align:center; margin-top:9px; color:#fff; text-decoration: none;
+-moz-border-radius: 15px; -webkit-border-radius:15px; -khtml-border-radius: 15px; border-radius: 15px;
+background:-webkit-gradient(linear, 0 0, 0 bottom, from(#57cef5), to(#1187c6));  
+text-shadow:1px 1px 0px #066b99;
+box-shadow: 3px 3px 3px #d7d8d9; -moz-box-shadow: 3px 3px 3px #d7d8d9; -webkit-box-shadow: 3px 3px 3px #d7d8d9;
+}
+
+.phone_txt{width:100%; margin:2px auto 0; padding:15px 0; background:#f0f7f7; text-align:center;}
+.phone_txt a{display:inline-block; width:125px; height:48px; margin:0 10px; text-align:center; line-height:48px; font-size:18px; color:#fffefe; text-shadow:0 1px 1px #59a687; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; -webkit-box-shadow:1px 1px 3px #999;text-decoration: none;}
+.phone_txt a.down_btn{background:#68c39f; border:1px solid #bad18b;}
+.phone_txt a.collection_btn{background:#77b1c9; border:1px solid #8fdcf4;}
+
+.area_top{padding-top:5px; background:url(../images/source.jpg) repeat-x left top; -webkit-background-size: 320px 5px;}
+.source{padding-left:45px; background:#f0f7f7 url(../images/logo_72x72.png) no-repeat 20px center; height:30px; line-height:30px; -webkit-background-size:20px 20px; color:#111; font-size:12px;}
+.area_top p{padding:10px 20px 0; font-size:14px; line-height:150%;}
+.area_top p span,.area_top p.cal_sum{color:#42adda;}
+
+.rili_about{padding-top:10px;}
+.rili_about h3{font-size:14px; color:#42adda; text-align:center; line-height:32px;}
+.rili_about p{padding:0 20px; color:#97a1b2; font-size:12px; line-height:22px;}
+.footer{text-align:center; font-size:14px; color:#677285; line-height:30px; font-weight:600; font-family:Arial, Helvetica, sans-serif;}
+
+.btn_box{text-align:center;}
+.down_btn,.collection_btn,.collection_layer_btn{display:inline-block; width:125px; height:30px; margin:15px auto; background:#77b1c9; line-height:30px; text-align:center; color:#fff; font-size:16px; text-decoration: none;
+-moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px;
+box-shadow: 3px 3px 3px #d7d8d9; -moz-box-shadow: 3px 3px 3px #d7d8d9; -webkit-box-shadow: 3px 3px 3px #d7d8d9;
+text-shadow:1px 1px 0px #ccc; -moz-text-shadow: 1px 1px 1px #ccc; -webkit-text-shadow: 1px 1px 1px #ccc;
+}
+.day_box_cell {
+height: 44px;
+}
+.schedule_icon {
+position: absolute;
+width: 45px;
+bottom: 0px;
+left: 0px;
+}
+.schedule_item {
+white-space: nowrap;
+padding: 8px;
+text-overflow: ellipsis;
+overflow: hidden;
+margin-top: 2px;
+}
+.down_btn{background:#68c39f;}
+
+.collection_layer{width:260px; height:265px; padding-top:65px; position:fixed; text-align:center; top:50%; left:50%; margin:-165px 0 0 -130px; border:2px solid #fff; background:#ebe9e9; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; box-shadow: 0px 0px 10px #d7d8d9; -moz-box-shadow: 0px 0px 10px #d7d8d9; -webkit-box-shadow: 0px 0px 10px #d7d8d9;}
+.collection_layer p{padding-left:60px; font-size:18px; color:#42adda; text-align:left;}
+.collection_layer p.installed_txt{color:#42adda;}
+.collection_layer p.not_installed_txt{color:#68c39f; padding:20px 0 0px 60px;}
+.close_coll_layer{display:block; position:absolute; width:14px; height:14px; margin:-55px 0 0 240px; background:url(../images/close_btn.png) no-repeat left top; -webkit-background-size:14px 14px;}
+
+
+.weixin_tips_layer{width:100%; height:100%; position:fixed; background:url(../images/weixin_tips_layer.png) repeat; top:0; display:none;}
+.weixin_tips_txt1{width:246px; padding:35px 33px 0 33px; margin-right:15px; float:right; background:url(../images/txt1.png) no-repeat right 15px; background-size:34px 38px;}
+.weixin_tips_txt1 h2{font-size:17px; color:#fff; line-height:30px; text-align:left; }
+.weixin_tips_txt1 p{color:#fff;}
+.weixin_tips_txt2{padding-top:160px; background:url(../images/txt2.png) no-repeat center 80px; background-size:82px 80px; text-align:center;}
+.weixin_tips_txt2 h3{font-size:24px; color:#fffcb7; margin:15px 0;}
+.weixin_tips_txt2 p{font-size:15px; color:#fffcb7; margin-bottom:20px;}
+.weixin_tips_box{width:220px; height:115px; padding:10px; background:#7cd7df;  border-radius: 5px;}
+.shar_icon{width:28px; height:24px; margin-left:10px; vertical-align:middle;}
+.shar_bow{width:30px; height:30px;margin-left:8px; vertical-align:middle;}
+
+
+/*cooperation*/
+.cooperation_title{display:none; width:100%; height:40px;}
+.cooperation  .cooperation_title{display:block;}
+.cooperation .area_top{display:none;}
+.cooperation .rili_about{}
+.cooperation .btn_box{padding:0 20px;}
+.cooperation .collection_layer_btn{width:100%; height:45px; line-height:45px; background:#32cdf3; font-size:26px;
+box-shadow: 0px 0px 0px #d7d8d9;-moz-box-shadow: 0px 0px 0px #d7d8d9;-webkit-box-shadow: 0px 0px 0px #d7d8d9;}

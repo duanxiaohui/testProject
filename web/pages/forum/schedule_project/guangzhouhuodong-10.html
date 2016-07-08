@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>广府庙会</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">广府庙会</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	
+	    	<img src='http://cocoimg.365rili.com/schedule_pics/default/84f7c31d-1393-4340-9616-4986a1d7a7d2.jpg'>
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+			 <a class="btn js-subscribe" data-uuid="caaebb11-0bfc-4598-97a6-50780caa05a8" data-cid="148162557">添加到我的日历</a>
+	    
+	    	<p class="time"><b>时间：2015.03.05 - 2015.03.11</b><br/>
+	    	<b>场地：中山路、北京路等</b><br/>
+			<h3>活动内容：</h3>
+			<p>广府庙会系列活动自正月十五启动，设专场民俗文化表演、民俗巡游、非遗手工艺品制作展示、传统小商品展销、传统美食展销等活动。</p>
+			<!--h3是小标题-->
+			<h3></h3>
+			<!--p是段落文字描述-->
+			<p></p>
+
+<img src='http://cocoimg.365rili.com/schedule_pics/default/0900e62c-c2b9-4e1e-8b9c-6bb025305e74.jpg'>
+<img src='http://cocoimg.365rili.com/schedule_pics/default/b1616261-5ba7-4b46-8b14-e8a30121893e.jpg'>
+ <div class="remind_div" data-uuid="caaebb11-0bfc-4598-97a6-50780caa05a8" data-cid="148162557"><div class="remind_icon"></div><span>添加到我的日历</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/8a51c92a-c15a-402e-88dc-faa28e1f8906.jpg',
+                title: '活动：广府庙会',
+                desc: '广府庙会系列活动自正月十五启动，设专场民俗文化表演、民俗巡游、非遗手工艺品制作展示、传统小商品展销、传统美食展销等活动。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '活动：广府庙会',
+		        				content: '广府庙会系列活动自正月十五启动，设专场民俗文化表演、民俗巡游、非遗手工艺品制作展示、传统小商品展销、传统美食展销等活动。'
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/8a51c92a-c15a-402e-88dc-faa28e1f8906.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

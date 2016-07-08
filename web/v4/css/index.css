@@ -1,0 +1,62 @@
+.rili_v4_focus{width:100%; height:527px; position:relative; }
+.rili_v4_focus li{width:100%; height:527px;}
+.f1{background:url(../images/cal_samples/roll_1.jpg) no-repeat center top;}
+.f2{background:url(../images/cal_samples/roll_2.jpg) no-repeat center top;display:none;}
+.f3{background:url(../images/cal_samples/roll_3.jpg) no-repeat center top;display:none;}
+#focus_box li {position:absolute; }
+.focus_tab{position:absolute; bottom:20px; left:50%; margin-left:-18px;}
+.focus_tab ul li{width:12px; height:12px; float:left; margin:0 5px; display:inline; background:url(../images/cal_samples/focus_tab.png) no-repeat left -12px; cursor:pointer;}
+.focus_tab ul li.on{background:url(../images/cal_samples/focus_tab.png) no-repeat left 0;}
+.rili_v4_focus .nav{float:right; padding-top:14px; position:relative;}
+.rili_v4_focus .nav ul li{width:auto; height:24px;}
+.rili_v4_focus .nav ul li a{color:#fff;}
+.rili_v4_focus .nav ul li a.on{color:#f50;}
+.logo{position:relative; z-index:10; height:50px; background:url(../images/index_logo.png) no-repeat;}
+.logo img{display:none;}
+.rili_slogan{width:245px; height:55px; line-height:55px; text-align:center; color:#fff; font-size:22px; position:absolute; background:url(../images/rili_slogan.png) no-repeat; z-index:9; left:0; bottom:-70px;}
+.coop_link{width:1003px; margin:0 auto; padding:30px 0; text-align:center;}
+.coop_link a{float:left; margin:0 60px 0 0; display:inline;}
+
+.rili_v4_product{width:1003px; margin:0 auto; padding:60px 0 100px 0;}
+.iphone_list,.pc_list,.web_list{width:290px; float:left; margin-right:40px; display:inline;}
+.web_list{width:320px; margin:0;}
+.iphone_list .list_title{background:url(../images/iphone_list.jpg) no-repeat left top;}
+.pc_list .list_title{background:url(../images/pc_list.jpg) no-repeat left top;}
+.web_list .list_title{background:url(../images/web_list.jpg) no-repeat left top;}
+.list_title{height:40px; padding:0 0 30px 55px;}
+.list_title p{font-size:12px; color:#999;}
+.list_title h3{font-size:18px; color:#000; font-weight:500; line-height:150%;}
+.list_content{border-top:1px solid #c7c7c7; padding-top:10px;}
+.iphone_code{width:125px; float:left;}
+.iphone_link{float:left; padding-left:15px;}
+.android_icon,.ios_icon{display:block; width:44px; height:51px; margin-top:6px;}
+.android_icon{background:url(../images/index_down_icon.jpg) no-repeat -44px 0;}
+.android_icon:hover{background:url(../images/index_down_icon.jpg) no-repeat 0 0;}
+.ios_icon{background:url(../images/index_down_icon.jpg) no-repeat 0 -50px;}
+.ios_icon:hover{background:url(../images/index_down_icon.jpg) no-repeat -47px -50px;}
+.list_content p{line-height:180%; color:#a6a09e;}
+.pc_list a.btn,.web_list a.btn{float:left; width:155px; height:36px; line-height:36px; text-align:center; color:#fff; font-size:14px; background:#ff7800; margin:10px 0 0 0;}
+.web_list a{float:left;margin:25px 0 0 10px; color:#a6a09e;}
+.pc_list a.btn:hover,.web_list a.btn:hover{background:#ff3c00; color:#fff;}
+.web_list a:hover{color:#ff3c00;}
+
+.username{padding-left:20px;height:22px; line-height:22px; color:#787c7f; font-weight:600; background:url(../images/face.png) no-repeat left 3px;}
+.web_list a.exit_user{margin:0 0 0 20px; color:#4b6d89; float:none; font-weight:500;}
+.login_txt{padding:10px 0 10px 20px;height:15px; line-height:15px; color:#A6A09E; font-size:12px;}
+.web_list a.inCalendar_btn{float:none; margin:0 0 0 20px; color:#FF7800; text-decoration:underline;}
+.username_box{max-width:230px; height:22px;line-height:22px; overflow:hidden; float:left;}
+
+@media screen and (device-aspect-ratio: 3/4) {
+	.rili_v4_top,.rili_v4_about,.rili_v4_product,.rili_v4_product ul,.rili_v4_footer,.coop_link{width:100%;}
+	.logo{padding:0 0 0 10px;}
+	.nav{padding-right:10px;}
+	.rili_v4_about{text-align:center;}
+	.rili_v4_about a{display:inline-block; float:none;}
+	.rili_v4_footer{text-align:center;}
+	.iphone_list,.pc_list,.web_list{margin:0 10px;}
+	.web_list{margin-right:0;}
+	.coop_link a{margin:0 20px;}
+	.logo{margin-left:10px;}
+}
+
+

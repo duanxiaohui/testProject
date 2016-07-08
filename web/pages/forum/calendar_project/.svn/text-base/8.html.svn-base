@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0">
+<title>居家过日子，还是实惠点好！</title>
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/css/forum_new.css" rel="stylesheet">
+<script src="/js/lib/zepto.min.js"></script>
+<script src="/js/lib/app.js"></script>
+<link href="/css/footer.css?20141126" rel="stylesheet">
+<script src="/pages/forum/js/underscore-1.6.0.js"></script>
+</head>
+<body class="weixin">
+    <div class="calendar_project_top">
+        <div class="calendar_project_top_header">
+            <a href="javascript:;" class="return_btn"></a>
+            <a href="javascript:;" class="share_btn none"></a>
+            <span>居家过日子，还是实惠点好！</span>
+        </div>
+        <div class="calendar_project_top_img">
+            <img src="http://cocoimg.365rili.com/pic/default/zhuanti_in_8.jpg"/> <!-- 图片地址 -->
+        </div>
+    </div>
+    <div class="calendar_project_info">
+        <p>生活用不着高（zhuang）大（bi）上，实惠带来的幸福感难道也需要炫耀！</p>
+    </div>
+    <div class="calendar_project_list">
+        <dl class="e_clear" data-id="251629559">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/db7baea4-8705-4c8e-a610-74088f0124ed.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="251629559" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>新品手机抢购资讯</h3>
+                    <p>专注于互联网手机信息的日历，定时更新互联网手机资讯，可为您购买互联网手机提供帮助，简简单单收藏，感受的到的方便。</p>
+                    <div class="focus_num">36490人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="125821547">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/a0f13ae8-650c-44be-9eed-9272846ab988.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="125821547" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>品牌特卖推荐</h3>
+                    <p>聚合热门品牌的限时特卖信息，网购必备神器</p>
+                    <div class="focus_num">1127581人关注</div>
+                </div>
+            </dd>
+        </dl>
+        
+        <dl class="e_clear" data-id="194476319">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/a971076a-3d77-4b6b-970d-06e0136654c5.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="194476319" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>北京商场折扣推荐</h3>
+                    <p>北京市各大商场正在进行的折扣、特卖活动信息发布，是你的逛街指南！</p>
+                    <div class="focus_num">9533人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="265508221">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/ac02ba6f-aad3-477d-8677-8768d53651d8.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="265508221" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>上海商场折扣推荐</h3>
+                    <p>上海市各大商场最新折扣活动、特卖资讯、促销打折信息发布，是您贴心的导购平台。</p>
+                    <div class="focus_num">4437人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="266560903">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/999fd81c-bd8b-4724-ba6b-5efd95fddcc2.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="266560903" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>香港商场折扣推荐</h3>
+                    <p>香港各大商场打折活动、特卖优惠等资讯发布，是您的购物攻略指南。</p>
+                    <div class="focus_num">5841人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="191580957">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/afc10ea1-73f9-4f18-be69-20fe0baf8af7.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="191580957" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>信用卡优惠推荐</h3>
+                    <p>各大银行信用卡超值优惠活动信息，观影、购物、美食等，让我们用超低的价格享高质量的生活！</p>
+                    <div class="focus_num">73166人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="247218637">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/8786e602-67d0-4502-9ad2-c73074aa135b.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="247218637" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>化妆品试用活动</h3>
+                    <p>化妆品、生活用品、母婴用品试用活动信息推荐，努力成为试用达人吧！</p>
+                    <div class="focus_num">28252人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="125822543">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/fa94d959-8999-49dc-9a31-8b81327423e1.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="125822543" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>星巴克咖啡优惠</h3>
+                    <p>全国星巴克门店新品和优惠信息平台，实惠的品味！</p>
+                    <div class="focus_num">69036人关注</div>
+                </div>
+            </dd>
+        </dl>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/js/lib/footer.js?20150122"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+            $('.calendar_project_top_header').hide();
+            $('.calendar_project_top_img').css('padding-top', '0')
+
+            wxProtocol.init({
+                imgUrl: $('.calendar_project_top_img img')[0].src,
+                title: $('.calendar_project_top_header span').html(),
+                desc: $('.calendar_project_info p').html()
+            });
+
+            wxProtocol.initWithAlready({
+                imgUrl: $('.calendar_project_top_img img')[0].src,
+                title: $('.calendar_project_top_header span').html(),
+                desc: $('.calendar_project_info p').html()
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+    })();
+    </script>
+    <script src="/pages/forum/js/func.js"></script>
+    <script src="/pages/forum/js/calendar_project.js"></script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>天高人浮躁</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/travle_hot/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>初夏避暑游</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>五月的天就像情窦初开的小姑娘的脸，每天都是红扑扑的、热乎乎的。虽然还没达到三伏天的温度，但是炙烤已初见端倪。高温让人浮躁，不过没有什么浮躁是一场旅行解决不了的，如果有，那就去两次。</p>
+            <h3>【云南大理】</h3>
+            <p>大理古城东临碧波荡漾的洱海，西倚常年青翠的苍山，形成了“一水绕苍山，苍山抱古城”的城市格局。由南城门进城，一条直通北门的复兴路，成了繁华的街市，沿街店铺比肩而设，出售大理石、扎染等民族工艺品及珠宝玉石。街巷间一些老宅，也仍可寻昔日风貌，庭院里花木扶疏，鸟鸣声声，户外溪渠流水淙淙，“三家一眼井，一户几盆花”的景象依然。</p>
+            <img src="images/travle_hot/holiday_1.jpg"/>
+            <p>古城内东西走向的护国路，被称为“洋人街”。这里一家接一家的中西餐馆、咖啡馆、茶馆及工艺品商店，招牌、广告多用洋文书写，吸着金发碧眼的“老外”，在这里流连踯躅，寻找东方古韵，渐成一道别致的风景。</p>
+            <h3>【冰峪沟】</h3>
+            <p>冰峪沟位于庄河市北40余公里的仙人洞镇北部。这里既有云南石林的奇特，又有桂林山水的挺拔，峥嵘中含有清秀，粗犷雄奇中寓有妩媚，浓彩重墨中透出淡雅，清新豪放中显得庄重。冰峪被冠以辽南小桂林、东北九寨沟、东方小瑞士的美称。冰峪的山既有北方山岭粗犷豪放的气势，又有南国峰峦玲珑秀美的风姿。其中最著名的要数龙华山腰的仙人洞，洞内有道佛两家寺庙，日日香烟缭绕，故而得名。</p>
+            <img src="images/travle_hot/holiday_2.jpg"/>
+            <p>在冰峪众多的沟谷中，可以游览的主要由南沟和北沟。大自然的美景妙韵仿佛全浓缩在这里。冰峪的水主要是指流经景区内的两条河：英纳河、英纳河支流小峪河。英纳河如一条白色的绸带，沿着冰峪盘旋而去。小峪河则如一根根线，缠绕着一座座孤峰山林。由于亿万年的冲刷，冰峪的河道清洁如新，并形成了一处处洁白柔软的沙滩，各种形态的鹅卵石遍布河谷。冰峪的河底多是岩层结构，碧水清澈如镜。</p>
+
+            <div class="tips">
+                <p>1、五月出游要注意防晒、避暑；</p>
+                <p>2、五月天高人浮躁，内心平静也能觅得一份清凉。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>365日历发展里程碑</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="/v3/js/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#goEnd').click(function () {
+		$('body').animate({
+			scrollTop: 5000
+		}, 5000);
+		return false;
+	});
+});
+</script>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="background:url(/v3/milestone/images/milestone_bg.jpg) repeat-x;">
+<center>
+<table id="Table_01" width="1024" height="3395" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+			<img src="images/milestone_01.jpg" width="530" height="395" alt=""></td>
+		<td style="background:url(images/milestone_02.jpg) no-repeat;"  width="494" height="395">
+<div id="goEnd" style="position: relative; margin-left:160px; margin-top:-150px; cursor:pointer; background:url(/v3/milestone/images/btn.png) no-repeat; width:225px; height:88px;"></div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/milestone_03.jpg" width="530" height="379" alt=""></td>
+		<td>
+			<img src="images/milestone_04.jpg" width="494" height="379" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/milestone_05.jpg" width="530" height="380" alt=""></td>
+		<td>
+			<img src="images/milestone_06.jpg" width="494" height="380" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/milestone_07.jpg" width="530" height="312" alt=""></td>
+		<td>
+			<img src="images/milestone_08.jpg" width="494" height="312" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/milestone_09.jpg" width="530" height="519" alt=""></td>
+		<td>
+			<img src="images/milestone_10.jpg" width="494" height="519" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/milestone_11.jpg" width="530" height="596" alt=""></td>
+		<td>
+			<img src="images/milestone_12.jpg" width="494" height="596" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/milestone_13.jpg" width="530" height="451" alt=""></td>
+		<td>
+			<img src="images/milestone_14.jpg" width="494" height="451" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/milestone_15.jpg" width="530" height="363" alt=""></td>
+		<td>
+			<img src="images/milestone_16.jpg" width="494" height="363" alt=""></td>
+	</tr>
+</table>
+</center>
+</body>
+</html>

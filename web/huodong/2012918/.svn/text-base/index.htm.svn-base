@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>365日历</title>
+<link type="text/css" rel="Stylesheet" href="css/index.css" />
+<link type="text/css" rel="Stylesheet" href="css/active.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;"/>
+</head>
+<body>
+<div class="rili_365">
+	<div class="auto">
+		<img src="img/bg.jpg" usemap="#map" style="float:left;" />
+		<map name="map" id="map" style="float:left; cursor:pointer">
+			<area shape="rect" coords="1,311,44,344" href="javascript:optBtn1Click()" id="opt1" />
+			<area shape="rect" coords="1,345,44,378" href="javascript:optBtn2Click()" id="opt2" />
+			<area shape="rect" coords="170,388,305,427" href="javascript:qqBtnClick()" id="qqBtn" />
+			<area shape="rect" coords="15,389,150,428" href="javascript:sinaBtnClick()" id="sinaBtn" />
+		</map>
+		<div id="optBtn1" style="margin-top:-143px; margin-left:9px; width:25px; height:25px; float:left; background:url(img/dui.png) no-repeat; display:none"></div>
+		<div id="optBtn2" style="margin-top:-115px; margin-left:9px; width:25px; height:25px; float:left; background:url(img/dui.png) no-repeat; display:none"></div>
+	</div>
+</div>
+<input type="hidden" value='#勿忘918#文明保钓，斗则两伤；不忘历史，只为兴邦！  @日本国驻华大使馆' name="sina1" id="sinaTxt1" />
+<input type="hidden" value='#勿忘918#釣魚島は昔から中国の！（钓鱼岛是中国的） @日本国驻华大使馆' name="sina2" id="sinaTxt2" />
+
+<input type="hidden" value='#勿忘918#文明保钓，斗则两伤；不忘历史，只为兴邦！' name="qq1" id="qqTxt1" />
+<input type="hidden" value='#勿忘918#釣魚島は昔から中国の！（钓鱼岛是中国的）' name="qq2" id="qqTxt2" />
+
+<input type="hidden" id="UID" value="">
+<input type="hidden" id="PWD" value="">
+
+<script type="text/javascript">
+	
+	var option = "0";
+	var userid = null;
+	var password = null;
+	
+	function getUserInfo()
+	{
+		var ok = false;
+		if (/android/i.test(navigator.userAgent))
+		{
+			try
+			{
+					userid = AliansBridge.getUserId();
+					password = AliansBridge.getUserPassword();
+					ok = true;
+			}
+			catch (e)
+			{
+				ok = false;
+			}
+		}
+		if (/ipad|iphone|mac/i.test(navigator.userAgent)){
+			userid = $("#UID").val();
+			password = $("#PWD").val();
+			ok = true;
+		}
+		return ok;
+	}
+	
+	function optBtn1Click(){
+		//document.getElementById('optBtn1').
+		if($("#optBtn2").is(":visible"))$("#optBtn2").hide();
+		$("#optBtn1").show();
+		option = "1";
+	}
+	function optBtn2Click(){
+		//document.getElementById('optBtn1').
+		if($("#optBtn1").is(":visible"))$("#optBtn1").hide();
+		$("#optBtn2").show();
+		option = "2";
+	}
+	function qqBtnClick(){
+		var ok = getUserInfo();
+		if(ok)
+		{
+			if(option == "0") {
+				alert("还未选择发送内容，请点击选择！");
+				return false;
+			}
+			if(userid=='null'||!userid) userid='';
+			$.ajax({
+				type: 'post',
+				data: 'content='+$("#qqTxt"+option).val()+'&u='+userid+'&p='+password,
+				url: '/qt/weiboFromWebView.do',
+				success: function(result) {
+					if(result.state == "ok")alert("微博已经发送成功！");
+					else alert("发送失败，是否未登录365账号或未绑定腾讯微博！请返回软件操作后重试。");
+				},
+				dataType: 'json'
+			});
+		}
+		else
+		{
+			alert("您的365日历版本暂不支持发微博，请升级到最新版");
+		}
+	}
+	function sinaBtnClick(){
+		var ok = getUserInfo();
+		if(ok)
+		{
+			if(option == "0") {
+				alert("还未选择发送内容，请点击选择！");
+				return false;
+			}
+			
+			if(userid=='null'||!userid) userid='';
+			$.ajax({
+				type: 'post',
+				data: 'content='+$("#sinaTxt"+option).val()+'&u='+userid+'&p='+password,
+				url: '/weibo/statusFromWebView.do',
+				success: function(result) {
+					if(result.state == "ok")alert("微博已经发送成功！");
+					else alert("发送失败，是否未登录365账号或未绑定新浪微博！请返回软件操作后重试。");
+				},
+				error: function(e) {
+					//alert(JSON.stringify(e));
+					//document.write(e.responseText);
+				},
+				dataType: 'json'
+			});
+		}
+		else
+		{
+			alert("您的365日历版本暂不支持发微博，请升级到最新版");
+		}
+	}
+	
+</script>
+</body>
+<script type="text/javascript" src="/v3/js/jquery.js"></script>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>有节奏，无口吃——国际口吃日</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/stutter_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>有节奏，无口吃——国际口吃日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>“老…老板，给…给…给我…来一个…包…包子……”今早小编路遇了这样一幕，行人见状或掩面而笑或吐槽其耽误时间，这一幕映射了社会对口吃的态度。</p>
+            <p>口吃俗称结巴，是一种由语言神经中枢发育不良、神经生理异常或遗传、心理、生理等原因造成的疾病。多年来，仅有少数人依靠顽强的意志“自疗”，也有人干脆“弃疗”。</p>
+            <h3>【节日背景】</h3>
+            <p>口吃被医学界认为是世界上最奇怪、最复杂的疾病之一。这种不痛不痒的病症让多少人欲哭无泪——张开嘴哇啦啦啦半天，什么都说不出来……往往给患者造成常人难以想象的心理上的痛苦。</p>
+            <img src="/pages/found/qp_holiday/images/stutter_img1.jpg"/>
+            <p>据统计，世界范围内的口吃患病率高达1%，全世界共有8000万人患有口吃，而中国就有1300万人忍受着口吃带来的痛苦。其中，青少年的患病率为2%左右，儿童口吃发病率更高，达到了5%。这是我们祖国的未来啊，对他们来说，开口说一句流畅的话都是奢望。</p>
+            <h3>【“见光死”的口吃】</h3>
+            <p>口吃不像普通疾病直接损害人的机体，但它给患者的生活、学习、工作都带来极大的困扰，让患者成为“见光死”。为提高公众对口吃的认识，特别是向儿童普及纠正口吃的基本常识，国际口吃联合会和各国口吃联合会在1997年共同决定：将每年的10月22日定为“国际口吃日”。从此，饱受口吃折磨的小伙伴终于找到组织啦！</p>
+
+            <p class="mt15">很多时候对于口吃患者来说，开口或者不开口，口吃就在那里。偶尔午夜梦回拥有了华少那飞一般的说话超能力，可醒来还是一切照旧。说多了都是眼泪！不过，希望还是有的，小编讲个故事给你们传递一点热气腾腾的励志能量！</p>
+            <img src="/pages/found/qp_holiday/images/stutter_img2.jpg"/>
+            <p>央视著名节目主持人李咏自爆小时候曾患口吃，害怕被老师提问，甚至装病不去上学。很难想象，口若悬河的央视著名主持人李咏在小时候竟然有这样的经历，我们还有什么理由说放弃？？？那么，想知道李咏怎么好起来的吗——“我奶奶叫我唱着说！”这难道就是传说中的“有节奏，无口吃”吗！不过，小编觉得这也是一个很不错的办法啦~</p>
+            
+
+            <div class="tips">
+                <p>1、为提高公众对口吃的认识，特别是向儿童普及纠正口吃的基本常识，国际口吃联合会和各国口吃联合共同将每年的10月22日定为“国际口吃日”；</p>
+                <p>2、口吃被医学界认为是世界上最奇怪、最复杂的疾病之一，患病率高且多是青少年儿童；</p>
+                <p>3、“有节奏，无口吃”，口吃患者们赶快唱起来吧！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

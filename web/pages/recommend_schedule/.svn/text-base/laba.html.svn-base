@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>小贴士</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link href="/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link href="style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="recommend_main">
+    	<div class="recommend_schedule_top">
+    		<h2>喝一碗美味腊八粥</h2>
+            <h4 class="none">腊八喝腊八粥，平安红火又一年</h4>
+    	</div>
+    	<div class="recommend_schedule_middle">
+    		<div class="recommend_schedule_img">
+    			<img src="images/labajie.jpg" alt="">
+    		</div>
+            <p><span>推荐理由：</span>俗话说“过了腊八就是年”，腊八过后就要为过年做准备了。在腊八节这天喝一碗腊八粥，提前让自己切换到“过年模式”，在年味越来越淡的今天为过年增添些味道。</p>
+            <p>除了增添年味之外，腊八粥还对提高人体免疫力有很好的效果，它由多种米、豆、干果和坚果熬制而成，含有丰富的蛋白质、维生素E等微量元素，是养生的佳品。</p>
+            <p>1月17日是腊八节，添加备忘提醒自己喝一碗香喷喷的腊八粥吧！</p> 
+    	</div>
+    	<div class="recommend_schedule_bottom">
+    			<p>添加到我的日程</p>
+    			<a href="javascript:;" class="add_mySchedule"></a>
+    	</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script type="text/javascript" src="/pages/ui-lib/js/plug.js"></script>
+   <script type="text/javascript" src="/pages/recommend_schedule/js/recommend.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var startTime = new Date("2016/1/17 0:0:0").getTime();
+            tips.init(startTime);
+        })
+    </script></body>
+</html>

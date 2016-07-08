@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历--GO桌面</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+</head>
+<body>
+	<div class="main">
+		<div class="top"></div>
+		<div class="text">
+			<p>GO桌面增强版是谷歌电子市场最受欢迎的桌面替换软件，支持自定义美化桌面及更换主题，操作体验流畅，更有许多贴心实用功能，为你开启全新的手机操作体验！</p>
+		</div>
+		<a href="http://cache.3g.cn/gosoft/go_launcher/qudao/go_launcher_ex_345.apk" class="btn">下载GO桌面</a>
+	</div>
+</body>
+</html>

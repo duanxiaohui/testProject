@@ -1,0 +1,652 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	background-color: #07080d;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+}
+
+.animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+}
+
+.animated.stop{
+    -webkit-animation-play-state:paused;
+    -webkit-animation-name: none;
+}
+
+.bg1{
+	background: url(/pages/bd/invertedWorld/images/setup1Bg.jpg) no-repeat 0 0;
+}
+
+
+.bg{
+	background-size: 100% auto;
+	background-color: #07080d;
+}
+.bg2{
+	background: url(/pages/bd/invertedWorld/images/setup2Bg.jpg) no-repeat 0 bottom;
+	background-size: 100% 100%;
+}
+
+.center{
+	text-align: center;
+}
+.main{
+	width: 375px;
+	height: 627px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -313px;
+	margin-left: -188px;
+}
+.landscape{
+	width: 667px;
+	height: 335px;
+	margin-left: -334px;
+	margin-top: -168px;
+}
+
+.house{
+	margin-top: 20px;
+}
+
+.landscape .house{
+	width: 210px;
+	margin-top: 15px;
+}
+
+.landscape .indexTxt{
+    width: 250px;
+    margin-top: -70px;
+    position: relative;
+    z-index: 10;
+}
+.landscape .setup1{
+	margin-top: -15px;
+}
+.landscape .indexTip{
+	bottom: 27px;
+}
+.landscape .setup1:after{
+	content: ' ';
+	position: absolute;
+	background: url(/pages/bd/invertedWorld/images/landscapehouseshadow.png) no-repeat 0 0;
+	background-size: 497px auto;
+	left: 50%;
+    margin-left: -258px;
+    margin-top: -100px;
+    top: 50%;
+    width: 497px;
+    height: 200px;
+}
+
+.indexTxt{
+	margin-top: 22px;
+	margin-left: 26px;
+}
+
+.indexIcon{
+	margin-top: 2px;
+}
+
+.indexTip{
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -161px;
+}
+
+.setup2{
+	height: 100%;
+	position: relative;
+	z-index: 10;
+}
+
+.setup2 a{
+	display: block;
+	height: 100%;
+}
+
+.setup2 table{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.gray{
+	background: #444;
+}
+
+.color{
+	background: #0a152f;
+}
+.full{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.setupgray, .setupcolor{
+	position: absolute;
+}
+
+.setupgray:before, .setupcolor:before{
+	position: absolute;
+	content: ' ';
+	width: 100%;
+	height: 100%;
+	left: -40px;
+	top: -86px;
+	z-index: 2;
+}
+.setupgray:before{
+	background: url(/pages/bd/invertedWorld/images/graySpaceship.jpg) no-repeat 0 0;
+	background-size: 253px auto;
+}
+
+.setupcolor:before{
+	background: url(/pages/bd/invertedWorld/images/colorSpaceship.jpg) no-repeat 0 0px;
+	background-size: 253px auto;
+}
+.setupgray:after, .setupcolor:after{
+	position: absolute;
+	content: ' ';
+	width: 47px;
+	height: 108px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 47px 108px;
+	left: 13px;
+	top: 15px;
+	z-index: 3;
+}
+
+.type1 .setupgray:after, .type1 .setupcolor:after{
+	background-image: url(/pages/bd/invertedWorld/images/yl.png);
+}
+
+.type2 .setupgray:after, .type2 .setupcolor:after{
+	background-image: url(/pages/bd/invertedWorld/images/gn.png);
+}
+
+.type3 .setupgray:after, .type3 .setupcolor:after{
+	background-image: url(/pages/bd/invertedWorld/images/gj.png);
+}
+.inType1, .inType2, .inType3{
+	text-align: center;
+}
+.inType1 img{
+	margin-top: 30px;
+	opacity: 0;
+}
+.inType2 img{
+	margin-top: 144px;
+	opacity: 0;
+}
+.inType3 img{
+	margin-top: 30px;
+	opacity: 0;
+}
+
+.setupgray .photo, .setupcolor .photo{
+	position: absolute;
+	width: 400px;
+	height: 255px;
+	right: 38px;
+	top: 38px;
+	z-index: 3;
+}
+.setupgray .photo:before, .setupcolor .photo:before{
+	content: ' ';
+	position: absolute;
+	width: 403px;
+	height: 258px;
+	left: -1.5px;
+	top: -1.5px;
+	z-index: 3;
+}
+.setupgray .photo img, .setupcolor .photo img{
+	position: absolute;
+	z-index: 2;
+}
+.setupgray .photo:before{
+	background: url(/pages/bd/invertedWorld/images/grayScreen.png) no-repeat 0 0;
+	background-size: 403px auto;
+}
+.setupcolor .photo:before{
+	left: -16px;
+	top: -16px;
+	width: 432px;
+	height: 287px;
+	background: url(/pages/bd/invertedWorld/images/colorScreen.png) no-repeat 0 0;
+	background-size: 432px auto;
+}
+.setupgray .photo:after, .setupcolor .photo:after{
+	content: ' ';
+	position: absolute;
+	right: -38px;
+	top: -158px;
+    width: 668px;
+    height: 375px;
+    z-index: 1;
+}
+.setupgray .photo:after{
+	background: url(/pages/bd/invertedWorld/images/grayStar.png) no-repeat 0 0;
+	
+	background-size: 100% 100%;
+}
+.setupcolor .photo:after{
+	background: url(/pages/bd/invertedWorld/images/colorStar.png) no-repeat 0 0;
+	background-size: 100% 100%;
+}
+.light{
+	position: absolute;
+	left: 80px;
+	top: 37px;
+	z-index: 4;
+}
+.setupgray .lightBig, .setupcolor .lightBig{
+	width: 148px;
+	height: 257px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	opacity: 0;
+}
+.setupgray .lightBig{
+	background: url(/pages/bd/invertedWorld/images/grayLightBig.png) no-repeat 0 0;
+	background-size: 148px auto;
+}
+.setupcolor .lightBig{
+	background: url(/pages/bd/invertedWorld/images/colorLightBig.png) no-repeat 0 0;
+	background-size: 148px auto;
+}
+.setupgray .lightSmall, .setupcolor .lightSmall{
+	width: 486px;
+	height: 220px;
+	position: absolute;
+	left: 0;
+	z-index: 2;
+	top: 0;
+	opacity: 0;
+}
+.setupgray .lightSmall{
+	background: url(/pages/bd/invertedWorld/images/grayLightSmall.png) no-repeat 0 0;
+	background-size: 486px auto;
+}
+.setupcolor .lightSmall{
+	background: url(/pages/bd/invertedWorld/images/colorLightSmall.png) no-repeat 0 0;
+	background-size: 486px auto;
+}
+
+.eventText{
+	position: absolute;
+	z-index: 4;
+	top: 123px;
+}
+.et{
+	opacity: 0;
+}
+.xz{
+	position: absolute;
+	content: ' ';
+	width: 56px;
+	height: 50px;
+	left: 26px;
+	top: 130px;
+}
+.setupgray .xz:after{
+	position: absolute;
+	content: ' ';
+	background: url(/pages/bd/invertedWorld/images/grayXZT.png) no-repeat 0 0;
+	background-size: 81px auto;
+	width: 81px;
+	height: 9px;
+	top: 60px;
+	left: 0;
+}
+.setupcolor .xz:after{
+	position: absolute;
+	content: ' ';
+	background: url(/pages/bd/invertedWorld/images/colorXZT.png) no-repeat 0 0;
+	background-size: 101px auto;
+	width: 101px;
+	height: 9px;
+	top: 60px;
+	left: 0;
+}
+
+.setupgray .eventName, .setupgray .eventTime, .setupcolor .eventName, .setupcolor .eventTime{
+	position: absolute;
+	padding-left: 38px;
+	height: 24px;
+}
+.setupgray .eventName, .setupgray .eventTime{
+	background: url(/pages/bd/invertedWorld/images/grayEventTextIcon.png) no-repeat 0 bottom;
+	background-size: 30px auto;
+}
+.setupcolor .eventName, .setupcolor .eventTime{
+	background: url(/pages/bd/invertedWorld/images/colorEventTextIcon.png) no-repeat 0 bottom;
+	background-size: 30px auto;
+}
+
+.setupgray .eventName, .setupcolor .eventName{
+	left: 17px;
+	top: -21px;
+}
+
+.setupgray .eventTime, .setupcolor .eventTime{
+	left: 237px;
+	top: -21px;
+}
+
+.gray .setupcolor, .color .setupgray{
+	opacity: 0;
+}
+
+/*这里必须把背景和图片分开，不能外面统一操作，否则图片会闪，或者无法定位*/
+.changeBg{
+	background-color: #07080d;
+	width: 9999px;
+	height: 9999px;
+	z-index: 100;
+	position:fixed;
+	left: 0;
+	top: 0;
+}
+.change{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -47px;
+	margin-top: -42px;
+	z-index: 101;
+}
+.wx .change{
+	margin-top: -69px;
+}
+
+/*.normal .setup3{margin-top: 27px;}*/
+
+._none{
+	opacity: 0;
+}
+.endBg{
+	background: url(/pages/bd/invertedWorld/images/endBg.jpg) no-repeat 0 top;
+	background-size: 100% 100%;
+}
+.w2016{
+	position: absolute;
+	left: 50%;
+	margin-left: -138px;
+	top: 65px;
+}
+.english{
+	position: absolute;
+	left: 50%;
+	margin-left: -173px;
+	top: 196px;
+}
+.back{
+	position: absolute;
+	left: 50%;
+	margin-left: -43px;
+	top: 255px;
+}
+.halfOP{
+	opacity: .3;
+}
+.logo{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+.line{
+	text-align: center;
+	padding-top: 52px;
+	position: absolute;
+	width: 100%;
+}
+.line img{
+	margin-bottom: 10px;
+	opacity: 0;
+}
+
+
+
+
+@-webkit-keyframes fadeOutUp {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -30%, 0);
+    }
+}
+.fadeOutUp {
+    -webkit-animation-name: fadeOutUp;
+}
+.fadeOutUp1 {
+    -webkit-animation-name: fadeOutUp;
+    -webkit-animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 50%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+    }
+}
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+}
+.fadeInUp1 {
+    -webkit-animation-name: fadeInUp;
+    -webkit-animation-duration: 1.5s;
+}
+
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -10px, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+    }
+}
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+}
+
+@-webkit-keyframes tada {
+    100%, 0%, 24%{
+        -webkit-transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, 180deg);
+    }
+    50%, 74%{
+        -webkit-transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, 0);
+    }
+}
+.tada {
+    -webkit-animation-duration: 5s;
+    -webkit-animation-name: tada;
+}
+
+@-webkit-keyframes flash {
+    0%, 100%, 50% {
+        opacity: 0
+    }
+    25%,
+    75% {
+        opacity: 1
+    }
+}
+.flash {
+    -webkit-animation-duration: 10s;
+    -webkit-animation-name: flash;
+}
+@-webkit-keyframes flashQ {
+    0%, 15%, 100%, 50%, 65% {
+        opacity: 0
+    }
+    2%, 52% {
+        opacity: 1;
+    }
+}
+
+.flashQ {
+    -webkit-animation-name: flashQ;
+    -webkit-animation-duration: 2.47s;
+}
+@-webkit-keyframes qqflash {
+    0%, 50%, 100% {
+        opacity: 1
+    }
+    25%, 75% {
+        opacity: .7;
+    }
+}
+
+.qqflash {
+    -webkit-animation-name: qqflash;
+    -webkit-animation-duration: 5s;
+}
+
+.musicBtn{
+	position: fixed;
+	right: 5px;
+	top: 5px;
+	z-index: 80;
+}
+.musicBtn a{
+	background: url(/pages/bd/invertedWorld/images/music.png) no-repeat 0 0;
+	background-size: 51px auto;
+	display: block;
+	width: 51px;
+	height: 51px;
+}
+.musicBtn a.stop{
+	background: url(/pages/bd/invertedWorld/images/stop.png) no-repeat 0 0;
+	background-size: 51px auto;
+}
+.shareBtn{
+	position: fixed;
+	right: 5px;
+	top: 56px;
+	z-index: 80;
+	background: url(/pages/bd/invertedWorld/images/share.png) no-repeat 0 0;
+	background-size: 51px auto;
+	width: 51px;
+	height: 51px;
+}
+@-webkit-keyframes rotate1 {
+    0% {
+        -webkit-transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, -180deg);
+    }
+    50%{
+        -webkit-transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, 0);
+    }
+    100% {
+        -webkit-transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, 179deg);
+    }
+}
+
+.rotate1 {
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-name: rotate1;
+}
+#shareMask:before{
+	content: ' ';
+	position: fixed;
+	top: 0;
+	opacity: 0;
+	z-index: 83;
+	-webkit-transition: all .5s;
+	background: url(/pages/bd/invertedWorld/images/shareImgH.png) no-repeat 0 0;
+	background-size: 311px auto;
+	width: 311px;
+	height: 300px;
+	right: 30px;
+}
+.land #shareMask:before{
+	background-image: url(/pages/bd/invertedWorld/images/shareImg.png);
+	background-size: 100% auto;
+	width: 469px;
+	height: 194px;
+	right: 130px;
+}
+.wx #shareMask:before{
+	right: 30px;
+}
+#shareMask.show:before{
+	opacity: 1;
+}
+#shareMask:after{
+	content: ' ';
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0;
+	z-index: 82;
+	-webkit-transition: all .5s;
+}
+#shareMask.show:after{
+	opacity: .85;
+}
+.loadingIcon{
+	background: url(/pages/bd/invertedWorld/images/loadingN.png) no-repeat 0 0;
+	background-size: 141px auto;
+	width: 141px;
+	height: 135px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -70px;
+	margin-top: -77px;
+}
+.loadingTxt{
+	position: fixed;
+	width: 141px;
+	height: 135px;
+	font-size: 22px;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	margin-left: -67px;
+	margin-top: -37px;
+	text-shadow: 0 0 1px #fff,
+               0 0 20px #228DFF,
+               0 0 35px #228DFF;
+}
+
+
+.setup2Txt{
+	margin-top: 60px;
+	opacity: 0;
+    -webkit-animation-duration: 3s;
+}

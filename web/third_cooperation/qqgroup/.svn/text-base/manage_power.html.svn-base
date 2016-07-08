@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+	<script>document.documentElement.style.webkitUserSelect='none';</script>
+	<meta name="format-detection" content="telephone=no"/>
+	<title>权限管理</title>
+	<link href="/third_cooperation/qqgroup/style.css?ver=8" rel="stylesheet"/>
+	<link rel="stylesheet" href="/pages/ui-lib/css/ui-lib.css?ver=8">
+	<style>
+		html, body{
+			background-color: #F7F8F9;
+			height: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div class="manage_power">
+		<div class="manage_top"><div class="face"></div></div>
+		<p class="showRule"><a href="javascript:;">了解更多权限</a></p>
+		<div class="manage_panel">
+			<p class="wording">普通成员列表（使用过群日历的成员）</p>
+		</div>
+	</div>
+	<script>
+	    var require = {
+	         urlArgs: 'ver=30'
+	    };
+	</script>
+	<script src="http://s.url.cn/qqweb/m/qunopen/component/sdk/opengroup.js"></script>
+    <script src="/js/lib/require.js" data-main="/third_cooperation/qqgroup/js/manage_power.js"></script>
+    <script src="/pages/ui-lib/js/plug.js"></script>
+    <script src="/js/lib/app.js"></script>
+</body>
+</html>

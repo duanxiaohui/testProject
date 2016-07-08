@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>365日历 20120824</title>
+<style type="text/css">
+body {
+	background-repeat: repeat-x;
+	background-position: center top;
+	background-color: #f5f5f5;
+	margin: 0px;
+}
+.box_left {
+	font-size: 14px;
+	line-height: 20px;
+	background-color: #FFF;
+	padding-top: 40px;
+	padding-right: 60px;
+	padding-bottom: 40px;
+	padding-left: 60px;
+	color: #666;
+	margin: 0px;
+}
+.t_1 {
+	font-size: 24px;
+	line-height: 31px;
+	color: #666;
+}
+.t_2 {
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: bold;
+	color: #3CF;
+}
+.t_3 {
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: bold;
+	color: #F50;
+}
+.t_4 {
+	font-size: 16px;
+	line-height: 32px;
+	font-weight: bold;
+	color: #000;
+}
+.sign_1 {
+	font-size: 24px;
+	line-height: 31px;
+	font-weight: bold;
+	color: #000;
+}
+.sign_2 {
+	font-size: 20px;
+	line-height: 22px;
+	color: #666;
+}
+.right_R {
+	background-image: url(http://www.365rili.com/huodong/edm/20120824/img/right_red.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.right_1 {
+	background-image: url(http://www.365rili.com/huodong/edm/20120824/img/event.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-size: 12px;
+	line-height: 14px;
+	color: #000;
+}
+.right_2 {
+	background-image: url(http://www.365rili.com/huodong/edm/20120824/img/dw.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.date_Y {
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #FFF;
+}
+.right_t {
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #000;
+}
+.date_D {
+	font-size: 50px;
+	line-height: 50px;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.btn {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	background-image: url(http://www.365rili.com/huodong/edm/20120824/img/btn_i.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	vertical-align: middle;
+}
+</style>
+</head>
+
+<body>
+<table width="800" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="626" height="988" align="left" valign="top"><table width="97%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="left" valign="top"><img src="http://www.365rili.com/huodong/edm/20120824/img/edm_top.jpg" width="800" height="25" /></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="868" align="left" valign="top"  class="box_left"><p class="t_1">尊敬的合作伙伴：</p>
+            <p>您好！            </p>
+            <p>2012年8月23日365日历发布2012.13版本。新发布的2012.13版本更新了以下内容：  </p>
+            <p class="t_2">1、自定义全天日程提醒时间。</p>
+  <p>之前的365日历默认提醒时间为早9点，符合北上广三地用户使用习惯。随着智能手机的普及，用户的地域差别变得不那么明显，为了更好的符合全国用户的使用习惯，我们升级了默认提醒时间功能，由原来的默认早9点，变成用户可以自定义设置，这样一来，极大的方便了用户的使用。  </p>
+  <p class="t_2">2、增加微信分享日程。</p>
+  <p>微信已经成为移动互联网用户交流的必备工具，365日历实现用户通过微信分享日程的功能，让用户交流更加方便。  </p>
+  <p class="t_2">3、重复设置界面优化。</p>
+  <p>365日历自推出伊始就带有强大的日程提醒功能，支持多种复杂重复日程，满足高端用户的需求。此次优化后用户可以根据使用场景直接选择重复类型，一目了然，更加方便。<br />
+  </p>
+  <p class="t_2">4、更多插件界面调整。</p>
+  <p>2012.8版本推出后，有部分用户对桌面插件和365日历的功能插件有些混淆，经常分不清楚，出现到桌面插件列表找功能插件的情况，为了更加方便用户的使用，我们把桌面插件和功能插件统一放在&quot;更多插件&quot;中，让用户很方便的查找。</p>
+<p>&nbsp;</p>
+            <p class="t_3">未来动向  </p>
+            <p><span class="t_4">1、生日插件完善。</span><br />
+未来发布的生日插件功能将更加丰富，UI更加美观。<br />
+<br />
+<span class="t_4">2、生理期插件完善。</span><br />
+生理期插件是用户使用频次较高的插件之一，未来的生理期插件用户将可以记录更多实用信息。<br />
+<br />
+<span class="t_4">3、体育插件。</span><br />
+为用户提供五大联赛、NBA、中超等热门赛事的赛程及提醒。</p>
+            <p>&nbsp;</p>
+            <p class="t_4">敬请关注365日历产品，发现更多好的功能。<br />
+            如果您有什么好的建议，产品需求，请随时与我们联系。<span class="t_3">info(at)365rili.com</span></p>
+            <p>&nbsp;</p>
+            <p class="t_2">历友说：</p>
+            <p>wjx510:   日程导出可以很清晰的看到过去的记忆，过去了什么，挺好的日历。</p>
+            <p>nie ves0120yx： 很好用，尤其是生日提醒功能，对于过农历生日和阳历生日的人都很合适，要是再加上纪念日就更棒了。</p>
+            <p>Bing16888:   我找了N久，终于让我找到了，有云端同步，好多强大功能不说，还可以选择自己需要的用，之前找了很多，不是没有云端同步就是功能太多，不能筛选自己想用的，一打开日历一堆看的还麻烦，顶起这款软件，太好了。</p>
+            <p>狮子的云： 考虑很周到，想要的功能都能加上，不用的功能可以去掉，占用手机资源小。</p>
+            <p>youvgdwyov:我从来不评价软件，但这真是一款好的日程软件，还支持语音输入。</p>
+<p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>Best Regards</p>
+            <p class="sign_1">王永广          </p>
+            <p>365日历市场经理</p>
+            <table width="483" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="51"><img src="http://www.365rili.com/huodong/edm/20120824/img/logo.jpg" width="51" height="53" /></td>
+                <td width="432"><span class="sign_2">365日历·精彩每一天</span><br />
+                北京问日科技有限公司</td>
+              </tr>
+            </table>
+            <p>&nbsp;</p>
+            <p class="right_t">下载应用程序</p>
+            <table width="500" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="75" align="left" valign="top"><table width="137" border="0" cellpadding="0" cellspacing="0" class="btn">
+                  <tr>
+                    <td width="137" height="50"><a href="http://itunes.apple.com/cn/app/365ri-li+/id456880164?mt=8">iOS下载</a></td>
+                  </tr>
+                </table></td>
+                <td align="left" valign="top"><table width="137" border="0" cellpadding="0" cellspacing="0" class="btn">
+                  <tr>
+                    <td width="137" height="50"><a href="http://d2.365rili.com/dl/android/365rili.apk">Android下载</a></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table>
+            <p><img src="http://www.365rili.com/huodong/edm/20120824/img/pin_2.jpg" width="502" height="227" /></p></td>
+        </tr>
+      </table>
+      <table width="97%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="left" valign="top"><img src="http://www.365rili.com/huodong/edm/20120824/img/edm_bottom.jpg" alt="" width="800" height="20" /></td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>

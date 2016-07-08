@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/**
+ * share
+ * @authors 张明臣 (vest0804@gamil.com)
+ * @date    2015-08-20 17:57:00
+ * @version 1.0
+ */
+body { background: #efefef; color: #444; font: 12px / 1.5em "Microsoft YaHei", 微软雅黑,SimSun,arial; height: 100%; margin: 0; padding: 0; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+textarea { background: #fff; border: 1px solid #d2d9dc; border-radius: 2px; box-shadow: 0 0 0 #d2d9dc; -moz-transition: .3s ease-in-out; transition-property: border box-shadow; -webkit-transition: .3s ease-in-out; }
+textarea:focus, input[type="text"]:focus { /*border: 1px solid #b7d4ea;*/ box-shadow: 0 0 5px #b7d4ea; }
+a { color: #208de9; cursor: pointer; text-decoration: none; }
+
+.group_main{padding-bottom:25px;}
+.group_bg{width:100%; height:296px; background:url(../images/img.jpg) no-repeat; background-size:100% auto; position:relative;}
+.calendar_icon{width:90px; height:90px; position:absolute; left:50%; margin-left:-45px; bottom:-45px; background:url(../images/img.jpg); background-size:100% 100%; border:1px solid #dcdcdc; border-radius:45px; -webkit-border-radius:45px;}
+.group_content{padding:50px 25px 0;}
+.group_content h3{line-height:40px; text-align:center; font-size:17px; color:#1b1d1f;}
+.group_content p.number{text-align:center; color:#c1c1c1; font-size:15px; padding:0;}
+.group_content p{padding:20px 0; line-height:150%; font-size:15px; color:#a5a5a5;}
+.group_btn{display:block; width:100%; height:44px; line-height:44px; text-align:center; color:#fff; font-size:17px; background:#35adec; border-radius:5px; -webkit-border-radius:5px;}

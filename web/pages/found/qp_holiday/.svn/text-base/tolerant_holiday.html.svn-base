@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>宽容别人即是善待自己</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/olerant_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>宽容别人即是善待自己</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>FBI warning：内含高浓度鸡汤</p>
+            <p class="mt15">宽容是什么？宽容，即允许别人自由行动或判断；耐心而毫无偏见地容忍与自己的观点或公认的观点不一致的意见——摘自《不列颠百科全书》。由此可见，宽容不是别人犯了错，我们去原谅他的态度，而是指承认他人的权利与自由，基于了解且尊重他人自由和权利而获得的一种积极而正确的态度。怎么，你觉得以上这些话离日常的生活很遥远吗？</p>
+
+            <img src="/pages/found/qp_holiday/images/olerant_img1.jpg"/>
+            <h3>【先举个小栗子】</h3>
+            <p>名动一时的甜咸党大战最后也没有争出个什么结果，这是因为个人口味本来就不同，不管是粽子还是豆花，吃甜还是吃咸，既不触犯法律也不有悖道德，都是我们个人的选择与自由。而宽容就是不管我爱吃什么口味，都支持你选择一样或不一样口味的权利。</p>
+            <img src="/pages/found/qp_holiday/images/olerant_img2.jpg"/>
+            <h3>【再举个大梨子】</h3>
+            <p>由于全球化、大量移民等因素的影响，对不同的文化缺乏宽容、不能容纳与自己不同的行为方式和不能与各种文化进行有益的交流使世界面临诸多的问题。如何制止仇恨，使不同民族、宗教和文化间加强理解、和谐共处，成为全球性的严重争战。</p>
+            <p class="mt15">在今天这个比以往任何时候都联系紧密的世界，奉行宽容有助于消除偏见和仇恨，所有人都有责任保护弱势群体免遭歧视，无论此种歧视是基于种族、宗教、国籍、语言、性别、性取向或其他因素。请用关心取代冷漠与轻视，用了解取代盲目、无知和歧视。</p>
+            <img src="/pages/found/qp_holiday/images/olerant_img3.jpg"/>
+            <h3>【国际宽容 天下大同】</h3>
+            <p>世界各国领导人在2000年通过《千年宣言》时就认识到，宽容是二十一世纪国际关系必须建立其上的根本价值之一。他们重申宽容是一项共同基本价值，对国际关系极为重要，认识到世界的多样性，并承认各种文化和文明都为人类的丰富多彩作出贡献。联合国教科文组织将11月16日设立为国际宽容日，其目的在于强调在多元化社会里应通过普及宽容方面的教育使人们和谐、和平地生活在一起。</p>
+            <img src="/pages/found/qp_holiday/images/olerant_img4.jpg"/>
+            <h3>【宽容别人 善待自己】</h3>
+            <p>宽容并不意味着接受所有做法并将其视为平等，相反，其价值在于灌输对普遍人权和基本自由更多的认识和尊重。宽容会建立人与人之间的桥梁，打开沟通的渠道，是应对这些挑战的部分答案。 它不仅是一种美德和品质，最重要的是，它是一种行动——向他人伸出联络之手的行动，不将差异视作障碍，而是一种邀请，借以实现对话和了解。</p>
+
+            <p class="mt15">“力行容恕，彼此以善邻之道，和睦相处”。让我们把心再打开一点，去拥抱与你不同的思想、不同的爱好，也许你会发现以前没见过的另一个新天地~</p>
+            <div class="tips">
+                <p>1、11月16日是联合国所制定的世界宽容日；</p>
+                <p>2、宽容是基于了解且尊重他人自由和权利而获得的积极而正确的态度；</p>
+                <p>请不要把“不同”和“异端”划上等号。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/欢欢</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

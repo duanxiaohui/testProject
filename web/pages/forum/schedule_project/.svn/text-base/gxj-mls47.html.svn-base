@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>太原国际马拉松赛</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">太原国际马拉松赛</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/d8682af6-5f49-485f-9e8d-08664b6ffc55.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+			  <a class="btn js-subscribe" data-uuid="a98cd1bb-bbc6-4d63-a8c0-5df2cce27df9" data-cid="147514789">添加提醒</a>
+	    	
+	    	<p class="time">
+
+
+<b>比赛时间：2015年09月13日08:00
+</b></br>
+
+	    	<b>比赛地点：山西太原市</b></br>
+
+
+
+			</p>
+			<h3>活动介绍：</h3>
+			<p>2010年9月5日，首届太原国际马拉松赛举行，设有男、女马拉松（42．195公里），男、女半程马拉松（21．0975公里），迷你小马拉松健身跑（4．2公里）等5个比赛项目。此后太原国际马拉松赛于每年9月的第一个周日举行。
+</p> 
+			<!--h3是小标题-->
+			<h3>
+</h3>
+			<!--p是段落文字描述-->
+			<p>
+具体详情以官方信息为准
+</p>
+
+<img src="http://cocoimg.365rili.com/schedule_pics/default/3b3f3b82-f4d2-4301-b388-dc9d71cff080.jpg"/>
+<a href="http://www.tygjmls.com/" class="btn js-other">详见官网</a>
+		
+			 <div class="remind_div" data-uuid="a98cd1bb-bbc6-4d63-a8c0-5df2cce27df9" data-cid="147514789"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/d8682af6-5f49-485f-9e8d-08664b6ffc55.jpg',
+                title: '太原国际马拉松赛',
+                desc: '儋州国际马拉松赛是由中国田径协会、海南省文体厅、儋州市人民政府共同主办的在海南省儋州市举办的国际马拉松赛'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'shareTo',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '太原国际马拉松赛',
+		        				content: '儋州国际马拉松赛是由中国田径协会、海南省文体厅、儋州市人民政府共同主办的在海南省儋州市举办的国际马拉松赛',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/d8682af6-5f49-485f-9e8d-08664b6ffc55.jpg',
+		        				isEvent: false
+		        			})
+		        		},
+		        		{
+		        			name: 'channel',
+		        			value: 'wx'
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

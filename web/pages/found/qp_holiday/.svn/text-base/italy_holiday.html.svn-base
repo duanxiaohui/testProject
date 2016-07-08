@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>意大利有很多“面”</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/italy/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>意大利共和国日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>世界各国都根据本国的国情选择了最适合自己的国体，像总统制、议会制、共和制、委员会制……你要问我哪个好，我也不知道，只能说适合国情的就是好的！每年的6月2日是意大利共和国日，这个节日是为了纪念意大利在1946年6月2日至3日以公民投票形式废君主国体并建立共和国体。国体政体不是随便能探讨的东西，那就来聊聊意大利吧。</p>
+            <h3>【意大利有很多面】</h3>
+            <p>提起意大利，会想到古罗马的圆形斗兽场，会想到米兰的时尚气息，会想到《罗马假日》电影里的浪漫……但其实，除了这些被大众熟知的东西以外，意大利还有很多标签。意大利有一座艺术之城——威尼斯，这里的艺术家们将光和颜色完美结合，当然这并不都是艺术家们的神来之笔，而是这座城本身便是神来之笔。</p>
+            <img src="images/italy/holiday_1.jpg"/>
+            <p>意大利的历史中，有一座南部的城市一直扮演着非常重要的角色——那不勒斯。这座城市有着辉煌丰富的历史，孕育了世界上伟大的艺术，也因为各种混乱和不安而被人敬而远之，也正因为有了这一切，才有了不可或缺的那不勒斯。</p>
+            <img src="images/italy/holiday_2.jpg"/>
+            <h3>【还是说说意面吧】</h3>
+            <p>意面是将近四百种不同形状不同名称的用小麦粉和水（也可使用鸡蛋）的意大利面食的总称。意大利人对于意大利面的纠结程度绝不亚于中国人对面食的热衷，硬是要挖空心思玩出各种花样，想尽办法将面条做到极致。</p>
+            <img src="images/italy/holiday_3.jpg"/>
+            <p>不同的配料能够赋予面条不同的滋味，清甜或浓郁，和着那经受了阳光和雨露滋润的面香，不知道哪个吃货能够抵挡这种诱惑！</p>
+
+            <div class="tips">
+                <p>1、每年6月2日是意大利共和国日，这个节日是为了纪念意大利在1946年6月2日至3日以公民投票形式废君主国体并建立共和国体；</p>
+                <p>2、意大利有很多城市都别有一番情调，值得体验！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

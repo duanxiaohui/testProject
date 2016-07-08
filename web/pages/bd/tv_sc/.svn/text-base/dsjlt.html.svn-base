@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>国际电视节论坛</title>
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/pages/bd/tv_sc/css/main.css" rel="stylesheet">
+</head>
+<body style="background-color: #000;">
+    <img src="/pages/bd/tv_sc/images/bg.jpg" width="100%" alt="">
+    <div class="contain">
+        <h4 class="title"><span>国际电视剧论坛</span></h4>
+        <p class="txt">本届四川电视节国际电视剧论坛作为国际影视界的一次交流盛会，汇聚全球顶尖影视媒体公司，包括节目制作公司、国际发行公司，节目播出机构以及节目研究机构，主题和讨论话题涵盖了电视剧产业领域内最热门、最前沿的信息，囊括各大洲电视剧收视状况分析、电视剧国际市场营销成功案例分析、最热门的国际剧本模式分析、收视飘红电视剧的创作经验分享等热门话题。通过此次盛会，世界各国大师级专家将齐聚于此，将与海内外到会嘉宾分享这一道国际影视剧的饕餮盛宴。</p>
+        <div style="text-align: center;">
+            <img class="photo" src="/pages/bd/tv_sc/images/img27.png" width="260" alt="" style="margin-left: -10px;">
+        </div>
+        <h4 class="title"><span>其他信息</span></h4>
+	    <div class="btns" style="margin-top:20px;">
+            <a href="http://www.365rili.com/pages/bd/tv_sc/index.html" class="btn hdsy"></a>
+            <a href="http://www.365rili.com/pages/bd/tv_sc/pwzr.html" class="btn pwzr"></a>
+            <a href="http://www.365rili.com/pages/bd/tv_sc/xmtlt.html" class="btn lt2"></a>
+            <a href="http://www.365rili.com/pages/bd/tv_sc/schedule.html" class="btn rcjs"></a>
+            <a href="http://www.365rili.com/pages/bd/tv_sc/zytj.html" class="btn gdyp"></a>
+	    </div>
+    </div>
+    <div class="footer">
+    	<img src="/pages/bd/tv_sc/images/bgb.jpg" width="100%" alt="">
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+	<script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+	<script src="http://www.365rili.com/pages/bd/tv_sc/js/movie.js"></script>
+</body>
+</html>

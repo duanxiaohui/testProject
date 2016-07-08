@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>“狗奴”有风险——世界狂犬病日</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/dog_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>“狗奴”有风险——世界狂犬病日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+    		<p>小编这里有一个很难的谜语，不知道有没有人能猜得出来，这个谜语就是“狗狗疯了”。可能现在你的大脑正在飞速的运转，“狗狗疯了的话它可能会把我的鞋子拖的到处都是，可能会撕破我的衣服，可能会咬到别人，这样的话我可能要支付别人医药费……”算了，小编还是直接告诉你谜底吧：汪峰（疯）。</p>
+            <h3>【狂犬病知识小课堂】</h3>
+            <p>如果你认为只有人类才会得狂犬病，那你就错了。狂犬病其实是一种人畜共患的急性传染病，一旦发病几乎百分之百死亡，全世界仅有数例存活的报告，跟这个概率比起来，中彩票其实算不了什么！狂犬病的典型症状是恐水，饮水时患者会出现吞咽肌痉挛，无法将水咽下，即使是口渴极了也不敢饮水。狂犬病有一定的潜伏期，潜伏期长短和患者年龄、体质、伤口部位深浅等因素有关，短至10天，长至2年或更长。这真是个任性的疾病啊！</p>
+            <img src="/pages/found/qp_holiday/images/dog_img1.jpg"/>
+            <p>如果你以为只有被狗咬了才会感染狂犬病，那你又错了！狂犬病由狂犬病病毒引起，动物咬人时牙齿唾液中的狂犬病病毒会侵入人体，猫、狼、狐等温血动物也可以传播狂犬病。在南美洲，人们感染狂犬病的主要途径更奇葩，居然是蝙蝠咬伤。蝙蝠咬伤的伤口很小，很大一部分人甚至不知道自己被咬了。这真是：世界上最遥远的距离不是生与死，而是狂犬病病毒在你身体里，你却不知道！</p>
+            <h3>【节日来源】</h3>
+            <p>世界卫生组织报告显示，狂犬病遍布全世界，每年全球有55000人死于狂犬病，即每10分钟就有1人死亡。严峻的疫情唤起了大家对狂犬病的重视，2007年9月8日第一个世界狂犬病日举办的各项活动获得了里程碑式的成功，将全球的狂犬病预防和控制工作向前推进了一大步。这个结果使狂犬病控制联盟喜大普奔，在他们的倡议下，世界卫生组织、世界动物卫生组织及美国疾病预防控制中心共同发起并决定，将每年的9月28日设立为世界狂犬病日。希望通过这一节日集合众多的合作者和志愿者，群策群力，尽快使狂犬病成为“过去式”。</p>
+            <h3>【献给“宠物奴”】</h3>
+            <p>看了这么多狂犬病的知识，小编感觉到部分胆小的“猫奴”、“狗奴”已经吓得浑身颤抖了！下面小编就以狗为例给大家安利一下科学的知识~</p>
+            <img src="/pages/found/qp_holiday/images/dog_img2.jpg"/>
+            <p>健康的狗是不会携带狂犬病病毒的，狗只有在发病期唾液中才带毒（少数潜伏期末期发病前2-5天唾液中也有可能带毒）。所以这就要求你，在每天好吃好喝伺候着狗狗的同时，定期带它去打疫苗。如果你的狗狗打了疫苗且在保护期内，它在很大几率上即使被疯狗咬伤也不会被传染到狂犬病，这也间接的保障了你的健康！</p>
+
+            <p class="mt15">最后小编郑重提醒：狗奴有风险，献身需谨慎啊！</p>
+
+            <div class="tips">
+                <p>1、在狂犬病控制联盟的倡议下，世界卫生组织、世界动物卫生组织及美国疾病预防控制中心共同发起并决定，将每年的9月28日设立为世界狂犬病日；</p>
+                <p>2、狂犬病是一种人畜共患的疾病，除狗外，猫、狼、蝙蝠等温血动物也可以传播狂犬病；</p>
+                <p>3、定期带动物去打疫苗能有效减少动物感染狂犬病的可能性。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+    
+ </body>
+</html>
+

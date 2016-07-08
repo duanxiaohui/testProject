@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>技术就是激情——程序员日</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/code_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>技术就是激情——程序员日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>程序员节是一个俄罗斯官方节日，日期是每年的第256天——平年的9月13日或闰年的9月12日。这个节日时间的选择都透着浓浓的“代码”味，选择第256天是取其一字节(8位)溢出的意思(从0开始，最大到255)……不要纠结了，小编也理解不了这句话的意思。</p>
+            <h3>【创立背景】</h3>
+            <p>这个节日的创立过程是相当枯燥的，枯燥程度与程序员的工作几乎可以相提并论。能一字一句读完的上辈子都是折翼的程序员——1996年，俄文《计算机世界》出版社编辑德米特里·门德列留科最早提出创立程序员节，当时计划将节日命名为“计算机用户节”。</p>
+            <img src="/pages/found/qp_holiday/images/code_img1.jpg" width="100%"/>
+            <p>2002年，一家网页设计公司的两名工作人员在网上收集签名，请求俄罗斯联邦政府将这一天定为正式节日，这一行动在5天内得到了9800个投票支持。2009年7月24日，俄罗斯联邦通信与大众传媒部向政府提交了设立程序员节的法案，同年9月11日，时任俄罗斯联邦总统的德米特里·梅德韦杰夫签署了该法案。从此，这个伟大的节日就产生了！</p>
+            <h3>【“程序猿”族群】</h3>
+            <p>小编看多很多调侃程序员的段子，比如：“从前，有一个程序员得到了一盏神灯，灯神答应实现他一个愿望，然后他向神灯许愿，希望在有生之年能写一个好项目，后来他得到了永生……“代码如此难写，生活简直是没有最苦、只有更苦，怪不得程序员都被称为“程序猿”了！也怪不得程序员界的段子手会写出属于自己族群的“凡客体”：</p>
+            <img src="/pages/found/qp_holiday/images/code_img2.jpg"/>
+            <h3>【保护程序员人人有责】</h3>
+            <p>传统的程序员日庆祝方式非常没创意——程序员穿24位RGB颜色代码为0xFFFFFF的白色服装进行庆祝。后来，社会各界纷纷意识到了关怀程序员的重要性，于是出现了“程序员鼓励师”这一职业。在程序员节当天，有爱心的同事还会在程序员的桌子上悄悄放上慰问的小礼物，程序员们纷纷觉得，写起代码来都激情四射了！</p>
+
+            <div class="tips">
+                <p>1、程序员节是一个俄罗斯官方节日，节日日期为每年的第256天；</p>
+                <p>2、程序员族群生存状况严峻，得到了社会各界的广泛关注，“程序员鼓励师”更是挺身而出，救程序员于危难；</p>
+                <p>3、爱护程序员，人人有责，如果你在路上看见穿着拖鞋、一脸倦容的人，请照顾他过马路！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+      <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+    
+ </body>
+</html>
+

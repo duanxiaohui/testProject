@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>古猗园-迎春游园会</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <div class="bar_txt">古猗园-迎春游园会</div>
+    </div>
+    <div class="main">
+    	<div class="main_content">
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/6be4c96a-82a7-4864-b6c6-b033521fb38c.jpg"/><h6>
+            <a class="btn js-subscribe" data-uuid="3af2df05-b857-43f2-a0f9-2ca36582259d" data-cid="145993945">添加提醒</a>
+	    	<p class="time">时间：已开幕，持续至3月6日<h6>
+            <p></p>
+            <p class="address">地点：上海古猗园</p>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/df6e6f68-b4e5-48c9-9de4-3626bbf6a75d.jpg"/>
+			<h3>活动简介：</h3>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/1e6f54cc-a3ac-4f71-a3dd-9d43597a73e1.jpg"/>
+			<p>尽管出于安全考虑，南翔古猗园停办了今年的元宵灯会，不过，春节期间到古猗园，还可以参加新春游园会。1月24日，记者了解到，2015上海古猗园新春游园会目前已开幕，将持续至3月6日。</p>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/633b2dbf-b688-4745-ac1d-874c3687a81f.jpg"/>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/715e7c50-e832-45de-894e-a714e7c149e8.jpg"/>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/64980bec-fd7a-46cd-8988-c2c458a2450e.jpg"/>
+            <p>此次活动在展示经典、延续传统、弘扬文化的同时，通过南北交汇、中西合璧等多元丰富的文化元素、游戏互动，让市民游客感受中国佳节。游园会期间，还将举行一系列欢乐民俗表演活动，民间艺人大秀拿手绝活。蜡梅作为我国传统的冬季观赏花木，将成为园内主角，增添浓浓年味。</p> 
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/b03b9491-b753-461b-8c64-349602d1b0f7.jpg"/>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/13449ff5-803a-4b93-8c9a-a60befc80d92.jpg"/>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/73c3ee58-1478-4008-9fe9-acc35dfe2d1d.jpg"/>
+            <div class="remind_div" data-uuid="3af2df05-b857-43f2-a0f9-2ca36582259d" data-cid="145993945"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/6be4c96a-82a7-4864-b6c6-b033521fb38c.jpg',
+                title: '上海迎春游园会',
+                desc: '古猗园新春游园会融合多元丰富的文化元素，还有游戏互动、欢乐民俗表演活动，更有蜡梅可供观赏。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '上海迎春游园会',
+		        				content: '古猗园新春游园会融合多元丰富的文化元素，还有游戏互动、欢乐民俗表演活动，更有蜡梅可供观赏。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/6be4c96a-82a7-4864-b6c6-b033521fb38c.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

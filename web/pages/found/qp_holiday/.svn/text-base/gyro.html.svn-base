@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>旋转、跳跃，我贺新年</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/gyro/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>陀螺节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>说起陀螺，最先想到的是儿时那段跟陀螺有关的美好记忆。小小的回转体在光滑的地面上不停的旋转，一根根扬起又落下的鞭子，一声声透过耳膜回荡在心里的笑声。那时候总是希望自己的陀螺转的久一点、再久一点，似乎这样就能获得世上最多最大的荣光。后来，听了万晓利那首以“陀螺”为名的歌，“在田野上转，在清风里转，在飘着香的鲜花上转……”那只似乎永远都停不下来的陀螺，和着一些理解不透的情绪渐渐隐在了行过的人生里。</p>
+            <p class="mt15">小小的陀螺，对于广西壮族人来说却包含了更多的含义，其重要程度几乎可以总结为：无陀螺，不新年。</p>
+            <h3>【过年了，打陀螺去】</h3>
+            <p>在广西壮族聚居的地方，每年都会举行一次有名的体育盛会——陀螺节。时间是由旧历年除夕前两三天至新年正月十六日，历时半个多月。</p>
+            <img src="images/gyro/holiday_1.jpg"/>
+            <p>陀螺在壮语里叫“勒江”，它有大有小、有轻有重。大的如河田柚一般，重达一斤；小的如鹅蛋一般，重约二三两。制作陀螺一定要选用质地优良的坚木，头要圆滑。打的时候，用两三尺长的麻绳一圈一圈往上缠，一直缠到自己认为适当的地方，再用右手的无名指和小指挟住麻绳的尾端迅速往地面一旋，陀螺就会转动起来。参加壮族打陀螺比赛的都是高手，高手过招当然是热闹非凡，在这个比赛中获得第一名的人会被称为“陀螺王”。</p>
+            <h3>【瑶山白裤瑶人的陀螺节】</h3>
+            <p>陀螺节在广西壮族聚居的地方盛行，不同区域间过节的方式上又有着细微的差别，对陀螺节较为重视的便是燕山白裤瑶人。</p>
+            <img src="images/gyro/holiday_2.jpg"/>
+            <p>瑶山白裤瑶人过大年最喜欢、最热闹的娱乐活动是赛陀螺，这群单纯而耿直的人甚至把春节都叫做了陀螺节。瑶族小伙子人人都有陀螺，而且他们的陀螺比汉族陀螺几乎要大一两倍，重二、三斤！大头上还沿周边抠出一道槽，以绕缠“启动绳”，小伙子们还会自由发挥，在陀螺上漆上自己喜欢的各种颜色。</p>
+            <p class="mt15">陀螺比赛通常由瑶族德高望重的长者当裁判，陀螺手们听到一声“定根”令下，便各自将陀螺脚尖着地并用手按着。“开打”令下后，他们便象发动柴油机一样，扯动手中的绳子并顺势将陀螺甩出。谁的陀螺转到最后谁便是优胜者，或以陀螺瓦击谁的先倒地谁为输家。围观的人群里三层外三层，将比赛场围得水泄不通。人们不住地鼓掌喝彩，为陀螺手们鼓劲加油。获胜的小伙子除了正常的荣誉外，还会获得额外的奖励——美丽的瑶族姑娘的青睐。</p>
+            
+            <div class="tips">
+                <p>1、每年旧历年除夕前两三天至新年正月十六日是陀螺节，在一部分广西壮族人心里这个节日可以和春节画等号；</p>
+                <p>2、陀螺关联着儿时的美好记忆，这个春节，和陀螺一起旋转贺新年吧！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/>
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	html, body{
+		height:100%;
+	}
+	.bar{width:100%;height:48px; line-height:48px; font-size:16px; color:#000; background:#fff; text-align:center; border-bottom:1px solid #e0e0e0;position: fixed; top:0;}
+	iframe{
+		margin-top: 48px
+	}
+	.share_btn{width:20px; height:20px; position: absolute; top:15px; right:15px; background:url(http://www.365rili.com/pages/forum/images/share_btn.png) no-repeat; background-size:100% 100%;}
+</style>
+</head>
+<body>
+	<div class="bar">
+		<a href="javascript:;" class="share_btn"></a>
+        <div class="bar_txt" id="js-title">历姐碰滴滴，365送您豪礼大红包！</div>
+    </div>
+    <iframe id="js-iframe" height="100%" width="100%" src="http://gsactivity.diditaxi.com.cn/gulfstream/activity/v2/giftpackage/index?channel=cda5c5ffa994795e8dd21837f582e1b2-040" frameborder="0"></iframe>
+
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<script src="/js/lib/zepto.min.js"></script>
+<script>
+	(function () {
+		var ifa = document.getElementById('js-iframe');
+		ifa.height = document.body.clientHeight;
+	})();
+	if(app.getUa.ios){
+		var sUserAgent = navigator.userAgent.toLowerCase();
+		var len = sUserAgent.length,
+			index = sUserAgent.indexOf('ios-coco');
+		if(index > -1) {
+			var s = sUserAgent.substring(index, len),
+				arr = s.split('|');
+			var version = 0;
+			$.each(arr, function(k, v) {
+				if(/5\./i.test(v)) {
+					version = parseFloat(v);
+					return
+				}
+			});
+			if(version < 5.3) {
+				$('.share_btn').hide();
+			}
+		}
+	}
+	$('.share_btn').on('click', function(){
+		app.call({
+	    	action: 'share',
+	    	params: [
+	    		{
+	    			name: 'shareString',
+	    			value: JSON.stringify({
+	    				title: '历姐碰滴滴，365送您豪礼大红包！',
+	    				content: '滴滴红包',
+	    				link: 'http://gsactivity.diditaxi.com.cn/gulfstream/activity/v2/giftpackage/index?channel=cda5c5ffa994795e8dd21837f582e1b2-040',
+	    				image: 'http://cocoimg.365rili.com/logo/114.png',
+	    				isEvent: 'true'
+	    			})
+	    		}
+	    	],
+	    	callback: function(data) {}
+	    });
+	});
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "365-calendar",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-htmlmin": "^0.2.0",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-requirejs": "~0.4.4"
+  }
+}

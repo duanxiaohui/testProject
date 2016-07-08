@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0">
+<title>购车选车第一站！</title>
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/css/forum_new.css" rel="stylesheet">
+<script src="/js/lib/zepto.min.js"></script>
+<script src="/js/lib/app.js"></script>
+<link href="/css/footer.css?20141126" rel="stylesheet">
+<script src="/pages/forum/js/underscore-1.6.0.js"></script>
+</head>
+<body class="weixin">
+    <div class="calendar_project_top">
+        <div class="calendar_project_top_header">
+            <a href="javascript:;" class="return_btn"></a>
+            <a href="javascript:;" class="share_btn none"></a>
+            <span>购车选车第一站！</span>
+        </div>
+        <div class="calendar_project_top_img">
+            <img src="http://cocoimg.365rili.com/pic/default/zhuanti_in_7.jpg"/> <!-- 图片地址 -->
+        </div>
+    </div>
+    <div class="calendar_project_info">
+        <p>新车上市资讯、性能评测，全国车展排期，助你好选车、选好车！</p>
+    </div>
+    <div class="calendar_project_list">
+        <dl class="e_clear" data-id="172846937">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/c1af284a-4c85-4d07-bde9-7f2aa5fa7cea.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="172846937" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>新车上市日历</h3>
+                    <p>车型售价、专题解析等全面的新车资讯，购车第一站！</p>
+                    <div class="focus_num">463966人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="257084209">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/2e0aa484-33d8-4416-9b42-846b63a271a6.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="257084209" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>全国车展排期</h3>
+                    <p>最新最全的各地车展时间排期及车展地址等详细官方车展信息，致力打造买（购）车人士最方便、最好的国际车展信息查询平台及汽车博览会交易会导航平台。</p>
+                    <div class="focus_num">9277人关注</div>
+                </div>
+            </dd>
+        </dl>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/js/lib/footer.js?20150122"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+            $('.calendar_project_top_header').hide();
+            $('.calendar_project_top_img').css('padding-top', '0')
+
+            wxProtocol.init({
+                imgUrl: $('.calendar_project_top_img img')[0].src,
+                title: $('.calendar_project_top_header span').html(),
+                desc: $('.calendar_project_info p').html()
+            });
+
+            wxProtocol.initWithAlready({
+                imgUrl: $('.calendar_project_top_img img')[0].src,
+                title: $('.calendar_project_top_header span').html(),
+                desc: $('.calendar_project_info p').html()
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+    })();
+    </script>
+    <script src="/pages/forum/js/func.js"></script>
+    <script src="/pages/forum/js/calendar_project.js"></script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

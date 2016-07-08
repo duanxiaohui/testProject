@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>你才是三八！</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/womens_day/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>妇女节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>在通常的印象中，女性是柔弱的，她们手中握的应该是针、是炒菜的铲子，而不会是刀枪棍棒。经历过母系社会短暂的荣耀之后，女性在很长一段时期内都是地位偏低的，与政治关系也很弱。一般情况下，名媛通常会轻巧的挽着丈夫的胳膊，说着“谢谢，我不关心政治”；女工就只想着，“如果我不上班，那么我只会被开除”……</p>
+            <h3>【政治权利约等于地位】</h3>
+            <p>后来经过古今中外杰出女性的探索，她们发现，政治权利约等于社会地位。想要全面意义上提升社会地位，一定要让女性参与到政治生活当中去！比如一代女皇武则天，谁敢说她没地位！</p>
+            <img src="images/womens_day/holiday_1.jpg"/>
+            <p>电影《女权天使》讲述的就是这样一个故事。影片中爱丽丝·保罗和她的伙伴拼命的为女性争取选举权。她说：“女性想要实现自己的平等和权利，需要真实的参与到政治决策中去。”</p>
+            <h3>【不然就过个节吧】</h3>
+            <p>联合国从1975年国际妇女年开始庆祝国际妇女节，确认普通妇女争取平等参与社会的传统。1997年联合国大会通过了一项决议，请每个国家按照自己的历史和民族传统习俗，选定一年中的某一天宣布为联合国妇女权利日。</p>
+            <img src="images/womens_day/holiday_2.jpg"/>
+            <p>在中国，妇女节早早的生根发芽了。1922年7月召开的中国共产党第二次全国代表大会开始关注到妇女问题，1924年中国正式开始庆祝妇女节。在很长一段时间内，这个节日己经成为了国共两党领导中国妇运的重要场域，代表着革命传统及其作为中国百年妇女运动特殊的公共文化空间。</p>
+            <h3>【你这个三八】</h3>
+            <p>不管怎么样，很多人仍然是“三关不正”，妇女节明明是一个充满魅力的节日，但“三八”却莫名其妙变成了一句不怎么好听的话，通常它让人联想到的形象都是那样的……</p>
+            <img src="images/womens_day/holiday_3.jpg"/>
+            <p>所以我们一定要好好学习，摆正观点，对这个春日里为女性量身打造的节日保持正确的看法！</p>		
+
+            <div class="tips">
+                <p>1、每年的3月8日是国际劳动妇女节，看到没有，劳动才能过节！</p>
+                <p>2、快与春天来个美丽的约会吧！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

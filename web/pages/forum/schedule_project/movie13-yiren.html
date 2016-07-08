@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>蚁人</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">蚁人</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/e38a05bf-f993-4afa-8359-2df1e44b2a6a.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	<a href="http://my.tv.sohu.com/us/233700598/77609335.shtml" data-title="查看预告片" class="btn js-other">查看预告片</a>
+	    	<h3 class="time">上映时间：2015年7月17日（美国）</h3>
+			<p> </p>
+	    	<h3>导演：佩顿·里德</h3>
+			<p class="fc_000">主演：保罗·路德 / 迈克尔·道格拉斯 / 伊万杰琳·莉莉</p>
+			<h3>剧情：</h3>
+			<p>《蚁人》讲述职业骗子斯科特·朗（保罗·路德饰）拥有身体变小力量增大的超能力，他必须接受自己的英雄身份并帮助他的导师汉克·皮姆（迈克尔·道格拉斯 饰）保护他所发明的蚁人战服。汉克·皮姆作为一名出色的生物学家，他发现了一种可以将身体缩小至蚂蚁体积的微型原子（皮姆粒子），并制作一个特殊的头盔用以与昆虫交流。在强大的敌人威胁下，皮姆与朗必须精心策划并执行一场惊天骗局来拯救世界。</p>
+			<!--h3是小标题-->
+			<h3>看点：</h3>
+			<!--p是段落文字描述-->
+			<p>《蚁人》作为漫威第二阶段的结束，第三阶段的开幕电影，可谓起到了承上启下的作用，主角蚁人也很可能是后续《复仇者联盟》体系中的关键人物，可是《蚁人》的诞生却磨难重重，在2008年《钢铁侠》取得票房成功之前，英国导演埃德加·赖特曾为蚁人创作了一个电影剧本，但《钢铁侠》一炮而红后，Marvel的兴趣全部集中到“复仇者”系列上，《蚁人》就这样被搁置了起来。幸好迪士尼40亿美元买下惊奇公司以后，《蚁人》的命运才随之出现转机。2014年6月8日，导演因为被大幅度修改剧本，累觉不爱放弃执导，多位导演又协商不成后，电影《蚁人》新的导演人选终于尘埃落定——喜剧导演佩顿·里德雀屏中选。为了突出蚁人的形象，原漫画中的反派奥创还被踢到《复仇者联盟》了。俗话说好事多磨，经过这番历练，想必该片不会让我们失望。</p>
+    	<img src="http://cocoimg.365rili.com/schedule_pics/default/ff45af7e-ac2c-472f-99c3-9cd2de12b10d.jpg"/>
+		<img src="http://cocoimg.365rili.com/schedule_pics/default/966aec31-664a-4491-8d61-9a57ad910455.jpg"/>
+		 <div class="remind_div none" data-uuid="4e0b87d7-73ef-47ed-9069-5060d1f79f57" data-cid="125821987"><div class="remind_icon"></div><span>添加提醒</span></div>
+		</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/ed5a346a-b173-467f-98f8-1c50beb3a0ef.jpg',
+                title: '电影：蚁人',
+                desc: '《蚁人》讲述职业骗子斯科特·朗拥有身体变小力量，他必须接受自己的英雄身份并帮助他的导师——生化学家汉克·皮姆保护他所发明的蚁人战服。在强大的敌人威胁下，皮姆与朗必须精心策划并执行一场惊天骗局来拯救世界。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '电影：蚁人',
+		        				content: '《蚁人》讲述职业骗子斯科特·朗拥有身体变小力量，他必须接受自己的英雄身份并帮助他的导师——生化学家汉克·皮姆保护他所发明的蚁人战服。在强大的敌人威胁下，皮姆与朗必须精心策划并执行一场惊天骗局来拯救世界。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/ed5a346a-b173-467f-98f8-1c50beb3a0ef.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

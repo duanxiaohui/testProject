@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0">
+<title>不爱体育？说明你老了！</title>
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/css/forum_new.css" rel="stylesheet">
+<script src="/js/lib/zepto.min.js"></script>
+<script src="/js/lib/app.js"></script>
+<link href="/css/footer.css?20141126" rel="stylesheet">
+<script src="/pages/forum/js/underscore-1.6.0.js"></script>
+</head>
+<body class="weixin">
+    <div class="calendar_project_top">
+        <div class="calendar_project_top_header">
+            <a href="javascript:;" class="return_btn"></a>
+            <a href="javascript:;" class="share_btn none"></a>
+            <span>不爱体育？说明你老了！</span>
+        </div>
+        <div class="calendar_project_top_img">
+            <img src="http://cocoimg.365rili.com/pic/default/zhuanti_in_5.jpg"/> <!-- 图片地址 -->
+        </div>
+    </div>
+    <div class="calendar_project_info">
+        <p>查赛程，看直播，热爱体(竞)育(彩)的人生都比较快乐！</p>
+    </div>
+    <div class="calendar_project_list">
+        <dl class="e_clear" data-id="125821987">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/d5216f2f-3ebe-4800-82b9-a14d0463f8e8.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="125821987" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>足球热门赛程</h3>
+                    <p>热血足球，沸腾人生！手机也能看！</p>
+                    <div class="focus_num">396792人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="125800309">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/fd3aeba3-eb27-4749-b636-10afca700c61.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="125800309" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>NBA热门赛程</h3>
+                    <p>无篮球，不兄弟！手机也能看直播！</p>
+                    <div class="focus_num">231719人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="266087825">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/24db5e17-b2d7-4daa-be41-4d945a0e9d66.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="266087825" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>CBA联赛赛程</h3>
+                    <p>提供精准的中国男篮CBA联赛赛程、比分、直播信息！中国男子篮球职业联赛（即CBA，英文全称China Basketball Association），简称中国篮球协会，是由中国篮球协会所主办的跨年度主客场制篮球联赛，中国最高等级的篮球联赛。 CBA自每年的10月或11月开始至次年的4月左右结束，长度和美国的NBA相仿。CBA成立之后，总共有四支球队夺得过总冠军，北京队三年夺两冠，八一队和广东队都曾八次夺冠。其中八一队曾做到CBA总决赛6连冠。</p>
+                    <div class="focus_num">7651人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="238209325">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/a2c79438-7d53-4c0d-80d2-22ca97ba215a.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="238209325" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>皇家马德里 R.Madrid</h3>
+                    <p>日历提供球队新闻、赛程赛果、前瞻分析。皇家马德里足球俱乐部（Real Madrid Club de Futbol ，中文简称为皇马）是一家位于西班牙马德里的足球俱乐部，球队成立于1902年3月6日，前称马德里足球队。1920年获国王赐封“皇家”的尊称，徽章上加上了皇冠，并改名为皇家马德里。</p>
+                    <div class="focus_num">8798人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="238197865">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/44c92295-14e1-4b42-8211-3a04bfe67b0c.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="238197865" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>AC米兰 ACMilan</h3>
+                    <p>日历提供球队新闻、赛程赛果、前瞻分析。1899年12月16日，一群聚集在杜诺德（Dunawd）宾馆房间里的球迷成立了一家体育俱乐部—米兰板球和足球俱乐部。创始人是：阿尔弗雷德·爱德华兹。此后历经了百年风风雨雨，AC米兰发展成为今天世界上最伟大的球队之一。截至到2013年，AC米兰共获得过7次欧冠冠军，18次意甲联赛冠军，并且是世界上夺洲际杯次数最多的球队。</p>
+                    <div class="focus_num">4820人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="238224403">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/7f47d17c-eb65-4551-b0e4-0612fe674128.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="238224403" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>广州恒大 Evergrande</h3>
+                    <p>日历提供球队新闻、赛程赛果、前瞻分析。广州恒大前身是成立于1977年的广州市足球运动队。1993年，广州足球队通过和太阳神集团合作，成为中国第一家政府与企业合股的职业足球俱乐部，后期由于新老更替降入甲B联赛。2007年重返中国足球顶级联赛。2010年3月1日，恒大集团买断球队全部股权，俱乐部更名为广州恒大足球俱乐部。</p>
+                    <div class="focus_num">5359人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="232724429">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/38438758-41e0-4ed3-8558-056e80e60e18.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="232724429" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>曼联 Man.Utd</h3>
+                    <p>日历提供球队新闻、赛程赛果、前瞻分析。曼彻斯特联足球俱乐部位于英国英格兰西北区曼彻斯特郡曼彻斯特市，英文名Manchester United Football Club，简称ManUtd或MUFC，中文简称曼联，其前身“牛顿·希斯”于1878年由兰开夏郡和约克郡铁路公司的工人在牛顿希斯工地上成立。1902年球队改组并改名曼联，现为英格兰足球超级联赛俱乐部，曼联的球队主场为“梦剧场”老特拉福德球场，1910年启用至今。 曼联是英格兰足球史上最为成功的俱乐部之一，也是欧洲乃至世界最具有影响力最成功的球队之一，共获得20次英格兰顶级联赛冠军，11次英格兰足总杯冠军，4次英格兰联赛杯冠军（除英格兰联赛杯外均为最高纪录）。在欧洲赛场上，曼联共获得3次欧洲冠军联赛冠军，1次欧洲优胜者杯和1次欧洲超级杯冠军。</p>
+                    <div class="focus_num">4546人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="238205409">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/9862cbc3-4cc7-4878-b474-d3d8fc3882de.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="238205409" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>拜仁慕尼黑 Bayern</h3>
+                    <p>日日历提供球队新闻、赛程赛果、前瞻分析。拜仁慕尼黑足球俱乐部，简称拜仁，是一家设于巴伐利亚州首府慕尼黑的德国足球俱乐部，曾创纪录的赢得24次德甲联赛冠军及16次德国杯冠军，是德国最成功的足球俱乐部。历征文</p>
+                    <div class="focus_num">5513人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="238221381">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/9b474f89-97ed-484c-8207-d68f1e855730.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="238221381" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>北京国安 Guo an</h3>
+                    <p>日历征日历提供球队新闻、赛程赛果、前瞻分析。北京国安足球俱乐部是一家中国北京的职业足球俱乐部，主场为工人体育场，是目前唯一代表北京参加中国足球超级联赛的足球俱乐部。俱乐部成立于1992年12月31日，是中国足球甲级A组联赛和中国足球超级联赛的创始会员。俱乐部自中国足球职业化以来长期位居积分榜前列，其中在2009赛季获得了中国顶级职业联赛的冠军，在此之前北京队已经夺得过7次中国顶级联赛冠军；此外俱乐部还分别在1976年1985年1996年、1997年和2003年五度夺得中国足协杯冠军，杀入亚优杯四强，并于2008年至2010年连续三年代表中国参加亚洲冠军联赛。文</p>
+                    <div class="focus_num">2161人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="238220415">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/1f112db4-9ff4-4db4-9fe7-c9c94d542acc.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="238220415" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>阿森纳 Arsenal</h3>
+                    <p>日日历提供球队新闻、赛程赛果、前瞻分析。阿森纳足球俱乐部（Arsenal Football Club），简称阿森纳，位于英国首都伦敦北部，成立于1886年，是英格兰顶级联赛英格兰超级联赛二十个足球俱乐部之一，俱乐部基地位于伦敦荷洛威（Holloway）。阿森纳是世界上最具规模的俱乐部之一，十三次取得顶级联赛冠军，十次赢得足总杯，是英格兰顶级足球联赛停留得最久的俱乐部。 阿森纳也是欧洲乃至世界最具有影响力的球队之一。阿森纳在世界各地拥有无数的支持者，他们都自称为“枪迷”。历征文</p>
+                    <div class="focus_num">2495人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="238218075">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/204714c2-1de1-4b00-9579-f4080762b619.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="238218075" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>切尔西 Chelsea</h3>
+                    <p>日历提供球队新闻、赛程赛果、前瞻分析。切尔西足球俱乐部（粤语名：车路士），绰号蓝军、蓝狮。参加英格兰足球超级联赛，与尤文图斯、拜仁慕尼黑、阿贾克斯并列为欧洲大满贯球队。俱乐部成立于1905年3月14日[1]，主场位于伦敦哈默史密斯-富勒姆区邻近泰晤士河的斯坦福桥球场。阿布收购切尔西后斥巨资引援，球队逐渐成为欧洲顶级豪门。也是欧洲乃至世界最具有影响力最成功的球队之一。 至今，切尔西共赢得过3次英格兰足球超级联赛冠军，7次英格兰足总杯冠军，4次英格兰联赛杯冠军，4次英格兰社区盾，2次欧洲优胜者杯冠军，1次欧洲超级杯，1次欧洲冠军联赛冠军，1次欧罗巴联赛冠军。</p>
+                    <div class="focus_num">2906人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="238216709">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/31c75a23-e1bf-4ebc-9807-36dce86fc7b8.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="238216709" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>巴塞罗那 Barcelona</h3>
+                    <p>日历提供球队新闻、赛程赛果、前瞻分析。巴塞罗那足球俱乐部（加泰罗尼亚语：Futbol Club Barcelona，中文简称巴萨），是位于西班牙巴塞罗那市的大球会，成立于1899年11月29日，西甲传统豪门之一，也是现今欧洲乃至世界足坛最成功的俱乐部之一。 巴塞罗那足球俱乐部获得过荣誉主要有22次西班牙足球甲级联赛冠军（西甲第二）[1]，26次国王杯冠军（西甲第一），欧洲冠军联赛冠军4次（排名第五）。</p>
+                    <div class="focus_num">5624人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="238228437">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/3ad61be6-6987-4d73-b67e-d01c8b17a0ab.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="238228437" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>山东鲁能 Lu neng</h3>
+                    <p>日历提供球队新闻、赛程赛果、前瞻分析。山东鲁能泰山足球俱乐部，简称鲁能队或者泰山队，是一支位于山东省济南市的足球队，其球迷群体庞大，遍布全国各地。中国顶级联赛传统四大豪门之一，与大连实德、上海申花和北京国安的比赛被中国球迷称之为国家德比。获得过很多荣誉，主要有中国顶级联赛冠军4次，足协杯冠军4次，中超杯冠军1次。</p>
+                    <div class="focus_num">2191人关注</div>
+                </div>
+            </dd>
+        </dl>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/js/lib/footer.js?20150122"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+            $('.calendar_project_top_header').hide();
+            $('.calendar_project_top_img').css('padding-top', '0')
+
+            wxProtocol.init({
+                imgUrl: $('.calendar_project_top_img img')[0].src,
+                title: $('.calendar_project_top_header span').html(),
+                desc: $('.calendar_project_info p').html()
+            });
+
+            wxProtocol.initWithAlready({
+                imgUrl: $('.calendar_project_top_img img')[0].src,
+                title: $('.calendar_project_top_header span').html(),
+                desc: $('.calendar_project_info p').html()
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+    })();
+    </script>
+    <script src="/pages/forum/js/func.js"></script>
+    <script src="/pages/forum/js/calendar_project.js"></script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

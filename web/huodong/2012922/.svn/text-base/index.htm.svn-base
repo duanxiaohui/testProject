@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>365日历</title>
+<link type="text/css" rel="Stylesheet" href="css/index.css" />
+<link type="text/css" rel="Stylesheet" href="css/active.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+</head>
+<body>
+<div class="rili_365">
+	<div class="auto">
+		<script type="text/javascript">
+			if (/android/i.test(navigator.userAgent)){
+				document.write("<img src='img/abg.jpg' style='float:left;' />");
+			}
+			else document.write("<img src='img/bg.jpg' usemap='#map' style='float:left;' />");
+		</script>
+		
+		<map name="map" id="map" style="float:left; cursor:pointer">
+			<area shape="rect" coords="42,880,82,904" href="javascript:optBtn1Click()" />
+			<area shape="rect" coords="42,905,82,929" href="javascript:optBtn2Click()" />
+			<area shape="rect" coords="42,930,82,954" href="javascript:optBtn3Click()"  />
+			<area shape="rect" coords="15,967,150,1006" href="javascript:sinaBtnClick()" />
+			<area shape="rect" coords="154,967,289,1006" href="javascript:qqBtnClick()" />
+		</map>
+		<div id="optBtn1" style="margin-top:-150px; margin-left:43px; width:25px; height:25px; float:left; background:url(img/dui.png) no-repeat; display:none"></div>
+		<div id="optBtn2" style="margin-top:-125px; margin-left:43px; width:25px; height:25px; float:left; background:url(img/dui.png) no-repeat; display:none"></div>
+		<div id="optBtn3" style="margin-top:-100px; margin-left:43px; width:25px; height:25px; float:left; background:url(img/dui.png) no-repeat; display:none"></div>
+	</div>
+</div>
+<input type="hidden" value='#秋分#秋分证明秋季真的来了，大家打算做什么传统活动？我想玩竖蛋！（更多内容请关注 @365日历 ）' id="sinaTxt1" />
+<input type="hidden" value='#秋分#秋分证明秋季真的来了，大家打算做什么传统活动？我想煮汤圆“粘雀子嘴”！（更多内容请关注 @365日历 ）'  id="sinaTxt2" />
+<input type="hidden" value='#秋分#秋分证明秋季真的来了，大家打算做什么传统活动？我想吃“苋菜”做“秋汤”！（更多内容请关注 @365日历 ）'  id="sinaTxt3" />
+
+<input type="hidden" value='#秋分#秋分证明秋季真的来了，大家打算做什么传统活动？我想玩竖蛋！（更多内容请关注 @a365rili ）' id="qqTxt1" />
+<input type="hidden" value='#秋分#秋分证明秋季真的来了，大家打算做什么传统活动？我想煮汤圆“粘雀子嘴”！（更多内容请关注 @a365rili ）' id="qqTxt2" />
+<input type="hidden" value='#秋分#秋分证明秋季真的来了，大家打算做什么传统活动？我想吃“苋菜”做“秋汤”！（更多内容请关注 @a365rili ）' id="qqTxt3" />
+
+<input type="hidden" id="UID" value="">
+<input type="hidden" id="PWD" value="">
+
+<script type="text/javascript">
+	var option = "0";
+	var userid = null;
+	var password = null;
+	var content = null;
+	function getUserInfo()
+	{
+		if (/android/i.test(navigator.userAgent))
+		{
+			userid = AliansBridge.getUserId();
+			password = AliansBridge.getUserPassword();
+		}
+		if (/ipad|iphone|mac/i.test(navigator.userAgent)){
+			userid = document.getElementById('UID').value;
+			password = document.getElementById('PWD').value;
+		}
+	}
+
+	function optBtn1Click(){
+		document.getElementById('optBtn2').style.display = "none";
+		document.getElementById('optBtn3').style.display = "none";
+		document.getElementById('optBtn1').style.display = "block";
+		option = "1";
+	}
+	function optBtn2Click(){
+		document.getElementById('optBtn1').style.display = "none";
+		document.getElementById('optBtn3').style.display = "none";
+		document.getElementById('optBtn2').style.display = "block";
+		option = "2";
+	}
+	function optBtn3Click(){
+		document.getElementById('optBtn1').style.display = "none";
+		document.getElementById('optBtn2').style.display = "none";
+		document.getElementById('optBtn3').style.display = "block";
+		option = "3";
+	}
+	
+	function qqBtnClick(){
+		getUserInfo();
+		if(userid=='null'||!userid)
+		{
+			alert("您的365日历版本暂不支持发微博，请升级到最新版");
+		}
+		else
+		{
+			if(option == "0"){
+				alert("还未选择发送内容，请点击选择！");
+				return false;
+			}
+			var txt = document.getElementById('qqTxt'+option).value;
+			AJAX(
+				'/qt/weiboFromWebView.do', true, 'POST', 
+				'content='+txt+'&u='+userid+'&p='+password+'&img=qiufen', 
+				function (result) {
+					result = eval("("+result+")");
+					if(result.state == "ok")alert("微博已经发送成功！");
+					else alert("发送失败，是否未登录365账号或未绑定腾讯微博！请返回软件操作后重试。");
+			});
+		}
+	}
+	function sinaBtnClick(){
+		getUserInfo();
+		if(userid=='null'||!userid)
+		{
+			alert("您的365日历版本暂不支持发微博，请升级到最新版");
+		}
+		else
+		{
+			if(option == "0"){
+				alert("还未选择发送内容，请点击选择！");
+				return false;
+			}
+			var txt = document.getElementById('sinaTxt'+option).value;
+			AJAX(
+				'/weibo/statusFromWebView.do', true, 'POST', 
+				'content='+txt+'&u='+userid+'&p='+password+'&img=qiufen', 
+				function (result) {
+					result = eval("("+result+")");
+					if(result.state == "ok")alert("微博已经发送成功！");
+					else alert("发送失败，是否未登录365账号或未绑定新浪微博！请返回软件操作后重试。");
+			});
+			
+		}
+	}
+	
+</script>
+</body>
+<script type="text/javascript" src="js/ajax.js"></script>
+
+</html>

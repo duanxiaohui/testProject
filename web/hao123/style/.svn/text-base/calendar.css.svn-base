@@ -1,0 +1,106 @@
+body { background: #fff; color: #444; font: 12px / 1.5em arial; height: 100%; margin: 0; padding: 0; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+textarea { background: #fff; border: 1px solid #d2d9dc; border-radius: 2px; box-shadow: 0 0 0 #d2d9dc; -moz-transition: .3s ease-in-out; transition-property: border box-shadow; -webkit-transition: .3s ease-in-out; }
+textarea:focus, input[type="text"]:focus { /*border: 1px solid #b7d4ea;*/ box-shadow: 0 0 5px #b7d4ea; }
+a { color: #208de9; cursor: pointer; text-decoration: none; }
+a:hover { color: #ff5b86;text-decoration: none; }
+
+.v_align { vertical-align: middle; }
+
+/*jq-ui*/
+.ui-corner-all-16, .ui-corner-top-16, .ui-corner-left-16, .ui-corner-tl-16 { -moz-border-radius-topleft: 16px; -webkit-border-top-left-radius: 16px; -khtml-border-top-left-radius: 16px; border-top-left-radius: 16px; }
+.ui-corner-all-16, .ui-corner-top-16, .ui-corner-right-16, .ui-corner-tr-16 { -moz-border-radius-topright: 16px; -webkit-border-top-right-radius: 16px; -khtml-border-top-right-radius: 16px; border-top-right-radius: 16px; }
+.ui-corner-all-16, .ui-corner-bottom-16, .ui-corner-left-16, .ui-corner-bl-16 { -moz-border-radius-bottomleft: 16px; -webkit-border-bottom-left-radius: 16px; -khtml-border-bottom-left-radius: 16px; border-bottom-left-radius: 16px; }
+.ui-corner-all-16, .ui-corner-bottom-16, .ui-corner-right-16, .ui-corner-br-16 { -moz-border-radius-bottomright: 16px; -webkit-border-bottom-right-radius: 16px; -khtml-border-bottom-right-radius: 16px; border-bottom-right-radius: 16px; }
+
+.none { display: none; }
+
+.h_calendar_box{width:960px; height:610px; margin:0 auto;}
+.h_calendar{width:730px; height:610px; float:left;}
+.h_calendar_select{height:42px; background:url(../images/h_calendar_select.jpg) no-repeat left top; padding:10px 15px 0 15px}
+.time{width:90px; height:33px; float:left; line-height:33px; padding-left:92px; font-size:20px; font-family:Arial; color:#fff; background:url(../images/time.jpg) no-repeat;}
+.select_date{padding:3px 0 0 12px;float:left;}
+.select_date select{display:none;}
+.select_year,.select_month,.select_day,.return_today_btn{float:left; width:141px; height:27px; margin-left:10px; display:inline;}
+.left_arrow,.right_arrow{float:left; width:13px; height:27px;}
+.left_arrow{background:url(../images/arrow.jpg) no-repeat left -27px;}
+.left_arrow:hover{background:url(../images/arrow.jpg) no-repeat left top;}
+.right_arrow{background:url(../images/arrow.jpg) no-repeat right -27px;}
+.right_arrow:hover{background:url(../images/arrow.jpg) no-repeat right top;}
+.select_year_box,.select_month_box,.select_day{cursor:default; width:105px; height:27px; float:left; margin:0 5px; display:inline;}
+.dropselectbox{border:1px solid #1f9237; background:#fff; position:relative; z-index:10;}
+.dropselectbox h4{width:72px; height:22px; line-height:22px; padding:1px 30px 1px 1px; text-align:center; background:#fff url(../images/droparrow.jpg) no-repeat 79px 1px; cursor:pointer;}
+.dropselectbox ul{max-height:215px; _height:215px; overflow-y:scroll; background:#e6f4e1; margin:5px 0 0 1px;}
+.dropselectbox ul li{width:85px; height:22px; line-height:22px; text-align:center; color:#666; font-size:14px; font-family: "Microsoft YaHei";}
+.dropselectbox ul li.on{background:#1f9237;color:white;}
+.return_today_btn{width:73px; line-height:26px; background:url(../images/return_today_btn.jpg) no-repeat; text-align:center; color:#fff;}
+.h_calendar_week{height:36px; line-height:36px; padding-top:5px; background:url(../images/h_calendar_week.jpg) repeat-x left top;}
+.h_calendar_week ul,.h_calendar_list ul{margin-left:-5px;}
+.h_calendar_week ul,.h_calendar_list ul{display:inline-block;}
+.h_calendar_week ul,.h_calendar_list ul{display:block;}
+.h_calendar_week ul li{float:left; width:100px; text-align:center; margin-left:5px; display:inline; color:#25992e; font-size:14px; font-family: "Microsoft YaHei";}
+.h_calendar_week ul li.week{color:#ed6d23;}
+/*本月*/
+.h_calendar_list ul li{width:98px; height:66px; border:1px solid #f3f3f4; float:left; margin:5px 0 0 5px; display:inline; text-align:right; cursor:pointer;}
+.solar_date{font-size:24px; font-family:Arial; font-weight:600; padding:12px 12px 5px 12px; color:#555;}
+.lunar_date{font-size:12px; font-family: "Microsoft YaHei"; padding-right:12px; color:#999;}
+
+/*前后月*/
+.nextbefor{filter:alpha(opacity=50);-moz-opacity:0.5;-khtml-opacity: 0.5;opacity: 0.5;}
+/*休*/
+.h_calendar_list ul li.rest{width:100px; height:68px; border:0; background:url(../images/rest.jpg) no-repeat;}
+/*班*/
+.h_calendar_list ul li.work{width:100px; height:68px; border:0; background:url(../images/work.jpg) no-repeat;}
+/*今天*/
+.h_calendar_list ul li.today{width:100px; height:68px; border:0; background:url(../images/today.jpg) no-repeat;}
+.today .solar_date,.today .lunar_date{color:#1f9237;}
+/*普通点击状态*/
+.h_calendar_list ul li.on{width:94px; height:62px; border:3px solid #9ad97d;}
+/*休点击状态*/
+.h_calendar_list ul li.reston{width:100px; height:68px; border:0; background:url(../images/reston.jpg) no-repeat;}
+/*班点击状态*/
+.h_calendar_list ul li.workon{width:100px; height:68px; border:0; background:url(../images/workon.jpg) no-repeat;}
+/*周末*/
+.weekend .solar_date,.weekend .lunar_date{color:#ed6d23;}
+/*国际节假日*/
+.isolar .lunar_date{color:#1f9237;}
+/*节气日*/
+.solar .lunar_date{color:#6aba49;}
+/*法定节假日*/
+.vacation .solar_date,.vacation .lunar_date{color:#ed6d23;}
+.work .solar_date,.workon .solar_date{color:#555;}
+.work .lunar_date,.workon .lunar_date{color:#999;}
+
+/*color*/
+.c_ed6d23{color:#ed6d23;}
+.c_6aba49{color:#6aba49;}
+.c_1f9237{color:#1f9237;}
+
+.h_calendar_exp{height:75px; background:#f8f8f9; margin-top:5px;}
+.exp_text{float:left; padding:15px 0 0 30px;}
+.exp_text p{margin-bottom:5px; color:#999;}
+.exp_text strong{margin-right:15px; color:#424242;}
+.wr-copyright{float:right; width:138px; height:24px; line-height:24px; margin-top:25px; text-align:center; color:#999; background:#e2e2e2;}
+
+.h_calendar_right{width:220px; height:610px;float:right;}
+.h_calendar_alm{height:310px; border:1px solid #c3e6b3;}
+.alm_date{height:33px; line-height:33px; background:#fff; text-align:center; color:#555; font-family: "Microsoft YaHei"; font-size:14px;}
+.alm_content{height:274px; width:218px; border-top:3px solid #b3deaf; background:#e0f4d7; position:relative;}
+.today_date{font-size:72px; color:#1f9237; line-height:85px; font-family: "Microsoft YaHei"; text-align:center;}
+.alm_content p{text-align:center; color:#6aba49; font-size:12px; line-height:22px;}
+.alm_content .alm_lunar_date{width:190px; height:30px; margin:0 auto; line-height:30px; text-align:center; color:#ed6d23; font-size:14px; font-family: "Microsoft YaHei"; background:url(../images/alm_lunar_date.png) no-repeat;}
+.nofestival .alm_lunar_date{height:1px; line-height:1px; overflow:hidden; font-size:0; border-top:1px dashed #b0c8a6; margin:14px auto; background:none;}
+.yj_box{width:190px;height:70px; margin:14px auto 0;}
+.yi,.ji{height:70px; float:left; overflow:hidden;}
+.yi{background:url(../images/yi.jpg) no-repeat center center; border-right:1px solid #c4e7b5; padding-left:20px; width:74px; color:#1f9237;}
+.ji{background:url(../images/ji.jpg) no-repeat center center; border-left:1px solid #f8fcf6; padding-left:20px; width:74px; color:#6a6a6a;}
+.today_icon{width:50px; height:54px; background:url(../images/today_icon.jpg) no-repeat; position:absolute; left:160px; top:-3px;}

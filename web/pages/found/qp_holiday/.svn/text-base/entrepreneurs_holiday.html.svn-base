@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>谁让你这么任性的？</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/entrepreneurs/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>全国企业家活动日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>有钱才能任性，这是个硬道理。一个国家有了经济实力做后盾，才有资本锻炼出强大的军事力量，才能放心大胆的走上国际化的大舞台去外交，去为和谐的国际关系贡献力量。一个人，只有在拥有经济做保障的前提下，才能大金链子小金表，一天三顿小烧烤。本段的目的并不是培养你的金钱观、人生观、世界观……只是想为“有钱才能任性”这个道理提供强有力的证据。那么问题来了，是谁给了你任性的资本（先不要着急回答，多考虑一会）？</p>
+            <h3>【忆苦才能思甜】</h3>
+            <p>时间倒流一些年，历史上也出现过康乾盛世、开元盛世、贞观之治等富到流油的时期，那时候人民群众都能吃香喝辣，享受扎啤毛豆撸串的标配。但这都不是重点，重点是建国初期我们是真的穷啊！</p>
+            <img src="images/entrepreneurs/holiday_1.jpg"/>
+            <p>那时候，蒸羊羔、蒸熊掌、蒸鹿尾儿、烧花鸭、烧雏鸡儿、烧子鹅……大家都吃不上，饥一顿饱一顿、吃了上顿没下顿，蔬菜都是土豪的配置，穷人家里连窝头都吃不上。想到这些心里真是苦啊，看着刚刚送来的盖饭都顺眼多了不是吗！</p>
+            <h3>【企业家带你飞】</h3>
+            <p>现在开始回答文章开始的那个问题：是谁给了你任（chi）性（rou）的资（quan）本（li）呢？当然了，是国家，是那些浴血奋战换来新中国和平的人……答案有很多，小编今天想说的是企业家！</p>
+            <img src="images/entrepreneurs/holiday_2.jpg"/>
+            <p>1978年到2013年，我国国内生产总值从3645亿元增长到56.9万亿 元，增长了156倍。经济规模跃居世界第二位。我国规模以上企业数量迅猛增长，到2012年已达到34万多家。1995年世界企业500强中我国只有3家企业入围，到2013年，我国入围企业达到95家。这些企业所以能够发展壮大，应该说离不开攻坚克难的企业家，离不开以企业家为核心的团队。</p>
+            <h3>【全国企业家活动日】</h3>
+            <p>1984年3月24日，福建省55位厂长（经理）为冲破旧的管理体制束缚，争取企业经营自主权。联合向福建省委、省政府发出了“松绑”放权的呼吁，喊出了广大厂长（经理）的心声，人民日报刊登了他们的呼吁书，在全国引起强烈反响，从而拉开了企业改革的序幕。1993年12月20日，福建、上海、山东、江苏、安徽、浙江等16个省、自治区、直辖市的企 业家协会 联名向中国企业管理协会、中国企业家协会提出申请报告，热切希望每年举办 一次全国“企业家活动日”。</p>
+            <img src="images/entrepreneurs/holiday_3.jpg"/>
+            <p>为顺应广大企业家的心愿，提高他们的社会地位，增进他们勇于改革的光荣感、使命感和敢为天下先的开拓精神，培养造就一支大力推进社会主义市场经济发展的企业家队伍，中国企业管理协会、中国企业家协会于1994年 2月21日作出决定，同意从1994年起，每年举行全国“企业家活动日”。</p>		
+
+            <div class="tips">
+                <p>1、每年的4月21日是全国企业家活动日，设立于1994年，设立节日的目的是为了在经济落后于其他国家的国情下培养一批推进经济发展的企业家队伍；</p>
+                <p>2、正是在无数企业家的带领下，我们才过上了吃肉喝酒的奢华人生！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

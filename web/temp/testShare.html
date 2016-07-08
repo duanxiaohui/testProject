@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>测试各平台分享（H5）</title>
+</head>
+<body>
+    <p>测试内容</p>
+    <img src="http://www.365rili.com/images/400.png" alt="">
+	<script src="/js/lib/zepto.min.js"></script>
+	<script src="http://qzonestyle.gtimg.cn/qzone/qzact/common/share/share.js"></script>
+    <script>
+    $.ajax({
+        url:'http://www.365rili.com/wx/getSignature.do',
+        data:{
+            url:window.location.href
+        },
+        type:'post',
+        success:function (data) {
+            if(data.state != 'ok'){
+                return false;
+            }
+		    setShareInfo({
+		         title:          '测试各平台分享（H5）- 设置',
+		         summary:        '测试内容 - 设置',
+		         pic:            'http://www.365rili.com/images/400.png',
+		         url:            window.location.href,
+		         WXconfig:       {
+		             swapTitleInWX: true,
+		             appId: 'wxaf6b7f2401699751',
+		             timestamp: +data.timestamp,
+		             nonceStr: data.noncestr,
+		             signature: data.signature
+		         }
+		     });
+        }
+    })
+    </script>
+</body>
+</html>

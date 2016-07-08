@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0">
+<meta content="telephone=no" name="format-detection">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0"> 
+
+<title>365日历日程分享</title>
+<link href="/share/style/share.css?20141107" rel="stylesheet">
+<link href="/pages/client_calendar_h5/css/silde_s.css" rel="stylesheet" media="screen">
+<link rel="stylesheet" type="text/css" href="/css/footer.css" />
+
+<script>
+	var G = {
+		cid: '125821939',
+        on: false,
+	    isSpecial: 'true',
+	    calendarType: function(){/*public*/},
+	    calendarName: function(){/*电影首映推荐*/},
+	    calendarDesc: function(){/*热门电影的首映信息*/},
+		scheduleTitle: function(){/*【抢票活动】《37>    次想你》*/},
+		scheduleDesc: function(){/*圣诞只是开始  爱情还在延续
+点击图片查看活动详情！！ 
+【活动提醒】免费的活动，中奖的同学别浪费哦！
+活动最终解释权归365日历所有
+“365日历”活动多多，敬请期待！*/},
+	    creator: function(){/*123456*/},
+	    bgu: function(){/*http://cocoimg.365rili.com/pic/default/1c40e8c4-12e9-4fed-9e45-58d743eba6a4.jpg!small480*/},
+		url: function(){/*null*/},
+	    location: function(){/*null*/},
+		dateline1: function(){/*2014-12-24 全天*/},
+		dateline2: function(){/**/},
+		lunar_time: function(){/*null*/},
+		pics: function(){/*http://cocoimg.365rili.com/schedule_pics/default/e8055060-e75d-471a-9fe3-aa63d83fc270.jpg*/},
+		imgUrl: function(){/*http://cocoimg.365rili.com/schedule_pics/default/e8055060-e75d-471a-9fe3-aa63d83fc270.jpg*/},
+        comments: function(){/*null*/},
+        uuid: function(){/*6342a73c-3f8a-49b8-8ac8-5ace4d385c77*/},
+        sid: function(){/*237317129*/},
+        isLogin: function(){/*false*/},
+	    isMember: function(){/*null*/}
+	};
+	(function(){
+		for(var i in G){
+			if(typeof G[i] == "function"){
+				var s = G[i].toString();
+				G[i] = s.substring(s.indexOf("/*") + 2,s.lastIndexOf("*/"));
+			}
+		}
+	})();
+</script>
+</head>
+<body>
+	<div class="main"></div>
+    <input type="hidden" id="TOKEN" value="">
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script type="text/javascript" src="/temp/scheduleShare.js?20141224"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script type="text/javascript" src="/js/lib/slide_s.js?20141114"></script>
+    <script type="text/javascript" src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script>
+    	$(function() {
+			scheduleShare.render(G, $(".main"), true);
+			
+			wxProtocol.init({
+				imgUrl: G.imgUrl === "" ? 'http://cocoimg.365rili.com/logo/114.png' : G.imgUrl,
+				title: G.scheduleTitle,
+				desc: G.scheduleDesc === "null" ? "" : G.scheduleDesc
+			});
+		})
+    </script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?type=quick&ak=7641c2bcde6b6d1d3c07de7a090029f8&v=1.0"></script>
+</body>
+</html>

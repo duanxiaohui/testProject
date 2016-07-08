@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors zhangmingchen (vest0804@gmail.com)
+ * @date    2016-03-03 18:42:38
+ * @version $Id$
+ */
+.create_schedule_top{width:100%; height:180px; background:#f7f8f9 url(../images/create_top.jpg) no-repeat center center; background-size:215px 135px; border-bottom:1px solid #d5d5d5;}
+
+.create_schedule_txt{padding:15px; border-bottom:1px solid #d5d5d5;}
+.create_schedule_txt h3,.create_schedule_list li h3{color:#3d3c3c; font-size:15px; line-height:150%;}
+.create_schedule_txt p,.create_schedule_list li p{color:#a1aaaf; font-size:13px; line-height:150%; margin-top:5px;}
+
+.create_schedule_list{padding-left:15px;}
+
+.create_schedule_list li{padding:10px 15px; border-bottom:1px solid #d5d5d5; position:relative;}
+.create_schedule_list li:after{content:" "; position:absolute; width:8px; height:8px; border-radius:4px; -webkit-border-radius:4px; background:#35adec; left:0px; top:15px; }
+.create_schedule_list li:last-child{border:0;}
+
+.down_btn{height:90px; background:#f7f8f9; border-top:1px solid #d5d5d5; width:100%; position:fixed; bottom:0;}
+.down_btn a{display:block; width:90%; margin:25px auto 0; height:50px; line-height:50px; text-align:center; background:#02ce54; border-radius:3px; -webkit-border-radius:3px; font-size:16px; color:#fff;}
+
+
+
+body.tips_body{background:#f7f8f9;}
+.tips_icon{width:64px; height:64px; margin:150px auto 30px;}
+.tan{background:url(../images/tan.jpg) no-repeat; background-size:100% 100%;}
+.no_schedule{background:url(../images/no_schedule.jpg) no-repeat; background-size:100% 100%;}
+.tips_txt{font-size:17px; color:#a1aaaf; line-height:150%; text-align:center;}
+
+.weixin_btns{position:fixed; bottom:10px; width:100%;}
+.weixin_btns p{font-size:13px; color:#a1aaaf; line-height:30px; margin:0 10px;}
+.weixin_btns a{display:block; margin:0 10px; height:50px; text-align:center; font-size:15px; line-height:50px; margin-bottom:10px;}
+.weixin_btns a.create_btn{background:#02ce54; color:#fff;}
+.weixin_btns a.view_btn{background:#fff; border:1px solid #2ec56a; color:#2ec56a;}
+

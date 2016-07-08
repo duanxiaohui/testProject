@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>史上最神“蜜”之粽子节</title>
+<meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/>
+<meta name="format-detection" content="telephone=no"/>
+<link href="/pages/bd/dragonboat/css/style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="bar">
+	    <a href="javascript:;" class="share_btn"></a>
+        <a href="javascript:;" class="return_btn"></a>
+        <div class="bar_txt">史上最神“蜜”之粽子节</div>
+    </div>
+
+    <div class="index">
+    	<img src="/pages/bd/dragonboat/images/slogen.png" width="100%" alt="">
+    	<img src="/pages/bd/dragonboat/images/info.png" width="100%" alt="">
+    	<div class="dw_first_btn_div">
+    		<div class="btn_s">
+    			<a href="javascript:;" class="dw_first_btn"></a>
+    			<div class="btn_an infinite flash animated"></div>
+    		</div>
+    	</div>
+    </div>
+
+	<script src="/js/lib/zepto.min.js"></script>
+	<script src="/js/lib/app.js"></script>
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+	<script src="/share/js/weixin_1.0.js"></script>
+	<script src="/pages/bd/dragonboat/js/index.js"></script>
+	<script>
+	$.ajax({
+		url: '/operation/share.do?shareId=126&channel=index'
+	});
+	function postShare () {
+		$.ajax({
+			url: '/operation/share.do?shareId=126&channel=' + window.location.pathname.split('/')[4]
+		});
+	}
+	if(app.getUa.weixin){
+		wxProtocol.init(function (wx, link) {
+			wx.onMenuShareAppMessage({
+			    title: '我正在包个特殊的粽子给你，什么馅，绝对想不到！',
+			    desc: '看到这几款奇葩的粽子馅，小伙伴们再也无法淡定了！',
+			    link: link,
+				imgUrl: 'http://www.365rili.com/pages/bd/dragonboat/images/wx.jpg',
+			    success: postShare
+			});
+			wx.onMenuShareTimeline({
+			    title: '看到这几款奇葩的粽子馅，小伙伴们再也无法淡定了！',
+			    link: link,
+				imgUrl: 'http://www.365rili.com/pages/bd/dragonboat/images/wx.jpg',
+			    success: postShare
+			});
+		});
+	}
+	</script>
+</body>
+</html>

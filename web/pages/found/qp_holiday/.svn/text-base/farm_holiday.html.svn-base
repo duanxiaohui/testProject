@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>一个草泥马的自白——美国草泥马农场节</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/farm_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>一个草泥马的自白——美国草泥马农场节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+    		<p>它以草泥马这个桀骜不驯的名字走进你的视野，你知道它红极一时，却不知道它温顺可爱。9月的最后一个周末，美国绝大多数的农场会免费开放，在和它近距离接触之前先看看它的内心世界吧——</p>
+            <h3>【当我还是一只单纯的羊驼】</h3>
+            <p>大家好，我是一只正经的羊驼！我很害羞，所以我不想让你们看到我的眼睛。在很久很久以前我还不叫草泥马，那时候我和我的小伙伴生活在山的那边海的那边广阔的农场上，我们一起吃草、嬉戏，有时候也和路过的鸟儿说说话。</p>
+            <img src="/pages/found/qp_holiday/images/farm_img1.jpg"/>
+            <p>我的性情是很温和的，胆子也非常小，如果有人来喂我，我一定要等到他走了才偷偷去吃。所以，在我住进农场前，和草原上的其他物种相处的一直很愉快。但是，每个月也有那么几天，我会不太开心。比如我喜欢吃的一种草被同伴拉上了便便，或者接连下雨弄湿了我温暖的体毛，那样的时候我的鼻子就会喷出分泌物和粪便。而在遭受严重欺侮的时候我通常会非常生气，失去理智的我可能会向别的动物脸上吐唾沫、发出骆驼一样悲惨的叫声……所以我希望你们都好好陪我玩，我只想做一只安静的羊驼！</p>
+            <h3>【羊驼到草泥马的蜕变】</h3>
+            <p>2009年的一天我莫名其妙的有了一个新的名字——草泥马，坦白讲一开始我是非常拒绝的！</p>
+            <img src="/pages/found/qp_holiday/images/farm_img2.jpg"/>
+            <p>我听我的伙伴说，最初“草泥马”这个名字来源于魔兽世界吧。在2009年的时候，整治互联网低俗之风专项行动红红火火的开始了，大家再也不能在互联网上指（ma）指（ma）点（lie）点（lie）了，于是就有人想到了用“草泥马”这类谐音代替脏话逃过屏蔽，对此我很不开心，但是这并没有什么用。</p>
+
+            <p class="mt15">后来我又听说，广东的一些网友创建了“玛勒歌碧”网站，以草泥马为标志销售羊驼公仔，他们甚至创作出了由“草”、“泥”、“马”三个汉字各自一部分组成的合文。这件事极大的震动了我们草泥马界，我们试图以绝食来对抗他们对我们名誉的侵犯，但这还是没有起到什么作用……</p>
+            <h3>【草泥马农场节之约】</h3>
+            <p>不管怎么样，我们就这样火了——这是多少人梦寐以求的事情。很多美女争抢着和我们合影、男女老幼排队献吻，同时我还要出席各种发布会……终于，我的两名美国伙伴不堪重负，他们为了自由逃跑了！这件事情之后，他们名气更大了，甚至还上了电视节目。</p>
+            <img src="/pages/found/qp_holiday/images/farm_img3.jpg"/>
+            <p>现在我们有了自己的节日：9月最后一个周末的草泥马农场节。这时候美国绝大多数的农场会免费开放，你将能看到许许多多我的伙伴——有普通的、有文艺的、当然也有二比的，反正，总有一款适合你。</p>
+
+            <p class="mt15">最后，我们代表草泥马界邀请你们：来农场吧，我们约！</p>
+            <div class="tips">
+                <p>1、每年9的最后一个周末草泥马农场节在美国举行，节日期间美国绝大多数的农场会免费开放，农场内的草泥马供人们近距离接触；</p>
+                <p>2、羊驼是一种温顺的动物，他们平静的接受了“草泥马”这个名字</p>
+                <p>3、做一个文明的人，让“草泥马”只是一个动物的名字而不是脏话的代名词。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+    
+ </body>
+</html>
+

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>欢乐跑中国（北京站）</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">欢乐跑中国（北京站）</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/6fcac1a0-c322-412f-bd0b-242d3bab326a.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+			  <a class="btn js-subscribe" data-uuid="a83e0cc7-36a3-4196-bbc3-4ad332b57655" data-cid="147514789">添加提醒</a>
+	    	
+	    	<p class="time">
+
+
+<b>比赛时间：2015年5月31日上午8:30
+</b></br>
+
+	    	<b>比赛地点：北京奥林匹克森林公园</b></br>
+
+
+
+			</p>
+			<h3>活动介绍：</h3>
+			<p>“欢乐跑中国(Happy 10k)”是由享誉全球的专业体育营销公司——瑞士盈方体育传媒集团发起的群众性跑步活动，活动分为10公里和3公里两个项目。</br>
+2014年，欢乐跑中国在北京、上海、常州、深圳和惠州5个城市成功举办，2015年将增至10站。随后，欢乐跑中国将在全国范围内逐渐扩展，并最终成为中国最有影响力的10k跑步活动。</br>
+</p> 
+			<!--h3是小标题-->
+			<h3>报名办法：
+</h3>
+			<!--p是段落文字描述-->
+			<p>1、本活动采取“欢乐跑中国”官网（www.happy10k.cn）报名为主的方式；</br>
+
+2、报名者成功支付报名费用后，将收到短信及邮件提醒，提示报名成功；</br>
+
+3、团体报名可下载报名表，统一填写成员信息后上传，并统一支付；</br>
+
+4、报名表内成员的邮箱、手机等联系信息不能重复，并保证正确性；</br>
+
+5、报名者需正确填写身份证件信息，用于保险购买及赛后成绩查询等。</br>
+
+</br>具体详情以官方信息为准
+</p>
+
+<img src="http://cocoimg.365rili.com/schedule_pics/default/c6d8f750-e93c-4969-af4d-980c221f4a16.jpg"/>
+<a href="http://www.happy10k.cn/" class="btn js-other">详见官网</a>
+		
+			 <div class="remind_div" data-uuid="a83e0cc7-36a3-4196-bbc3-4ad332b57655" data-cid="147514789"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/6fcac1a0-c322-412f-bd0b-242d3bab326a.jpg',
+                title: '欢乐跑中国（北京站）',
+                desc: '“欢乐跑中国(Happy 10k)”是由享誉全球的专业体育营销公司——瑞士盈方体育传媒集团发起的群众性跑步活动，'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'shareTo',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '欢乐跑中国（北京站）',
+		        				content: '“欢乐跑中国(Happy 10k)”是由享誉全球的专业体育营销公司——瑞士盈方体育传媒集团发起的群众性跑步活动，',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/6fcac1a0-c322-412f-bd0b-242d3bab326a.jpg',
+		        				isEvent: false
+		        			})
+		        		},
+		        		{
+		        			name: 'channel',
+		        			value: 'wx'
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

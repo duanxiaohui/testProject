@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>小贴士</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link href="/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link href="style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="recommend_main">
+    	<div class="recommend_schedule_top">
+    		<h2>陪伴家人赏月</h2>
+            <h4 class="none">与家人赏月、吃月饼，享受团圆</h4>
+    	</div>
+    	<div class="recommend_schedule_middle">
+    		<div class="recommend_schedule_img">
+    			<img src="images/zhongqiujie.jpg" alt="">
+    		</div>
+            <p><span>推荐理由：</span>小时候身在家乡却向往着远方，长大后家乡变成了远方，后来，事业、朋友、爱情……</p>
+            <p>我们的时间被切割成越来越多份，给家人的那份时间被压缩的越来越少！</p>
+            <p>中秋月圆人团圆，这个时候，回家吧，忘记没做完的报表，抛开没签好的合同，放下没完成的工作，陪他们吃顿饭、和他们一起看看挂在天边的圆月亮，团圆的幸福，就是这么简单。</p>
+            <p>9月27日中秋节，即便远在他乡，也要打个电话回家！</p>
+    	</div>
+    	<div class="recommend_schedule_bottom">
+    			<p>添加到我的日程</p>
+    			<a href="javascript:;" class="add_mySchedule"></a>
+    	</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script type="text/javascript" src="/pages/ui-lib/js/plug.js"></script>
+   <script type="text/javascript" src="/pages/recommend_schedule/js/recommend.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var startTime = new Date("2015/9/25 9:0:0").getTime();
+            tips.init(startTime);
+        })
+    </script></body>
+</html>

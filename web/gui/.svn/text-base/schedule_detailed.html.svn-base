@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="style/creator_schedule.css" media="screen" />
+<link href="/css/jquery-ui-1.9.2.custom.min.css" rel="stylesheet"/>
+<link type="text/css" href="style/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+
+
+
+</head>
+<body>
+<div id="" class="schedule_detailed">
+	<a href="javascript:;" class="close_btn"></a>
+    <h2 id="calendar_title"></h2>
+    <div class="schedule_detailed_content">
+    	<p id="datetime_p">时间：全天</p>
+		<p id="content_p"></p>
+		<p id="url_p"></p>
+		<p id="address_p"></p>
+	</div>
+	<a href="javascript:;" class="add_schedule_btn">编辑</a><a href="javascript:;" class="del_schedule_btn">删除</a>
+</div>
+<script type="text/javascript" src="/js/jquery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/js/jquery/jquery-ui-1.9.2.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery.jscrollpane.js"></script>
+<script type="text/javascript" src="/js/newweb/common.js"></script>
+<script type="text/javascript" src="js/protocol.js"></script>
+<script type="text/javascript" src="js/scheduleTip.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>啊~~~~</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/voiceday/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>世界嗓音日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>不知道大家有没有到KTV唱到声嘶力竭的时候，劲歌加美酒，嚎到不开口！第二天，大家都哑着嗓子，交流起来像谍战一样——只发气声不动嗓。其实，随着生活节奏的加快，虽然大家摆脱了“交通基本靠走，通讯基本靠吼”的年代，但是因为社会交流日益频繁以及环境污染的加重，所以嗓音疾病逐年增多。嗓子作为重要的发声器官，当然也日益被大家重视。</p>
+            <img src="images/voiceday/holiday_1.jpg"/>
+          
+
+            <h3>【世界嗓音日】</h3>
+
+            <p>嗓音日（Voice Day）起源于巴西，1999年由嗓音医生、言语病理师，声乐老师所组成的“巴西喉科学与嗓音协会”首次提出将每年的4月16日作为巴西的国家嗓音日。成立嗓音日的主要目的是提高公众对“嗓音”重要性的认识，并且提醒大家警惕嗓音疾病。此后阿根廷、葡萄牙等国家相继在4月16日开展嗓音日活动。2002年4月16日，美国耳鼻咽喉头颈外科学会官方开展了嗓音日的庆祝活动，并倡议以此作为第一个世界嗓音日。自此“世界嗓音日”的种子在世界各地播散，积极推动了嗓音领域的知识普及和学术交流。</p>
+
+            <img src="images/voiceday/holiday_2.jpg"/>
+
+             <h3>【那些令人敬佩的“高危人群”】</h3>
+
+            <p>相比于其他职业，教师、接线员、播音员、推销员、售货员、窗口行业人员、歌唱人员等这些职业因为工作原因，所以会频繁地用嗓，很容易导致相关疾病的出现。尤其老师是慢性咽炎的多发群体，由于教师的噪音工作时间较长，尤其超过一定时间和强度以后，音量和音质下降，本是一种要求休息的信号，但是多数老师由于还在课堂，不得不继续用嗓，这样过度用嗓特别容易导致慢性咽炎。不过，也正是因为这些行业的人们的辛劳，才能将社会构建得这么出色，他们非常值得敬佩！</p>	
+            <img src="images/voiceday/holiday_3.jpg"/>		
+
+            <div class="tips">
+                <p>1、多喝水，补充体内流失水分，缓解咽喉不适；</p>
+                <p>2、由于北方夏季炎热且干燥，易引发口干舌燥，咽喉不适等症状。故可准备加湿器或一条湿毛巾挂在床头。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/Vanna</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

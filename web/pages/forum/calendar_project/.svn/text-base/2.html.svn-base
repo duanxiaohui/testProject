@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0">
+<title>你的无聊我最懂！</title>
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/css/forum_new.css" rel="stylesheet">
+<script src="/js/lib/zepto.min.js"></script>
+<script src="/js/lib/app.js"></script>
+<link href="/css/footer.css?20141126" rel="stylesheet">
+<script src="/pages/forum/js/underscore-1.6.0.js"></script>
+</head>
+<body class="weixin">
+    <div class="calendar_project_top">
+        <div class="calendar_project_top_header">
+            <a href="javascript:;" class="return_btn"></a>
+            <a href="javascript:;" class="share_btn none"></a>
+            <span>你的无聊我最懂！</span>
+        </div>
+        <div class="calendar_project_top_img">
+            <img src="http://cocoimg.365rili.com/pic/default/zhuanti_in_2.jpg"/>
+        </div>
+    </div>
+    <div class="calendar_project_info">
+        <p>打发时间、扩充见闻、纾解压力，其实就是关注几个日历这么简单！</p>
+    </div>
+    <div class="calendar_project_list">
+        <dl class="e_clear" data-id="238335781">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/eef31872-5b37-479a-b70f-bab7e2b646f6.jpg!logo)"></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="238335781" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>每日笑一笑</h3>
+                    <p>笑一笑，十年少。愁一愁，白了头！快乐与否，不是我们生命中经历了多少痛苦和喜悦，而是我们对待生活的态度。笑一笑，你会发现，困难和挫折没什么大不了的！</p>
+                    <div class="focus_num">228811人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="266470821">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/38966e04-6fcb-441e-b5a6-c8c256f7de90.jpg!logo)"></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="266470821" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>历史上的今天</h3>
+                    <p>论古识今，天下大事尽掌握其中。风流人物，谁与你缘来同生。关注此日历知晓历史上今天的天文地理、体育娱乐、政治军事等，以史为鉴，以明心镜。朝花夕拾，重温历史，快来收藏吧</p>
+                    <div class="focus_num">108304人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="191583123">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/73735cfb-fb10-4f51-8a03-582bad912f1d.jpg!logo)"></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="191583123" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>今日头条新闻</h3>
+                    <p>我将每天为您呈现国内外要闻，让您顷刻了解天下动态。</p>
+                    <div class="focus_num">221012人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="269943941">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/9a1e074c-5389-4857-9071-33721fa8db3f.jpg!logo)"></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="269943941" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>名人生日汇</h3>
+                    <p>古今中外世界名人生日录一览，赶快收藏看看你和哪个名人一天生日，如果你和名人是同一天生日，是不是生日那天变得不同了呢，感觉自己也将成功走向人生巅峰(￣︶￣)↗ 　　不要只是做一个安静的美男子啦，在讨论组里发现一起过生日的他（她），然后一起庆祝吧，也许还会有一段奇缘呢~囍　　各位名人的生日信息可是参考了百度百科和维基百科的资料，而且小编也会努力不断完善丰富信息的~敬请期待吧┈</p>
+                    <div class="focus_num">10934人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="182915019">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/4561b1ae-9b28-43fe-8773-0e4e3070883d.jpg!logo)"></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="182915019" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>娱乐星动态</h3>
+                    <p>每天为您报道最新的娱乐新闻，让您及时了解娱乐圈的那些事~</p>
+                    <div class="focus_num">24755人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="189903439">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/50b2f724-d620-430e-b950-da7a34973f85.jpg!logo)"></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="189903439" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>看图吧</h3>
+                    <p>我们不生产美与创意，只是将美与创意汇聚在这里……</p>
+                    <div class="focus_num">35590人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="253438383">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/19d39206-3e15-4777-b218-1763ce136544.jpg!logo)"></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="253438383" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>测试控</h3>
+                    <p>每日一测，让生活丰富多彩！！！（信则有，不信则无。娱乐而已~）</p>
+                    <div class="focus_num">56164人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="241506163">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/d887df4d-97f2-463b-abfa-801bff65b62c.jpg!logo)"></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="241506163" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>每天学点易经风水</h3>
+                    <p>打造中国最优秀的易经风水平台、解密易经、改运风水、数字风水、家居风水、相学百态、说名道姓、禅道悟道。</p>
+                    <div class="focus_num">65701人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="228275729">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/7659fb4c-cad5-489e-8358-e351740e6e7d.jpg!logo)"></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="228275729" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>百思娱乐新观察</h3>
+                    <p>分享最新的影视资讯，给你不一样的娱乐视野</p>
+                    <div class="focus_num">6906人关注</div>
+                </div>
+            </dd>
+        </dl>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/js/lib/footer.js?20150122"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+            $('.calendar_project_top_header').hide();
+            $('.calendar_project_top_img').css('padding-top', '0')
+
+            wxProtocol.init({
+                imgUrl: $('.calendar_project_top_img img')[0].src,
+                title: $('.calendar_project_top_header span').html(),
+                desc: $('.calendar_project_info p').html()
+            });
+
+            wxProtocol.initWithAlready({
+                imgUrl: $('.calendar_project_top_img img')[0].src,
+                title: $('.calendar_project_top_header span').html(),
+                desc: $('.calendar_project_info p').html()
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+    })();
+    </script>
+    <script src="/pages/forum/js/func.js"></script>
+    <script src="/pages/forum/js/calendar_project.js"></script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

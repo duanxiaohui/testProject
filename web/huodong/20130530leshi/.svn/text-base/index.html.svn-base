@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历--乐视影视</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+</head>
+<body>
+	<div class="main">
+		<div class="top"></div>
+		<div class="text">
+			<p>乐视影视是一款免费的高清视频播放器，支持离线观看，支持乐视TV端登陆.拥有国内最多的正版高清电影电视剧资源，支持众多热门电视直播，无需注册，可无限量下载，更有追剧，收藏等功能，是您贴心的视频观看软件。</p>
+		</div>
+		<a href="http://d2.365rili.com/dl/android/exchange/letv.apk" class="btn">下载乐视影视</a>
+	</div>
+</body>
+</html>

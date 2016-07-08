@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<title>365幸运大转盘</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/base.css?20150129">
+    <meta name="format-detection" content="telephone=no"/> 
+    <script>document.documentElement.style.webkitUserSelect='none';</script>
+	<meta name="viewport" content="width=320, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ </head>
+<body style="height:100%; padding: 0;">
+    <div class="bar">
+        <a href="javascript:;" class="return_btn"></a>
+        <div class="bar_txt">365幸运大转盘</div>
+    </div>
+	<div class="main">
+		<div class="content ">
+			<div class="lottery">
+                <div class="circle"></div>
+                <div class="start"></div>
+                <div class="pointer"></div>
+			</div>
+		</div>
+	</div>
+    <div class="lottery_info none">
+        <div class="lottery_info_left">
+            <div class="lottery_info_right">
+                <div class="layer_title"></div>
+                <div class="lottery_info_box">
+                    <div class="lottery_info_txt">
+                        <p>恭喜你获得</p>
+                        <h3 id="js-prize">1000<span>元</span></h3>
+                        <p id="js-prizedes">现金抵用券</p>
+                    </div>
+                    <div class="lottery_info_suc none">
+                        <h3>提交成功</h3>
+                        <p>短信兑换码会在一分钟内发送到您的手机凭兑换码在携程手机端使用</p>
+                        <a href="javascript:;" class="open_app_btn"><div class="xc_icon"></div><span>打开携程客户端</span></a>
+                        <p class="t-center" id="js-cp">点此查看使用规则 >></p>
+                    </div>
+                    <div class="lottery_info_btn">
+                        <p>输入手机号，领取短信兑换码后，到携程客户端礼品卡频道兑换使用</p>
+                        <div class="tel_input"><input type="tel" class="mobile" placeholder="请输入您的手机号"></div>
+                        <a href="javascript:;" class="submit_btn">提交信息</a>
+                    </div>
+                </div>
+                <div class="lottery-cp">
+                    <h3 class="cp-title"><a href="javascript:;" id="js-cp-back">< 返回</a>使用规则</h3>
+                    <div class="cp-content">
+                        30元酒店优惠劵： <br>
+                        1、优惠券适用于单价330元（含）以上国内酒店（含港澳台）带优惠券标识的预付房型。<br>
+                        2、支持在携程旅行手机客户端使用。<br>
+                        3、每张优惠券仅限使用一次，每张订单限用一张优惠券，订单修改或取消后优惠券无效。<br>
+                        4、预订优惠房型，每订单可立减相应优惠券金额。<br>
+                        5、优惠券有效期至2015.4.27。<br>
+                        20元酒店优惠劵： <br>
+                        1、优惠券适用于单价220元（含）以上国内酒店（含港澳台）带优惠券标识的预付房型。<br>
+                        2、支持在携程旅行手机客户端使用。<br>
+                        3、每张优惠券仅限使用一次，每张订单限用一张优惠券，订单修改或取消后优惠券无效。<br>
+                        4、预订优惠房型，每订单可立减相应优惠券金额。<br>
+                        5、优惠券有效期至2015.4.27。<br>
+
+                    </div>
+                </div>
+                <div class="layer_footer"></div>
+            </div>
+        </div>
+    </div>
+
+    <input id="UID" type="hidden" >
+    <input id="PWD" type="hidden" >
+    <input id="MAC" type="hidden" >
+    <input id="VER" type="hidden" >
+<script src="/js/jquery/jquery-1.8.3.min.js"></script>
+<script src="/js/jquery/jquery-ui-1.9.0.custom.min.js"></script>
+<script src="/js/jquery/jquery.cookie.js"></script>
+<script src="/js/jquery/jquery.rotate.js"></script>
+<script src="/js/lib/app.js"></script>
+<script>
+    var lottery = {
+        config: {
+            w: $(window).width(),
+            h: $(window).height(),
+            key: '',
+            date: null,
+            dateStr: '',
+            UID: '0',
+            MAC: 'null'
+        },
+
+        init: function() {
+            //$('html').height(lottery.config.h-43);
+            // if($('.main').hasClass("none")){
+            //     $('body').css({"padding":"0","height":"100%"});
+            // }
+            // $(".lottery_info,.lottery_info_left,.lottery_info_right, .layer_footer").width(lottery.config.w).height(lottery.config.h);
+            // $('.circle').css('transform', 'rotate(60deg)');
+        },
+
+        bindEvents: function() {
+            $('.start').on('click', function() {
+                if($.cookie('flag') == lottery.config.dateStr) {
+                    alert('每天只有一次抽奖机会，明天再来吧！');
+                    return;
+                }
+                lottery.getLottery();
+            });
+
+            $('.submit_btn').on('click', function() {
+                var mobile = $('.mobile').val();
+                if(mobile == '') {
+                    alert('请填写完整的信息以便领取奖品。');
+                    $('body').scrollTop(0);
+                    $('.mobile').focus();
+                    return;
+                }
+                if(!(/^1\d{10}$/g.test(mobile))) {
+                    alert('请输入正确格式和位数的手机号码！');
+                    $('.mobile').select();
+                    return;
+                }
+                $('.lottery_info_btn').addClass('none');
+                $('.lottery_info_suc').removeClass('none');
+                lottery.lotteryUser();
+            });
+
+            $('.open_app_btn').on('click', function () {
+                var iframe = document.createElement("iframe");
+                iframe.style.display = "none";
+                iframe.src = 'http://www.365rili.com/pages/bd/xc_lottery/openAppTJ.html';
+                document.body.appendChild(iframe);
+            });
+
+            var has3d = 'WebKitCSSMatrix' in window && 'm11' in new WebKitCSSMatrix();
+            $('.lottery-cp').css({
+                '-webkit-transform': has3d ? "translate3d(200%,0,0)" : "translate(200%,0)",
+                '-webkit-transition': '0ms linear'
+            });
+            $('.lottery_info').css({
+                width: $(window).width() + 'px',
+                overflow: 'hidden'
+            })
+            $('#js-cp').on('click', function () {
+                $('.lottery_info_box').css({
+                    '-webkit-transform': has3d ? "translate3d(-200%,0,0)" : "translate(-200%,0)",
+                    '-webkit-transition': '200ms linear'
+                });
+                $('.lottery-cp').css({
+                    '-webkit-transform': has3d ? "translate3d(-0%,0,0)" : "translate(-0%,0)",
+                    '-webkit-transition': '200ms linear'
+                });
+            });
+            $('#js-cp-back').on('click', function () {
+                $('.lottery_info_box').css({
+                    '-webkit-transform': has3d ? "translate3d(0%,0,0)" : "translate(0%,0)",
+                    '-webkit-transition': '200ms linear'
+                });
+                $('.lottery-cp').css({
+                    '-webkit-transform': has3d ? "translate3d(200%,0,0)" : "translate(200%,0)",
+                    '-webkit-transition': '200ms linear'
+                });
+            });
+        },
+
+        getUserInfo: function() {
+            if(/android/i.test(navigator.userAgent)) {
+                lottery.config.UID = AliansBridge.getUserId();
+                lottery.config.MAC = AliansBridge.getMac();
+            } else {
+                setTimeout(function() {
+                    lottery.config.UID = document.getElementById('UID').value;
+                    lottery.config.MAC = document.getElementById('MAC').value;
+                }, 500);
+            }
+        },
+
+        getLottery: function() {
+            if(lottery.config.UID == '') {
+                lottery.config.UID = 0;
+            }
+            if(lottery.config.MAC == '') {
+                lottery.config.MAC = 0;
+            }
+            $.ajax({
+                url: '/coop/lottery.do',
+                type: 'post',
+                dataType: 'json',
+                data: {
+                    deviceID: lottery.config.MAC,
+                    userID: lottery.config.UID,
+                    campaign:'ctrip'
+                },
+                success: function(data) {
+                    lottery.handleLottery(data);
+                }
+            });
+        },
+
+        handleLottery: function(data) {
+            if(data.prize == -1) {
+                alert('来晚啦~礼物都送完啦亲！下次早点来！');
+                return;
+            }
+            if(data.prize > 0) {
+                lottery.config.key = data.key;
+            }
+            var prize = data.prize,
+                rotate = 60 + 10 * 360;
+            if(prize == 0) {
+                rotate = 360 * 10 + 60;
+            } else if(prize == 1) {
+                rotate = 360 * 10 + 360;
+                $('#js-prize').html('1000<span>元</span>');
+                $('#js-prizedes').html('现金礼品券');
+            } else if(prize == 2) {
+                rotate = 360 * 10 + 180;
+                $('#js-prize').html('500<span>元</span>');
+                $('#js-prizedes').html('现金礼品券');
+            } else if(prize == 3) {
+                rotate = 360 * 10 + 240;
+                $('#js-prize').html('30<span>元</span>');
+                $('#js-prizedes').html('优惠券');
+            } else if(prize == 4) {
+                rotate = 360 * 10 + 120;
+                $('#js-prize').html('20<span>元</span>');
+                $('#js-prizedes').html('优惠券');
+            }
+            $(".circle").rotate({
+                angle: 0,
+                animateTo: rotate,
+                duration: 10000,
+                callback: function() {
+                    if(data.prize == 0) {
+                        alert('真可惜，只差一点点...');
+                    } else {
+                        alert('恭喜你！中奖啦！');
+                        $('.main').addClass('none');
+                        $('.lottery_info').removeClass('none');
+                    }
+                }
+            });
+            $.cookie('flag', lottery.config.dateStr, {expires: 1});
+        },
+
+        lotteryUser: function() {
+            $.ajax({
+                url: '/coop/lottery_user.do',
+                type: 'post',
+                dataType: 'json',
+                data: {
+                    phone: $('.mobile').val(),
+                    key: lottery.config.key,
+                    campaign:'ctrip'
+                },
+                success: function(data) {
+                    if(data.state == 'ok') {
+                        alert('提交成功!');
+                        $('.confirm_info_layer').addClass('none');
+                        $('.infosub_layer').removeClass('none');
+                    }
+                }
+            });
+        }
+    };
+(function(){
+    var queryJson, str;
+    $.query = function(name){
+        if (!queryJson) {
+            queryJson = {};
+            if (str = location.search.slice(1) + '&' + location.hash.slice(1)) {
+                $.each(str.split('&'), function(i, s, key, value){
+                    s = s.split('='), key = s[0], value = s[1];
+                    if (key in queryJson) {
+                        if ($.isArray(queryJson[key])) {
+                            queryJson[key].push(value);
+                        } else {
+                            queryJson[key] = [queryJson[key], value];
+                        }
+                    } else {
+                        queryJson[key] = value;
+                    }
+                });
+            }
+        }
+        return queryJson[name];
+    };
+})();
+    $(document).ready(function() {
+        var showbar = $.query('showbar');
+        if(showbar=="1"){
+            $(".bar").show();
+            $('html').height(lottery.config.h-43);
+        }else{
+             $(".bar").hide();
+             $('html').css({"padding":"0","height":"100%"})
+        }
+        var date = new Date(),
+            dateStr = date.getFullYear() + '-' + (date.getMonth()+1) + '-' + date.getDate();
+        lottery.config.date = date;
+        lottery.config.dateStr = dateStr;
+        lottery.init();
+        lottery.getUserInfo();
+        lottery.bindEvents();
+    });
+    if(app.getUa.ios){
+        window.location.href = 'coco://365rili.com/setTitle?title=365幸运大转盘';
+    }
+</script>
+<div style="display: none;">
+</div>
+</body>
+</html>

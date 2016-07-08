@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A complete example of Cropper.">
+  <meta name="keywords" content="HTML, CSS, JS, JavaScript, jQuery, PHP, image cropping, web development">
+  <meta name="author" content="Fengyuan Chen">
+  <title>Crop Avatar - Cropper</title>
+  <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../dist/cropper.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container" id="crop-avatar">
+  	<div class="cropper-example-1">
+	  <img src="img/picture1.jpg" alt="Picture">
+	</div>
+  </div>
+  <script src="../../assets/js/jquery.min.js"></script>
+  <script src="../../assets/js/bootstrap.min.js"></script>
+  <script src="../../dist/cropper.min.js"></script>
+  <script type="text/javascript">
+  	$('.cropper-example-1 > img').cropper({
+	  aspectRatio: 16 / 9,
+	  autoCropArea: 1,
+	  strict: false,
+	  guides: false,
+	  highlight: false,
+	  dragCrop: false,
+	  movable: false,
+	  resizable: false
+	});
+  </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历--大寒</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+</head>
+<body>
+<div class="main">
+	<div class="img"></div>
+	<div class="txt">大寒是二十四节气中最后一个节气，每年1月20日前后太阳到达黄经300°时为“大寒”。大寒，是天气寒冷到极点的意思。《授时通考·天时》引《三礼义宗》：“大寒为中者，上形于小寒，故谓之大......寒气之逆极，故谓大寒。”这时寒潮南下频繁，是我国大部地区一年中的寒冷时期，风大，低温，地面积雪不化，呈现出冰天雪地、天寒地冻的严寒景象。大寒是中国二十四节气最后一个节气，过了大寒，又迎来新一年的节气轮回。</div>
+	<a href="javascript:;" class="btn" id="btn">分享到微博</a>
+</div>
+<script type="text/javascript">
+    function $(id){
+        return document.getElementById(id);
+    }
+	window.onload = function(){
+		var btn = $("btn");
+		btn.onclick = function(){
+			var txt = "@365日历 二十四节气之#大寒#  大寒是二十四节气之一最后一个节气。每年1月20日前后太阳到达黄经300°时为大寒。大寒时节是进补的好时节。一年四季有 “春生、夏长、秋收、冬藏”的特点,人生于自然,就应顺应自然。下载地址：http://www.365rili.com"
+			var json = '[{"img": "dahan13.jpg","content": "@365日历 二十四节气之#大寒#  大寒是二十四节气之一最后一个节气。每年1月20日前后太阳到达黄经300°时为大寒。大寒时节是进补的好时节。一年四季有 “春生、夏长、秋收、冬藏”的特点,人生于自然,就应顺应自然。下载地址：http://www.365rili.com","via": "weibo","type": "type","follow": true},{"img":"dahan13.jpg","content":"@365日历 二十四节气之#大寒#  大寒是二十四节气之一最后一个节气。每年1月20日前后太阳到达黄经300°时为大寒。大寒时节是进补的好时节。一年四季有 “春生、夏长、秋收、冬藏”的特点,人生于自然,就应顺应自然。下载地址：http://www.365rili.com","via":"qt","type":"type","follow":true}]';
+			if (/android/i.test(navigator.userAgent)) {
+				try {
+					AliansBridge.sharev2(json);
+				} 
+				catch (e) {
+					try {
+						AliansBridge.share(txt, img = "dahan13.jpg", null, false);
+					} 
+					catch (e) {
+						alert("您的365日历版本暂不支持发微博，请升级到最新版");
+					}
+				}
+			}
+			else 
+				if (/ipad|iphone|mac/i.test(navigator.userAgent)) {
+					btn.href = 'rili365app:share|||||' + txt + '|||||dahan13.jpg';
+				}
+		}
+	}
+</script>
+</body>
+</html>

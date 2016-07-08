@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="万年历,万年历查询,黄历,黄历查询,365,日历,阳历,阴历,公历,老皇历,黄道吉日,星座,赛程,赛事,日程,运程,共享,客户端,桌面日历,手机日历" />
+<meta name="Description" content="365日历网是专业的日历门户网站，可以在PC、手机、网站之间同步数据。同时还提供各种日历日程信息，包括黄道吉日、农历、黄历、星座运程、体育赛程、电视节目等。" /> 
+<title>365日历网(www.365rili.com)_万年历_桌面日历_手机日历_黄道吉日_星座运程</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/cal_index.css" />
+
+<script type="text/javascript" src="js/json.js"></script>
+
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/cal_main.js"></script>
+<script type="text/javascript" src="js/calendarObj.js"></script>
+<script type="text/javascript" src="js/workTime.js"></script>
+<script type="text/javascript" src="js/huangli/2012.js"></script>
+
+
+<script type="text/javascript">
+	/*var quickExpr = /^[^<]*(<(.|\s)+>)[^>]*$|^#([\w-]+)$/;
+	//var toString = Object.prototype.toString;
+	//function test(){}
+	//var t = [];
+	alert(0);
+	try{
+	var t = quickExpr.exec(".class");
+	alert(t[3]);
+	}catch(e)
+	{
+		alert(e.message);
+	}*/
+	$(document).ready(function(){
+		
+		$("#cal_container").init_cal(new Date(),'cal_container');
+		
+	});
+</script>
+</head>
+<body style="width:100%;height:100%;" onselectstart="return false">
+<div class="cal_container" id="cal_container" >
+</div>
+
+<div style="display:none;">
+<script src="//www.365rili.com/js/lib/app.js"></script>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+	<util:map id="holidayMap" map-class="java.util.HashMap"
+		key-type="java.lang.String"
+		value-type="java.lang.Integer">
+		<entry key="20140101" value=" 1" />
+		<entry key="20140126" value=" 2" />
+		<entry key="20140131" value=" 1" />
+		<entry key="20140201" value=" 1" />
+		<entry key="20140202" value=" 1" />
+		<entry key="20140203" value=" 1" />
+		<entry key="20140204" value=" 1" />
+		<entry key="20140205" value=" 1" />
+		<entry key="20140206" value=" 1" />
+		<entry key="20140208" value=" 2" />
+		<entry key="20140405" value=" 1" />
+		<entry key="20140407" value=" 1" />
+		<entry key="20140501" value=" 1" />
+		<entry key="20140502" value=" 1" />
+		<entry key="20140503" value=" 1" />
+		<entry key="20140504" value=" 2" />
+		<entry key="20140602" value=" 1" />
+		<entry key="20140908" value=" 1" />
+		<entry key="20140928" value=" 2" />
+		<entry key="20141001" value=" 1" />
+		<entry key="20141002" value=" 1" />
+		<entry key="20141003" value=" 1" />
+		<entry key="20141004" value=" 1" />
+		<entry key="20141005" value=" 1" />
+		<entry key="20141006" value=" 1" />
+		<entry key="20141007" value=" 1" />
+		<entry key="20141011" value=" 2" />
+		<entry key="20150101" value=" 1" />
+		<entry key="20150102" value=" 1" />
+		<entry key="20150103" value=" 1" />
+		<entry key="20150104" value=" 2" />
+		<entry key="20150218" value=" 1" />
+		<entry key="20150219" value=" 1" />
+		<entry key="20150220" value=" 1" />
+		<entry key="20150221" value=" 1" />
+		<entry key="20150222" value=" 1" />
+		<entry key="20150223" value=" 1" />
+		<entry key="20150224" value=" 1" />
+		<entry key="20150215" value=" 2" />
+		<entry key="20150228" value=" 2" />
+		<entry key="20150404" value=" 1" />
+		<entry key="20150405" value=" 1" />
+		<entry key="20150406" value=" 1" />
+		<entry key="20150501" value=" 1" />
+		<entry key="20150502" value=" 1" />
+		<entry key="20150503" value=" 1" />
+		<entry key="20150620" value=" 1" />
+		<entry key="20150621" value=" 1" />
+		<entry key="20150622" value=" 1" />
+		<entry key="20150903" value=" 1" />
+		<entry key="20150904" value=" 1" />
+		<entry key="20150905" value=" 1" />
+		<entry key="20150906" value=" 2" />
+		<entry key="20150926" value=" 1" />
+		<entry key="20150927" value=" 1" />
+		<entry key="20151001" value=" 1" />
+		<entry key="20151002" value=" 1" />
+		<entry key="20151003" value=" 1" />
+		<entry key="20151004" value=" 1" />
+		<entry key="20151005" value=" 1" />
+		<entry key="20151006" value=" 1" />
+		<entry key="20151007" value=" 1" />
+		<entry key="20151010" value=" 2" />
+		<entry key="20160101" value="1" />
+		<entry key="20160102" value="1" />
+		<entry key="20160103" value="1" />
+		<entry key="20160207" value="1" />
+		<entry key="20160208" value="1" />
+		<entry key="20160209" value="1" />
+		<entry key="20160210" value="1" />
+		<entry key="20160211" value="1" />
+		<entry key="20160212" value="1" />
+		<entry key="20160213" value="1" />
+		<entry key="20160206" value="2" />
+		<entry key="20160214" value="2" />
+		<entry key="20160402" value="1" />
+		<entry key="20160403" value="1" />
+		<entry key="20160404" value="1" />
+		<entry key="20160430" value="1" />
+		<entry key="20160501" value="1" />
+		<entry key="20160502" value="1" />
+		<entry key="20160609" value="1" />
+		<entry key="20160610" value="1" />
+		<entry key="20160611" value="1" />
+		<entry key="20160612" value="2" />
+		<entry key="20160915" value="1" />
+		<entry key="20160916" value="1" />
+		<entry key="20160917" value="1" />
+		<entry key="20160918" value="2" />
+		<entry key="20161001" value="1" />
+		<entry key="20161002" value="1" />
+		<entry key="20161003" value="1" />
+		<entry key="20161004" value="1" />
+		<entry key="20161005" value="1" />
+		<entry key="20161006" value="1" />
+		<entry key="20161007" value="1" />
+		<entry key="20161008" value="2" />
+		<entry key="20161009" value="2" />
+	</util:map>	
+</beans>

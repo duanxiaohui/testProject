@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>想什么呢，我们是个很健康的节日</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/hui_yang/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>会阳节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>每年2月的第三个星期，是被称为日本三大“奇异节日”之一的会阳节，它还有一个平易近人、通俗易懂的名字——裸体节。这个名字听起来就已经很劲爆难道不是吗？所以说参加这个节日是需要勇气的！来过节的都是些男同胞，节日期间他们全身上下只系着日本传统的兜裆布，几近全裸。天了噜，日本已经开放到这种程度了吗？中东地区的妇女炎炎夏日还要戴着头纱呢他们知道吗？他们难道都不觉得羞羞吗！捂脸跑开……</p>
+            <h3>【节日内容】</h3>
+            <p>先说说大家最感兴趣的着装——兜裆布。这个兜裆布可厉害，打开后有足足十米长。它的系法也是有讲究的，按照传统方法要先在腰部横绕几圈，然后再两股间竖绕一道。这项工作需要有人协助，竖着的一道要特别用力，系的时候同伴把布背在背上像用力拉车一压根狠狠使几下劲，才能把兜裆布拉紧。多数被系的人都疼的嗷嗷叫……</p>
+            <img src="images/hui_yang/holiday_1.jpg"/>
+            <p>节日当天最激烈的活动是午夜的宝木争夺战。一到午夜所有的灯火一起熄灭，穿戴完毕后男人们就喊着口号拉帮结伙的出发去抢宝木了。在这场争夺战中，孤身一人是不可能抢到宝木的，一般都需要“团伙作案”，结成临时团队共同行动。于是，同单位或左邻右舍的男人会各自结成一伙，在这个环节身材强壮的人会格外受欢迎。当两块宝木被从殿堂二楼抛下时，人群立刻就沸腾了！你挤我、我推你，有的人甚至会骑在别人的身上，总之就是抢宝木第一，生命第三，友谊第二（开玩笑不行啊）。</p>
+            <img src="images/hui_yang/holiday_2.jpg"/>
+            <p>在台下凑热闹的观众也会受到感染，他们在密集的灯光下狂喊，恨不得自己也冲进去参加争夺。当宝木被人抢到后，人群会渐渐围成几个圈，慢慢移动、有秩序的走出寺院，整个仪式就此结束。</p>
+            <h3>【节日来源】</h3>
+            <p>这一活动开始于江户时代末期，人们对宝木痴迷的原因要追溯到1300多年前。据说那时西大寺观音院刚刚建成，一位来自奈良的高僧将一种叫“修正会”的仪式传入此地。在这个仪式上，僧侣们把庙里的宝物用牛玉纸包好，放在千手观音像的背后，供奉14天以祈祷国家安定、五谷丰登、人民富足。仪式结束后，用来包宝物的纸由住持赠给年长的信徒，得到牛玉纸的家庭一年内果真会顺顺当当、丰衣足食。于是，信徒们每年都来争抢牛玉纸，会阳节的风俗由此形成。到了500年前的室町时代，易碎的牛玉纸演变成杉木制成的宝木。</p>       		
+
+            <div class="tips">
+                <p>1、每年2月的第三个星期是日本的会阳节，这天男人们会争抢代表吉祥的宝木；</p>
+                <p>2、节日尺度较大，适合各个年龄段的人观看！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>这个世界很美，我想健康的活着</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/preterm_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>这个世界很美，我想健康的活着</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>这个世界上，每年有1500万出生的婴儿是未能完成37周妊娠的早产婴儿，其中有100万例婴儿死于早产并发症。或许你们已经听过了太多关于生死的消息，所以有些悲惨已经失去了原本的触目惊心。而我，只是每年1500万早产儿中的一个，我有幸来到这个美丽的世界，我想要健康的活着。</p>
+            <h3>【早产儿】</h3>
+            <p>胎龄在37足周以前出生的活产婴儿称为早产儿或未成熟儿。很多情况会造成胎儿早产，如妈妈的胎盘前移、羊水过多、情感激烈波动、意外受伤等，除此之外，双胎或胎儿畸形也是造成早产的因素。</p>
+
+            <img src="/pages/found/qp_holiday/images/preterm_img1.jpg"/>
+            <p>“很多对于正常人来说非常简单的事情在我们世界里都是奢求，我们的皮肤过度薄嫩，组织含水量多，这样看起来，“吹弹可破”并不是一件太好的事情。我们没有很强的抵抗力，轻微的感染都可能引发败血症，我们也不想看到刚刚为人父母的他们满脸焦灼的无奈。吮吸、排泄这些简单的事情我们也做不好，渴了饿了难受了我们甚至都没有力气响亮的哭出声来。我们甚至不能开口说话、听不到声音、无法正常走路……”</p>
+            <h3>【生命慎始】</h3>
+            <p>“生命慎始。字面的意思那样简单，如果知道一生的境遇是这样，我们可以选择不让自己降生吗。但是这个世界是那么的美好，草是绿的、大海和天是蓝的、花是红的、微风是轻柔的、野外的花开起来就像要用光生命里的能量一样……”</p>
+            <img src="/pages/found/qp_holiday/images/preterm_img2.jpg"/>
+            <p>“我们想听到鸟的叫声、感受到拂面的微风、闻到春天姹紫嫣红的味道、在田野里自由自在的奔跑，我们想要读书、想要思考，我们想要健康的生活在这个美丽的世界。”</p>
+            <h3>【世界早产日】</h3>
+            <p>早产是新生儿死亡的首要原因，并且是继肺炎之后五岁以下儿童死亡的第二大原因。许多早产儿即使有幸生存下来也将面临终生残疾，包括学习障碍和视力、听力问题。世界卫生组织表示，许多简单易行的办法可以有效应对早产问题。为了呼吁世界各国关注早产问题、加强相关研究并采取有效行动减少早产导致的健康问题和死亡，世界卫生组织将每年的11月17日定为世界早产日。</p>
+
+            <div class="tips">
+                <p>1、全世界每年有1500万早产婴儿，其中有100万例婴儿死于早产并发症，为了呼吁世界各国关注早产问题，世界卫生组织将每年的11月17日定为世界早产日；</p>
+                <p>2、听过了太多关于生死的消息，所以有些悲惨已经失去了原本的触目惊心，但每个孩子都拥有健康的权利。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/欢欢</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

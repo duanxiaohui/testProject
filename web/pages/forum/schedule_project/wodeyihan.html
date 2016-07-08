@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>我的遗憾男友</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">我的遗憾男友</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/b178e7d6-22da-4f87-81b0-3e5d6d41a454.jpg"/>
+			<!--a的href是链接地址，无bar,按钮为灰色字体-->
+           <a class="btn js-subscribe" data-uuid="12e002b6-d4c2-4381-a696-6a53680db75e" data-cid="144204593">添加提醒</a>  
+			
+	    	<h3 class="time">【首播】2015-04</h3>
+			<p> </p>
+	    	<h3>【韩文】나의 유감스러운 남자친구</h3>
+			<h3>【编剧】李载胤</h3>
+			<h3>【导演】南奇勋</h3>
+			<h3>【主演】鲁敏宇，杨真诚，郭智敏，郑允鹤</h3>
+			<h3>【集数】16</h3>
+			<!--h3是小标题-->
+			<h3>【放送】MBC</h3>
+			
+			<!--p是段落文字描述-->
+			<h3>【简介】电视剧《我的遗憾男友》讲述了在必要时不惜说谎的女子和顽固地守卫真相的男子之间如谎言一般的真实爱情故事。剧中鲁敏宇饰演的尹泰云是一个相信靠真实可以完成所有事情，虽然成年了仍如小王子一般心灵纯粹的纯真青年。观众将通过该剧看到鲁敏宇与平时冷酷男子形象不同的别样魅力。</h3>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/81375344-a7e4-43ac-ae29-c759afde8cb5.jpg"/>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/a1de81ae-e8ed-4aa7-934f-2b03a6ece5c0.jpg"/>
+           
+    
+            <!-- 默认底部有个添加提醒的按钮，不显示的话remind_div的位置加上 none -->
+            <div class="remind_div " data-uuid="12e002b6-d4c2-4381-a696-6a53680db75e" data-cid="144204593"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/161df6b6-5fd6-4177-a16e-bd499f2be669.jpg',
+                title: '韩剧：我的遗憾男友',
+                desc: '讲述了在必要时不惜说谎的女子和顽固地守卫真相的男子之间如谎言一般的真实爱情故事。
+'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '韩剧：我的遗憾男友',
+		        				content: '讲述了在必要时不惜说谎的女子和顽固地守卫真相的男子之间如谎言一般的真实爱情故事。
+',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/161df6b6-5fd6-4177-a16e-bd499f2be669.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

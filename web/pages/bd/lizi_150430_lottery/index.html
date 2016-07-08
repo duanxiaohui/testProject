@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>美【丽】任性送</title>
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="bg_left"></div>
+        <div class="bg_right"></div>
+        <div class="jihe">
+            <div class="prize middle">
+                <div class="canvas" id="canvas">
+                    <div class="canvas_layer"></div>
+                </div>
+            </div>
+            <!--输入手机号-->
+            <div class="input_tel middle none">
+                <div class="input_tel_div">
+                    <h3></h3>
+                    <div class="input_div e_clear">
+                        <input type="text" class="tel_input mobile" placeholder="请输入11位手机号码"/>
+                    </div>
+                    <a href="javascript:;" class="submit_btn"></a>
+                </div>
+            </div>
+            <!--提交成功-->
+            <div class="submit_suc middle none">
+                <h3></h3>
+                <div class="submit_suc_div">
+                    <p>我们已经收到啦<br/>
+                    请保持手机信号畅通<br/>
+                    我们会给你发短信的<br/>
+                       请耐心等待！</p>
+                </div>
+            </div>
+        </div>
+    	<!--活动详情-->
+    	<div class="active_info middle none">
+            <h3><a href="javascript:;" class="back_btn">&lt;返回</a> 活动详情</h3>
+    		<div class="active_info_div">
+	    		<p>1.本活动商品券，仅限电脑端使用；代金券及满减券，电脑端手机端均可兑换，不可兑换限时折扣和60秒闪购商品。</p>
+                <p>2.本活动提供的优惠券，每个订单只能使用一次，不能与其他优惠同时使用。</p>
+                <p>3.商品0元领用（不包含邮费），订单满99元可包邮。</p>
+                <p>4.活动有效期：即日起至2015年5月15日</p>
+                <p>5.本活动最终解释权归365日历所有。</p>
+    		</div>
+    	</div>
+        <div class="lizi_logo"></div>
+        <a href="javascript:;" class="active_info_btn">活动详情</a>
+    </div>
+    <input id="UID" type="hidden" >
+    <input id="PWD" type="hidden" >
+    <input id="MAC" type="hidden" >
+    <input id="VER" type="hidden" >
+<div style="display:none">
+</div>
+<script src="/js/jquery/jquery-1.8.3.min.js"></script>
+<script src="/js/lib/zepto.min.js"></script>
+<!-- <script src="/js/jquery/jquery-ui-1.9.0.custom.min.js"></script> -->
+<script src="/js/jquery/jquery.cookie.js"></script>
+<script src="js/Lottery.js"></script>
+<script>
+var lottery = {
+        config: {
+            w: $(window).width(),
+            h: $(window).height(),
+            key: '',
+            date: null,
+            dateStr: '',
+            UID: '0',
+            MAC: 'null',
+            canvasW:'212',
+            canvasH:'125',
+            canvas6W:'313',
+            canvas6H:'188',
+            prize:""
+
+        },
+        init:function(){
+            var bgW , mainH;
+            bgW = 320;
+            //当前屏幕需要的margin-top
+            nowMt = (lottery.config.w / bgW)*165;
+            mainH =lottery.config.h - nowMt;
+            $(".main").css({
+                "padding-top":nowMt + "px",
+                "height": mainH + "px"
+            });
+            $(".bg_left ,.bg_right").css({
+                "height": mainH + "px"
+            });
+            if(mainH > 410){
+                $(".bg_left").css({
+                    "background-position-y":"10%"
+                });
+                $(".bg_right").css({
+                    "background-position-y":"50%"
+                });
+            }
+            //垂直居中
+            var m = $(".middle");
+            m.each(function(_,o){
+                $(o).css({
+                    "margin-top":-($(o).height()/2) + -nowMt/2 + "px"
+                });
+            });
+        },
+        bindEvents:function(){
+            var has3d = 'WebKitCSSMatrix' in window && 'm11' in new WebKitCSSMatrix();
+            $('.submit_btn').on('click', function() {
+                var mobile = $('.mobile').val();
+                if(mobile == '') {
+                    alert('请填写完整的信息以便领取奖品。');
+                    $('body').scrollTop(0);
+                    return;
+                }
+                if(!(/^1[3|4|5|8][0-9]\d{4,8}$/.test(mobile)) || mobile.length != 11) {
+                    alert('请输入正确格式的手机号码！');
+                    $('body').scrollTop(0);
+                    return;
+                }
+                lottery.lotteryUser();
+            });
+            $('.input_tel').css({
+                        '-webkit-transform': has3d ? "translate3d(200%,0,0)" : "translate(200%,0)",
+                        '-webkit-transition': '200ms linear'
+                    });
+
+            $('.active_info').css({
+                    '-webkit-transform': has3d ? "translate3d(-200%,0,0)" : "translate(-200%,0)",
+                    '-webkit-transition': '200ms linear'
+                });
+            $('.active_info_btn').on('tap',function(){
+                $('.active_info').removeClass("none");
+                $('.active_info').css({
+                    '-webkit-transform': has3d ? "translate3d(0%,0,0)" : "translate(0%,0)",
+                    '-webkit-transition': '200ms linear'
+                });
+                $('.jihe').css({
+                    '-webkit-transform': has3d ? "translate3d(-200%,0,0)" : "translate(-200%,0)",
+                    '-webkit-transition': '200ms linear'
+                });
+                $('.jihe').addClass("none");
+                $('.active_info_btn').hide();
+            })
+            $('body').on('tap','.back_btn',function(){
+                $('.active_info').css({
+                    '-webkit-transform': has3d ? "translate3d(-200%,0,0)" : "translate(-200%,0)",
+                    '-webkit-transition': '200ms linear'
+                });
+                $('.active_info').addClass("none");
+                $('.jihe').css({
+                    '-webkit-transform': has3d ? "translate3d(-0%,0,0)" : "translate(0%,0)",
+                    '-webkit-transition': '200ms linear'
+                });
+                $('.jihe').removeClass("none");
+                $('.active_info_btn').show();
+            });
+        },
+        lotterTel:function(){
+             var has3d = 'WebKitCSSMatrix' in window && 'm11' in new WebKitCSSMatrix();
+            $('body').on('tap','.receive',function(){
+                $('.input_tel').removeClass("none");
+                $('.input_tel').css({
+                    '-webkit-transform': has3d ? "translate3d(0%,0,0)" : "translate(0%,0)",
+                    '-webkit-transition': '200ms linear'
+                });
+                $('.prize').addClass("none");
+                $('.prize').css({
+                    '-webkit-transform': has3d ? "translate3d(-200%,0,0)" : "translate(-200%,0)",
+                    '-webkit-transition': '200ms linear'
+                });
+            });
+        },
+        getUserInfo: function() {
+            try {
+                if(/android/i.test(navigator.userAgent)) {
+                    lottery.config.UID = AliansBridge.getUserId();
+                    lottery.config.MAC = AliansBridge.getMac();
+                } else {
+                    setTimeout(function() {
+                        lottery.config.UID = document.getElementById('UID').value;
+                        lottery.config.MAC = document.getElementById('MAC').value;
+                    }, 500);
+                }
+            }catch(e) {
+                lottery.config.UID = 0;
+                lottery.config.MAC = 0;
+            }
+        },
+        getLottery: function() {
+            if($.cookie('flag') == lottery.config.dateStr) {
+                    alert('每天只有一次刮奖机会，明天再来吧！');
+                    return;
+            }
+            if(lottery.config.UID == '') {
+                lottery.config.UID = 0;
+            }
+            if(lottery.config.MAC == '') {
+                lottery.config.MAC = 0;
+            }
+            $.ajax({
+                url: '/coop/lottery.do',
+                type: 'post',
+                dataType: 'json',
+                data: {
+                    deviceID: lottery.config.MAC,
+                    userID: lottery.config.UID,
+                    campaign:'lizi0501'
+                },
+                success: function(data) {
+                    lottery.handleLottery(data);
+                }
+            });
+        },
+        handleLottery: function(data) {
+            if($(".canvas").width() == "313"){
+                var lottery_canvas = new Lottery('canvas', 'http://www.365rili.com/pages/bd/lizi_150430_lottery/images/canvas_mask.jpg', 'image', lottery.config.canvas6W, lottery.config.canvas6H,lottery.drawPercent);
+            }else{
+                var lottery_canvas = new Lottery('canvas', 'http://www.365rili.com/pages/bd/lizi_150430_lottery/images/canvas_mask.jpg', 'image', lottery.config.canvasW, lottery.config.canvasH,lottery.drawPercent);
+            }
+            
+            if(data.prize == -1 || data.prize == 0) {
+                lottery_canvas.init('http://www.365rili.com/pages/bd/lizi_150430_lottery/images/prize.jpg', 'image');
+            }
+             if(data.prize > 0) {
+                lottery.config.key = data.key;
+            }
+            var prize = lottery.config.prize = data.prize;
+            if(prize == 1){
+                lottery_canvas.init('http://www.365rili.com/pages/bd/lizi_150430_lottery/images/prize_1.jpg', 'image');
+                lottery.lotterTel();
+            }else if(prize == 2){
+                lottery_canvas.init('http://www.365rili.com/pages/bd/lizi_150430_lottery/images/prize_2.jpg', 'image');
+                lottery.lotterTel();
+            }else if(prize == 3){
+                lottery_canvas.init('http://www.365rili.com/pages/bd/lizi_150430_lottery/images/prize_3.jpg', 'image');
+                lottery.lotterTel();
+            }else if(prize == 4){
+                lottery_canvas.init('http://www.365rili.com/pages/bd/lizi_150430_lottery/images/prize_4.jpg', 'image');
+                lottery.lotterTel();
+            }else if(prize == 5){
+                lottery_canvas.init('http://www.365rili.com/pages/bd/lizi_150430_lottery/images/prize_5.jpg', 'image');
+                lottery.lotterTel();
+            }else if(prize == 6){
+                lottery_canvas.init('http://www.365rili.com/pages/bd/lizi_150430_lottery/images/prize_6.jpg', 'image');
+                lottery.lotterTel();
+            }else if(prize == 7){
+                lottery_canvas.init('http://www.365rili.com/pages/bd/lizi_150430_lottery/images/prize_7.jpg', 'image');
+                lottery.lotterTel();
+            }
+        },
+        lotteryUser: function() {
+            $.ajax({
+                url: '/coop/lottery_user.do',
+                type: 'post',
+                dataType: 'json',
+                data: {
+                    phone: $('.mobile').val(),
+                    campaign:'lizi0501',
+                    key: lottery.config.key
+                },
+                success: function(data) {
+                    if(data.state == 'ok') {
+                        $('.input_tel').addClass('none');
+                        $('.submit_suc').removeClass('none');
+                    }else{
+                        alert('服务器繁忙,请稍后重试!');
+                    }
+                }
+            });
+        },
+        drawPercent:function (percent) {
+            if(percent > 75){
+                $('.mask_layer').css({
+                    "display":"none"
+                })
+                if(lottery.config.prize > 0){
+                    $(".prize").addClass("receive");
+                    $(".prize").css({
+                        "background":'url(' + "http://www.365rili.com/pages/bd/lizi_150430_lottery/images/canvas_bg1.jpg" +') no-repeat',
+                        "background-size":"100% 100%"
+                    })
+                }
+            }
+            $.cookie('flag', lottery.config.dateStr, {expires: 365});
+        }
+    };
+    $(function(){
+        var date = new Date(),
+            dateStr = date.getFullYear() + '-' + (date.getMonth()+1) + '-' + date.getDate();
+        lottery.config.date = date;
+        lottery.config.dateStr = dateStr;
+        lottery.init();
+        lottery.bindEvents();
+        lottery.getUserInfo();
+        lottery.getLottery();
+    })  
+</script>
+</body>
+</html>

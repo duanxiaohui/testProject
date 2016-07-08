@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+</head>
+<body onload="init();"></body>
+<script type="text/javascript">
+function init(){
+	var sUserAgent = navigator.userAgent.toLowerCase();
+	var bIsIpad = sUserAgent.match(/ipad/i) == "ipad"; 
+	var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+	var bIsAndroid = sUserAgent.match(/android/i) == "android";
+	if(bIsIphoneOs || bIsIpad){
+		var ios = getURLParameter("ios");
+		location.href = ios;
+	}else if(bIsAndroid){
+		var android = getURLParameter("android");
+		location.href = android;
+	}
+}
+
+function getURLParameter(name) {
+    return decodeURIComponent(decodeURIComponent(
+        (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1].replace(/\+/g,  " ")
+    ));
+}
+</script>
+</html>

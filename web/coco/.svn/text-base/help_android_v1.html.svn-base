@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历--coco帮助</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/android_help_v1.css" media="screen" />
+</head>
+<body>
+<div class="main">
+	<p>1、点击菜单按钮，进入菜单状态 </p>
+	<div class="box e_clear">
+		<div class="a1"></div>
+		<div class="a2"></div>
+	</div>
+	<p>2、在日历广场，收藏更多有意思的日历</p>
+	<div class="box e_clear">
+		<div class="b1"></div>
+		<div class="b2"></div>
+	</div>
+	<p>3、创建群组日历，和小伙伴们一起使用</p>
+	<div class="box e_clear">
+		<div class="c1"></div>
+		<div class="c2"></div>
+	</div>
+	<p>4、切换日历，方便查看</p>
+	<div class="box e_clear">
+		<div class="d1"></div>
+		<div class="d2"></div>
+	</div>
+	<p>5、添加日程，提醒您记住重要的事情</p>
+	<div class="box e_clear">
+		<div class="e1"></div>
+		<div class="e2"></div>
+	</div>
+	<p>6、更换主题，选一个漂亮的主题，体现自己的style</p>
+	<div class="box e_clear">
+		<div class="f1"></div>
+		<div class="f2"></div>
+	</div>
+	<p>7、搜索日历和日程，快速找到您需要的日历和日程</p>
+	<div class="box e_clear">
+		<div class="g1"></div>
+		<div class="g2"></div>
+	</div>
+	<p>8、添加城市天气，可方便查看所关注的城市</p>
+	<div class="box e_clear">
+		<div class="h1"></div>
+		<div class="h2"></div>
+		<div class="h3"></div>
+		<div class="h4"></div>
+	</div>
+	<div class="footer">
+		如果您需要更多帮助，欢迎加入365日历用户群<br/>
+		群QQ：92767096
+	</div>
+</div>
+</body>
+</html>

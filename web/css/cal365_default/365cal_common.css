@@ -1,0 +1,534 @@
+/*--------------------------nav header-----------------------------------*/
+.hidden{
+	display: none;
+}
+
+#cal_header{
+	height:30px;
+	
+	margin:30px 0;
+	white-space:nowrap;
+}
+#cal_header ul{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	border-collapse:collapse;
+}
+#cal_header ul li{
+	float:left;
+}
+
+.tplbox{
+	display:none;
+}
+
+/*----calmain*/
+#gridcontainer {
+    position: relative;
+}
+#agendaview {
+    position: relative;
+    display:none;
+}
+.mv-container {
+    height: 100%;
+    position: relative;
+    white-space: nowrap;
+}
+.week_table {
+    border-collapse:collapse;
+    color: #2200CC;
+    left: 0;
+    table-layout: fixed;
+    top: 0;
+    width: 100%;
+    position:relative;
+}
+/*-------顶部星期的样式------*/
+.weekHeader{
+	line-height:25px;
+	font-size:14px;
+	height:25px;       /*todo:高度可设置，不过需要注意配置，eventContainer的top属性*/
+	text-align:center;
+	border:1px solid #dfdfdf;
+	font-weight:bold;
+	color:#2c414a;
+	background-color:#f9f9f9;
+}
+.eventContainer {
+	background: none repeat scroll 0 0 white;
+    border-bottom: 1px solid #dfdfdf;
+    bottom: 0px;
+    left: 0px;
+    overflow: hidden;
+    position: absolute;
+    top: 26px;
+    width: 100%;
+}
+.monthRow {
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+/* ---画格子的表格样式------*/
+.gridBgTable {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    table-layout: fixed;
+    top: 0;
+    width: 100%;
+	z-index:2;
+}
+.gridBg {
+    border-left: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
+	border-top: 1px solid #dfdfdf;
+	position:relative;
+	height:100%;
+}
+.schGrid {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.st-c {
+    cursor: pointer;
+    font-family: Verdana,sans-serif;
+    padding: 1px;
+    vertical-align: top;
+	overflow:hidden;
+}
+.st-s  {
+    cursor: default;
+    padding-bottom: 2px;
+}
+.gridTitle {
+	color: #a3a3a3; /*todo:日历格子中数字日期的格式，#E8DDD1;*/   
+    line-height: 20px;
+	font-size:12px;
+    overflow: hidden;
+    padding-right: 2px;
+    text-align: right;
+	height:20px;
+	position:absolute;
+	right:0;
+	bottom:0;
+	width:100%;
+	
+}
+.gridNum{
+	font-weight:bold;
+}
+.gridLunar{
+	margin-left:2px;
+}
+.cal_before{
+	color:#dddddd;
+}
+.cal_after{
+	color:#E5D8CA;
+}
+.cal_now{
+	background-color:#f2f2f2;
+}
+
+.rb-n {
+    -moz-border-radius: 3px;
+	-webkit-border-radius: 3px;     /* safari/chrome */
+    border-radius: 3px;           /* ie9。。。。？ */
+    color: white;
+    overflow: hidden;
+    padding-left: 3px;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+	background-color: #ff7e00;
+	height: 17px;
+	/*width:100%;*/
+}
+.rb-o {
+    color: white;
+    overflow: hidden;
+    padding-left: 3px;
+    white-space: nowrap;
+	height: 17px;
+}
+/*---------------round corner--------------------*/
+.b1t, .b2t, .b3t, .b4t, .b1f, .b2f, .b3f, .b4f {font-size:1px; overflow:hidden; display:block;}
+.b1t {height:1px; background:#c0c0c0; margin:0 5px;}
+.b2t {height:1px; background:#f6f6f6; border-right:2px solid #c0c0c0; border-left:2px solid #c0c0c0; margin:0 3px;}
+.b3t {height:1px; background:#f6f6f6; border-right:1px solid #c0c0c0; border-left:1px solid #c0c0c0; margin:0 2px;}
+.b4t {height:2px; background:#f6f6f6; border-right:1px solid #c0c0c0; border-left:1px solid #c0c0c0; margin:0 1px;}
+
+.b1f {height:1px; background:#c0c0c0; margin:0 5px;}
+.b2f {height:1px; background:#DDF0F7; border-right:2px solid #c0c0c0; border-left:2px solid #c0c0c0; margin:0 3px;}
+.b3f {height:1px; background:#DDF0F7; border-right:1px solid #c0c0c0; border-left:1px solid #c0c0c0; margin:0 2px;}
+.b4f {height:2px; background:#DDF0F7; border-right:1px solid #c0c0c0; border-left:1px solid #c0c0c0; margin:0 1px;}
+
+/*---------------custom checkbox,radio,select----*/
+.custom-checkbox, .custom-radio { position: relative;float:left;}
+.custom-checkbox input, 
+.custom-radio input {
+    position: absolute;
+    margin: 0;
+    z-index: 0;
+}
+.custom-checkbox label, 
+.custom-radio label {
+    display: block;
+    position: relative;
+    z-index: 1;
+    padding: 0 0 0 20px;
+    cursor: pointer;
+}
+.custom-checkbox label {
+    background: url(/images/cal365_default/checkbox.gif) no-repeat; 
+}
+.custom-radio label {
+    background: url(/images/cal365_default/radiobutton.gif) no-repeat; 
+}
+.custom-checkbox label, .custom-radio label {
+    background-position: -15px -20px;
+    *margin-top:3px; /*for IE6 7*/
+}
+.custom-checkbox label.hover,
+.custom-checkbox label.focus,
+.custom-radio label.hover,
+.custom-radio label.focus {
+    background-position: -15px -120px;
+}
+.custom-checkbox label.checked, 
+.custom-radio label.checked {
+    background-position: -15px -220px;
+}
+.custom-checkbox label.checkedHover, 
+.custom-checkbox label.checkedFocus {
+    background-position: -15px -320px;
+}
+.custom-checkbox label.focus, 
+.custom-radio label.focus, .custom-checkbox label.focus{
+    outline:hidden;
+}
+/*--------create schedule view ------------------*/
+#createSchTB {
+    background-color:#F9F9F9;
+    border-radius: 4px;
+    display:none;
+}
+
+.detailContent {
+    position:relative;
+    background: #ffffff;
+    border: 1px solid #DFDFDF;
+}
+
+.detailHeader {
+    position:relative;
+    text-align: center;
+    height: 30px;
+    font: bold 14px "微软雅黑";
+    padding: 0 10px;
+}
+
+textarea {
+    overflow:auto;
+    resize:none;
+}
+.datepicker {
+	width:80px;
+}
+#det_backToCalendar {
+    background:url(/images/cal365_default/back_to_cal.gif) no-repeat;
+    float:left;
+    cursor:pointer;
+    width:86px;
+    height:26px;
+}
+#det_Btns input {
+    background:url(/images/cal365_default/todayBtn.png) no-repeat;
+    border:none;
+    width:66px;
+    height:26px;
+    cursor:pointer;
+}
+.labels {
+    width:70px;
+    margin-right:10px;
+    float:left;
+    text-align:right;
+}
+/*-------------list view------------------*/
+#listcontainer{
+	height: 509px;
+	border: 1px solid #DFDFDF;
+	color: #2d414a;
+	overflow-y: auto;
+}
+
+#list_prev_more, #list_next_more{
+	padding-right: 11px;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#list_prev_more{
+	border-bottom: 1px #DFDFDF solid;
+}
+
+#list_prev_more a, #list_next_more a{
+	float: right;
+}
+
+#list_content{
+	clear: both;
+}
+
+.schedule_date, .schedule{
+	border-bottom: 1px solid #DFDFDF;
+}
+
+.schedule_date{
+	height: 48px;
+	background-color: #E9E9E9;/*#ddf1f8;*/
+}
+
+.schedule_date .date{
+	line-height: 48px;
+	color: #2d414a;
+	font-size: 34px;	
+}
+
+.schedule_date_l{
+	float: left;
+}
+
+.schedule_date_r{
+	float: left;
+	color: #7f7f7f;
+	padding-top: 25px;
+	padding-left: 10px;
+}
+
+.schedules{
+	clear: both;
+	background-color: #ffffff;
+}
+
+.schedule_date, .schedule{
+	text-align: left;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+
+.sch_content, 
+div.sch_type_blue, 
+div.sch_type_yellow, 
+div.sch_type_green{
+	line-height: 22px;
+}
+
+div.sch_type_blue{
+	color: #31b2dc;
+}
+
+div.sch_type_yellow{
+	color: #ffb803;
+}
+
+div.sch_type_green{
+	color: #5fa534;	
+}
+
+/*-----------------------cal List-------------------*/
+#userInfo{
+	height:40px;
+	width:150px;
+	margin-top:30px;
+	margin-left:20px;
+	
+}
+#moreCalendar{
+	width:170px;
+	margin-top:25px;
+	margin-left:20px;
+	height:240px;
+	}
+.moreCalHeader{
+	height:28px;
+	line-height:28px;
+	font-size:14px;
+	font-weight:bold;
+	background:url(/images/cal365/moreCal.gif) no-repeat;
+	padding-left:22px;
+}
+.calList{
+	float:left;
+	width:200px;
+	text-align:left;
+	position:relative;
+}
+#calendarList{
+	height:190px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	width:100%;
+}
+#moreCalendar .line_cal{
+	height:1px;
+	width:100%;
+	border-top:1px #dbdbdb solid;
+}
+#moreCalendar .calPart{
+	margin-left:10px;
+	margin-top:2px;
+	cursor:pointer;
+}
+.checkCalN{
+	width:26px;
+	height:28px;
+	background:url(/images/cal365/blank_btn.gif) no-repeat;
+	float:left;
+}
+.checkCalY{
+	width:26px;
+	height:28px;
+	background:url(/images/cal365/sel_cal.gif) no-repeat;
+	float:left;
+}
+#moreCalendar .googleIcon{
+	background:url(/images/cal365_default/google_icon2.png) no-repeat;
+	float:left;
+	line-height:28px;
+	height:18px;
+	width:20px;
+	margin-top:5px;
+}
+#moreCalendar .calTitle{
+	float:left;
+	line-height:28px;
+	color:#7c7c7c;
+	font-size:14px;
+	width:78px;
+	height:28px;
+	overflow:hidden;
+}
+.dotLine{
+	height:1px;
+	line-height:1px;
+	width:100%;
+	border-top:1px #e0e0e0 dotted;
+	clear:both;
+}
+#searchBox{
+	position:absolute;
+	bottom:10px;
+	left:20px;
+	background:url(/images/cal365/search.png) no-repeat;
+	height:25px;
+	width:176px;
+	line-height:20px;
+}
+.searchText{
+	margin-left:25px;margin-top:3px;border:0px;height:16px;width:100px;
+}
+#smallCal{
+	position:absolute;
+	bottom:15px;
+	width:174px;
+	height:211px;
+	left:20px;
+}
+/*------------------待办相关 -----------------------------------*/
+#listtodo{
+	height:478px;
+	border: 1px solid #DFDFDF;
+	overflow-y: auto;
+}
+.todoItem{
+	padding-left:13px;
+	padding-right:13px;
+	padding-top:10px; 
+	border-bottom:1px solid #DFDFDF;
+	height:24px;
+	background-color:#FFFFFF;
+}
+
+.todoItemHover{
+	padding-left:13px;
+	padding-right:13px;
+	padding-top:10px; 
+	border-bottom:1px solid #DFDFDF;
+	height:24px;
+	background-color:#E7F9FE;
+}
+
+.todoYellowStar{
+	height:17px;
+	width:16px;
+	background:url(/images/cal365_default/yellowstar.png) no-repeat;
+	float:left;
+}
+.todoGrayStar{
+	height:17px;
+	width:16px;
+	background:url(/images/cal365_default/graystar.png) no-repeat;
+	float:left;
+}
+.todoTitle{
+	font-size:12px;
+	float:left; 
+	margin-left: 10px; 
+	height:17px;
+}
+.todoTitleDone{
+	font-size:12px;
+	float:left; 
+	margin-left: 10px; 
+	height:17px;
+	text-decoration:line-through;
+}
+.todoDeadline{
+	float:left; 
+	font-size:12px;
+	margin-left: 20px;
+}
+.linebr {
+    border:solid 1px red;
+    clear: both; /* 清除左右浮动 */ 
+    width: 100px; /* 必须定义宽度 */ 
+    word-break: break-word; /* 文本行的任意字内断开 */ 
+    word-wrap: break-word; /* IE */ 
+    white-space: -moz-pre-wrap; /* Mozilla */
+    white-space: -hp-pre-wrap; /* HP printers */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: pre; /* CSS2 */
+    white-space: pre-wrap; /* CSS 2.1 */
+    white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+    font-size:12px;
+}
+/*------------------我的日历 日历管理小按钮相关 -----------------------------------*/
+.editCalendarBtn{
+	height:14px;
+	width:14px;
+	background:url(/images/cal365_default/icon_4.png) repeat;
+	display:block;
+	float: right;
+	margin-top: 8px;
+	margin-left: 4px;
+	display: none;
+}
+.createCalendarBtn{
+	height:14px;
+	width:14px;
+	background:url(/images/cal365_default/icon_3.png) repeat;
+	display:block;
+	float: right;
+	margin-top: 8px;
+	display: block;
+	cursor:pointer;
+}

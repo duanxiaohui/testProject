@@ -1,0 +1,232 @@
+body {font: 12px / 1.5em "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑,SimSun,arial; margin: 0; padding: 0; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; outline: none;}
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+a{text-decoration: none; }
+.none{display:none;}
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+.none{display:none;}
+*{-webkit-tap-highlight-color: rgba(0,0,0,0); tap-highlight-color: rgba(0,0,0,0);}
+html, body{
+	height:100%;
+}
+
+body {
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: 100% 100%;
+/*    background-position: bottom center;*/
+}
+
+.share {
+    transform: translate3d(0,0,0);
+    text-align: center;
+}
+
+.header {
+    margin: 0 auto;
+    padding: 20px;
+    height: 30px;
+    text-align: center;
+}
+.header img {
+    height: 100%;
+}
+.client_share_btn{
+    position:absolute;
+    width:30px;
+    height:30px;
+    background:url(../images/share_btn.png) no-repeat;
+    background-size:100% 100%;
+    top:5px;
+    right:5px;
+    display:none;
+}
+.textbox {
+    position: relative;
+    border: solid 2px #d0b6a1;
+    padding: 5px;
+    width:80%;
+    background: #fff;
+    margin: 0 auto 20px;
+    text-align: left;
+}
+
+.tbin {
+    border: solid 4px #d0b6a1;
+    padding: 15px 10px;
+}
+.tbin h3 {
+    color: #8f6a4c;
+    font:bold 18px "SimSun";
+/*    margin: 10px 7px;*/
+}
+.tbin .t-content {
+    color: #8f6a4c;
+    background: url(../images/ta_bg.jpg) repeat;
+    background-size: 224px;
+    font: 14px/26px "Microsoft YaHei";
+    width:100%;
+    outline: none;
+    border:none;
+    margin-top: 5px;
+    word-wrap:break-word;
+    word-break:break-all;
+}
+
+.tbin .sign {
+    color: #8f6a4c;
+    text-align: right;
+    margin-top: 10px;
+}
+.tbin .sign .t-name {
+    color: #8f6a4c;
+    display: inline-block;
+    width:33%;
+    text-align: center;
+    border: none;
+    border-bottom:solid 1px #e3cec2;
+}
+
+.textbox .letter-paper {
+/*    display: block;*/
+    position: absolute;
+    width:30%;
+    max-width:120px;
+    top:-13px;
+    right: -4.8%;
+}
+.textbox .postmark {
+/*    display: block;*/
+    position: absolute;
+    width:15%;
+    min-width: 60px;
+    max-width:100px;
+    bottom:-20px;
+    left: -4.5%;
+}
+
+.make-submit {
+    color: #8f6a4c;
+    display: inline-block;
+    border: solid 2px #8f6a4c;
+/*    height: 35px;*/
+/*    line-height: 35px;*/
+    padding: 10px 7px;
+}
+.original,.custom-btn{
+    color: #8f6a4c;
+    display: inline-block;
+    border: solid 2px #8f6a4c;
+/*    height: 35px;*/
+/*    line-height: 35px;*/
+    padding: 10px 7px;
+}
+.custom-btn,.make-submit {
+    color: #fff;
+    background: #8f6a4c;
+}
+
+.make {
+    text-align: center;
+}
+.make h1 {
+    color: #8f6a4c;
+    font:bold 22px "SimSun";
+}
+.make h2 {
+    color: #8f6a4c;
+    font:bold 16px "SimSun";
+    margin: 5px 0 20px 0;
+}
+.make .tbin h3{
+    display: inline-block;
+}
+.make .make-submit {
+    padding: 3px 22px;
+}
+.make .pen {
+    display: inline-block;
+    width: 50px;
+    margin-top: -11px;
+}
+.final {
+	text-align:center;
+}
+.final .msg {
+    color: #8f6a4c;
+    margin-top: 10px;
+    text-align: center;
+    font:bold 16px "SimSun";
+}
+.final .share-btn {
+	width:60%;
+	color:#fff;
+	background: #8f6a4c;
+    border: solid 2px #8f6a4c;
+    padding: 10px 0px;
+    outline:none;
+}
+
+/*bar*/
+.bar {
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    color: #000;
+    background: #fff;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    top: 0;
+    z-index: 99;
+    display: none;
+    position: fixed;
+}
+.weixin .bar {
+    display: block;
+}
+.weixin .main{
+    padding-top: 48px;
+}
+
+.return_btn {
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    border-right: 0;
+    border-bottom: 0;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    left: 15px;
+    top: 14px;
+}
+
+.bar_share_btn{width:20px; height:20px; position: absolute; top:14px; right:15px; background:url(../images/share_btn.png) no-repeat; background-size:100% 100%;} 
+
+.bar_txt{margin:0 40px; height:48px; line-height:48px; text-align:center;
+
+/*iphone4*/
+@media (device-height:480px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone4/4s */
+
+.header {
+    padding: 15px;
+    height: 20px;
+}
+.make h1 {
+    font:bold 20px "SimSun";
+}
+.make h2 {
+    font:bold 15px "SimSun";
+    margin: 5px 0 15px 0;
+}
+
+}
+
+.

@@ -1,0 +1,27 @@
+.calePanl-wp{
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+.calePanl-wp:after {
+    display: block;
+    content: ' ';
+    height: 0;
+    clear: both;
+}
+.calePanl-wp.anim{
+    -webkit-transition: all 500ms ease-out 0s;
+    transition: all 500ms ease-out 0s;
+}
+.calePanl-page{
+    display: block;
+    overflow: hidden;
+}
+
+.calePanl-dir-h {
+    float: left;
+}
+
+.month-middle {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}

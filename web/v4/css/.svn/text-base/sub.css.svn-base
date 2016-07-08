@@ -1,0 +1,45 @@
+.rili_v4_focus{height:1px;width:100%; line-height:1px; border-bottom:1px solid #e5e5e5;}
+.faq_box,.contact_box,.prospect_box,.service_box,.join_box{width:1003px; margin:0 auto; padding-bottom:15px;}
+.faq_box h2,.contact_box h2,.prospect_box h2,.service_box h2,.join_box h2{padding-top:30px;}
+.faq_box h3{font-size:32px; color:#7b7b7b; line-height:50px; font-weight:500; padding-top:20px;}
+.faq_left,.faq_right{float:left;width:460px;}
+.faq_right{padding-left:80px}
+
+.faq_box dl{padding:20px 0 0 20px; font-size:14px;}
+.faq_box dt{color:#008ad2; line-height:24px;}
+.faq_box dd{color:#7b7b7b; line-height:24px;}
+
+.contact_box h3,.contact_box p{padding-left:60px;}
+.contact_box h3{padding-top:30px;}
+img.map{margin:20px 0 0 60px; border:1px solid #d2d2d2;}
+
+.service_box h3{font-size:16px; margin: 1.236em 0 0.618em; color:#444;}
+.service_box p{font-family: arial,sans-serif; line-height:22px;} 
+
+.join_content{padding-top:45px;}
+.join_left,.join_right{width:440px; float:left; padding-left:10px;}
+.join_left p{font-size:16px; color:#7b7b7b; line-height:26px;}
+.join_list{padding-bottom:20px;}
+.join_list p.english_name{color:#269de9; font-size:16px; font-family:Arial, Helvetica, sans-serif;}
+.join_list h3{font-size:34px; color:#269de9; line-height:40px;}
+.join_list p.res,.join_list p.qua{padding-top:20px;}
+.join_list p{font-size:14px; color:#6e6e6e; line-height:22px;}
+.mail_btn{display:block; width:370px; height:40px; line-height:40px; padding-left:15px; color:#fff; font-size:16px; font-weight:600; background:#269de9;}
+.mail_btn:hover{color:#fff;}
+
+.prospect_box{padding:30px 0px 0 0;}
+.about_div h3{padding:5px 0 15px 0;}
+.about_div h4{font-size:18px; font-weight:500; color:#7b7b7b; padding-left:60px;}
+.about_div p,.vision_div p{font-size:18px; line-height:180%; color:#7b7b7b; margin-bottom:20px; padding-left:60px;}
+.vision_div h3{padding-bottom:15px;}
+.vision_div h4{font-size:27px; margin-left:60px; padding-bottom:30px;}
+
+@media screen and (device-aspect-ratio: 3/4) {
+	.rili_v4_top,.rili_v4_about,.rili_v4_product,.join_box,.faq_box,.join_content,.service_box,.prospect_box,.service_box,.rili_v4_footer{width:100%;}
+	.logo{padding:0 0 0 10px;}
+	.nav{padding-right:10px;}
+	.rili_v4_about{text-align:center;}
+	.rili_v4_about a{display:inline-block; float:none;}
+	.rili_v4_footer{text-align:center;}
+	.faq_right{padding-left:60px;}
+}

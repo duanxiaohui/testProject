@@ -1,0 +1,31 @@
+{
+	"hasGoogle": true,
+	"primary_cid": 47486749,
+	"extend": {
+		"userId": 29055524,
+		"header": null,
+		"headerUrl": "http://tp2.sinaimg.cn/2118218477/50/0/1"
+	},
+	"state": "wrongpass",
+	"auto": "false",
+	"weiboScreenName": "Vest00",
+	"bind": "1",
+	"user": {
+		"userId": 29055524,
+		"username": "zhangmch",
+		"email": "153609505@365rili.com",
+		"birthday": null,
+		"password": null,
+		"cellphone": null,
+		"gender": null,
+		"activate": null,
+		"registerTime": null,
+		"lastLoginTime": null,
+		"mobileverifycode": null,
+		"hashStr": null,
+		"activationCode": null,
+		"nick": "漂亮姐姐小跟班钱",
+		"nickOrName": "漂亮姐姐小跟班钱"
+	},
+	"weibo": "2118218477"
+}

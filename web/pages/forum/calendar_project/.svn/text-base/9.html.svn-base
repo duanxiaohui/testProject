@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0">
+<title>该学习了，别找借口！</title>
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/css/forum_new.css" rel="stylesheet">
+<script src="/js/lib/zepto.min.js"></script>
+<script src="/js/lib/app.js"></script>
+<link href="/css/footer.css?20141126" rel="stylesheet">
+<script src="/pages/forum/js/underscore-1.6.0.js"></script>
+</head>
+<body class="weixin">
+    <div class="calendar_project_top">
+        <div class="calendar_project_top_header">
+            <a href="javascript:;" class="return_btn"></a>
+            <a href="javascript:;" class="share_btn none"></a>
+            <span>该学习了，别找借口！</span>
+        </div>
+        <div class="calendar_project_top_img">
+            <img src="http://cocoimg.365rili.com/pic/default/zhuanti_in_9.jpg"/> <!-- 图片地址 -->
+        </div>
+    </div>
+    <div class="calendar_project_info">
+        <p>不用知识武装自己，怎么有能力与天斗、与地斗、与人斗？</p>
+    </div>
+    <div class="calendar_project_list">
+        
+        <dl class="e_clear" data-id="271124927">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/1de58352-1b24-49f8-8109-e4e060b2dfbd.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="271124927" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>新书资讯</h3>
+                    <p>新书上市资讯、新书出版动态、新书发布信息，包含内容解读、新书定价、作者简介等，并且有新书签售会、新书发布会等活动，为您提供最近新书资讯，是爱书人士必备的阅读指南、购书导航。</p>
+                    <div class="focus_num">3683人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="256681063">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/168e5f8e-5eff-4987-89f3-2ed939cdd91b.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="256681063" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>职场</h3>
+                    <p>分享就业干货，名企招聘信息，职场礼仪，职场励志等，和有志青年一起成长！</p>
+                    <div class="focus_num">43556人关注</div>
+                </div>
+            </dd>
+        </dl>
+       
+        <dl class="e_clear" data-id="253438783">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/444bddd8-cbf7-435f-b843-e93d8998245b.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="253438783" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>国家公务员考试</h3>
+                    <p>每天提供国考知识点练习，及时发布国考新动态，为您的国考之旅保驾护航。</p>
+                    <div class="focus_num">22367人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="252685371">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/237c3177-5a4d-4566-92fc-9106f2583100.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="252685371" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>考研帮</h3>
+                    <p>最新考研资讯，每日一练，英语长难句，数学解题技巧，政治核心考点及考研经验等内容，考研不容错过奥！</p>
+                    <div class="focus_num">17018人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="247190117">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/e7410d2e-5689-45cd-bc83-2f9e143dd625.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="247190117" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>注册会计师考试</h3>
+                    <p>每天都能学一点会计，来尽享每日一讲、各科目考点精讲、疑难解析、历年考题剖析等会计盛宴吧！</p>
+                    <div class="focus_num">46142人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <dl class="e_clear" data-id="171079687">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/311409e4-3092-4e27-b049-a2c06a1de374.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="171079687" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>北京高校讲座</h3>
+                    <p>北京各大学免费讲座、名师授课，欢迎收藏！</p>
+                    <div class="focus_num">200979人关注</div>
+                </div>
+            </dd>
+        </dl>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/js/lib/footer.js?20150122"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+            $('.calendar_project_top_header').hide();
+            $('.calendar_project_top_img').css('padding-top', '0')
+
+            wxProtocol.init({
+                imgUrl: $('.calendar_project_top_img img')[0].src,
+                title: $('.calendar_project_top_header span').html(),
+                desc: $('.calendar_project_info p').html()
+            });
+
+            wxProtocol.initWithAlready({
+                imgUrl: $('.calendar_project_top_img img')[0].src,
+                title: $('.calendar_project_top_header span').html(),
+                desc: $('.calendar_project_info p').html()
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+    })();
+    </script>
+    <script src="/pages/forum/js/func.js"></script>
+    <script src="/pages/forum/js/calendar_project.js"></script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

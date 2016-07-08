@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>淡荡春光寒食天</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/hanshijie/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>寒食节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>李清照有一首词写得非常好，《浣溪沙·淡荡春光寒食天》中：“淡荡春光寒食天。玉炉沈水袅残烟。梦回山枕隐花钿。 海燕未来人斗草，江梅已过柳生绵。黄昏疏雨湿秋千。” 暖风醉人时节。接着词人即把笔触移至室内，一股氤氲氛围笼罩闺中，原来是袅袅香烟弥漫其中，从中似还透着静谧、温馨和淡淡的忧愁，寥寥数句便勾勒出寒食时节的优雅景象。</p>
+            <img src="images/hanshijie/holiday_1.jpg"/>
+          
+
+            <h3>【不止于“寒”】</h3>
+
+            <p>寒食时节作为乍暖还寒之时，就带着几分凄清，所以从古至今许多诗词也都出自寒食节这一天，但是它们却蕴含这不同的感情。韩翃的《寒食》“春城无处不飞花，寒食东风御柳斜。 日暮汉宫传蜡烛，轻烟散入五侯家。” 据孟棨《本事》记载：德宗时制诰缺乏人才，中书省提名请求御批，德宗批复说：“与韩翃”，当时有两个韩翃，于是中书省又以两人的名字同时进呈。德宗便批与写“春城无处不飞花”的韩翃。这虽是一段佳话，但足见《寒食》这首诗的广泛流传和受到的赏识。这是一首讽刺诗，但诗人的笔法巧妙含蓄。从表面上看，似乎只是描绘了一幅寒食节长安城内富于浓郁情味的风俗画。实际上，透过字里行间可感受到作者怀着强烈的不满，对当时权势显赫、作威作福的宦官进行了深刻的讽刺。</p>
+
+            <img src="images/hanshijie/holiday_2.jpg"/>
+
+             <h3>【寒食由来】</h3>
+
+            <p>寒食节是用以纪念春秋时期晋国的名臣义士介子推。传说，晋文公流亡期间，介子推曾经割股为他充饥。晋文公归国为君后，分封群臣时却忘记了介子推。介子推不愿夸功争宠，携老母隐居于绵山。后来晋文公亲自到绵山恭请介子推，介子推不愿为官，躲藏山里。晋文公手下放火焚山，原意是想逼介子推露，结果介子推抱着母亲被烧死在一棵大树下。为了纪念这位忠臣义士，人们在介子推死难之日不生火做饭，吃冷食，称为寒食节。</p>	
+            <img src="images/hanshijie/holiday_3.jpg"/>
+            <img src="images/hanshijie/holiday_4.jpg"/> 		
+
+            <div class="tips">
+                <p>1、寒食食品包括寒食粥、寒食面、寒食浆、青精饭及饧等；寒食供品有面燕、蛇盘兔、枣饼、细稞、神餤等；饮料有春酒、新茶、清泉甘水等数十种之多；</p>
+                <p>2、寒食节古代也叫“禁烟节”，家家禁止生火，都吃冷食。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/Vanna</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

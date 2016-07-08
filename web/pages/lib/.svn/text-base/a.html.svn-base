@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title></title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<script src="//www.365rili.com/js/lib/app.js"></script>
+</head>
+<body style="display:none;">
+    
+    <script>
+    	setTimeout(function () {
+			window.location.href = 'http://www.liveapp.cn/dazzle/index/15974?channel=1&weixin.qq.com=#wechat_webview_type=1/c/a25435,b200635864,c4982,i0,m101,h';
+		},100)
+    </script>
+</body>
+</html>

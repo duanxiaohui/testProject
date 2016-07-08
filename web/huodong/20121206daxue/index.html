@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <title>大雪</title>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
+    </head>
+    <body>
+        <div class="main">
+            <div class="top"></div>
+            <div class="text">
+                <p>“大雪”节气，通常在每年的12月7日(个别年份的6日或8日），其时视太阳到达黄经255度。《月令七十二候集解》说："至此而雪盛也"分享本页内容至腾讯微博，可参与抽奖活动哦。11月25日至12月20日期间，每天每个绑定365日历的QQ号（或腾讯微博帐号）均有10次抽奖机会，分享越多中奖机会越大！</p>
+                <p class="black">一等奖iPhone4（3部）、二等奖无线激光投影虚拟键盘（50个）、三等奖MILI移动电源（100个）、四等奖3G无线路由器（368个）</p>
+                <a class="fixed" id="fixed" href="javascript:qqBtnClick();">分享去腾讯有奖</a>
+            </div>
+        </div>
+<input type="hidden" id="UID" value="">
+<input type="hidden" id="PWD" value="">
+<script type="text/javascript">
+    var userid = null;
+    var password = null;
+    var content = null;
+    var qqDo = false;
+    var sinaDo = false;
+    var androidDo = false;
+    function getUserInfo(){
+        if (/android/i.test(navigator.userAgent)) {
+            userid = AliansBridge.getUserId();
+            password = AliansBridge.getUserPassword();
+        }
+        if (/ipad|iphone|mac/i.test(navigator.userAgent)) {
+            userid = document.getElementById('UID').value;
+            password = document.getElementById('PWD').value;
+        }
+    }
+    
+    function qqBtnClick(){
+        getUserInfo();
+        if (userid == 'null' || !userid) {
+            alert("请登录365账号并绑定腾讯微博！请返回软件操作后重试。");
+        }
+        else {
+            if (qqDo == true) 
+                return false;
+            else 
+                qqDo = true;
+            var txt = '我通过” @365日历 "得知今天“大雪”节气，《月令七十二候集解》说：“至此而雪盛也。”各位亲朋好友记得保暖哦，顺带告诉你们11月25日至12月20日期间，每天10次机会，只要用365日历分享内容到腾讯微博就有机会抽取iPhone4等大奖哦，快来下载365日历试试吧！ http://www.365rili.com';
+            AJAX(
+			'/qt/weiboFromWebView.do', true, 'POST',
+			'content='+txt+'&u='+userid+'&p='+password+'&img=daxue.jpg',
+			 function(result){
+                result = eval("(" + result + ")");
+                if (result.state == "ok") {
+					 alert("微博已经发送成功！");
+				}else{
+					alert("发送失败，是否未登录365账号或未绑定腾讯微博！请返回软件操作后重试。");
+				}
+            });
+        }
+    }
+</script>
+<script type="text/javascript" src="../js/ajax.js"></script>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历--下载应用抽大奖</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<input type="hidden" id="UID" value="">
+<input type="hidden" id="PWD" value="">
+<script type="text/javascript">
+        (function(){
+                var userid = "";
+            if (/android/i.test(navigator.userAgent)) {
+                userid = AliansBridge.getUserId();
+            }
+            if (/ipad|iphone|mac/i.test(navigator.userAgent)) {
+                userid = document.getElementById('UID').value;
+            }
+            if(userid == "")
+                userid = "-1";
+            var redUrl = "";
+            if(location.href.indexOf("redurl=")){
+                redUrl = location.href.split("redurl=")[1];
+            }
+            location.href = "http://plugins.365rili.com/huodong/" + redUrl + "/index.html?userid=" + userid;
+    })();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>登录问题</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="/coco/new_help/css/new_help.css" media="screen" />
+</head>
+<body>
+	<div class="help_main">
+		<div class="hot_pro">
+			<ul>
+				<li data-url="https://shimo.im/doc/cT2P3w0k9FVBnopu">为什么要注册登录？登录的好处是什么？</li>
+				<li data-url="https://shimo.im/doc/1q8kr8pKDikzU6Jk">忘记密码，如何找回？</li>
+				<li data-url="https://shimo.im/doc/feqXIPj00GPQoZFk">使用微信登录的用户，如何在电脑端登录？</li>
+				<li data-url="https://shimo.im/doc/Oc2uxMa1aoRtcIGH">多个手机及电脑可以同时登录一个账号么？</li>
+			</ul>
+		</div>
+	
+	</div>
+	<script src="/js/lib/zepto.min.js"></script>
+	<script src="/js/lib/app.js"></script>
+	<script src="/coco/new_help/js/new_help.js"></script>
+</body>
+</html>

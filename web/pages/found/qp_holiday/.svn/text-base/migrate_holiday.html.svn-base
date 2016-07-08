@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>我要从南走到北，还要从白走到黑</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/migrate_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>我要从南走到北，还要从白走到黑</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>说到“迁徙”这个词，本能的会想起鸟类，这种遵循大自然环境的生存本能反应，在候鸟身上最体现的淋漓尽致。春去秋来，年复一年，为了追寻更舒适的生活而奔波。迁徙行为并不是鸟类所特有的活动，地球上的许多物种，比如某些无脊椎动物，东亚飞蝗、蝴蝶等；爬行类，海龟等；哺乳类，蝙蝠、鲸等都会有迁徙的行为。</p>
+            <img src="/pages/found/qp_holiday/images/migrate_img1.jpg"/>
+            <h3>【人类也需要迁徙吗】</h3>
+            <p>动物的迁徙行为是一种适应现象，凭借这种活动，可以满足它们在特定的生活时期所需要的环境条件，使个体的生存和种族的繁荣得到可靠的保证。而人类，也有这种活动。</p>
+
+            <p class="mt15">一旦发生这种人群的大的迁徙，都预示着一种新的带“革命”性质的事件发生了。比如发生在深圳的上个世纪的“改革开放”，最主要的事件就是人口的大“迁徙”，没有这种迁徙，深圳就不会发生现在这种翻天覆地的变化。又比如“闯关东”，也有近千万的人来到了东三省，他们给中国历史的作用同样不可低估。再是国民党迁都重庆，全国很多青年进军延安等都在中国历史上起了很大的作用，不论是对共产党的发展，还是对国民政府得以延续。</p>
+            <img src="/pages/found/qp_holiday/images/migrate_img2.jpg"/>
+            <h3>【浩浩荡荡的国际迁徙】</h3>
+            <p>菲律宾、泰国、印尼人离乡背井来台湾帮佣；孟加拉人飞到马来西亚工地卖力工作；奈及利亚的民众北渡大漠，至摩洛哥挤上飘摇的破船，横渡波涛险恶的直布罗陀海峡，奔往西班牙与西欧“天堂”；墨西哥劳工爬过美墨漫长的边界；众多国家子民探听移民的资讯……这个世界有一亿五千万的流动人口，有的是为了寻求更好的生活品质及工作待遇，有的只是想得到改善生活的一线曙光。</p>
+
+            <p class="mt15">这些人所引起的问题，往往尖锐而饱富争议，也经常背负著「窃占工作机会，占尽地主国便宜」的指责。</p>
+            <img src="/pages/found/qp_holiday/images/migrate_img3.jpg"/>
+            <h3>【国际迁徙者日】</h3>
+            <p>2000年12月18日，联合国大会考虑到世界上移徙者众多，而且人数日益增加，决定将每年的12月18日定为国际移徙者日。据估计，世界上每35个人当中就有一个移徙者，在祖国之外的另一个国家生活和工作。</p>
+
+            <p class="mt15">迁徙自由是国际人权法的基本内容，在国际人权公约中占有举足轻重的地位。国际间迁徙自由是迁徙自由的一个重要组成部分。迁徙者所创造的工作机会往往比他们拿走的多，所付的税额也可能比耗用的社福资源来得高。这些新来的居民非但没有削弱定居国的国力，反而不断地冲击定居社会的多元文化，让它变得更丰富，更强大！</p>
+
+            <div class="tips">
+                <p>1、每年12月18日，是联合国制定的国际移徙者日，他们是在祖国之外的另一个国家生活和工作的人；</p>
+                <p>2、迁徙者所创造的工作机会往往比他们拿走的多，还会给社会带来新鲜的文化冲击。</p>
+            </div>
+    	</div>
+        <div class="editor">编辑/欢欢</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

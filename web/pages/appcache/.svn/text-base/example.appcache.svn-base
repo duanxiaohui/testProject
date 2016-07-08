@@ -1,0 +1,15 @@
+CACHE MANIFEST
+# v1 2014-07-09
+# updated 
+
+CACHE:
+example/main.html
+
+
+# Use from network if available
+#NETWORK:
+#network.html
+
+# Fallback content
+#FALLBACK:
+#/ fallback.html

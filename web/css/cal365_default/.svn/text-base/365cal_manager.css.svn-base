@@ -1,0 +1,211 @@
+#cal_manager {
+    background-color:#F9F9F9;
+    border-radius: 4px;
+    display:none;
+}
+
+.cal_manage_box{
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DFDFDF;
+	font-family: Arial,Verdana,Helvetica,Sans-Serif;
+    font-size: 12px;
+	/*height:450px;*/
+}
+.cal_manage_content_line{
+	margin:20px 10px 10px 10px;
+	padding:0px;
+}
+.cal_manage_content_label{
+	margin-top:8px;
+	margin-left:10px;
+	padding:0px;
+	width:80px;
+	text-align:right;
+	display:block;
+	float:left;
+}
+.cal_manage_backToCalendar{
+    background: url("/images/cal365_default/back_to_cal.gif") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    float: left;
+    height: 26px;
+    width: 86px;
+}
+.cal_manage_content_input{
+	margin-top:6px;
+	margin-left:20px;
+	padding:0px;
+	height:20px;
+	display:block;
+	float:left;
+}
+.cal_manage_desc_input{
+	margin-top:6px;
+	margin-left:20px;
+	padding:0px;
+	height:60px;
+	display:block;
+	float:left;
+}
+.cal_manage_content_colorbox{
+	margin-top:2px;
+	margin-left:8px;
+	height:16p;
+	width:16px;
+	padding:0px;
+	float:left;
+	cursor:pointer;
+}
+.cal_manage_content_spliter{
+	border-top:1px dashed #cccccc;
+	height: 1px;
+	overflow:hidden;
+	margin:10px
+}
+.cal_manage_content_btn{
+    background: url("/images/cal365_default/todayBtn.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 26px;
+    width: 66px;
+    padding-top: 4px;
+    text-align: center;
+    float:right;
+}
+.cal_manage_content_upbtn{
+    background: url("/images/cal365_default/todayBtn.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 26px;
+    width: 66px;
+    text-align: center;
+    float:left;
+    font-weight:normal;
+    line-height:16px;
+    padding-top:4px;
+}
+.cal_manage_content_sharelistbox{
+	margin-top:0px;
+	margin-left:20px;
+	padding:0px;
+	/*height:320px;*/
+	display:block;
+	float:left;
+	/*overflow:hidden;*/
+}
+.cal_manage_content_shareline{
+	margin:5px 10px 5px 0px;
+	padding:0px;
+	height:30px;
+	width:560px;
+	border-bottom:1px dashed #cccccc;
+}
+.cal_manage_content_sharename{
+	margin-top:8px;
+	padding:0px;
+	width:242px;
+	text-align:left;
+	display:block;
+	float:left;
+}
+.cal_manage_content_sharedelebtn{
+	background:url(/images/cal365/icon_delete.gif);
+	width:9px;
+	height:10px;
+	float:left;
+	margin-top:9px;
+	margin-left:120px;
+	cursor:pointer;
+}
+.cal_manage_content_shareaddbtn{
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #666666;
+    border-color: #CCCC99 #666633 #666633 #CCCC99;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+	float:left;
+	height:16px;
+	margin-top:6px;
+	margin-left:8px;
+	cursor:pointer;
+}
+.cal_manage_content_weibolist{
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #DFDFDF;
+	display:block;
+	position: absolute;
+	z-index: 1999;
+	overflow-y:hidden;
+	overflow-x:hidden;
+}
+.cal_manage_content_weibolistblock{
+	background: none repeat scroll 0 0 #FFFFFF;
+	display:block;
+	position: absolute;
+	z-index: 1999;
+	overflow-y:auto;
+	overflow-x:hidden;
+	width:800px;
+}
+.cal_manage_content_weiboline{
+	margin:5px 10px 5px 0px;
+	padding:0px;
+	height:70px;
+	width:800px;
+	border-bottom:1px dashed #cccccc;
+}
+.cal_manage_content_weiboinfo{
+	margin-top:8px;
+	padding:0px;
+	width:265px;
+	text-align:left;
+	display:block;
+	float:left;
+}
+.cal_manage_content_weibo_profile_image{
+	margin-top:5px;
+	margin-left:20px;
+	width:50px;
+	height:50px;
+	display:block;
+	float:left;
+	cursor:pointer;
+}
+.titleline{
+	margin-top:15px;
+	margin-left:20px;
+	padding:0px;
+	height: 30px; 
+	width:780px;
+	border-bottom:1px dashed #cccccc;
+}
+.title{
+	margin-top:0px;
+	margin-left:300px;
+	padding:0px;
+	height: 30px; 
+	color:#5B5B5B;
+	text-align:left;
+	font-size:14px;
+	font-family:Droid Sans Fallback;
+	font-weight:bold;
+}
+.cal_manage_content_shareline_icon{
+	margin:0px 5px 5px 0px;
+	float:left;
+}
+.cal_manage_content_shareline_icon_2{
+	margin:0px 5px -5px 5px;
+}
+.cal_manage_content_shareline_icon_info{
+	margin:0px 5px 0px 5px;
+}
+.desc_hidden{
+	display: none;
+}

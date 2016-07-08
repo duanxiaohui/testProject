@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>日历</title>
+<link href="style/calendar.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="main" id="bd">
+	<div class="operate_btn">
+		<div class="select_year">
+			<a href="javascript:;" title="后一个月" delta="1" class="next" id="lnk_next"><div class="next_arrow"></div></a>
+			<a href="javascript:;" title="前一个月" delta="-1" class="prev" id="lnk_prev"><div class="prev_arrow"></div></a>
+			<span id="sp_year">2012</span>年<span id="sp_month">12</span>月
+			
+		</div>
+	</div>
+	<div class="calendar_box e_clear">
+		<div class="calendar_bg">
+		<div class="calendar">
+			<ul class="calendar_top e_clear">
+				<li>一</li>
+				<li>二</li>
+				<li>三</li>
+				<li>四</li>
+				<li>五</li>
+				<li class="weekend">六</li>
+				<li class="weekend">日</li>
+			</ul>
+			<ul class="calendar_table js-cld-panel e_clear"></ul>
+		</div>
+		</div>
+	</div>
+	<div class="footer_icon"><a href="http://www.baidu.com/baidu?tn=monline_5_dg&ie=utf-8&wd=%E6%97%A5%E5%8E%86" target="_blank">详细日历</a></div>
+	</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui-1.8.23.custom.min.js"></script>
+<script src="js/calendar.js"></script>
+<script src="js/lunar.js"></script>
+<script src="//www.365rili.com/js/lib/app.js"></script>
+</body>
+</html>

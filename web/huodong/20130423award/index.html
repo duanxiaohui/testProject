@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历--下载应用抽大奖</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+</head>
+<body>
+	<div class="main">
+		<div class="img_box">
+			<div class="img1"></div>
+			<div class="img2"></div>
+			<div class="img3"></div>
+		</div>
+		<div class="txt">
+			<h3>开奖信息：4月26日中奖ID为：XXXXXXXX</h3>
+			<p>请加入QQ群：92767096与管理员联系兑奖事宜。</p>
+		</div>
+		<div class="app">
+			<dl>
+				<dt1></dt1>
+				<dd>
+					<h3>应用宝</h3>
+					<p>高速下海量应用与游戏</p>
+				</dd>
+				<dd class="award_btn">
+					<input id="softid_0"   type="hidden" value="3">
+					<input id="soft_url_0" type="hidden" value="http://misc.wcd.qq.com/app?packageName=com.tencent.android.qqdownloader&channelId=75813">
+					<a href="javascript:void()" class="btn" id="btn" onclick="downloadAPP(0);"></a>
+				</dd>
+			</dl>
+		</div>
+		<div class="app">
+			<dl>
+				<dt2></dt2>
+				<dd>
+					<h3>我查查</h3>
+					<p>扫条码，比价格，辨真假</p>
+				</dd>
+				<dd class="award_btn">
+					<input id="softid_1"   type="hidden" value="4">
+					<input id="soft_url_1" type="hidden" value="http://d2.365rili.com/dl/android/exchange/wcc_5_7_exchange9.apk">
+					<a href="javascript:void()" class="btn" id="btn" onclick="downloadAPP(1);"></a>
+				</dd>
+			</dl>
+		</div>
+		<div class="app">
+			<dl>
+				<dt3></dt3>
+				<dd>
+					<h3>小米桌面</h3>
+					<p>让每台安卓手机，都和小米手机一样简单好用</p>
+				</dd>
+				<dd class="award_btn">
+					<input id="softid_2"   type="hidden" value="5">
+					<input id="soft_url_2" type="hidden" value="http://apkupdate.miui.com/mihome/mihome2_latest/MiHome2_4073_1_android.apk">
+					<a href="javascript:void()" class="btn" id="btn" onclick="downloadAPP(2);"></a>
+				</dd>
+			</dl>
+		</div>
+	</div>
+<script type="text/javascript">
+	var host = "/app/";
+	var userid = "-1";
+	if(location.href.indexOf("userid=")){
+		userid = location.href.split("userid=")[1];
+	}
+    
+	function downloadAPP(index) {
+		var softid = document.getElementById("softid_" + index).value;
+		var redirect_url = document.getElementById("soft_url_" + index).value;
+		var urlAndParams = [ host, "savecode_v2.do?", "userid=", userid, "&softid=", softid ];
+		sendAjaxRequest(urlAndParams.join(''), "GET", function(data) {
+			var rsObj = JSON.parse(data);
+			if (rsObj.state == "ok") {
+				alert("请牢记您的ID：" + rsObj.id + " 密码：" + rsObj.code);
+				location.href = redirect_url;
+			} else {
+				alert("下载失败，请重试！");
+			}
+		});
+	}
+
+	function sendAjaxRequest(url, method, callback) {
+		var xhr = new XMLHttpRequest();
+		xhr.onreadystatechange = function() {
+			if (xhr.readyState == 4 && xhr.status == 200) {
+				callback(xhr.responseText);
+			}
+		};
+		xhr.open(method, url, true);
+		xhr.send();
+	}
+</script>	
+</body>
+</html>

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 张明臣 (vest0804@gamil.com)
+ * @date    2015-04-14 16:30:15
+ * @version 1.0
+ */
+body { background: #f5f4f0; color: #444; font: 12px / 1.5em "Microsoft YaHei", 微软雅黑,SimSun,arial; height: 100%; margin: 0; padding: 0; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+textarea { background: #fff; border: 1px solid #d2d9dc; border-radius: 2px; box-shadow: 0 0 0 #d2d9dc; -moz-transition: .3s ease-in-out; transition-property: border box-shadow; -webkit-transition: .3s ease-in-out; }
+textarea:focus, input[type="text"]:focus { /*border: 1px solid #b7d4ea;*/ box-shadow: 0 0 5px #b7d4ea; }
+a { color: #208de9; cursor: pointer; text-decoration: none; }
+html{height:100%;}
+
+body{background:#2b2357 url(../images/bg.jpg) no-repeat; background-size:100% auto;}
+
+.none{display:none;}
+.main{padding-top:268px;}
+.jihe{margin:40px auto 0; }
+.prize{width:275px; height:128px;margin: 0 auto; background:url(../images/canvas_bg.png) no-repeat; background-size:100% 100%; }
+
+.active_info_btn{position:absolute; width:145px; height:40px; line-height:40px; text-align:center; color:#fd4f68; bottom:20px; left:50%; margin-left:-72px; color:#ce8035; font-size:16px; -webkit-border-radius:5px; border-radius:5px;}
+
+.canvas{width:174px; height:90px; top:17px; left:18px; background:#e0e0e0; position:relative;}
+.input_tel{ width:310px; margin:0 auto;}
+.input_tel h3{width:100%; height:30px; line-height:30px; text-align:center; color:#fff; font-size:16px;}
+.input_div{ padding:15px 20px;}
+.input_div input{float:left;width:75%; border:1px solid #ffdb42; padding:8px 2%; height:22px; outline:none}
+.submit_btn{float:left; width:20%; height:40px; line-height:40px; text-align:center; color:#fff; font-size:14px; background:#ffdb42;}
+
+.submit_suc{width:310px; margin:0 auto;}
+.submit_suc h3{width:100%; height:30px; line-height:30px; text-align:center; color:#fff;}
+.submit_suc_div{ text-align:center; padding:10px 0; font-size:14px; color:#fff;}
+
+.active_info{width:310px; margin:0 auto;}
+.active_info h3{width:100%; height:30px; line-height:30px; text-align:center; color:#393636; text-indent:-15px; font-size:20px; color:#fff;}
+.back_btn{display:block; font-size:16px; text-align:center; color:#ce8035; width:100%; margin-top:10px;}
+.active_info_div{padding:20px 5px;line-height:180%;}
+.active_info_div p{padding-left:25px; text-indent:-25px; color:#cecae4; font-size:16px; line-height:150%; margin-bottom:5px;}
+
+.canvas_layer{position:absolute; width:174px; height:90px; top:0; left:0; background:url(../images/canvas_mask.jpg) no-repeat; background-size:100% 100%;}
+.money_div{width:88px; height:28px; background:url(../images/money_icon.png) no-repeat; background-size:100% auto; position:absolute; bottom:70px; left:50%; margin-left:-44px;}

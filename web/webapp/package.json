@@ -1,0 +1,10 @@
+{
+  "family": "webapp",
+  "name": "main",
+  "version": "1.0.0",
+  "spm": {
+    "alias": {
+    },
+    "output": ["qqgroup.js", "qzone.js"]
+  }
+}

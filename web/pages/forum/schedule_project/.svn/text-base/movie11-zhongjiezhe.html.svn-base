@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>终结者：创世纪</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">终结者：创世纪</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/196d2a7d-9a24-47b0-b8c9-87c5fcd2dbb9.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	<a href="http://v.ifeng.com/vblog/news/201412/37e16bf8-dd4b-4c96-8990-2f258a7df68f.shtml" data-title="查看预告片" class="btn js-other">查看预告片</a>
+	    	<h3 class="time">上映时间：2015年7月1日（美国）</h3>
+			<p> </p>
+	    	<h3>导演：林诣彬</h3>
+			<p class="fc_000">主演：阿诺德·施瓦辛格</p>
+			<h3>剧情：</h3>
+			<p>科幻电影《终结者5》将构建一个变形机器人血腥与暴力的场面（R级片）。电影中，无论是有情感的机器人还是冰冷的高智商机械杀手，都让人们在憧憬未来科技进步的同时，对“人工智能”产生了一丝恐惧。这就使一些人担心，未来某一天，过度聪明的机器人可能给人类带来难以预见的危害，尤其是安装了人工智能系统的机器人，将来是否会在智能上超越人类，以至对就业造成影响，甚或威胁人类的生命财产？就像科幻电影中所描绘的：智能机器人在越来越多的领域取代了人类，最终站到了人类的对立面，由帮手变成了仇敌。</p>
+			<!--h3是小标题-->
+			<h3>看点：</h3>
+			<!--p是段落文字描述-->
+			<p>施瓦辛格做了8年加州州长，上任前最后一部力作正是《终结者3》。如今退出政坛回归好莱坞，施瓦辛格已接了不少片约，但都无法与让其成为巨星的“终结者”系列相提并论。尽管施爷已67岁“高龄”，他依然是观众心目中最棒的“终结者”。而导演亲口说，他希望让女主角莎拉·康纳在第五部终结者中复活！韩星李秉宪也确定加盟，饰演超级战斗机器人T-1000而且戏份较大。此外，还有《速度与激情》的“巨石”道恩·强森正在商谈加盟。星光熠熠的卡司阵容已是亮瞎人眼。值得一提的是，《终结者5》影片评级被定为R级即限制级。主要是因为影片中将会有超越前几部作品的血腥与暴力场面，据片方称将会把场景打造成“精彩绝伦的人间炼狱”。一旦上了限制级，总会让影迷好奇心和期待感爆棚，所谓越限制越渴望，想必此片票房不会差。</p>
+    	<img src="http://cocoimg.365rili.com/schedule_pics/default/bbd93b7d-219d-44b0-8f36-9bdf5ffde707.jpg"/>
+		<img src="http://cocoimg.365rili.com/schedule_pics/default/68183690-c074-459a-9524-1b4eeb830afa.jpg"/>
+		 <div class="remind_div none" data-uuid="4e0b87d7-73ef-47ed-9069-5060d1f79f57" data-cid="125821987"><div class="remind_icon"></div><span>添加提醒</span></div>
+		</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/50d0dee2-e27d-49f6-9943-073a3a53fba3.jpg',
+                title: '电影：终结者：创世纪',
+                desc: '《终结者：创世纪》由阿诺德·施瓦辛格再次回归担纲主演。影片将于2015年07月01日正式上映。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '电影：终结者：创世纪',
+		        				content: '《终结者：创世纪》由阿诺德·施瓦辛格再次回归担纲主演。影片将于2015年07月01日正式上映。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/50d0dee2-e27d-49f6-9943-073a3a53fba3.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

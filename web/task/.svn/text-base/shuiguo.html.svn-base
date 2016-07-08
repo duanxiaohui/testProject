@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<!-- |||||||||||||||||下面这个是页面标题，必须修改||||||||||||||||| -->
+<title>果蔬是成为男神女神的催化剂</title>
+<!-- |||||||||||||||||上面这个是页面标题，必须修改||||||||||||||||| -->
+
+<meta name="format-detection" content="telephone=no">
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<script>document.documentElement.style.webkitUserSelect='none';document.documentElement.style.webkitTouchCallout='none';</script>
+<link rel="stylesheet" href="http://www.365rili.com/pages/ui-lib/css/ui-lib.css">
+<link href="http://www.365rili.com/task/style/main.css" rel="stylesheet">
+</head>
+<body>
+	<div class="main">
+
+		<div class="contain">
+
+			
+			<!-- 正文段落 -->
+
+			<p>生活水平越来越好，对于有着美食传统的我们来说，也都是更喜欢将味蕾贡献给充满着诱惑气息的大鱼大肉和零食小吃。不吃青菜、讨厌喝水、水果总是没有水果味的零食好吃，挑剔的味觉使得果蔬不再那么诱人。久而久之，果蔬就被冷落了。</p>
+			
+
+			<!-- 图片 -->
+			<img src="images/shuiguo_1.jpg" width="100%" alt="">
+			
+			<!-- 正文段落 -->
+			
+
+			<!-- 正文段落 -->
+			<p>但是果蔬可是好身体的催化剂啊！果蔬中含有许多纤维素，虽然纤维素不能被人体吸收，但是它却是排毒养颜的优秀材料；果蔬中含有大量的维生素群，是人体生长的重要材料之一；此外，果蔬因为其轻负量，可以有效地促进肠胃蠕动，调整血液品质及身体体质；最重要的一点，果蔬的热量很低，相较于高热量的肉类及零食，果蔬更能给人带来饱腹感。</p>
+			<img src="images/shuiguo_2.jpg" width="100%" alt="">
+			
+			<p>微博中的男神女神们都在健康饮食保证自己的帅气与丽质，你难道还要在高热量食品中继续沉溺下去吗？</p>
+
+
+		</div>
+
+		<!-- +++++++++++++++++下面的这个只能在下面这里粘贴，不能放到上面去+++++++++++++++++ -->
+		
+		<!-- 任务详情 -->
+		<div class="detail">
+			任务详情：添加任务后，365日历会为您添加日程，每天提醒您吃果蔬。您可以自己设置提醒时间。
+		</div>
+
+		<!-- 
+			以下形式的随便删，随便加：
+				1： <img src="images/demo1.jpg" width="100%" alt="">
+				2： <p>当你刚学会说话的时候，他们一整天都在教你说话，不厌其烦。</p>
+				3:  <div class="detail">
+						任务详情：添加任务后，365日历会为您添加日程，每周固定时间提醒您给爸妈打电话。您可以自己设置提醒时间。
+					</div>
+
+			其他的必须留着，而且不允许修改！！
+
+			图片地址编写方式：
+				images/图片名称.jpg
+
+			在页面所在文件夹里放一个images文件夹
+		 -->
+
+	</div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/app.js"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script src="http://www.365rili.com/task/js/task.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>要想富，少生孩子多种树</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/planted_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>要想富，少生孩子多种树</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>改革开放后，全民掀起致富热潮，在各个农村的砖墙上经常看到这样的标语：要想富，少生孩子多种树/多养猪/先修路……养猪可以卖钱，交通顺畅了可以带动经济发展，那么种树为什么会致富呢？小编左思右想，上网查了大量资料，得出的结论是：为了环保和押韵，和致富大概没什么关系。</p>
+            <img src="/pages/found/qp_holiday/images/planted_img1.jpg"/>
+            <h3>【不种树不许结婚】</h3>
+            <p>有这样一个地方，要结婚的准新人们要多履行一个结婚“承诺”：他们在结婚前必须得先种植由当地政府提供的十株树苗，为减缓森林覆盖面积迅速减少出一份力，完成之后才可领取结婚证。</p>
+
+            <p class="mt15">这个地方就是位于印尼苏拉威西岛的哥伦达罗省。这样的措施并不会影响新人们登记结婚的计划，他们也为改善环境做出贡献而认为这个婚结得更有价值了。去年近900对新人在哥伦达罗宗教事务局领了树苗，组建了幸福的家庭。</p>
+            <img src="/pages/found/qp_holiday/images/planted_img2.jpg"/>
+            <h3>【跟着老大去种树】</h3>
+            <p>每年的12月是印尼植树月，为了减缓全球气候变化的效应总统苏西洛曾在西爪省茂物县“印尼和平与安全中心”红白岭领导种植10亿棵树。由于非法砍伐、采矿、开辟新油棕园及烧芭活动泛滥，印尼已成为全世界森林覆盖率下降速度最快的国家之一。其中森林采伐导致的婆罗洲岛大片森林消失，其面积甚至相当于一些欧洲国家的国土面积，但采伐活动仍在继续。</p>
+
+            <p class="mt15">种树有多好，需要老大来领导？</p>
+            <img src="/pages/found/qp_holiday/images/planted_img3.jpg"/>
+            <h3>【想跟雾霾说再见】</h3>
+            <p>12月7日晚，北京市空气重污染应急指挥部发布空气重污染红色预警，全市从8日7时至10日12时启动最高预警等级。这是北京自2013年《北京市空气重污染应急预案》通过以来首次启动红色预警。</p>
+
+            <p class="mt15">植树与治霾究竟能扯上多大关系？专家说，正在研究森林对PM2.5等颗粒物的调控功能，在科学的定量监测数据出来之前，森林对于治霾的作用，更多的还是拦截、吸附、过滤的作用，这跟防护林抵御风沙的作用大致是相似的，严格地说，植物对PM2.5的调控，就是一种滞尘作用。种树植绿就是增加森林植被的体量，提高滞尘作用，当然，也就提高了森林植被调控PM2.5的能力。</p>
+
+            <p class="mt15">其实，无论是专家学者，还是普通民众，都一直将森林称之为“地球之肺”，把森林植被誉为“天然除尘器”、“氧气制造厂”，由此也可以看出，植树绿化与治理雾霾不仅能扯上关系，而且还能扯上比较大的关系。从眼前的现实和切身的感受来看，植树造林的意义远不止绿化家园、美化河山那么简单，更关系到人们的身心健康与未来福祉。</p>
+
+            <div class="tips">
+                <p>1、每年12月是印尼植树月，在印尼的哥伦达罗省，新人们要先种树才能结婚；</p>
+                <p>2、多种树-环境好-心情棒-工作卖力-经济发展，这大概就是要想富先种树的逻辑吧~</p>
+            </div>
+    	</div>
+        <div class="editor">编辑/欢欢</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

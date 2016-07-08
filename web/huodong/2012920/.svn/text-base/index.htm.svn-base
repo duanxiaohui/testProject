@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>365日历</title>
+<link type="text/css" rel="Stylesheet" href="css/index.css" />
+<link type="text/css" rel="Stylesheet" href="css/active.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+</head>
+<body>
+<div class="rili_365">
+	<div class="auto">
+		<img src="img/bg.jpg" usemap="#map" style="float:left;" />
+		<map name="map" id="map" style="float:left; cursor:pointer">
+		  <area shape="rect" coords="170,385,305,424" href="javascript:qqBtnClick()" id="qqBtn" />
+			<area shape="rect" coords="14,385,149,424" href="javascript:sinaBtnClick()" id="sinaBtn" />
+		</map>
+	</div>
+</div>
+
+<input type="hidden" id="UID" value="">
+<input type="hidden" id="PWD" value="">
+
+<script type="text/javascript">
+	
+	var userid = null;
+	var password = null;
+	
+	function getUserInfo()
+	{
+		if (/android/i.test(navigator.userAgent))
+		{
+			userid = AliansBridge.getUserId();
+			password = AliansBridge.getUserPassword();
+		}
+		if (/ipad|iphone|mac/i.test(navigator.userAgent)){
+			userid = document.getElementById('UID').value;
+			password = document.getElementById('PWD').value;
+		}
+	}
+	
+	function qqBtnClick(){
+		getUserInfo();
+		if(userid=='null'||!userid)
+		{
+			alert("您的365日历版本暂不支持发微博，请升级到最新版");
+		}
+		else
+		{
+
+			AJAX(
+				'/qt/weiboFromWebView.do', true, 'POST', 
+				'content=今天是全国第24个爱牙日，@365日历 提醒大家关爱牙齿哦。&u='+userid+'&p='+password+'&img=aiya', 
+				function (result) {
+					result = eval("("+result+")");
+					if(result.state == "ok")alert("微博已经发送成功！");
+					else alert("发送失败，是否未登录365账号或未绑定腾讯微博！请返回软件操作后重试。");
+			});
+		}
+	}
+	function sinaBtnClick(){
+		getUserInfo();
+		if(userid=='null'||!userid)
+		{
+			alert("您的365日历版本暂不支持发微博，请升级到最新版");
+		}
+		else
+		{
+			AJAX(
+				'/weibo/statusFromWebView.do', true, 'POST', 
+				'content=今天是全国第24个爱牙日，@365日历 提醒大家关爱牙齿哦。&u='+userid+'&p='+password+'&img=aiya', 
+				function (result) {
+					result = eval("("+result+")");
+					if(result.state == "ok")alert("微博已经发送成功！");
+					else alert("发送失败，是否未登录365账号或未绑定新浪微博！请返回软件操作后重试。");
+			});
+			
+		}
+	}
+	
+</script>
+</body>
+<script type="text/javascript" src="js/ajax.js"></script>
+
+</html>

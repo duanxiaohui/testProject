@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>龙岗首个户外大型动漫亲子嘉年华</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <div class="bar_txt">龙岗首个户外大型动漫亲子嘉年华</div>
+    </div>
+    <div class="main">
+    	<div class="main_content">
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/a929a747-8f9f-4520-81f6-a074826a9357.jpg"/>
+            <a class="btn js-subscribe" data-uuid="c0c0ce30-1def-4e18-bb16-96f73a5fde13" data-cid="148162975">添加到我的日历</a>
+	    	<h3 class="time">活动时间：2015年1月31-2月15日每天10:00-21:30(连续16天)</h3>
+            <p></p>
+            <h3 class="address">活动地点：龙岗星河COCO Park外广场</h3>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/4365933f-0e1d-480f-8376-fbab63c323b3.jpg"/>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/ca71a3a0-f424-47fe-b397-aed71b106ae6.jpg"/>
+			<h3>活动简介：</h3>
+			<p>龙岗首个户外大型动漫嘉年华将完美接力小朋友们的寒假！1月31日-2月15日，龙岗首个户外大型动漫嘉年华——童趣欢乐世界在龙岗星河COCO Park外广场举行！</p>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/d6078c00-df3b-47c8-89c5-7a2fab27c4a8.jpg"/>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/2e1db70e-4a08-46d7-b484-87c653b4dd7c.jpg"/>
+            <p>这可是龙岗首个大型户外体验式动漫主题儿童乐园，融合人气最旺的动漫游乐项目，立体还原神奇浪漫的童心童趣游乐天堂，共设有8大主题共24个游乐项目。</p>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/74233d9d-fade-41a3-806f-a468a98ec413.jpg"/>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/80f421bf-80b8-418f-a973-7310bb39ddac.jpg"/>
+            <p>活动内容可谓丰富至极！梦幻城堡，飞碟蹦床，体验童话般的感觉；机械怪大型滑梯等期待孩子们发挥勇气一起挑战，同时需要耐心和智慧；灌篮高手，足球小子……现场将设体育竞技项目，高手云集精彩无限，面对强手，除了和其他孩子竞争，还需要不断战胜自己！届时还有动漫明星将来到现场与小朋友们亲密接触！这是勇敢孩子的游戏，在这充满了挑战、竞争、童话的童趣欢乐世界里，孩子的寒假定将梦幻好玩乐趣多！</p>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/d30927a4-b1db-445c-864c-0931eb09f6b7.jpg"/>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/37178872-467a-45f6-9e59-18a5eb708e71.jpg"/>
+            <div class="remind_div none" data-uuid="c0c0ce30-1def-4e18-bb16-96f73a5fde13" data-cid="148162975"><div class="remind_icon"></div><span>添加提醒</span></div>           
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/a929a747-8f9f-4520-81f6-a074826a9357.jpg',
+                title: '深圳动漫亲子嘉年华',
+                desc: '龙岗首个大型户外体验式动漫亲子嘉年华，完美接力小朋友们的寒假！还原神奇浪漫的童心童趣游乐天堂~'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '深圳动漫亲子嘉年华',
+		        				content: '龙岗首个大型户外体验式动漫亲子嘉年华，完美接力小朋友们的寒假！还原神奇浪漫的童心童趣游乐天堂~',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/a929a747-8f9f-4520-81f6-a074826a9357.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

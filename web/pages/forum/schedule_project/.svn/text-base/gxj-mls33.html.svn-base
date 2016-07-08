@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015海口国际沙滩马拉松</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015海口国际沙滩马拉松</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/0cf21ec9-743b-4ef4-88f4-6b86f03d5dd7.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+			  <a class="btn js-subscribe" data-uuid="55bd0aca-51b0-4931-918c-7f6c0f3e8178" data-cid="147514789">添加提醒</a>
+	    	
+	    	<p class="time">
+
+
+<b>比赛时间：2015年11月22日
+</b></br>
+
+	    	<b>比赛地点：海南海口</b></br><b>类型：全马　
+
+</b></br>
+
+
+			</p>
+			<h3>活动介绍：</h3>
+			<p>海口国际沙滩马拉松是亚洲规模最大、中国首创的沙滩马拉松赛事，由中国田径协会、海南省文化广电出版体育厅、海口市人民政府联合主办。</br>
+			</br>不同于公路马拉松的是，沙滩马拉松的起跑时间将安排在傍晚，意在让选手们在感受赤足在沙滩奔跑的同时，享受夕阳下的海滨美景。除正规赛程以外，还将有丰富的周边活动组成一场激情狂欢的沙滩嘉年华。
+</p> 
+			<!--h3是小标题-->
+			<h3>
+</h3>
+			<!--p是段落文字描述-->
+			<p>
+具体详情以官网信息为准
+</p>
+
+<img src="http://cocoimg.365rili.com/schedule_pics/default/1c145386-00fa-4ea6-939c-b33a06ed8865.jpg"/>
+<a href="http://www.haikoubm.com/" class="btn js-other">详见官网</a>
+		
+			 <div class="remind_div" data-uuid="55bd0aca-51b0-4931-918c-7f6c0f3e8178" data-cid="147514789"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/0cf21ec9-743b-4ef4-88f4-6b86f03d5dd7.jpg',
+                title: '2015海口国际沙滩马拉松',
+                desc: '海口国际沙滩马拉松是亚洲规模最大、中国首创的沙滩马拉松赛事，由中国田径协会、海南省文化广电出版体育厅、海口市人民政府联合主办。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'shareTo',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015海口国际沙滩马拉松',
+		        				content: '海口国际沙滩马拉松是亚洲规模最大、中国首创的沙滩马拉松赛事，由中国田径协会、海南省文化广电出版体育厅、海口市人民政府联合主办。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/0cf21ec9-743b-4ef4-88f4-6b86f03d5dd7.jpg',
+		        				isEvent: false
+		        			})
+		        		},
+		        		{
+		        			name: 'channel',
+		        			value: 'wx'
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

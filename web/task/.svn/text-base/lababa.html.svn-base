@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<!-- |||||||||||||||||下面这个是页面标题，必须修改||||||||||||||||| -->
+<title>今天你屎了吗</title>
+<!-- |||||||||||||||||上面这个是页面标题，必须修改||||||||||||||||| -->
+
+<meta name="format-detection" content="telephone=no">
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<script>document.documentElement.style.webkitUserSelect='none';document.documentElement.style.webkitTouchCallout='none';</script>
+<link rel="stylesheet" href="http://www.365rili.com/pages/ui-lib/css/ui-lib.css">
+<link href="http://www.365rili.com/task/style/main.css" rel="stylesheet">
+</head>
+<body>
+	<div class="main">
+
+		<div class="contain">
+
+			
+			<!-- 正文段落 -->
+
+			<p>大便这件小事说到底是很私密的。有人在享用美食时拍照晒朋友圈说“这道菜的味道真的很别致”，却没有人在拉粑粑后晒朋友圈说“今天的粑粑造型很别致”。至于一天拉几次、每次量多少这种话题，更是达到了禁忌级别。所以，你拉粑粑真的拉对了吗？</p>
+			
+			<p>一般来说，保持规律的每天1次排便是比较理想的。从时间上说，一天24小时对人体而言是一个时间节律周期，养成每天定时的排便习惯，会使排便成为身体一种周期性、节律性的机能，从而使排便成为轻而易举、自然而然就能完成的事情。</p>
+
+			<!-- 图片 -->
+			<img src="images/lashi_1.jpg" width="100%" alt="">
+			
+			<!-- 正文段落 -->
+			
+
+			<!-- 正文段落 -->
+			<p>长期不排便的危害也是很大的，一天不排便就相当于吸三包烟！肠道代谢物不及时排出，毒素积聚一定数量会对身体造成像尼古丁一样的伤害；粪便积聚太久会变硬，有划破肠道的风险……</p>
+
+			
+			<p>每天定时排便益处多多，还能治便秘呢！从今天起，定时排便吧，健康身体，全身轻松！</p>
+
+
+		</div>
+
+		<!-- +++++++++++++++++下面的这个只能在下面这里粘贴，不能放到上面去+++++++++++++++++ -->
+		
+		<!-- 任务详情 -->
+		<div class="detail">
+			任务详情：添加任务后，365日历会为您添加日程，每天固定时间提醒您排便。您可以自己设置提醒时间。
+		</div>
+
+		<!-- 
+			以下形式的随便删，随便加：
+				1： <img src="images/demo1.jpg" width="100%" alt="">
+				2： <p>当你刚学会说话的时候，他们一整天都在教你说话，不厌其烦。</p>
+				3:  <div class="detail">
+						任务详情：添加任务后，365日历会为您添加日程，每周固定时间提醒您给爸妈打电话。您可以自己设置提醒时间。
+					</div>
+
+			其他的必须留着，而且不允许修改！！
+
+			图片地址编写方式：
+				images/图片名称.jpg
+
+			在页面所在文件夹里放一个images文件夹
+		 -->
+
+	</div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/app.js"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script src="http://www.365rili.com/task/js/task.js"></script>
+</body>
+</html>

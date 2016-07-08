@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="gbk" ?>
+
+<DOCUMENT>
+<item>
+	<key>2014年放假安排</key>
+	<display>
+		<url>http://baidu365.duapp.com/wannianlibaidu/wap/wnl.html</url>
+		<ziyuanfang>365日历</ziyuanfang>
+		<xiujia>
+			<date>2014-01-01</date>
+			<days>3</days>
+		</xiujia>
+		<xiujia>
+			<date>2014-01-31</date>
+			<days>3</days>
+		</xiujia>
+		<xiujia>
+			<date>2014-04-05</date>
+			<days>3</days>
+		</xiujia>
+		<xiujia>
+			<date>2014-04-05</date>
+			<days>3</days>
+		</xiujia>
+		<xiujia>
+			<date>2014-05-01</date>
+			<days>3</days>
+		</xiujia>
+		<xiujia>
+			<date>2014-05-01</date>
+			<days>3</days>
+		</xiujia>
+		<xiujia>
+			<date>2014-05-31</date>
+			<days>3</days>
+		</xiujia>
+		<xiujia>
+			<date>2014-09-06</date>
+			<days>3</days>
+		</xiujia>
+		<xiujia>
+			<date>2014-10-01</date>
+			<days>7</days>
+		</xiujia>
+		
+		<shangban>
+			<date>2014-01-08</date>
+			<days>1</days>
+		</shangban>
+		<shangban>
+			<date>2014-01-26</date>
+			<days>1</days>
+		</shangban>
+		<shangban>
+			<date>2014-02-08</date>
+			<days>1</days>
+		</shangban>
+		<shangban>
+			<date>2014-05-04</date>
+			<days>1</days>
+		</shangban>
+		<shangban>
+			<date>2014-09-28</date>
+			<days>1</days>
+		</shangban>
+		<jieri>
+			<date>2014-01-01</date>
+			<name>元旦</name>
+		</jieri>	
+		<jieri>
+			<date>2014-01-30</date>
+			<name>除夕</name>
+		</jieri>
+		<jieri>
+			<date>2014-01-31</date>
+			<name>春节</name>
+		</jieri>
+		<jieri>
+			<date>2014-02-02</date>
+			<name>世界湿地日</name>
+		</jieri>
+		<jieri>
+			<date>2014-02-14</date>
+			<name>元宵节</name>
+		</jieri>
+		<jieri>
+			<date>2014-02-14</date>
+			<name>情人节</name>
+		</jieri>	
+		<jieri>
+			<date>2014-03-02</date>
+			<name>龙抬头</name>
+		</jieri>
+		<jieri>
+			<date>2014-03-08</date>
+			<name>妇女节</name>
+		</jieri>
+		<jieri>
+			<date>2014-03-12</date>
+			<name>植树节</name>
+		</jieri>
+		<jieri>
+			<date>2014-04-01</date>
+			<name>愚人节</name>
+		</jieri>
+		<jieri>
+			<date>2014-04-05</date>
+			<name>清明节</name>
+		</jieri>
+		<jieri>
+			<date>2014-04-22</date>
+			<name>地球日</name>
+		</jieri>
+		<jieri>
+			<date>2014-05-01</date>
+			<name>劳动节</name>
+		</jieri>
+		<jieri>
+			<date>2014-05-04</date>
+			<name>青年节</name>
+		</jieri>
+		<jieri>
+			<date>2014-05-11</date>
+			<name>母亲节</name>
+		</jieri>
+		<jieri>
+			<date>2014-05-11</date>
+			<name>母亲节</name>
+		</jieri>
+		<jieri>
+			<date>2014-05-31</date>
+			<name>无烟日</name>
+		</jieri>
+		<jieri>
+			<date>2014-06-01</date>
+			<name>儿童节</name>
+		</jieri>
+		<jieri>
+			<date>2014-06-02</date>
+			<name>端午节</name>
+		</jieri>
+		<jieri>
+			<date>2014-06-06</date>
+			<name>爱眼日</name>
+		</jieri>
+		<jieri>
+			<date>2014-06-15</date>
+			<name>父亲节</name>
+		</jieri>
+		<jieri>
+			<date>2014-07-01</date>
+			<name>建党日</name>
+		</jieri>
+		<jieri>
+			<date>2014-07-07</date>
+			<name>抗战纪念日</name>
+		</jieri>	
+		<jieri>
+			<date>2014-08-01</date>
+			<name>建军节</name>
+		</jieri>
+		<jieri>
+			<date>2014-08-02</date>
+			<name>七夕</name>
+		</jieri>
+		<jieri>
+			<date>2014-08-10</date>
+			<name>中元节</name>
+		</jieri>
+		<jieri>
+			<date>2014-09-08</date>
+			<name>中秋节</name>
+		</jieri>
+		<jieri>
+			<date>2014-09-10</date>
+			<name>教师节</name>
+		</jieri>
+		<jieri>
+			<date>2014-09-10</date>
+			<name>九·一八事变纪念日</name>
+		</jieri>
+		<jieri>
+			<date>2014-10-01</date>
+			<name>国庆节</name>
+		</jieri>	
+		<jieri>
+			<date>2014-10-02</date>
+			<name>重阳节</name>
+		</jieri>	
+		<jieri>
+			<date>2014-10-31</date>
+			<name>万圣节</name>
+		</jieri>
+		<jieri>
+			<date>2014-11-11</date>
+			<name>光棍节</name>
+		</jieri>
+		<jieri>
+			<date>2014-11-22</date>
+			<name>寒衣节</name>
+		</jieri>
+		<jieri>
+			<date>2014-11-27</date>
+			<name>感恩节</name>
+		</jieri>
+		<jieri>
+			<date>2014-12-01</date>
+			<name>艾滋病日</name>
+		</jieri>
+		<jieri>
+			<date>2014-12-06</date>
+			<name>下元节</name>
+		</jieri>
+		<jieri>
+			<date>2014-12-13</date>
+			<name>南京大屠杀纪念日</name>
+		</jieri>
+		<jieri>
+			<date>2014-12-24</date>
+			<name>平安夜</name>
+		</jieri>
+		<jieri>
+			<date>2014-12-25</date>
+			<name>圣诞节</name>
+		</jieri>
+
+	</display>
+</item>
+</DOCUMENT>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

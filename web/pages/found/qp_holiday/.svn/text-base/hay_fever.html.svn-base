@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>不喜欢春天的一百万个理由</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/hay_fever/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>花粉症日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>春天是一个美好的季节，大地回春、万物复苏。沉睡了一整个冬天的花草树木都醒来了，它们伸展四肢、绽放笑脸，肆意的把这个世界途上明媚的色彩。这个时候，日本很多人要“遭殃”了：大好春色，满园的绿肥红瘦，踏青当然是最好的选择。但是！大批大批的日本人对花粉都过敏！花粉症本来是个别敏感体质的人才容易患的病，然而在日本却成为全民公敌——据调查，日本全国大约有2成以上的人都患有花粉症。</p>
+            <h3>【春天啊，你居然这么恐怖】</h3>
+            <p>上世纪60年代，日本为提高国家绿化水平，人工种植了大量易于存活的杉树和扁柏，浩浩荡荡的人工造林使得祖国山河一片绿意盎然。</p>
+            <img src="images/hay_fever/holiday_1.jpg"/>
+            <p>但是这件事造成了一个意想不到的后果：日本从此多了一项国民病——现在日本全国有一大波人被花粉症折磨。一到花粉飘散的3月份起，患者就会出现过敏性鼻炎和过敏性哮喘。不停咳嗽、连续喷嚏、大量流鼻涕、鼻塞，许多人耳朵、眼镜、咽喉都会发生痒痛、红肿，苦不堪言。虽然不至于威胁生命，但是会每年发作，这使得本来万物复苏、阳光灿烂的春天变成了一个恐怖的季节。影响范围广、时间长，人们甚至把3月7号定为了花粉症日。</p>
+            <h3>【全民出动抗击花粉】</h3>
+            <p>在花粉飘散前半个月左右，日本环境省会牵头公布每日增加的花粉浓度。从3月起，天气预报上都会加上花粉飘散的信息，提醒人们注意防范，市面上更是出现了许多新奇的产品。</p>
+            <img src="images/hay_fever/holiday_2.jpg"/>
+            <p>最基本的装备就是口罩，大小、厚薄、颜色各异，从地摊到商场均有销售。为了配合化妆女性需要，很多商店还推出了不花妆的神奇“美丽口罩”。眼镜店也适时上架各类造型各异的防花粉眼镜，眼周全部被包裹起来，防止花粉掉入眼睛引起过敏。室内家居生活也难免受到无孔不入的花粉的影响，不过有花粉过滤器帮忙！看着架势，仿佛回到了雾霾肆虐的时节，心中莫名涌出一股同情！</p>
+            <h3>【花粉为何遭到无底线纵容】</h3>
+            <p>对于如此规模的国民病，日本从政府到个人都费心尽力和花粉症斗智斗勇、屡出奇招，为什么却不愿从致病源着手，干脆砍掉杉树彻底解决问题呢？</p>
+            <img src="images/hay_fever/holiday_3.jpg"/>
+            <p>这其中有许多原因。二战后日本大片国土沦为焦土，战后经过整整一代人的努力才终于靠着杉树、扁柏等植物重新建设了新日本，所以许多日本人对这些植物是有着深厚感情的。日本人工造林面积占森林总面积的4成以上，其中又有近2成都是容易导致花粉症的品种，数量巨大，伐木并不是明智之举。而且树木在防止水土流失、吸收二氧化碳、预防全球变暖等环保方面发挥着很大的作用。所以日本人只能委屈自己、成全树木了……</p>		
+
+            <div class="tips">
+                <p>1、每年春天是日本国内花粉症高发的季节，人们甚至将3月7日定为了花粉症日；</p>
+                <p>2、日本对待造成他们花粉症的植物的宽容发人深省，如果世界上连一滴干净的水、一口干净的空气都没有，那么科技带来的便利或许也将失去意义。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

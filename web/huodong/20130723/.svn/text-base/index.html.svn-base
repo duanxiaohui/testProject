@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历--安卓优化大师</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+</head>
+<body>
+	<div class="main">
+		<div class="top"></div>
+		<div class="text">
+			<p>安卓优化大师，超过一亿人使用的优化工具，让手机更快更干净。提供全方位的优化服务，有效解决手机系统、应用问题。系统优化、手机加速、垃圾清理、骚扰拦截、应用管理、广告检测、流量管理，功能全面！</p>
+		</div>
+		<a href="http://dl.dianxinos.com/s/doss/apk/365date/365date-5cVe2Kh8Jha8ImBY-cn.opda.a.phonoalbumshoushou-733.apk" class="btn">下载安卓优化大师</a>
+	</div>
+</body>
+</html>

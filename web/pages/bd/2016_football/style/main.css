@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 张明臣 (vest0804@gamil.com)
+ * @date    2016-05-31 11:04:05
+ * @version 1.0
+ */
+
+.football_tabs_nav{height:26px; padding:12px 0;}
+.football_tabs_nav li{width:75px; height:26px; text-align:center; line-height:26px; color:#1c1e20; font-size:15px;}
+.football_tabs_nav li:first-child{float:right; margin-right:60px;}
+.football_tabs_nav li:last-child{margin-left:60px;}
+.football_tabs_nav li.on{background:#35adec; border-radius:13px; -webkit-border-radius:13px; color:#fff;}
+.footabll_list_div dt{width:100%; height:40px; background:#eff3f6; font-size:15px; line-height:40px; text-indent:20px;}
+.footabll_list_div dd{padding:15px 20px; border-bottom:1px solid #e7e7e7; position:relative;}
+.footabll_list_div dd:last-child{border-bottom:0;}
+.team_1{height:26px; line-height:26px; font-size:14px; color:#1c1e20; padding-bottom:9px;}
+.team_2{height:26px; line-height:26px; font-size:14px; color:#1c1e20; padding-top:9px;}
+.team_1 span,.team_2 span{margin-left:10px;}
+
+.team_name{float:left;}
+.game_time{margin:0 75px 0 150px;}
+.football_btn{position:absolute; right:20px; top:15px;}
+
+.game_time{padding-top:16px; font-size:12px; line-height:150%;}
+.game_time p{margin-bottom:8px;}
+
+.emp_cion{color:#35adec;}
+.remind_btn{display:block; width:50px; height:28px; line-height:28px; padding-left:15px; border:1px solid #adadad; margin:22px 0 0 0; border-radius:5px; -webkit-border-radius:5px; text-align:center; font-size:12px; color:#adadad; background:url(../images/remind_btn.jpg) no-repeat 5px top; background-size:14px 56px;}
+.football_btn .on{color:#f8913e; border:1px solid #f8913e; background:url(../images/remind_btn.jpg) no-repeat 5px bottom; background-size:14px 56px;}
+
+.code_div{width:280px; height:280px; position:fixed; background:#fff; border-radius:5px; left:50%; top:50%; margin:-140px 0 0 -140px; z-index:9;text-align:center;}
+.code_div h3{color:#f8913e; font-size:17px; line-height:150%; text-align:center; padding-top:13px;}
+.code_div p{color:#f8913e; font-size:15px; line-height:150%; text-align:center;}
+.bg{width:100%; height:100%; position:fixed; top:0; left:0; background:rgba(0,0,0,.5);}
+
+.football_tabs_list{position:relative;}
+.footabll_list_div{position:absolute; width:100%;}
+
+
+
+body.list_info{padding:0 20px 56px; background:#021660 url(../images/list_bg.jpg) no-repeat center bottom; background-size:100% auto;}
+.list_logo{margin:0 auto; padding:45px 0 25px; text-align:center;}
+.list_time{font-size:18px; color:#fff; line-height:150%; text-align:center; padding-bottom:25px;}
+.list_team_1,.list_team_2{width:45%; height:62px; float:left; text-align:center; font-size:21px; color:#fff; line-height:62px;}
+.vs{float:left; font-size:22px; font-weight:600; color:#fcaa22; width:10%; height:62px; line-height:62px; text-align:center;}
+.list_team_div{margin-bottom:30px; background:url(../images/transparent@2x.png) no-repeat center top; background-size:auto 62px;}
+
+.list_add_btn{width:100%; height:40px; line-height:40px; background:#e3a02c; border-radius:5px; color:#fff; font-size:14px; text-align:center;}
+.list_code_div{text-align:center; color:rgba(255,255,255,.6);}
+.list_code_div img{padding:10px 0 25px;}
+
+.list_share_btn{width:100%; height:50px; line-height:50px; background:#e3a02c; border-radius:5px; color:#090330; font-size:14px; text-align:center; margin-top:15px;}
+.list_share_btn img,.list_share_btn span{vertical-align: middle; margin:0 5px;}
+.share_bg{width:100%; background:rgba(0,0,0,.5) url(../images/share_bg.png) no-repeat right top; background-size:280px auto; position:fixed; left:0 ;top:0;}

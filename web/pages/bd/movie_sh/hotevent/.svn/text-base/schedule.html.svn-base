@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>活动日程安排</title>
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="/pages/bd/movie_sh/css/main.css" rel="stylesheet">
+</head>
+<body style="background-color: #000;">
+    <img src="/pages/bd/movie_sh/images/bg.jpg" width="100%" alt="">
+    <div class="contain">
+    	<h4 class="title"><span>电影节简介</span></h4>
+	    <p class="txt">第18届上海国际电影节将于2015年6月13日至21日举行。活动整体包括：“金爵奖”国际影片评选、“亚洲新人奖”评选、开幕式、电影市场、电影论坛、国际电影展映、特别项目（推出首届“互联网电影嘉年华”、 “成龙动作电影周”）、闭幕式暨颁奖典礼等八大主体活动。</p>
+	    <h4 class="title"><span>重点日程</span></h4>
+	    <div style="text-align: center;">
+	    	<img class="photo" src="/pages/bd/movie_sh/images/img19.png" width="260" alt="" style="margin-left: -10px;">
+	    </div>
+	    <h4 class="title"><span>其他信息</span></h4>
+	    <div class="btns">
+	    	<a href="http://www.365rili.com/pages/bd/movie_sh/hotevent/pwzr.html" class="btn pwzr"></a>
+	    	<a href="http://www.365rili.com/pages/bd/movie_sh/hotevent/zytj.html" class="btn zytj"></a>
+	    	<a href="javascript:;" class="btn gdyp"></a>
+	    </div>
+    </div>
+    <div class="footer">
+    	<img src="/pages/bd/movie_sh/images/bgb.jpg" width="100%" alt="">
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+	<script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+	<script src="http://www.365rili.com/pages/bd/movie_sh/js/movie.js"></script>
+    <div style="display:none;">
+    </div>
+</body>
+</html>

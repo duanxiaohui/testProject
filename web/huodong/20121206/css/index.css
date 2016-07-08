@@ -1,0 +1,101 @@
+body{font-size:12px;font-family:"Microsoft YaHei",微软雅黑;}
+*{margin:0; padding:0;}
+ul{list-style: none;}
+li{list-style-type: none;}
+a{text-decoration: none;}
+.e_clear:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden
+}
+
+.e_clear {
+    display: inline-block
+}
+
+.e_clear {
+    display: block
+}
+.main{width:100%; margin:0 auto; background:#fff; padding-bottom:60px;}
+.title{width:100%; height:28px; padding:8px 0; background:url(../images/title.jpg) repeat-x center top;-webkit-background-size:100%; position:fixed; top:0; left:0;}
+.btn{width:60px; height:26px; position:relative; z-index:2;line-height:26px; float:right; border:1px solid #fff; font-size:12px; text-align:center;  border-radius:0.3em;background:url(../images/title.jpg) no-repeat center top; color:#fff;box-shadow:0 0.045em 0 #a8b5c8,inset 0 0.08em 0.08em rgba(0,0,0,0.5); margin-right:10px;}
+button {
+	font-size:125%; font-family:verdana,simhei; line-height:28px; position:relative; z-index:2; float:left; left:20px;
+	color:#fff; text-shadow: 0 -0.045em 0.015em rgba(0,0,0,0.5); padding:0 10px 0 5px; border:0.045em solid; border-color:#303740 #375074 #375074 #303740;
+	box-shadow:0 0.045em 0 #a8b5c8,inset 0 0.08em 0.08em rgba(0,0,0,0.5); border-radius:0.3em; border-left:0 none; box-sizing:border-box;
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #869ebc),
+		color-stop(0.5, #5776a1),
+		color-stop(0.5, #486a9a),
+		color-stop(1, #4a6c9b)
+	);
+}
+button::before {
+	content:""; width:0.8em; height:1.05em; position:absolute; left:-0.4em; top:-0.045em; border-top:0.045em solid #303740; border-left:0.045em solid #303740; border-top-left-radius:0.2em; -webkit-transform: skew(-35deg); box-shadow:inset 0.06em 0 0.06em #576272; box-shadow:inset 0.05em 0.08em 0.05em rgba(0,0,0,0.5);
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #869ebc),
+		color-stop(1, #5776a1)
+	);
+}
+button::after {
+	content:""; width:0.8em; top:50%; background:#f60; position:absolute; left:-0.4em; bottom:-0.045em; border-bottom:0.045em solid #375074; border-left:0.045em solid #303740; border-bottom-left-radius:0.2em; box-shadow:-0.045em 0.045em 0 #a8b5c8;
+	-webkit-transform: skew(35deg);
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #486a9a),
+		color-stop(1, #4a6c9b)
+	);
+}
+.title p{position:absolute; line-height:28px; text-align:center; width:100%; color:#fff; font-size:16px; z-index:1;}
+.top,.top1{width:100%; height:130px;}
+.top{background:#edf7f8 url(../images/top3.png) no-repeat right top; -webkit-background-size:76px 47px;margin-top:44px;}
+.top1{background:url(../images/top1.png) no-repeat left bottom;-webkit-background-size:75px 52px;}
+.top2{width:100%; padding-top:75px; height:55px; background:url(../images/top2.png) no-repeat center 13px;-webkit-background-size:248px 60px;}
+.top2 h3{font-size:8px; color:#ea3261; text-align:center; margin-bottom:8px;}
+.top2 p{font-size:8px; color:#808080; text-align:center;}
+.text_bg{width:100%; padding-top:48px; background:#c5ebfe url(../images/text.jpg) no-repeat left top; -webkit-background-size:320px 48px;}
+.text p{text-indent:2em; margin:5px 20px 0; font-size:10px; color:#5b656d;}
+
+.schedule_content{width:100%;}
+.datelist{width:100%; height:40px; background:url(../images/datelist.jpg) repeat-x left top; position:fixed; top:44px; -webkit-background-size:1px 80px; }
+.datelist ul{text-align:center;}
+.datelist ul li{width:79px; height:28px; line-height:28px; text-align:center; margin:6px 30px; display:inline-block;*display:inline; *zoom:1; font-size:13px; color:#737d86;text-shadow: 0 1px 0 #fff;}
+.datelist ul li.on{background:url(../images/datelist_li.jpg) no-repeat;-webkit-background-size:79px 28px; text-shadow: 0 0 0 #fff; color:#fff; font-weight:600;}
+.fourteen,.fifteen{padding-top:84px; font-size:14px; line-height:125%;}
+.time{padding:5px 10px; }
+.time p{text-indent:-3em; padding-left:3em; colro:#4c5d6b;}
+.apm{height:29px; line-height:29px; color:#fff; background:#87d5fb url(../images/apm.jpg) no-repeat left top; -webkit-background-size:320px 29px; font-size:13px; padding-left:10px;}
+/*
+.schedule_list ul li{padding-bottom:2px; min-height:33px; background:#c6ecfe url(../images/line.jpg) no-repeat left bottom;-webkit-background-size:320px 2px;}
+.schedule_list dl{background:#fff url(../images/star.jpg) no-repeat 10px center; -webkit-background-size:13px 13px;}
+.schedule_list dl dt{width:33px; float:left; height:37px; }
+.schedule_list dl dd.schedule_list_time{width:90px; float:left; padding:10px 0; line-height:125%;min-height:13px; background:#fff;}
+.schedule_list dl dd.schedule_list_text{margin-left:119px;min-height:13px; line-height:125%; padding:10px 0; background:#fff;}
+.middle_line{height:100%; width:1px; display:inline-block; vertical-align:middle;}
+.schedule_list_time_text{display:inline-block; vertical-align:middle; height:100%;}
+*/
+.schedule_list table{ width:100%;}
+.schedule_list table tr{background:url(../images/line.jpg) no-repeat left bottom; -webkit-background-size:1000px 2px;}
+.schedule_list table tr td{padding:10px 0;}
+.schedule_list table tr td p{color:#3e7dbe; padding-left:10px;}
+.schedule_list_time{vertical-align:middle;}
+.star{background:url(../images/star.png) no-repeat 10px center; -webkit-background-size:52px 13px;}
+.highlight{background-position:-16px center; }
+@media only screen and (-webkit-device-pixel-ratio:1){
+	.title{width:100%; height:28px; padding:8px 0; background:url(../images/title.jpg) repeat-x center top;-webkit-background-size:100%; position:fixed; top:0; left:0;}
+	.top{background:#edf7f8 url(../images/top3.png) no-repeat right top; -webkit-background-size:76px 47px;margin-top:44px;}
+	.top1{background:url(../images/top1.png) no-repeat left bottom;-webkit-background-size:75px 52px;}
+	.top2{width:100%; padding-top:75px; height:55px; background:url(../images/top2.png) no-repeat center 13px;-webkit-background-size:248px 60px;}
+	.text_bg{width:100%; padding-top:48px; background:#c5ebfe url(../images/text.jpg) no-repeat left top; -webkit-background-size:320px 48px;}
+	.datelist{width:100%; height:40px; background:url(../images/datelist.jpg) repeat-x left top; position:fixed; top:44px; -webkit-background-size:1px 80px;}
+}

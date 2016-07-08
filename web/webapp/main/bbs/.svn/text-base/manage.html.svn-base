@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<title>365日历讨论组-管理页面</title>
+<link href="/js/app/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+	<div class="container" ng-app='365_calendar.bbs_manage' ng-controller="BBSManageController" style="padding:0;">
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bbs-navbar-collapse">
+        				<span class="sr-only">Toggle navigation</span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+      				</button>
+					<span class="navbar-brand">365日历</span>
+				</div>
+				<div class="collapse navbar-collapse" id="bbs-navbar-collapse">
+      				<ul class="nav navbar-nav">
+        				<li ng-class="{active:viewType=='topic'}"><a href="javascript:;" ng-click="viewType='topic'">帖子管理</a></li>
+        				<li ng-class="{active:viewType=='reply'}"><a href="javascript:;" ng-click="viewType='reply'">回复管理</a></li>
+      				</ul>
+				</div>
+			</div>
+		</nav>
+		<div ng-show="viewType=='topic'">
+			<h2>帖子管理</h2>
+			<table class="table">
+				<thead>
+					<tr>
+						<th style="width:4%;padding:2%"></th>
+						<th style="width:10%;padding:2%;">日历名称</th>
+						<th style="width:16%;padding:2%;">标题</th>
+						<th style="width:28%;padding:2%;">内容</th>
+						<th style="width:12%;padding:2%;">创建时间</th>
+						<th style="width:6%;padding:2%;">操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr ng-repeat="topic in Topic.all">
+						<td style="padding:2%"><input type="checkbox" /></td>
+						<td style="padding:2%">{{topic.calendarName}}</td>
+						<td style="padding:2%">{{topic.title}}</td>
+						<td style="padding:2%">{{topic.body}}</td>
+						<td style="padding:2%">{{topic.createdTime}}</td>
+						<td style="padding:2%"><button type="button" class="btn btn-danger" ng-click="Topic.deleteTopic(topic)">删除</button></td>
+					</tr>
+				</tbody>
+			</table>
+			<div style="margin:auto;width:300px;padding:10px;"><button type="button" class="btn btn-primary btn-block" ng-click="Topic.getAllTopic()">加载更多</button></div>
+		</div>
+		<div ng-show='viewType=="reply"'>
+			<h2>回复管理</h2>
+			<table class="table">
+				<thead>
+					<tr>
+						<th style="width:4%;padding:2%"></th>
+						<th style="width:16%;padding:2%">用户</th>
+						<th style="width:28%;padding:2%">内容</th>
+						<th style="width:26%;padding:2%">回复时间</th>
+						<th style="width:6%;padding:2%">操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr ng-repeat="reply in Reply.all">
+						<td style="padding:2%"><input type="checkbox" /></td>
+						<td style="padding:2%">{{reply.username}}</td>
+						<td style="padding:2%">{{reply.content}}</td>
+						<td style="padding:2%">{{reply.createdTime}}</td>
+						<td style="padding:2%"><button type="button" class="btn btn-danger" ng-click='Reply.deleteReply(reply)'>删除</button></td>
+					</tr>
+				</tbody>
+			</table>
+			<div style="margin:auto;width:300px;padding:10px;"><button type="button" class="btn btn-primary btn-block" ng-click="Reply.getAllReply()">加载更多</button></div>
+		</div>
+		<a id="scrollUp" href="#top" title="" class="btn btn-success" style="position: fixed; bottom:30px;right:30px;z-index: 2147483647;">返回顶部</a>
+	</div>
+</body>
+<script type="text/javascript" src="/js/app/bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="/js/app/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/app/bower_components/angular/angular.min.js"></script>
+<script type="text/javascript" src="/js/app/bower_components/angular-touch/angular-touch.min.js"></script>
+<script type="text/javascript" src="/js/angular/controller/bbsManageCtrl.js?v=20140421"></script>
+</html>

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-04-13 11:28:57
+ * @version $Id$
+ */
+.wx_jieqi h3{height:35px; line-height:35px; background:#ecedef; color:#888e92; padding-left:15px; font-weight:500;}
+
+.wx_jieqi dl{padding:15px 0; margin-left:15px; border-bottom:1px solid #e4e4e4;}
+
+.wx_jieqi dt{float:left; width:80px;}
+.wx_jieqi dd{margin-left:95px; padding-top:8px;}
+
+.wx_jieqi dd h4{color:#000; font-weight:500; font-size:16px; line-height:150%;}
+.wx_jieqi dd p{color:#9b9a9a; font-size:13px;}
+.wx_jieqi dd p span{color:#000;}
+.wx_jieqi dd p span.orange{color:#ffa12e;}
+
+.wx_jieri_tips{height:35px; line-height:35px; background:#ecedef; color:#888e92; padding-left:15px; font-weight:500;}

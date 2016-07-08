@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>要跑 · 24小时城市接力赛（北京站）</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">要跑 · 24小时城市接力赛（北京站）</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/59988c57-c93a-4e3f-b308-b08741bf673e.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+			  <a class="btn js-subscribe" data-uuid="3418617e-d1e8-4323-9da8-b31a81cf0e6b" data-cid="147514789">添加提醒</a>
+	    	
+	    	<p class="time">
+
+
+<b>比赛时间：2015.6.13 15:00-6.14 15:00
+</b></br>
+<b>检录时间：2015.6.13 11:00-14:30
+</b></br>
+	    	<b>比赛地点：北京龙湾国际露营公园</b></br>
+
+
+
+			</p>
+			<h3>竞赛规则：</h3>
+			<p>（一）队伍报名采取自由组合，同一团队性别不限，参赛选手年龄要求在18-65岁之间（即出生在1950年6月13日以后至1997年6月13日以前）。</br>
+（二）比赛检录：每个跑团在赛前都需要完成参赛人员检录，且第一棒选手进入起跑区。</br>
+（三）比赛形式：每名选手跑或者走经过一次起终点即为完成一圈，选手必须在规定时间内完成每个单圈。（本次北京站活动，接力单圈为3.5公里，限时1小时内完成。）</br>
+</p> 
+			<!--h3是小标题-->
+			<h3>接力要求:
+</h3>
+			<!--p是段落文字描述-->
+			<p>1、组委会将给每个团队配备一个手环芯片作为“接力棒”。团队间接力时必须将此“接力棒”传递，裁判组依此判断完成接力。</br>
+2、赛前为避免参赛选手同时冲过起点，组委会采取起跑检录机制，裁判员起点检录，非第一棒选手不能进入起跑区。</br>
+3、接力人员必须从正确的接力区入口进入，并且在规定的区域内等待接力。如违反规则误触计时芯片，将取消接力人该圈接力资格或成绩。</br></br>
+具体详情以官方信息为准
+</p>
+
+<img src="http://cocoimg.365rili.com/schedule_pics/default/beb9a1b3-536a-4d3c-bbb3-42021e888d91.jpg"/>
+<a href="http://www.yaopao.net/" class="btn js-other">详见官网</a>
+		
+			 <div class="remind_div" data-uuid="3418617e-d1e8-4323-9da8-b31a81cf0e6b" data-cid="147514789"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/59988c57-c93a-4e3f-b308-b08741bf673e.jpg',
+                title: '要跑 · 24小时城市接力赛（北京站）',
+                desc: '“中国人寿·2015要跑·24小时城市接力赛”是一项团队接力赛事。参赛选手以团队为单位，竞赛中所有参赛团队同时起跑，连续24小时后同时结束。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'shareTo',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '要跑 · 24小时城市接力赛（北京站）',
+		        				content: '“中国人寿·2015要跑·24小时城市接力赛”是一项团队接力赛事。参赛选手以团队为单位，竞赛中所有参赛团队同时起跑，连续24小时后同时结束。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/59988c57-c93a-4e3f-b308-b08741bf673e.jpg',
+		        				isEvent: false
+		        			})
+		        		},
+		        		{
+		        			name: 'channel',
+		        			value: 'wx'
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

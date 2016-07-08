@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>英国母亲河的节日——泰晤士河节</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/river_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>英国母亲河的节日——泰晤士河节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>伦敦一年里有各种各样的民间节日，9月举行的泰晤士河节是伦敦最大型的免费户外艺术节。这是一个告别夏季的节日：伦敦从８月下旬开始，天气一下就变得阴沉多雨，当地人说“伦敦没有秋天，夏天过完冬天就来了，真是miserable”。于是夏季尾巴尖上的泰晤士河节就成为了伦敦人民的狂欢日。</p>
+            <img src="/pages/found/qp_holiday/images/river_img1.jpg" width="100%"/>
+            <h3>【泰晤士，腐国的母亲河】</h3>
+            <p>泰晤士河（River Thames）发源于英格兰西南部，横贯英国首都伦敦与沿河的10多座城市，比起地球上的一些大江大河，泰晤士河虽然不算长，但它流经之处都是英国文化精华所在，或许可以反过来说，泰晤士河哺育了灿烂的英格兰文明。</p>
+
+            <p class="mt15">伦敦的主要建筑物大多分布在泰晤士河的两旁，具有文艺复兴风格的圣保罗大教堂、曾经见证过英国历史上黑暗时期的伦敦塔等，每一幢建筑都称得上是艺术的杰作。英国的政治家约翰伯恩斯曾说：泰晤士河是世界上最优美的河流，“因为它是一部流动的历史”。</p>
+            <img src="/pages/found/qp_holiday/images/river_img2.jpg"/>
+            <h3>【狂欢！狂欢！】</h3>
+            <p>这两天沿着泰晤士南北两岸有各种各样的活动，包括音乐、舞蹈、合唱团表演、狂欢会、盛宴聚餐、河上比赛，街头艺术……狂欢节的亮点有“桥上盛宴”
+            、“河上船队巡游”、驳船拉力赛”、“为水而歌”等等，当然作为狂欢节，游行一定是不能缺少的啦~2,000多名舞蹈家、音乐家和带着化妆面具的人们将穿上闪闪发光的服装，提着灯笼，排成美妙的队形，一起沿着泰晤士河游行。活动过后，还有一场焰火展作为狂欢节的终曲。</p>
+            <img src="/pages/found/qp_holiday/images/river_img3.jpg"/>
+            <p>节日期间，在泰晤士河岸会露天搭很多演出帐篷，任何人都可进去看，当然也都是免费的。下面的听众会自发起来随着音乐跳舞，有时还加入进来两个小丑。这里的人们有种“人生得意需尽欢，莫使金樽空对月”的感觉，即抓住现在、享受生活、寻找快乐。这也正是告别夏季欢乐迎接秋冬的泰晤士河节的意义所在吧！</p>
+
+            <div class="tips">
+                <p>1、泰晤士河节是英国伦敦的节日，一般在9月的泰晤士河沿岸举行；
+</p>
+                <p>2、“可使食无肉，不可居无竹。无肉令人瘦，无竹令人俗。”想要脱离庸俗，在院子里种点竹子吧（此建议仅供参考）！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/欢欢</div>
+    </div>
+      <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+    
+ </body>
+</html>
+

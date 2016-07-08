@@ -1,0 +1,60 @@
+#bd {
+	margin-top: 10px; border-top-color: rgb(223, 223, 224); border-top-width: 1px; border-top-style: solid; position: relative;
+}
+.mod-content {
+	border-width: medium 1px 1px; border-style: none solid solid; border-color: currentColor rgb(223, 223, 224) rgb(223, 223, 224); padding-bottom: 8px; font-size: 14px;
+}
+.mod-content .content-con {
+	background: url("/resource/erji/public/images/shadow.png") no-repeat 0px 0px; padding-top: 8px;
+}
+.mod-content .content-con-first {
+	
+}
+.mod-content .content-link {
+	width: 830px; color: rgb(5, 77, 161); overflow: hidden; float: left;
+}
+.mod-content .content-link li {
+	width: 166px; height: 37px; overflow: hidden; float: left;
+}
+.mod-content .content-link li h3 {
+	width: 117px; height: 36px; line-height: 36px; border-bottom-color: rgb(239, 239, 239); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.mod-content .content-link li h3.last-row {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.mod-content .content-link li h3.noborder {
+	border-bottom-color: rgb(223, 223, 224); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.mod-content .content-link li h3 div {
+	width: 160px; position: absolute;
+}
+.mod-content .content-link li h3 a {
+	left: 8px; color: rgb(0, 83, 165); position: absolute;
+}
+.mod-content .content-title {
+	width: 114px; overflow: hidden; padding-top: 7px; padding-left: 14px; font-weight: bolder; float: left;
+}
+.mod-content .content-title .content-title-des {
+	color: rgb(153, 153, 153); font-family: Arial; font-weight: 400;
+}
+#bd .show-content-bg {
+	background-color: rgb(248, 250, 252);
+}
+#bd .mod-content .show-link-bg-lt7 {
+	background: url("/resource/erji/public/images/base_sprite.png") no-repeat 0px -489px;
+}
+#bd .mod-content .show-link-bg-gt7 {
+	background: url("/resource/erji/public/images/base_sprite.png") no-repeat 0px -535px;
+}
+#bd .mod-content .show-link-bg-lt7 h3 {
+	border-bottom-color: rgb(248, 250, 252);
+}
+#bd .mod-content .show-link-bg-gt7 h3 {
+	border-bottom-color: rgb(248, 250, 252);
+}
+#bd .mod-content .show-link-bg-lt7 a {
+	color: rgb(255, 255, 255); font-weight: bolder;
+}
+#bd .mod-content .show-link-bg-gt7 a {
+	color: rgb(255, 255, 255); font-weight: bolder;
+}

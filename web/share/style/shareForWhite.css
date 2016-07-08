@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/**
+ * 白色列表版修复css
+ * @authors 张路 (zhanglu@365rili.com)
+ * @date    2015-03-11 11:57:45
+ */
+
+.public_schedule_top{
+	margin-left: -15px;
+	margin-right: -15px;
+	background-color: #f3f3f3;
+}

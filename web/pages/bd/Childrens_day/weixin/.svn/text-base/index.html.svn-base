@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+<title>科技大佬的童年萌照</title>
+<link rel="stylesheet" href="/pages/bd/Childrens_day/style/parallax.css">
+<link rel="stylesheet" href="/pages/bd/Childrens_day/style/parallax-animation.css">
+<link rel="stylesheet" href="/pages/bd/Childrens_day/style/main.css">
+</head>
+<body>
+<div class="wrapper">
+	<div class="pages">
+		<!-- 第一屏 -->
+		<section class="page">
+			<div class="blackboard" data-animation="bounceInDown" data-timing-function="ease-in">
+				<div class="anil" data-animation="zoomIn" data-delay="300" data-timing-function="ease-out"></div>
+				<div class="child_logo"  data-animation="fadeInUp" data-delay="800" data-timing-function="ease-out"></div>
+			</div>
+			<div class="subtitle" data-animation="fadeInUp" data-delay="400" data-timing-function="linear"></div>
+			<div class="txt1"  data-animation="fadeInUp" data-delay="400" data-timing-function="linear">每个人都有童年，科技大佬们也不例外。娃娃时代的大佬们似乎也没啥“异于常人”的，他们有的数学考过1分，有的学过地方戏，有的从小就喜欢玩“混搭”。如果时光可以穿越，你还能认识这些大佬们吗？快来看图对对号吧！</div>
+		</section>
+		<!--第二屏 bill-->
+		<section class="page">
+			<div class="bill_title" data-animation="fadeInUp" data-delay="200" data-timing-function="ease-out"></div>
+			<div class="bill_txt">
+				<div class="bill_txt_img" data-animation="fadeInUp" data-delay="250" data-timing-function="ease-out">
+					<img src="/pages/bd/Childrens_day/images/bill/bill_img.jpg"/>
+				</div>
+				<div class="bill_txt_div" data-animation="fadeInUp" data-delay="280" data-timing-function="ease-out">
+					据说比尔·盖茨小的时候非常“不靠谱”，表现之一就是喜欢“混搭”，袜子一样一只、把鞋子挂到脖子上、顶个西瓜皮身上再套一个蛇皮。照片上的儿时盖茨看着还蛮正经的，只是不得不说，男孩也是可以十八变的，越老越禁看啊。。。
+				</div>
+			</div>
+			<div class="bill_img">
+				<div class="bill_img_1" data-animation="fadeInUp" data-delay="300" data-timing-function="ease-out"></div>
+				<div class="bill_img_2" data-animation="fadeInUp" data-delay="400" data-timing-function="ease-out"></div>
+				<div class="bill_img_3" data-animation="fadeInUp" data-delay="500" data-timing-function="ease-out"></div>
+				<div class="bill_img_4" data-animation="fadeInUp" data-delay="600" data-timing-function="ease-out"></div>
+			</div>
+		</section>
+		<!-- 第三屏 jobs-->
+		<section class="page">
+			<div class="jobs_title" data-animation="fadeInUp" data-delay="200" data-timing-function="ease-out"></div>
+			<div class="jobs_left">
+				<div class="jobs_img_1" data-animation="fadeInUp" data-delay="200" data-timing-function="ease-out"></div>
+				<div class="jobs_img_2" data-animation="fadeInUp" data-delay="250" data-timing-function="ease-out"></div>
+				<div class="jobs_img_3" data-animation="fadeInUp" data-delay="300" data-timing-function="ease-out"></div>
+				<div class="jobs_img_4" data-animation="fadeInUp" data-delay="350" data-timing-function="ease-out"></div>
+			</div>
+			<div class="jobs_right">
+				<p data-animation="fadeInUp" data-delay="350" data-timing-function="ease-out">从照片上看，童年的乔老爷与常人并无差异嘛!他的童年是桀骜不驯的，虽然被亲生父母抛弃，但是养父母对他极为疼爱、纵容和尊重。这让乔布斯意识到自己是个聪明人，并形成极为自信的性格。也许他认为如果被别人掌握自己的命运就随时有可能被别人遗弃，只有自己掌握了自己控制了一切才能保证自己不受被抛弃的伤害。</p>
+				<img data-animation="fadeInUp" data-delay="400" data-timing-function="ease-out" src="/pages/bd/Childrens_day/images/jobs/jobs_img.jpg"/>
+			</div>
+		</section>
+		<!--第四屏 谢尔盖-->
+		<section class="page">
+			<div class="smb_title" data-animation="fadeInUp" data-delay="200" data-timing-function="ease-out"></div>
+			<div class="smb_txt" data-animation="fadeInUp" data-delay="250" data-timing-function="ease-out">跟盖茨相比，谢尔盖·布林儿时绝对属于帅哥级别，出生于莫斯科，6岁时移民到美国。布林曾就读于马里兰州中学，特备擅长数学。在与拉里·佩奇（Larry Page）于1998年创建谷歌前，他曾就读于马里兰大学和斯坦福大学。</div>
+			<div class="smb_img">
+				<div class="smb_img1" data-animation="fadeInUp" data-delay="300" data-timing-function="ease-out"></div>
+				<div class="smb_img2" data-animation="fadeInUp" data-delay="400" data-timing-function="ease-out"></div>
+				<div class="smb_img3" data-animation="fadeInUp" data-delay="500" data-timing-function="ease-out"></div>
+			</div>
+		</section>
+		<!--第五屏 库克-->
+		<section class="page">
+			<div class="tc_title" data-animation="fadeInUp" data-delay="100" data-timing-function="ease-out"></div>
+			<div class="tc_left">
+				<div class="tc_left_img1" data-animation="fadeInUp" data-delay="200" data-timing-function="ease-out"></div>
+				<div class="tc_left_img2" data-animation="fadeInUp" data-delay="250" data-timing-function="ease-out"></div>
+				<div class="tc_left_img3" data-animation="fadeInUp" data-delay="300" data-timing-function="ease-out"></div>
+			</div>
+			<div class="tc_right">
+				<p data-animation="fadeInUp" data-delay="200" data-timing-function="ease-out">这个顶着蘑菇头的少年就是现任苹果公司首席执行官，他在美国阿拉巴马州莫比尔市长大，就读于罗伯茨代尔高中。后来考入奥本大学和杜克大学，为IBM效力13年，并于1998年加盟苹果。2014年10月30日，库克在《商业周刊》网站发表文章明确表明自己为同性恋者，并表示作为一名同性恋感到自豪。</p>
+				<div class="tc_right_pic" data-animation="fadeInUp" data-delay="300" data-timing-function="ease-out"></div>
+			</div>
+		</section>
+		<!--第六屏 马云-->
+		<section class="page">
+			<div class="jack_title">
+				<div class="jack_title_name" data-animation="rollIn" data-delay="200" data-timing-function="ease-out"></div>
+				<div class="jack_title_logo" data-animation="rollIn" data-delay="250" data-timing-function="ease-out"></div>
+				<div class="jack_title_img" data-animation="rollIn" data-delay="300" data-timing-function="ease-out"></div>
+			</div>
+			<div class="jack_txt e_clear"  data-animation="rollIn" data-delay="300" data-timing-function="ease-out">
+				<p>这位朴实又略带可爱的少年就是马云，数学考过1分的倒霉孩子，有一次上数学课，上到第四节，马云肚子饿了，无心听课，就坐在位置上想着中午该吃什么。数学老师发现他发呆，就提问他：“1.230小数向右移动一位，将会怎么样？”马云毫不犹豫地回答：“将会吃午饭!”</p>
+				<div class="jack_txt_img" data-animation="rollIn" data-delay="350" data-timing-function="ease-out"></div>
+			</div>
+			<div class="jack_img" data-animation="rollIn" data-delay="400" data-timing-function="ease-out"></div>
+		</section>
+		<!--第七屏 马化腾-->
+		<section class="page">
+			<div class="e_clear">
+					<div class="pony_txt"  data-animation="fadeInUp" data-delay="200" data-timing-function="ease-out">
+					这位腼腆的小男孩就是企鹅帝国的老大马化腾。童年很乖，是个闷葫芦，迷恋过天文，经常想很多自然科学的东西，最大的兴趣还是和天上的星星交流。那时候，谁也不知道这个爱和星星交流的孩子成就了一个社交帝国。
+				</div>
+				<div class="pony_title"  data-animation="fadeInUp" data-delay="250" data-timing-function="ease-out"></div>
+			</div>
+			<div class="pony_img e_clear">
+				<div class="pony_img_left"  data-animation="fadeInUp" data-delay="300" data-timing-function="ease-out"></div>
+				<div class="pony_img_right" data-animation="fadeInUp" data-delay="350" data-timing-function="ease-out"></div>
+			</div>
+		</section>
+		<!--第八屏 刘强东-->
+		<section class="page">
+			<div class="richard_title e_clear">
+				<div class="richard_title_txt" data-animation="fadeInLeft" data-delay="100" data-timing-function="ease-out"></div>
+				<div class="richard_title_pic" data-animation="fadeInRight" data-delay="200" data-timing-function="ease-out"></div>
+			</div>
+			<div class="richard_txt" data-animation="fadeInLeft" data-delay="300" data-timing-function="ease-out">
+				这个天然呆萌的男孩纸就是京东集团的首席执行官兼CEO刘强东东哥。他生于江苏宿迁，来自江苏最穷的地方，小时候家里穷到一连数年每天的三餐只有红薯和玉米。童年的贫穷给他打上了很多烙印。这个贫穷中长大的男孩后来成为马云在电商领域的唯一对手。
+			</div>
+			<div class="richard_img" data-animation="fadeInUp" data-delay="400" data-timing-function="ease-out"></div>
+		</section>
+		<!--第九屏 李彦宏-->
+		<section class="page">
+			<div class="robin_right">
+				<div class="robin_img1" data-animation="fadeInUp" data-delay="200" data-timing-function="ease-out"></div>
+				<div class="robin_img2" data-animation="fadeInUp" data-delay="250" data-timing-function="ease-out"></div>
+				<div class="robin_img3" data-animation="fadeInUp" data-delay="300" data-timing-function="ease-out"></div>
+			</div>
+			<div class="robin_left">
+				<div class="robin_title" data-animation="fadeInUp" data-timing-function="ease-in"></div>
+				<div class="robin_txt" data-animation="fadeInUp" data-delay="100" data-timing-function="ease-out">这位少年长大后居然没怎么变~童年的他曾被山西阳泉晋剧团招进去过，剧院老师当时一看他，白里透红，水灵得很，当即拍案录取了他。但容易得到的往往就不会珍惜，他见大姐成为大学生后四邻艳羡，于是又立志也要考大学，后来也顺利成为一名高富帅“IT技术男”。成就了国内最大的搜素引擎公司。长大后的李彦宏在互联网大佬普遍颜值不高的大环境里，可谓是互联网圈大佬里数一数二的帅哥</div>
+			</div>
+		</section>
+		<!--第十屏 ending-->
+		<section class="page">
+			<div class="end_txt"></div>
+			<div class="end_title"></div>
+			<div class="end_img"></div>
+			<div class="end_btn">
+				<a href="javascript:;" class="down_btn"></a>
+				<a href="javascript:;" class="share_btn"></a>
+			</div>
+			<div class="end_footer"></div>
+		</section>
+	</div>
+	<div class="music"></div>
+</div>
+<div class="bar">1
+	<a href="javascript:;" class="bar_share_btn"></a>        
+	<a href="javascript:;" class="return_btn"></a>
+    <div class="bar_txt">科技大佬的童年萌照</div>
+</div>
+<div class="share_bg"></div>
+<div class="start">
+	<div class="start_txt"></div>
+	<div class="start_btn"></div>
+	<div class="start_footer"></div>
+</div>
+
+
+<script src="/js/lib/zepto.min.js"></script>
+<script src="/js/lib/app.js"></script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+<script src="/pages/bd/Childrens_day/js/parallax.js"></script>
+<script src="/pages/bd/Childrens_day/js/main.js"></script>
+<script>
+$(function(){
+	wxProtocol.init(function (wx, link) {
+		wx.onMenuShareAppMessage({
+	        title: '雷翻了，科技大佬们的罕见童年照',
+	        desc:'微信好友转发副标题应为“你见过乔布斯和茨童年时的样子吗？刘强东一定想销毁这张，马云小时候像个女孩。。。',
+	        link:'http://www.365rili.com/pages/bd/Childrens_day/weixin/index.html',
+			imgUrl: 'http://www.365rili.com/pages/bd/Childrens_day/images/share_icon.jpg',
+	        success: wxPostShare
+	    });
+	    wx.onMenuShareTimeline({
+	        title: '雷翻了，科技大佬们的罕见童年照',
+	        link: 'http://www.365rili.com/pages/bd/Childrens_day/weixin/index.html',
+			imgUrl: 'http://www.365rili.com/pages/bd/Childrens_day/images/share_icon.jpg',
+	        success: wxPostShare
+	    });
+	});
+	function wxPostShare () {
+		$.ajax({
+			url: '/operation/share.do?shareId=116&channel=weixin'
+		})
+	}
+	$('.pages').parallax({
+				direction: 'vertical', 	// horizontal (水平翻页)
+				swipeAnim: 'cover', 	// cover (切换效果)
+				drag:      true,		// 是否允许拖拽 (若 false 则只有在 touchend 之后才会翻页)
+				loading:   true,		// 有无加载页
+				indicator: false,		// 有无指示点
+				arrow:     true,		// 有无指示箭头
+				/*
+				 * 翻页后立即执行
+				 * {int} 		index: 第几页
+				 * {DOMElement} element: 当前页节点
+				 * {String}		directation: forward(前翻)、backward(后翻)、stay(保持原页)
+				 */
+				onchange: function(index, element, direction) {
+					// code here...
+					// console.log(index, element, direction);
+				},
+				/*
+				 * 横竖屏检测
+				 * {String}		orientation: landscape、protrait
+				 */
+				orientationchange: function(orientation) {
+					// console.log(orientation);
+				}
+			});
+})
+	</script>
+</body>
+</html>

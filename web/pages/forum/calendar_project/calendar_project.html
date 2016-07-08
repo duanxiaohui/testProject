@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0">
+<title>标题</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="http://www.365rili.com/css/forum_new.css" rel="stylesheet">
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<script src="http://www.365rili.com/pages/forum/js/underscore-1.6.0.js"></script>
+</head>
+<body class="weixin">
+    <div class="calendar_project_top">
+        <div class="calendar_project_top_header">
+            <a href="javascript:;" class="return_btn"></a>
+            <a href="javascript:;" class="share_btn none"></a>
+            <span>标题</span>
+        </div>
+        <div class="calendar_project_top_img">
+            <img src="http://cocoimg.365rili.com/pic/default/zhuanti_in_2.jpg"/> 
+            <!-- 图片地址 -->
+        </div>
+    </div>
+    <div class="calendar_project_info">
+        <p>正文今天讲页面</p>
+    </div>
+    <div class="calendar_project_list">
+        <dl class="e_clear" data-id="日历id">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/eef31872-5b37-479a-b70f-bab7e2b646f6.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="日历id" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>测试日历</h3>
+                    <p>测试日历正文</p>
+                    <div class="focus_num">570人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <!-- 一块是一个日历 -->
+        <dl class="e_clear" data-id="日历id">
+            <dt style="background-image:url(http://cocoimg.365rili.com/pic/default/eef31872-5b37-479a-b70f-bab7e2b646f6.jpg!logo)"><!-- 日历图片地址 --></dt>
+            <dd>
+                <div class="focus">
+                    <div class="focus_icon" data-id="日历id" data-status="unsubscribe"></div>
+                    <p>关注</p>
+                </div>
+                <div class="calendar_list_txt">
+                    <h3>日历标题</h3>
+                    <p>日历征文</p>
+                    <div class="focus_num">570人关注</div>
+                </div>
+            </dd>
+        </dl>
+        <!-- 日历结束 -->
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+            $('.calendar_project_top_header').hide();
+            $('.calendar_project_top_img').css('padding-top', '0')
+            // 这个是默认的
+            wxProtocol.init({
+                imgUrl: $('.calendar_project_top_img img')[0].src,
+                title: $('.calendar_project_top_header span').html(),
+                desc: $('.calendar_project_info p').html()
+            });
+
+            // 如果需要调整分享文案，按照一下方式
+            wxProtocol.init({
+                imgUrl: '这里写图片地址',
+                title: '这里写分享的标题',
+                desc: '这里写分享的描述'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+    })();
+    </script>
+    <script src="http://www.365rili.com/pages/forum/js/func.js"></script>
+    <script src="http://www.365rili.com/pages/forum/js/calendar_project.js"></script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>花生漫画大电影：史努比</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">花生漫画大电影：史努比</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/3a3ada08-5bc9-4f84-968f-6b6461980d11.jpg"/>
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	<a href="http://m.mtime.cn/#!/movie/208057/" class="btn js-other">查看预告片</a>
+	    	<h3 class="time">上映时间：2015年11月6日（美国）</h3>
+			<p> </p>
+	    	<h3>导演：史蒂夫•马蒂诺</h3>
+			<h3>编剧：查尔斯·M·舒尔茨 / 布莱恩·舒尔茨 / 克雷格·舒尔茨</h3>
+			<h3>主演：比尔•莫伦茨 / 弗朗西斯卡·卡帕尔迪</h3>
+			<h3>类型：动画 / 冒险 / 喜剧</h3>
+			<p class="fc_000">制片国家/地区: 美国</p>
+			
+			<h3>看点：</h3>
+			<p>《花生豆》漫画由查尔斯•舒尔茨（Charles M. Schulz）于1950年开始在报上连载，一直到2000年才结束。该漫画自诞生以来总共连载了17897格漫画，是有史以来由一个人创作的最长的故事，也是最流行和最受欢迎的四格漫画，平均每天会有75个国家的3.55亿读者阅读它。这次的新版动画电影由查尔斯•舒尔茨的儿子克莱格•舒尔茨（Craig Schulz）担任制片人，他坦言自己比父亲更加注重这些角色的保护，动画片将非常忠实原作。《花生豆》由《霍顿和无名氏》、《冰河世纪4：大陆漂移》导演史蒂夫•马蒂诺（Steve Martino）执导，将于2015年11月6日上映。</p>
+			<!--h3是小标题-->
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/3e225b5a-3ad1-4045-8478-ced34aeda150.jpg"/>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/7896993b-2685-4fb1-890e-51eedb38eab9.jpg"/>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/40c61866-6794-4477-afde-c7efc00fb5d7.jpg"/>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/3a3ada08-5bc9-4f84-968f-6b6461980d11.jpg',
+                title: '史努比：花生漫画大电影',
+                desc: '又萌又有点贱的史努比和查理·布朗再度来袭，史努比的小伙伴莱纳斯、莎莉·布朗等悉数出镜。影片改编自同名漫画，将以3D动画的形式呈现，由《冰河世纪4》导演史蒂夫·马蒂诺执导，2015年11月6日登陆北美。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '史努比：花生漫画大电影',
+		        				content: '又萌又有点贱的史努比和查理·布朗再度来袭，史努比的小伙伴莱纳斯、莎莉·布朗等悉数出镜。影片改编自同名漫画，将以3D动画的形式呈现，由《冰河世纪4》导演史蒂夫·马蒂诺执导，2015年11月6日登陆北美。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/3a3ada08-5bc9-4f84-968f-6b6461980d11.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

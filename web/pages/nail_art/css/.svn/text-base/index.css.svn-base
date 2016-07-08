@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 张明臣 (vest0804@gamil.com)
+ * @date    2015-03-10 09:47:53
+ * @version 1.0
+ */
+body { color: #444; font: 12px / 1.5em arial,"Microsoft YaHei", 微软雅黑; height: 100%; margin: 0; padding: 0;}
+*{-webkit-tap-highlight-color: rgba(0,0,0,0); tap-highlight-color: rgba(0,0,0,0);}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+a{text-decoration: none;}
+
+html,body{height:100%;}
+body{background:url(../images/bg.jpg) no-repeat; background-size:100% 100%}
+
+.talk,.envelope_box{margin:0 25px;}
+.talk{padding:20px 0; position:relative;}
+.talk_bg{width:270px; height:76px; position:absolute; top:0px; background:url(../images/flow.png) no-repeat; background-size:100% 100%; z-index:9;}
+.talk_icon{width:33px; height:33px; float:left; background:url(../images/logo.png) no-repeat; background-size:100% 100%;}
+.talk_box{margin-left:50px; padding:10px; background:#fff; border-radius:5px; -webkit-border-radius:5px; position:relative;}
+.talk_box:after{position: absolute;
+content: " ";
+width: 12px;
+height: 12px;
+border-width: 1px;
+border-style: solid;
+border-color: #fff #fff #fff #fff;
+background: #fff;
+top: 12px;
+left: -7px;
+-webkit-transform: skew(45deg);}
+
+.envelope_box{background:#fff url(../images/cloud_3.jpg) no-repeat left bottom; height:310px; border-radius:10px; -webkit-border-radius:10px; position:relative; background-size:100% auto; margin-top:20px;}
+.envelope_box_cloud{width:76px; height:61px; position:absolute; background:url(../images/cloud_1.png) no-repeat; top:50%; margin-top:-90px; left:-20px; background-size:100% 100%;}
+.envelope_box_cloud2{width:69px; height:40px; position:absolute; background:url(../images/cloud_1.png) no-repeat; top:50%; margin-top:10px; right:-20px; background-size:100% 100%;}
+.envelope{width:239px; height:301px; position:absolute; left:50%; margin-left:-120px; top:-20px; background:url(../images/envelope.png) no-repeat; background-size:100% 100%;}
+.ticket{margin:85px auto 30px; width:192px; height:64px; background:url(../images/ticket.png) no-repeat; background-size:100% 100%;}
+
+.btn{text-align:center; padding:0 15px;}
+.btn a{width:40%; height:35px; display:inline-block; text-align:center; line-height:35px; color:#fff; border-radius:17px; font-size:16px;}
+.receive_btn{margin-right:10px; background:#ffb618;}
+.instructions{margin-left:10px; background:#b2b2b2;}
+
+.footer{ margin-top:20px; height:37px; background:url(../images/footer.png) no-repeat center center; background-size:auto 100%;}
+
+.instructions_layer{width:96%; height:90%; position:absolute; background:#fff; top:5%; left:2%; z-index:999;border-radius:10px; -webkit-border-radius:10px; display:none;}
+.instructions_layer_div{border:6px solid #d14343; height:100%; border-radius:10px; -webkit-border-radius:10px;}
+.instructions_layer_div h3{line-height:64px; text-align:center; font-size:28px; color:#505050;}
+.instructions_layer_div p{padding:0 15px 0 50px; line-height:160%; font-size:16px; text-indent:-26px;}
+.colse_btn{display:block; margin:10px auto; width:120px; height:35px; line-height:35px; text-align:center; font-size:16px; background:#b2b2b2; border-radius:17px; -webkit-border-radius:17px; color:#fff;}
+
+@media(max-height: 480px){
+	/*屏幕高度小于480的手机*/
+.talk{padding:10px 0;}
+.envelope_box{height:270px; margin-top:10px;}
+.envelope{width:216px; height:270px;  margin-left:-108px; top:-10px;}
+.footer{ margin-top:10px;}
+}
+@media (max-width: 310px) and (min-height: 480px){
+	/*屏幕高度大于480的手机*/
+	.talk_bg{width:325px; height:96px; background:#f00;}
+	.talk_box{font-size:16px;}
+	.envelope_box{height:380px; margin-top:10px;}
+	.envelope{width:250px; height:380px;  margin-left:-150px; top:-20px;}
+	.ticket{margin:135px auto 70px; width:268px; height:90px;}
+	.instructions_layer_div p{font-size:16px; line-height:280%;}
+}
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone5 */
+
+}
+@media (device-width:375px) and (-webkit-min-device-pixel-ratio:2){
+/* 兼容iphone6 */
+.talk_bg{width:325px; height:96px;}
+.talk_box{font-size:16px;}
+.envelope_box{height:420px; margin-top:10px;}
+.envelope{width:300px; height:420px;  margin-left:-150px; top:-20px;}
+.ticket{margin:135px auto 70px; width:268px; height:90px;}
+.instructions_layer_div p{font-size:16px; line-height:280%;}
+}
+@media (device-width:414px) and (-webkit-min-device-pixel-ratio:3.0){
+	/* 兼容iphone6 plus */
+.talk{padding:30px 0;}
+.talk_bg{width:364px; height:98px;}
+.talk_box{font-size:16px;}
+.envelope_box{height:470px; margin-top:10px;}
+.envelope{width:340px; height:470px;  margin-left:-170px; top:-30px;}
+.ticket{margin:165px auto 80px; width:268px; height:90px;}
+.instructions_layer_div p{font-size:16px; line-height:280%;}
+.footer{ margin-top:10px;}
+}

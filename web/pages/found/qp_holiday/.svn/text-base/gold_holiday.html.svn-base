@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>赐福祈富贵——财神节</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/gold_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>赐福祈富贵——财神节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>农历七月二十二日是中国的传统节日——财神节，怀抱着发财梦的人会在这天祭祀财神以佑自己梦想成真。</p>
+            <h3>【节日起源及习俗】</h3>
+            <p>道教中七月二十二这一天是财帛星君李诡祖的成道日，李诡祖去世后在这一天羽化得道，位列仙班，成为天上星宿中的财神。他在天庭的职衔是“都天致富财帛星君”，学渣们千万不要被这高大上的头衔吓到，其实他的职能类似我们的“会计”——专管天下的金银财帛。所以，财神节这天全国各地都会祭祀财神，以求自己财运亨通。</p>
+            <img src="/pages/found/qp_holiday/images/gold_img1.jpg"/>
+            <p>关于财神节全国各地有许多种祭祀风俗：红烛高烧、鞭炮齐鸣，用面做成元宝、圣虫，或用钱做成钱龙，吃水饺谓之“元宝”，意谓招财进宝。关系到招财进宝经商业户当然会表现的极其踊跃，他们通常会大放鞭炮、大宴宾朋以感谢财神的到来。鞭炮自清晨开始，一直延续到午后。中午宴宾朋，晚上亲人聚，热热闹闹一整天。</p>
+            <h3>【中外财神知多少】</h3>
+            <p>中国传统意义的财神分文财神和武财神，到底谁是财神有很多说法。但其实爱财之心在国外也是非常普遍，古希腊罗马神话中就有诸多“洋财神”。今天小编就把中外各路财神介绍给大家，快擦亮眼睛接财神啦！</p>
+            <img src="/pages/found/qp_holiday/images/gold_img2.jpg"/>
+            <p>中国民众供奉的财神主要有七位：北朝时期河北曲周县令李诡祖，端木赐（子贡：儒商之祖），范蠡（浙商），管仲（徽商），白圭（晋商），关公（关帝阁），比干（文财神、冀商之祖），财帛星君，赵公明。</p>
+            <p>古希腊罗马神话里有以下几个财神：普鲁都斯、海地士、克瑞斯、赫尔墨斯。可能这些“洋财神”你一个都不认识，但是精心研究星座多年的小编发现财神克瑞斯居然还是金牛座的守护神！怪不得金牛们那么“会过日子”！</p>
+            <div class="tips">
+                <p>1、农历七月二十二日是中国的财神节，在这天汉族、土族等地的人会进行各类祭祀活动以保佑自己的财运；</p>
+                <p>2、祭拜财神表达美好憧憬，但致富还是要靠自己的努力哦！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/欢欢</div>
+    </div>
+     <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+    
+ </body>
+</html>
+

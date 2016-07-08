@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<title>2014-2015赛季欧冠联赛1/8决赛次回合赛程</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main_20150316.css" rel="stylesheet">
+</head>
+<body class="">
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2014-2015赛季欧冠联赛1/8决赛次回合赛程</div>
+    </div>
+    <div class="main">
+    	<div class="main_content">
+		    <img src="http://cocoimg.365rili.com/schedule_pics/default/f35b3ed3-5249-4fab-a5ab-ced0c60348ec.jpg"/>
+			<p class="remind_div"> </P>
+    		<!-- 对战信息 -->
+			<div class="vs e_clear">
+				<table style="width:100%">
+					<tr>
+						<td style="text-align: center;">
+							<div class="left_logo"style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/c2b4bd70-b4a7-4653-9dfc-33f9ef36567e.jpg) 2x);"></div>
+							<span>马德里竞技</span>
+						</td>
+						<td style="vertical-align: middle;">
+							<div class="vs_txt">
+								<!-- h3里面的内容是比分显示 或者 是VS -->
+								<h3>VS</h3>
+								<!-- p标签里面是日期时间显示 -->
+								<p>03-18 03:45</p>
+							</div>
+						</td>
+						<td style="text-align: center;">
+							<div class="right_logo" style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/b671fb92-404e-4c77-8e99-237b1c857e3e.jpg) 2x);"></div>
+							<span>勒沃库森</span>
+						</td>
+					</tr>
+				</table>
+				<!--战队logo尺寸82*82  url(这里是战队logo)-->
+			</div>
+			<p> </p>
+			<h3>首回合比分：勒沃库森 1:0 马竞</h3>
+			<p> </p>
+			<h3>比赛场次：欧冠1/8决赛次回合</h3>
+			<p> </p>
+			<h3>比赛球场：卡尔德隆球场</h3>
+			<p> </p>
+			<h3>直播信息：CCTV5 新浪直播 QQ直播 </h3>
+			<p> </p>
+			<h3>看点：药厂本场比赛球队阵容几乎齐整且还手握一个主场进球，防守反击可能是药厂本场比赛的策略。反观马竞主力中卫戈丁与中场大将蒂亚戈同时停赛，对马竞是个不利消息，但是主场作战的床单军团仍然渴望比赛的胜利。 </h3>
+			<p> </p>
+            <!-- 添加提醒的按钮 -->
+            <a class="btn js-subscribe" data-uuid="aaf79c37-7002-4115-a2a7-d4997d13e9b6" data-cid="125821987">添加提醒</a>
+			<p class="remind_div"> </P>
+			<!-- 对战信息 -->
+			<div class="vs e_clear">
+				<table style="width:100%">
+					<tr>
+						<td style="text-align: center;">
+							<div class="left_logo"style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/0f0fec26-3249-4322-ad68-985098528bc3.jpg) 2x);"></div>
+							<span>摩纳哥</span>
+						</td>
+						<td style="vertical-align: middle;">
+							<div class="vs_txt">
+								<!-- h3里面的内容是比分显示 或者 是VS -->
+								<h3>VS</h3>
+								<!-- p标签里面是日期时间显示 -->
+								<p>03-18 03:45</p>
+							</div>
+						</td>
+						<td style="text-align: center;">
+							<div class="right_logo" style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/36e64a3c-4502-44b1-aba0-5972e4d7a9ee.jpg) 2x);"></div>
+							<span>阿森纳</span>
+						</td>
+					</tr>
+				</table>
+				<!--战队logo尺寸82*82  url(这里是战队logo)-->
+			</div>
+			<p> </p>
+			<h3>首回合比分：阿森纳 1:3 摩纳哥</h3>
+			<p> </p>
+			<h3>比赛场次：欧冠1/8决赛次回合</h3>
+			<p> </p>
+			<h3>比赛球场：路易斯二世球场</h3>
+			<p> </p>
+			<h3>直播信息：CCTV5+ 风云足球 QQ直播 </h3>
+			<p> </p>
+			<h3>看点：首回合枪手主场3球落败，本场做客摩纳哥恐翻盘希望不大。而主队摩纳哥本场比赛主场作战只要不丢3个球便可以晋级。 </h3>
+			<p> </p>
+            <!-- 添加提醒的按钮 -->
+            <a class="btn js-subscribe" data-uuid="114cccb4-033f-493c-bfa0-4a37813a57fe" data-cid="125821987">添加提醒</a>
+			<p class="remind_div"> </P>
+			<!-- 对战信息 -->
+			<div class="vs e_clear">
+				<table style="width:100%">
+					<tr>
+						<td style="text-align: center;">
+							<div class="left_logo"style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/940b198c-d7df-4532-8047-bf8430378647.jpg) 2x);"></div>
+							<span>巴塞罗那</span>
+						</td>
+						<td style="vertical-align: middle;">
+							<div class="vs_txt">
+								<!-- h3里面的内容是比分显示 或者 是VS -->
+								<h3>VS</h3>
+								<!-- p标签里面是日期时间显示 -->
+								<p>03-19 03:45</p>
+							</div>
+						</td>
+						<td style="text-align: center;">
+							<div class="right_logo" style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/3aa8ec46-83ef-4867-98cc-89ec710e4cbc.jpg) 2x);"></div>
+							<span>曼城</span>
+						</td>
+					</tr>
+				</table>
+				<!--战队logo尺寸82*82  url(这里是战队logo)-->
+			</div>
+			<p> </p>
+			<h3>首回合比分：曼城 1:2 巴塞罗那</h3>
+			<p> </p>
+			<h3>比赛场次：欧冠1/8决赛次回合</h3>
+			<p> </p>
+			<h3>比赛球场：诺坎普球场</h3>
+			<p> </p>
+			<h3>直播信息：CCTV5 新浪直播 QQ直播 </h3>
+			<p> </p>
+			<h3>看点：宇宙队巴萨首回合客场2:1战胜蓝月亮，并且手握两个客场进球，再加上近期的火热状态，本场比赛主场拿下对手不成问题。而客队蓝月亮状态起伏不定，本场做客诺坎普恐凶多吉少。 </h3>
+			<p> </p>
+            <!-- 添加提醒的按钮 -->
+            <a class="btn js-subscribe" data-uuid="644696b0-3235-4136-8314-9cbb74f4c0fa" data-cid="125821987">添加提醒</a>
+			<p class="remind_div"> </P>
+			<!-- 对战信息 -->
+			<div class="vs e_clear">
+				<table style="width:100%">
+					<tr>
+						<td style="text-align: center;">
+							<div class="left_logo"style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/404dcebf-f87c-4a41-9406-ca8e3259b33c.jpg) 2x);"></div>
+							<span>多特蒙德</span>
+						</td>
+						<td style="vertical-align: middle;">
+							<div class="vs_txt">
+								<!-- h3里面的内容是比分显示 或者 是VS -->
+								<h3>VS</h3>
+								<!-- p标签里面是日期时间显示 -->
+								<p>03-19 03:45</p>
+							</div>
+						</td>
+						<td style="text-align: center;">
+							<div class="right_logo" style="background-image:-webkit-image-set(url(http://cocoimg.365rili.com/schedule_pics/default/68f00680-ef96-4723-b99d-39ebeb11b652.jpg) 2x);"></div>
+							<span>尤文图斯</span>
+						</td>
+					</tr>
+				</table>
+				<!--战队logo尺寸82*82  url(这里是战队logo)-->
+			</div>
+			<p> </p>
+			<h3>首回合比分：尤文图斯 2:1 多特蒙德</h3>
+			<p> </p>
+			<h3>比赛场次：欧冠1/8决赛次回合</h3>
+			<p> </p>
+			<h3>比赛球场：伊杜纳信号公园</h3>
+			<p> </p>
+			<h3>直播信息：CCTV5+ 风云足球 QQ直播 </h3>
+			<p> </p>
+			<h3>看点：首回合斑马军团主场2:1战胜大黄蜂，本场客场作战球队中场核心皮尔洛因伤缺阵，恐对斑马军团中前场的传接球影响不小。反观主队最近势头稍有反弹，上轮联赛主场被科隆逼平，连胜势头被终结，本场坐镇主场想要翻盘还需要超常发挥。 </h3>
+			<p> </p>
+            <!-- 添加提醒的按钮 -->
+            <a class="btn js-subscribe" data-uuid="499180f2-1cd6-4392-a3a6-27b05d6d8b84" data-cid="125821987">添加提醒</a>
+			<p class="remind_div"> </P>
+			<p> </p>
+			<h3>欧洲冠军联赛简介:</h3>
+			<p>欧洲冠军联赛，简称欧冠，是欧洲足球协会联盟主办的年度足球比赛，代表欧洲俱乐部足球最高荣誉和水平，被认为是全世界最高素质，最具影响力以及最高水平的俱乐部赛事，亦是世界上奖金最高的足球赛事和体育赛事之一，估计每届赛事约有超过十亿电视观众通过人造卫星观看赛事。欧冠前身是1955/1956赛季创建的欧洲俱乐部冠军杯（European Champion Clubs' Cup）。1992/1993赛季，欧足联对这项杯赛的赛制和名称正式进行了修改，赛事因此改称现在使用的“欧洲冠军联赛”（UEFA Champions League），而旧有的名称“欧洲俱乐部冠军杯”则被套用于现在的冠军奖杯上。算上欧洲冠军杯时代，皇家马德里一共10次夺冠，之后是7次夺冠的AC米兰，5次夺冠的拜仁慕尼黑和利物浦，以及4次夺冠的巴塞罗那和阿贾克斯。</p>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/f35b3ed3-5249-4fab-a5ab-ced0c60348ec.jpg',
+                title: '2014-2015赛季欧冠联赛1/8决赛次回合赛程',
+                desc: '欧冠1/8决赛次回合豪门精彩对决，鹿死谁手谁主沉浮。下载365日历，赛程详情尽览无余！'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2014-2015赛季欧冠联赛1/8决赛次回合赛程',
+		        				content: '欧冠1/8决赛次回合豪门精彩对决，鹿死谁手谁主沉浮。下载365日历，赛程详情尽览无余！',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/f35b3ed3-5249-4fab-a5ab-ced0c60348ec.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>就是让学渣颤抖— —国际扫盲日</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/literacy_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>就是让学渣颤抖— —国际扫盲日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>联合国教科文组织在1965年11月17日第14届代表大会上，将每年9月8日定为国际扫盲日，旨在动员世界各国以及相关国际机构重视文盲现象，与文盲现象作斗争。</p>
+            <h3>【什么是文盲】</h3>
+            <p>你知道文盲的定义是什么吗？有人说是不能读书识字的人，也有人说是不能识别现代社会符号的人，还有人说是不能使用计算机进行学习、交流和管理的人。都！不！对！瞪大眼睛看清楚，小编我只说一次哦：“文盲是指不识字的成年人”。看起来这个定义并没有做到与时俱进啊！</p>
+            <img src="/pages/found/qp_holiday/images/literacy_img1.jpg" width="100%"/>
+            <h3>【节日起源】</h3>
+            <p>联合国教科文组织发布的《2011年全球教育监测报告》显示，全世界有2800万儿童被武装冲突剥夺了受教育的机会。报告特别指出，教育的缺失也会成为冲突的诱因，在受冲突影响的国家中，有超过60%的人口年龄在25岁以下，但他们缺乏脱离贫困的必要技能。就酱，武装冲突导致教育缺失，教育缺失又引发武装冲突，小编这一颗心都要操心碎了！</p>
+            <img src="/pages/found/qp_holiday/images/literacy_img2.jpg"/>
+            <p>扫盲有多么重要呢？官方的说法就是：识字是一项人权、是加强个人能力的一件工具、是实现社会和人类发展的一种手段，教育的机会依赖于识字。这样说可能不太能产生深刻的认知，更何况你并不觉得考试成绩总是低于同桌是一件丢脸的事。换个角度思考一下，如果你看不懂路边的招牌，分不清服装店和超市……真是感觉整个人都不好了！如果整个社会都不识字，那将是一件多么可怕的事情！</p>
+            <h3>【意义与影响】</h3>
+            <p>在国际社会共同努力下，全球扫盲工作取得了很大进展。目前（2011年），全世界已有近四十亿的识字人口。小编还是让你们直观的感受一下这个成果：清华北大等知名院校录取分数屡创新高，你妈数落你的时候举例“别人家孩子”的题材越来越丰富……就连你自己，也考上大学，追到了白富美，搞定了高富帅，眼看着就踏上人生巅峰了！</p>
+            <div class="tips">
+                <p>1、每年9月8日定为国际扫盲日，此节日旨在动员世界各国与文盲现象作斗争；</p>
+                <p>2、经过多年来艰苦卓绝的努力，学霸群体日渐扩大，要学会和学霸做朋友！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+      <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+    
+ </body>
+</html>
+

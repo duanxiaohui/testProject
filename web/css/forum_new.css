@@ -1,0 +1,257 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 张明臣 (vest0804@gamil.com)
+ * @date    2014-12-15 11:43:20
+ * @version 1.0
+ */
+body { background: #f1f5f8; color: #444; font: 12px / 1.5em "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑,SimSun,arial; margin: 0; padding: 0;}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+a{text-decoration: none; }
+*{-webkit-tap-highlight-color: rgba(0,0,0,0); tap-highlight-color: rgba(0,0,0,0);}
+.none{display:none;}
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+.none{display:none;}
+
+.square_bar{width:100%; background:#fff; border-bottom:1px solid #d4dbe0; text-align:center; font-size:18px; position:fixed; top:0; z-index:99;}
+.square_bar_inner{margin: 10px 20px; height: 20px;}
+.search_btn{width:20px; height:20px; float:right;}
+.square_list{height:35px; border-bottom:1px solid #d4dbe0; text-align:center;background:#f1f5f8; width:100%; position:fixed; top:41px; z-index:99;}
+.search_btn{float:right; width:18px;margin-left: -18px; height:18px; background:url(../images/forum/search_icon.png) no-repeat; background-size:18px 18px;}
+
+.square_list li{display:inline-block; height:33px; line-height:35px; width:80px; text-align:center; color:#989898; border-bottom:2px solid #f1f5f8; font-size:14px; margin:0 30px;}
+.square_list li.on{border-color:#f69204; color:#f69204;}
+.select_city{height:35px; line-height:35px; width:100%; background:#fff;}
+.city_box{color:#737373; font-size:14px; margin-left: 10px; position:relative; z-index:98;}
+.city_box:after{content:" "; width:9px; height:9px; border-top:1px solid #737373; border-left:1px solid #737373; border-bottom:1px solid transparent;border-right:1px solid transparent; position:absolute; left:35px; top:8px;transform:rotate(-135deg); -webkit-transform:rotate(-135deg);}
+body.index{background:#ebebeb;}
+.square_recommended_content li{width:100%; margin-bottom:10px; overflow:hidden; /*border-bottom:1px solid #d4dbe0;*/}
+.square_recommended_content li img{width:100%;}
+
+/*city_list*/
+.city_title{background:#f1f5f8; line-height:35px; padding:0 10px; color:#9ba1a6; font-size:14px; border-bottom:1px solid #d4dbe0;}
+.city_list{background:#fff;}
+.city_list li{line-height:50px; padding:0 10px; font-size:16px; color:#000; border-bottom:1px solid #d4dbe0;}
+
+.pdt112{padding-top:112px;}
+.pdt93{padding-top:93px;}
+.pdt77{padding-top:77px;}
+.pdt41{padding-top:41px;}
+
+.square_recommended_content{z-index:1;}
+.classification_list dl{padding:15px; border-bottom:1px solid #d4dbe0; background:#fff;}
+.classification_list dt{width:65px; float:left;}
+.classification_list dd{margin-left:65px; line-height:50px; font-size:16px; color:#858585;}
+.list_icon{width:44px; height:44px; border:3px solid #fff; box-shadow: 0 0 5px #ccc; border-radius:25px;}
+.classification_list dl .list_icon{background:url(../images/forum/sports_icon.png) no-repeat center center; background-size:44px 44px;}
+
+.classification_list dd .arrow{float:right; width:10px; height:10px; border-top:1px solid #898e91; border-right:1px solid #898e91; transform:rotate(45deg);  -webkit-transform:rotate(45deg); margin-top:20px;}
+
+.sq_calendar_list dl{padding:15px; border-bottom:1px solid #d4dbe0; background:#fff;}
+/*.sq_calendar_list dl:active{background:#5ab3fd;}*/
+
+.sq_calendar_list dt{width:80px; height:80px; float:left; border:1px solid #dfdfdf; border-radius:41px; background-size:80px auto;}
+.sq_calendar_list dd{margin-left:91px;}
+.focus{float:right; width:37px; margin:15px auto 0;}
+.focus_icon{width:19px; height:17px; padding:5px; margin:0 auto; background:url(../images/forum/start.png) no-repeat center center; background-size:19px 17px;}
+.focus .on{width:19px; height:17px; padding:5px; margin:0 auto; background:url(../images/forum/start_on.png) no-repeat center center; background-size:19px 17px;}
+.sq_calendar_list dd .focus p{font-size:12px; color:#5b606d; line-height:24px; text-align:center;}
+.sq_calendar_list dd h3{font-size:14px; color:#434343; line-height:24px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.sq_calendar_list dd p{color:#8b8b8b; font-size:12px; line-height:180%; height:42px; overflow:hidden;}
+.focus_num{display:inline-block; padding:1px 5px; color:#fff; font-size:12px; background:#b2d4f1; border-radius:3px;}
+
+/*search*/
+.search_input{position:fixed; top:41px; width:100%; background:#f1f5f8; border-bottom:1px solid #d4dbe0; z-index:99; }
+.input_box{padding:0 10px 0 33px; margin:8px 12px; height:35px; background:#fff url(../images/forum/search_icon.png) no-repeat 8px center; background-size:17px 17px;}
+.input_box input{ width:100%; border:0; height:35px; background:#fff;font-size:15px;}
+.input_box input:focus{border:0; outline: none;}
+
+.search_results h2{height:40px; line-height:40px; padding:0 12px; border-bottom:1px solid #d4dbe0; border-top:1px solid #d4dbe0;color:#434343; font-weight:500;}
+.search_results .search_calendar_results h2{border-top:0;}
+.search_results .sq_calendar_list{background:#fff; padding:0 12px;}
+.search_results .sq_calendar_list dl{padding:15px 0;border-bottom:1px dashed #d4dbe0;}
+.search_results .sq_calendar_list dl.noborder{border:0;}
+
+.search_activity_results h2{border-top:1px solid #d4dbe0; color:#434343; font-weight:500;}
+.search_acticity_list{background:#fff; padding:0 12px;}
+
+.search_acticity_list dl{padding:15px 0; border-bottom:1px dashed #d4dbe0;}
+.search_acticity_list dt{width:80px; height:80px; float:left; border:1px solid #dfdfdf; background-size:80px 80px;}
+.search_acticity_list dd{margin-left:91px;}
+.search_results h3{ font-size:13px; min-height:35px; line-height:17px; font-weight:500;}
+
+.time{padding:1px 0 1px 15px;height:12px; line-height:15px; color:#9ba1a6; background:url(../images/forum/time_icon.png) no-repeat left center; background-size:9px 9px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.address{padding:1px 0 4px 15px;height:12px; line-height:15px; color:#9ba1a6;background:url(../images/forum/address_icon.png) no-repeat left 3px; background-size:9px 10px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.more_btn{display:block;padding:13px 0; font-size:14px; color:#8f9599;text-align:center;}
+
+
+.search_results .arrow{position:relative; width:18px; height:18px; border-radius:18px; background:#b0d0ea; float:right; margin-top:11px;}
+.search_results .arrow:after{content:" "; position:absolute;width:6px; height:6px; border-left: 1px solid #fff; border-top:1px solid #fff; top:50%; margin-top:-3px; right:7px; transform:rotate(135deg);-webkit-transform:rotate(135deg);}
+.search_results h2.on .arrow:after{content:" "; position:absolute;width:6px; height:6px; border-left: 1px solid #fff; border-top:1px solid #fff; top:50%; margin-top:-2px; right:6px; transform:rotate(45deg);-webkit-transform:rotate(45deg);}
+
+.search_acticity_list dl.noimg dt{display:none;}
+.search_acticity_list dl.noimg dd{margin-left:0;}
+
+/* loading */
+.circle {
+    background-color: rgba(0, 0, 0, 0);
+    border: 5px solid rgba(0, 183, 229, 0.9);
+    opacity: .9;
+    border-right: 5px solid rgba(0, 0, 0, 0);
+    border-left: 5px solid rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    box-shadow: 0 0 35px #2187e7;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -moz-animation: spinPulse 1s infinite ease-in-out;
+    -webkit-animation: spinPulse 1s infinite linear;
+}
+.circle1 {
+    background-color: rgba(0, 0, 0, 0);
+    border: 5px solid rgba(0, 183, 229, 0.9);
+    opacity: .9;
+    border-left: 5px solid rgba(0, 0, 0, 0);
+    border-right: 5px solid rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    box-shadow: 0 0 15px #2187e7;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -moz-animation: spinoffPulse 1s infinite linear;
+    -webkit-animation: spinoffPulse 1s infinite linear;
+}
+@-moz-keyframes spinPulse {
+    0% {
+        -moz-transform: rotate(160deg);
+        opacity: 0;
+        box-shadow: 0 0 1px #2187e7;
+    }
+    50% {
+        -moz-transform: rotate(145deg);
+        opacity: 1;
+    }
+    100% {
+        -moz-transform: rotate(-320deg);
+        opacity: 0;
+    }
+}
+@-moz-keyframes spinoffPulse {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes spinPulse {
+    0% {
+        -webkit-transform: rotate(160deg);
+        opacity: 0;
+        box-shadow: 0 0 1px #2187e7;
+    }
+    50% {
+        -webkit-transform: rotate(145deg);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: rotate(-320deg);
+        opacity: 0;
+    }
+}
+@-webkit-keyframes spinoffPulse {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+.tag_loading{
+    overflow: hidden;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    -webkit-transition: all 0.5s ease-in;
+    opacity: 0.7;
+}
+
+/*no_seach_result*/
+.search_results{background:#fff;}
+.search_calendar_results,.search_activity_results,.search_schedule_results{background:#f1f5f8;}
+.no_result{text-align:center; font-size:18px; color:#737373; padding:15px 0;}
+
+.calendar_project_top_header{width:100%; height:20px; line-height:20px; padding:15px 0; position: fixed; text-align:center; font-size:18px; color:#434343; background:#fff; top:0;}
+.calendar_project_top_header span{
+    display: block;
+    margin: 0 30px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+}
+.calendar_project_top_img{padding:50px 5px 0; overflow:hidden;}
+.calendar_project_top_img img{width:100%;}
+.calendar_project_info{padding:10px 15px; background:#fff; font-size:14px; color:#abadae; margin-bottom:10px; border-bottom:1px solid #d4dbe0;}
+.calendar_project_list{background:#fff;}
+.calendar_project_list dl{background:#fff; padding:15px 0; margin:0 15px;  border-bottom:1px dashed #d4dbe0;}
+.calendar_project_list dl:last-child{border:0;}
+.calendar_project_list dt{width:70px; height:70px; float:left; border-radius:35px; -webkit-border-radius:35px; background-size:70px;}
+.calendar_project_list dd{margin-left:90px;}
+.focus{width:40px; float:right; text-align:center;}
+.calendar_list_txt{margin-right:40px;}
+.calendar_list_txt p{height:36px; overflow:hidden; color:#848484; font-size:12px;}
+.return_btn{display:none; position:absolute; width:15px; height:15px; border:1px solid #000; border-right:0; border-bottom:0; transform:rotate(-45deg); -webkit-transform:rotate(-45deg); left:15px; top:17px;}
+.share_btn{width:20px; height:20px; position: absolute; top:15px; right:15px; background:url(../pages/forum/images/share_btn.png) no-repeat; background-size:100% 100%;}
+
+.schedule_project_list dl{padding:0 15px; background:#fff; border-bottom:1px solid #d4dbe0; border-left:0; border-right:0; margin-bottom:10px;}
+.schedule_project_list dt{padding:10px 0; text-align:center;}
+.schedule_project_list dt span{display:inline-block; height:18px; line-height:18px; vertical-align: middle; margin-left:8px;}
+.schedule_project_list dt .on{background:url(../images/forum/remind_icon_hover.png) no-repeat; background-size:16px 18px;}
+.schedule_project_list dd{padding:15px 0; border-bottom:1px dashed #d4dbe0;}
+.schedule_img{width:79px; height:79px; border:1px solid #dcdcdc; float:left;}
+.schedule_img img{width:100%; height:100%;}
+.calendar_list_txt{margin-right:40px;}
+.schedule_list_div .calendar_list_txt{margin-left:95px;}
+.schedule_project_list .calendar_list_txt h3{height:36px; overflow:hidden; font-size:12px; color:#292f33;}
+.schedule_project_list .calendar_list_txt h3 span{display:inline-block; padding:1px 5px; color:#fff; font-size:12px; background:#b2d4f1; border-radius:3px; margin-right:5px; font-weight:500;}
+.schedule_project_list .calendar_list_txt p{height:14px; font-size:12px; margin:1px;}
+.remind_icon{display:inline-block; width:16px; height:18px; background:url(../images/forum/remind_icon.png) no-repeat; background-size:16px 18px; vertical-align: middle;}
+.schedule_project_list .schedule_time{padding:1px 0 1px 15px;height:12px; line-height:15px; color:#9ba1a6; background:url(../images/forum/time_icon.png) no-repeat left center; background-size:9px 9px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.schedule_project_list .schedule_address{padding:1px 0 4px 15px;height:12px; line-height:15px; color:#9ba1a6;background:url(../images/forum/address_icon.png) no-repeat left 3px; background-size:9px 10px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+
+.weixin .calendar_list_txt{margin-right:0;}
+.weixin .focus{display:none;}
+.weixin .schedule_list_div dd{border:0;}
+.weixin .schedule_list_div dt{display:none;}
+.weixin .share_btn{display:none;}
+.weixin .add_schedule_list{ padding-bottom: 52px;}
+.weixin .calendar_project_top_header{display: none;}
+.weixin .calendar_project_top_img{padding-top: 5px;}
+
+/*20150128新增日程落地页*/
+.add_schedule_list{padding:0 12px;}
+.add_schedule_list dl{padding:15px 0; border-bottom:1px dashed #d4dbe0;;}
+.add_schedule_list dl dt{width:70px; height:70px; float:left; border:1px solid #dfdfdf; background-size:70px 70px;}
+.add_schedule_list dl dd{margin-left:81px;}
+.add_schedule_list .add_schedule_list_txt h3{height:40px; overflow:hidden; font-size:16px; color:#292f33; line-height:120%;}
+
+.text_overflow{width:100%; height:18px; line-height:18px;overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}

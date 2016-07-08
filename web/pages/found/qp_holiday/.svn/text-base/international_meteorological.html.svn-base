@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>欢迎收看春节档天气预报</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/international_meteorological/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>国际气象节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>用户朋友们过年好，今天是2016年2月10日，农历正月初三，下面请大家跟小编一起来关注一下天气。立春过后天气逐渐变暖，全国各地饺子雨不断，局部地区伴有汤圆、甜品。山东全省、河南大部发布酱肘子橙色预警，黑龙江、辽宁等地可能会出现猪肉炖粉条，西北地区降水量总体偏少，山西、陕西等地不间断会有油泼面、臊子面等……在北风的吹拂下，四川全省温度不降反升，看来四川人民涮火锅涮的那是极嗨的！春节期间各种美食的滋养使的大家红光满面（隔着屏幕我都感觉到了），体重的事小编我就不多操心了……</p>
+            <h3>【摸摸良心给我打个分】</h3>
+            <p>刚才的那段天气预报主播小编起的怎么样？摸摸你的良心给我打个102分吧，多给两分让我骄傲一会！</p>
+            <img src="images/international_meteorological/holiday_1.jpg"/>
+            <p>其实天气预报主播是很不好当的，就算你普通话一级甲等，举止端庄大方，也扛不住南非的苛刻法律！南非为了加强对天气预报工作的管理、避免因为错误播报极端天气引发民众恐慌和经济损失，出台了新的立法。新法案规定，如果天气预报主播在未获得南非国家气象局的书面许可的情况下，擅自发布了不正确的极端天气预警，将可能受到刑事追责。初犯的主播将面临最高5年刑期或40万英镑罚款的处罚，再犯就厉害了，刑期和罚款都翻一番！</p>
+            <h3>【国际气象节】</h3>
+            <p>天气跟我们的生活息息相关，预知天气能带来极大的便利。因此，法国人发起了国际气象节这个节日，第一届国际气象节于1991年2月10日在法国巴黎附近的依西·雷莫里诺成功举办，当时仅有16个国家的25个电视台参加。节日其中一项活动就是从参加气象节的电视台中，评选优秀的气象节目、气象小姐和气象先生。</p>
+            <img src="images/international_meteorological/holiday_2.jpg"/>
+            <p>我国最早的气象台是1872年建成的上海徐家汇观象台。但是当时的天气预报只有“全国风向不定、天气多变、可能有雨”等既模糊又简单的内容，想想都觉得没有安全感！1980年7月，中央电视台第一次播报了我国电视天气预报，那时候的天气预报和现在的详细程度简直没有可比性。小编总结起来就是：卫星、雷达等高科技手段真好！</p>	
+
+            <div class="tips">
+                <p>1、每年的2月10日是国际气象节，节日期间做有趣的活动就是气象先生、气象小姐的评选；</p>
+                <p>2、春节不管什么天气，都是极开心的！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

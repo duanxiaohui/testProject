@@ -1,0 +1,10 @@
+{
+  "family": "webapp",
+  "name": "bbs",
+  "version": "1.0.0",
+  "spm": {
+    "alias": {
+    },
+    "output": ["main.js"]
+  }
+}

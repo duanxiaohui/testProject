@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>365日历</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0; user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
+</head>
+<body>
+    <div class="main">
+    	<div class="box">
+    		<div class="top"></div>
+		</div>
+		<p class="txt">立春，是二十四节气之一，又称“打春”，“立”是“开始”的意思，中国以立春为春季的开始，每年2月4日或5日太阳到达黄经315度时为立春，《月令七十二候集解》：“正月节，立，建始也，立夏秋冬同。”古代“四立”，指春、夏、秋、冬四季开始，其农业意义为“春种、夏长、秋收、冬藏”，概括了黄河中下游农业生产与气候关系的全过程。</p>
+		<div class="bottom"><a href="javascript:;" class="btn" id="btn">把春天分享到微博</a></div>
+    </div>
+<script type="text/javascript">
+    function $(id){
+        return document.getElementById(id);
+    }
+	window.onload = function(){
+		var btn = $("btn");
+		btn.onclick = function(){
+			var txt = "我通过@a365rili日历 得知今天是立春！立春，是二十四节气之一，又称“打春”，“立”是“开始”的意思，中国以立春为春季的开始！杜甫有诗：春日春盘细生菜，忽忆两京梅发时。大家春天来啦！下载地址：http://www.365rili.com"
+			var json = '[{"img": "lichun2013.jpg","content": "我通过@a365rili日历 得知今天是立春！立春，是二十四节气之一，又称“打春”，“立”是“开始”的意思，中国以立春为春季的开始！杜甫有诗：春日春盘细生菜，忽忆两京梅发时。大家春天来啦！。下载地址：http://www.365rili.com","via":"qt","type":"type","follow":true}]';
+			if (/android/i.test(navigator.userAgent)) {
+				try {
+					AliansBridge.sharev2(json);
+				} 
+				catch (e) {
+					try {
+						AliansBridge.share(txt, img = "lichun2013.jpg", null, false);
+					} 
+					catch (e) {
+						alert("您的365日历版本暂不支持发微博，请升级到最新版");
+					}
+				}
+			}
+			else 
+				if (/ipad|iphone|mac/i.test(navigator.userAgent)) {
+					btn.href = 'rili365app:share|||||' + txt + '|||||lichun2013.jpg';
+				}
+		}
+	}
+</script>
+</body>
+</html>

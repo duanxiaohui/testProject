@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>365日历-中新社</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="style/calendar.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div class="calendar_box"></div>
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui-1.8.23.custom.min.js"></script>
+<script src="js/lunar.js"></script>
+<script src="js/calendar1.js"></script>
+</body>
+</html>

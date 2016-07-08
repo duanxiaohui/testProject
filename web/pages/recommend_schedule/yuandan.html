@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>小贴士</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link href="/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link href="style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="recommend_main">
+    	<div class="recommend_schedule_top">
+    		<h2>许下新年心愿</h2>
+            <h4 class="none">新年第一天，给自己一个新的期许</h4>
+    	</div>
+    	<div class="recommend_schedule_middle">
+    		<div class="recommend_schedule_img">
+    			<img src="images/yuandan.jpg" alt="">
+    		</div>
+            <p><span>推荐理由：</span>半只脚跨出了2015年，她有了她的马甲线，他有了他的八块腹肌，而你的愿望达成了吗？你又有了什么新的愿望？在2016年的第一天，把你的愿望写下来吧，让新的一年有更多期许！</p>
+            <p>下面是一些“仅供参考”的愿望</p>
+            <p>大B：2016年我要吃遍最辣的美食，不吃辣，不成活；阿毛：在胸不变小的前提下，将体重缩减到100斤以内；暖暖：带妈妈到首都转一圈……</p>
+            <p>不管你的新年愿望是什么，在1月1日写下来吧，白纸黑字才更有动力！</p>
+    	</div>
+    	<div class="recommend_schedule_bottom">
+    			<p>添加到我的日程</p>
+    			<a href="javascript:;" class="add_mySchedule"></a>
+    	</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script type="text/javascript" src="/pages/ui-lib/js/plug.js"></script>
+   <script type="text/javascript" src="/pages/recommend_schedule/js/recommend.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var startTime = new Date("2016/1/1 0:0:0").getTime();
+            tips.init(startTime);
+        })
+    </script></body>
+</html>

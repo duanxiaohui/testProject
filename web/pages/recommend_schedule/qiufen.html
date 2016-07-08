@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>小贴士</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<link href="/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link href="style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="recommend_main">
+    	<div class="recommend_schedule_top">
+    		<h2>给家人煲一份秋日养生汤</h2>
+            <h4 class="none">温暖的滋补是给家人最好的关心</h4>
+    	</div>
+    	<div class="recommend_schedule_middle">
+    		<div class="recommend_schedule_img">
+    			<img src="images/qiufen.jpg" alt="">
+    		</div>
+    		<p><span>推荐理由：</span>叶子落下，荡起秋的涟漪，空气里氤氲着丝丝凉意，在这个时节，给身边的亲人，煲一份美味的养生汤，让这个秋天温暖起来。</p>
+            <p>秋分滋补汤——莲子百合炖猪肉</p>
+            <p>材料：瘦猪肉片200克，莲子肉15克，百合15克，香油、盐、味精少许~</p>
+            <p>烹制：将沙锅置火上，放入洗净的莲子、百合、肉片并加适量清水，文火炖至莲子、百合、肉片烂熟后，加入香油、精盐、味精调味即可。</p>
+            <p>9月23日就是秋分啦，快准备准备食材吧！</p>           
+    	</div>
+    	<div class="recommend_schedule_bottom">
+    			<p>添加到我的日程</p>
+    			<a href="javascript:;" class="add_mySchedule"></a>
+    	</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script type="text/javascript" src="/pages/ui-lib/js/plug.js"></script>
+    <script type="text/javascript" src="/pages/recommend_schedule/js/recommend.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var startTime = new Date("2015/9/23 9:0:0").getTime();
+            tips.init(startTime);
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>怎么哪儿都要自由？</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/holiday_newsfreeday/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>世界新闻自由日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>听多了婚姻自由、恋爱自由、信仰自由，好像越来越多的束缚都逐渐被人们冲破，而一直以来“言论自由”给着大家的印象是——“我们说的话一直都是自由的，我们因自由而是安全的。”但是真的是这样的么？</p>
+            
+          
+
+            <h3>【并不“自由”的新闻】</h3>
+
+            <p>在这个时代，越来越多的人正在获得接触、直面更广泛大众的途径。但人们常常面临的是对信息和思想交流的限制、取缔或禁阻等种种企图。新闻记者在努力披露他人困境时自己本身却成为目标。在2014年，有150多位媒体专业人员因公殉职。还有一些新闻工作者受伤、被拘留、遭骚扰或成为人质。这不仅发生在武装冲突中，而且在新闻工作者努力曝光腐败、贫穷和滥用权力等问题时，也有发生。</p>
+           
+            <img src="images/holiday_newsfreeday/holiday_1.jpg"/>
+
+            <h3>【新闻自由日】</h3>
+
+            <p>5月3日是世界新闻自由日，在这一天，全世界的人们都被告知：言论自由权被侵犯的现象仍然存在；他们被提醒：有许多新闻工作者，因为提供每日新闻而被捕入狱，甚至英勇牺牲。世界新闻自由日让世界再次重温《世界人权宣言》第19条所阐述的保护言论自由和新闻自由基本权利的重要意义。没有这些权利，就无法实现民主和发展。独立、自由和多元化的媒体能够确保透明度和落实问责制，促进社会参与和法制并有助于消除贫困，因此对社会的良政发挥着至关重要的作用。</p>
+            <img src="images/holiday_newsfreeday/holiday_2.jpg"/>
+
+
+            <div class="tips">
+                <p>1、人人有权享有主张和发表意见的自由，持有的主张而不受干涉的自由，有权利通过任何媒介和不论国界寻求、接受和传递消息和思想的自由；</p>
+                <p>2、我们希望，见到一个更加真实的世界，更加理性的社会，人人怀有信仰，敢于捍卫，互相帮助！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/Vanna</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

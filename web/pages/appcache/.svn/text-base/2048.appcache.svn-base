@@ -1,0 +1,32 @@
+CACHE MANIFEST
+# v1 2014-07-09
+# updated  
+
+CACHE:
+example/2048.html
+
+#js cache
+example/source/ai.js
+example/source/animframe_polyfill.js
+example/source/application.js
+example/source/game_manager.js
+example/source/grid.js
+example/source/hammer.min.js
+example/source/html_actuator.js
+example/source/keyboard_input_manager.js
+example/source/tile.js
+
+#css cache
+example/source/main.css
+example/source/fonts/clear-sans.css
+example/source/fonts/ClearSans-Bold-webfont.svg
+example/source/fonts/ClearSans-Regular-webfont.svg
+example/source/og_image.png
+
+# Use from network if available
+#NETWORK:
+#network.html
+
+# Fallback content
+#FALLBACK:
+#/ fallback.html

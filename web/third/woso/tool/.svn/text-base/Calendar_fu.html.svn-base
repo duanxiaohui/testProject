@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>日历</title>
+<link href="../css.css" rel="stylesheet" type="text/css" />
+<style>
+.cal_box{
+	width:333px;
+	overflow:hidden;
+	font-family:Arial, Helvetica, sans-serif;
+	height:144px;
+	position:relative;
+	background-image: url(#);
+}
+.cal_box_l{ width:120px; height:134px; float:left; position: relative; text-align:center; padding-left:0px; margin-right:5px; padding-top:10px;}
+.cal_box_l_in{ padding:2px; padding-left:3px; height:12px; line-height:12px; border:1px solid #ccc; margin-left:3px; margin-right:3px;}
+.cal_box_l h1{ font-size:36px; margin-bottom:-6px;}
+.cal_box_l h3{ font-size:12px; text-align:center; line-height:20px;}
+.cal_box_l h3 strong{ margin-left:5px;} 
+.cal_box_l  .calred{ color:#c51010; }
+.cal_box_r{ width:208px; float:left; padding:5px; padding-right:0px ; padding-left:0px;}
+.cal_box_r ul{ width:px;}
+.cal_box_r ul li{float:left;text-align:center;width:26px;  height:18px; line-height:18px; margin:1px;}
+.cal_box_r ul li a{ width:26px;  height:18px; display:inline-block; padding-bottom:1px;}
+.cal_box_r ul li a:hover{ background-color:#eee; text-decoration:none; color:#333;}
+.cal_box_r .calred{ color:#c51010; }
+.cal_box_r .calred:hover{color:#c51010; }
+.cal_box_r .calhui{ color:#ccc; }
+.cal_box_r .calhui:hover{ color:#ccc; }
+.cal_box_r .calon{ border:1px solid #0693d8; width:24px; height:16px; line-height:16px; font-weight:bold; position:relative;}
+.cal_box_r .calon:hover{ border:1px solid #0693d8; font-weight:bold; background-color:#fff;}
+.cal_box_j{ padding-top:5px; overflow:hidden; position:absolute; left:0px; bottom:13px; width:100%; height:20px;}
+.cal_box_j a{width:23px;  height:20px; display:inline-block; margin-right:5px; text-align:center; line-height:18px;}
+.cal_box_j .yi{ background-color:#23ab00; color:#fff;}
+.cal_box_j .ji{ background-color:#333; color:#fff;}
+.jiyi_box{ position:absolute; background-color:#FFFFFF; width:100px; padding:10px; padding-bottom:0px;  left:0px; bottom:40px;box-shadow: 1px 1px 7px #B5B5B5;background:rgba(255, 255, 255, 0.95) none repeat scroll 0 0 !important;}
+.jiyi_box ul {  clear:both; padding-bottom:10px; overflow:hidden; width:110px;}
+.jiyi_box ul li{ float:left;}
+.jiyi_box ul li span{ width:23px;  height:20px; display:inline-block; margin-right:5px; text-align:center; line-height:18px;}
+.jiyi_box .eer{ width:75px; text-align:left;}
+.jiyi_box .yi{ background-color:#23ab00; color:#fff;}
+.jiyi_box .ji{ background-color:#333; color:#fff;}
+
+
+</style>
+</head>
+<body>
+<div class="cal_box">
+  <div class="cal_box_l">
+  <div><input type="text" class="cal_box_l_in"  style="width:30px;" value="2012"/>
+  年<input type="text" class="cal_box_l_in" style="width:17px;" value="10" />
+  月</div>
+  <h1>5</h1>
+  <h3>九月廿二<strong>星期三</strong></h3>
+ <h3 class="calred">中国记者日</h3>
+  <h3 class="cal_box_j"><a href="#" class="yi">宜</a><a href="#" class="ji">忌</a></h3>
+  <div class="jiyi_box" style="display:;">
+  <ul>
+  <li>
+  <span class="yi">宜</span>
+  </li>
+  <li class="eer">嫁娶,纳采,订盟,开市,
+交易,</li>
+  </ul>
+  <ul>
+  <li>
+  <span class="ji">忌</span>
+  </li>
+  <li class="eer">嫁娶,纳采,
+订盟,
+开市,
+交易,</li>
+  </ul>
+  </div>
+  </div>
+  <div class="cal_box_r">
+    <ul style="padding-bottom:5px; padding-top:2px; overflow:hidden;">
+      <li> 一 </li>
+      <li> 二 </li>
+      <li> 三 </li>
+      <li> 四 </li>
+      <li> 五 </li>
+      <li> 六 </li>
+      <li> 日 </li>
+    </ul>
+    <ul>
+      <li><a href="#" class="calhui">29</a></li>
+      <li><a href="#" class="calhui">30</a></li>
+      <li><a href="#" class="calhui">31</a></li>
+      <li><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#" class="calred">3</a></li>
+      <li><a href="#" class="calred">4</a></li>
+	  <li><a href="#" class="calon">5</a></li>
+      <li><a href="#">6</a></li>
+	  <li><a href="#">7</a></li>
+      <li><a href="#">8</a></li>
+	  <li><a href="#">9</a></li>
+      <li><a href="#" class="calred">10</a></li>
+	  <li><a href="#" class="calred">11</a></li>
+      <li><a href="#">12</a></li>
+	  <li><a href="#">13</a></li>
+      <li><a href="#">14</a></li>
+	  <li><a href="#">15</a></li>
+      <li><a href="#">16</a></li>
+	  <li><a href="#" class="calred">17</a></li>
+      <li><a href="#" class="calred">18</a></li>
+	  <li><a href="#">19</a></li>
+      <li><a href="#">20</a></li>
+	  <li><a href="#">21</a></li>
+      <li><a href="#">22</a></li>
+	  <li><a href="#">23</a></li>
+      <li><a href="#" class="calred">24</a></li>
+	  <li><a href="#" class="calred">25</a></li>
+      <li><a href="#">26</a></li>
+	  <li><a href="#">27</a></li>
+	  <li><a href="#">28</a></li>
+      <li><a href="#">29</a></li>
+	  <li><a href="#">30</a></li>
+      <li><a href="#" class="calhui">1</a></li>
+	  <li><a href="#" class="calhui">2</a></li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>

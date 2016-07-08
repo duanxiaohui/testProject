@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors zhangmingchen (vest0804@gmail.com)
+ * @date    2015-09-22 18:43:13
+ * @version $Id$
+ */
+*{-webkit-tap-highlight-color: rgba(0,0,0,0); tap-highlight-color: rgba(0,0,0,0);}
+body { background: #fff; color: #444; font: 12px "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑,SimSun,arial; height: 100%; margin: 0; padding: 0; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+textarea { background: #fff; border: 1px solid #d2d9dc; border-radius: 2px; box-shadow: 0 0 0 #d2d9dc; -moz-transition: .3s ease-in-out; transition-property: border box-shadow; -webkit-transition: .3s ease-in-out; }
+textarea:focus, input[type="text"]:focus { /*border: 1px solid #b7d4ea;*/ box-shadow: 0 0 5px #b7d4ea inset; outline:none;}
+a { color: #208de9; cursor: pointer; text-decoration: none; }
+
+
+.reg{background:#eeeeee;}
+.reg_first{background:#fff; padding:10px 5%;}
+.reg_first h3{font-size:14px; color:#000; line-height:30px;}
+.acc_div,.group_name{height:30px; border-bottom:1px solid #ededed;}
+.acc_div span,.group_name span{line-height:30px; color:#333; float:left; vertical-align: middle; font-size:14px;}
+.acc_div input{padding:2px 0; height:22px; border:0; margin-left:10px; width:200px; vertical-align: middle;}
+.acc_notes{line-height:30px; font-size:12px; color:#aaa;}
+.group_name{margin:10px 0;}
+.group_name input{padding:2px 0; height:22px; border:0; margin-left:10px; width:200px; vertical-align: middle;}
+
+.group_info p,.group_type p{font-size:14px; color:#333; margin:5px 0;}
+.group_info textarea{width:95%; height:60px; border:1px solid #ddd; resize:none; outline:none; padding:5px 2%;}
+.group_type label{margin-right:20px;}
+.group_type label span{margin-left:5px; color:#aaa;}
+
+.reg_second{margin-top:10px; background:#fff; padding:10px 5%;}
+.user_name,.user_tel,.user_mail{height:30px; border-bottom:1px solid #ededed; padding:5px 0;}
+.user_name span,.user_tel span,.user_mail span{line-height:30px; color:#333; float:left; vertical-align: middle; font-size:14px;}
+.user_name input ,.user_tel input ,.user_mail input{padding:2px 0; height:22px; border:0; margin-left:10px; width:200px; vertical-align: middle;}
+
+.user_info{margin-top:10px; background:#fff; padding:10px 5%;}
+.user_info p{font-size:14px; color:#333; margin:5px 0;}
+.user_info textarea{width:95%; height:60px; border:1px solid #ddd; resize:none; outline:none; padding:5px 2%;}
+
+.sub_btn{margin:10px 5%; display:block; width:90%; height:35px; line-height:35px; text-align:center; background:#00b0f0; color:#fff; border-radius: 3px; -webkit-border-radius: 3px;}
+
+.success{display:none; padding-top:50px;}
+.success_icon{margin:0 auto 20px; width:82px; height:82px; background:url(/pages/group_recommend/dist/img/success_img.png) no-repeat; background-size:100% 100%;}
+.success h3{font-size:16px; color:#111; margin:15px 0; text-align:center;}
+.success p{ font-size:12px; color:#999; line-height:150%; text-align:center;}
+.return_btn{margin:15px; display:block;  height:35px; text-align:center; line-height:35px; color:#fff; font-size:14px;background:#00b0f0; border-radius: 3px; -webkit-border-radius: 3px;}

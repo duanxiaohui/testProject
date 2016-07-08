@@ -1,0 +1,20 @@
+K 10
+svn:ignore
+V 99
+Copy_of_reg.jsp
+Copy of header.html
+Copy of login.jsp
+login.html
+modifyInfo.html
+reg.html
+META-INF
+
+K 13
+svn:mergeinfo
+V 227
+/when_WEB/branches/public-group/web:29829-30141
+/when_WEB/branches/qqnew/web:25502-26041
+/when_WEB/branches/refactor_web/web:28359-28644
+/when_WEB/branches/share/web:26875-27767
+/when_WEB/branches/when_WEB_forum/web:33731-34655
+END

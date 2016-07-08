@@ -1,0 +1,11 @@
+*{margin:0; padding:0;}
+ul{list-style: none;}
+li{list-style-type: none;}
+body{background:#5c0000 url(http://up1.365rili.com/huodong/20130209/images/bg.jpg) no-repeat center top; -webkit-background-size:490px 518px;}
+.main{width:320px; margin:0 auto;}
+.img1,.img2,.img3,.img4,.img5{width:320px;height:90px; -webkit-background-size:320px 90px;}
+.img1{background:url(http://up1.365rili.com/huodong/20130209/images/img1.png) no-repeat center top;}
+.img2{background:url(http://up1.365rili.com/huodong/20130209/images/img2.png) no-repeat center top;}
+.img3{background:url(http://up1.365rili.com/huodong/20130209/images/img3.png) no-repeat center top;}
+.img4{background:url(http://up1.365rili.com/huodong/20130209/images/img4.png) no-repeat center top;}
+.img5{background:url(http://up1.365rili.com/huodong/20130209/images/img5.png) no-repeat center top;}

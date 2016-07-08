@@ -1,0 +1,14 @@
+body{ font-family: "Microsoft YaHei";}
+*{margin:0; padding:0;}
+ul{list-style: none;}
+li{list-style-type: none;}
+a { color:#0d23f4; cursor: pointer; text-decoration: none; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+
+
+.main{margin:0 auto; }
+.top{width:320px; margin:0 auto; height:144px; background:url(../images/baoguan.jpg) no-repeat; -webkit-background-size:320px 144px;}
+.text{width:320px; margin:0 auto;}
+.text p{text-indent:2em; line-height:22px; color:#666; margin:3px;}

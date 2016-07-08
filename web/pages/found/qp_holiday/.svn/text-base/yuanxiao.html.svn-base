@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>众里寻她千百度</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/yuanxiao/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>元宵节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>农历正月十五，元宵节。春节的最后一天，过完了这一天“年”就真的远了。空中飘着的是灿烂的烟花，彩灯渐次亮起又熄灭。那火将黑夜照的亮如白昼，我们仍然如同许多年前一样，吃元宵、吃饺子，看烟花，赏花灯，猜灯谜，体味“众里寻她千百度”的意境。</p>
+            <img src="images/yuanxiao/holiday_1.jpg"/>
+            <p>几千年前女性是不能随意出门的，每天她们的生活主要就是发呆、发呆和发呆，大户人家的姑娘或许还能识文断字、学学女红……不过，在元宵节这天，各家各户的女孩子都可以出门啦！淡妆浓抹，素衣罗裙，在灯火的映照下，有着醉人的魅力。节日当天的场景周邦彦在他的词作《解语花•上元》中这样描述：风消绛蜡，露浥红莲，灯市光相射。桂华流瓦。纤云散，耿耿素娥欲下。衣裳淡雅。看楚女纤腰一把。箫鼓喧，人影参差，满路飘香麝……</p>
+            <h3>【元宵节之元宵】</h3>
+            <p>节日总是离不开美食，虽然各地节日风俗略有差异，但元宵绝对是拥有最广认知度的节日食物。</p>
+            <img src="images/yuanxiao/holiday_2.jpg"/>
+            <p>元宵曾用名汤圆，其历史十分悠久。据传，宋朝时明州兴起吃一种新奇食品，用黑芝麻、油做馅、加入少许白砂糖，外面用糯米粉搓成球，煮熟后吃起来香甜可口，饶有风趣。因为这种糯米球煮在锅里又浮又沉，所以它最早叫浮元子，后来有的地区把浮元子改称为元宵。元宵象征合家团圆，吃元宵意味新的一年家庭幸福、团圆。</p>
+            <h3>【元宵节之灯会】</h3>
+            <p>正月十五日是一年中第一个月圆之夜，也是一元复始、大地回春的夜晚。按中国民间的传统，在这天人们要点起彩灯万盏以示庆贺。通常人们会出门赏月、燃灯放焰、同猜灯谜。</p>
+            <img src="images/yuanxiao/holiday_3.jpg"/>
+            <p>猜灯谜是元宵节产生后增加的一项活动，出现在宋朝。南宋时，首都临安每逢元宵节时制迷，猜谜的人总是很多。最初是把谜语写在纸条上，贴在五光十色的彩灯上供人猜。因为谜语能启迪智慧又饶有兴趣，是一项非常有意义的活动，流传过程中深受社会各阶层的欢迎，所以一直延续至今。</p>
+ 
+            <div class="tips">
+                <p>1、过完了今天，年就真的过完了；</p>
+                <p>2、吃元宵、看灯会、猜灯谜，快出门去众里寻TA千百度吧！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

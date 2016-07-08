@@ -1,0 +1,65 @@
+{
+"bgu": "http://cocoimg.365rili.com/pic/default/6f5db409-cf18-4e40-95bf-ba9d5b5cda96.jpg!small480",
+"schedules": {
+"cid": 245837610,
+"schlist": [
+{
+"id": 198327797,
+"cid": 245837610,
+"owner": 235732832,
+"start": 1413939600000,
+"tz": "Antarctica/Casey",
+"all": true,
+"title": "aaaa",
+"desc": "",
+"uuid": "aaf90d93-1a49-45a2-8814-9cf960a26b0f",
+"thumb": "http://cocoimg.365rili.com/avatar/default/5650ec2c-bc3f-4772-8d4c-44ab4be66815.jpg",
+"location": null,
+"td": "2014年10月22日 周三"
+},
+{
+"id": 198327797,
+"cid": 245837610,
+"owner": 235732832,
+"start": 1413939600000,
+"tz": "Antarctica/Casey",
+"all": false,
+"title": "aaaa",
+"desc": "",
+"uuid": "baf90d93-1a49-45a2-8814-9cf960a26b0f",
+"thumb": "http://cocoimg.365rili.com/avatar/default/5650ec2c-bc3f-4772-8d4c-44ab4be66815.jpg",
+"location": null,
+"td": "2014年10月23日 周四"
+},
+{
+"id": 198327797,
+"cid": 245837610,
+"owner": 235732832,
+"start": 1413939600000,
+"tz": "Antarctica/Casey",
+"all": true,
+"title": "aaaa",
+"desc": "",
+"uuid": "caf90d93-1a49-45a2-8814-9cf960a26b0f",
+"thumb": "http://cocoimg.365rili.com/avatar/default/5650ec2c-bc3f-4772-8d4c-44ab4be66815.jpg",
+"location": null,
+"td": "2014年10月24日 周五"
+},{
+"id": 198327797,
+"cid": 245837610,
+"owner": 235732832,
+"start": 1413939600000,
+"tz": "Antarctica/Casey",
+"all": true,
+"title": "aaaa",
+"desc": "",
+"uuid": "aaf90d93-1a49-45a2-8814-9cf960a26b0f",
+"thumb": "http://cocoimg.365rili.com/avatar/default/5650ec2c-bc3f-4772-8d4c-44ab4be66815.jpg",
+"location": null,
+"td": "2014年10月22日 周三"
+}
+]
+},
+"state": "ok",
+"calendarName": "group日历hhh"
+}

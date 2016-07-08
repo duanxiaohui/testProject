@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>UCS超级马拉松限时系列赛</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">UCS超级马拉松限时系列赛</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/af15be4e-09e8-42b9-be7d-458d6ac2bdad.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+			  <a class="btn js-subscribe" data-uuid="a197f348-218d-48b0-8e17-ba360a3453b3" data-cid="147514789">添加提醒</a>
+	    	
+	    	<p class="time">
+
+
+<b>比赛时间：2015.06.14 08:00-19:00
+</b></br>
+
+	    	<b>比赛地点：北京市国家体育场(鸟巢)</b></br>
+
+
+
+			</p>
+			<h3>比赛线路：</h3>
+			<p>鸟巢田径场400米塑胶跑道
+</p> 
+			<!--h3是小标题-->
+			<h3>报名方法:
+</h3>
+			<!--p是段落文字描述-->
+			<p>本次比赛采取网络报名的方式进行。参赛个人及团体可登录UCS超级马拉松限时系列赛官方网站或关注“光明乐跑”微信进行报名。</br>
+
+1)  个人报名者：填写并上传个人参赛资料、完赛证书等相关信息，报名信息与个人情况必须一致。报名时，参赛选手要仔细阅读比赛责任告知书，提交虚假报名申请材料的，一经查实，即取消参赛资格。</br>
+
+2)  团体报名：团体报名享有自定团队名称，个性化号码布服务，采取三男一女组合方式报名。登录官方网站下载团体报名表，填写并整理团体人员参赛资料、完赛证书等相关信息，报名信息与团体人员情况必须一致。报名时，参赛团体人员要仔细阅读比赛责任告知书，提交虚假报名申请材料的，一经查实，即取消参赛资格。</br>
+</br>具体详情以官方信息为准
+</p>
+
+<img src="http://cocoimg.365rili.com/schedule_pics/default/190f7071-66f9-4750-bd8d-973182db84b2.jpg"/>
+<a href="http://www.gmw.cn/ucs/" class="btn js-other">详见官网</a>
+		
+			 <div class="remind_div" data-uuid="a197f348-218d-48b0-8e17-ba360a3453b3" data-cid="147514789"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/af15be4e-09e8-42b9-be7d-458d6ac2bdad.jpg',
+                title: 'UCS超级马拉松限时系列赛',
+                desc: '本次比赛采取网络报名的方式进行。参赛个人及团体可登录UCS超级马拉松限时系列赛官方网站或关注“光明乐跑”微信进行报名。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'shareTo',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: 'UCS超级马拉松限时系列赛',
+		        				content: '本次比赛采取网络报名的方式进行。参赛个人及团体可登录UCS超级马拉松限时系列赛官方网站或关注“光明乐跑”微信进行报名。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/af15be4e-09e8-42b9-be7d-458d6ac2bdad.jpg',
+		        				isEvent: false
+		        			})
+		        		},
+		        		{
+		        			name: 'channel',
+		        			value: 'wx'
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

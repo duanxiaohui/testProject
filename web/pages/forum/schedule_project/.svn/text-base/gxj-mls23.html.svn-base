@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015和龙国际半程马拉松</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015和龙国际半程马拉松</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/ae3c985d-1ff4-4fd3-be7f-16fc22dbefc4.jpg"/>
+	    	
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+			  <a class="btn js-subscribe" data-uuid="f9e515d7-5e48-4580-942e-dbd311f3e82f" data-cid="147514789">添加提醒</a>
+	    	
+	    	<p class="time">
+
+
+<b>比赛时间：2015年9月5日
+</b></br>
+
+	    	<b>比赛地点：吉林和龙</b></br><b>类型：半马</b></br>
+
+
+			</p>
+			<h3>活动介绍：</h3>
+			<p>和龙位于吉林省东南部，延边朝鲜族自治州南部的和龙市，地处长白山东麓，图们江上游北岸。有着得天独厚的地理区位和丰富的自然景观，气候属中温带季风半湿润气候区，大陆性季风明显，四季分明。境内森林覆盖率高达81．5%。九月的和龙，正值金秋之季，秋高气爽，阳光灿烂，温度湿度适中，为运动员创造佳绩提供了保障。在这样的金色季节，长白山和仙景台都是绝佳的去处。 
+</p>
+			<!--h3是小标题-->
+			<h3>
+</h3>
+			<!--p是段落文字描述-->
+			<p>
+具体详情以官网信息为准
+</p>
+
+<img src="http://cocoimg.365rili.com/schedule_pics/default/06756440-f6a8-4735-9da7-9911f4f55c88.jpg"/>
+<a href="http://www.hlmarathon.com/cn/index.html" class="btn js-other">详见官网</a>
+		
+			 <div class="remind_div" data-uuid="f9e515d7-5e48-4580-942e-dbd311f3e82f" data-cid="147514789"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/ae3c985d-1ff4-4fd3-be7f-16fc22dbefc4.jpg',
+                title: '2015和龙国际半程马拉松',
+                desc: '和龙位于吉林省东南部，延边朝鲜族自治州南部的和龙市，地处长白山东麓，图们江上游北岸'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'shareTo',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015和龙国际半程马拉松',
+		        				content: '和龙位于吉林省东南部，延边朝鲜族自治州南部的和龙市，地处长白山东麓，图们江上游北岸',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/ae3c985d-1ff4-4fd3-be7f-16fc22dbefc4.jpg',
+		        				isEvent: false
+		        			})
+		        		},
+		        		{
+		        			name: 'channel',
+		        			value: 'wx'
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

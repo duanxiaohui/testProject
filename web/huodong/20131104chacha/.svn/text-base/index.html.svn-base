@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历--安智市场</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+</head>
+<body>
+	<div class="main">
+		<div class="top"></div>
+		<div class="text">
+			<p>我查查，亿万手机用户的终极选择！独有的模糊识别算法，带来超快识别速度、超高扫描成功率的完美体验。</p>
+			<p>爱逛街，爱购物，爱生活，就爱我查查；不是斤斤计较，只是货比三家，让生活更多新意。</p>
+
+		</div>
+		<a href="http://d2.365rili.com/dl/android/exchange/wochacha.apk" class="btn">下载我查查</a>
+	</div>
+</body>
+</html>

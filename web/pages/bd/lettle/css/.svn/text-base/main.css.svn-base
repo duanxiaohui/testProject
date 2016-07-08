@@ -1,0 +1,195 @@
+@charset "UTF-8";
+/**
+ * 中秋节
+ * @authors 张路 (zhanglu@365rili.com)
+ * @date    2015-09-11 14:10:04
+ */
+*{-webkit-tap-highlight-color: rgba(0,0,0,0); tap-highlight-color: rgba(0,0,0,0);}
+body { background: #fff; color: #444; font-weight: bold; font: 12px / 1.5em "Microsoft YaHei", 微软雅黑,SimSun,arial; margin: 0; padding: 0; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+textarea { background: #fff; border: 1px solid #d2d9dc; font-size: 13px;}
+textarea:focus, input[type="text"]:focus {box-shadow: 0 0 5px #b7d4ea inset; }
+a { color: #208de9; cursor: pointer; text-decoration: none; }
+button, textarea:focus, div:focus, input[type="text"]:focus {outline:none; box-shadow: none; }
+
+html, body{
+	height: 100%;
+	overflow: hidden;
+}
+.center{
+	text-align: center;
+}
+.none{display:none;}
+
+/*------- 动画基础样式 ------*/
+.animated {
+    -webkit-animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+}
+
+.animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+    -webkit-animation-duration: 2s;
+}
+
+.animated.stop{
+	-webkit-animation-play-state:paused;
+	-webkit-animation-name: none;
+}
+
+
+html, body{
+	height: 100%;
+}
+body{
+	background: url(/pages/bd/lettle/images/bg.jpg) center;
+	background-size: cover;
+}
+
+.lettle{
+	width: 100%;
+	position: absolute;
+	right: 0;
+	top: 188px;
+}
+.lettle3{
+	-webkit-transform: rotate3d(0, 0, 1, 20deg);
+	z-index: 1;
+	margin-top: -12px;
+	margin-right: -55px;
+}
+.lettle2{
+	-webkit-transform: rotate3d(0, 0, 1, 8deg);
+	z-index: 2;
+	margin-top: -8px;
+	margin-right: -15px;
+}
+.lettle1{
+	z-index: 3;
+	-webkit-transition: all 1s;
+}
+.lettle_p{
+	width: 100%;
+	left: 0;
+	top: 0px;
+	position: absolute;
+	-webkit-transform-style: preserve-3d;  
+	-webkit-transform-origin: center;
+}
+.lettle_p img{
+	position: absolute;
+	-webkit-backface-visibility: hidden;
+}
+.front{
+	top: -5px;
+}
+.back {  
+    -webkit-transform: rotate3d(1,0,0,180deg);
+}
+
+.rotate {
+    -webkit-animation-name: rotate;
+}
+    
+@-webkit-keyframes rotate {
+    0% {
+        -webkit-transform: perspective(600px) rotateX(0deg);
+    }
+    100% {
+        -webkit-transform: perspective(600px) rotateX(180deg);
+    }
+}
+
+.contain{
+	overflow: hidden;
+	-webkit-transition: all 1s;
+	height: 0;
+	background: url(/pages/bd/lettle/images/logo1.png) no-repeat 10px 10px;
+	background-size: auto 11px;
+	position: absolute;
+	width: 90%;
+	bottom: -200px;
+	background-color: #fff;
+	z-index: 2;
+	margin-left: 5%;
+	box-shadow: 0 0 10px 0 #000;
+}
+.cont{
+	height: 100%;
+	overflow: scroll;
+	text-align: center;
+	margin-top: 40px;
+	position: relative;
+	z-index: 10;
+}
+.main{
+	-webkit-transform-origin: 0 0;
+	height: 100%;
+	position: relative;
+	margin: 0 auto;
+	width: 375px;
+	height: 627px;
+}
+.zyhdyfx, .contentImg{
+	-webkit-transition: all 1s;
+	opacity: 1;
+}
+.pen{
+	position: absolute;
+	z-index: 5;
+	right: -20px;
+	top: 247px;
+	-webkit-transition: all 1s;
+}
+.pen1{
+	position: absolute;
+	z-index: 5;
+	right: -20px;
+	-webkit-transition: all 3s;
+	display: none;
+	-webkit-transition-timing-function: linear;
+}
+.mask{
+	background-color: #fff;
+	width: 100%;
+	height: 367px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	-webkit-transition: all 3s;
+	-webkit-transition-timing-function: linear;
+}
+.logo{
+	position: absolute;
+	z-index: 5;
+    left: 157px;
+    top: 80px;
+}
+.contentImg{
+	margin-top: 20px;
+	/*margin-bottom: 200px;*/
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.up{
+    position: absolute;
+    z-index: 5;
+    width: 100px;
+    left: 50%;
+    margin-left: -50px;
+    bottom:60px;
+}

@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+    
+    <import resource="holidays.xml" />
+    <import resource="tuanwei_calendar.xml"/>
+    <import resource="qqtc.xml"/>
+
+    <bean id="springContextUtil" class="com.rili.calendar.utils.SpringContextUtil"/>
+
+    <bean id="propertyPlaceholderConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"> 
+          <property name="locations"> 
+              <list>
+                <value>file:/usr/local/a/b/c/d/yunsou.properties</value>
+                <value>file:/usr/local/a/b/c/d/keys.properties</value>
+                <value>file:/usr/local/a/b/c/d/tenpay_keys.properties</value>
+                <value>file:/usr/local/a/b/c/d/tenpay_pub_keys.properties</value>
+              </list>
+          </property> 
+          <property name="ignoreUnresolvablePlaceholders" value="true" />
+    </bean> 
+
+    <bean id="yunSouSearch" class="com.rili.search.client.YunSouSearch" init-method="init">
+        <property name="cacheService" ref="cacheService"/>
+        <property name="calendarDAO" ref="calendarDAO"/>
+        <property name="calendarService" ref="calendarService"/>
+        <property name="userDAO" ref="userDAO"/>
+        <property name="secretId" value="${yunsou.secretId}"/>
+        <property name="secretKey" value="${yunsou.secretKey}"/>
+    </bean>
+
+    <bean id="esIndexService" class = "com.rili.web.utils.ESIndexService">
+    </bean>
+    
+    <!-- 节假日安排接口 -->
+    <bean id="subscribeCtl" class="com.rili.web.controller.SubscribeController" >
+        <property name="holidays" ref="holidayMap" />
+    </bean>
+    
+    <bean id="tenpayPubCtl" class = "com.rili.web.controller.TenpayPubController">
+        <property name="userWeixinDAO" ref="userWeixinDAO" />
+        <property name="eventOrderDAO" ref="eventOrderDAO" />
+        <property name="payOrderDAO" ref="payOrderDAO" />
+        <property name="tenpayOrderDAO" ref="tenpayOrderDAO" />
+        <property name="eventPayService" ref="eventPayService" />
+        <property name="eventService" ref="eventService" />
+    </bean>
+    
+    <bean id="groupCtl" class = "com.rili.web.controller.GroupController">
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="calendarService" ref="calendarService" />
+        <property name="calendarSearchClient" ref="calendarSearchClient" />
+        <property name="cacheService" ref="cacheService" />
+        <property name="sensitiveWordService" ref="sensitiveWordService" />
+        <property name="mobileQQunDAO" ref="mobileQQunDAO" />
+        <property name="cocoMessageUtils" ref="commonCocoMessageUtils" />
+    </bean>
+    
+    <bean id="sensitiveWordService" class="com.rili.web.service.SensitiveWordService" init-method="init">
+        <property name="sensitiveWordDAO" ref="sensitiveWordDAO" />
+    </bean>
+    
+    <bean id="sensitiveWordDAO" class="com.rili.common.dao.SensitiveWordDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+
+    <bean id="dayLunarDAO" class="com.rili.common.dao.DayLunarDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+
+    <bean id="wxPayPubConfig" class = "com.rili.web.pay.tenpay.util.WxPayPubConfig">
+        <property name="WEB_APPID"    value = "${pub_appid}"/>
+        <property name="WEB_APPSECRET" value = "${pub_secret_key}"/>
+        <property name="WEB_KEY"       value = "${pub_key}"/>
+        <property name="WEB_MCHID"     value = "${pub_mchid}"/>
+        
+        <property name="APP_APPID"      value = "${app_id}"/>
+        <property name="APP_APPSECRET"  value = "${app_secret}"/>
+        <property name="APP_APPKEY"         value = "${app_key}"/>
+        <property name="APP_PARTNER_KEY" value = "${partener_key}"/>
+        <property name="APP_PARTNER"    value = "${partener}"/>
+    </bean> 
+    
+    <bean id="thirdCtl" class = "com.rili.web.controller.ThirdController">
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="scheduleDAO" ref="scheduleDAO" />
+        <property name="sessionIdGenerator" ref="sessionIdGenerator" />
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+        <property name="calendarPublicDAO" ref="calendarPublicDAO" />
+    </bean>
+
+    <bean id="commonCocoMessageUtils" class="com.rili.calendar.utils.CocoMessageUtils">
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+        <property name="cocoMessageDAO" ref="cocoMessageDAO" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="calendarPublicDAO" ref="calendarPublicDAO" />
+        <property name="calendarService" ref="calendarService" />
+        <property name="holidays" ref="holidayMap" />
+    </bean>
+    
+    <bean id="idGenerator" class="com.rili.common.dao.IDGenerator">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplateTickets" />
+    </bean>
+    
+    <bean id="scheduleService" class="com.rili.web.service.ScheduleService">
+        <property name="scheduleDAO" ref="scheduleDAO" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="cocoMessageUtils" ref="commonCocoMessageUtils" />
+        <property name="userDAO" ref="userDAO" />
+        <property name="userService" ref="userService" />
+        <property name="logService" ref="logService" />
+        <property name="shareDAO" ref="shareDAO" />
+    </bean>
+    
+    <bean id="baseParamDAO" class = "com.rili.common.dao.BaseParamDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+    <bean id="inviteScheduleAddDAO" class = "com.rili.common.dao.InviteScheduleAddDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+    
+    <bean id="userService" class="com.rili.web.service.UserService">
+        <property name="userDAO" ref="userDAO" />
+    </bean>
+
+    <bean id="calendarService" class="com.rili.web.service.CalendarService">
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="userDAO" ref="userDAO" />
+        <property name="cacheService" ref="cacheService" />
+        <property name="calendarPublicDAO" ref="calendarPublicDAO" />
+        <property name="mobileQQunDAO" ref="mobileQQunDAO" />
+    </bean>
+    
+    <bean id="cocoService" class="com.rili.web.service.CocoService">
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="calendarPublicDAO" ref="calendarPublicDAO" />
+        <property name="logService" ref="logService" />
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+        <property name="cocoMessageUtils" ref="cocoMessageUtils" />
+        <property name="toolService" ref="toolService" />
+        <property name="upyunService" ref="upyunService" />
+        <property name="thirdService" ref="thirdService" />
+        <property name="baseParamDAO" ref="baseParamDAO" />
+        <property name="calendarService" ref="calendarService" />
+        <property name="calendarSearchClient" ref="calendarSearchClient" />
+    </bean>
+    
+    <bean id="qqService" class="com.rili.web.service.QQService">
+        <property name="calendarService" ref="calendarService" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="scheduleDAO" ref="scheduleDAO" />
+        <property name="userDAO" ref="userDAO" />
+        <property name="userQQZoneDAO" ref="userQQZoneDAO" />
+        <property name="qqunDAO" ref="qqunDAO"/>
+        <property name="shareDAO" ref="shareDAO" />
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+        <property name="upyunService" ref="upyunService" />
+        <property name="mobileQQunDAO" ref="mobileQQunDAO" />
+        <property name="qqOpenApiService" ref="qqOpenApiService" />
+    </bean>
+    
+    <bean id="toolService" class="com.rili.web.service.ToolService">
+        <property name="calendarService" ref="calendarService" />
+        <property name="upyunService" ref="upyunService" />
+    </bean>
+    
+    <bean id="upyunService" class="com.rili.web.service.UpyunService">
+        <property name="cocoUpYunKey" value="KF49RIbNU+00mjImj04XE6TnpYs=" />
+    </bean>
+    
+    <bean id="cacheService" class="com.rili.web.service.CacheService">
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+        <property name="calendarPublicDAO" ref="calendarPublicDAO" />
+    </bean>
+    
+    <bean id="eventService" class="com.rili.web.service.event.EventService">
+        <property name="eventDAO" ref="eventDAO" />
+        <property name="eventOrderDAO" ref="eventOrderDAO" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="scheduleDAO" ref="scheduleDAO" />
+        <property name="scheduleService" ref="scheduleService" />
+        <property name="bbsService" ref="bbsService" />
+        <property name="cocoMessageUtils" ref="cocoMessageUtils" />
+        <property name="eventCityDAO" ref="eventCityDAO" />
+        <property name="logService" ref="logService" />
+        <property name="userDAO" ref="userDAO" />
+        <property name="commonLotteryService" ref="commonLotteryService" />
+        <property name="commonOfflineService" ref="commonOfflineService" />
+        <property name="eventPayService" ref="eventPayService" />
+    </bean>
+    
+    <bean id="commonOfflineService" class="com.rili.web.service.event.CommonOfflineService">
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="eventDAO" ref="eventDAO" />
+        <property name="eventOrder1DAO" ref="eventOrder1DAO" />
+        <property name="eventOrderDAO" ref="eventOrderDAO" />
+        <property name="eventService" ref="eventService" />
+        <property name="event1DAO" ref="event1DAO" />
+        <!-- <property name="eventPayDAO" ref="eventPayDAO" />
+        <property name="eventOrderPayDAO" ref="eventOrderPayDAO" />
+        <property name="eventPayTradeTypeDAO" ref="eventPayTradeTypeDAO" /> -->
+        <property name="eventPayService" ref="eventPayService" />
+        <property name="userDAO" ref="userDAO" />
+        <property name="scheduleDAO" ref="scheduleDAO" />
+        <property name="scheduleService" ref="scheduleService" />
+        <property name="cocoMessageUtils" ref="cocoMessageUtils" />
+        <property name="eventCellphoneVerifyDAO" ref="eventCellphoneVerifyDAO" />
+        <property name="smsSenderService" ref="smsService" />
+    </bean>
+    
+    <bean id="filmLotteryService" class="com.rili.web.service.event.FilmLotteryService">
+        <property name="smsSenderService" ref="smsService" />
+        <property name="event100DAO" ref="event100DAO" />
+        <property name="event100TicketDAO" ref="event100TicketDAO" />
+        <property name="event100VerifyDAO" ref="event100VerifyDAO" />
+        <property name="eventOrder100DAO" ref="eventOrder100DAO" />
+        <property name="eventOrderDAO" ref="eventOrderDAO" />
+    </bean>
+    
+    <bean id="carShowService" class="com.rili.web.service.event.CarShowService">
+        <property name="event101DAO" ref="event101DAO" />
+        <property name="event101TicketDAO" ref="event101TicketDAO" />
+        <property name="event101VerifyDAO" ref="event101VerifyDAO" />
+        <property name="eventOrder101DAO" ref="eventOrder101DAO"/>
+        <property name="eventOrderDAO" ref="eventOrderDAO" />
+        <property name="smsSenderService" ref="smsService" />       
+    </bean>
+    
+    <bean id="commonLotteryService" class="com.rili.web.service.event.CommonLotteryService">
+        <property name="smsSenderService" ref="smsService" />
+        <property name="event2DAO" ref="event2DAO" />
+        <property name="event2PrizeDAO" ref="event2PrizeDAO" />
+        <property name="event2VerifyDAO" ref="event2VerifyDAO" />
+        <property name="eventOrder2DAO" ref="eventOrder2DAO" />
+        <property name="eventOrderDAO" ref="eventOrderDAO" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="scheduleService" ref="scheduleService" />
+        <property name="scheduleDAO" ref="scheduleDAO" />
+        <property name="cocoMessageUtils" ref="cocoMessageUtils" />
+        <property name="eventService" ref="eventService" />
+        <property name="userDAO" ref="userDAO" />
+    </bean>
+    
+    <bean id="googleCalendarDAO" class="com.rili.common.dao.GoogleCalendarDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="bbsDAO" class="com.rili.common.dao.BBSDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="bbsService" class="com.rili.web.service.BBSService">
+        <property name="bbsDAO" ref="bbsDAO" />
+        <property name="userDAO" ref="userDAO" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+    </bean>
+        
+    <bean id="bbsCtl" class="com.rili.web.controller.BBSController">
+        <property name="scheduleDAO" ref="scheduleDAO" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="bbsService" ref="bbsService" />
+        <property name="userDAO" ref="userDAO" />
+        <property name="calendarService" ref="calendarService" />
+        <property name="scheduleService" ref="scheduleService" />
+    </bean>
+    
+    <bean id="tw" class = "com.rili.web.controller.TuanWeiController">
+        <property name="userDAO" ref="userDAO"></property>
+        <property name="tuanweiDAO" ref="tuanweiDAO"></property>
+        <property name="calendarDAO" ref="calendarDAO"></property>
+        <property name="calendarPublicDAO" ref="calendarPublicDAO"></property>
+        <property name="redisSession" ref="redisSession"></property>
+        <property name="twCalendarIds" ref="twCalendarIds"></property>
+    </bean>
+    
+    <bean id="authToken" class = "com.rili.web.utils.AuthToken">
+        <property name="userDAO" ref="userDAO"></property>
+    </bean>
+    
+    <bean id="signature" class = "com.rili.web.utils.HMAC">
+            <property name="HMAC_KEY" value="${hmac_key}"/>
+    </bean>
+    
+    <bean id="aesEncrypt" class = "com.rili.web.utils.AESEncrpt">
+        <property name="KEY" value = "${aes_key}"/>
+        <property name="INIT_IV" value = "${aes_init_iv}"/>
+    </bean>
+    
+    <bean id="cocoCtl" class="com.rili.web.controller.CocoController">
+        <property name="sensitiveWordService" ref="sensitiveWordService" />
+        <property name="upyunService" ref="upyunService" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="tagDAO" ref="tagDAO" />
+        <property name="calendarPublicDAO" ref="calendarPublicDAO" />
+        <property name="userQQZoneDAO" ref="userQQZoneDAO" />
+        <property name="userDAO" ref="userDAO" />
+        <property name="searchRecordDAO" ref="searchRecordDAO" />
+        <property name="logService" ref="logService" />
+        <property name="shareDAO" ref="shareDAO" />
+        <property name="cocoMessageUtils" ref="cocoMessageUtils" />
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+        <property name="calendarService" ref="calendarService" />
+        <property name="cacheService" ref="cacheService" />
+        <property name="sessionIdGenerator" ref="sessionIdGenerator" />
+        <property name="restTemplate" ref="restTemplate" />
+        <property name="userService" ref="userService" />
+        <property name="cocoService" ref="cocoService" />
+        <property name="calendarSearchClient" ref="calendarSearchClient" />
+        <property name="scheduleDAO" ref="scheduleDAO" />
+    </bean>
+    
+    <bean id="voiceCtl" class="com.rili.web.controller.VoiceController">
+        <property name="upYunKey" value="/wRpJjcNzhUMRg92FU6/PMe0/0g=" />
+    </bean>
+    
+    <bean id="lewaCtl" class="com.rili.web.controller.LewaController">
+        <property name="userLewaDAO" ref="userLewaDAO" />
+    </bean>
+    
+    <bean id="userLewaDAO" class="com.rili.web.dao.UserLewaDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="qqtCtl" class="com.rili.web.controller.QQTController">
+        <property name="qqweiboDAO" ref="qqweiboDAO" />
+        <property name="userDAO" ref="userDAO" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="redisSession" ref="redisSession" />
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+    </bean>
+    
+    <bean id="qqweiboDAO" class="com.rili.web.dao.QQweiboDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+    </bean>
+
+    <bean id="taskDAO" class="com.rili.common.dao.TaskDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+
+    <bean id="taskController" class="com.rili.web.controller.TaskControlller">
+        <property name="taskDAO" ref="taskDAO" />
+    </bean>
+    
+    <bean id="qqzCtl" class="com.rili.web.controller.QQZController">
+        <property name="userQQZoneDAO" ref="userQQZoneDAO" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="userDAO" ref="userDAO" />
+        <property name="eventOrderDAO" ref="eventOrderDAO" />
+        <property name="calendarService" ref="calendarService" />
+        <property name="scheduleService" ref="scheduleService" />
+        <property name="redisSession" ref="redisSession" />
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+        <property name="authToken" ref="authToken" />
+    </bean>
+    
+    <bean id="weixinCtl" class="com.rili.web.controller.WeixinController">
+        <property name="userDAO" ref="userDAO" />
+        <property name="userWeixinDAO" ref="userWeixinDAO" />
+        <property name="eventOrderDAO" ref="eventOrderDAO" />
+        <property name="calendarService" ref="calendarService" />
+        <property name="scheduleService" ref="scheduleService" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="redisSession" ref="redisSession" />
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+        <property name="authToken" ref="authToken" />
+        <property name="weixinService" ref="weixinService" />
+        <property name="logService" ref="logService" />
+    </bean>
+    
+    <bean id="weixinService" class="com.rili.web.service.WeixinService">
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+    </bean>
+    
+    <bean id="userWeixinDAO" class="com.rili.web.dao.UserWeixinDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="userQQZoneDAO" class="com.rili.web.dao.UserQQZoneDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="baiduCtl" class="com.rili.web.controller.BaiduController">
+        <property name="userBaiduDAO" ref="userBaiduDAO" />
+        <property name="userDAO" ref="userDAO" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+        <property name="redisSession" ref="redisSession" />
+    </bean>
+    
+    <bean id="qh360Ctl" class="com.rili.web.controller.Qh360Controller">
+        <property name="qh360DAO" ref="qh360DAO" />
+        <property name="userDAO" ref="userDAO" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="redisSession" ref="redisSession" />
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+    </bean>
+    
+    <bean id="qPlusController" class="com.rili.web.controller.QPlusController">
+        <property name="userQPlusDAO" ref="userQPlusDAO" />
+        <property name="userDAO" ref="userDAO" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="redisSession" ref="redisSession" />
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+    </bean>
+    
+    <bean id="weiboCtl" class="com.rili.web.controller.WeiboController">
+        <property name="userWeiboDAO" ref="userWeiboDAO" />
+        <property name="userDAO" ref="userDAO" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="redisSession" ref="redisSession" />
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+        <property name="authToken" ref="authToken" />
+    </bean>
+    
+    <bean id="deviceCtl" class="com.rili.web.controller.DeviceController">
+        <property name="iOSDeviceDAO" ref="iOSDeviceDAO" />
+        <property name="androidDeviceDAO" ref="androidDeviceDAO" />
+        <property name="softlogDAO" ref="softlogDAO" />
+        <property name="calendarDAO" ref="calendarDAO" />
+    </bean>
+    
+    <bean id="todoCtl" class="com.rili.web.controller.TodoController">
+        <property name="noteManager" ref="noteManager" />
+    </bean>
+    <bean id="menuCtl" class="com.rili.web.controller.MenuController" />
+    
+    <bean id="loginCtl" class="com.rili.web.controller.LoginController">
+        <property name="userDAO" ref="userDAO" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="userGoogleDAO" ref="userGoogleDAO" />
+        <property name="userWeiboDAO" ref="userWeiboDAO" />
+        <property name="qh360DAO" ref="qh360DAO" />
+        <property name="userBaiduDAO" ref="userBaiduDAO" />
+        <property name="qqweiboDAO" ref="qqweiboDAO" />
+        <property name="userQQZoneDAO" ref="userQQZoneDAO" />
+        <property name="redisSession" ref="redisSession" />
+        <property name="authToken" ref="authToken" />
+    </bean>
+    <bean id="regCtl" class="com.rili.web.controller.RegisterController">
+        <property name="userDAO" ref="userDAO" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+        <property name="logService" ref="logService" />
+        <property name="mailService" ref="mailService" />
+        <property name="redisSession" ref="redisSession" />
+        <property name="authToken" ref="authToken" />
+    </bean>
+    <bean id="accountCtl" class="com.rili.web.controller.AccountController">
+        <property name="userDAO" ref="userDAO" />
+        <property name="userWeiboDAO" ref="userWeiboDAO" />
+        <property name="userQQZoneDAO" ref="userQQZoneDAO" />
+        <property name="userWeixinDAO" ref="userWeixinDAO" />
+        <property name="mailService" ref="mailService" />
+        <property name="userGoogleDAO" ref="userGoogleDAO" />
+        <property name="redisSession" ref="redisSession" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="calendarPublicDAO" ref="calendarPublicDAO" />
+        <property name="upyunService" ref="upyunService" />
+        <property name="cacheService" ref="cacheService" />
+        <property name="authToken" ref="authToken" />
+    </bean>
+    <bean id="mainCtl" class="com.rili.web.controller.MainController" >
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="userGoogleDAO" ref="userGoogleDAO" />
+        <property name="userBaiduDAO" ref="userBaiduDAO" />
+        <property name="userWeiboDAO" ref="userWeiboDAO" />
+        <property name="qh360DAO" ref="qh360DAO" />
+        <property name="userDAO" ref="userDAO" />
+        <property name="qqweiboDAO" ref="qqweiboDAO" />
+        <property name="userQQZoneDAO" ref="userQQZoneDAO" />
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+        <property name="redisSession" ref="redisSession" />
+        <property name="calendarService" ref="calendarService" />
+        <property name="calendarSearchClient" ref="calendarSearchClient" />
+        <property name="cocoMessageUtils" ref="cocoMessageUtils" />
+    </bean>
+    <bean id="scheduleCtl" class="com.rili.web.controller.ScheduleController">
+        <property name="userDAO" ref="userDAO" />
+        <property name="eventDAO" ref="eventDAO" />
+        <property name="qqService" ref="qqService" />
+        <property name="scheduleDAO" ref="scheduleDAO" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="logService" ref="logService" />
+        <property name="shareDAO" ref="shareDAO" />
+        <property name="cocoMessageUtils" ref="cocoMessageUtils" />
+        <property name="bbsService" ref="bbsService" />
+        <property name="calendarService" ref="calendarService" />
+        <property name="scheduleService" ref="scheduleService" />
+        <property name="upyunService" ref="upyunService" />
+        <property name="scheduleSearchClient" ref="scheduleSearchClient" />
+        <property name="calendarStatsService" ref="calendarStatsService" />
+        <property name="mobileQQunDAO" ref="mobileQQunDAO" />
+        <property name="cocoMessageDAO" ref="cocoMessageDAO" />
+        <property name="userService" ref="userService" />
+        <property name="weixinFollowInfoDAO" ref="weixinFollowInfoDAO" />
+    </bean>
+    <bean id="scheduleCtl_abandoned" class="com.rili.web.controller.ScheduleControllerAbandoned">
+    	<property name="userDAO" ref="userDAO" />
+        <property name="eventDAO" ref="eventDAO" />
+        <property name="scheduleDAO" ref="scheduleDAO" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="logService" ref="logService" />
+        <property name="shareDAO" ref="shareDAO" />
+        <property name="cocoMessageUtils" ref="cocoMessageUtils" />
+        <property name="calendarService" ref="calendarService" />
+        <property name="scheduleService" ref="scheduleService" />
+        <property name="eventService" ref="eventService" />
+        <property name="inviteScheduleAddDAO" ref="inviteScheduleAddDAO" />
+    </bean>
+    <bean id="calendarCtl" class="com.rili.web.controller.CalendarController">
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="tagDAO" ref="tagDAO" />
+        <property name="userDAO" ref="userDAO" />
+        <property name="calendarPublicDAO" ref="calendarPublicDAO" />
+        <property name="shareDAO" ref="shareDAO" />
+        <property name="logService" ref="logService" />
+        <property name="calendarService" ref="calendarService" />
+        <property name="cacheService" ref="cacheService" />
+        <property name="userService" ref="userService" />
+        <property name="cocoMessageUtils" ref="cocoMessageUtils" />
+        <property name="cocoService" ref="cocoService" />
+        <property name="calendarSearchClient" ref="calendarSearchClient" />
+        <property name="thirdService" ref="thirdService" />
+        <property name="baseParamDAO" ref="baseParamDAO" />
+        <property name="calendarStatsService" ref="calendarStatsService" />
+    </bean>
+    <bean id="thirdService" class="com.rili.web.service.ThirdService" />
+    
+    <bean id="feedbackCtl" class="com.rili.web.controller.FeedbackController" >
+        <property name="feedbackDAO" ref="feedbackDAO" />
+    </bean>
+    <bean id="googleBindCtl" class="com.rili.web.controller.GoogleBindController">
+        <property name="googleSync" ref="googleSync" />
+        <property name="userDAO" ref="userDAO" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="userGoogleDAO" ref="userGoogleDAO" />
+        <property name="redisSession" ref="redisSession" />
+        <property name="googleCalendarDAO" ref="googleCalendarDAO" />
+    </bean>
+    <bean id="pluginCtl" class="com.rili.web.controller.PluginController" >
+        <property name="redisSession" ref="redisSession" />
+    </bean>
+    <bean id="messageCtl" class="com.rili.web.controller.MessageController" >
+        <property name="cocoMessageUtils" ref="cocoMessageUtils" />
+        <property name="cocoMessageDAO" ref="cocoMessageDAO" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="iOSDeviceDAO" ref="iOSDeviceDAO" />
+        <property name="calendarService" ref="calendarService" />
+        <property name="cacheService" ref="cacheService" />
+    </bean>
+    <bean id="safePeriodCtl" class="com.rili.web.controller.SafePeriodController" />
+    <bean id="coopCtl" class="com.rili.web.controller.CoopController" >
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="lotteryDAO" ref="lotteryDAO" />
+        <property name="huangliDAO" ref="huangliDAO" />
+        <property name="shareDAO" ref="shareDAO" />
+        <property name="bootImgsDAO" ref="bootImgsDAO" />
+        <property name="smsSenderService" ref="smsService" />
+        <property name="eventDAO" ref="eventDAO" />
+        <property name="baseParamDAO" ref="baseParamDAO" />
+        
+    </bean>
+    <bean id="birthdayCtl" class="com.rili.web.controller.BirthdayController" >
+        <property name="birthDAO" ref="birthDAO" />
+        <property name="notifySender" ref="notifySender" />
+    </bean>
+    <bean id="commentCtl" class="com.rili.web.controller.CommentController" >
+        <property name="userDAO" ref="userDAO" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="cocoMessageDAO" ref="cocoMessageDAO" />
+        <property name="cocoMessageUtils" ref="cocoMessageUtils" />
+    </bean>
+    <bean id="qzoneController" class="com.rili.web.controller.QZoneController" >
+        <property name="cocoService" ref="cocoService" />
+        <property name="qqService" ref="qqService" />
+        <property name="redisSession" ref="redisSession" />
+    </bean>
+    <bean id="qqunController" class="com.rili.web.controller.QQunController" >
+        <property name="qqService" ref="qqService" />
+        <property name="redisSession" ref="redisSession" />
+    </bean>
+
+    <bean id="redisLock" class="com.rili.web.utils.RedisLock">
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+    </bean>
+    
+    <bean id="mobileQQunController" class="com.rili.web.controller.MobileQQunController" >
+        <property name="qqService" ref="qqService" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="mobileQQunDAO" ref="mobileQQunDAO" />
+        <property name="redisSession" ref="redisSession" />
+        <property name="userQQZoneDAO" ref="userQQZoneDAO" />
+        <property name="redisLock" ref="redisLock" />
+        <property name="userDAO" ref="userDAO" />
+        <property name="userService" ref="userService" />
+    </bean>
+    
+    <bean id="eventController" class="com.rili.web.controller.event.EventController">
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="eventDAO" ref="eventDAO" />
+        <property name="eventOrderDAO" ref="eventOrderDAO" />
+        <property name="eventOrderPayDAO" ref="eventOrderPayDAO" />
+        <property name="payOrderDAO" ref="payOrderDAO" />
+        <property name="eventService" ref="eventService" />
+        <property name="eventWhiteListDAO" ref="eventWhiteListDAO" />
+        <property name="scheduleService" ref="scheduleService" />
+        <property name="eventCellphoneVerifyDAO" ref="eventCellphoneVerifyDAO" />
+        <property name="smsSenderService" ref="smsService" />
+        <property name="cityCodeDAO" ref="cityCodeDAO" />
+    </bean>
+    
+    <bean id="eventBusinussController" class="com.rili.web.controller.event.EventBusinessController">
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="commonOfflineService" ref="commonOfflineService" />     
+        <property name="event1DAO" ref="event1DAO" />
+        <property name="eventDAO" ref="eventDAO" />
+        <property name="eventOrder1DAO" ref="eventOrder1DAO" />
+        <property name="eventAdminDAO" ref="eventAdminDAO" />
+        <property name="eventService" ref="eventService" />
+        <property name="eventOrderDAO" ref="eventOrderDAO" />
+    </bean>
+    
+    <bean id="commonOfflineController" class="com.rili.web.controller.event.CommonOfflineController">
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="commonOfflineService" ref="commonOfflineService" />
+        <property name="event1DAO" ref="event1DAO" />
+        <property name="eventDAO" ref="eventDAO" />
+        <property name="eventPayDAO" ref="eventPayDAO" />
+        <property name="eventOrderPayDAO" ref="eventOrderPayDAO" />
+        <property name="eventPayTradeTypeDAO" ref="eventPayTradeTypeDAO" />
+        <property name="eventMessageRecordDAO" ref="eventMessageRecordDAO" />
+        <property name="eventOrder1DAO" ref="eventOrder1DAO" />
+        <property name="eventService" ref="eventService" />
+        <property name="smsSenderService" ref="smsService" />
+        <property name="eventPayService" ref="eventPayService" />
+    </bean>
+    
+    <bean id="filmLoggeryController" class="com.rili.web.controller.event.FilmLotteryController">
+        <property name="eventDAO" ref="eventDAO" /> 
+        <property name="event100DAO" ref="event100DAO" />
+        <property name="event100TicketDAO" ref="event100TicketDAO" />
+        <property name="event100VerifyDAO" ref="event100VerifyDAO" />
+        <property name="eventOrder100DAO" ref="eventOrder100DAO" />
+        <property name="filmLotteryService" ref="filmLotteryService" />
+        <property name="smsSenderService" ref="smsService" />
+    </bean>
+    
+    <bean id="carShowController" class="com.rili.web.controller.event.CarShowController">
+        <property name="carShowService" ref="carShowService" />
+        <property name="event101DAO" ref="event101DAO" />
+        <property name="event101TicketDAO" ref="event101TicketDAO" />
+        <property name="event101VerifyDAO" ref="event101VerifyDAO" />
+        <property name="eventDAO" ref="eventDAO" />
+        <property name="eventOrder101DAO" ref="eventOrder101DAO" />
+        <property name="smsSenderService" ref="smsService" />       
+    </bean>
+    
+    <bean id="commonLotteryController" class="com.rili.web.controller.event.CommonLotteryController">
+        <property name="commonLotteryService" ref="commonLotteryService" />
+        <property name="event2DAO" ref="event2DAO" />
+        <property name="event2PrizeDAO" ref="event2PrizeDAO" />
+        <property name="event2VerifyDAO" ref="event2VerifyDAO" />
+        <property name="eventDAO" ref="eventDAO" />
+        <property name="eventOrder2DAO" ref="eventOrder2DAO" />
+        <property name="smsSenderService" ref="smsService" />
+        <property name="calendarDAO" ref="calendarDAO" />
+    </bean>
+    
+    <bean id="eventAdminController" class="com.rili.web.controller.event.EventAdminController">
+        <property name="bbsDAO" ref="bbsDAO" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="scheduleDAO" ref="scheduleDAO" />
+        <property name="commonOfflineService" ref="commonOfflineService" />
+        <property name="eventAdminDAO" ref="eventAdminDAO" />
+        <property name="eventCalendarDAO" ref="eventCalendarDAO" />
+        <property name="eventCityDAO" ref="eventCityDAO" />
+        <property name="eventDAO" ref="eventDAO" />
+        <property name="eventService" ref="eventService" />
+        <property name="upyunService" ref="upyunService" />
+        <property name="event1DAO" ref="event1DAO" />
+        <property name="event2DAO" ref="event2DAO" />
+        <property name="event2PrizeDAO" ref="event2PrizeDAO" />
+        <property name="event2VerifyDAO" ref="event2VerifyDAO" />
+        <property name="commonLotteryService" ref="commonLotteryService" />
+        <property name="eventPayDAO" ref="eventPayDAO" />
+        <property name="eventOrderPayDAO" ref="eventOrderPayDAO" />
+        <property name="eventPayTradeTypeDAO" ref="eventPayTradeTypeDAO" />
+        <property name="eventPayService" ref="eventPayService" />
+        <property name="eventTypeDAO" ref="eventTypeDAO" />
+        <property name="eventTimeDAO" ref="eventTimeDAO" />
+        <property name="bbsService" ref="bbsService" />
+        <property name="eventOrder2DAO" ref="eventOrder2DAO" />
+        <property name="eventOrder1DAO" ref="eventOrder1DAO" />
+        <property name="eventOrderDAO" ref="eventOrderDAO" />
+        <property name="scheduleSearchClient" ref="scheduleSearchClient" />
+    </bean>
+    
+    <bean id="payDemoController" class="com.rili.web.controller.event.PayDemoController">
+        <property name="event102DAO" ref="event102DAO" />
+        <property name="eventDAO" ref="eventDAO" />
+        <property name="eventOrder102DAO" ref="eventOrder102DAO" />
+        <property name="eventOrderDAO" ref="eventOrderDAO" />
+        <property name="payOrderDAO" ref="payOrderDAO" />
+    </bean>
+    
+    <bean id="eventPayController" class="com.rili.web.controller.event.EventPayController">
+        <property name="eventPayDAO" ref="eventPayDAO" />
+        <property name="eventDAO" ref="eventDAO" />
+        <property name="eventOrderPayDAO" ref="eventOrderPayDAO" />
+        <property name="eventPayTradeTypeDAO" ref="eventPayTradeTypeDAO" />
+        <property name="eventOrderDAO" ref="eventOrderDAO" />
+        <property name="payOrderDAO" ref="payOrderDAO" />
+        <property name="tenpayOrderDAO" ref="tenpayOrderDAO" />
+        <property name="tenpayPubController" ref="tenpayPubCtl" />
+    </bean>
+    
+    <bean id="holidayController" class="com.rili.web.controller.HolidayController">
+        <property name="holidayDAO" ref="holidayDAO" />
+    </bean>
+    
+    <bean id="scheduleSearchClient" class="com.rili.search.client.ScheduleSearchClient">
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+    </bean>
+    
+    <bean id="calendarSearchClient" class="com.rili.search.client.CalendarSearchClient">
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+    </bean>
+    
+    <bean id="searchController" class="com.rili.web.controller.SearchController">
+        <property name="cacheService" ref="cacheService" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="calendarPublicDAO" ref="calendarPublicDAO" />
+        <property name="calendarSearchClient" ref="calendarSearchClient" />
+        <property name="searchRecordDAO" ref="searchRecordDAO" />
+        <property name="yunSouSearch" ref="yunSouSearch" />
+    </bean>
+    
+    <bean id="discoveryCtrl" class="com.rili.web.controller.DiscoveryController">
+        <property name="hotScheduleDAO" ref="hotScheduleDAO"/>
+        <property name="fantasticHolidayDAO" ref="fantasticHolidayDAO" />
+        <property name="todayHistoryDAO" ref="todayHistoryDAO" />
+        <property name="locationDAO" ref="locationDAO"/>
+        <property name="calendarDAO" ref="calendarDAO"/>
+        <property name="qqtcCityTop1" ref="qqtcCityTop1"/>
+        <property name="qqtcCityTop2" ref="qqtcCityTop2"/>
+        <property name="qqtcAllCity" ref="qqtcAllCity" />
+        <property name="activityDAO" ref="activityDAO"/>
+        <property name="bannerDAO" ref="bannerDAO"/>
+    </bean>
+    
+    <bean id="todayHistoryCtrl" class="com.rili.web.controller.TodayInHistoryController">
+        <property name="todayHistoryDAO" ref="todayHistoryDAO" />
+    </bean>
+    
+    <bean id="qqgroupOperationCtrl" class="com.rili.web.controller.QQGroupOperationController">
+    	<property name="qqHisFasDAO" ref="qqHisFasDAO" />
+    	<property name="fantasticHolidayDAO" ref="fantasticHolidayDAO"/>
+    	<property name="todayHistoryDAO" ref="todayHistoryDAO" />
+    </bean>
+    
+    <bean id="locationController" class="com.rili.web.controller.LocationController">
+        <property name="locationDAO" ref="locationDAO" />
+    </bean>
+    
+    <bean id="FantasticHolidayController" class="com.rili.web.controller.FantasticHolidayController">
+        <property name="fantasticHolidayDAO" ref="fantasticHolidayDAO"/>
+    </bean>
+    
+    <bean id="trafficCtrl" class="com.rili.web.controller.TrafficController">
+    	<property name="trafficDAO" ref="trafficDAO" />
+    </bean>
+    
+    <bean id="activityCtrl" class="com.rili.web.controller.ActivityController">
+    	<property name="activityDAO" ref="activityDAO" />
+    </bean>
+    
+    <bean id="horoscopeCtrl" class="com.rili.web.controller.HoroscopeController"> 
+    	<property name="horoscopeDAO" ref="horoscopeDAO" />
+    </bean>
+    
+    <!-- 
+    <bean id="huangliCtl" class="com.rili.web.controller.HuangliController" >
+        <property name="huangliDAO" ref="huangliDAO" />
+    </bean>
+    -->
+        
+    <bean id="noteManager" class="com.rili.common.dao.NoteDAO">
+        <property name="idGenerator" ref="idGenerator" />
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+        <property name="notifySender" ref="notifySender" />
+    </bean>
+
+    <bean id="feedbackDAO" class="com.rili.web.dao.FeedbackDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+    
+    <bean id="womenDAO" class="com.rili.common.dao.WomenDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+    
+    <bean id="womenController" class="com.rili.web.controller.WomenController">
+        <property name="womenDAO" ref="womenDAO" />
+    </bean>
+    
+    <bean id="operationEventDAO" class="com.rili.common.dao.OperationEventDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+    
+    <bean id="operationEventController" class="com.rili.web.controller.OperationEventController">
+        <property name="operationEventDAO" ref="operationEventDAO" />
+        <property name="upyunService" ref="upyunService" />
+        <property name="userDAO" ref="userDAO" />
+    </bean>
+    
+    <bean id="userWeiboDAO" class="com.rili.web.dao.UserWeiboDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+    </bean>
+    
+    <bean id="userBaiduDAO" class="com.rili.web.dao.UserBaiduDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+    
+    <bean id="qh360DAO" class="com.rili.web.dao.Qh360DAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+    
+    <bean id="userQPlusDAO" class="com.rili.web.dao.UserQPlusDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+    
+    <bean id="userDAO" class="com.rili.common.dao.UserDAO">
+        <property name="idGenerator" ref="idGenerator" />
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+
+    <bean id="calendarDAO" class="com.rili.common.dao.CalendarDAO">
+        <property name="idGenerator" ref="idGenerator" />
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+        <property name="notifySender" ref="notifySender" />
+        <property name="holidays" ref="holidayMap" />
+    </bean>
+    
+    <bean id="tagDAO" class="com.rili.common.dao.TagDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="notifySender" class="com.rili.common.dao.NotifySender">
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+    </bean>
+    
+    <bean id="userGoogleDAO" class="com.rili.common.dao.UserGoogleDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+    
+    <bean id="scheduleDAO" class="com.rili.common.dao.ScheduleDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+    
+    <bean id="iOSDeviceDAO" class = "com.rili.common.dao.IOSDeviceDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+    
+    <bean id="androidDeviceDAO" class = "com.rili.common.dao.AndroidDeviceDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+
+    <bean id="calendarPublicDAO" class = "com.rili.common.dao.CalendarPublicDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+    
+    <bean id="huangliDAO" class = "com.rili.web.dao.HuangliDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+
+     
+     <bean id="cocoMessageDAO" class = "com.rili.common.dao.CocoMessageDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+    
+    <bean id="softlogDAO" class = "com.rili.web.dao.SoftlogDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+    
+    <bean id="searchRecordDAO" class = "com.rili.web.dao.SearchRecordDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="birthDAO" class = "com.rili.web.dao.BirthDAO">
+        <property name="idGenerator" ref="idGenerator" />
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+    
+    <bean id="shareDAO" class = "com.rili.web.dao.ShareDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+    
+    <bean id="qqunDAO" class = "com.rili.web.dao.QQunDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+    
+    <bean id="mobileQQunDAO" class = "com.rili.common.dao.MobileQQunDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+    
+    <bean id="lotteryDAO" class = "com.rili.web.dao.LotteryDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+     
+    <bean id="tuanweiDAO" class = "com.rili.common.dao.TuanWeiDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+    
+    <bean id="eventDAO" class="com.rili.common.dao.EventDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="eventOrderDAO" class="com.rili.common.dao.EventOrderDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate"/>
+    </bean>
+
+    <bean id="eventMessageRecordDAO" class="com.rili.common.dao.EventMessageRecordDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="eventWhiteListDAO" class="com.rili.common.dao.EventWhiteListDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="event1DAO" class="com.rili.common.dao.Event1DAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="event100DAO" class="com.rili.common.dao.Event100DAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="event101DAO" class="com.rili.common.dao.Event101DAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="event2DAO" class="com.rili.common.dao.Event2DAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="event100TicketDAO" class="com.rili.common.dao.Event100TicketDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" /> 
+    </bean>
+    
+    <bean id="event101TicketDAO" class="com.rili.common.dao.Event101TicketDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" /> 
+    </bean>
+    
+    <bean id="event2PrizeDAO" class="com.rili.common.dao.Event2PrizeDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" /> 
+    </bean>
+    
+    <bean id="event100VerifyDAO" class="com.rili.common.dao.Event100VerifyDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="event101VerifyDAO" class="com.rili.common.dao.Event101VerifyDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="event2VerifyDAO" class="com.rili.common.dao.Event2VerifyDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="eventOrder100DAO" class="com.rili.common.dao.EventOrder100DAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" /> 
+    </bean>
+    
+    <bean id="eventOrder1DAO" class="com.rili.common.dao.EventOrder1DAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="eventOrder101DAO" class="com.rili.common.dao.EventOrder101DAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+
+    <bean id="eventOrder2DAO" class="com.rili.common.dao.EventOrder2DAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="eventTypeDAO" class="com.rili.common.dao.EventTypeDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="eventAdminDAO" class="com.rili.common.dao.EventAdminDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="eventCalendarDAO" class="com.rili.common.dao.EventCalendarDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+
+    <bean id="eventCityDAO" class="com.rili.common.dao.EventCityDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="eventTimeDAO" class="com.rili.common.dao.EventTimeDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" /> 
+    </bean>
+    
+    <bean id="event102DAO" class="com.rili.common.dao.Event102DAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="eventOrder102DAO" class="com.rili.common.dao.EventOrder102DAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="payOrderDAO" class="com.rili.common.dao.PayOrderDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="tenpayOrderDAO" class="com.rili.common.dao.TenpayOrderDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" /> 
+    </bean>
+    
+    <bean id="tmpMessageDAO" class="com.rili.common.dao.TmpMessageDAO" >
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+    
+    <bean id="holidayDAO" class="com.rili.common.dao.HolidayDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="eventCellphoneVerifyDAO" class="com.rili.common.dao.EventCellphoneVerifyDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="cityCodeDAO" class="com.rili.common.dao.CityCodeDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="bootImgsDAO" class="com.rili.common.dao.BootImgsDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <!-- Utils -->
+    <bean id="weiboUtils" class="com.rili.web.utils.WeiboUtils">
+        <!-- <property name="taskScheduler" ref="taskScheduler" /> -->
+    </bean>
+    
+    <bean id="cocoMessageUtils" class="com.rili.web.utils.CocoMessageUtils">
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+        <property name="cocoMessageDAO" ref="cocoMessageDAO" />
+        <property name="calendarDAO" ref="calendarDAO" />
+        <property name="calendarService" ref="calendarService" />
+        <property name="holidays" ref="holidayMap" />
+    </bean>
+    
+    <bean id="authUtils" class="com.rili.web.interceptor.AuthUtils">
+        <property name="userDAO" ref="userDAO" />
+        <property name="tuanweiDAO" ref="tuanweiDAO" />
+        <property name="redisSession" ref="redisSession" />
+    </bean>
+    
+    <bean id ="tmpmessage" class="com.rili.web.controller.TmpMessageController">
+		<property name="tmpMessageDAO" ref="tmpMessageDAO" />
+		<property name="cityCodeDAO" ref="cityCodeDAO" />
+		<property name="bootImgsDAO" ref="bootImgsDAO" />
+		<property name="logService" ref="logService" />
+        <property name="advertisementDAO" ref="advertisementDAO"/>
+    </bean>
+    
+    <bean id="eventPayDAO" class="com.rili.common.dao.EventPayDAO" >
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="eventOrderPayDAO" class="com.rili.common.dao.EventOrderPayDAO" >
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="eventPayTradeTypeDAO" class="com.rili.common.dao.EventPayTradeTypeDAO" >
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="eventPayService" class="com.rili.web.service.event.EventPayService">
+        <property name="eventOrderPayDAO" ref="eventOrderPayDAO" />
+        <property name="eventPayTradeTypeDAO" ref="eventPayTradeTypeDAO" />
+        <property name="eventService" ref="eventService" />
+        <property name="eventPayDAO" ref="eventPayDAO" />
+        <property name="tenpayOrderDAO" ref="tenpayOrderDAO" />
+        <property name="payOrderDAO" ref="payOrderDAO" />
+    </bean>
+    
+    <bean id="hotScheduleDAO" class="com.rili.common.dao.HotScheduleDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+    
+    <bean id="todayHistoryDAO" class="com.rili.common.dao.TodayInHistoryDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+    
+    <bean id="fantasticHolidayDAO" class="com.rili.common.dao.FantasticHolidayDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+    
+    <bean id="locationDAO" class="com.rili.common.dao.LocationDAO">
+        <property name="jdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="horoscopeDAO" class="com.rili.common.dao.HoroscopeDAO">
+    	<property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="activityDAO" class="com.rili.common.dao.ActivityDAO">
+    	<property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+        <property name="simpleJdbcMapper" ref="simpleJdbcMapper" />
+    </bean>
+    
+    <bean id="bannerDAO" class="com.rili.common.dao.XianquBannerDAO">
+    	<property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="qqHisFasDAO" class="com.rili.common.dao.QQHisholidayFantasholidayPICDAO">
+    	<property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+    
+    <bean id="trafficDAO" class="com.rili.common.dao.TrafficControlDAO">
+    	<property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+
+    <bean id="weixinFollowInfoDAO" class="com.rili.common.dao.WeixinFollowInfoDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+
+    <bean id="weixinSubscribeController" class="com.rili.web.controller.WeixinSubscribeController">
+        <property name="weixinFollowInfoDAO" ref="weixinFollowInfoDAO" />
+        <property name="weixinService" ref="weixinService" />
+    </bean>
+
+    <bean id="weatherDAO" class="com.rili.web.dao.WeatherDAO">
+        <property name="jdbcTemplate" ref="jdbcTemplate" />
+    </bean>
+
+    <bean id="weatherCtlV2" class="com.rili.web.controller.WeatherControllerV2" >
+        <property name="redisConnectionPool" ref="redisConnectionPool" />
+        <property name="weatherDAO" ref="weatherDAO" />
+    </bean>
+
+    <bean id="advertisementDAO" class="com.rili.common.dao.AdvertisementDAO">
+        <property name="simpleJdbcTemplate" ref="simpleJdbcTemplate" />
+    </bean>
+
+</beans>

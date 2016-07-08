@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>365日历广场</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="blank" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="apple-touch-icon" sizes="57x57" href="/images/57.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/images/72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/images/114.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/images/144.png">
+<link href="/css/forum.css?20141124" rel="stylesheet">
+<script src="/js/lib/zepto.min.js"></script>
+<link rel="prefetch" href="http://www.365rili.com/pages/forum/list.html" />
+<link rel="prefetch" href="http://www.365rili.com/pages/forum/index.html" />
+</head>
+<body>
+	<div class="tool">
+		<form action="" onsubmit="return false" class="search e_clear">
+			<input class="search_con" placeholder="请输入..." type="text" name="content" value="">
+			<span class="search_icon"></span>
+		</form>
+	</div>
+    <div class="content e_clear">
+    	<div class="search_tag_list e_clear">
+    	</div>
+    	<div class="tag_loading"><div class="circle"></div><div class="circle1"></div></div>
+    </div>
+    <script>
+    $(document).on('tap', function () {
+    	$('.search_con').blur();
+    })
+    $('.search_con').on('tap', function () {
+    	return false;
+    });
+    </script>
+    <script src="/js/forum/Function.js?20141229"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src="/js/forum/bar.js?20141221"></script>
+    <script src="/js/forum/search.js?20141217"></script>
+    <script src="/js/forum/list.js?20141223"></script>
+</body>
+</html>

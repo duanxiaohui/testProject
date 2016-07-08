@@ -1,0 +1,28 @@
+body{background:url(../images/bg.jpg) repeat; font-family: "Microsoft YaHei";}
+*{margin:0; padding:0;}
+ul{list-style: none;}
+li{list-style-type: none;}
+a { color:#2e5401; cursor: pointer; text-decoration: none; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+
+.main{background:url(../images/top_bg.png) repeat-x left top; -webkit-background-size:1px 160px;}
+.top_bg{background:url(../images/top.png) no-repeat right top; -webkit-background-size:320px 160px; }
+.constellation_avtar{padding:50px 0px 30px 15px;}
+.avtar{width:98px; height:101px; padding:5px; float:left; background:url(../images/avtar.jpg) no-repeat; -webkit-background-size:108px 111px;}
+.constellation_exp{padding:35px 0 0 10px; float:left; color:#2d7c99;}
+.constellation_exp h3{font-size:24px; margin-bottom:5px;}
+
+.top_bg dl{padding-bottom:20px;}
+.top_bg dl dt{width:48px; height:18px; float:left; border:2px solid #fff; text-align:center; line-height:18px; color:#fff; margin:3px 8px; font-size:14px;}
+.top_bg dl dt.overall{background:#92b577;}
+.top_bg dl dt.career{background:#7c88ba;}
+.top_bg dl dt.affection{background:#b5675d;}
+.top_bg dl dt.money{background:#58a1b6;}
+
+.top_bg dl dd{margin:0 8px 0 72px; color:#2d7c99; line-height:24px;}
+.txt{text-align:center; color:#000; font-size:14px;}
+.btn{display:block; width:240px; height:45px; line-height:45px; text-align:center; margin:10px auto; background:#58a1b6; -webkit-background-size:240px 45px; color:#fff;
+-moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; border-radius:5px;
+}

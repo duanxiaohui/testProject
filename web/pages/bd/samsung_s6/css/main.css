@@ -1,0 +1,189 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 张明臣 (vest0804@gamil.com)
+ * @date    2015-04-08 14:42:16
+ * @version 1.0
+ */
+body { color: #444; font: 12px / 1.5em "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑,SimSun,arial; margin: 0; padding:0;}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+*{-webkit-tap-highlight-color: rgba(0,0,0,0); tap-highlight-color: rgba(0,0,0,0);}
+
+a{text-decoration: none; }
+.none{display:none;}
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+
+html, body{height:100%;}
+body{
+	background-color: #fff;
+}
+
+img{
+	width: auto; 
+	visibility: visible; 
+	height: auto; 
+	vertical-align: bottom;
+	max-width: 100%;
+}
+.logo{width:250px; height:50px; background:url(http://www.365rili.com/pages/bd/samsung_s6/images/logo.jpg) no-repeat; background-size:100% 100%; margin:25px auto 13px;}
+.txt{line-height:30px; text-align:center;}
+
+.banner{
+	margin: 0 13%;
+}
+.banner img{
+	margin-top: 10px;
+}
+.list{
+	margin: 0 4%;
+}
+
+.list img{
+	margin-top:10px;
+}
+
+.p img{
+	border: 1px solid #eee;
+}
+
+.noLogin_img{margin:0 14%;}
+.noLogin_txt{text-align:center; color:#ec6f8e; line-height:160%; font-size:15px; padding:15px 0 30px 0;}
+
+.info{
+	margin: 20px 10%;
+}
+
+.control{
+	text-align: center;
+	background: url(http://www.365rili.com/pages/bd/samsung_s6/images/btn1.png) no-repeat center;
+	-webkit-background-size: 94px 96px;
+	background-size: 94px 96px;
+	height:96px;
+	line-height: 150px;
+	overflow: hidden;
+	display: block;
+}
+.control span{
+	font-size: 14px;
+	color: #ec6f8e;
+	margin-top: 30px;
+}
+.control img{
+	width: 94px;
+	height: 96px;
+}
+
+.score{
+	text-align: center;
+	background: url(http://www.365rili.com/pages/bd/samsung_s6/images/score.png) no-repeat center;
+	-webkit-background-size: 94px 96px;
+	background-size: 94px 96px;
+	height:96px;
+	line-height: 80px;
+	overflow: hidden;
+	display: block;
+}
+
+.has{
+	background-image: url(http://www.365rili.com/pages/bd/samsung_s6/images/btn2.png);
+}
+
+.score span{
+	color: #ec6f8e;
+}
+
+.join{
+	margin: 20px 17%;
+}
+
+.infoTip{
+	text-align: center;
+	font-size: 14px;
+	color: #ec6f8e;
+	margin: -5px 30% 10px;
+}
+
+.message{
+	margin: 20px 14%;
+}
+
+.tipBox{
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	width: 100%;
+}
+.tipBox .mash{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	background-color: #000;
+	opacity: 0.9;
+	width: 100%;
+	height: 100%;
+}
+
+.tipBox .tip{
+	position: relative;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	margin: 50px 10%;
+}
+
+.cloneScore{
+	position: absolute;
+	line-height: 12px;
+	color: #000;
+	font-weight: bold;
+	
+}
+.down_txt{text-align:center; margin:20px 0; display:block; width:100%; color:#ec6f8e; text-decoration:underline; font-size:16px;}
+
+.score_list_img{width:222px; height:54px; background:url(http://www.365rili.com/pages/bd/samsung_s6/images/score_list_img.jpg) no-repeat; background-size:100% 100%; margin:20px auto 10px;}
+.my_list_num{text-align:center; line-height:30px; color:#e74d3d; font-size:13px;}
+.score_list{margin:0 10%; padding:10px; background:#fffde0;}
+.score_list h3{line-height:40px; text-align:center; color:#e74d3d;}
+.score_list li{padding:5px 0;}
+.score_list li span{float:right; color:#e74d3d;}
+.other_txt,.my_txt{text-align:center; line-height:30px; color:#ec6f8e; font-size:14px;}
+.share_bg{background:rgba(0,0,0,.6) url(http://www.365rili.com/pages/bd/samsung_s6/images/share_img.png) no-repeat center 20px; background-size:100% auto; width:100%; height:100%; position:fixed; top:0; left:0;}
+.my_play_btn{display:block; width:225px; min-height:43px; background:url(http://www.365rili.com/pages/bd/samsung_s6/images/my_play_btn.jpg) no-repeat; margin:9px auto 15px; background-size:100% auto;}
+
+@-webkit-keyframes bounceOut {
+    0% {
+        -webkit-transform: scale3d(1.1,1.1,1.1);
+        transform: scale3d(1.1,1.1,1.1)
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: scale3d(5,5,5);
+        transform: scale3d(5,5,5)
+    }
+}
+.bounceOut {
+	-webkit-animation-name: bounceOut;
+	animation-name: bounceOut;
+	-webkit-animation-duration: .75s;
+	animation-duration: .75s
+}
+.animated {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both
+}
+
+footer{
+	margin: 25px 4% 0;
+	padding-bottom: 77px;
+}

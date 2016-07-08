@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ </head>
+
+ <body>
+	<script type="text/javascript" >
+		function s_onload(){
+			setTimeout(function(){
+				window.location.href = "https://itunes.apple.com/cn/app/ji-yun-wan-nian-li/id628433727?ls=1&mt=8";				
+			},200);
+		}
+   </script>
+   
+  <div style="display:none;">
+  <script src="//www.365rili.com/js/lib/app.js" onload="s_onload()"></script>
+  </div>
+ </body>
+</html>

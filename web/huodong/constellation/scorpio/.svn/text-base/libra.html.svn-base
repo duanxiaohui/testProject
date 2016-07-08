@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>365日历</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
+</head>
+<body>
+    <div class="main">
+    	<div class="top_bg">
+    			<div class="constellation_avtar e_clear">
+    				<div class="avtar"><img src="images/libra.png" width="98" height="98"/></div>
+					<div class="constellation_exp">
+						<h3>天秤座  Libra</h3>
+						<p>24/09-23/10</p>
+						<p>2013年运势</p>
+					</div>
+    			</div>
+				<dl class="e_clear">
+					<dt class="overall">整体</dt>
+					<dd>
+						<p>天秤君的年度主题：废墟上的重建。</p>
+						<p>2013年好事频传，上半年的木星九宫，对天秤君事业、名声、名气非常有利。这有利的局面，还会持续到2015年，对天秤来说，是非常值得把握的事业黄金期。</p>
+						<p>下半年因木星所开启的“水象大三角”是股巨大的能量，把天秤君推向发挥才能，工作出色，受人尊敬三种能量的良性循环中，二宫的土星，表面是推着你去理财，但其实真正要你面对的是，经历过去两年自我压抑，突破困难的修炼后，如何在精神层面建构自我价值体现。天秤君的下一个课题，就是掌握住自己的才能，好好发挥，让自己成为不可或缺的存在，金钱自然不是问题。</p>
+					</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="career">事业</dt>
+					<dd>
+						<p>职场的天秤君，行程十分忙碌。公司会有需要出差、洽商、争取代理等重大事宜需要你处理，会因工作关系接触法律有关的事，或许是签约、拟约、打官司等，增加你处理这方面事物的实力。三、四、五、九、十月职场有人际关系令你不爽，六、七月则有跳槽、想自立门户的想法。选择权都在自己手里。</p>
+ 						<p>自己创业的天秤君，事必躬亲，颇心力交瘁。汰旧换新，把过去自己视为亲信的人换掉，重新建立安全感；你体会到拥有班底是刻不容缓的事，需要整年时间处理“家务事”，对外三、四月注意合伙对象及竞争对手的动向，他们将影响你的走向与方针，你可能会有赌气的举动，影响到自己的稳定。五月之后能招募到有能力的下属，建立稳固自己地盘的班底，一直到七月都是声势看好、看涨的好机运，不妨趁势而起。</p>
+					</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="affection">感情</dt>
+					<dd>
+						<p>单身的天秤君在不知觉中又被其他人吸引，今年上半，还会受到外界桃花、不清不楚关系、外遇的诱惑，尤其是三、四、五月。六月后，感情则开始较为明朗、稳定。而七月以后，感情对象和上半年截然不同，桃花与事业、工作有关，与这些对象闪电结婚、或闪电决定的概率很高，尤其是七、八、九三个月，会因为家庭压力、往上爬的企图心，或自己也很想安定而有相对行动的决定，但行动过后，天天秤君可能觉得对方不如预期，所以更多考虑自己内心的真实感受，可能会更无怨无悔一些。</p>
+						<p>有伴侣的天秤君，于是可望走入婚姻、生子、合作让关系深化。已婚的天秤君也可能经历婚姻分离。家庭关系冷漠的天秤君有机会与家人重建感情，时机在把握一月至三月以及九、十月，这些时刻所发生的变化，若你能倾全力诚意面对，没有无法度过的难题，也会是你与家人间的重要回忆。</p>
+					</dd>
+				</dl>
+				<dl class="e_clear">
+					<dt class="money">金钱</dt>
+					<dd>
+						<p>土星来到金钱，理财的宫位，天秤君有“财务上的压力”，开始觉得赚钱辛苦，在此行运下，投入不动产的投资，是土星二宫最好的影响，正财运极佳，你用心面对每一件交到手上的事，并认真发挥实力，这已使你成为不可或缺的要角，正财运已经稳如泰山，薪资一路看涨。</p>
+ 						<p>今年没什么偏财运，最好不要尝试赌博投机。 理财走保守路线，一至三月是奠定理财基础的重要时期，这些重点搞好了，未来的进财都可以在这样的基础上，节节高升。五、六月会想添购生财器具。七、八、九、十二月，请记住努力在关键时刻发挥你的实力，升官或加薪都很可能。</p>
+					</dd>
+				</dl>
+    		</div>
+			<p class="txt">安装星座插件，查看每日星座指南！</p>
+			<a class="btn" id="btn" href="javascript:;">分享到微博</a>
+    </div>
+<script type="text/javascript">
+    function $(id){
+        return document.getElementById(id);
+    }
+	window.onload = function(){
+		var btn = $("btn");
+		btn.onclick = function(){
+			var txt = "@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com"
+			var json = '[{"img": "constellation.jpg","content": "@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com","via": "weibo","type": "type","follow": true},{"img":"test","content":"@365日历 奉上十二星座2013年年度运程，快来看明年的运势如何吧！传送门：http://www.365rili.com","via":"qt","type":"type","follow":true}]';
+			if (/android/i.test(navigator.userAgent)) {
+				try {
+					AliansBridge.sharev2(json);
+				} 
+				catch (e) {
+					try {
+						AliansBridge.share(txt, img = "constellation.jpg", null, false);
+					} 
+					catch (e) {
+						alert("您的365日历版本暂不支持发微博，请升级到最新版");
+					}
+				}
+			}
+			else 
+				if (/ipad|iphone|mac/i.test(navigator.userAgent)) {
+					btn.href = 'rili365app:share|||||' + txt + '|||||constellation.jpg';
+				}
+		}
+	}
+</script>
+</body>
+</html>

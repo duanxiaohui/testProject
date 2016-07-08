@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title></title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	html, body{
+		height:100%;
+	}
+	.bar{width:100%;height:48px; line-height:48px; font-size:16px; color:#000; background:#fff; text-align:center; border-bottom:1px solid #e0e0e0;position: fixed; top:0;}
+	iframe{
+		margin-top: 48px
+	}
+</style>
+</head>
+<body>
+	<div class="bar">
+        <div class="bar_txt" id="js-title"></div>
+    </div>
+    <iframe id="js-iframe" height="100%" width="100%" src="" frameborder="0"></iframe>
+<script>
+	(function () {
+		function getURLParameter(name) {
+		    return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
+		}
+		var title = getURLParameter('title');
+		var url = getURLParameter('url');
+		document.getElementById('js-title').innerHTML = title;
+		var ifa = document.getElementById('js-iframe');
+		ifa.src = url;
+
+		ifa.height = document.body.clientHeight;
+	})();
+</script>
+</body>
+</html>

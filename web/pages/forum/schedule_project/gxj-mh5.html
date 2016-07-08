@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015莲花池春节庙会</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015莲花池春节庙会 </div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/e0fabfa3-0b6a-4dce-a787-f1852729c57e.jpg"/>
+			 <a class="btn js-subscribe" data-uuid="056b1b99-a019-4384-bf24-cd5f6339765d" data-cid="147462861">添加提醒</a>
+	    
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	
+	    	<p class="time"><b>时间：2015.2.19 - 2.25（08:00-17:00）
+
+
+</b></br>
+	    	<b>场地：北京-莲花池公园</b></br>
+			<b>费用： 详见现场</b></p>
+			<h3>活动看点：</h3>
+			<p>1、精彩的文艺演出、民间戏法、杂技等。
+
+</br>
+2、云集四方的汉族民间手工艺术品，有北京脸谱、北京泥人、河南桃符木刻、河北蔚县剪纸、琉璃制品、铜版画、内画等，充分展现非物质文化遗产的深厚内涵和南城文化的特色。
+</p>
+			<!--h3是小标题-->
+			<h3>活动简介：</h3>
+			<!--p是段落文字描述-->
+			<p>莲花池庙会是集商贸、旅游、信仰、娱乐、民间文化艺术于一体盛大的汉族传统民俗活动。充分挖掘展示汉族民间手工艺品、民间绝活、民间收藏、民间花会等一系列民俗文化，通过品小吃、观市井、看绝活、赛花会等活动，再现老北京市井风俗风貌。</br></p>
+			<p><b>北京莲花池庙会出行交通指南：
+南北路线：323、324、300、368、103运通、57、1、4、964、964支、321、309支、339路六里桥北里站下车，向北200米路东莲花池公园西门入。东西线路：特7、309、719、620、704、122、38、927、410等路公交可达莲花池庙会.</b>
+</br></br>
+具体详情以官方信息为准</p>
+
+
+<img src="http://cocoimg.365rili.com/schedule_pics/default/78c5d896-9743-4409-a057-1b02fa897d10.jpg"/>
+
+<img src="http://cocoimg.365rili.com/schedule_pics/default/a8336df5-85c1-44b6-9a05-491b27f5e328.jpg"/>
+
+ <div class="remind_div" data-uuid="056b1b99-a019-4384-bf24-cd5f6339765d" data-cid="147462861"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/6f06ca89-e4cc-4df4-a63b-ab50ae3dd236.jpg',
+                title: '2015莲花池春节庙会',
+                desc: '莲花池庙会是集商贸、旅游、信仰、娱乐、民间文化艺术于一体盛大的汉族传统民俗活动。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015莲花池春节庙会',
+		        				content: '莲花池庙会是集商贸、旅游、信仰、娱乐、民间文化艺术于一体盛大的汉族传统民俗活动。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/6f06ca89-e4cc-4df4-a63b-ab50ae3dd236.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

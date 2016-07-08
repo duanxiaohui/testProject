@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>元气满满的少女们</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/japans_big/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>日本女儿节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>春天，对于远在东瀛的日本来说，又到了桃花绽放、樱花盛开的时节。映入眼帘的粉色，多么像元气满满的少女们呀！而3月3日，伴随着美好的春天，日本的女孩子们便迎来了专属于她们的“女儿节”。</p>
+            <img src="images/japans_big/holiday_1.jpg"/>
+            <h3>【女儿节的由来】</h3>
+            <img src="images/japans_big/holiday_2.jpg"/>
+            <p>女儿节的来源可以追溯到1000多年前的平安时代。在当时，每年春天人们都要向上天祈福，祈祷接下来的一年能够平平安安，无病息灾。所以，人们就会请阴阳师来将自己的厄运，转寄到用纸做成的偶人身上，从而摆脱厄运。而同时期的贵族少女们也有玩偶人的习惯，随着时间的推移，到了江户时期，幕府正式将每年的3月3日定为女儿节，每到这一天，日本民间都会举行盛大的庆典，祈愿女孩们健康成长。</p>
+            <h3>【人形娃娃】</h3>
+            <img src="images/japans_big/holiday_3.jpg"/>
+            <p>摆放人偶是女儿节的最大特征，这些身穿锦衣的宫装人偶以精美华丽和做工细腻著称。女儿节人偶的摆放非常讲究，在特制的雏坛上，一般为3层、5层和7层等奇数排列。一个标准的人偶雏坛的第一阶为天皇与皇后的宫廷人形，第二阶是手执酒、酒杯、酒壶的三名宫女，第三阶是演奏音乐的五人乐队，第四阶是随从，外貌为一老一少的大臣，第五阶是三名仆人，第六阶通常摆些小型嫁妆用家具，第七阶是牛车、笼、轿子等。</p>
+            <p class="mt15">这些娃娃的摆饰时间也非常有讲究，通常都在3月3日之前的一两个星期里的吉日开始做准备。最重要的是，一过3月3日就要赶紧把人形收起来，否则，人们相信，这会影响到女孩子的婚期，将来女孩子很难嫁出去。所以，为了不成为被催婚的对象，这些习俗多数人还是很尊重的。</p>
+            <p class="mt15">可别小看这些娃娃，这些娃娃可是能作为代代相传的嫁妆呢！有些名门世家的人形娃娃历代相传，累积到几十数百个，每年摆饰出来都相当壮观，有的甚至是从江户时代就传下来，有数百年历史，并且被列为国家指定的特别文物，其价值难以估计。</p>
+
+            <h3>【女儿节料理】</h3>
+            <img src="images/japans_big/holiday_4.jpg"/>
+            <p>日本作为被中国文化影响很大的国家，也相应地继承了我国优秀的“吃吃吃”文化。所以女儿节这一天也有很多非常美味的料理。比如象征着忠贞爱情的蛤蜊、色彩缤纷的点心和果子、祈祷远离病灾的女儿节蛋糕以及美味的鱼子酱手卷寿司。</p>	
+
+            <div class="tips">
+                <p>1、桃花是当天常用的礼品并要配合属于“五节句”之一的“桃之节句”；</p>
+                <p>2、点心和果子的颜色含义：红色代表除病，白色代表元气，绿色代表驱邪。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/Vanna</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

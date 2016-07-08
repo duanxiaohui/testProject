@@ -1,0 +1,15 @@
+*{margin:0; padding:0;}
+		ul{list-style: none;}
+		li{list-style-type: none;}
+		.main{width:100%; margin:0 auto; background:#fff; padding-bottom:60px;}
+		.top{width:320px; height:176px; margin:0 auto; background:url(../images/img.jpg) no-repeat center top; -webkit-background-size:320px 176px;}
+		.text{width:320px; margin:0 auto; padding-top:20px; }
+		.text p{padding:0 10px; font-size:14px;font-family:"Microsoft YaHei",微软雅黑; font-weight:600; color:#282828;}
+		.text h3{padding:10px 10px 0 10px; color:#41a3bb;font-size:14px;font-family:"Microsoft YaHei",微软雅黑;}
+		.fixed{width:130px; height:33px; background:#cc2a1e; display:block; margin:15px auto; line-height:33px; text-align:center; font-size:14px; color:#fff;text-decoration: none; border:1px solid #c8c8c8;
+			-moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; border:1px solid #b4b3b3;
+		}
+		.mt10{margin-top:10px;}
+@media only screen and (-webkit-device-pixel-ratio:1){
+		.top{width:320px; height:176px; margin:0 auto; background:url(../images/img.jpg) no-repeat center top; -webkit-background-size:320px 176px;}
+	}

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 张明臣 (vest0804@gamil.com)
+ * @date    2014-10-27 18:10:57
+ * @version 1.0
+ */
+body { background:url(/pages/download/images/bg.jpg) no-repeat; background-size:100% 100%; color: #444; font: 12px / 1.5em "Microsoft YaHei", 微软雅黑,SimSun,arial;  margin: 0; padding: 0; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+textarea { background: #fff; border: 1px solid #d2d9dc; border-radius: 2px; box-shadow: 0 0 0 #d2d9dc; -moz-transition: .3s ease-in-out; transition-property: border box-shadow; -webkit-transition: .3s ease-in-out; }
+textarea:focus, input[type="text"]:focus { /*border: 1px solid #b7d4ea;*/ box-shadow: 0 0 5px #b7d4ea; }
+a { color: #208de9; cursor: pointer; text-decoration: none; }
+a:hover { color: #ff5b86; }
+.none{display:none;}
+
+.cld_wap{padding:25px 5px;}
+.logo{width:190px; height:40px;}
+.txt_1{padding:54px 0 30px; min-height:257px;}
+.txt_2{height:335px; padding-left:170px; background:url(/pages/download/images/img2.png) no-repeat left top; background-size:auto 100%;}
+
+.txt_3{height:344px; padding-right:174px; background:url(/pages/download/images/img3.png) no-repeat right top; background-size: auto 344px;}
+
+.txt_4{height:335px; padding-left:170px; background:url(/pages/download/images/img4.png) no-repeat left top; background-size:auto 100%;}
+
+.txt_5{height:335px; padding-right:170px; background:url(/pages/download/images/img5.png) no-repeat right top; background-size:auto 100%;}
+
+ .txt{margin:0 10px; padding-top:80px;}
+ .txt h3{font-size:15px; color:#354054; line-height:25px;}
+ .txt p{font-size:12px; color:#354054; line-height:25px; border-top:1px solid #354054;}
+
+ .cld_btn{display:block; width:80px; margin:25px auto 0; padding-top:55px; height:30px; line-height:30px; text-align:center; background:url(/pages/download/images/down_btn.png) no-repeat center top; background-size:39px 39px; font-size:17px; color:#fff;}

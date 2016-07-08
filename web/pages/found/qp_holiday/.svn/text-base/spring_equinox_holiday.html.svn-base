@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>致一枚想要站立的鸡蛋</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/spring_equinox/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>二十四节气之春分</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>每个鸡蛋都有一个站起来的梦想，早在15世纪，哥伦布帮鸡蛋实现了这个梦想——哥伦布发现新大陆后，被整个西班牙视为英雄，但是有一些贵族却固执的瞧不起他。在一次宴会上，哥伦布给那些嘲笑他的人出了一个题目“把鸡蛋竖起来”。鸡蛋传来传去又回到了哥伦布手上，没有人能把它竖起来。最后哥伦布把鸡蛋的一头在桌上轻轻一敲，鸡蛋就稳稳地直立在桌子上了。</p>
+            <h3>【可是鸡蛋想要完整的站起来】</h3>
+            <p>但是鸡蛋想站起来的梦想并不是那么简单的，它想完完整整、没有残破的站起来。在山的那边海的那边有一群机智的炎黄咨询，他们早于哥伦布让鸡蛋实现了站起来的梦想！</p>
+            <img src="images/spring_equinox/holiday_1.jpg"/>
+            <p>答案很简单，那就是：在春分这天做这件事！在古老的传说中，春分这天最容易把鸡蛋立起来，其中还有一些科学道理。据专家介绍，春分是南北半球昼夜均等的日子，呈66.5度倾斜的地球地轴与地球绕太阳公转的轨道平面刚好处于一种力的相对平衡状态，很有利于竖蛋。也或许是这不冷不热的温度下，人们的行动迅速、思维敏捷，更有利于竖蛋！据说1985年春分时，美国阿拉斯加大学艺术系教授格雷和他的学生在一间房屋里，一共立起来204个鸡蛋。</p>
+            <h3>【欲将昼夜作平分】</h3>
+            <p>春分古时又称为日中、日夜分、仲春之月。古人将春分分为三候：“一候玄鸟至；二候雷乃发声；三候始电。”</p>
+            <img src="images/spring_equinox/holiday_2.jpg"/>
+            <p>《明史·历一》说：“分者，黄赤相交之点，太阳行至此，乃昼夜平分。”因而，春风的意义首先是指一天时间白天黑夜平分，各为12小时；其次是古时以立春至立夏为春季，春分正当春季三个月之中，平分了春季。春分者，阴阳相半也，故昼夜均而寒暑平。</p>
+            <h3>【阴阳平衡】</h3>
+            <p>《黄帝内经》讲：“阴阳者，天地之道也，万物之纲纪，变化之父母，生杀之本始”。可见，阴阳是万物生命运动之源泉。春分之后，在养生方面应多注意保持人体的阴阳平衡，使身体内部达到平衡。因为在此时节温度与湿度往往相差很大，气候上会有剧烈的变化，体弱的人容易生病，有旧病的人容易复发。</p>
+
+            <div class="tips">
+                <p>1、“春分到，蛋儿俏”，早在4000年前中国就有了春分立蛋的传统，这天竖蛋好像格外容易，不信你试试；</p>
+                <p>2、春季养生要注重身体的阴阳平衡。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

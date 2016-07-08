@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>人类的征途，是那星辰大海</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/challenge_human_condition/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>世界向人体条件挑战日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>滚滚历史的车轮碾过，所经之处皆留下了文明的足迹。农耕被机械化取代，手工作坊被大型工厂取代……生活水平直线小康，但是人类并没有满足，因为毕竟，他们的征途是那星辰大海。在不断向物质条件挑战的同时，人类还不断向自己挑战，希望能增强身体的承受能力。</p>
+            <h3>【世界向人体条件挑战日】</h3>
+            <p>生命是大自然的一部分，人与大自然搏斗的同时，也在向自己的身体条件发出挑战。人类是脆弱的，因为人们承担不起太多的灾难同时人又是坚强的，因为人从形成胚胎的那一刻起，就已经承担起对来自任何方面各种各样的挑战。自然界的气候变化、病毒与疾病、地壳运动和战争冲突等，所有这些灾害都是对人体挑战。尤其是自然灾害中的各种细菌、病毒和人为发起战争的灾害已引起国际社会的重视。</p>
+            <img src="images/challenge_human_condition/holiday_1.jpg"/>
+            <p>为了提高人类对各种灾害的抵抗能力，联合国人口基金会、人类生存与发展国际基金会、人体条件挑战组织等确定将每年5月26日为“世界人体挑战日”，这一节日得到联合国的认可。设立“世界人体挑战日”的目的，就是进一步引起全人类的重视，加强人类自身条件的提高，对来自各方面的挑战的应对能力，提高人类体能水平，从而避免各种灾害的发生与发展。</p>
+            <h3>【人体条件极限】</h3>
+            <p>人体条件，是指人的高矮、胖瘦、强弱等外表形态。所谓人体条件的极限就是人体承受各种打击的最大限度，这种打击包括意外伤害、疲劳、饥饿、干渴、酷热、严寒、缺氧和疼痛等多种因素。探讨极限问题，就必须超越极限，超越极限就意味着死亡，因此，人们只会去挑战极限，谁也不敢去超越人体的极限。挑战自己身体条件的极限必须参考一些科学数据，否则可能危及健康。</p>
+            <img src="images/challenge_human_condition/holiday_2.jpg"/>
+            <p>饮食：人如果不吃饭，不喝水，只能生存5天左右；如果不喝水，只吃饭，可以活1~2周左右；而不吃饭，只喝水，则可以生存40~50天。</p>
+            <p>体温：体温降到36摄氏度，人的反应和判断能力都会被削弱。到35摄氏度时，人会感到难以行走。体温降到33摄氏度后，人就会变得失去理智。体温降到30摄氏度时，人就会完全失去知觉。而当体温降到20摄氏度以下时，心脏将会停止跳动。</p>
+            
+            <div class="tips">
+                <p>1、人的生命是大自然赋予的，自然反过来又会向人体发出挑战；</p>
+                <p>2、要了解人体极限又不可片面挑战极限，因为过度劳累、饥饿和寒冷等的刺激是有害健康的，甚至会引起过劳死。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

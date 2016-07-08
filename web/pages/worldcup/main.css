@@ -1,0 +1,89 @@
+body{
+    font-size:12px;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+p{
+    margin:0;
+    padding: 0;
+}
+.schedule_list .item{
+    float: left;
+    position: relative;
+    width: 150px;
+    height: 78px;
+    padding-right: 20px;
+    margin:0 5px 20px 0;
+    overflow: hidden;
+}
+.schedule_list .item .head{
+    height: 22px;
+    line-height: 22px;
+    background-color: #4BB86D;
+    border-bottom: 1px solid #F5FDF8;
+    color: #FFF;
+}
+.schedule_list .item .head .time{
+    font-family: Tahoma;
+    text-align: center;
+    font-size:12px;
+}
+.schedule_list .item .bd {
+    height: 55px;
+    background-color: #FFF;
+    overflow: hidden;
+}
+.schedule_list .item .team {
+    border-left: 1px solid #E7E7E7;
+    margin-left: -1px;
+    width: 50%;
+    text-align: center;
+    color: #057142;
+}
+.schedule_list .item .score {
+    height: 29px;
+    line-height: 29px;
+    font-size: 24px;
+}
+.schedule_list .item .name {
+    height: 26px;
+    line-height: 26px;
+    font-family: "微软雅黑";
+    background-color: #EDEDED;
+    font-size:12px;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.list_view{height:120px;}
+.yh {
+font-family: "Microsoft Yahei","黑体";
+font-weight: normal;
+}
+.f10{font-size:10px;}.f12{font-size:12px;}.f13{font-size:13px;}.f14{font-size:14px;}.f15{font-size:15px;}.f16{font-size:16px;}.f18{font-size:18px;}.f20{font-size:20px;}.f22{font-size:22px;}.f24{font-size:24px;}.f26{font-size:26px;}.f30{font-size:30px;}.f36{font-size:36px;}
+.l16{line-height:16px;}.l17{line-height:17px;}.l18{line-height:18px;}.l19{line-height:19px;}.l20{line-height:20px;}.l21{line-height:21px;}.l22{line-height:22px;}.l23{line-height:23px;}.l24{line-height:24px;}.l25{line-height:25px;}.l26{line-height:26px;}.l27{line-height:27px;}.l28{line-height:28px;}.l29{line-height:29px;}.l30{line-height:30px;}.l32{line-height:32px;}
+
+.row1 .day_div, .row3 .day_div, .row5 .day_div{background-color:#44AB64;color:#fff;}
+.row2 .day_div, .row4 .day_div{background-color:#4BB86D;color:#fff;}
+.row6 .day_div, .row7 .day_div{background-color:#CFF1A3;color:#333;}
+.row_content td{width:14%;}
+.row_content {vertical-align: top;}
+.row1,.row3,.row5,.row7{background-color:#F4F7EC;}
+.row_bg{background-color:#C7E9D7}
+.month_view_table{text-align: center;width:100%; border:1px solid #C7E9D7;}
+.cell {min-height: 100px;}
+.footer {margin:20px 0;}
+
+.banner {width: 80px; height: 80px; border-radius: 40px; overflow: hidden; float:left;}
+.banner img {width:80px;}
+.header {height: 100px;}
+.title {margin: 0 0 0 100px;padding-top:20px;}
+
+
+

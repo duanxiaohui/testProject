@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>过年了，熊孩子们快去吃霸王餐</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/ash_wednesday/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>冰岛灰星期三</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>通常，经过了一个愉快的周末，刚刚到来的周一总是不太招人待见。但其实前不着村后不着店的星期三也没好到哪里去——这一天处在一周工作日的正中间，上一个周末的快乐已经远去，而下一个周末似乎还遥遥无期，人们仿佛坠入到“工作泥沼”中，心理兴奋度急剧下滑。最新的研究发现人们星期三的情绪比星期一更低落，上班族到了这一天会觉得胸闷气短、四肢乏力、印堂发黑……总之就是格外没有精神。对工作的厌倦度也达到了顶峰，几乎整个人都是灰色的。</p>
+            <h3>【就没有个不一样的星期三吗】</h3>
+            <p>星期三郁闷老不好，工作效率屡创新低……正处在春节逍遥小长假中的你还能记起经历过的那些星期三吗？其实星期三可以很不一样，小编说的是一个关于星期三的节日——冰岛灰星期三。</p>
+            <img src="images/ash_wednesday/holiday_1.jpg"/>
+            <p>灰星期三是冰岛的一个独特的节日，时间是每年的2月9日。细（zhao）心（cha）的小伙伴发现了，今天根本不是星期三，而是星期二（就你知道的多）！其实灰星期三只是这个节日的名称，就像劳动节、端午节一样普通，它有可能发生在一周的任何一天，包括星期三！</p>
+            <h3>【终于到了霸王餐的环节】</h3>
+            <p>所以说，今天对我们来说可能只是一个普通的星期二，但对冰岛人来说，却是一个一年只有一次的星期三！过节嘛，大人们该聚会的聚会，该喝酒的喝酒，一片喜气洋洋的欢乐气氛。熊孩子们尤其不会闲着，这个节日对他们来说似乎更有意义呢！</p>
+            <img src="images/ash_wednesday/holiday_2.jpg"/>
+            <p>这一天是孩子们尽情玩乐的日子，他们会提前收集一些“灰烬”装进小袋子里，用这些小袋子相互戏弄，把它偷偷的别在人们的衣服上。玩累了之后，熊孩子们就组成临时的小团体，到街上或在商店附近游行，唱歌跳舞卖萌耍乖……无所不用其极，希望得到免费的招待。</p>
+            <p class="mt15">或许有人要说了，说好的霸王餐呢？小编我只能弱弱的说一句，霸王餐都被冰岛那群萌萌的小朋友吃光了……这个解释还算合理吧！</p>
+
+            <div class="tips">
+                <p>1、每年的2月9日是冰岛的灰星期三，这天当地的小朋友是节日的主角；</p>
+                <p>2、不要惦记霸王餐啦，劳动才有收获啊哟喂你能不知道？</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

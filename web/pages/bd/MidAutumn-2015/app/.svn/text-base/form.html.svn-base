@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>团圆请假单</title>
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+<script>document.documentElement.style.webkitUserSelect='none';document.documentElement.style.webkitTouchCallout='none';</script>
+<meta name="format-detection" content="telephone=no"/>
+<link rel="stylesheet" href="/js/lib/mobipick/external/jquery.mobile-1.3.0.min.css?ver=1" />
+<link href="/js/lib/mobipick/css/mobipick.css?ver=1" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/pages/bd/MidAutumn-2015/css/form.css?ver=1">
+</head>
+<body>
+	<div class="tool">
+		<a href="javascript:;" class="share"><img src="/pages/bd/MidAutumn-2015/images/share.png" alt=""></a>
+	</div>
+	<div class="center">
+		<img class="formTitle" src="/pages/bd/MidAutumn-2015/images/formTitle.png" height="46" alt="">
+	</div>
+	<form action="" onsubmit="return false;" autocomplete="off">
+		<div class="lettle">
+			<div>
+				致亲爱的<div class="input l1"><span>如：爸妈</span><input maxlengtfh="8" name="to" data-txt="爸妈" class="none" type="texts"></div><br>对不起，今年中秋不能回家了<br>作为一名<div class="input l2"><span>如：医生</span><input name="job" maxlength="8" data-txt="医生" class="none" type="texts"></div><br><div class="input l3 ml"><span>如：我的患者</span><input name="customer" maxlength="20" data-txt="我的患者" class="none" type="texts"></div>需要我<br>在这里，我要向您请个“团圆假”<br>还记得<div class="br"></div>上一次回家已经是<div class="input l4"><span class="c">2015年1月</span><input name="beginDate" data-txt="2015年1月" value="2015/1/1" max="2015/9/30" class="none" type="date-month"></div>的事儿了<br>我计划在<div class="input l5"><span class="c">2015年10月</span><input name="endDate" value="2015/10/1" data-txt="2015年10月" min="2015/10/1" class="none" type="date-month"></div>回家<br>这是我们的约定
+			</div>
+
+			<div class="person">申请人：<div class="input l6"><span>如：萌萌</span><input name="from" maxlength="8" data-txt="萌萌" class="none" type="texts"></div></div>
+		</div>
+
+		<div class="center">
+			<img class="formBtn" src="/pages/bd/MidAutumn-2015/images/previewBtn.png" height="44" alt="">
+		</div>
+		<img src="/pages/bd/MidAutumn-2015/images/365logo.png" width="75" alt="" class="logo365" />
+	</form>
+	
+	<script type="text/javascript" src="/js/lib/mobipick/external/xdate.js"></script>
+	<script type="text/javascript" src="/js/lib/mobipick/external/xdate.i18n.js"></script>
+	<script type="text/javascript" src="/js/lib/mobipick/external/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="/js/lib/mobipick/external/jquery.mobile-1.3.0.min.js"></script>
+	<script type="text/javascript" src="/js/lib/mobipick/js/mobipick.js"></script>
+    <script src="/js/lib/app.js"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/bd/MidAutumn-2015/app/js/main.js"></script>
+    <script>
+		wxProtocol.init(function (wx, link) {
+			wx.onMenuShareAppMessage({
+		        title: '团圆请假单，让爱不缺席',
+		        desc: '月常圆，人却不常团聚，这个中秋向家人递一份团圆请假单，让爱陪家人团圆。',
+		        link: 'http://www.365rili.com/pages/bd/MidAutumn-2015/app/index.html',
+				imgUrl: 'http://www.365rili.com/pages/bd/MidAutumn-2015/images/wx.jpg',
+				success: postShare
+		    });
+		    wx.onMenuShareTimeline({
+		        title: '团圆请假单，让爱不缺席',
+		        link: 'http://www.365rili.com/pages/bd/MidAutumn-2015/app/index.html',
+				imgUrl: 'http://www.365rili.com/pages/bd/MidAutumn-2015/images/wx.jpg',
+		         success: postShare
+		    });
+		});
+
+		function postShare () {
+			$.ajax({
+				url: '/pages/bd/MidAutumn-2015/shareInWX.html?ch=app'
+			})
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html class="pc">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>日历</title>
+<link href="/css/jquery-ui-1.9.2.custom.min.css" rel="stylesheet"/>
+<style type="text/css">
+body { color: #444; font: 12px / 1.5em "Microsoft YaHei", 微软雅黑,SimSun,arial; height: 100%; margin: 0; padding: 0; background:#fff;}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+html { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; +padding-top:0; overflow: hidden;}
+html, body { height: 100%; background-color: transparent; }
+html.pc{-moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius: 5px; border-radius: 5px; }
+.pc .fram{ width:100%; height:100%;  background:url(images/pc_bg.png) repeat-x top;}
+.pc .fram_operate{height:30px; background:url(images/pc_title.png) repeat-x; display:block;}
+.pc .fram_user{float:left; padding-left:30px; height:24px; background:url(images/rl365.png) no-repeat; margin:3px 0 0 0px;}
+.pc .user_set{float:left; width:14px; height:14px; background:url(images/fram_btn.png) no-repeat left top; margin:5px 0 0 10px;}
+.pc .user_set:hover{background:url(images/fram_btn.png) no-repeat left -19px;}
+.pc .return_calendar_btn{float:left; width:14px; height:14px; background:url(images/fram_btn.png) no-repeat -18px -1px; margin:5px 0 0 10px;}
+.pc .return_calendar_btn:hover{background:url(images/fram_btn.png) no-repeat -18px -19px;}
+.pc .user_quit_btn{float:left; width:14px; height:14px; background:url(images/fram_btn.png) no-repeat left -38px; margin:5px 0 0 15px;}
+.pc .user_quit_btn:hover{background:url(images/fram_btn.png) no-repeat -18px -38px;}
+.pc .fram_btn{float: right; margin:0px 0px 0 0;}
+.pc .fram_username{float:left; height:24px; line-height:24px;}
+.pc .fram_btn a{float: right; width:28px; height:20px;}
+.pc .fram_close_btn{width:30px;background:url(images/fram/pc_btn.png) no-repeat right top;}
+.pc .fram_close_btn:hover{background:url(images/fram/pc_btn.png) no-repeat right -20px;}
+.pc .fram_max_btn{background:url(images/fram/pc_btn.png) no-repeat -28px top;}
+.pc .fram_max_btn:hover{background:url(images/fram/pc_btn.png) no-repeat -28px -20px;}
+.pc .fram_min_btn{background:url(images/fram/pc_btn.png) no-repeat left top;}
+.pc .fram_min_btn:hover{background:url(images/fram/pc_btn.png) no-repeat left -20px;}
+.pc .fram_window_btn{background:url(images/fram/pc_btn.png) no-repeat -56px top;}
+.pc .fram_window_btn:hover{background:url(images/fram/pc_btn.png) no-repeat -56px -20px;}
+
+.pc_left_top{width:10px; height:32px; background:url(images/fram/top_left.png) no-repeat;}
+.pc_top{height:32px; background:url(images/fram/top_bg.png) repeat-x;}
+.pc_right_top{width:10px; height:32px; background:url(images/fram/top_right.png) no-repeat;}
+.pc_left{width:10px;background:url(images/fram/left_bg.png) repeat-y;}
+.pc_right{width:10px;background:url(images/fram/right_bg.png) repeat-y;}
+.pc_left_bottom{height:10px; width:10px; background:url(images/fram/bottom_left.png) no-repeat;}
+.pc_bottom{height:10px;background:url(images/fram/bottom_bg.png) repeat-x;}
+.pc_right_bottom{height:10px; width:10px; background:url(images/fram/bottom_right.png) no-repeat;}
+#div_border{box-shadow:5px 5px 10px #CCCCCC;}
+.pc_left_bottom_shadow,.pc_right_bottom_shadow,.pc_right_shadow,.pc_right_top_shadow{width:10px;}
+.pc_right_top_shadow{height:32px; background:url(images/fram/pc_right_top_shadow.png) no-repeat;}
+.pc_right_shadow{background:url(images/fram/pc_right_shadow.png) repeat-y;}
+.pc_left_bottom_shadow,.pc_bottom_shadow,.pc_right_bottom_shadow{height:10px;}
+.pc_left_bottom_shadow{background:url(images/fram/pc_left_bottom_shadow.png) no-repeat;}
+.pc_bottom_shadow{background:url(images/fram/pc_bottom_shadow.png) repeat-x;}
+.pc_right_bottom_shadow{background:url(images/fram/pc_right_bottom_shadow.png) no-repeat;}
+</style>
+</head>
+<body>
+<table id="div_border" width="100%" height="100%" cellpadding='0' cellspacing='0'>
+	<tr id="div_pc_titlebar">
+		<td class="pc_left_top"></td>
+		<td class="pc_top">
+			<div class="fram_user"></div>
+		<div class="fram_btn">
+			<a id="" href="javascript:;" class="fram_close_btn"></a>
+			<a id="fram_max_normal_btn" href="javascript:;" class="fram_max_btn"></a>
+			<a id="" href="javascript:;" class="fram_min_btn"></a>
+		</div>
+		</td>
+		<td class="pc_right_top"></td>
+		<td class="pc_right_top_shadow"></td>
+	</tr>
+	<tr>
+		<td colspan="3"></td>
+		<td class="pc_right_shadow"></td>
+	</tr>
+	<tr>
+		<td class="pc_left_bottom_shadow"></td>
+		<td colspan="2" class="pc_bottom_shadow"></td>
+		<td class="pc_right_bottom_shadow"></td>
+	</tr>
+</table>
+<script type="text/javascript" src="/js/jquery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/js/jquery/jquery-ui-1.9.2.custom.min.js"></script>
+<script type="text/javascript" src="/js/newweb/common.js"></script>
+<script>
+var Cmd = {
+	login: function(){
+		$('#div_userinfo').html('请您登录');
+	},
+	reg: function(){
+		$('#div_userinfo').html('注册帐号');
+	},
+	calendar: function(username){
+		$('#div_userinfo').html('<span id="sp_username" class="fram_username">' + username + '</span><a class="user_set" title="设置个人资料" href="javascript:;" onclick="Cmd.mainToSetting(); return false;"></a><a class="user_quit_btn" title="退出" onclick="Cmd.mainToQuit(); return false;" href="javascript:;"></a>');
+	},
+	setting: function(username){
+		$('#div_userinfo').html('<span id="sp_username" class="fram_username">' + username + '</span><a href="javascript:;" onclick="Cmd.mainToCalendar(); return false;" class="return_calendar_btn" title="返回主日历"></a><a class="user_quit_btn" onclick="Cmd.mainToQuit(); return false;" title="退出" href="javascript:;"></a>');
+	},
+	password: function(){
+		$('#div_userinfo').html('申请重置密码');
+	},
+	mainToSetting: function(){
+		js365.runScriptMainWnd('location.href="/account/manage.do"');
+	},
+	mainToCalendar: function(){
+		js365.runScriptMainWnd('location.href="/main/calendar.do"');
+	},
+	mainToQuit: function(){
+		js365.runScriptMainWnd('location.href="/account/logout.do?redURL=/account/login.do"');
+	}
+};
+function pcDraggableResizeable(){
+	try {
+        var sw = screen.availWidth, sh = screen.availHeight, w = 1024, h = Math.min(sh, 768);
+        var oriX, oriY, oriWidth, oriHeight;
+        oriX = (sw - w) / 2;
+        oriY = (sh - h) / 2;
+        if(location.href.indexOf("reload=true") == -1){
+	        js365.moveWnd(1, oriX, oriY);
+	        js365.resizeToMainWnd(w, h);
+        }
+        if(js365.isMaximized() == "true"){
+			$("#fram_max_normal_btn").removeClass('fram_max_btn').addClass('fram_window_btn');
+			$(".pc_right_top_shadow,.pc_right_shadow,.pc_right_bottom_shadow,.pc_left_bottom_shadow,.pc_bottom_shadow,.pc_right_bottom_shadow").hide();
+		}
+        var draging = false, startX, startY;
+        $(document).mousedown(function(evt){
+        	var name = evt.target.nodeName;
+        	if (js365.isMaximized() != 'true' && evt.button == 0 && ($('#div_pc_titlebar').find(evt.target).size() || $('#div_pc_titlebar').filter(evt.target).size()) && name != 'A') {
+        		draging = true;
+        		startX = evt.pageX;
+        		startY = evt.pageY;
+        		js365.setCapture();
+        	}
+        }).mousemove(function(evt){
+        	if (draging == true) {
+        		var deltaX = evt.pageX - startX, deltaY = evt.pageY - startY;
+        		$(this).css('cursor', 'move');
+        		js365.moveWnd(1, oriX += deltaX, oriY += deltaY);
+        	}
+        }).mouseup(function(evt){
+        	evt.stopPropagation();
+        	draging = false;
+        	$(this).css('cursor', 'auto');
+        	js365.releaseCapture();
+        });
+        
+        $('#div_pc_titlebar').on('selectstart', function(evt){
+        	evt.preventDefault();
+        }).on('dblclick', function(evt){
+        	maxAndRestore(evt);
+        }).find('a').on('dblclick', function(evt){
+        	evt.preventDefault();
+        	evt.stopPropagation();
+        });
+        var $btnMax = $('#div_pc_titlebar a#fram_max_normal_btn').on('click', maxAndRestore);
+        $('#div_pc_titlebar a.fram_close_btn').on('click', function(){
+        	js365.hideMainWnd();
+        });
+        $('#div_pc_titlebar a.fram_min_btn').on('click', function(){
+        	js365.showMinimized();
+        });
+		function maxAndRestore(evt){
+			evt.preventDefault();
+			if(js365.isMaximized() == 'true'){
+				js365.showNormal();
+				$btnMax.removeClass('fram_window_btn').addClass('fram_max_btn');
+				$(".pc_right_top_shadow,.pc_right_shadow,.pc_right_bottom_shadow,.pc_left_bottom_shadow,.pc_bottom_shadow,.pc_right_bottom_shadow").show();
+			}else{
+				js365.showMaximized();
+				$btnMax.removeClass('fram_max_btn').addClass('fram_window_btn');
+				$(".pc_right_top_shadow,.pc_right_shadow,.pc_right_bottom_shadow,.pc_left_bottom_shadow,.pc_bottom_shadow,.pc_right_bottom_shadow").hide();
+			}
+		}
+		function resizable(){
+			$('#div_border').resizable({
+				minWidth: 1024,
+				minHeight: Math.min(sh, 768),
+				start: function(){
+					js365.setCapture();
+				},
+				resize: function(event, ui){
+					var width = ui.size.width, height = ui.size.height;
+					js365.resizeToMainWnd(w = width, h = height);
+				},
+				stop: function(){
+					$('#div_border').css('width', '100%').css('height', '100%');
+					js365.releaseCapture();
+				}
+			});
+		}
+		resizable();
+	} catch (ex) {
+	}
+}
+$(function(){
+	if (isPCVersion()) {
+		pcDraggableResizeable();
+		disableSelectAndRightClick();
+	}
+});
+
+//提供给PC客户端的接口
+function setWindowStatus(status){
+	if(status == "showMaximized"){
+		$("#fram_max_normal_btn").removeClass('fram_max_btn').addClass('fram_window_btn');
+		$(".pc_right_top_shadow,.pc_right_shadow,.pc_right_bottom_shadow,.pc_left_bottom_shadow,.pc_bottom_shadow,.pc_right_bottom_shadow").hide();
+	}else if(status == "showNormal"){
+		$("#fram_max_normal_btn").removeClass('fram_window_btn').addClass('fram_max_btn');
+		$(".pc_right_top_shadow,.pc_right_shadow,.pc_right_bottom_shadow,.pc_left_bottom_shadow,.pc_bottom_shadow,.pc_right_bottom_shadow").show();		
+	}
+}
+
+
+</script>
+</body>
+</html>

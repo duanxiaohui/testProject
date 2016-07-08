@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="http://static.365rili.com/wannianlibaidu/css/wnl.cdn20130827.css" />
+	</head>
+	<body style="width:100%;height:100%;" onselectstart="return false">
+		<div style="position:absolute;" id="middle">
+			<div class="cal_container" id="cal_container" >
+				<div id='cal_body'>
+					<div id='cal_funcbar'>
+						<div id='funcbar_content'>
+							<div id='prev_button'>
+							</div>
+							<div id='year_func' style="cursor:pointer;">
+								<div id='year_num'>
+								</div>
+								<span id='year_str'>年</span>
+							</div>
+							<div id='month_func' style="cursor:pointer;">
+								<div id='month_num'></div>
+								<span id='month_str'>月</span>
+							</div>
+							<div id='next_button'></div>
+							<div id='festival'>假期安排</div>
+							<div id='today_button'>今天</div>
+							<div id='cal_plusbutton' title="点击添加日程"></div>
+							<div id='cal_365riliUser'>
+								<div class='top_bar_text' id='365riliUserName'></div>
+								<div class='top_bar_text' id='bd_login'>登录</div>
+							</div>
+						</div>
+					</div>
+					<div id='cal_down'>
+						<div id='cal_downleft'>
+							<div id='mainCal'></div>
+						</div>
+						<div style='float: left;'>
+							<div id='cal_rightboard'>
+								<div id='gregorianDayStr'></div>
+								<div id='right_big_date'></div>
+								<div id='gregorianDay'>
+									<div id='dayafterorbefore'></div>
+								</div>
+								<div class='chinaDay' id='chinaDay'></div>
+								<div class='chinaDay' id='chinaDay2'></div>
+								<div class='chinaDay' id='chinaDay3'></div>
+								<div id='YJdiv' class='YJdiv'>
+									<div id='ylistblock' class='YJdiv'>
+										<div id='ylistword' class='YJdiv'>宜</div>
+										<div id='ylist' class='YJdiv'></div>
+									</div>
+									<div id='jlistblock' class='YJdiv'>
+										<div id='jlistword' class='YJdiv'>忌</div>
+										<div id='jlist' class='YJdiv'></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id='festival_detail_str'>1月22日至1月28日放假7天，1月21日（星期六）、1月29日（星期日）上班。</div>
+					<div id='cal_topbar'>
+						<div id='cal_topbar_top'>
+							<div id='cal_365riliTime'>
+								<div class='top_bar_text' id='beijingtime'>北京时间</div>
+								<div class='top_bar_text' id='top_bar_time'></div>
+							</div>
+							<a id="logo_a" href='http://www.365rili.com' target='_blank'>
+								<div id='logo-text' class='top_bar_text'>365日历</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id='year_select' class='selecter'>
+				<div id='year_select_selecter' class='selecter_table'></div>
+			</div>
+			<div id='month_select' class='selecter'>
+				<div id='month_select_selecter' class='selecter_table'></div>
+			</div>
+			<div id='festival_select' class='selecter'>
+				<div id='festival_select_selecter' class='selecter_table'></div>
+			</div>
+			<div id='plusDiv'></div>
+			<div id='plusDivEle'>
+				<div id='closePlus'></div>
+				<div id='popDivItem'>
+					<div id='plusTime' style='color:#cccccc;' class='popDivItem'></div>
+					<div id='popHourSelect' class='popDivItem hourselect'>
+						<div id='popHourSelectNumb' class='hourselect'>全天</div>
+						<div class='popDownArrow hourselect'></div>
+						<div style='clear:both;'></div>
+						<div id='popHourSelectList'></div>
+					</div>
+					<div id='popMinuteSelect' class='popDivItem minuteselect'>
+						<div id='popMinuteSelectNumb' class='minuteselect'>0分</div>
+						<div class='popDownArrow minuteselect'></div>
+						<div style='clear:both;'></div>
+						<div id='popMinuteSelectList'></div>
+					</div>
+				</div>
+				<div style='clear: both;'></div>
+				<textarea id='popTextarea' rows="4" cols="30"></textarea>
+				<div id='plusDivCreate'></div>
+			</div>
+			<div id='huangliDiv' class='YJdiv'>
+				<div id='popDateStr' class='YJdiv'></div>
+				<div id='popChineseStr' class='YJdiv'></div>
+				<div style="clear:both"></div>
+				<div id='popY' class='popYJ'>
+					<div id='popYword' class='popWord'>宜</div>
+					<div id='popYStr' class='popStr'></div>
+				</div>
+				<div id='popJ' class='popYJ'>
+					<div id='popJword' class='popWord'>忌</div>
+					<div id='popJStr' class='popStr'></div>
+				</div>
+			</div>
+			<div id='taskHover'>
+				<div id='taskList'></div>
+				<a href="http://app.baidu.com/365richeng" target="_blank" >
+					<div id='moretask'>更多日程</div>
+				</a>
+			</div>
+		</div> 
+		<script type="text/javascript" src="http://www.365rili.com/js/jquery/jquery-1.8.3.min.js"></script>
+		<script src="/third_cooperation/base_calendar/js/app/model/data.js"></script>
+		<script src="/third_cooperation/base_calendar/js/parseDataForWNL.js"></script>
+		<script type="text/javascript" src="http://www.365rili.com/wannianlibaidu/js/all_3rdV10.js"></script>
+	</body>
+</html>

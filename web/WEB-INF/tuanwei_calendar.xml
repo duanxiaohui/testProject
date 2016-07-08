@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+	<util:list id="twCalendarIds" list-class="java.util.ArrayList" value-type="java.lang.Integer">
+		<value>274412293</value>
+		<value>274412305</value>
+		<value>274412319</value>
+		<value>274412327</value>
+		<value>274412333</value>
+		<value>274412345</value>
+		<value>274412357</value>
+		<value>274412371</value>
+		<value>274412383</value>
+		<value>274412403</value>
+		<value>274412411</value>
+		<value>274412439</value>
+		<value>274412189</value>
+		<value>274412195</value>
+		<value>274412207</value>
+		<value>274412215</value>
+		<value>274412223</value>
+		<value>274412231</value>
+		<value>274412247</value>
+		<value>274412253</value>
+		<value>274412261</value>
+		<value>274412271</value>
+		<value>274412287</value>
+	</util:list>	
+</beans>

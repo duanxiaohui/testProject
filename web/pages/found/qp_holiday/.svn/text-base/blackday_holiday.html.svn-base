@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>跟我过节，我就跟你黑黑黑！</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/blackday/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>黑色情人节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>掐指一算，距离正式的情人节已经过去两个月了，有收到心仪的人送的巧克力么？距离白色情人节也已经一个月了，有继续跟心仪的人表白么？如果这两个都没有的话，那允许所有单身的在场人士默哀三分钟……想一想，情人节这个日子，原本是起源于公元三世纪时的罗马是为了纪念罗马皇帝在2月14日，救了一对因违反恋爱结婚禁令而要被处死的恋人才成立的，但是现在的情人节和白色情人节，早就成了一场“虐待单身汪”的盛宴，这一天，如果不秀点恩爱，不记录一下你们的爱情有多么深多么浓，都不好意思打开朋友圈，去面对满屏幕的大餐和礼物。
+</p>
+            <img src="images/blackday/holiday_1.jpg"/>
+            <img src="images/blackday/holiday_2.jpg"/>
+          
+
+            <h3>【单身别哭，今天不输】</h3>
+
+            <p>如果把每一个情人节比作一次战役的话，那么对于单身参战人士来说，基本上是毫无胜算的，每一次都被满屏恩爱秀了一脸。但是，今天，单身贵族们站起来了！</p>
+
+            <img src="images/blackday/holiday_3.jpg"/>
+            <p>为什么这一次情人节的胜利属于单身党？这还得从这次情人节的性质说起——每年的4月14日是黑色情人节，是属于单身贵族们的情人节！ 虽然并非天下有情人都能天长地久，但谁说孤家寡人或旷男怨女就不能过情人节？在前两个月他们或许既没收到甜蜜小礼物，也没人可以送巧克力，但4月14日这天，大家共聚一堂，彼此鼓励、加油打气，化悲愤为力量，倒也热热闹闹十分开怀，借此消除形单影只的落寞感。</p>
+
+             <h3>【今天就要黑黑黑！】</h3>
+
+            <p>过节的人让自己生活在百分百的黑色世界里，穿黑色套装、黑帽子、黑皮鞋，吃黑豆制成的面条，喝咖啡也不加奶精，享受黑咖啡的苦涩原味，一场属于单身们的黑色狂欢日，“黑色情人节”由此得名。</p>	
+            <img src="images/blackday/holiday_4.jpg"/>
+            <img src="images/blackday/holiday_5.jpg"/>			
+
+            <div class="tips">
+                <p>1、今天的单身人士记得要穿的帅一些，美一点，是时候做出一记强有力的回击了；</p>
+                <p>2、单身生活别惆怅， 重要的是要有一颗热爱生活的心呀！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/Vanna</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

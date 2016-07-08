@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>野生动物园-喜气洋洋看羊展</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <div class="bar_txt">野生动物园-喜气洋洋看羊展</div>
+    </div>
+    <div class="main">
+    	<div class="main_content">
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/3aa939ff-20cf-4918-8aee-5f6a5435fd6e.jpg"/><h6>
+            <a class="btn js-subscribe" data-uuid="2cdda90d-615c-4a40-9059-c2f9b592b6f9" data-cid="145993945">添加提醒</a>
+	    	<p class="time">时间：春节期间至3月中旬<h6>
+            <p></p>
+            <p class="address">地点：上海野生动物园</p>
+            <p></p>
+            <h3>活动内容：</h3>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/fa8e2135-517c-490d-9fb2-ed1cc30b1ba3.jpg"/>
+			<p>羊年当然少不了羊。看羊的最好去处当然是动物园。今年春节期间，上海野生动物园将举办一场别开生面的“看羊展”，从春节期间一直持续至3月中旬。</p>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/d24780dd-51ad-4c26-88a8-317506ec9b2f.jpg"/>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/fa9d5be4-f41e-410c-b288-4e5a0e441034.jpg"/>
+            <h3>“看羊展”期间，除了搭建一条普及有关羊文化、羊知识的科普长廊外，还将引进包括绵羊、山羊在内十多个品种的羊，在小动物乐园里集中亮相。</h3>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/27cebeb5-61ba-4739-a67d-dae384dd703b.jpg"/>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/afd9c6f3-9140-4f86-b905-22ae11593a49.jpg"/>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/314fd2b6-b427-4b22-8213-e8b17529811b.jpg"/>
+            <p>小游客还有望在家长的带领下，进行喂养互动体验。</p>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/55f60ddb-727f-48d6-ab1c-70724c527b58.jpg"/>
+            <p>长相可爱且温顺的羊驼虽是骆驼类，但也会凭借一张“羊脸”来凑凑热闹。</p>
+            <img src="http://cocoimg.365rili.com/schedule_pics/default/45ce0d66-17ff-4289-91f9-bb9993d0cce9.jpg"/>
+            <div class="remind_div" data-uuid="2cdda90d-615c-4a40-9059-c2f9b592b6f9" data-cid="145993945"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/3aa939ff-20cf-4918-8aee-5f6a5435fd6e.jpg',
+                title: '上海喜气洋洋看羊展活动',
+                desc: '羊年当然少不了羊。上海野生动物园将举办一场别开生面的“看羊展”，从春节期间一直持续至3月中旬。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '上海喜气洋洋看羊展活动',
+		        				content: '羊年当然少不了羊。上海野生动物园将举办一场别开生面的“看羊展”，从春节期间一直持续至3月中旬。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/3aa939ff-20cf-4918-8aee-5f6a5435fd6e.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

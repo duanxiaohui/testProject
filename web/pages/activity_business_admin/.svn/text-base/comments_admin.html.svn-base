@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>365日历活动及评论管理后台</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="activity_comments_top">
+    	<div class="activity_comments_top_content">
+    		<div class="activity_name">
+    			<a href="javascript:;">退出</a>
+    			Yunyin
+    		</div>
+    		<div class="activity_logo">活动及评论管理后台</div>
+    	</div>
+    </div>
+    <div class="main">
+    	<h2>所有活动<span>&gt;</span>创建活动</h2>
+	</div>
+	<div class="comments_content">
+		<div class="comments_top e_clear">
+			<div class="activity_img">
+				<img src="images/img.jpg" width="125" height="125"/>
+			</div>
+			<div class="activity_comments_title">
+				<h2>北京珠宝节疯狂抢购</h2>
+				<p>评论数：89</p>
+				<a href="javascript:;">关闭评论</a>
+			</div>
+		</div>
+		<div class="comments_all_list">
+			<h3>所有评论</h3>
+			<ul>
+				<li>
+					<div class="username">香脆麦片儿</div>
+					<p>这么给力，我也要参加。</p>
+					<div class="comments_all_list_bottom">
+						<a href="" class="del_comments">删除</a>
+						<div class="comments_time">2014-10-17  14:14</div>
+					</div>
+				</li>
+				<li>
+					<div class="username">香脆麦片儿</div>
+					<p>这么给力，我也要参加。</p>
+					<div class="comments_all_list_bottom">
+						<a href="" class="del_comments">删除</a>
+						<div class="comments_time">2014-10-17  14:14</div>
+					</div>
+				</li>
+				<li>
+					<div class="username">香脆麦片儿</div>
+					<p>这么给力，我也要参加。</p>
+					<div class="comments_all_list_bottom">
+						<a href="" class="del_comments">删除</a>
+						<div class="comments_time">2014-10-17  14:14</div>
+					</div>
+				</li>
+				<li>
+					<div class="username">香脆麦片儿</div>
+					<p>这么给力，我也要参加。</p>
+					<div class="comments_all_list_bottom">
+						<a href="" class="del_comments">删除</a>
+						<div class="comments_time">2014-10-17  14:14</div>
+					</div>
+				</li>
+				<li>
+					<div class="username">香脆麦片儿</div>
+					<p>这么给力，我也要参加。</p>
+					<div class="comments_all_list_bottom">
+						<a href="" class="del_comments">删除</a>
+						<div class="comments_time">2014-10-17  14:14</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	    <div class="page e_clear">
+	    	<div class="page_content">
+	    		<a href="javascript:;" class="pev">上一页</a>
+		    	<ul class="e_clear">
+		    		<li><a href="">1</a></li>
+		    		<li><a href="">2</a></li>
+		    		<li class="on"><a href="">3</a></li>
+		    		<li><a href="">4</a></li>
+		    		<li><a href="">5</a></li>
+		    		<li><a href="">6</a></li>	    	
+		    	</ul>
+		    	<a href="javascript:;" class="next">下一页</a>
+		    	<span class="all_page">共200页</span>
+	    	</div>
+	    </div>
+	</div>
+</body>
+</html>

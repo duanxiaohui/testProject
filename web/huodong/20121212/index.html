@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <title>12.12.结婚日</title>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
+    </head>
+    <body>
+    <div class="main">
+        <div class="top">
+        </div>
+        <div class="text">
+            <p class="red">
+                将要到来的2012年12月12日，谐音是“两人要爱要爱要爱”，因为喜欢这个谐音，而且三个“12”相连，也是百年一遇的事情，所以很多年轻人打算那一天领证结婚。
+            </p>
+            <p>
+                现在365日历给大家一个喜上加喜的机会！您只要通过365日历，分享信息到腾讯微博即可获得抽奖资格，一经分享您就可以快速得知中奖信息哦！11月25日至12月20日期间，每天每个绑定365日历的QQ号（或腾讯微博帐号）均有10次抽奖机会，分享越多中奖机会越大！
+            </p>
+            <p>
+                一等奖iPhone4（3部）、二等奖无线激光投影虚拟键盘（50个）、三等奖MILI移动电源（100个）、四等奖3G无线路由器（368个）
+            </p>
+            <p>
+                现在在365日历内有三种方式可以分享去腾讯微博，包括本活动页、黄历插件以及体育插件，赶紧来参加吧！！！
+            </p>
+            <a class="fixed" id="fixed" href="javascript:qqBtnClick();">分享去腾讯有奖</a>
+        </div>
+    </div>
+<input type="hidden" id="UID" value="">
+<input type="hidden" id="PWD" value="">
+<script type="text/javascript">
+    var userid = null;
+    var password = null;
+    var content = null;
+    var qqDo = false;
+    var sinaDo = false;
+    var androidDo = false;
+    function getUserInfo(){
+        if (/android/i.test(navigator.userAgent)) {
+            userid = AliansBridge.getUserId();
+            password = AliansBridge.getUserPassword();
+        }
+        if (/ipad|iphone|mac/i.test(navigator.userAgent)) {
+            userid = document.getElementById('UID').value;
+            password = document.getElementById('PWD').value;
+        }
+    }
+    
+    function qqBtnClick(){
+        getUserInfo();
+        if (userid == 'null' || !userid) {
+            alert("请登录365账号并绑定腾讯微博！请返回软件操作后重试。");
+        }
+        else {
+            if (qqDo == true) 
+                return false;
+            else 
+                qqDo = true;
+            var txt = '12.12结婚日，我们结婚吧！我通过” @a365rili "参加了腾讯微博无线应用分享大赛，11月25日至12月20日期间，每天10次机会，只要用365日历分享内容到腾讯微博就有机会抽取iPhone4等大奖哦，快来下载365日历试试吧！ http://www.365rili.com';
+            AJAX(
+			'/qt/weiboFromWebView.do', true, 'POST',
+			'content='+txt+'&u='+userid+'&p='+password+'&img=1212.jpg',
+			 function(result){
+                result = eval("(" + result + ")");
+                if (result.state == "ok") {
+					 alert("微博已经发送成功！");
+				}else{
+					alert("发送失败，是否未登录365账号或未绑定腾讯微博！请返回软件操作后重试。");
+				}
+            });
+        }
+    }
+</script>
+<script type="text/javascript" src="../js/ajax.js"></script>
+    </body>
+</html>

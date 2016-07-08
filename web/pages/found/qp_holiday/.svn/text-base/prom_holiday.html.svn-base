@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>永葆青春的文化——安东假面舞节</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/prom_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>永葆青春的文化——安东假面舞节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>每年9月第四个周五起连续10日，一座安静的小城——韩国庆尚北道安东市都会吸引很多来自全世界的人们，成为一个享受舞蹈与音乐的传统与现代文化的中心。是什么让一个被列入世界文化遗产的、韩国最传统的小村庄焕发出现代的勃勃生机？</p>    
+            <img src="/pages/found/qp_holiday/images/prom_img1.jpg"/>
+            <p>庆尚北道安东市是儒教主义与萨满教的根据地，这里既是韩国传统文化的故乡，也是韩国面具文化的发源地。安东市河回村内保存着800多年历史的河回假面和河回假面舞，并以此为基础于1997年举办了首届安东国际假面舞节，至今已有全世界39个国家和地区的134个表演团来进行过精彩表演。</p>
+            <img src="/pages/found/qp_holiday/images/prom_img2.jpg"/>
+            <h3>【历久弥新的假面舞】</h3>
+            <p>舞蹈是靠动作传达出生命力的一种艺术形式，而安东的面具则是将舞者一切社会头衔、地位、尊卑等都隐藏与舍弃的文化道具。安东假面舞的表演艺人是没有事先准备好台词的，伴着充满才气的舞步和抖包袱，演员们会即兴地向观众抛出一些对白，自然而然地将观众和表演者的对话融合成假面舞内容的一部分。表演的圆形土台之上，所有人都是演出的观众，所有人也都是参与其中的艺术家。这使得这项传统文化遗产不论何时都散发着迷人光采，不用担心为时代所抛弃。也许就是这传承了数百年的技艺恒久不变的魅力所在吧~</p>
+            <img src="/pages/found/qp_holiday/images/prom_img3.jpg"/>
+            <h3>【安东面具的故事】</h3>
+            <p>安东面具的造型不像真实的脸型那样左右对称，而且有些下颚是张开的，从各个角度来看，会呈现出不同的表情，比如贵族面具，仰视时会呈现出大笑的表情，俯看则是生气的表情。</p>
+ 
+            <p class="mt15">关于面具的来历还有段凄美的传说，相传高丽时代，安东河回村里一个姓许的青年在梦里得到白发老人的启示，如果村民们带着面具跳舞，神一高兴就会保佑村子的安宁和丰年，但是神圣的面具在做完以前不能被任何人看见。于是许青年开始制作面具。他每天以精诚之心制作面具，并且在做面具的地方挂起禁绳防止人们出入。村子里一个爱慕许姓青年的金家女孩忍受不住相思之苦，便越过禁绳偷跑到制作面具的神圣空间，看到许青年正在做最后一个面具，结果青年当场吐血而死，自责的金家女孩也郁郁而终。后来村民们建了庙并将许青年奉为村子保护神，在村子祭祀时跳起面具舞怀念二人。据说安东面具中没有下巴的“傻瓜面具”就是青年当时没能完成的最后一个。</p>
+
+            <div class="tips">
+                <p>1、每年9月第四个周五起连续10日，是韩国安东国际假面舞节举办的日子；</p>
+                <p>2、安东假面舞是一种历史悠久并以与观众互动为传统的历久弥新的文化遗产；</p>
+                <p>3、节日期间会邀请世界各地的表演团队去表演，我国的湖南假面舞表演和川剧变脸也应邀参加过！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/欢欢</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

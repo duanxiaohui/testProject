@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/**
+ * 电影H5
+ * @authors 张路 (zhanglu@365rili.com)
+ * @date    2015-04-14 16:18:38
+ */
+body {color: #000; font: 12px / 1.5em arial,"Hiragino Sans GB","Microsoft YaHei", 微软雅黑; margin: 0; padding: 0;}
+html, body {
+-webkit-user-select: none; /* 禁止选中文本（如无文本选中需求，此为必选项） */
+user-select: none;
+}
+*{-webkit-tap-highlight-color: rgba(0,0,0,0); tap-highlight-color: rgba(0,0,0,0);}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+
+
+.bar {
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    color: #000;
+    background: #fff;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    top: 0;
+    z-index: 99;
+    display: none;
+    position: fixed;
+}
+
+.weixin .bar {
+    display: block;
+}
+.weixin .main{
+    margin-top: 48px;
+}
+
+.plaza .bar{
+	display: block;
+}
+
+.plaza{
+	padding-top: 49px;
+}
+
+.return_btn {
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    border-right: 0;
+    border-bottom: 0;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    left: 15px;
+    top: 14px;
+}
+
+.share_btn{width:20px; height:20px; position: absolute; top:14px; right:15px; background:url(/pages/bd/2015_easter/images/share_btn.png) no-repeat; background-size:100% 100%;} 
+
+.bar_txt{margin:0 40px; height:48px; line-height:48px; text-align:center; overflow:hidden;text-overflow:ellipsis; white-space: nowrap;}
+
+.contain{
+	padding: 0 30px;
+	overflow: hidden;
+	background-color: #000;
+}
+.footer{
+	position: relative;
+}
+.share{
+	width: 201px;
+	height: 31px;
+	position: absolute;
+	bottom:50px;
+	left:50%;
+	margin-left: -100px;
+}
+h4.title{
+	text-align: center;
+	margin:27px 0;
+	vertical-align: bottom;
+}
+h4.title span{
+	height:26px;
+	line-height: 28px;
+	background-color: #f7c96a;
+	border-radius: 26px 26px 26px 26px;
+	display: inline-block;
+	font-size: 19px;
+	font-weight: normal;
+}
+h4.title span:before, h4.title span:after{
+	content: '·';
+	font-weight: bold;
+	display: inline-block;
+	margin: 0 13px;
+}
+
+.bottom{
+	position:absolute;
+	bottom: 0;
+}
+
+.photoC{
+	display: block;
+	margin: 0 auto 18px;
+}
+
+.photos .photo:nth-child(odd){
+	margin-bottom: 18px;
+	margin-right: 6%;
+}
+
+.txt{
+	color: #f1e6d5;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.txt1{
+	color: #f1e6d5;
+	font-size: 12px;
+	line-height: 19px;
+	border-bottom: dashed 1px #f6cb62;
+	padding-bottom: 17px;
+	margin-bottom: 20px;
+}
+
+.single{
+	padding-left: 2.5em;text-indent: -2.5em;
+}
+
+.btns{
+	text-align: center;
+}
+
+.btn{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 201px 42px;
+	width: 201px;
+	height: 41px;
+	display: inline-block;
+	position: relative;
+}
+.btn:after{
+	border-bottom: solid 1px #fff4e3;
+	content: ' ';
+	font-size: 0;
+	width:100%;
+	left: 0;
+	bottom: 0;
+	position: absolute;
+	box-shadow: 0 4px 2px 0px rgba(0,0,0,.5);
+}
+.pwzr{
+	background-image: url(/pages/bd/tv_sc/images/btn1.png);
+}
+.zytj{
+	background-image: url(/pages/bd/tv_sc/images/btn2.png);
+}
+.gdyp{
+	background-image: url(/pages/bd/tv_sc/images/btn3.png);
+}
+.rcjs{
+	background-image: url(/pages/bd/tv_sc/images/btn4.png);
+}
+.lt1{
+	background-image: url(/pages/bd/tv_sc/images/btn5.png);
+}
+.lt2{
+	background-image: url(/pages/bd/tv_sc/images/btn6.png);
+}
+.hdsy{
+	background-image: url(/pages/bd/tv_sc/images/btn7.png);
+}

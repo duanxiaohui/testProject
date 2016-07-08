@@ -1,0 +1,32 @@
+body{ font-family: "Microsoft YaHei";}
+*{margin:0; padding:0;}
+ul{list-style: none;}
+li{list-style-type: none;}
+a { color:#0d23f4; cursor: pointer; text-decoration: none; }
+table { border-collapse: collapse; border-spacing: 0; table-layout: fixed; width:100%; }
+td,th{border: 1px solid #BCBEC0; height:30px; text-align:center;}
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+
+
+.main{margin:0 auto;  padding:10px 5px;}
+.main p{font-size:16px; color:#008ebd; line-height:24px; font-weight:600; padding-left:24px; text-indent:-24px;}
+.box{padding:10px 0 10px 15px;}
+.box div{width:141px; height:40px; float:left; padding-top:167px;}
+.box p{text-align:center; font-size:12px; font-weight:500; line-height:20px; padding-left:0; text-indent:0; color:#000;}
+.a1{background:url(../images/ios/a1.jpg) no-repeat left top; -webkit-background-size:141px 167px;}
+.a2{background:url(../images/ios/a2.jpg) no-repeat center top; -webkit-background-size:115px 167px;}
+.b1{background:url(../images/ios/b1.jpg) no-repeat center top; -webkit-background-size:115px 167px;}
+.b2{background:url(../images/ios/b2.jpg) no-repeat center top; -webkit-background-size:115px 167px;}
+.c1{background:url(../images/ios/c1.jpg) no-repeat center top; -webkit-background-size:115px 167px;}
+.c2{background:url(../images/ios/c2.jpg) no-repeat center top; -webkit-background-size:135px 167px;}
+.d1{background:url(../images/ios/d1.jpg) no-repeat center top; -webkit-background-size:115px 167px;}
+.d2{background:url(../images/ios/d2.jpg) no-repeat center top; -webkit-background-size:115px 167px;}
+.e1{background:url(../images/ios/e1.jpg) no-repeat center top; -webkit-background-size:115px 167px;}
+.e2{background:url(../images/ios/e2.jpg) no-repeat center top; -webkit-background-size:115px 167px;}
+.e3{background:url(../images/ios/e3.jpg) no-repeat center top; -webkit-background-size:115px 167px;}
+.f1{background:url(../images/ios/f1.jpg) no-repeat center top; -webkit-background-size:115px 167px;}
+.f2{background:url(../images/ios/f2.jpg) no-repeat center top; -webkit-background-size:115px 167px;}
+.f3{background:url(../images/ios/f3.jpg) no-repeat center top; -webkit-background-size:115px 167px;}
+.f4{background:url(../images/ios/f4.jpg) no-repeat center top; -webkit-background-size:115px 167px;}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+</head>
+<body>
+    <p><a href="javascript:;" id="getScheduleAlarmStatus">getScheduleAlarmStatus</a></p>
+    <p><a href="javascript:;" id="addScheduleAlarm">addScheduleAlarm</a></p>
+    <script>
+    document.getElementById('getScheduleAlarmStatus').onclick = function () {
+    	app.call({
+            action: 'getScheduleAlarmStatus',
+            params: [
+                {
+                    name: 'uuids',
+                    value: JSON.stringify(['a9f48ed2-8d68-470f-a3ed-b2d2d0ddb1f8','cfff6be3-9669-4798-8a03-0842daa267c4', 'd702ef80-a408-42f5-9637-4268942a14c7'])
+                }
+            ],
+            callback: function(data) {
+            	alert("已调用getScheduleAlarmStatus,返回：" + data);
+            }
+        });
+    }
+    document.getElementById('addScheduleAlarm').onclick = function () {
+    	app.call({
+            action: 'addScheduleAlarm',
+            params: [
+                {
+                    name: 'uuid',
+                    value: 'd702ef80-a408-42f5-9637-4268942a14c7'
+                },
+                {
+                    name: 'cid',
+                    value: '144983969'
+                }
+            ],
+            callback: function(data) {
+            	// alert("已调用addScheduleAlarm,返回：" + data);
+            }
+        });
+    }
+    function RefreshScheduleAlarmStatus () {
+    	// alert('已调用RefreshScheduleAlarmStatus');
+    }
+    </script>
+</body>
+</html>

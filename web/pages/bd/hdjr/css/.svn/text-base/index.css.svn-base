@@ -1,0 +1,306 @@
+@charset "UTF-8";
+/**
+ * 黄道吉日
+ * @authors 张路 (zhanglu@365rili.com)
+ * @date    2015-05-11 17:25:58
+ */
+body { background: #f9f6eb; color: #444; font: 12px / 1.5em "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑,SimSun,arial; margin: 0; padding: 0; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+a{text-decoration: none; }
+.none{display:none;}
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+.none{display:none;}
+
+html, body{
+	height:100%;
+}
+
+.s1{
+	background: #f9f6eb url(/pages/bd/hdjr/images/bg-bottom.jpg) no-repeat center bottom; background-size: contain;
+}
+
+.topPart{
+	position:absolute;
+	top:50%;
+	width:100%;
+	margin-top: -100px;
+}
+
+.footer{
+	position:absolute;
+	bottom:10px;
+	width:100%;
+}
+
+.center{
+	text-align: center;
+}
+
+.setup1{
+	height:100%;
+	background: url(/pages/bd/hdjr/images/bg-top.gif) no-repeat center -30px;
+	background-size:contain;
+}
+
+.realName{
+	position: relative;
+	z-index: 99;
+	width: 181px;
+	height: 12px;
+	padding: 12px 14px;
+	background-color: #f9f6eb;
+	border: solid 1px #a6221c;
+	border-radius: 5px;
+	outline: none;
+	color:#9da0a6;
+}
+
+.finger{
+	margin: 22px auto 5px;
+	width: 180px;
+	height: 180px;
+	background: url(/pages/bd/hdjr/images/finger.gif) no-repeat center;
+	background-size: 180px 180px;
+	position: relative;
+}
+
+.line{
+	width: 180px;
+	height: 6px;
+	background: url(/pages/bd/hdjr/images/line.png) no-repeat left top;
+	background-size: 180px 6px;
+	position: absolute;
+	/*top: 87px;*/
+}
+
+.animated {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+
+.animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.animated.hinge {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s
+}
+
+.bounce {
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    -webkit-transform-origin: center bottom;
+    -ms-transform-origin: center bottom;
+    transform-origin: center bottom
+}
+
+@-webkit-keyframes bounce {
+    0% {
+        -webkit-transform: translate3d(0, 0px, 0);
+        -ms-transform: translate3d(0, 0px, 0);
+        transform: translate3d(0, 0px, 0)
+    }
+    50% {
+        -webkit-transform: translate3d(0, 174px, 0);
+        -ms-transform: translate3d(0, 174px, 0);
+        transform: translate3d(0, 174px, 0)
+    }
+}
+
+@keyframes bounce {
+    0% {
+        -webkit-transform: translate3d(0, 0px, 0);
+        -ms-transform: translate3d(0, 0px, 0);
+        transform: translate3d(0, 0px, 0)
+    }
+    50% {
+        -webkit-transform: translate3d(0, 174px, 0);
+        -ms-transform: translate3d(0, 174px, 0);
+        transform: translate3d(0, 174px, 0)
+    }
+}
+
+.top{
+	margin: 8px 12px 0;
+	position:relative;
+}
+.topInner{
+	border-bottom: solid 1px #9c0000;
+	height:34px;
+}
+.icon-l, .icon-r{
+	position:absolute;
+	bottom: -1px;
+}
+.icon-l{
+	left: 0;
+}
+.icon-r{
+	right:0;
+}
+.icon-c{
+	position:absolute;
+	bottom: -3px;
+	left: 50%;
+	margin-left: -22px;
+}
+
+.date{
+	float:left;
+	color:#9c0000;
+	margin-left: 18px;
+}
+.day{
+	float:right;
+	color:#9c0000;
+	margin-right: 18px;	
+	text-align: right;
+}
+.day .litFont{
+	margin-right: -3px;
+}
+.litFont{
+	-webkit-transform: scale(.833);
+    transform: scale(.8333);
+    margin-left: -3px;
+}
+.bigFont{
+	line-height: 13px;
+	font-size: 15px;
+}
+.ssj{
+	margin-top: 50px;
+}
+.lunarY{
+	margin-top: 56px;
+}
+.lunar{
+	margin-top: 10px;
+}
+
+.jy{
+	margin-top: 45px;
+	height:310px;
+}
+.jyInner{
+	overflow:hidden;
+	-webkit-animation-name: showYj;
+    animation-name: showYj;
+    -webkit-transform-origin: center bottom;
+    -ms-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s
+}
+
+@-webkit-keyframes showYj {
+    0% {
+        height:0;
+    }
+    100% {
+        height:310px;
+    }
+}
+
+@keyframes showYj {
+    0% {
+        height:0;
+    }
+    100% {
+        height:310px;
+    }
+}
+
+.control{
+	 margin: 42px 29px 0;
+}
+
+.logo{
+	margin-top: 37px;
+}
+.logo img{
+	width:55px;
+	height:55px;
+}
+.txt{
+	margin-top: 22px;
+	font-size: 14px;
+}
+.t{
+	color:#9a9a9a;
+}
+.b{
+	color:#f58b3f;
+	border:solid 1px #8d8484;
+	border-radius: 5px;
+	display: block;
+	width:222px;
+	height:34px;
+	line-height:34px;
+	margin: 7px auto 0;
+}
+.setup2{
+	padding-bottom: 52px;
+}
+
+.needTopMargin{
+	margin-top: 24px;
+}
+
+.bar {
+	position: fixed;
+    width: 100%;
+    z-index: 3;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    color: #000;
+    background: #fff;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    top: 0;
+    display: none;
+}
+
+.return_btn {
+    display: none;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #000;
+    border-right: 0;
+    border-bottom: 0;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    left: 15px;
+    top: 14px;
+}
+.share_btn{width:20px; height:20px; position: absolute; top:14px; right:15px; background:url(/pages/bd/2015_easter/images/share_btn.png) no-repeat; background-size:100% 100%;} 
+
+.bar_txt{margin:0 40px; height:48px; line-height:48px; text-align:center; overflow:hidden;text-overflow:ellipsis; white-space: nowrap;}
+
+.android_input_mask{
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	background-color: #f9f6eb;
+	position:absolute;
+}
+
+.tip{
+	font-size: 12px;
+	color:#bdc1c9;
+	text-align:center;
+}

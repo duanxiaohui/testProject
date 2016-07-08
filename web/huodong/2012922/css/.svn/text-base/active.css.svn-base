@@ -1,0 +1,18 @@
+﻿.rili_365{ margin:0 auto; width:320px;}
+.rili_365 img{ display:block; margin:0 auto;}
+.rili_365 .content{ background:#b52710; padding-bottom:10px; width:100%; overflow:hidden;}
+.rili_365 .content .btnregist{ width:131px; height:45px; display:inline-block; background:url(/images3/active/365/bj1.jpg) no-repeat;}
+.rili_365 .content .btndownload{ width:163px; height:45px; display:inline-block; background:url(/images3/active/365/bj2.jpg) no-repeat;}
+          
+.btngroup{ width:300px; margin:10px auto 8px;} 
+          
+.rili_365 .hdnr{ height:auto; overflow:hidden; width:292px; margin:5px auto 0; color:#fff;}
+.rili_365 .hdnr h2{ font:bold 16px/35px 微软雅黑;}
+.rili_365 .hdnr ul{ padding:5px; background:#6b1008; border-radius:5px;}
+.rili_365 .hdnr ul li{ line-height:21px; text-indent:15px; font-size:12px; letter-spacing:1px;}
+          
+.rili_365 .hdlc{ height:auto; overflow:hidden; width:292px; margin:10px auto 0; color:#fff; }
+.rili_365 .hdlc h2{ font:bold 16px/35px 微软雅黑;}
+.rili_365 .hdlc table th label{ width:57px; height:35px; display:inline-block; line-height:35px; text-align:center; font-weight:normal; margin:4px 5px 4px 0; background:#8d0000;}
+.rili_365 .hdlc table td span{ width:215px; height:35px; line-height:35px; display:inline-block; margin:4px 0 4px 5px; padding-left:5px;font-size:12px; background:#8d0000;}
+.rili_365 .hdlc table th i{ width:13px; height:9px; display:inline-block; background:url(/images3/active/365/bj3.gif) no-repeat;}

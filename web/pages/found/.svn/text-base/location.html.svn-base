@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>城市画报是个啥</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/pages/found/style/main.css?201508311" rel="stylesheet">
+
+</head>
+<body>
+    <div class="location">
+        <div class="location_icon"></div>
+        <p>羞答答的同城画报是个啥？</p>
+        <p>给365日历开通地理位置权限，就能看见了！</p>
+        <a href="javascript:;" data-url=" https://shimo.im/s/a90d3939-5b00-29be-fcad-ebd1bf519bae" class="location_btn">查看如何开启定位</a>
+        <div class="locaton_txt">
+            同城画报，是同城活动的汇集地，交友、户外、运动、讲座、音乐等精彩纷呈的活动应有尽有，根本停不下来！
+        </div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/app.js"></script>
+    <script src="/pages/found/js/location.js?2015101301"></script>
+</body>
+</html>

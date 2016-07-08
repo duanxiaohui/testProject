@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>365日历--暴风影音</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style/index.css" media="screen" />
+</head>
+<body>
+	<div class="main">
+		<div class="top"></div>
+		<div class="text">
+			<p>手机也能左眼了！聚合全网影视资源，打造极致高清观影体验。</p>
+		</div>
+		<a href="http://dl.baofeng.com/mobile/AndroidStorm-365rili.apk" class="btn" id="btn">下载暴风影音</a>
+	</div>
+</body>
+</html>

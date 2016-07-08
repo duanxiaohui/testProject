@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>小贴士</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<link href="/pages/ui-lib/css/ui-lib.css" rel="stylesheet">
+<link href="style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="recommend_main">
+    	<div class="recommend_schedule_top">
+    		<h2>跟爱人烛光晚餐</h2>
+            <h4 class="none">平安夜跟爱人来一场浪漫的烛光晚餐</h4>
+    	</div>
+    	<div class="recommend_schedule_middle">
+    		<div class="recommend_schedule_img">
+    			<img src="images/pinganye.jpg" alt="">
+    		</div>
+            <p><span>推荐理由：</span>在西方过平安夜，挂上袜子就可以坐等圣诞老人的礼物，但圣诞老人无法跨过山和海、爬中国的烟囱，所以这个平安夜不如与爱人共进烛光晚餐享受浪漫。</p>
+            <p>温暖的烛光随风摇摆，桌边的玫瑰散发淡淡的清香，醉人的音乐自小提琴的弦上缓缓流出……高脚杯轻摇，小啜一口红酒，单宁香划过唇齿，心都被融化了~</p>
+            <p>把12月24日平安夜添加备忘，定好餐厅、约好爱人，不要错失这个享受浪漫的好机会！</p>
+    	</div>
+    	<div class="recommend_schedule_bottom">
+    			<p>添加到我的日程</p>
+    			<a href="javascript:;" class="add_mySchedule"></a>
+    	</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script type="text/javascript" src="/pages/ui-lib/js/plug.js"></script>
+   <script type="text/javascript" src="/pages/recommend_schedule/js/recommend.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var startTime = new Date("2015/12/24 0:0:0").getTime();
+            tips.init(startTime);
+        })
+    </script></body>
+</html>

@@ -1,0 +1,27 @@
+body{ font-family: "Microsoft YaHei"; background:#fa424f;}
+*{margin:0; padding:0;}
+ul{list-style: none;}
+li{list-style-type: none;}
+a { color:#0d23f4; cursor: pointer; text-decoration: none; }
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+
+
+.main{margin:0 auto; }
+.top{width:320px; margin:0 auto; height:301px; background:url(http://d2.365rili.com/huodong/20130626/images/top.jpg) no-repeat; -webkit-background-size:320px 301px;}
+.year_content{width:270px; margin:0 auto; height:600px; padding:15px; background:#fff; position:relative; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-bordert-radius: 5px; border-radius: 5px; }
+.participate{width:108px; height:24px; position:absolute; left:-5px; background:url(http://d2.365rili.com/huodong/20130626/images/participate.jpg) no-repeat;-webkit-background-size:108px 24px;}
+.txt_left,.txt_right{width:135px; float:left; padding-top:35px;}
+.txt_right{float:right;}
+.txt_img1{width:135px; height:175px; background:url(http://d2.365rili.com/huodong/20130626/images/txt_img1.jpg) no-repeat right; -webkit-background-size:116px 175px;}
+.txt_img2{width:135px; height:175px; margin:10px 0; background:url(http://d2.365rili.com/huodong/20130626/images/txt_img2.jpg) no-repeat left; -webkit-background-size:116px 175px;}
+.txt_img3{width:135px; height:175px; background:url(http://d2.365rili.com/huodong/20130626/images/txt_img3.jpg) no-repeat right; -webkit-background-size:116px 175px;}
+.txt_left p,.txt_right p{font-size:16px; font-family:"simhei"; color:#8d5f34; line-height:26px;}
+.txt_right p{padding:10px 0 10px 20px;}
+.prize{padding-top:15px;}
+.prize h2{width:108px; height:24px; margin-left:-20px; position:absolute; background:url(http://d2.365rili.com/huodong/20130626/images/prize.jpg) no-repeat;-webkit-background-size:108px 24px;}
+.prize p{line-height:22px; font-size:16px; font-family:"simhei"; color:#8d5f34;}
+.prize p.one{padding-top:30px;}
+.prize p.two{text-indent:2em;}
+.footer{line-height:30px; text-align:center; font-size:18px; color:#fff; font-family:"simhei";}

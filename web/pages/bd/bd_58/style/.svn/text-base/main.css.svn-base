@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 张明臣 (vest0804@gamil.com)
+ * @date    2015-03-04 10:49:55
+ * @version 1.0
+ */
+body { background: #f88500; color: #444; font: 12px / 1.5em "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑,SimSun,arial; margin: 0; padding:0;}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; }
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+*{-webkit-tap-highlight-color: rgba(0,0,0,0); tap-highlight-color: rgba(0,0,0,0);}
+
+a{text-decoration: none; }
+.none{display:none;}
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+
+html,body{height:100%;}
+.main{width:100%; height:100%;}
+.jz_absolute{width:110px; height:110px; background:#fff url(../images/jz.jpg) no-repeat 40px center; background-size:53px 76px; border-radius:70px; position:absolute; left:-40px; border:5px solid #f88500; z-index:999;}
+.jz_txt{height:95px; padding-left:85px;}
+.jz_txt p{font-size:22px; color:#fff; line-height:150%;}
+.jz_txt p.s{font-size:20px;}
+.jz_txt p.t{font-size:16px;}
+.jz_content{margin:0 10px; padding:10px 10px 20px 10px; min-height:200px; background:#fff; border-radius:10px; position:relative;}
+
+.girls{width:100%; height:310px; margin:0 auto; background:url(../images/girls.jpg) no-repeat center; background-size:auto 100%;}
+.boy{width:100%; height:310px; margin:0 auto; background:url(../images/boy.jpg) no-repeat center; background-size:auto 100%;}
+.jz_btn{height:63px; padding-bottom:20px;}
+
+.btn_2{float:right;}
+.btn_1,.btn_2{display:block; width:150px; height:62px; border-radius:31px; -webkit-border-radius:31px;}
+.btn_1{background:#f88500 url(../images/btn_1.jpg) no-repeat center center; background-size:110px 45px;}
+.btn_2{background:#f88500 url(../images/btn_2.jpg) no-repeat center center; background-size:115px 45px;}
+.footer{height:20px; background:url(../images/footer.jpg) no-repeat center center; background-size:58px 17px; position:absolute; width:58px; left:50%; margin-left:-29px; bottom:10px;}
+
+@media (max-width: 768px) and (min-height: 480px){
+	/*屏幕高度大于480的手机*/
+
+}
+@media(max-height: 480px){
+	/*屏幕高度小于480的手机*/
+		.jz_content{padding:5px;}
+.jz_txt{height:65px; padding:3px 0 0 85px;}
+.jz_txt p{font-size:16px; color:#fff; line-height:160%;}
+.jz_txt p.s{font-size:14px;}
+.jz_txt p.t{font-size:12px;}
+.btn_1,.btn_2{width:136px; height:62px;}
+.girls{width:100%; height:248px; margin:0 auto; background:url(../images/girls.jpg) no-repeat center; background-size:auto 100%;}
+.boy{width:100%; height:240px; margin:0 auto; background:url(../images/boy.jpg) no-repeat center; background-size:auto 100%;}
+
+}
+@media (device-height:480px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone4/4s */
+	.jz_content{padding:5px;}
+.jz_txt{height:65px; padding:3px 0 0 85px;}
+.jz_txt p{font-size:16px; color:#fff; line-height:160%;}
+.jz_txt p.s{font-size:14px;}
+.jz_txt p.t{font-size:12px;}
+.btn_1,.btn_2{width:136px; height:62px;}
+.girls{width:100%; height:248px; margin:0 auto; background:url(../images/girls.jpg) no-repeat center; background-size:auto 100%;}
+.boy{width:100%; height:240px; margin:0 auto; background:url(../images/boy.jpg) no-repeat center; background-size:auto 100%;}
+}
+
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone5 */
+.jz_content{padding:5px;}
+.jz_txt{height:85px; padding:8px 0 0 85px;}
+.jz_txt p{font-size:18px; color:#fff; line-height:160%;}
+.jz_txt p.s{font-size:16px;}
+.jz_txt p.t{font-size:14px;}
+.btn_1,.btn_2{width:136px; height:62px;}
+}
+@media (device-width:375px) and (-webkit-min-device-pixel-ratio:2){
+/* 兼容iphone6 */
+.jz_txt{height:115px; padding-left:85px;}
+.jz_txt p{font-size:22px; color:#fff; line-height:170%;}
+.jz_absolute{top:0px; width:130px; height:130px; background:#fff url(../images/jz.jpg) no-repeat 60px center; left:-60px; background-size:53px 76px; border-radius:70px;}
+.jz_content_img{padding:20px 0;}
+}
+@media (device-width:414px) and (-webkit-min-device-pixel-ratio:3.0){
+	/* 兼容iphone6 plus */
+.jz_txt{height:115px; padding-left:85px;}
+.jz_txt p{font-size:22px; color:#fff; line-height:170%;}
+.jz_absolute{top:0px; width:130px; height:130px; background:#fff url(../images/jz.jpg) no-repeat 60px center; left:-60px; background-size:53px 76px; border-radius:70px;}
+.jz_content_img{padding:20px 0;}
+
+.girls{width:100%; height:372px; margin:0 auto; background:url(../images/girls.jpg) no-repeat center; background-size:auto 100%;}
+.boy{width:100%; height:372px; margin:0 auto; background:url(../images/boy.jpg) no-repeat center; background-size:auto 100%;}
+.btn_1,.btn_2{width:170px; height:62px;}
+
+}

@@ -1,0 +1,206 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 张路 (zhanglu@365rili.com)
+ * @date    2015-05-17 21:23:42
+ */
+
+body {font: 12px / 1.5em "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑,SimSun,arial; margin: 0; padding: 0; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p { margin: 0; padding: 0; outline: none;}
+ul { list-style: none; }
+li { list-style-type: none; }
+img { border: 0; vertical-align: top; }
+select, input { font-size: 12px; }
+address, cite, code, em, th { font-style: normal; font-weight: normal; }
+a{text-decoration: none; }
+.none{display:none;}
+.e_clear:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.e_clear { display: inline-block; }
+.e_clear { display: block; }
+.none{display:none;}
+*{-webkit-tap-highlight-color: rgba(0,0,0,0); tap-highlight-color: rgba(0,0,0,0);}
+html, body{
+	height:100%;
+}
+
+.main{
+	background-color: #fff0dd;
+	margin: 0 26px;
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,.3);
+}
+
+.main h1{
+	color:#dd0000;
+	font-size:24px;
+	font-weight:normal;
+	text-align: center;
+	padding-top:52px;
+}
+.yjform{
+	margin: 0 25px;
+}
+#yj{
+	border:solid 2px #d1a17e;
+	box-shadow: 0px 0px 0px 1px #9b6a47;
+	padding: 17px 0;
+	width:100%;
+	text-indent: 12px;
+}
+
+.btns{
+	margin-top: 30px;
+	height:46px;
+}
+
+.btns a{
+	display: inline-block;
+	width:69px;
+	height:45px;
+	background-image: url(/pages/bd/520yj/images/btns.gif);
+	background-repeat: no-repeat;
+	background-size: 138px 90px;
+}
+.btns .y{
+	background-position: right top;
+	margin-right: 5px;
+}
+.btns .y.on{
+	background-position: right bottom;
+}
+.btns .j{
+	background-position: left bottom;
+}
+.btns .j.on{
+	background-position: left top;
+}
+
+.tip{
+	color: rgba(221,0,0,.6);
+	font-size:15px;
+	margin: 5px 0 0 25px;
+}
+.tip2{
+	border-bottom:solid 1px #d1a17e;
+	color: rgba(221,0,0,.6);
+	font-size: 12px;
+	margin: 23px 5px 0;
+}
+.tip2 span{
+	background-color: #fff0dd;
+	position:relative;
+	bottom:-9px;
+	margin-left: 22px;
+	padding: 0 6px;
+}
+
+.center{
+	text-align: center;
+}
+.cropper-example-1{
+	margin:18px auto 0;
+	width:200px;
+	height:200px;
+}
+.picBtn a{
+	background: url(/pages/bd/520yj/images/picBtn.gif) no-repeat left top;
+	background-size: 191px 41px;
+	display: inline-block;
+	width: 191px;
+	position: relative;
+	height:41px;
+}
+.tjBtn a{
+	background: url(/pages/bd/520yj/images/tjBtn.gif) no-repeat left top;
+	background-size: 191px 41px;
+	display: inline-block;
+	width: 191px;
+	height:41px;
+	margin-top: 42px;
+}
+.pictip{
+	color:#bf8b54;
+	margin:4px 0;
+}
+
+#words,#name{
+	background:#fff;
+	border:solid 1px #bf8b54;
+	resize: none;
+	display: block;
+	width:100%;
+	padding: 12px;
+	margin-left: -12px;
+}
+#words1{
+	padding-top:6px;
+	padding-bottom: 6px;
+}
+.signform, .nameform{
+	margin: 0 51px;
+}
+label{
+	color:#bf8b54;
+	margin-left: -12px;
+	margin-bottom: 3px;
+	margin-top: 20px;
+	display: block;
+	text-align: left;
+}
+
+.fileSelect{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height:41px;
+	width: 191px;
+	opacity: 0;
+}
+
+
+.custom_content{margin:15px 5% 0; background:#fff0dd; position:relative; box-shadow: 0 0 10px #ccc; padding:15px 15px 35px 15px; border-radius:3px;}
+.custom_img{width:100%;}
+.lunar_data{padding:10px 0; text-align:center; color:rgba(221,0,0,.6);}
+.custom_content h3{text-align:center; color:#dd0000; font-size:14px; margin:5px 0 15px 0;}
+.yj_icon{padding:0 15px; display:inline-block; position: relative; line-height:20px; margin-right:5px;}
+.yj_icon:before{content:" "; position:absolute; width:11px; height:20px; left:0; top:0; background:url(../images/yi_left_arrow.png) no-repeat; background-size:100% 100%;}
+.yj_icon:after{content:" "; position:absolute; width:11px; height:20px; right:0; top:0; background:url(../images/yi_right_arrow.jpg) no-repeat; background-size:100% 100%;}
+.custom_txt{font-size:14px; color:#bf8b54; line-height:160%;word-break:break-all;}
+.custom_signature{font-size:14px; color:#bf8b54; text-align:right; padding-top:15px;}
+.custom_footer{position:absolute;padding-left:20px; background:url(../images/logo.jpg) no-repeat left center; background-size:15px 15px; font-size:12px;color:#bf8b54; bottom:5px; left:15px;}
+.custom_btn{display:block; width:115px; height:36px; border:1px solid #9b6a47; background:#d1a17e; text-align:center; line-height:36px; color:#fff; margin:20px auto;}
+
+.bar {
+	position: fixed;
+    width: 100%;
+    z-index: 3;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    color: #000;
+    background: #fff;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    top: 0;
+    display: none;
+}
+
+.plaza{
+	padding-top: 48px;
+}
+
+.return_btn {
+    display: none;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #000;
+    border-right: 0;
+    border-bottom: 0;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    left: 15px;
+    top: 14px;
+}
+.share_btn{width:20px; height:20px; position: absolute; top:14px; right:15px; background:url(/pages/bd/2015_easter/images/share_btn.png) no-repeat; background-size:100% 100%;} 
+
+.bar_txt{margin:0 40px; height:48px; line-height:48px; text-align:center; overflow:hidden;text-overflow:ellipsis; white-space: nowrap;}

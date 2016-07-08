@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>恐龙当家</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">恐龙当家</div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/4cee3fad-f5bd-441c-9146-4eb853ddf3a7.jpg"/>
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	<a href="http://www.1905.com/video/play/812400.shtml" class="btn js-other">查看预告片</a>
+	    	<h3 class="time">上映时间：2015年11月25日（美国）</h3>
+			<p> </p>
+	    	<h3>导演：彼得•索恩</h3>
+			<h3>编剧：埃里康•卡萨罗萨 / 鲍勃•彼德森</h3>
+			<h3>主演：卢卡斯•内夫 / 约翰•利特高 / 弗兰西斯•麦克多蒙德</h3>
+			<h3>类型：喜剧 / 动画 / 冒险</h3>
+			<p class="fc_000">制片国家/地区: 美国</p>
+			
+			<h3>看点：</h3>
+			<p> 这部动画片进行了一个大胆的设定：假如6500万年前，小行星撞击地球之后，恐龙并没有灭绝，但生态系统发生了翻天覆地的变化……影片的主角是一只名叫阿洛（Arlo）的雷龙，因为恐龙家族发生了一次事故，导致阿洛出走找寻问题的解决办法。在漫长的旅途上，他不可思议地和一个小男孩成为了伙伴，由此共同开启了一段惊心动魄的大冒险。</p>
+
+			<p>《恐龙当家》原本是由皮克斯元老之一的鲍勃·彼德森（Bob Peterson）执导，他曾担任《飞屋环游记》的联合导演，并为不少皮克斯动画献声，影片本是他的首部独立导演之作。但后来皮克斯改了主意，交由皮特·索恩（Peter Sohn）接手。外界猜测可能是创意上的分歧，皮克斯总裁Ed Catmull声明：“有的导演可能会深陷于自己的想法中，不得不让其他人来实现拍摄。”</p>
+
+			<p>《恐龙当家》的配音阵容相当强大，尼尔·帕特里克·哈里斯、约翰·利特高、比尔·哈德尔已经加盟，影片将于2015年11月25日登陆北美院线。</p>
+			<!--h3是小标题-->
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/87c1e3f6-8cec-4407-b51c-526126613384.jpg"/>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/7602d03a-ff13-40a5-bab6-4c0a9e5f3068.jpg"/>
+			<img src="http://cocoimg.365rili.com/schedule_pics/default/b54addd4-4c8f-43a9-94a1-c5683f42e891.jpg"/>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/4cee3fad-f5bd-441c-9146-4eb853ddf3a7.jpg',
+                title: '恐龙当家',
+                desc: '档期推迟一年，中途更换导演，皮克斯甚至因为它裁员5%，恐龙当家绝对是一部难产之作。希望能给我们带来惊喜！'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '恐龙当家',
+		        				content: '小黄人从哪里来？在为格鲁服务之前他们是怎么生活的？他们原本就是群居吗？这些问题都会在小黄人的独立电影中得到解答。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/4cee3fad-f5bd-441c-9146-4eb853ddf3a7.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

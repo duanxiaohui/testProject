@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>奔驰GLA</title>
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0">
+<link href="css/index.css" rel="stylesheet">
+<script src="/js/lib/zepto.min.js"></script>
+<script src="/js/lib/app.js"></script>
+</head>
+<body>
+    <div class="benchi_top">
+      <img src="images/benchi_top.jpg" srcst="images/benchi_top.jpg 2x" width="100%"/>
+    </div>
+    <div class="benchi_video">
+      <div class="video_title">《奔驰GLA》</div>
+        <div id="player"></div>
+    </div>
+    <div class="benchi_bottom">
+      <img src="images/benchi_bottom.jpg" srcset="images/benchi_bottom.jpg 2x" width="100%"/>
+    </div>
+
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="/share/js/weixin_1.0.js?123"></script> 
+    <script>
+        (function() {
+            if(app.getUa.android){
+                $('#player').html('<video controls width="100%" height="100%" preload="none" src="http://k.youku.com/player/getFlvPath/sid/142413689442612a13e2b_00/st/mp4/fileid/030020010054DDB0824C27154C5F2AD61A76E2-B97B-A415-707D-DE801D2F77A9?K=f554f910257303fb261e2e6f&hd=1&myp=0&ts=128&ypp=0&ep=cyaWHkiOUMYJ4Sfdjj8bNi3hIXVdXP4J9h%2BHgdJjALshTJzL6z7ZxZnDTPhDE%2F1qd1QEYZ%2F3qqHgbDUWYYJKrhoQrkqpPPrn%2FveX5dkmzJABEhtAdcqmvVSWSzD3&ctype=12&ev=1&token=8806&oip=1033171972" poster="http://www.365rili.com/pages/benchi/images/bc_video.jpg"></video>');
+             $("video").attr("poster","http://www.365rili.com/pages/benchi/images/bc_video_android.jpg")
+             var hidden, state, visibilityChange;
+            if (typeof document.hidden !== 'undefined') {
+              hidden = 'hidden';
+              visibilityChange = 'visibilitychange';
+              state = 'visibilityState';
+            } else if (typeof document.mozHidden !== 'undefined') {
+              hidden = 'mozHidden';
+              visibilityChange = 'mozvisibilitychange';
+              state = 'mozVisibilityState';
+            } else if (typeof document.msHidden !== 'undefined') {
+              hidden = 'msHidden';
+              visibilityChange = 'msvisibilitychange';
+              state = 'msVisibilityState';
+            } else if (typeof document.webkitHidden !== 'undefined') {
+              hidden = 'webkitHidden';
+              visibilityChange = 'webkitvisibilitychange';
+              state = 'webkitVisibilityState';
+            }
+             document.addEventListener(visibilityChange, function(e) {
+                document[hidden] && window.location.reload();
+            }, false);
+            window.onblur = function(){window.location.reload();}
+            }
+            else{
+                $('#player').html('<video class="x-video-player" id="youku-html5player-video" style="width: 100%; height: 100%; display: block; position: relative;" preload="none" src="http://pl.youku.com/playlist/m3u8?vid=223146182&amp;type=mp4&amp;ts=1423827039&amp;keyframe=0&amp;password=benchi123&amp;ep=cSaWGUGPUc4D7CPfiz8bYHnkfCIJXPwI9R6Bh9NqAtQjSu66&amp;sid=3423827039003127e68e6&amp;token=7265&amp;ctype=12&amp;ev=1&amp;oip=1711192627" poster="http://www.365rili.com/pages/benchi/images/bc_video.jpg"></video>')
+            }
+            var a = $(window).width(),
+            b = $(window).height();
+            $("#player").css({
+                width: a - 20 + "px",
+                height: 9 * (a - 20) / 16 + "px"
+            })
+        })();
+    </script>
+</body>
+</html>

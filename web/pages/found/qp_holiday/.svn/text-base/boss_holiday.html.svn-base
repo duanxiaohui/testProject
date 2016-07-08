@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>表达“感情”需谨慎——老板节</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="/css/footer.css" rel="stylesheet">
+<link href="/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="/pages/found/qp_holiday/images/boss_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>表达“感情”需谨慎——老板节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>提起老板你的第一感受是什么？感激、崇拜、讨厌还是害怕？不过，不管你有什么情绪往往结果都只有一种——自己默默回味！但是如果你在美国，有这样一个节日可供你随意表达自己对老板的看法。更惊喜的是，你不用为此承担任何后果，这个节日就是老板节。</p>
+            <h3>【老板也有了自己的节日】</h3>
+            <p>这个世界上有各种各样的老板，有的老板给你升职加薪让你成为人生赢家，有的老板忽略你的成果对你百般刁难，还有的老板叫做“爸爸”……</p>
+            <img src="/pages/found/qp_holiday/images/boss_img1.jpg"/>
+            <p>老板节的创始人是美国人帕特丽夏·贝斯·哈若斯基，节日的来源可以追溯到1958年。哈若斯基当时是美国国家农场保险公司的秘书，她对她的老板心存感激和欣赏（小编会告诉你她老板就是她父亲吗），同时她注意到从来没有一个固定的节日用来对老板表示感谢，因此她利用秘书之间的联络网专门为老板设立了一个节日——老板节。考虑到她的爸爸曾多次帮助她处理与工作相关的各种问题，哈若斯基决定将她父亲的生日作为纪念的日子。1958年，她在美国商业部正式将10月16日注册为老板节，1962年，伊利诺斯州的州长奥托·凯尔纳宣布了这个节日，自此10月16日老板节成为美国的法定节日，并沿袭了下来。</p>
+            <img src="/pages/found/qp_holiday/images/boss_img2.jpg"/>
+            <h3>【去“感谢”老板吧】</h3>
+            <p>你欣赏、感激你的老板吗？如果你对老板有想说的话，那就在老板节这天尽情的向他表达吧！对于那些你有点意见的老板，你也可以趁这个机会规劝他们改（dui）过（ni）自（hao）新（dian），不过小编友情提醒，一定要注意方式，不然小编也不能保证你明天还能不能照常上班。</p>
+            <h3>【中国有望设立老板节】</h3>
+            <p>2013底“国际老板节”启动仪式在北京钓鱼台举行，主办方倡议设立一个专属老板的节日。但这个老板节和美国的老板节有着本质的区别，它不是供员工表达对老板的意见，而是给老板们一个相互学习的平台。倡议老板遵守“道上的规矩”，合法经营、互利共赢，践行积极向上的企业家精神。同时，主办方还表达了对老板节的美好愿景：希望老板节可以同劳动节、妇女节等节日一样，被社会赋予更多正面价值及意义。</p>
+
+            <div class="tips">
+                <p>1、10月16日的美国老板节是一个尽情对老板表达感情的节日，由美国人帕特丽夏·贝斯·哈若斯基利用秘书之间的联络网为老板设立；</p>
+                <p>2、对老板有“感情”的人可以趁着老板节向老板尽情表达，不过一定要注意方式，否则换来的可能是老板的一句“你明天不用来了”！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="/js/lib/zepto.min.js"></script>
+    <script src="/js/lib/zTouch.js"></script>
+    <script src="/js/lib/footer.js"></script>
+    <script type="text/javascript" src="/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="/share/js/weixin_1.0.js"></script>
+    <script src="/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

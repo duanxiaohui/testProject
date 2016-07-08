@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>素衣莫起风尘叹</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/qingmingjie/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>清明节</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>“世味年来薄似纱，谁令骑马客京华。小楼一夜听春雨，深巷明朝卖杏花。矮纸斜行闲作草，晴窗细乳戏分茶。素衣莫起风尘叹，犹及清明可到家。”再一次念到这耳熟能详的诗句，五十六个字，便勾勒出早春的景色，让人神往。在清明节这样的氛围里，你会想到些什么呢？你的情绪又会是怎样的波动呢？</p>
+            <img src="images/qingmingjie/holiday_1.jpg"/>
+          
+
+            <h3>【记忆中的清明】</h3>
+
+            <p>每年的清明节，总会去折几根柳枝，插在门两旁。记忆中，老人告诉我那是辟邪的。很小的孩子会带上桃核，用一根红色的袋子穿起来，戴在手腕、脚腕或脖子上。那些桃核，总是觉得好看的。后来长大了，大人也不强求去戴了。再大一点的孩子，会在手腕脚腕上，系上至少三种颜色拧在一起的毛线，总觉得那像是装饰，并且喜欢。清明节那天，小孩子都要吃鸡蛋，这是什么缘由已经忘记了，好像也不曾问过，或者是问过了，大人们也说不清楚，只是传统如此。这些个小传统，也会因为地域的不同而不同。清明节里还有最主要的一个传统，那便是扫墓了。不论南方还是北方，都会在清明节那天带上家里的大大小小、带上祭祀用的东西，到亲人的墓前，怀念那曾经的人、曾经的岁月。常常是扫墓的人跟此时身旁的人一直说着什么，后来说着说着便哽咽起来，而后便泣不成声了。那些情绪，是流动的，是延绵不绝的思念。</p>
+
+            <img src="images/qingmingjie/holiday_2.jpg"/>
+
+             <h3>【清明的由来】</h3>
+
+            <p>清明最早不过一种节气的名称，而清明节则继承了昨日寒食节的许多传统。晋文公把寒食节的后一天定为清明节。在山西大部分地区是在清明节前一天过寒食节；榆社县等地是在清明节前两天过寒食节；垣曲县还讲究清明节前一天为寒食节，前二天为小寒食。清明节与寒食节日期相近。清初汤若望历法改革以前，清明节定在寒食节两日之后；汤氏改革后，寒食节定在清明节之前一日。现代24节气的定法沿袭汤氏，因此寒食节就在清明节前一日。新中国成立后，很多地区把寒食节与清明节等同了起来，在同一天过。</p>	
+            <img src="images/qingmingjie/holiday_3.jpg"/>		
+
+            <div class="tips">
+                <p>1、清明时节记得踏春来放松好心情；</p>
+                <p>2、别忘了给已经故去的人扫墓来寄托对他们的思念。</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/Vanna</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+

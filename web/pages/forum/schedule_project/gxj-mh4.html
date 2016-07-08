@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta id="viewport" name="viewport" content="width=320;width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no"/> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+
+<title>2015北京龙潭春节庙会</title>
+<script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+<script src="http://www.365rili.com/js/lib/app.js"></script>
+<link href="http://www.365rili.com/css/footer.css?20141126" rel="stylesheet">
+<link href="http://www.365rili.com/pages/forum/schedule_project/style/main.css" rel="stylesheet">
+</head>
+<body class="">
+	<!--这里是标题开始-->
+    <div class="bar">
+    	<a href="javascript:;" class="share_btn"></a>
+        <!-- <a href="javascript:;" class="return_btn"></a> -->
+        <div class="bar_txt">2015北京龙潭春节庙会 </div>
+    </div>
+    <!--这里是标题结束-->
+    <div class="main">
+    	<div class="main_content">
+    		<!--src里放图片地址！ 图片地址由创建日历里得到-->
+	    	<img src="http://cocoimg.365rili.com/schedule_pics/default/172fad31-b41e-461d-8a29-0f102113ca8f.jpg"/>
+			 <a class="btn js-subscribe" data-uuid="3ef8cf74-4a50-4fd8-9d2c-b1b51bc939b2" data-cid="147462861">添加提醒</a>
+	    
+			<!--a的href是链接地址  a标签里的文字内容为”查看预告片”-->
+	    	
+	    	<p class="time"><b>时间：  2015.2.18 - 2.25 （08:00-17:00）</b></br>
+	    	<b>场地：北京-龙潭湖公园</b></br>
+			<b>费用：门票 10元</b></p>
+			<h3>活动看点：</h3>
+			<p>1、民俗表演、花会、车展、书市，以及小吃一条街等都经过精心设计。
+
+</br>
+2、整个庙会期间的活动都日日精彩，天天新颖。</p>
+			<!--h3是小标题-->
+			<h3>活动简介：</h3>
+			<!--p是段落文字描述-->
+			<p>北京春节龙潭庙会是融民间艺术、宗教信仰、物资交流、文化娱乐为一体的汉族传统民俗文化盛会。成为北京市春节期间一项传统性的大型群众文化活动，在国内有广泛的影响，在国际上也有了一定的知名度。</br></br>
+			
+			中国各地的表演者都会聚于此，沿着夕照寺南街，进公园北门，环湖边走边舞，其可观性非常适合于人们节日里喜悦的心情。2010年春节，园内湖上虽结冰，但也有鸭子看。园内设有的地方特色小吃摊位：芝麻酥、炸藕合、炸回头、炒肝、爆肚、杂碎等，更增添了一份中国年的节日气氛。</br></p>
+			<p><b>北京龙潭庙会乘车线路：34路、35路、36路、743路、957路、943路、822路、705路、41路光明楼站下车。6路、8路、607路、60路、958路、116路、750路、12路、352路、807路北京游乐园站下车，免费班车地点：地铁5号线天坛东门站，9:00-16:00</br></br>
+北京龙潭庙会自驾路线：南二环左安门桥往北500米，东二环光明桥往西第一个十字路口往南，如果左安门内大街和龙潭北路发生拥堵，请在左安门桥头向北的车辆绕行二环路、左内北口、光明路、幸福大街南口
+</b></br></br>
+具体详情以官方信息为准</p>
+<img src="http://cocoimg.365rili.com/schedule_pics/default/3066c4cd-6725-4b13-935c-46acd8f43b59.jpg"/>
+
+<img src="http://cocoimg.365rili.com/schedule_pics/default/bddf02d5-6ce5-4bef-9f01-cce6f8cd6440.jpg"/>
+
+ <div class="remind_div" data-uuid="3ef8cf74-4a50-4fd8-9d2c-b1b51bc939b2" data-cid="147462861"><div class="remind_icon"></div><span>添加提醒</span></div>
+    	</div>
+    </div>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js?20150122"></script>
+	
+    <script src="http://www.365rili.com/pages/forum/schedule_project/js/schedule_project.js"></script>
+    <script>
+    (function () {
+        if(app.getUa.weixin){
+        	$('body').addClass("weixin");
+            // 需要调整微信文案
+            wxProtocol.init({
+                imgUrl: 'http://cocoimg.365rili.com/schedule_pics/default/0696bd74-f2e8-4a62-9419-185b833c0708.jpg',
+                title: '2015北京龙潭湖公园',
+                desc: '北京春节龙潭庙会是融民间艺术、宗教信仰、物资交流、文化娱乐为一体的汉族传统民俗文化盛会。'
+            });
+
+            footer.init({
+                type: 'calendarProject',
+                cocourl: {
+                    ios: 'coco://365rili.com/',
+                    android: 'coco://365rili.com/'
+                },
+                callback: null
+            });
+        }
+        else{
+        	//分享
+			$('.share_btn').on('click', function() {
+				app.call({
+		        	action: 'share',
+		        	params: [
+		        		{
+		        			name: 'shareString',
+		        			value: JSON.stringify({
+		        				title: '2015北京龙潭湖公园',
+		        				content: '北京春节龙潭庙会是融民间艺术、宗教信仰、物资交流、文化娱乐为一体的汉族传统民俗文化盛会。',
+		        				link: window.location.href,
+		        				image: 'http://cocoimg.365rili.com/schedule_pics/default/0696bd74-f2e8-4a62-9419-185b833c0708.jpg',
+		        				isEvent: 'true'
+		        			})
+		        		}
+		        	],
+		        	callback: function(data) {}
+		        });
+			});
+        }
+    })();
+    </script>
+    <div style="display: none;">
+        
+    </div>
+</body>
+</html>

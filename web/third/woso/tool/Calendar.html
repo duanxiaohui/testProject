@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>日历</title>
+<link href="../css.css" rel="stylesheet" type="text/css" />
+<style>
+.cal_box{
+	width:333px;
+	overflow:hidden;
+	font-family:Arial, Helvetica, sans-serif;
+	height:144px;
+	position:relative;
+	background-image: url(#);
+}
+.cal_box_l{ width:120px; height:136px; float:left; position: relative; text-align:center; padding-left:0px; margin-right:5px; padding-top:10px;}
+.cal_box_l_in{ padding:2px; padding-left:3px; height:12px; line-height:12px; border:1px solid #ccc; margin-left:3px; margin-right:3px;}
+.cal_box_l h1{ font-size:36px; height:43px;}
+.cal_box_l h3{ font-size:12px; text-align:center; line-height:20px; height:20px;}
+.cal_box_l h3 strong{ margin-left:5px;} 
+.cal_box_l  .calred{ color:#c51010; }
+.cal_box_r{ width:208px; float:left; padding:5px; padding-right:0px ; padding-left:0px;}
+.cal_box_r ul{ width:px;}
+.cal_box_r ul li{float:left;text-align:center;width:26px;  height:17px; line-height:17px; margin:1px; cursor:pointer;}
+/*
+.cal_box_r ul li a{ width:26px;  height:18px; display:inline-block; padding-bottom:1px;}
+.cal_box_r ul li a:hover{ background-color:#eee; text-decoration:none; color:#333;}
+*/
+.cal_box_r .calred{ color:#c51010; }
+.cal_box_r .calred:hover{color:#c51010; }
+.cal_box_r .calhui{ color:#ccc; background:#FAFAFA; }
+.cal_box_r .calhui:hover{ color:#ccc; }
+.cal_box_r .calon{ border:1px solid #0693d8; width:24px; height:15px; line-height:15px; font-weight:bold; /*position:relative;*/}
+.cal_box_r .calon:hover{ border:1px solid #0693d8; font-weight:bold; background-color:#fff;}
+.cal_box_j{ padding-top:5px; overflow:hidden; position:absolute; left:0px; bottom:13px; width:100%; height:20px;}
+.cal_box_j a{width:23px;  height:20px; display:inline-block; *display:inline; *zoom:1; margin-right:5px; text-align:center; line-height:18px;}
+.cal_box_j .yi{ background-color:#23ab00; color:#fff;}
+.cal_box_j .ji{ background-color:#333; color:#fff;}
+.jiyi_box{ position:absolute; background-color:#FFFFFF; width:300px; padding:10px; height:90px; padding-bottom:0px;  left:0px; bottom:40px;box-shadow: 1px 1px 7px #B5B5B5;filter:alpha(opacity=90);
+	-moz-opacity:0.9;
+	-khtml-opacity: 0.9;
+	opacity: 0.9;}
+.jiyi_box ul {padding-bottom:10px; overflow:hidden; width:150px; float:left;}
+.jiyi_box ul li{ float:left;}
+#h3_lunar strong{font-style: normal; font-weight:500;}
+.jiyi_box ul li span{ width:23px;  height:20px; display:inline-block; margin-right:5px; text-align:center; line-height:18px;}
+.jiyi_box .eer{ width:122px; text-align:left;}
+.jiyi_box .yi{ background-color:#23ab00; color:#fff;}
+.jiyi_box .ji{ background-color:#333; color:#fff;}
+.e_clear:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden
+}
+
+.e_clear {
+    display: inline-block
+}
+
+.e_clear {
+    display: block
+}
+
+
+</style>
+</head>
+<body>
+<div class="cal_box">
+    <div class="cal_box_l">
+        <div style="height:20px; overflow:hidden;">
+        	<form action="">
+	            <input id="ipt_year" type="text" class="cal_box_l_in" style="width:30px;"/>年
+				<input id="ipt_month" type="text" class="cal_box_l_in" style="width:17px;"/> 月
+				<input type="submit" style="width:1px;height:1px;position:absolute;top:-9px;left:-9px;"/>
+			</form>
+        </div>
+		<h1 id="h1_date"></h1>
+        <h3 id="h3_lunar"></h3>
+        <h3 id="h3_fastival" class="calred"></h3>
+        <h3 class="cal_box_j"><a href="javascript:;" class="yi" id="yi">宜</a><a href="javascript:;" class="ji" id="ji">忌</a></h3>
+        <div class="jiyi_box e_clear" style="display:none;"> </div>
+    </div>
+    <div class="cal_box_r">
+        <ul style="padding:2px 0; overflow:hidden;">
+            <li>一 </li>
+            <li>二 </li>
+            <li>三 </li>
+            <li>四 </li>
+            <li>五 </li>
+            <li>六 </li>
+            <li>日 </li>
+        </ul>
+        <ul id="calendarList"></ul>
+    </div>
+</div>
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/solarAndLunar.js"></script>
+<script type="text/javascript">
+
+(function(){
+    var rRoute, rFormat;
+    /**
+     * 在一个对象中查询指定路径代表的值，找不到时返回undefined
+     * @param {Object} obj 被路由的对象
+     * @param {Object} path 路径
+     */
+    $.route = function(obj, path){
+        obj = obj || {};
+        var m;
+        (rRoute || (rRoute = /([\d\w_]+)/g)).lastIndex = 0;
+        while ((m = rRoute.exec(path)) !== null) {
+            obj = obj[m[0]];
+            if (obj == undefined) {
+                break
+            }
+        }
+        return obj
+    };
+    /**
+     * 格式化一个字符串
+     */
+    $.format = function(){
+        var args = $.makeArray(arguments), str = String(args.shift() || ""), ar = [], first = args[0];
+        args = $.isArray(first) ? first : typeof(first) == 'object' ? args : [args];
+        $.each(args, function(i, o){
+            ar.push(str.replace(rFormat || (rFormat = /\{([\d\w\.]+)\}/g), function(m, n, v){
+                v = n === 'INDEX' ? i : n.indexOf(".") < 0 ? o[n] : $.route(o, n);
+                return v === undefined ? m : ($.isFunction(v) ? v.call(o, n) : v)
+            }));
+        });
+        return ar.join('');
+    };
+})();
+
+$(function(){
+    window.HuangLi = {};
+    initEvent();
+    initCalendar();
+	
+    $('#ipt_month,#ipt_year').blur(function(){
+        var year = parseInt($('#ipt_year').val()), month = parseInt($('#ipt_month').val());
+        
+        var arText = [];
+        
+        if (isNaN(year)) {
+            arText.push("年份请输入半角阿拉伯数字");
+        }else if (year <= 1900 || year >= 2100) {
+                arText.push("输入正确的年份");
+            }
+        if (isNaN(month)) {
+            arText.push("月份请输入半角阿拉伯数字");
+        }else if (month < 1 || month > 12) {
+                arText.push("输入正确的月份");
+            }
+        
+        if (arText.length) {
+            return alert(arText.join('\r\n'));
+        }
+        initCalendar(new Date(year, month - 1, 1));
+    })
+   
+});
+
+function initEvent(){
+    $('#calendarList li').live('click', function(evt){
+        var $li = $(this);
+        $('#calendarList li').removeClass('calon');
+        $li.addClass('calon');
+        var date = new Date($li.attr('date'));
+        var lunar = new Lunar(date);
+        $('#ipt_year').val(date.getFullYear());
+        $('#ipt_month').val(date.getMonth() + 1);
+        $('#h1_date').html(date.getDate());
+        $('#h3_lunar').html(lunar.getInfo('cnMonth') + '月' + lunar.getInfo('cnDate') + '<strong>' + lunar.getInfo('cnDay') + '</strong>');
+        $('#h3_fastival').html(lunar.getInfo('soloarFtv') + ' ' + lunar.getInfo('lunarFtv') + ' ' + lunar.getInfo('term'));
+        HuangLi['y' + date.getFullYear()] && initSuitable(date, HuangLi['y' + date.getFullYear()]);
+    });
+	$('#calendarList li.calhui').live('click', function(evt){
+		initCalendar( new Date(this.getAttribute('date')) );
+	})
+    var $tip = $('div.jiyi_box').click(function(evt){
+        evt.stopPropagation();
+    }).on('contextmenu', function(evt){
+        evt.stopPropagation();
+    });
+    
+    $(".cal_box_j a").click(function(evt){
+        evt.preventDefault();
+        evt.stopPropagation();
+        var yitext = $("#yi").attr("txt"), jitext = $("#ji").attr("txt");
+        var html = ['<ul class="e_clear"><li class="e_clear"><span class="yi" id = "yi"> 宜</span><li class="eer">', yitext, '</li></ul><ul class="e_clear"><li class="e_clear"><span class="ji" id = "yi"> 忌</span><li class="eer">', jitext, '</li></ul>'].join('');
+		$tip.html(html)[$('div.jiyi_box').is(':visible') ? 'hide' : 'show']();
+        $('body').one('click', function(evt){
+            $tip.hide();
+        });
+    });
+}
+
+function initCalendar(date){
+    var today = date || new Date(), currMonth = today.getMonth(), currYear = today.getFullYear(), currDate = today.getDate();
+    var instCld = new Calendar(today);
+    var startDate = instCld.getCalendarFirstDate();
+    var arDate = [];
+    $.each(new Array(42), function(){
+        var date = new Date(startDate), day = date.getDay();
+        date.className = date.getMonth() == currMonth && date.getFullYear() == currYear ? (day == 0 || day == 6 ? ' class="calred"' : '') : ' class="calhui"';
+        date.month = date.getMonth() + 1;
+        arDate.push(date);
+        startDate.setDate(startDate.getDate() + 1);
+    });
+    var html = $.format('<li date="{getFullYear}/{month}/{getDate}"{className}>{getDate}</li>', arDate);
+    
+    var $cldList = $("#calendarList").html(html);
+    $cldList.find('li[date="' + currYear + '/' + (currMonth + 1) + '/' + currDate + '"]').click();
+    
+	initSuitable(today);
+    
+}
+
+function initSuitable(today){
+    var currYear = today.getFullYear(), currMonth = today.getMonth() + 1, currDate = today.getDate();
+    
+    if (currYear > 2020 || currYear < 2008) {
+        fill({
+            y: '没有今日相宜数据',
+            j: '没有今日忌讳数据'
+        });
+    }
+    else {
+        var oSuitable = HuangLi['y' + currYear];
+        if (oSuitable) {
+            oSuitable = oSuitable['d' + ('0' + currMonth).slice(-2) + ('0' + currDate).slice(-2)];
+            fill(oSuitable);
+        }
+        else {
+            $.ajax({
+                url: '../js/huangli/' + currYear + '.js',
+                dataType: 'script',
+                success: function(){
+                    oSuitable = HuangLi['y' + currYear];
+                    oSuitable = oSuitable['d' + ('0' + currMonth).slice(-2) + ('0' + currDate).slice(-2)];
+                    fill(oSuitable);
+                },
+                error: function(){
+                    fill({
+                        y: '获取数据失败，请稍后再试',
+                        j: '获取数据失败，请稍后再试'
+                    });
+                }
+            });
+        }
+    }
+}
+
+function fill(oSuitable){
+    var yesText = oSuitable.y, noText = oSuitable.j;
+    $("#yi").attr("txt", yesText);
+    $("#ji").attr("txt", noText);
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>欢迎光临博物馆中的战斗馆</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"> 
+<script>document.documentElement.style.webkitUserSelect='none';</script>
+<meta name="format-detectionstyle" content="telephone=no"/>
+<link href="http://www.365rili.com/css/footer.css" rel="stylesheet">
+<link href="http://www.365rili.com/pages/found/style/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="top_img">
+            <img src="images/museum_day/holiday_top.jpg" width="100%">
+            <div class="info_txt">
+                <h1>国际博物馆日</h1>
+            </div>
+        </div>
+
+    	<div class="qp_main">
+            <p>博物馆是征集、典藏、陈列和研究代表自然和人类文化遗产的实物的场所，并对那些有科学性、历史性或者艺术价值的物品进行分类，为公众提供知识、教育和欣赏的文化教育的机构、建筑物、地点或者社会公共机构。为促进全球博物馆事业的健康发展，吸引全社会公众对博物馆事业的了解、参与和关注，国际博物馆协会将每年的5月18日定为国际博物馆日。</p>
+            <p class="mt15">博物馆日当然要逛博物馆，世界十大博物馆当然是不在话下，那都是各个国家千百年凝结的精华，有机会是一定要去的。但是，你听说过、去过那些奇葩的博物馆吗？西瓜博物馆、方便面博物馆、垃圾博物馆，甚至是有点重口味的寄生虫博物馆……今天就要介绍一下这些不走寻常路的博物馆，开始！</p>
+            <h3>【西瓜博物馆】</h3>
+            <p>西瓜博物馆坐落于大兴区庞各庄镇的西瓜示范园区内，是目前国内外唯一一座西瓜博物馆。该馆造型新颖独特，主造型为两片绿叶衬托着一个巨型西瓜。设计主题为“飞翔的西瓜”，寓意着大兴西瓜产业的腾飞。</p>
+            <img src="images/museum_day/holiday_1.jpg"/>
+            <p>运用古老而现代的表现手法、布局风格将源远流长的西瓜史话、牵肠挂肚的西瓜情话、博大精深的西瓜文化串联一体，相映成趣,展示着西瓜文化漫长的发展历程,与整个园区珠联璧合,构成了一部极具历史底蕴与现代时尚的西瓜文化经典。</p>
+            <h3>【方便面博物馆】</h3>
+            <p>日本大阪安藤百福方便面博物馆：这个博物馆为记念方便面发明者安藤百福而设立，有一个巨大杯面的剧院，一个可以自己动手制作方便面的车间和安藤当年发明方便面“研究小木屋”的实物大小的复制品。</p>
+            <img src="images/museum_day/holiday_2.jpg"/>
+            <p>方便面博物馆内有模型、展板、实物等介绍世界不同方便面和杯 面的发展史，展示了自1958年以来各款日清方便面产品，其中不少现在已不再生产。为了让参观者对方便面有更多了解，博物馆开辟了“杯面制作过程体验馆”，让人们亲手参与杯面制作，把“只此一个”的杯面带回家 。为纪念安藤在1958年发明的世界上第一包袋装鸡汤方便面，博物馆 还定期举办鸡汤方便面制作活动，在导师指导下，参观者可自制一包鸡汤面留念。</p>		
+
+            <div class="tips">
+                <p>1、每年的5月18日是国际博物馆日，设立这个节日是为了促进全球博物馆事业的健康发展，吸引全社会公众对博物馆事业的了解、参与和关注；</p>
+                <p>2、除了那些“正统”的博物馆，世界各地还藏着许多奇特的博物馆，等待着你去探索！</p>
+            </div>
+            
+    	</div>
+        <div class="editor">编辑/郝大当家</div>
+    </div>
+    <script src="http://www.365rili.com/js/lib/zepto.min.js"></script>
+    <script src="http://www.365rili.com/js/lib/zTouch.js"></script>
+    <script src="http://www.365rili.com/js/lib/footer.js"></script>
+    <script type="text/javascript" src="http://www.365rili.com/js/lib/app.js?20141205_2"></script>
+    <script src='http://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+    <script src="http://www.365rili.com/share/js/weixin_1.0.js"></script>
+    <script src="http://www.365rili.com/pages/found/js/qp_holiday.js"></script>
+</body>
+</html>
+
